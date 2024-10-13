@@ -29,6 +29,9 @@ export class AuthService {
 	}
 
 	async login(res: Response, dto: LoginDto) {
+		dto.fullName = dto.fullName.trim()
+		dto.password = dto.password.trim()
+
 		await this.dgmuService.verificationUser(dto)
 
 		let student = await this.studentService.findByFullName(dto.fullName)
