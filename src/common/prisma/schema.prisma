@@ -14,8 +14,11 @@ model Student {
   password            String
   semester            Int
 
-  subjectsUpdatedAt   DateTime?   @map("subjects_updated_at")
+  gradeUpdatedAt      DateTime?   @map("grade_updated_at")
+  ratingUpdatedAt     DateTime?   @map("subjects_updated_at")
   subjects            Subject[]
+
+  @@map("student")
 }
 
 model Subject {
@@ -28,27 +31,35 @@ model Subject {
   
   student     Student    @relation(fields: [studentId], references: [id])
   studentId   Int        @map("student_id")
+
+  @@map("subject")
+  @@unique([name, studentId])
 }
 
 model Grade {
   id          Int        @id @default(autoincrement())
 
   type        String
-  mark        String
+  mark        String?
   date        DateTime
   isNew       Boolean    @default(true) @map("is_new")
 
   subject     Subject    @relation(fields: [subjectId], references: [id])
   subjectId   Int        @unique @map("subject_id")
+
+  @@map("grade")
 }
 
 model Rating {
   id          Int        @id @default(autoincrement())
 
-  mark        String
+  mark        String?
   date        DateTime
   isNew       Boolean    @default(true) @map("is_new")
 
   subject     Subject    @relation(fields: [subjectId], references: [id])
   subjectId   Int        @map("subject_id")
+
+  @@map("rating")
+  @@unique([date, subjectId])
 }

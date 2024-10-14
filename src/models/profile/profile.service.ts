@@ -27,7 +27,7 @@ export class ProfileService {
 			semester: student.semester,
 			year,
 			averageMark,
-			subjectsUpdatedAt: student.subjectsUpdatedAt,
+			ratingUpdatedAt: student.ratingUpdatedAt,
 		}
 	}
 

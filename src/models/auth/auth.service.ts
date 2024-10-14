@@ -77,7 +77,7 @@ export class AuthService {
 		return { accessToken }
 	}
 
-	async logout(res: Response) {
+	logout(res: Response) {
 		res.clearCookie('refreshToken')
 	}
 }

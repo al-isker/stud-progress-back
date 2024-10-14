@@ -1,8 +1,9 @@
 import { Injectable, ServiceUnavailableException, UnauthorizedException } from '@nestjs/common';
 import * as cheerio from 'cheerio';
+import { objectToFormData } from 'src/common/utils/object-to-form-data';
 import { parseCookie } from 'src/common/utils/parse-cookie';
+import { ruDateToJSDate } from 'src/common/utils/ru-date-to-js-date';
 import { safeFetch } from 'src/common/utils/safe-fetch';
-import { toFormData } from 'src/common/utils/to-form-data';
 import { StudentDto } from 'src/models/student/dto/student.dto';
 
 @Injectable()
@@ -33,7 +34,7 @@ export class DgmuService {
 				'content-type': 'application/x-www-form-urlencoded',
 				cookie: _csrfCookie
 			},
-			body: toFormData({
+			body: objectToFormData({
 				_csrf: _csrfForm,
 				'LoginForm[identity]': dto.fullName,
 				'LoginForm[password]': dto.password
@@ -101,7 +102,7 @@ export class DgmuService {
 				'content-type': 'application/x-www-form-urlencoded',
 				cookie: `${LKSESSID}; ${_csrfCookie}`,
 			},
-			body: toFormData({
+			body: objectToFormData({
 				_csrf: _csrfForm,
 				plan_semester,
 				plan_plan
@@ -113,7 +114,15 @@ export class DgmuService {
 
 		return $('#journal_tag .mobileView .accordion-item')
 			.map((_, subject) => {
-				const handleValue = (value: string) => value.length > 0 ? value : null; 
+				const handleMark = (mark: string) => {
+					if(mark.length > 0) {
+						if(mark === 'Н/Б') {
+							return 'A' // AMU
+						}
+						return mark
+					}
+					return null
+				}
 
 				const h2 = $(subject).find('h2').text()
 				const name = h2.slice(0, h2.indexOf('(') - 1)
@@ -121,16 +130,35 @@ export class DgmuService {
 				const rating = $(subject)
 					.find('tbody tr').get()
 					.map(item => {
-						const [date, mark] = $(item)
-							.find('td').get()
-							.map(item => handleValue($(item).text().trim()))
+						const [date, mark] = $(item).find('td').get()
 
-						return { date, mark }
+						const handleDate = () => {
+							const dateStr = $(date).text().trim()
+
+							return ruDateToJSDate(dateStr)
+						}
+
+						const handleMark = () => {
+							const markStr = $(mark).text().trim()
+
+							if (markStr.length > 0) {
+								if(markStr === 'Н/Б') {
+									// тут будет проверка на отработанный Н/Б => AMU
+									return 'A'
+								}
+								return markStr
+							}
+							return null
+						}
+
+						return {
+							date: handleDate(),
+							mark: handleMark()
+						}
 					})
 
 				return { name, rating }
-			})
-			.get()
+			}).get()
 	}
 
 	async findGrade(dto: StudentDto) {
