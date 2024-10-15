@@ -2,27 +2,59 @@ import { Injectable } from '@nestjs/common';
 import { Student } from '@prisma/client';
 import { DgmuService } from 'src/models/dgmu/dgmu.service';
 import { PrismaService } from 'src/prisma.service';
-import { StudentService } from '../student/student.service';
 
 @Injectable()
 export class RatingService {
 	constructor(
-		private studentService: StudentService,
 		private dgmuService: DgmuService,
 		private prisma: PrismaService
 	) {}
 
-	private interval = 60 * 60 * 1000; // 1 hour
+	async updateRating(student: Student) {
+		const dgmuSubjects = await this.dgmuService.findRating(student)
 
-	private isIntervalPassed(ratingUpdatedAt: Date | null) {
-		if (!ratingUpdatedAt) return true
+		await this.prisma.$transaction([
+			this.prisma.student.update({
+				where: { id: student.id },
+				data: { ratingUpdatedAt: new Date() }
+			}),
 
-		const timePassed = new Date().getTime() - ratingUpdatedAt.getTime()
-
-		return timePassed > this.interval
+			...dgmuSubjects.map(dgmuSubject => this.prisma.subject.upsert({
+				where: {
+					name_studentId: {
+						name: dgmuSubject.name,
+						studentId: student.id
+					}
+				},
+				update: {
+					semester: student.semester,
+					student: {
+						connect: { id: student.id }
+					},
+					rating: {
+						createMany: {
+							data: dgmuSubject.rating,
+							skipDuplicates: true
+						}
+					}
+				},
+				create: {
+					name: dgmuSubject.name,
+					semester: student.semester,
+					student: {
+						connect: { id: student.id }
+					},
+					rating: {
+						createMany: {
+							data: dgmuSubject.rating
+						}
+					}
+				}
+			}))
+		])
 	}
 
-	private getRatingFromDB(studentId: number) {
+	getAll(studentId: number) {
 		return this.prisma.subject.findMany({
 			where: { studentId },
 			select: {
@@ -38,67 +70,5 @@ export class RatingService {
 				}
 			}
 		})
-	}
-
-	private async updateRating(student: Student) {
-		const subjectWithRating = await this.dgmuService.findRating(student)
-
-		await this.prisma.$transaction(
-			subjectWithRating.map(subject => this.prisma.subject.upsert({
-				where: {
-					name_studentId: {
-						name: subject.name,
-						studentId: student.id
-					}
-				},
-				update: {
-					semester: student.semester,
-					student: {
-						connect: { id: student.id }
-					},
-					rating: {
-						createMany: {
-							data: subject.rating.map(item => ({
-								date: item.date,
-								mark: item.mark,
-							})),
-							skipDuplicates: true
-						}
-					}
-				},
-				create: {
-					name: subject.name,
-					semester: student.semester,
-					student: {
-						connect: { id: student.id }
-					},
-					rating: {
-						createMany: {
-							data: subject.rating.map(item => ({
-								date: item.date,
-								mark: item.mark
-							}))
-						}
-					}
-				}
-			}))
-		)
-	}
-
-	async getAll(studentId: number) {
-		const student = await this.studentService.findById(studentId)
-
-		const isIntervalPassed = this.isIntervalPassed(student.ratingUpdatedAt)
-
-		if (isIntervalPassed) {
-			await this.updateRating(student)
-
-			await this.prisma.student.update({
-				where: { id: studentId },
-				data: { ratingUpdatedAt: new Date() }
-			})
-		}
-
-		return await this.getRatingFromDB(student.id)
 	}
 }
