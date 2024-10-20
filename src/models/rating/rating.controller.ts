@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Param, Patch } from '@nestjs/common';
 import { Auth } from 'src/models/auth/decorators/auth.decorator';
 import { CurrentStudent } from 'src/models/student/decorator/student.decorator';
 import { RatingService } from './rating.service';
@@ -9,7 +9,13 @@ export class RatingController {
 
   @Get()
   @Auth()
-  async getAll(@CurrentStudent('id') studentId: number) {
+  getAll(@CurrentStudent('id') studentId: number) {
     return this.ratingService.getAll(studentId)
+  }
+
+  @Patch('view/:id')
+  @Auth()
+  view(@Param('id') id: string) {
+    return this.ratingService.view(+id)
   }
 }

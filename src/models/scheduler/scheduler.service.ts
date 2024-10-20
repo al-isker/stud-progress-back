@@ -15,8 +15,6 @@ export class SchedulerService {
 		const students = await this.prisma.student.findMany();
 
 		for (const student of students) {
-			console.log(`"${student.fullName}" rating has been upadted`)
-
 			this.ratingService.updateRating(student)
 		}
 	}

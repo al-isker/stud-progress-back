@@ -54,8 +54,8 @@ export class RatingService {
 		])
 	}
 
-	getAll(studentId: number) {
-		return this.prisma.subject.findMany({
+	async getAll(studentId: number) {
+		return await this.prisma.subject.findMany({
 			where: { studentId },
 			select: {
 				id: true,
@@ -69,6 +69,13 @@ export class RatingService {
 					}
 				}
 			}
+		})
+	}
+
+	async view(id: number) {
+		await this.prisma.rating.update({
+			where: { id },
+			data: { isNew: false }
 		})
 	}
 }
