@@ -9,7 +9,7 @@ export class RatingController {
 
   @Get()
   @Auth()
-  getAll(@CurrentStudent('id') studentId: number) {
+  getAll(@CurrentStudent() studentId: number) {
     return this.ratingService.getAll(studentId)
   }
 

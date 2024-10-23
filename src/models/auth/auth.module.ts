@@ -5,6 +5,7 @@ import { getJwtConfig } from 'src/common/config/jwt.config';
 import { DgmuModule } from 'src/models/dgmu/dgmu.module';
 import { StudentModule } from 'src/models/student/student.module';
 import { PrismaService } from 'src/prisma.service';
+import { RatingModule } from '../rating/rating.module';
 import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 import { JwtStrategy } from './jwt.strategy';
@@ -15,6 +16,7 @@ import { JwtStrategy } from './jwt.strategy';
   imports: [
     DgmuModule,
     StudentModule,
+    RatingModule,
     ConfigModule,
     JwtModule.registerAsync({
       imports: [ConfigModule], 

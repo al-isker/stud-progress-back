@@ -5,7 +5,11 @@ import { UpdateStudentDto } from './dto/update-student.dto';
 
 @Injectable()
 export class StudentService {
-	constructor(private prisma: PrismaService) {}
+	constructor(private prisma: PrismaService) {}	
+
+	private year(semester: number) {
+		return {year: Math.ceil(semester / 2)}
+	}
 
 	async findById(id: number) {
 		return await this.prisma.student.findFirst({
@@ -13,7 +17,7 @@ export class StudentService {
 		})
 	}
 
-	async findByFullName(fullName: StudentDto['fullName']) {
+	async findByFullName(fullName: string) {
 		return await this.prisma.student.findFirst({
 			where: { fullName }
 		})
@@ -21,14 +25,18 @@ export class StudentService {
 
 	async create(dto: StudentDto) {
 		return await this.prisma.student.create({
-			data: dto
+			data: Object.assign(
+				dto, this.year(dto.semester)
+			)
 		})
 	}
 
 	async update(id: number, dto: UpdateStudentDto) {
 		return await this.prisma.student.update({
 			where: { id },
-			data: dto
+			data: Object.assign(
+				dto, dto.semester && this.year(dto.semester)
+			)
 		})
 	}
 }

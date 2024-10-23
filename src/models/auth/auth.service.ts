@@ -3,6 +3,7 @@ import { JwtService } from '@nestjs/jwt';
 import { Request, Response } from 'express';
 import { DgmuService } from 'src/models/dgmu/dgmu.service';
 import { StudentService } from 'src/models/student/student.service';
+import { RatingService } from '../rating/rating.service';
 import { LoginDto } from './dto/login.dto';
 
 @Injectable()
@@ -10,6 +11,7 @@ export class AuthService {
 	constructor(
 		private dgmuService: DgmuService,
 		private studentService: StudentService,
+		private ratingService: RatingService,
 		private jwt: JwtService
 	) {}
 
@@ -36,23 +38,20 @@ export class AuthService {
 
 		let student = await this.studentService.findByFullName(dto.fullName)
 
+		// возможно логичней переписать на upsert
 		if (student) {
-			if (student.password !== dto.password) {
-				student = await this.studentService.update(student.id, {
-					password: dto.password
-				})
-			}
-			if (student.semester !== dto.semester) {
-				student = await this.studentService.update(student.id, {
-					semester: dto.semester
-				})
-			}
-		} 
+			student = await this.studentService.update(student.id, {
+				password: dto.password,
+				semester: dto.semester
+			})
+		}
 		else {
-			student = await this.studentService.create(dto);
+			student = await this.studentService.create(dto)
 		}
 
-		const { accessToken, refreshToken } = await this.issueTokens(student.id);
+		await this.ratingService.updateRating(student)
+
+		const { accessToken, refreshToken } = await this.issueTokens(student.id)
 
 		res.cookie('refreshToken', refreshToken, this.cookieOptions)
 

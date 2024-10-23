@@ -12,7 +12,9 @@ model Student {
 
   fullName            String      @unique @map("full_name")
   password            String
+  year                Int
   semester            Int
+  averageMark         Float?
 
   gradeUpdatedAt      DateTime?   @map("grade_updated_at")
   ratingUpdatedAt     DateTime?   @map("subjects_updated_at")

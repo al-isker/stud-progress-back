@@ -1,22 +1,54 @@
 import { Injectable } from '@nestjs/common';
 import { Student } from '@prisma/client';
 import { DgmuService } from 'src/models/dgmu/dgmu.service';
+import { StudentService } from 'src/models/student/student.service';
 import { PrismaService } from 'src/prisma.service';
 
 @Injectable()
 export class RatingService {
 	constructor(
 		private dgmuService: DgmuService,
+		private studentService: StudentService,
 		private prisma: PrismaService
 	) {}
 
-	async updateRating(student: Student) {
+	// переписать метод на SQL
+	private async updateAverageMark(studentId: number) {
+		const marks = await this.prisma.rating.findMany({
+			where: {
+				subject: { studentId }
+			},
+			select: {
+				mark: true
+			}
+		})
+
+		let marksCount = 0;
+
+		const marksSum = marks.reduce((sum, {mark}) => {
+			const numberMark = Number(mark);
+
+			if(!isNaN(numberMark)) {
+				marksCount++
+
+				return sum + numberMark;
+			}
+			return sum;
+		}, 0);
+
+		const averageMark = marksSum / marksCount
+
+		await this.studentService.update(studentId, {
+			averageMark: averageMark !== 0 ? Number(averageMark.toFixed(1)) : null
+		})
+	}
+
+	async updateRating(student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>) {
 		const dgmuSubjects = await this.dgmuService.findRating(student)
 
-		await this.prisma.$transaction([
-			this.prisma.student.update({
-				where: { id: student.id },
-				data: { ratingUpdatedAt: new Date() }
+		await this.prisma.$transaction(async () => ([
+			this.studentService.update(student.id, {
+				ratingUpdatedAt: new Date()
 			}),
 
 			...dgmuSubjects.map(dgmuSubject => this.prisma.subject.upsert({
@@ -50,8 +82,10 @@ export class RatingService {
 						}
 					}
 				}
-			}))
-		])
+			})),
+
+			this.updateAverageMark(student.id)
+		]))
 	}
 
 	async getAll(studentId: number) {

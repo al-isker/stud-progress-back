@@ -10,7 +10,7 @@ export class ProfileController {
 
   @Get()
   @Auth()
-  async getData(@CurrentStudent('id') id: number) {
+  async getData(@CurrentStudent() id: number) {
     return await this.profileService.getData(id)
   }
 
@@ -18,7 +18,7 @@ export class ProfileController {
   @Auth()
   @UsePipes(new ValidationPipe())
   async updateSemester(
-    @CurrentStudent('id') id: number,
+    @CurrentStudent() id: number,
     @Body() dto: UpdateSemesterDto
   ) {
     return await this.profileService.updateSemester(id, dto)
