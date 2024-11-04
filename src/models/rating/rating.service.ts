@@ -47,11 +47,11 @@ export class RatingService {
 		const dgmuSubjects = await this.dgmuService.findRating(student)
 
 		await this.prisma.$transaction(async () => ([
-			this.studentService.update(student.id, {
+			await this.studentService.update(student.id, {
 				ratingUpdatedAt: new Date()
 			}),
 
-			...dgmuSubjects.map(dgmuSubject => this.prisma.subject.upsert({
+			...dgmuSubjects.map(async dgmuSubject => await this.prisma.subject.upsert({
 				where: {
 					name_studentId: {
 						name: dgmuSubject.name,
@@ -84,7 +84,7 @@ export class RatingService {
 				}
 			})),
 
-			this.updateAverageMark(student.id)
+			await this.updateAverageMark(student.id)
 		]))
 	}
 
