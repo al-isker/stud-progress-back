@@ -25,33 +25,25 @@ export class RatingService {
 
 		let marksCount = 0;
 
-		const marksSum = marks.reduce((sum, {mark}) => {
-			const numberMark = Number(mark);
-
-			if(!isNaN(numberMark)) {
+		const marksSum = marks.reduce((sum, { mark }) => {
+			if (mark) {
 				marksCount++
 
-				return sum + numberMark;
+				return sum + mark;
 			}
 			return sum;
 		}, 0);
 
-		const averageMark = marksSum / marksCount
+		const averageMark = marksCount > 0 ? (marksSum / marksCount) : null;
 
-		await this.studentService.update(studentId, {
-			averageMark: averageMark !== 0 ? Number(averageMark.toFixed(1)) : null
-		})
+		await this.studentService.update(studentId, { averageMark })
 	}
 
 	async updateRating(student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>) {
 		const dgmuSubjects = await this.dgmuService.findRating(student)
 
-		await this.prisma.$transaction(async () => ([
-			await this.studentService.update(student.id, {
-				ratingUpdatedAt: new Date()
-			}),
-
-			...dgmuSubjects.map(async dgmuSubject => await this.prisma.subject.upsert({
+		await Promise.all(dgmuSubjects.map(dgmuSubject => {
+			return this.prisma.subject.upsert({
 				where: {
 					name_studentId: {
 						name: dgmuSubject.name,
@@ -65,7 +57,7 @@ export class RatingService {
 					},
 					rating: {
 						createMany: {
-							data: dgmuSubject.rating,
+							data: dgmuSubject.rating, 
 							skipDuplicates: true
 						}
 					}
@@ -82,10 +74,14 @@ export class RatingService {
 						}
 					}
 				}
-			})),
+			})
+		}))
 
-			await this.updateAverageMark(student.id)
-		]))
+		await this.studentService.update(student.id, {
+			ratingUpdatedAt: new Date()
+		})
+
+		await this.updateAverageMark(student.id)
 	}
 
 	async getAll(studentId: number) {
@@ -99,6 +95,7 @@ export class RatingService {
 						id: true,
 						date: true,
 						mark: true,
+						status: true,
 						isNew: true
 					}
 				}

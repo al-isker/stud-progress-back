@@ -12,19 +12,22 @@ export class ProfileService {
 
  	async getData(id: number) {
 		// возможно, нужен обработчик ненайденного студента
-		const {fullName, year, semester, averageMark} = await this.studentService.findById(id)
+		const student = await this.studentService.findById(id)
 
-		return {fullName, year, semester, averageMark}
+		return {
+			fullName: student.fullName, 
+			year: student.year, 
+			semester: student.semester, 
+			averageMark: student.averageMark
+		}
 	}
 
 	async updateSemester(id: number, dto: UpdateSemesterDto) {
-		// возможно, нужен обработчик ненайденного студента
 		const student = await this.studentService.update(id, dto)
 
 		await this.ratingService.updateRating(student)
 		// обновить grade
 
-		const { year, semester, averageMark } = student
-		return { year, semester, averageMark }
+		return this.getData(id)
 	}
 }

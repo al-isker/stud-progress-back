@@ -55,7 +55,8 @@ model Grade {
 model Rating {
   id          Int        @id @default(autoincrement())
 
-  mark        String?
+  mark        Int?
+  status      RatingStatus
   date        DateTime
   isNew       Boolean    @default(true) @map("is_new")
 
@@ -64,4 +65,12 @@ model Rating {
 
   @@map("rating")
   @@unique([date, subjectId])
+}
+
+enum RatingStatus {
+  MARK
+  EMPTY
+  ABSENCE
+  UPWORKED
+  UPWORKED_WITH_MARK
 }

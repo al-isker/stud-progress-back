@@ -1,4 +1,5 @@
 import { Injectable, ServiceUnavailableException, UnauthorizedException } from '@nestjs/common';
+import { Rating } from '@prisma/client';
 import * as cheerio from 'cheerio';
 import { objectToFormData } from 'src/common/utils/object-to-form-data';
 import { parseCookie } from 'src/common/utils/parse-cookie';
@@ -113,48 +114,50 @@ export class DgmuService {
 		const $ = cheerio.load(ratingSemesterDom)
 
 		return $('#journal_tag .mobileView .accordion-item')
-			.map((_, subject) => {
-				const handleMark = (mark: string) => {
-					if(mark.length > 0) {
-						if(mark === 'Н/Б') {
-							return 'A' // AMU
-						}
-						return mark
-					}
-					return null
-				}
-
-				const h2 = $(subject).find('h2').text()
+			.map((_, subjectEl) => {
+				const h2 = $(subjectEl).find('h2').text()
 				const name = h2.slice(0, h2.indexOf('(') - 1)
 
-				const rating = $(subject)
+				const rating = $(subjectEl)
 					.find('tbody tr').get()
 					.map(item => {
-						const [date, mark] = $(item).find('td').get()
+						const ratingItem: Partial<Pick<Rating, 'date' | 'mark' | 'status'>> = {}
 
-						const handleDate = () => {
-							const dateStr = $(date).text().trim()
+						const [dateEl, markEl] = $(item).find('td').get()
 
-							return ruDateToJSDate(dateStr)
+						const dateStr = $(dateEl).text().trim()
+						const markStr = $(markEl).text().trim()
+						const markClass = $(markEl).attr('class').trim()
+
+						ratingItem.date = ruDateToJSDate(dateStr)
+
+						if (markClass === 'propusk') {
+							ratingItem.mark = null
+							ratingItem.status = 'ABSENCE'
+						} 
+						else if (false) { // проверка на отработку без оценки
+							ratingItem.mark = null
+							ratingItem.status = 'UPWORKED'
+						} 
+						else if (markClass === 'upworked') {
+							const mark = markStr.match(/\d+/)
+
+							ratingItem.mark = mark ? Number(mark[0]) : null
+							ratingItem.status = 'UPWORKED_WITH_MARK'
 						}
+						else {
+							const mark = Number(markStr)
 
-						const handleMark = () => {
-							const markStr = $(mark).text().trim()
-
-							if (markStr.length > 0) {
-								if(markStr === 'Н/Б') {
-									// тут будет проверка на отработанный Н/Б => AMU
-									return 'A'
-								}
-								return markStr
+							if (markStr.length > 0 && !isNaN(mark)) {
+								ratingItem.mark = mark
+								ratingItem.status = 'MARK'
+							} else {
+								ratingItem.mark = null
+								ratingItem.status = 'EMPTY'
 							}
-							return null
 						}
 
-						return {
-							date: handleDate(),
-							mark: handleMark()
-						}
+						return ratingItem as Required<typeof ratingItem>
 					})
 
 				return { name, rating }
