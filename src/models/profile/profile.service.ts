@@ -16,7 +16,7 @@ export class ProfileService {
 
 		return {
 			fullName: student.fullName, 
-			year: student.year, 
+			course: student.course, 
 			semester: student.semester, 
 			averageMark: student.averageMark
 		}

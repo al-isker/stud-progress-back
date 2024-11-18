@@ -12,7 +12,7 @@ model Student {
 
   fullName            String      @unique @map("full_name")
   password            String
-  year                Int
+  course              Int
   semester            Int
   averageMark         Float?
 

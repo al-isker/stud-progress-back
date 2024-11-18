@@ -7,8 +7,8 @@ import { UpdateStudentDto } from './dto/update-student.dto';
 export class StudentService {
 	constructor(private prisma: PrismaService) {}	
 
-	private year(semester: number) {
-		return {year: Math.ceil(semester / 2)}
+	private course(semester: number) {
+		return {course: Math.ceil(semester / 2)}
 	}
 
 	async findById(id: number) {
@@ -26,7 +26,7 @@ export class StudentService {
 	async create(dto: StudentDto) {
 		return await this.prisma.student.create({
 			data: Object.assign(
-				dto, this.year(dto.semester)
+				dto, this.course(dto.semester)
 			)
 		})
 	}
@@ -35,7 +35,7 @@ export class StudentService {
 		return await this.prisma.student.update({
 			where: { id },
 			data: Object.assign(
-				dto, dto.semester && this.year(dto.semester)
+				dto, dto.semester && this.course(dto.semester)
 			)
 		})
 	}
