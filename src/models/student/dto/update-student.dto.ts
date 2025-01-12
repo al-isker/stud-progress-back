@@ -3,5 +3,4 @@ export class UpdateStudentDto {
 	password?: string;
 	semester?: number;
 	averageMark?: number | null;
-	ratingUpdatedAt?: Date;
 }
