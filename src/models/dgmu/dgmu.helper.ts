@@ -1,7 +1,6 @@
 import { Student } from '@prisma/client';
 import * as cheerio from 'cheerio';
 import { objectToFormData } from 'src/common/utils/object-to-form-data';
-import { parseCookie } from 'src/common/utils/parse-cookie';
 
 import {
 	ServiceUnavailableException,
@@ -9,6 +8,24 @@ import {
 } from '@nestjs/common';
 
 export class DgmuHelper {
+	private parseCookie(headers: Headers, key: string) {
+		const cookies = headers.get('set-cookie');
+
+		const startIndex = cookies.indexOf(key);
+		if (startIndex === -1) {
+			return null;
+		}
+
+		let cookie = cookies.slice(startIndex);
+
+		const endIndex = cookie.indexOf(';');
+		if (endIndex !== -1) {
+			cookie = cookie.slice(0, endIndex);
+		}
+
+		return cookie;
+	}
+
 	private getInputValue(dom: string, name: string) {
 		const $ = cheerio.load(dom);
 		const value = $(`[name="${name}"]`).val();
@@ -26,7 +43,7 @@ export class DgmuHelper {
 		}
 
 		const _csrfForm = this.getInputValue(startPage, '_csrf');
-		const _csrfCookie = parseCookie(startRes.headers, '_csrf');
+		const _csrfCookie = this.parseCookie(startRes.headers, '_csrf');
 
 		const authRes = await fetch('https://lk.dgmu.ru/user/sign-in/login', {
 			method: 'POST',
@@ -42,7 +59,7 @@ export class DgmuHelper {
 			}
 		});
 
-		const LKSESSID = parseCookie(authRes.headers, 'LKSESSID');
+		const LKSESSID = this.parseCookie(authRes.headers, 'LKSESSID');
 
 		const usersetRes = await fetch(
 			'https://lk.dgmu.ru/user/sign-in/userset?role=Student',
@@ -84,7 +101,7 @@ export class DgmuHelper {
 
 		const ratingPage = await ratingRes.text();
 
-		const _csrfCookie = parseCookie(ratingRes.headers, '_csrf');
+		const _csrfCookie = this.parseCookie(ratingRes.headers, '_csrf');
 
 		const _csrfForm = this.getInputValue(ratingPage, '_csrf');
 		const plan_plan = this.getInputValue(ratingPage, 'plan_plan');
