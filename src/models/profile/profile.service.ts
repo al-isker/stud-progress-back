@@ -1,18 +1,17 @@
 import { Injectable } from '@nestjs/common';
 import { StudentService } from 'src/models/student/student.service';
-import { RatingService } from '../rating/rating.service';
+import { SubjectUpdaterService } from '../subject-updater/subject-updater.service';
 import { UpdateSemesterDto } from './dto/update-semester';
 
 @Injectable()
 export class ProfileService {
 	constructor(
 		private studentService: StudentService,
-		private ratingService: RatingService
+		private subjectUpdaterService: SubjectUpdaterService
 	) {}
 
- 	async getData(id: number) {
-		// возможно, нужен обработчик ненайденного студента
-		const student = await this.studentService.findById(id)
+ 	async get(studentId: number) {
+		const student = await this.studentService.findById(studentId)
 
 		return {
 			fullName: student.fullName, 
@@ -22,12 +21,11 @@ export class ProfileService {
 		}
 	}
 
-	async updateSemester(id: number, dto: UpdateSemesterDto) {
-		const student = await this.studentService.update(id, dto)
+	async updateSemester(studentId: number, dto: UpdateSemesterDto) {
+		const student = await this.studentService.update(studentId, dto)
 
-		await this.ratingService.updateRating(student)
-		// обновить grade
+		await this.subjectUpdaterService.someUpdate(student)
 
-		return this.getData(id)
+		return this.get(studentId)
 	}
 }

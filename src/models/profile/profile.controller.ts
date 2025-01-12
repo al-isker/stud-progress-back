@@ -10,8 +10,8 @@ export class ProfileController {
 
   @Get()
   @Auth()
-  async getData(@CurrentStudent() id: number) {
-    return await this.profileService.getData(id)
+  async get(@CurrentStudent() id: number) {
+    return await this.profileService.get(id)
   }
 
   @Patch('update-semester')

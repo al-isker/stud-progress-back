@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { StudentModule } from 'src/models/student/student.module';
-import { RatingModule } from '../rating/rating.module';
+import { SubjectUpdaterModule } from '../subject-updater/subject-updater.module';
 import { ProfileController } from './profile.controller';
 import { ProfileService } from './profile.service';
 
 @Module({
-  imports: [StudentModule, RatingModule],
+  imports: [StudentModule, SubjectUpdaterModule],
   controllers: [ProfileController],
   providers: [ProfileService],
 })
