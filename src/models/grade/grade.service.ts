@@ -5,10 +5,11 @@ import { DgmuService } from '../dgmu/dgmu.service';
 import { StudentService } from '../student/student.service';
 import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 import { SubjectNameService } from '../subject-name/subject-name.service';
+import { SomeUpdateAllDto } from './dto/some-update-all.dto';
 import { SomeUpdateDto } from './dto/some-update.dto';
 
 @Injectable()
-export class RatingService {
+export class GradeService {
 	constructor(
 		private prisma: PrismaService,
 		private studentService: StudentService,
@@ -19,18 +20,19 @@ export class RatingService {
 
 	async someUpdate(subjects: SomeUpdateDto, student: Pick<Student, 'id' | 'semester'>) {
 		await Promise.all(subjects.map(async subject => {
-			const targetSubject = await this.subjectHelperService.findForRatingUpdate({
+			const targetSubject = await this.subjectHelperService.findForGradeUpdate({
 				studentId: student.id,
 				semester: student.semester,
 				name: subject.name
 			})
-
+	
 			if (targetSubject) {
 				await this.prisma.subject.update({
 					where: {
 						id: targetSubject.id
 					},
 					data: {
+						controlType: subject.controlType,
 						semesters: {
 							createMany: {
 								skipDuplicates: true,
@@ -39,40 +41,27 @@ export class RatingService {
 								}
 							}
 						},
-						averageMark: this.subjectHelperService.calculateAverageMark(subject.rating)
+						grade: {
+							upsert: {
+								create: {
+									date: subject.date,
+									status: subject.status,
+									mark: subject.mark,
+									isNew: subject.status !== 'EMPTY'
+								},
+								update: {
+									date: subject.date,
+									mark: subject.mark,
+									status: subject.status,
+									isNew: targetSubject.grade.isNew || (
+										targetSubject.grade?.status !== subject.status || 
+										targetSubject.grade?.mark !== subject.mark
+									)
+								}
+							}
+						}
 					}
 				})
-
-				await Promise.all(subject.rating.map(ratingItem => {
-					const targetRating = targetSubject.rating.find(item => item.date === ratingItem.date)
-
-					return this.prisma.rating.upsert({
-						where: {
-							date_subjectId: {
-								date: ratingItem.date,
-								subjectId: targetSubject.id
-							}
-						},
-						update: {
-							date: ratingItem.date,
-							status: ratingItem.status,
-							mark: ratingItem.mark,
-							isNew: targetRating?.isNew || (
-								targetRating?.status !== ratingItem.status ||
-								targetRating?.mark !== ratingItem.mark
-							)
-						},
-						create: {
-							subject: {
-								connect: { 
-									id: targetSubject.id
-								}
-							},
-							...ratingItem,
-							isNew: true
-						}
-					})
-				}))
 			} else {
 				const subjectName = await this.subjectNameService.upsertByName(subject.name);
 
@@ -88,35 +77,45 @@ export class RatingService {
 								id: subjectName.id
 							}
 						},
+						controlType: subject.controlType,
 						semesters: {
 							create: {
 								number: student.semester
 							}
 						},
-						rating: {
-							createMany: {
-								data: subject.rating.map(ratingItem => ({
-									...ratingItem,
-									isNew: true
-								}))
+						grade: {
+							create: {
+								date: subject.date,
+								mark: subject.mark,
+								status: subject.status,
+								isNew: subject.status !== 'EMPTY'
 							}
-						},
-						averageMark: this.subjectHelperService.calculateAverageMark(subject.rating)
+						}
 					}
-				})
+				}) 
 			}
 		}))
+	}
 
-		await this.subjectHelperService.updateStudentAverageMark(student)
+	async someUpdateAll(subjectsOfSemesters: SomeUpdateAllDto, student: Pick<Student, 'id'>) {
+		for (const subjectsOfSemester of subjectsOfSemesters) {
+			const { semester, subjects } = subjectsOfSemester
+
+			await this.someUpdate(subjects, {
+				id: student.id,
+				semester
+			})
+		}
 	}
 
 	async specificUpdate(studentId: number) {
 		const student = await this.studentService.findById(studentId)
 
-		const { subjectsWithRating } = await this.dgmuService.findManyOrThrow(student, {
-			rating: true
+		const { subjectsWithGrade } = await this.dgmuService.findManyOrThrow(student, {
+			grade: true 
 		})
 
-		await this.someUpdate(subjectsWithRating, student)
-	} 
+		await this.someUpdate(subjectsWithGrade, student)
+	}
 }
+ 

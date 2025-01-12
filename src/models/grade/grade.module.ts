@@ -4,11 +4,11 @@ import { DgmuModule } from '../dgmu/dgmu.module';
 import { StudentModule } from '../student/student.module';
 import { SubjectHelperModule } from '../subject-helper/subject-helper.module';
 import { SubjectNameModule } from '../subject-name/subject-name.module';
-import { RatingService } from './rating.service';
+import { GradeService } from './grade.service';
 
 @Module({
   imports: [StudentModule, SubjectNameModule, SubjectHelperModule, DgmuModule],
-  providers: [RatingService, PrismaService],
-  exports: [RatingService]
+  providers: [GradeService, PrismaService],
+  exports: [GradeService]
 })
-export class RatingModule {}
+export class GradeModule {}
