@@ -16,55 +16,90 @@ model Student {
   semester            Int
   averageMark         Float?
 
-  gradeUpdatedAt      DateTime?   @map("grade_updated_at")
-  ratingUpdatedAt     DateTime?   @map("subjects_updated_at")
   subjects            Subject[]
 
   @@map("student")
 }
 
 model Subject {
-  id          Int        @id @default(autoincrement())
-    
-  name        String
-  semester    Int
-  grade       Grade?
-  rating      Rating[]
+  id                 Int                @id @default(autoincrement())
   
-  student     Student    @relation(fields: [studentId], references: [id])
-  studentId   Int        @map("student_id")
+  name               SubjectName        @relation(fields: [nameId], references: [id])
+  nameId             Int
+  controlType        ControlType?       @map("control_type")
+  semesters          Semester[]
+  grade              Grade?
+  rating             Rating[]
+  averageMark        Float?             @map("average_mark")
+  
+  student            Student            @relation(fields: [studentId], references: [id])
+  studentId          Int                @map("student_id")
 
   @@map("subject")
-  @@unique([name, studentId])
+  // his unique [name, ratingSemesters.number, studentId]
+}
+
+model SubjectName {
+  id                 Int                @id @default(autoincrement())
+
+  name               String             @unique
+
+  subjects           Subject[]
+
+  @@map("subject_name")
+}
+
+model Semester {
+  id          Int        @id @default(autoincrement())
+
+  number      Int
+
+  subject     Subject    @relation(fields: [subjectId], references: [id])
+  subjectId   Int        @map("subject_id")
+
+  @@map("semester")
+  @@unique([number, subjectId])
 }
 
 model Grade {
-  id          Int        @id @default(autoincrement())
+  id          Int           @id @default(autoincrement())
 
-  type        String
-  mark        String?
-  date        DateTime
-  isNew       Boolean    @default(true) @map("is_new")
+  date        DateTime?
+  status      GradeStatus
+  mark        Int?
+  isNew       Boolean       @map("is_new")
 
-  subject     Subject    @relation(fields: [subjectId], references: [id])
-  subjectId   Int        @unique @map("subject_id")
+  subject     Subject       @relation(fields: [subjectId], references: [id])
+  subjectId   Int           @unique @map("subject_id")
 
   @@map("grade")
 }
 
 model Rating {
-  id          Int        @id @default(autoincrement())
+  id          Int            @id @default(autoincrement())
 
-  mark        Int?
-  status      RatingStatus
   date        DateTime
-  isNew       Boolean    @default(true) @map("is_new")
+  status      RatingStatus
+  mark        Int?
+  isNew       Boolean        @map("is_new")
 
-  subject     Subject    @relation(fields: [subjectId], references: [id])
-  subjectId   Int        @map("subject_id")
+  subject     Subject        @relation(fields: [subjectId], references: [id])
+  subjectId   Int            @map("subject_id")
 
   @@map("rating")
   @@unique([date, subjectId])
+}
+
+enum ControlType {
+  TEST
+  GRADED_TEST
+  EXAM
+}
+
+enum GradeStatus {
+  PASS
+  FAIL
+  EMPTY
 }
 
 enum RatingStatus {
