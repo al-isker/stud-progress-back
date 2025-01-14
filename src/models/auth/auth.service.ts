@@ -4,7 +4,7 @@ import { Request, Response } from 'express';
 import { REFRESH_TOKEN_KEY } from 'src/common/config/cookie.config';
 import { DgmuService } from 'src/models/dgmu/dgmu.service';
 import { StudentService } from 'src/models/student/student.service';
-import { SubjectUpdaterService } from '../subject-updater/subject-updater.service';
+import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 import { LoginDto } from './dto/login.dto';
 
 @Injectable()
@@ -12,7 +12,7 @@ export class AuthService {
 	constructor(
 		private jwt: JwtService,
 		private studentService: StudentService,
-		private subjectUpdaterService: SubjectUpdaterService,
+		private subjectHelperService: SubjectHelperService,
 		private dgmuService: DgmuService
 	) {}
 
@@ -46,7 +46,7 @@ export class AuthService {
 			create: dto
 		})
 
-		await this.subjectUpdaterService.someUpdateAll(student)
+		await this.subjectHelperService.someUpdateAll(student)
 
 		const { accessToken, refreshToken } = await this.issueTokens(student.id)
 

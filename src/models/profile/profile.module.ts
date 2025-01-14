@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { StudentModule } from 'src/models/student/student.module';
-import { SubjectUpdaterModule } from '../subject-updater/subject-updater.module';
+import { SubjectUpdaterModule } from '../subject-helper/subject-helper.module';
 import { ProfileController } from './profile.controller';
 import { ProfileService } from './profile.service';
 

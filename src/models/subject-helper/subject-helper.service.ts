@@ -1,116 +1,42 @@
 import { Injectable } from '@nestjs/common';
-import { Rating, Student, Subject, SubjectName } from '@prisma/client';
-import { StudentService } from 'src/models/student/student.service';
-import { PrismaService } from 'src/prisma.service';
+import { Student } from '@prisma/client';
+import { DgmuService } from '../dgmu/dgmu.service';
+import { GradeService } from '../grade/grade.service';
+import { RatingService } from '../rating/rating.service';
+import { StudentService } from '../student/student.service';
 
 @Injectable()
 export class SubjectHelperService {
 	constructor(
-		private prisma: PrismaService,
-		private studentService: StudentService
+		private studentService: StudentService,
+		private gradeService: GradeService,
+		private ratingService: RatingService,
+		private dgmuService: DgmuService
 	) {}
 
-	calculateAverageMark(rating: Pick<Rating, 'mark'>[]) {
-		let marksCount = 0;
+	async someUpdate(student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>) {
+		const { subjectsWithGrade, subjectsWithRating } = await this.dgmuService.findManyOrThrow(student, {
+			grade: true,
+			rating: true
+		})
 
-		const marksSum = rating.reduce((sum, { mark }) => {
-			if (mark) {
-				marksCount++
-
-				return sum + mark
-			}
-			
-			return sum;
-		}, 0);
-
-		const averageMark = marksCount > 0 ? (marksSum / marksCount) : null
-
-		return averageMark
+		await this.gradeService.someUpdate(subjectsWithGrade, student)
+		await this.ratingService.someUpdate(subjectsWithRating, student)
 	}
 
-	async updateStudentAverageMark(
-		student: Pick<Student, 'id' | 'semester'>
-	) {
-		const studentRating = await this.prisma.rating.findMany({
-			where: {
-				subject: {
-					studentId: student.id,
-					semesters: {
-						some: {
-							number: student.semester
-						}
-					}
-				}
-			},
-			select: {
-				mark: true
-			}
+	async someUpdateAll(student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>) {
+		const { allSubjectsWithGrade, subjectsWithRating } = await this.dgmuService.findManyOrThrow(student, {
+			allGrade: true,
+			rating: true
 		})
 
-		const averageMark = this.calculateAverageMark(studentRating)
-
-		await this.studentService.update(student.id, { averageMark })
+		await this.gradeService.someUpdateAll(allSubjectsWithGrade, student)
+		await this.ratingService.someUpdate(subjectsWithRating, student)
 	}
 
-	async findForGradeUpdate({studentId, name, semester}: Pick<SubjectName, 'name'> & Pick<Subject, 'studentId'> & {semester: Student['semester']}) {
-		return await this.prisma.subject.findFirst({
-			where: {
-				studentId,
-				name: { name },
-				semesters: {
-					some: {
-						number: semester
-					}
-				}
-			},
-			include: {
-				semesters: true,
-				grade: true,
-				rating: true
-			}
-		})
-	}
+	async specificUpdate(studentId: number) {
+		const student = await this.studentService.findById(studentId)
 
-	async findForRatingUpdate({studentId, name, semester}: Pick<SubjectName, 'name'> & Pick<Subject, 'studentId'> & {semester: Student['semester']} ) {
-		const targetSubject = await this.prisma.subject.findFirst({
-			where: {
-				studentId,
-				name: { name },
-				semesters: {
-					some: {
-						number: semester
-					}
-				}
-			},
-			include: {
-				semesters: true,
-				grade: true,
-				rating: true
-			}
-		})
-
-		if (targetSubject) {
-			return targetSubject;
-		}
-		
-		const eponymousSubjects = await this.prisma.subject.findMany({
-			where: {
-				studentId,
-				name: { name }
-			},
-			include: {
-				semesters: true,
-				grade: true,
-				rating: true
-			}
-		})
-
-		if (eponymousSubjects.length) {
-			const eponymousSubjectsSorted = eponymousSubjects
-				.filter(item => item.semesters.some(s => s.number >= semester))
-				.sort((itemOne, itemTwo) => itemOne.semesters[0].number - itemTwo.semesters[0].number)
-
-			return eponymousSubjectsSorted[0];
-		}
+		await this.someUpdate(student)
 	}
 }

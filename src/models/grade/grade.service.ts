@@ -3,8 +3,8 @@ import { Student } from '@prisma/client';
 import { PrismaService } from 'src/prisma.service';
 import { DgmuService } from '../dgmu/dgmu.service';
 import { StudentService } from '../student/student.service';
-import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 import { SubjectNameService } from '../subject-name/subject-name.service';
+import { SubjectUtilsService } from '../subject-utils/subject-utils.service';
 import { SomeUpdateAllDto } from './dto/some-update-all.dto';
 import { SomeUpdateDto } from './dto/some-update.dto';
 
@@ -14,13 +14,13 @@ export class GradeService {
 		private prisma: PrismaService,
 		private studentService: StudentService,
 		private subjectNameService: SubjectNameService,
-		private subjectHelperService: SubjectHelperService,
+		private subjectUtilsService: SubjectUtilsService,
 		private dgmuService: DgmuService
 	) {}
 
 	async someUpdate(subjects: SomeUpdateDto, student: Pick<Student, 'id' | 'semester'>) {
 		await Promise.all(subjects.map(async subject => {
-			const targetSubject = await this.subjectHelperService.findForGradeUpdate({
+			const targetSubject = await this.subjectUtilsService.findForGradeUpdate({
 				studentId: student.id,
 				semester: student.semester,
 				name: subject.name

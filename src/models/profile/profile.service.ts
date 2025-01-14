@@ -1,13 +1,13 @@
 import { Injectable } from '@nestjs/common';
 import { StudentService } from 'src/models/student/student.service';
-import { SubjectUpdaterService } from '../subject-updater/subject-updater.service';
+import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 import { UpdateSemesterDto } from './dto/update-semester';
 
 @Injectable()
 export class ProfileService {
 	constructor(
 		private studentService: StudentService,
-		private subjectUpdaterService: SubjectUpdaterService
+		private subjectHelperService: SubjectHelperService
 	) {}
 
  	async get(studentId: number) {
@@ -24,7 +24,7 @@ export class ProfileService {
 	async updateSemester(studentId: number, dto: UpdateSemesterDto) {
 		const student = await this.studentService.update(studentId, dto)
 
-		await this.subjectUpdaterService.someUpdate(student)
+		await this.subjectHelperService.someUpdate(student)
 
 		return this.get(studentId)
 	}

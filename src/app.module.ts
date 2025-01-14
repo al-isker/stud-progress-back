@@ -8,9 +8,9 @@ import { ProfileModule } from './models/profile/profile.module';
 import { RatingModule } from './models/rating/rating.module';
 import { SchedulerModule } from './models/scheduler/scheduler.module';
 import { StudentModule } from './models/student/student.module';
-import { SubjectHelperModule } from './models/subject-helper/subject-helper.module';
+import { SubjectUpdaterModule } from './models/subject-helper/subject-helper.module';
 import { SubjectNameModule } from './models/subject-name/subject-name.module';
-import { SubjectUpdaterModule } from './models/subject-updater/subject-updater.module';
+import { SubjectUtilsModule } from './models/subject-utils/subject-utils.module';
 import { SubjectModule } from './models/subject/subject.module';
 import { PrismaService } from './prisma.service';
 
@@ -24,7 +24,7 @@ import { PrismaService } from './prisma.service';
     SubjectModule, 
     SubjectNameModule,
     SubjectUpdaterModule, 
-    SubjectHelperModule, 
+    SubjectUtilsModule, 
     GradeModule, 
     RatingModule, 
     DgmuModule,
