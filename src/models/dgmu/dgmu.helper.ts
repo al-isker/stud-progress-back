@@ -33,7 +33,9 @@ export class DgmuHelper {
 		return value as string;
 	}
 
-	protected async findLKSESSID(dto: Pick<Student, 'fullName' | 'password'>) {
+	protected async getSessidOrThrow(
+		dto: Pick<Student, 'fullName' | 'password'>
+	) {
 		const startRes = await fetch('https://lk.dgmu.ru/user/sign-in/login');
 
 		const startPage = await startRes.text();
@@ -59,12 +61,12 @@ export class DgmuHelper {
 			}
 		});
 
-		const LKSESSID = this.parseCookie(authRes.headers, 'LKSESSID');
+		const sessid = this.parseCookie(authRes.headers, 'LKSESSID');
 
 		const usersetRes = await fetch(
 			'https://lk.dgmu.ru/user/sign-in/userset?role=Student',
 			{
-				headers: { cookie: LKSESSID }
+				headers: { cookie: sessid }
 			}
 		);
 
@@ -76,27 +78,24 @@ export class DgmuHelper {
 			throw new UnauthorizedException('Неверные ФИО и/или пароль');
 		}
 
-		return LKSESSID;
+		return sessid;
 	}
 
-	protected async getGradePage(LKSESSID: string) {
+	protected async getGradePage(sessid: string) {
 		const gradeRes = await fetch(
 			'https://lk.dgmu.ru/student/grade?_referrer=%2Fstudent%2Findex',
 			{
-				headers: { cookie: LKSESSID }
+				headers: { cookie: sessid }
 			}
 		);
 
 		return await gradeRes.text();
 	}
 
-	protected async getRatingPage(
-		LKSESSID: string,
-		semester: Student['semester']
-	) {
+	protected async getRatingPage(sessid: string, semester: Student['semester']) {
 		const ratingRes = await fetch(
 			'https://lk.dgmu.ru/student/journal?_referrer=%2Fstudent%2Findex',
-			{ headers: { cookie: LKSESSID } }
+			{ headers: { cookie: sessid } }
 		);
 
 		const ratingPage = await ratingRes.text();
@@ -117,7 +116,7 @@ export class DgmuHelper {
 					plan_plan
 				}),
 				headers: {
-					cookie: `${LKSESSID}; ${_csrfCookie}`,
+					cookie: `${sessid}; ${_csrfCookie}`,
 					'content-type': 'application/x-www-form-urlencoded'
 				}
 			}

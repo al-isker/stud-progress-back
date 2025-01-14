@@ -116,16 +116,16 @@ export class DgmuService extends DgmuHelper {
 			.get()
 	}
 
-	private async getSubjectsWithGrade(LKSESSID: string, semester: Student['semester']) {
-		const gradePage = await this.getGradePage(LKSESSID)
+	private async getSubjectsWithGrade(sessid: string, semester: Student['semester']) {
+		const gradePage = await this.getGradePage(sessid)
 		
 		const $ = cheerio.load(gradePage)
 
 		return this.parseSubjectsWithGrade($, semester)
 	}
 
-	private async getAllSubjectsWithGrade(LKSESSID: string) {
-		const gradePage = await this.getGradePage(LKSESSID)
+	private async getAllSubjectsWithGrade(sessid: string) {
+		const gradePage = await this.getGradePage(sessid)
 
 		const $ = cheerio.load(gradePage)
 
@@ -138,8 +138,8 @@ export class DgmuService extends DgmuHelper {
 		})
 	}
 
-	private async getSubjectsWithRating(LKSESSID: string, semester: Student['semester']) {
-		const ratingPage = await this.getRatingPage(LKSESSID, semester)
+	private async getSubjectsWithRating(sessid: string, semester: Student['semester']) {
+		const ratingPage = await this.getRatingPage(sessid, semester)
 
 		const $ = cheerio.load(ratingPage)
 
@@ -151,15 +151,15 @@ export class DgmuService extends DgmuHelper {
 		AG extends boolean = false,
 		R extends boolean = false
 	>(
-		dto: Pick<Student, 'fullName' | 'password' | 'semester'>, 
+		dto: Pick<Student, 'fullName' | 'password' | 'semester'>,
 		select?: {grade?: G, allGrade?: AG, rating?: R}
 	) {
-		const LKSESSID = await this.findLKSESSID(dto)
+		const sessid = await this.getSessidOrThrow(dto)
 
 		const [subjectsWithGrade, allSubjectsWithGrade, subjectsWithRating] = await Promise.all([
-			select?.grade ? this.getSubjectsWithGrade(LKSESSID, dto.semester) : null,
-			select?.allGrade ? this.getAllSubjectsWithGrade(LKSESSID) : null,
-			select?.rating ? this.getSubjectsWithRating(LKSESSID, dto.semester) : null,
+			select?.grade ? this.getSubjectsWithGrade(sessid, dto.semester) : null,
+			select?.allGrade ? this.getAllSubjectsWithGrade(sessid) : null,
+			select?.rating ? this.getSubjectsWithRating(sessid, dto.semester) : null,
 		])
 
 		if (!select?.grade && !select?.allGrade && !select?.rating) return
