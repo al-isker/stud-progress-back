@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Student } from '@prisma/client';
+import { GradeStatus, Student } from '@prisma/client';
 import { PrismaService } from 'src/prisma.service';
 import { DgmuService } from '../dgmu/dgmu.service';
 import { StudentService } from '../student/student.service';
@@ -47,7 +47,7 @@ export class GradeService {
 									date: subject.date,
 									status: subject.status,
 									mark: subject.mark,
-									isNew: subject.status !== 'EMPTY'
+									isNew: subject.status !== GradeStatus.EMPTY
 								},
 								update: {
 									date: subject.date,
@@ -88,7 +88,7 @@ export class GradeService {
 								date: subject.date,
 								mark: subject.mark,
 								status: subject.status,
-								isNew: subject.status !== 'EMPTY'
+								isNew: subject.status !== GradeStatus.EMPTY
 							}
 						}
 					}

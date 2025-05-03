@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ControlType, GradeStatus, Student } from '@prisma/client';
+import { ControlType, GradeStatus, RatingStatus, Student } from '@prisma/client';
 import * as cheerio from 'cheerio';
 import { ruDateToJSDate } from 'src/common/utils/ru-date-to-js-date';
 import { DgmuHelper } from './dgmu.helper';
@@ -30,18 +30,20 @@ export class DgmuService extends DgmuHelper {
 					'Хорошо': 4,
 					'Отлично': 5
 				}
+
 				const controlTypeMap: {[key: string]: ControlType} = {
-					'Зачет': 'TEST',
-					'Дифференцированный зачет': 'GRADED_TEST',
-					'Экзамен': 'EXAM'
+					'Зачет': ControlType.TEST,
+					'Дифференцированный зачет': ControlType.GRADED_TEST,
+					'Экзамен': ControlType.EXAM
 				}
+
 				const statusMap: {[key: string]: GradeStatus} = {
-					'Зачтено': 'PASS',
-					'Удовлетворительно': 'PASS',
-					'Хорошо': 'PASS',
-					'Отлично': 'PASS',
-					'Не зачтено': 'FAIL',
-					'Неудовлетворительно': 'FAIL'
+					'Зачтено': GradeStatus.PASS,
+					'Удовлетворительно': GradeStatus.PASS,
+					'Хорошо': GradeStatus.PASS,
+					'Отлично': GradeStatus.PASS,
+					'Не зачтено': GradeStatus.FAIL,
+					'Неудовлетворительно': GradeStatus.FAIL
 				}
 
 				gradeItem.name = name
@@ -49,10 +51,10 @@ export class DgmuService extends DgmuHelper {
 				gradeItem.date = ruDateToJSDate(date)
 
 				if (result) {
-					gradeItem.status = statusMap[result] ?? 'EMPTY'
+					gradeItem.status = statusMap[result] ?? GradeStatus.EMPTY
 					gradeItem.mark = markMap[result] ?? null
 				} else {
-					gradeItem.status = 'EMPTY'
+					gradeItem.status = GradeStatus.EMPTY
 					gradeItem.mark = null
 				}
 		
@@ -81,22 +83,22 @@ export class DgmuService extends DgmuHelper {
 						ratingItem.date = dateStr ? ruDateToJSDate(dateStr) : null
 
 						if (markClass === 'propusk') {
-							ratingItem.status = 'ABSENCE'
+							ratingItem.status = RatingStatus.ABSENCE
 							ratingItem.mark = null
 						}
 						else if (markClass === 'upworked') {
-							ratingItem.status = 'UPWORKED'
+							ratingItem.status = RatingStatus.UPWORKED
 							ratingItem.mark = null
 						}
 						else {
 							const mark = Number(markStr)
 
 							if (markStr.length > 0 && !isNaN(mark)) {
+								ratingItem.status = RatingStatus.MARK
 								ratingItem.mark = mark
-								ratingItem.status = 'MARK'
 							} else {
 								ratingItem.mark = null
-								ratingItem.status = 'EMPTY'
+								ratingItem.status = RatingStatus.EMPTY
 							}
 						}
 
