@@ -85,16 +85,8 @@ export class DgmuService extends DgmuHelper {
 							ratingItem.mark = null
 						}
 						else if (markClass === 'upworked') {
-							const markMatchNumber = markStr.match(/\d+/)
-
-							if (markMatchNumber) {
-								ratingItem.status = 'UPWORKED_WITH_MARK'
-								ratingItem.mark = Number(markMatchNumber[0])
-							} 
-							else {
-								ratingItem.status = 'UPWORKED'
-								ratingItem.mark = null
-							}
+							ratingItem.status = 'UPWORKED'
+							ratingItem.mark = null
 						}
 						else {
 							const mark = Number(markStr)
