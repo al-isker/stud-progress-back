@@ -20,7 +20,7 @@ export class DgmuService extends DgmuHelper {
 
 				const handleValue = (value: string | null) => value.length > 0 ? value : null
 
-				const [name, controlType, result, date] = $(subjectEl)
+				const [n, name, controlType, result, z, h, date] = $(subjectEl)
 					.find('td').get()
 					.map(item => handleValue($(item).text()))
 

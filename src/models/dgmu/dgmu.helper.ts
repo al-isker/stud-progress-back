@@ -74,7 +74,7 @@ export class DgmuHelper {
 
 		const usersetTitle = cheerio.load(usersetPage)('title').text().trim();
 
-		if (usersetTitle !== 'Личные кабинеты ДГМУ') {
+		if (usersetTitle !== 'ЛК ДГМУ') {
 			throw new UnauthorizedException('Неверные ФИО и/или пароль');
 		}
 
