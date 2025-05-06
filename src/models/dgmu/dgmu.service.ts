@@ -2,16 +2,16 @@ import { Injectable } from '@nestjs/common';
 import { ControlType, GradeStatus, RatingStatus, Student } from '@prisma/client';
 import * as cheerio from 'cheerio';
 import { ruDateToJSDate } from 'src/common/utils/ru-date-to-js-date';
-import { DgmuHelper } from './dgmu.helper';
+import { DgmuHelperService } from './dgmu-helper.service';
 import { AllSubjectsWithGradeDto } from './dto/all-subjects-with-grade.dto';
 import { SubjectsWithGradeDto, SubjectsWithGradeDtoItem } from './dto/subjects-with-grade.dto';
 import { RatingDtoItem, SubjectsWithRatingDto } from './dto/subjects-with-rating.dto';
 
 @Injectable()
-export class DgmuService extends DgmuHelper {
-	constructor() {
-		super()
-	}
+export class DgmuService {
+	constructor(
+		private dgmuHelperService: DgmuHelperService
+	) {}
 
 	private parseSubjectsWithGrade($: cheerio.CheerioAPI, semester: Student['semester']) {
 		return $(`#tab-0-${semester - 1} tbody tr`)
@@ -24,20 +24,20 @@ export class DgmuService extends DgmuHelper {
 					.find('td').get()
 					.map(item => handleValue($(item).text()))
 
-				const markMap: {[key: string]: number} = {
+				const markMap = {
 					'Неудовлетворительно': 2,
 					'Удовлетворительно': 3,
 					'Хорошо': 4,
 					'Отлично': 5
 				}
 
-				const controlTypeMap: {[key: string]: ControlType} = {
+				const controlTypeMap = {
 					'Зачет': ControlType.TEST,
 					'Дифференцированный зачет': ControlType.GRADED_TEST,
 					'Экзамен': ControlType.EXAM
 				}
 
-				const statusMap: {[key: string]: GradeStatus} = {
+				const statusMap = {
 					'Зачтено': GradeStatus.PASS,
 					'Удовлетворительно': GradeStatus.PASS,
 					'Хорошо': GradeStatus.PASS,
@@ -111,7 +111,7 @@ export class DgmuService extends DgmuHelper {
 	}
 
 	private async getSubjectsWithGrade(sessid: string, semester: Student['semester']) {
-		const gradePage = await this.getGradePage(sessid)
+		const gradePage = await this.dgmuHelperService.getGradePage(sessid)
 		
 		const $ = cheerio.load(gradePage)
 
@@ -119,7 +119,7 @@ export class DgmuService extends DgmuHelper {
 	}
 
 	private async getAllSubjectsWithGrade(sessid: string) {
-		const gradePage = await this.getGradePage(sessid)
+		const gradePage = await this.dgmuHelperService.getGradePage(sessid)
 
 		const $ = cheerio.load(gradePage)
 
@@ -133,7 +133,7 @@ export class DgmuService extends DgmuHelper {
 	}
 
 	private async getSubjectsWithRating(sessid: string, semester: Student['semester']) {
-		const ratingPage = await this.getRatingPage(sessid, semester)
+		const ratingPage = await this.dgmuHelperService.getRatingPage(sessid, semester)
 
 		const $ = cheerio.load(ratingPage)
 
@@ -148,7 +148,7 @@ export class DgmuService extends DgmuHelper {
 		dto: Pick<Student, 'fullName' | 'password' | 'semester'>,
 		select?: {grade?: G, allGrade?: AG, rating?: R}
 	) {
-		const sessid = await this.getSessidOrThrow(dto)
+		const sessid = await this.dgmuHelperService.getSessidOrThrow(dto)
 
 		const [subjectsWithGrade, allSubjectsWithGrade, subjectsWithRating] = await Promise.all([
 			select?.grade ? this.getSubjectsWithGrade(sessid, dto.semester) : null,

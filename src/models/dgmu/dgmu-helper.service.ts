@@ -3,11 +3,13 @@ import * as cheerio from 'cheerio';
 import { objectToFormData } from 'src/common/utils/object-to-form-data';
 
 import {
+	Injectable,
 	ServiceUnavailableException,
 	UnauthorizedException
 } from '@nestjs/common';
 
-export class DgmuHelper {
+@Injectable()
+export class DgmuHelperService {
 	private parseCookie(headers: Headers, key: string) {
 		const cookies = headers.get('set-cookie');
 
@@ -33,7 +35,7 @@ export class DgmuHelper {
 		return value as string;
 	}
 
-	protected async getSessidOrThrow(
+	async getSessidOrThrow(
 		dto: Pick<Student, 'fullName' | 'password'>
 	) {
 		const startRes = await fetch('https://lk.dgmu.ru/user/sign-in/login');
@@ -81,7 +83,7 @@ export class DgmuHelper {
 		return sessid;
 	}
 
-	protected async getGradePage(sessid: string) {
+	async getGradePage(sessid: string) {
 		const gradeRes = await fetch(
 			'https://lk.dgmu.ru/student/grade?_referrer=%2Fstudent%2Findex',
 			{
@@ -92,7 +94,7 @@ export class DgmuHelper {
 		return await gradeRes.text();
 	}
 
-	protected async getRatingPage(sessid: string, semester: Student['semester']) {
+	async getRatingPage(sessid: string, semester: Student['semester']) {
 		const ratingRes = await fetch(
 			'https://lk.dgmu.ru/student/journal?_referrer=%2Fstudent%2Findex',
 			{ headers: { cookie: sessid } }
