@@ -5,12 +5,10 @@ import { AuthModule } from './models/auth/auth.module';
 import { DgmuModule } from './models/dgmu/dgmu.module';
 import { GradeModule } from './models/grade/grade.module';
 import { ProfileModule } from './models/profile/profile.module';
-import { RatingModule } from './models/rating/rating.module';
+import { RatingBySemesterModule } from './models/rating-by-semester/rating-by-semester.module';
 import { SchedulerModule } from './models/scheduler/scheduler.module';
 import { StudentModule } from './models/student/student.module';
 import { SubjectUpdaterModule } from './models/subject-helper/subject-helper.module';
-import { SubjectNameModule } from './models/subject-name/subject-name.module';
-import { SubjectUtilsModule } from './models/subject-utils/subject-utils.module';
 import { SubjectModule } from './models/subject/subject.module';
 import { PrismaService } from './prisma.service';
 
@@ -22,11 +20,9 @@ import { PrismaService } from './prisma.service';
     AuthModule, 
     ProfileModule, 
     SubjectModule, 
-    SubjectNameModule,
     SubjectUpdaterModule, 
-    SubjectUtilsModule, 
     GradeModule, 
-    RatingModule, 
+    RatingBySemesterModule, 
     DgmuModule,
     SchedulerModule, 
   ],

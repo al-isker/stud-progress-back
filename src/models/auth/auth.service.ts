@@ -38,15 +38,21 @@ export class AuthService {
 
 		await this.dgmuService.findManyOrThrow(dto)
 
-		const student = await this.studentService.upsertByFullName(dto.fullName, {
-			update: {
+		let student = await this.studentService.findByFullName(dto.fullName)
+
+		if (student) {
+			student = await this.studentService.update(student.id, { 
 				password: dto.password,
 				semester: dto.semester
-			},
-			create: dto
-		})
+			})
 
-		await this.subjectHelperService.someUpdateAll(student)
+			await this.subjectHelperService.someUpdate(student)
+		} 
+		else {
+			student = await this.studentService.create(dto)
+
+			await this.subjectHelperService.createAll(student)
+		}
 
 		const { accessToken, refreshToken } = await this.issueTokens(student.id)
 

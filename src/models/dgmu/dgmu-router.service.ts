@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 
 @Injectable()
-export class DgmuHelperService {
+export class DgmuRouterService {
 	private parseCookie(headers: Headers, key: string) {
 		const cookies = headers.get('set-cookie');
 
@@ -94,21 +94,21 @@ export class DgmuHelperService {
 		return await gradeRes.text();
 	}
 
-	async getRatingPage(sessid: string, semester: Student['semester']) {
-		const ratingRes = await fetch(
+	async getEventsPage(sessid: string, semester: Student['semester']) {
+		const eventsRes = await fetch(
 			'https://lk.dgmu.ru/student/journal?_referrer=%2Fstudent%2Findex',
 			{ headers: { cookie: sessid } }
 		);
 
-		const ratingPage = await ratingRes.text();
+		const eventsPage = await eventsRes.text();
 
-		const _csrfCookie = this.parseCookie(ratingRes.headers, '_csrf');
+		const _csrfCookie = this.parseCookie(eventsRes.headers, '_csrf');
 
-		const _csrfForm = this.getInputValue(ratingPage, '_csrf');
-		const plan_plan = this.getInputValue(ratingPage, 'plan_plan');
+		const _csrfForm = this.getInputValue(eventsPage, '_csrf');
+		const plan_plan = this.getInputValue(eventsPage, 'plan_plan');
 		const plan_semester = `000000000${semester + 1}`.slice(-9);
 
-		const ratingBySemesterRes = await fetch(
+		const eventsBySemesterRes = await fetch(
 			'https://lk.dgmu.ru/student/journal',
 			{
 				method: 'POST',
@@ -124,6 +124,6 @@ export class DgmuHelperService {
 			}
 		);
 
-		return await ratingBySemesterRes.text();
+		return await eventsBySemesterRes.text();
 	}
 }

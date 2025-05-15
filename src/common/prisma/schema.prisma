@@ -4,90 +4,78 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url = env("DATABASE_URL")
+  url      = env("DATABASE_URL")
 }
 
 model Student {
-  id                  Int         @id @default(autoincrement())
-
-  fullName            String      @unique @map("full_name")
-  password            String
-  course              Int
-  semester            Int
-  averageMark         Float?
-
-  subjects            Subject[]
+  id       Int       @id @default(autoincrement())
+  fullName String    @unique @map("full_name")
+  password String
+  course   Int
+  semester Int
+  subjects Subject[]
 
   @@map("student")
 }
 
 model Subject {
-  id                 Int                @id @default(autoincrement())
-  
-  name               SubjectName        @relation(fields: [nameId], references: [id])
-  nameId             Int
-  controlType        ControlType?       @map("control_type")
-  semesters          Semester[]
-  grade              Grade?
-  rating             Rating[]
-  averageMark        Float?             @map("average_mark")
-  
-  student            Student            @relation(fields: [studentId], references: [id])
-  studentId          Int                @map("student_id")
+  id                   Int                @id @default(autoincrement())
+  nameId               Int
+  name                 SubjectName        @relation(fields: [nameId], references: [id])
+  controlType          ControlType?       @map("control_type")
+  grade                Grade?
+  ratingBySemesterList RatingBySemester[]
+  student              Student            @relation(fields: [studentId], references: [id])
+  studentId            Int                @map("student_id")
 
+  // his unique [name, ratingBySemesterList.item.semester, studentId]
   @@map("subject")
-  // his unique [name, ratingSemesters.number, studentId]
 }
 
 model SubjectName {
-  id                 Int                @id @default(autoincrement())
-
-  name               String             @unique
-
-  subjects           Subject[]
+  id       Int       @id @default(autoincrement())
+  name     String    @unique
+  subjects Subject[]
 
   @@map("subject_name")
 }
 
-model Semester {
-  id          Int        @id @default(autoincrement())
-
-  number      Int
-
-  subject     Subject    @relation(fields: [subjectId], references: [id])
-  subjectId   Int        @map("subject_id")
-
-  @@map("semester")
-  @@unique([number, subjectId])
-}
-
 model Grade {
-  id          Int           @id @default(autoincrement())
-
-  date        DateTime?
-  status      GradeStatus
-  mark        Int?
-  isNew       Boolean       @map("is_new")
-
-  subject     Subject       @relation(fields: [subjectId], references: [id])
-  subjectId   Int           @unique @map("subject_id")
+  id        Int         @id @default(autoincrement())
+  semester  Int
+  status    GradeStatus
+  date      DateTime?
+  mark      Int?
+  isNew     Boolean     @map("is_new")
+  subject   Subject     @relation(fields: [subjectId], references: [id])
+  subjectId Int         @unique @map("subject_id")
 
   @@map("grade")
 }
 
-model Rating {
-  id          Int            @id @default(autoincrement())
+model RatingBySemester {
+  id          Int     @id @default(autoincrement())
+  semester    Int
+  averageMark Float?  @map("average_mark")
+  eventList   Event[]
+  subject     Subject @relation(fields: [subjectId], references: [id])
+  subjectId   Int     @map("subject_id")
 
-  date        DateTime
-  status      RatingStatus
-  mark        Int?
-  isNew       Boolean        @map("is_new")
+  @@unique([semester, subjectId])
+  @@map("rating_by_semester")
+}
 
-  subject     Subject        @relation(fields: [subjectId], references: [id])
-  subjectId   Int            @map("subject_id")
+model Event {
+  id                 Int              @id @default(autoincrement())
+  status             EventStatus
+  date               DateTime
+  mark               Int?
+  isNew              Boolean          @map("is_new")
+  ratingBySemester   RatingBySemester @relation(fields: [ratingBySemesterId], references: [id])
+  ratingBySemesterId Int              @map("rating_by_semester_id")
 
-  @@map("rating")
-  @@unique([date, subjectId])
+  @@unique([date, ratingBySemesterId])
+  @@map("event")
 }
 
 enum ControlType {
@@ -102,7 +90,7 @@ enum GradeStatus {
   EMPTY
 }
 
-enum RatingStatus {
+enum EventStatus {
   MARK
   EMPTY
   ABSENCE

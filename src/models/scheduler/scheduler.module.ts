@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
-import { PrismaService } from 'src/prisma.service';
+import { StudentModule } from '../student/student.module';
 import { SubjectUpdaterModule } from '../subject-helper/subject-helper.module';
 import { SchedulerService } from './scheduler.service';
 
 @Module({
-  imports: [SubjectUpdaterModule],
-  providers: [SchedulerService, PrismaService],
+  imports: [StudentModule, SubjectUpdaterModule],
+  providers: [SchedulerService],
 })
 export class SchedulerModule {}

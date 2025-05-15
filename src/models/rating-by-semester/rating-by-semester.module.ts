@@ -2,11 +2,11 @@ import { Module } from '@nestjs/common';
 import { PrismaService } from 'src/prisma.service';
 import { DgmuModule } from '../dgmu/dgmu.module';
 import { StudentModule } from '../student/student.module';
-import { GradeService } from './grade.service';
+import { RatingBySemesterService } from './rating-by-semester.service';
 
 @Module({
   imports: [StudentModule, DgmuModule],
-  providers: [GradeService, PrismaService],
-  exports: [GradeService]
+  providers: [RatingBySemesterService, PrismaService],
+  exports: [RatingBySemesterService]
 })
-export class GradeModule {}
+export class RatingBySemesterModule {}

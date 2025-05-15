@@ -1,22 +1,22 @@
 import { Injectable } from '@nestjs/common';
-import { ControlType, GradeStatus, RatingStatus, Student } from '@prisma/client';
+import { ControlType, EventStatus, GradeStatus, Student } from '@prisma/client';
 import * as cheerio from 'cheerio';
 import { ruDateToJSDate } from 'src/common/utils/ru-date-to-js-date';
-import { DgmuHelperService } from './dgmu-helper.service';
-import { AllSubjectsWithGradeDto } from './dto/all-subjects-with-grade.dto';
-import { SubjectsWithGradeDto, SubjectsWithGradeDtoItem } from './dto/subjects-with-grade.dto';
-import { RatingDtoItem, SubjectsWithRatingDto } from './dto/subjects-with-rating.dto';
+import { DgmuRouterService } from './dgmu-router.service';
+import { DgmuEvent, DgmuSubjectListWithEventList } from './types/dgmu-subject-list-with-event-list';
+import { DgmuSubjectListWithGrade, DgmuSubjectWithGrade } from './types/dgmu-subject-list-with-grade';
+import { DgmuSubjectListWithGradeByAllSemesters } from './types/dgmu-subject-list-with-grade-by-all-semesters';
 
 @Injectable()
 export class DgmuService {
 	constructor(
-		private dgmuHelperService: DgmuHelperService
+		private dgmuRouterService: DgmuRouterService
 	) {}
 
-	private parseSubjectsWithGrade($: cheerio.CheerioAPI, semester: Student['semester']) {
+	private parseSubjectListWithGrade($: cheerio.CheerioAPI, semester: Student['semester']) {
 		return $(`#tab-0-${semester - 1} tbody tr`)
 			.map((_, subjectEl) => {
-				const gradeItem: Partial<SubjectsWithGradeDtoItem> = {}
+				const subjectWithGrade: Partial<DgmuSubjectWithGrade> = {}
 
 				const handleValue = (value: string | null) => value.length > 0 ? value : null
 
@@ -46,33 +46,33 @@ export class DgmuService {
 					'Неудовлетворительно': GradeStatus.FAIL
 				}
 
-				gradeItem.name = name
-				gradeItem.controlType = controlTypeMap[controlType] ?? null
-				gradeItem.date = ruDateToJSDate(date)
+				subjectWithGrade.name = name
+				subjectWithGrade.controlType = controlTypeMap[controlType] ?? null
+				subjectWithGrade.date = ruDateToJSDate(date)
 
 				if (result) {
-					gradeItem.status = statusMap[result] ?? GradeStatus.EMPTY
-					gradeItem.mark = markMap[result] ?? null
+					subjectWithGrade.status = statusMap[result] ?? GradeStatus.EMPTY
+					subjectWithGrade.mark = markMap[result] ?? null
 				} else {
-					gradeItem.status = GradeStatus.EMPTY
-					gradeItem.mark = null
+					subjectWithGrade.status = GradeStatus.EMPTY
+					subjectWithGrade.mark = null
 				}
 		
-				return gradeItem as Required<SubjectsWithGradeDtoItem>
+				return subjectWithGrade as DgmuSubjectWithGrade
 			})
 			.get()
 	}
 
-	private parseSubjectsWithRating($: cheerio.CheerioAPI) {
+	private parseSubjectListWithEventList($: cheerio.CheerioAPI) {
 		return $('#journal_tag .mobileView .accordion-item')
 			.map((_, subjectEl) => {
 				const h2 = $(subjectEl).find('h2').text()
 				const name = h2.slice(0, h2.indexOf('(') - 1)
 
-				const rating = $(subjectEl)
+				const eventList = $(subjectEl)
 					.find('tbody tr').get()
 					.map(item => {
-						const ratingItem: Partial<RatingDtoItem> = {}
+						const event: Partial<DgmuEvent> = {}
 
 						const [dateEl, markEl] = $(item).find('td').get()
 
@@ -80,103 +80,103 @@ export class DgmuService {
 						const markStr = $(markEl).text().trim()
 						const markClass = $(markEl).attr('class').trim()
 
-						ratingItem.date = dateStr ? ruDateToJSDate(dateStr) : null
+						event.date = dateStr ? ruDateToJSDate(dateStr) : null
 
 						if (markClass === 'propusk') {
-							ratingItem.status = RatingStatus.ABSENCE
-							ratingItem.mark = null
+							event.status = EventStatus.ABSENCE
+							event.mark = null
 						}
 						else if (markClass === 'upworked') {
-							ratingItem.status = RatingStatus.UPWORKED
-							ratingItem.mark = null
+							event.status = EventStatus.UPWORKED
+							event.mark = null
 						}
 						else {
 							const mark = Number(markStr)
 
 							if (markStr.length > 0 && !isNaN(mark)) {
-								ratingItem.status = RatingStatus.MARK
-								ratingItem.mark = mark
+								event.status = EventStatus.MARK
+								event.mark = mark
 							} else {
-								ratingItem.mark = null
-								ratingItem.status = RatingStatus.EMPTY
+								event.mark = null
+								event.status = EventStatus.EMPTY
 							}
 						}
 
-						return ratingItem as Required<RatingDtoItem>
+						return event as DgmuEvent
 					})
 
-				return { name, rating }
+				return { name, eventList }
 			})
 			.get()
 	}
 
-	private async getSubjectsWithGrade(sessid: string, semester: Student['semester']) {
-		const gradePage = await this.dgmuHelperService.getGradePage(sessid)
+	private async getSubjectListWithGrade(sessid: string, semester: Student['semester']): Promise<DgmuSubjectListWithGrade> {
+		const gradePage = await this.dgmuRouterService.getGradePage(sessid)
 		
 		const $ = cheerio.load(gradePage)
 
-		return this.parseSubjectsWithGrade($, semester)
+		return this.parseSubjectListWithGrade($, semester)
 	}
 
-	private async getAllSubjectsWithGrade(sessid: string) {
-		const gradePage = await this.dgmuHelperService.getGradePage(sessid)
+	private async getSubjectListWithGradeByAllSemesters(sessid: string): Promise<DgmuSubjectListWithGradeByAllSemesters> {
+		const gradePage = await this.dgmuRouterService.getGradePage(sessid)
 
 		const $ = cheerio.load(gradePage)
 
 		return Array(12).fill(null).map((_, index) => {
 			const semester = index + 1
 
-			const subjects = this.parseSubjectsWithGrade($, semester)
+			const subjectList = this.parseSubjectListWithGrade($, semester)
 
-			return { semester, subjects }
+			return { semester, subjectList }
 		})
 	}
 
-	private async getSubjectsWithRating(sessid: string, semester: Student['semester']) {
-		const ratingPage = await this.dgmuHelperService.getRatingPage(sessid, semester)
+	private async getSubjectListWithEventList(sessid: string, semester: Student['semester']): Promise<DgmuSubjectListWithEventList> {
+		const eventsPage = await this.dgmuRouterService.getEventsPage(sessid, semester)
 
-		const $ = cheerio.load(ratingPage)
+		const $ = cheerio.load(eventsPage)
 
-		return this.parseSubjectsWithRating($)
+		return this.parseSubjectListWithEventList($)
 	}
 
 	async findManyOrThrow<
 		G extends boolean = false,
-		AG extends boolean = false,
-		R extends boolean = false
+		GA extends boolean = false,
+		E extends boolean = false
 	>(
 		dto: Pick<Student, 'fullName' | 'password' | 'semester'>,
-		select?: {grade?: G, allGrade?: AG, rating?: R}
+		include?: {grade?: G, gradeByAllSemesters?: GA, eventList?: E}
 	) {
-		const sessid = await this.dgmuHelperService.getSessidOrThrow(dto)
+		const sessid = await this.dgmuRouterService.getSessidOrThrow(dto)
 
-		const [subjectsWithGrade, allSubjectsWithGrade, subjectsWithRating] = await Promise.all([
-			select?.grade ? this.getSubjectsWithGrade(sessid, dto.semester) : null,
-			select?.allGrade ? this.getAllSubjectsWithGrade(sessid) : null,
-			select?.rating ? this.getSubjectsWithRating(sessid, dto.semester) : null,
+		const [subjectListWithGrade, subjectListWithGradeByAllSemesters, subjectListWithEventList] = await Promise.all([
+			include?.grade ? this.getSubjectListWithGrade(sessid, dto.semester) : null,
+			include?.gradeByAllSemesters ? this.getSubjectListWithGradeByAllSemesters(sessid) : null,
+			include?.eventList ? this.getSubjectListWithEventList(sessid, dto.semester) : null,
 		])
 
-		if (!select?.grade && !select?.allGrade && !select?.rating) return
+		if (!include?.grade && !include?.gradeByAllSemesters && !include?.eventList) return
 
-		const result: Record<string, any> = {}
+		const result: Record<string, unknown> = {}
 
-		if (subjectsWithGrade) {
-			result.subjectsWithGrade = subjectsWithGrade
+		if (subjectListWithGrade) {
+			result.subjectListWithGrade = subjectListWithGrade
 		}
 
-		if (allSubjectsWithGrade) {
-			result.allSubjectsWithGrade = allSubjectsWithGrade
+		if (subjectListWithGradeByAllSemesters) {
+			result.subjectListWithGradeByAllSemesters = subjectListWithGradeByAllSemesters
 		}
 
-		if (subjectsWithRating) {
-			result.subjectsWithRating = subjectsWithRating
+		if (subjectListWithEventList) {
+			result.subjectListWithEventList = subjectListWithEventList
 		}
 
-		type Grade = {[key in G extends true ? 'subjectsWithGrade' : never]: SubjectsWithGradeDto}
-		type GradeList = {[key in AG extends true ? 'allSubjectsWithGrade' : never]: AllSubjectsWithGradeDto}
-		type Rating = {[key in R extends true ? 'subjectsWithRating' : never]: SubjectsWithRatingDto}
+		type Grade = {[key in G extends true ? 'subjectListWithGrade' : never]: typeof subjectListWithGrade}
+		type GradeByAllSemesters = {[key in GA extends true ? 'subjectListWithGradeByAllSemesters' : never]: typeof subjectListWithGradeByAllSemesters}
+		type EventList = {[key in E extends true ? 'subjectListWithEventList' : never]: typeof subjectListWithEventList}
 
-		type Result = Grade & GradeList & Rating
+		type Result = Grade & GradeByAllSemesters & EventList
 
 		return result as Result
 	}

@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/prisma.service';
 import { CreateStudentDto } from './dto/create-student.dto';
 import { UpdateStudentDto } from './dto/update-student.dto';
-import { UpsertStudentDto } from './dto/upsert-student.dto';
 
 @Injectable()
 export class StudentService {
@@ -10,6 +9,10 @@ export class StudentService {
 
 	private course(semester: number) {
 		return {course: Math.ceil(semester / 2)}
+	}
+
+	async findAll() {
+		return await this.prisma.student.findMany()
 	}
 
 	async findById(id: number) {
@@ -37,20 +40,6 @@ export class StudentService {
 			where: { id },
 			data: Object.assign(
 				dto, dto.semester && this.course(dto.semester)
-			)
-		})
-	}
-
-	async upsertByFullName(fullName: string, dto: UpsertStudentDto) {
-		const {update, create} = dto
-
-		return await this.prisma.student.upsert({
-			where: { fullName },
-			update: Object.assign(
-				update, update.semester && this.course(update.semester)
-			),
-			create: Object.assign(
-				create, create.semester && this.course(create.semester)
 			)
 		})
 	}

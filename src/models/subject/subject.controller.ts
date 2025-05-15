@@ -1,6 +1,6 @@
 import { Controller, Get, Param, Patch } from '@nestjs/common';
 import { Auth } from '../auth/decorators/auth.decorator';
-import { CurrentStudent } from '../student/decorator/student.decorator';
+import { CurrentStudent } from '../student/decorators/student.decorator';
 import { SubjectService } from './subject.service';
 
 @Controller('subject')
@@ -31,9 +31,9 @@ export class SubjectController {
     return this.subjectService.viewGradeById(+id)
   }
 
-  @Patch('rating/view/:id')
+  @Patch('events/view/:id')
   @Auth()
   viewRatingById(@Param('id') id: string) {
-    return this.subjectService.viewRatingById(+id)
+    return this.subjectService.viewEventById(+id)
   }
 }

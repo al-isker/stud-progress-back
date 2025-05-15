@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { Student } from '@prisma/client';
 import { DgmuService } from '../dgmu/dgmu.service';
 import { GradeService } from '../grade/grade.service';
-import { RatingService } from '../rating/rating.service';
+import { RatingBySemesterService } from '../rating-by-semester/rating-by-semester.service';
 import { StudentService } from '../student/student.service';
 
 @Injectable()
@@ -10,28 +10,28 @@ export class SubjectHelperService {
 	constructor(
 		private studentService: StudentService,
 		private gradeService: GradeService,
-		private ratingService: RatingService,
+		private ratingBySemesterService: RatingBySemesterService,
 		private dgmuService: DgmuService
 	) {}
 
-	async someUpdate(student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>) {
-		const { subjectsWithGrade, subjectsWithRating } = await this.dgmuService.findManyOrThrow(student, {
-			grade: true,
-			rating: true
+	async createAll(student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>) {
+		const { subjectListWithGradeByAllSemesters, subjectListWithEventList } = await this.dgmuService.findManyOrThrow(student, {
+			gradeByAllSemesters: true,
+			eventList: true
 		})
 
-		await this.gradeService.someUpdate(subjectsWithGrade, student)
-		await this.ratingService.someUpdate(subjectsWithRating, student)
+		await this.gradeService.createAll(subjectListWithGradeByAllSemesters, student)
+		await this.ratingBySemesterService.someUpdate(subjectListWithEventList, student)
 	}
 
-	async someUpdateAll(student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>) {
-		const { allSubjectsWithGrade, subjectsWithRating } = await this.dgmuService.findManyOrThrow(student, {
-			allGrade: true,
-			rating: true
+	async someUpdate(student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>) {
+		const { subjectListWithGrade, subjectListWithEventList } = await this.dgmuService.findManyOrThrow(student, {
+			grade: true,
+			eventList: true
 		})
 
-		await this.gradeService.someUpdateAll(allSubjectsWithGrade, student)
-		await this.ratingService.someUpdate(subjectsWithRating, student)
+		await this.gradeService.someUpdate(subjectListWithGrade, student)
+		await this.ratingBySemesterService.someUpdate(subjectListWithEventList, student)
 	}
 
 	async specificUpdate(studentId: number) {

@@ -1,18 +1,18 @@
 import { Injectable } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
-import { PrismaService } from 'src/prisma.service';
+import { StudentService } from '../student/student.service';
 import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 
 @Injectable()
 export class SchedulerService {
 	constructor(
-		private prisma: PrismaService,
+		private studentService: StudentService,
 		private subjectHelperService: SubjectHelperService
 	) {}
 
 	@Cron(CronExpression.EVERY_HOUR)
 	async updateSubjects() {
-		const students = await this.prisma.student.findMany();
+		const students = await this.studentService.findAll();
 
 		for (const student of students) {
 			this.subjectHelperService.someUpdate(student)

@@ -9,141 +9,131 @@ export class SubjectService {
 		private studentService: StudentService
 	) {}
 
-	mapName(subjects: any) {
-		return subjects.map(item => {
-			const {name, ...subject} = item
-
-			return {
-				name: name.name,
-				...subject
-			}
-		})
-	}
-
 	async getAll(studentId: number) {
 		const student = await this.studentService.findById(studentId)
 
-		const subjects = await this.prisma.subject.findMany({
+		const subjectList = await this.prisma.subject.findMany({
 			where: {
 				studentId: student.id,
-				semesters: {
-					some: {
-						number: student.semester
-					}
+				grade: {
+					semester: student.semester
 				}
 			},
-			select: {
-				id: true,
-				name: {
-					select: {
-						name: true	
+			include: {
+				name: true,
+				ratingBySemesterList: {
+					include: {
+						eventList: true
 					}
 				},
-				controlType: true,
-				averageMark: true,
-				semesters: {
-					select: {
-						number: true
-					}
-				},
-				rating: {
-					select: {
-						id: true,
-						date: true,
-						mark: true,
-						status: true,
-						isNew: true
-					}
-				},
-				grade: {
-					select: {
-						id: true,
-						date: true,
-						mark: true,
-						status: true,
-						isNew: true
-					}
-				}
+				grade: true
 			}
 		})
 
-		return this.mapName(subjects);
+		return subjectList.map(subject => ({
+			id: subject.id,
+			name: subject.name.name,
+			controlType: subject.controlType,
+			ratingBySemesterList: subject.ratingBySemesterList.map(ratingBySemester => ({
+				id: ratingBySemester.id,
+				semester: ratingBySemester.semester,
+				averageMark: ratingBySemester.averageMark,
+				eventList: ratingBySemester.eventList.map(event => ({
+					id: event.id,
+					status: event.status,
+					date: event.date,
+					mark: event.mark,
+					isNew: event.isNew
+				}))
+			})),
+			grade: {
+				id: subject.grade.id,
+				semester: subject.grade.semester,
+				status: subject.grade.status,
+				date: subject.grade.date,
+				mark: subject.grade.mark,
+				isNew: subject.grade.isNew
+			}
+		}))
 	}
 
 	async getGradeAll(studentId: number) {
 		const student = await this.studentService.findById(studentId)
 
-		const subjects = await this.prisma.subject.findMany({
+		const subjectList = await this.prisma.subject.findMany({
 			where: {
 				studentId: student.id,
-				semesters: {
-					some: {
-						number: student.semester
-					}
+				grade: {
+					semester: student.semester
 				}
 			},
-			select: {
-				id: true,
+			include:{
 				name: true,
-				averageMark: true,
-				controlType: true,
-				semesters: {
-					select: {
-						number: true
-					}
-				},
-				grade: {
-					select: {
-						id: true,
-						date: true,
-						mark: true,
-						status: true,
-						isNew: true
-					}
-				}
+				ratingBySemesterList: true,
+				grade: true
 			}
 		})
 
-		return this.mapName(subjects);
+		return subjectList.map(subject => ({
+			id: subject.id,
+			name: subject.name.name,
+			controlType: subject.controlType,
+			ratingBySemesterList: subject.ratingBySemesterList.map(ratingBySemester => ({
+				id: ratingBySemester.id,
+				semester: ratingBySemester.semester,
+				averageMark: ratingBySemester.averageMark
+			})),
+			grade: {
+				id: subject.grade.id,
+				semester: subject.grade.semester,
+				status: subject.grade.status,
+				date: subject.grade.date,
+				mark: subject.grade.mark,
+				isNew: subject.grade.isNew
+			}
+		}))
 	}
 
 	async getRatingAll(studentId: number) {
 		const student = await this.studentService.findById(studentId)
 
-		const subjects = await this.prisma.subject.findMany({
+		const subjectList = await this.prisma.subject.findMany({
 			where: {
 				studentId: student.id,
-				semesters: {
-					some: {
-						number: student.semester
-					}
+				grade: {
+					semester: student.semester
 				}
 			},
-			select: {
-				id: true,
+			include: {
 				name: true,
-				controlType: true,
-				averageMark: true,
-				semesters: {
-					select: {
-						number: true
-					}
-				},
-				rating: {
-					select: {
-						id: true,
-						date: true,
-						mark: true,
-						status: true,
-						isNew: true
+				ratingBySemesterList: {
+					where: {
+						semester: student.semester
+					},
+					include: {
+						eventList: true
 					}
 				}
 			}
 		})
 
-		return this.mapName(subjects);
+		return subjectList.map(subject => ({
+			id: subject.id,
+			name: subject.name.name,
+			controlType: subject.controlType,
+			ratingByCurrentSemester: subject.ratingBySemesterList[0] ? {
+				averageMark: subject.ratingBySemesterList[0].averageMark,
+				eventList: subject.ratingBySemesterList[0].eventList.map(event => ({
+					id: event.id,
+					status: event.status,
+					date: event.date,
+					mark: event.mark,
+					isNew: event.isNew
+				}))
+			} : null
+		}))
 	}
-	
+
 	async viewGradeById(id: number) {
 		await this.prisma.grade.update({
 			where: { id },
@@ -151,8 +141,8 @@ export class SubjectService {
 		})
 	}
 
-	async viewRatingById(id: number) {
-		await this.prisma.rating.update({
+	async viewEventById(id: number) {
+		await this.prisma.event.update({
 			where: { id },
 			data: { isNew: false }
 		})

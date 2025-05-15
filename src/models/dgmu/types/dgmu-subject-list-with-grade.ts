@@ -1,6 +1,6 @@
 import { ControlType, GradeStatus } from '@prisma/client';
 
-export class SubjectsWithGradeDtoItem {
+export interface DgmuSubjectWithGrade {
 	name: string;
 	controlType: ControlType;
 	date: Date;
@@ -8,4 +8,4 @@ export class SubjectsWithGradeDtoItem {
 	mark: number;
 }
 
-export type SubjectsWithGradeDto = SubjectsWithGradeDtoItem[];
+export type DgmuSubjectListWithGrade = DgmuSubjectWithGrade[];
