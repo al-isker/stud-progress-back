@@ -10,17 +10,17 @@ export class ProfileController {
 
   @Get()
   @Auth()
-  async get(@CurrentStudent() studentId: number) {
-    return await this.profileService.getByStudentId(studentId)
+  getByStudentId(@CurrentStudent() studentId: number) {
+    return this.profileService.getByStudentId(studentId)
   }
 
   @Patch('update-semester')
   @Auth()
   @UsePipes(new ValidationPipe())
-  async updateSemester(
+  updateSemester(
     @CurrentStudent() studentId: number,
     @Body() dto: UpdateSemesterDto
   ) {
-    return await this.profileService.updateSemester(studentId, dto)
+    return this.profileService.updateSemester(studentId, dto)
   }
 }
