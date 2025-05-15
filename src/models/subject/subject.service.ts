@@ -94,6 +94,18 @@ export class SubjectService {
 		}))
 	}
 
+	async getCountGradeNews(studentId: number) {
+		const student = await this.studentService.findById(studentId)
+
+		return await this.prisma.grade.count({
+			where: {
+				subject: { studentId },
+				semester: student.semester,
+				isNew: true
+			}
+		})
+	}
+
 	async getAllWithRating(studentId: number) {
 		const student = await this.studentService.findById(studentId)
 
@@ -132,6 +144,20 @@ export class SubjectService {
 				}))
 			} : null
 		}))
+	}
+
+	async getCountRatingNews(studentId: number) {
+		const student = await this.studentService.findById(studentId)
+
+		return await this.prisma.event.count({
+			where: {
+				ratingBySemester: {
+					subject: { studentId },
+					semester: student.semester
+				},
+				isNew: true
+			}
+		})
 	}
 
 	async viewGradeBySubjectId(subjectId: number) {

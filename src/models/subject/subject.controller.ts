@@ -19,10 +19,22 @@ export class SubjectController {
     return this.subjectService.getAllWithGrade(studentId)
   }
 
+  @Get('grade/count-news')
+  @Auth()
+  getCountGradeNews(@CurrentStudent() studentId: number) {
+    return this.subjectService.getCountGradeNews(studentId)
+  }
+
   @Get('rating')
   @Auth()
   getAllWithRating(@CurrentStudent() studentId: number) {
     return this.subjectService.getAllWithRating(studentId)
+  }
+
+  @Get('rating/count-news')
+  @Auth()
+  getCountRatingNews(@CurrentStudent() studentId: number) {
+    return this.subjectService.getCountRatingNews(studentId)
   }
 
   @Patch(':id/view-grade')

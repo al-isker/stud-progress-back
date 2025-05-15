@@ -13,7 +13,7 @@ export class AuthController {
     @Res({passthrough: true}) res: Response, 
     @Body() dto: LoginDto
   ) {
-    return this.authService.login(res, dto) 
+    return this.authService.login(res, dto)
   }
 
   @Post('refresh-token')
