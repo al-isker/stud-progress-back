@@ -15,25 +15,25 @@ export class SubjectController {
 
   @Get('grade')
   @Auth()
-  getGradeAll(@CurrentStudent() studentId: number) {
-    return this.subjectService.getGradeAll(studentId)
+  getAllWithGrade(@CurrentStudent() studentId: number) {
+    return this.subjectService.getAllWithGrade(studentId)
   }
 
   @Get('rating')
   @Auth()
-  getRatingAll(@CurrentStudent() studentId: number) {
-    return this.subjectService.getRatingAll(studentId)
+  getAllWithRating(@CurrentStudent() studentId: number) {
+    return this.subjectService.getAllWithRating(studentId)
   }
 
-  @Patch('grade/view/:id')
+  @Patch(':id/view-grade')
   @Auth()
-  viewGradeById(@Param('id') id: string) {
-    return this.subjectService.viewGradeById(+id)
+  viewGradeBySubjectId(@Param('id') id: string) {
+    return this.subjectService.viewGradeBySubjectId(+id)
   }
 
-  @Patch('events/view/:id')
+  @Patch(':id/view-events')
   @Auth()
-  viewRatingById(@Param('id') id: string) {
-    return this.subjectService.viewEventById(+id)
+  viewEventsBySubjectId(@Param('id') id: string) {
+    return this.subjectService.viewEventsBySubjectId(+id)
   }
 }

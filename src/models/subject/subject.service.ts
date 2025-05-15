@@ -57,7 +57,7 @@ export class SubjectService {
 		}))
 	}
 
-	async getGradeAll(studentId: number) {
+	async getAllWithGrade(studentId: number) {
 		const student = await this.studentService.findById(studentId)
 
 		const subjectList = await this.prisma.subject.findMany({
@@ -94,7 +94,7 @@ export class SubjectService {
 		}))
 	}
 
-	async getRatingAll(studentId: number) {
+	async getAllWithRating(studentId: number) {
 		const student = await this.studentService.findById(studentId)
 
 		const subjectList = await this.prisma.subject.findMany({
@@ -134,16 +134,18 @@ export class SubjectService {
 		}))
 	}
 
-	async viewGradeById(id: number) {
+	async viewGradeBySubjectId(subjectId: number) {
 		await this.prisma.grade.update({
-			where: { id },
+			where: { subjectId },
 			data: { isNew: false }
 		})
 	}
 
-	async viewEventById(id: number) {
-		await this.prisma.event.update({
-			where: { id },
+	async viewEventsBySubjectId(subjectId: number) {
+		await this.prisma.event.updateMany({
+			where: {
+				ratingBySemester: { subjectId }
+			},
 			data: { isNew: false }
 		})
 	}
