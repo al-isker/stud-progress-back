@@ -35,9 +35,7 @@ export class DgmuRouterService {
 		return value as string;
 	}
 
-	async getSessidOrThrow(
-		dto: Pick<Student, 'fullName' | 'password'>
-	) {
+	async getSessidOrThrow(dto: Pick<Student, 'fullName' | 'password'>) {
 		const startRes = await fetch('https://lk.dgmu.ru/user/sign-in/login');
 
 		const startPage = await startRes.text();

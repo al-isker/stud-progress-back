@@ -1,9 +1,11 @@
-import { Injectable, UnauthorizedException } from '@nestjs/common';
-import { JwtService } from '@nestjs/jwt';
 import { Request, Response } from 'express';
 import { REFRESH_TOKEN_KEY } from 'src/common/config/cookie.config';
 import { DgmuService } from 'src/models/dgmu/dgmu.service';
 import { StudentService } from 'src/models/student/student.service';
+
+import { Injectable, UnauthorizedException } from '@nestjs/common';
+import { JwtService } from '@nestjs/jwt';
+
 import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 import { LoginDto } from './dto/login.dto';
 
@@ -16,73 +18,72 @@ export class AuthService {
 		private dgmuService: DgmuService
 	) {}
 
-	private cookieOptions = { 
+	private cookieOptions = {
 		maxAge: 30 * 24 * 60 * 60 * 1000,
-		httpOnly: true, 
-		secure: false 
-	}
+		httpOnly: true,
+		secure: false
+	};
 
 	private async issueTokens(studentId: number) {
-		const data = {id: studentId};
+		const data = { id: studentId };
 
-		const accessToken = this.jwt.sign(data, { expiresIn: '1h' })
-		const refreshToken = this.jwt.sign(data, { expiresIn: '30d' })
+		const accessToken = this.jwt.sign(data, { expiresIn: '1h' });
+		const refreshToken = this.jwt.sign(data, { expiresIn: '30d' });
 
 		return { accessToken, refreshToken };
 	}
 
 	async login(res: Response, dto: LoginDto) {
-		dto.fullName = dto.fullName.trim()
-		dto.password = dto.password.trim()
+		dto.fullName = dto.fullName.trim();
+		dto.password = dto.password.trim();
 
-		await this.dgmuService.findManyOrThrow(dto)
+		await this.dgmuService.findManyOrThrow(dto);
 
-		let student = await this.studentService.findByFullName(dto.fullName)
+		let student = await this.studentService.findByFullName(dto.fullName);
 
 		if (student) {
-			student = await this.studentService.update(student.id, { 
+			student = await this.studentService.update(student.id, {
 				password: dto.password,
 				semester: dto.semester
-			})
+			});
 
-			await this.subjectHelperService.someUpdate(student)
-		} 
-		else {
-			student = await this.studentService.create(dto)
+			await this.subjectHelperService.someUpdate(student);
+		} else {
+			student = await this.studentService.create(dto);
 
-			await this.subjectHelperService.createAll(student)
+			await this.subjectHelperService.createAll(student);
 		}
 
-		const { accessToken, refreshToken } = await this.issueTokens(student.id)
+		const { accessToken, refreshToken } = await this.issueTokens(student.id);
 
-		res.cookie(REFRESH_TOKEN_KEY, refreshToken, this.cookieOptions)
+		res.cookie(REFRESH_TOKEN_KEY, refreshToken, this.cookieOptions);
 
-		return { accessToken }
+		return { accessToken };
 	}
 
 	async refreshToken(req: Request, res: Response) {
 		let verifyResult: any;
 
 		try {
-			verifyResult = await this.jwt.verifyAsync(req.cookies.refreshToken)
+			verifyResult = await this.jwt.verifyAsync(req.cookies.refreshToken);
 		} catch {
-			throw new UnauthorizedException('Invalid refresh token')
+			throw new UnauthorizedException('Invalid refresh token');
 		}
 
-		const student = await this.studentService.findById(verifyResult.id)
+		const student = await this.studentService.findById(verifyResult.id);
 
 		if (student) {
-			const {accessToken, refreshToken} = await this.issueTokens(student.id)
+			const { accessToken, refreshToken } = await this.issueTokens(student.id);
 
-			res.cookie(REFRESH_TOKEN_KEY, refreshToken, this.cookieOptions)
+			res.cookie(REFRESH_TOKEN_KEY, refreshToken, this.cookieOptions);
 
-			return { accessToken }
+			return { accessToken };
 		}
 
-		throw new UnauthorizedException('Student not found')
+		throw new UnauthorizedException('Student not found');
 	}
 
 	logout(res: Response) {
-		res.clearCookie(REFRESH_TOKEN_KEY)
+		res.clearCookie(REFRESH_TOKEN_KEY);
 	}
 }

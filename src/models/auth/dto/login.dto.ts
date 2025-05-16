@@ -1,12 +1,12 @@
-import { IsNumber, IsString } from 'class-validator'
+import { IsNumber, IsString } from 'class-validator';
 
 export class LoginDto {
 	@IsString()
-	fullName: string
+	fullName: string;
 
 	@IsString()
-	password: string
+	password: string;
 
 	@IsNumber()
-	semester: number
+	semester: number;
 }

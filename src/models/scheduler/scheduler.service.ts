@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
+
 import { StudentService } from '../student/student.service';
 import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 
@@ -15,7 +16,7 @@ export class SchedulerService {
 		const students = await this.studentService.findAll();
 
 		for (const student of students) {
-			this.subjectHelperService.someUpdate(student)
+			this.subjectHelperService.someUpdate(student);
 		}
 	}
 }
