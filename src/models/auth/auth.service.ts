@@ -25,7 +25,6 @@ export class AuthService {
 	private async issueTokens(studentId: number) {
 		const data = {id: studentId};
 
-		// access почему-то не кончается
 		const accessToken = this.jwt.sign(data, { expiresIn: '1h' })
 		const refreshToken = this.jwt.sign(data, { expiresIn: '30d' })
 
