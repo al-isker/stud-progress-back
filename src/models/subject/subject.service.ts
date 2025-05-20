@@ -101,13 +101,15 @@ export class SubjectService {
 	async getCountGradeNews(studentId: number) {
 		const student = await this.studentService.findById(studentId);
 
-		return await this.prisma.grade.count({
+		const count = await this.prisma.grade.count({
 			where: {
 				subject: { studentId },
 				semester: student.semester,
 				isNew: true
 			}
 		});
+
+		return { count };
 	}
 
 	async getAllWithRating(studentId: number) {
@@ -155,7 +157,7 @@ export class SubjectService {
 	async getCountRatingNews(studentId: number) {
 		const student = await this.studentService.findById(studentId);
 
-		return await this.prisma.event.count({
+		const count = await this.prisma.event.count({
 			where: {
 				ratingBySemester: {
 					subject: { studentId },
@@ -164,6 +166,8 @@ export class SubjectService {
 				isNew: true
 			}
 		});
+
+		return { count };
 	}
 
 	async viewGradeBySubjectId(subjectId: number) {
