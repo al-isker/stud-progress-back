@@ -1,7 +1,5 @@
 import { PrismaService } from 'src/prisma.service';
-
 import { Module } from '@nestjs/common';
-
 import { StudentModule } from '../student/student.module';
 import { SubjectController } from './subject.controller';
 import { SubjectService } from './subject.service';

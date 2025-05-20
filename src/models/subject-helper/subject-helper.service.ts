@@ -1,7 +1,5 @@
 import { Student } from '@prisma/client';
-
 import { Injectable } from '@nestjs/common';
-
 import { DgmuService } from '../dgmu/dgmu.service';
 import { GradeService } from '../grade/grade.service';
 import { RatingBySemesterService } from '../rating-by-semester/rating-by-semester.service';

@@ -1,7 +1,5 @@
 import { Module } from '@nestjs/common';
-import { ConfigModule } from '@nestjs/config';
 import { ScheduleModule } from '@nestjs/schedule';
-
 import { AuthModule } from './models/auth/auth.module';
 import { DgmuModule } from './models/dgmu/dgmu.module';
 import { GradeModule } from './models/grade/grade.module';
@@ -11,13 +9,14 @@ import { SchedulerModule } from './models/scheduler/scheduler.module';
 import { StudentModule } from './models/student/student.module';
 import { SubjectUpdaterModule } from './models/subject-helper/subject-helper.module';
 import { SubjectModule } from './models/subject/subject.module';
+import { TokenModule } from './models/token/token.module';
 import { PrismaService } from './prisma.service';
 
 @Module({
 	imports: [
-		ConfigModule.forRoot(),
 		ScheduleModule.forRoot(),
 		StudentModule,
+		TokenModule,
 		AuthModule,
 		ProfileModule,
 		SubjectModule,

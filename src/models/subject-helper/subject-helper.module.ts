@@ -1,5 +1,4 @@
 import { Module } from '@nestjs/common';
-
 import { DgmuModule } from '../dgmu/dgmu.module';
 import { GradeModule } from '../grade/grade.module';
 import { RatingBySemesterModule } from '../rating-by-semester/rating-by-semester.module';

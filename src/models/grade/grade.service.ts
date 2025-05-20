@@ -1,8 +1,6 @@
 import { GradeStatus, Student } from '@prisma/client';
 import { PrismaService } from 'src/prisma.service';
-
 import { Injectable } from '@nestjs/common';
-
 import { DgmuService } from '../dgmu/dgmu.service';
 import { DgmuSubjectListWithGrade } from '../dgmu/types/dgmu-subject-list-with-grade';
 import { DgmuSubjectListWithGradeByAllSemesters } from '../dgmu/types/dgmu-subject-list-with-grade-by-all-semesters';

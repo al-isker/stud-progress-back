@@ -8,14 +8,25 @@ datasource db {
 }
 
 model Student {
-  id       Int       @id @default(autoincrement())
-  fullName String    @unique @map("full_name")
-  password String
-  course   Int
-  semester Int
-  subjects Subject[]
+  id           Int           @id @default(autoincrement())
+  fullName     String        @unique @map("full_name")
+  password     String
+  refreshToken RefreshToken?
+  course       Int
+  semester     Int
+  subjects     Subject[]
 
   @@map("student")
+}
+
+model RefreshToken {
+  id           Int      @id @default(autoincrement())
+  refreshToken String   @unique @map("refresh_token")
+  expiredAt    DateTime @map("expired_at")
+  student      Student  @relation(fields: [studentId], references: [id])
+  studentId    Int      @unique @map("student_id")
+
+  @@map("refresh_token")
 }
 
 model Subject {

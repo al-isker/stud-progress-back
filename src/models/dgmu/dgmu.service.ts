@@ -1,9 +1,6 @@
 import { ControlType, EventStatus, GradeStatus, Student } from '@prisma/client';
 import * as cheerio from 'cheerio';
-import { ruDateToJSDate } from 'src/common/utils/ru-date-to-js-date';
-
 import { Injectable } from '@nestjs/common';
-
 import { DgmuRouterService } from './dgmu-router.service';
 import {
 	DgmuEvent,
@@ -14,6 +11,7 @@ import {
 	DgmuSubjectWithGrade
 } from './types/dgmu-subject-list-with-grade';
 import { DgmuSubjectListWithGradeByAllSemesters } from './types/dgmu-subject-list-with-grade-by-all-semesters';
+import { ruDateToJSDate } from './utils/ru-date-to-js-date';
 
 @Injectable()
 export class DgmuService {

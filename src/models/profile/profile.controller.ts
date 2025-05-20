@@ -1,15 +1,6 @@
 import { Auth } from 'src/models/auth/decorators/auth.decorator';
 import { CurrentStudent } from 'src/models/student/decorators/student.decorator';
-
-import {
-	Body,
-	Controller,
-	Get,
-	Patch,
-	UsePipes,
-	ValidationPipe
-} from '@nestjs/common';
-
+import { Body, Controller, Get, Patch } from '@nestjs/common';
 import { UpdateSemesterDto } from './dto/update-semester.dto';
 import { ProfileService } from './profile.service';
 
@@ -25,7 +16,6 @@ export class ProfileController {
 
 	@Patch('update-semester')
 	@Auth()
-	@UsePipes(new ValidationPipe())
 	updateSemester(
 		@CurrentStudent() studentId: number,
 		@Body() dto: UpdateSemesterDto

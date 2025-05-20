@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
-
 import { StudentService } from '../student/student.service';
 import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 

@@ -1,12 +1,11 @@
 import { Student } from '@prisma/client';
 import * as cheerio from 'cheerio';
-import { objectToFormData } from 'src/common/utils/object-to-form-data';
-
 import {
 	Injectable,
 	ServiceUnavailableException,
 	UnauthorizedException
 } from '@nestjs/common';
+import { objectToFormData } from './utils/object-to-form-data';
 
 @Injectable()
 export class DgmuRouterService {

@@ -1,42 +1,19 @@
-import { Request, Response } from 'express';
-
-import {
-	Body,
-	Controller,
-	Post,
-	Req,
-	Res,
-	UsePipes,
-	ValidationPipe
-} from '@nestjs/common';
-
+import { Body, Controller, Post } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { LoginDto } from './dto/login.dto';
+import { RefreshTokenDto } from './dto/refresh-token.dto';
 
 @Controller('auth')
 export class AuthController {
 	constructor(private readonly authService: AuthService) {}
 
 	@Post('login')
-	@UsePipes(new ValidationPipe())
-	async login(
-		@Res({ passthrough: true }) res: Response,
-		@Body() dto: LoginDto
-	) {
-		return this.authService.login(res, dto);
+	login(@Body() dto: LoginDto) {
+		return this.authService.login(dto);
 	}
 
 	@Post('refresh-token')
-	@UsePipes(new ValidationPipe())
-	async refreshToken(
-		@Req() req: Request,
-		@Res({ passthrough: true }) res: Response
-	) {
-		return this.authService.refreshToken(req, res);
-	}
-
-	@Post('logout')
-	async logout(@Res({ passthrough: true }) res: Response) {
-		return this.authService.logout(res);
+	refreshToken(@Body() dto: RefreshTokenDto) {
+		return this.authService.refreshToken(dto);
 	}
 }

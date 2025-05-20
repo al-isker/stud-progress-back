@@ -1,7 +1,5 @@
 import { StudentService } from 'src/models/student/student.service';
-
 import { Injectable } from '@nestjs/common';
-
 import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 import { UpdateSemesterDto } from './dto/update-semester.dto';
 
