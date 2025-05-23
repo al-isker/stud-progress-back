@@ -1,4 +1,5 @@
 import { Event, Student } from '@prisma/client';
+import { isExist } from 'src/common/lib/light-lodash/is-exist';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { DgmuSubjectListWithEventList } from '../dgmu/types/dgmu-subject-list-with-event-list.type';
@@ -11,7 +12,7 @@ export class RatingBySemesterService {
 		let marksCount = 0;
 
 		const marksSum = eventList.reduce((sum, { mark }) => {
-			if (mark) {
+			if (isExist(mark)) {
 				marksCount++;
 
 				return sum + mark;
@@ -83,7 +84,7 @@ export class RatingBySemesterService {
 		}
 	}
 
-	async update(
+	async updateBySemester(
 		student: Pick<Student, 'id' | 'semester'>,
 		dgmuSubjectList: DgmuSubjectListWithEventList
 	) {

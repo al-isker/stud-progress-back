@@ -8,7 +8,7 @@ import { ProfileModule } from './models/profile/profile.module';
 import { RatingBySemesterModule } from './models/rating-by-semester/rating-by-semester.module';
 import { SchedulerModule } from './models/scheduler/scheduler.module';
 import { StudentModule } from './models/student/student.module';
-import { SubjectUpdaterModule } from './models/subject-helper/subject-helper.module';
+import { SubjectHelperModule } from './models/subject-helper/subject-helper.module';
 import { SubjectModule } from './models/subject/subject.module';
 import { TokenModule } from './models/token/token.module';
 
@@ -20,7 +20,7 @@ import { TokenModule } from './models/token/token.module';
 		AuthModule,
 		ProfileModule,
 		SubjectModule,
-		SubjectUpdaterModule,
+		SubjectHelperModule,
 		GradeModule,
 		RatingBySemesterModule,
 		DgmuModule,

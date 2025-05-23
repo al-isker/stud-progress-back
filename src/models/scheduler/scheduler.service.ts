@@ -15,7 +15,7 @@ export class SchedulerService {
 		const students = await this.studentService.findAll();
 
 		for (const student of students) {
-			this.subjectHelperService.update(student);
+			this.subjectHelperService.updateBySemester(student);
 		}
 	}
 }

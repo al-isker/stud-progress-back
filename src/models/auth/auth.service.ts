@@ -2,7 +2,6 @@ import { DgmuService } from 'src/models/dgmu/dgmu.service';
 import { StudentService } from 'src/models/student/student.service';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { StudentWithDecryptedPassword } from '../student/types/student-with-decrypted-password.type';
-import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 import { TokenService } from '../token/token.service';
 import { LoginDto } from './dto/login.dto';
 import { RefreshTokenDto } from './dto/refresh-token.dto';
@@ -12,14 +11,11 @@ export class AuthService {
 	constructor(
 		private studentService: StudentService,
 		private tokenService: TokenService,
-		private subjectHelperService: SubjectHelperService,
 		private dgmuService: DgmuService
 	) {}
 
 	private async signUp(dto: LoginDto) {
 		const student = await this.studentService.create(dto);
-
-		await this.subjectHelperService.createAll(student);
 
 		const issuedTokens = this.tokenService.issueTokens(student.id);
 
@@ -41,8 +37,6 @@ export class AuthService {
 				semester: dto.semester
 			});
 		}
-
-		await this.subjectHelperService.update(student);
 
 		const issuedTokens = this.tokenService.issueTokens(student.id);
 

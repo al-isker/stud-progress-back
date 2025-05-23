@@ -1,5 +1,6 @@
 import { ControlType, EventStatus, GradeStatus } from '@prisma/client';
 import * as cheerio from 'cheerio';
+import { isExist } from 'src/common/lib/light-lodash/is-exist';
 import { Injectable } from '@nestjs/common';
 import { DgmuRouterService } from './dgmu-router.service';
 import { DgmuStudentData } from './types/dgmu-student-data.type';
@@ -56,7 +57,7 @@ export class DgmuService {
 
 				subjectWithGrade.name = name;
 				subjectWithGrade.controlType = controlTypeMap[controlType] ?? null;
-				subjectWithGrade.date = ruDateToJSDate(date);
+				subjectWithGrade.date = isExist(date) ? ruDateToJSDate(date) : null;
 
 				if (result) {
 					subjectWithGrade.status = statusMap[result] ?? GradeStatus.EMPTY;
@@ -89,7 +90,7 @@ export class DgmuService {
 						const markStr = $(markEl).text().trim();
 						const markClass = $(markEl).attr('class').trim();
 
-						event.date = dateStr ? ruDateToJSDate(dateStr) : null;
+						event.date = isExist(dateStr) ? ruDateToJSDate(dateStr) : null;
 
 						if (markClass === 'propusk') {
 							event.status = EventStatus.ABSENCE;

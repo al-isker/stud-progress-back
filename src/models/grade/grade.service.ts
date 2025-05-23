@@ -51,7 +51,7 @@ export class GradeService {
 		);
 	}
 
-	async update(
+	async updateBySemester(
 		student: Pick<Student, 'id' | 'semester'>,
 		dgmuSubjectList: DgmuSubjectListWithGrade
 	) {

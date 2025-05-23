@@ -1,8 +1,10 @@
 import { Student } from '@prisma/client';
+import { isExist } from 'src/common/lib/light-lodash/is-exist';
 import { omit } from 'src/common/lib/light-lodash/omit';
 import { PrismaQueryData } from 'src/common/lib/prisma/types/prisma-query-data';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
+import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 import { PasswordService } from './password.service';
 import { CreateStudentData } from './types/create-student-data.type';
 import { UpdateStudentData } from './types/update-student-data.type';
@@ -11,16 +13,15 @@ import { UpdateStudentData } from './types/update-student-data.type';
 export class StudentService {
 	constructor(
 		private prisma: PrismaService,
-		private passwordService: PasswordService
+		private passwordService: PasswordService,
+		private subjectHelperService: SubjectHelperService
 	) {}
 
 	private calculateCourse(semester: number) {
 		return Math.ceil(semester / 2);
 	}
 
-	private mapWithDecryptedPassword(data?: Student) {
-		if (!data) return;
-
+	private mapWithDecryptedPassword(data: Student) {
 		const { encryptedPassword, ...restData } = data;
 
 		return Object.assign(restData, {
@@ -39,7 +40,9 @@ export class StudentService {
 			where: { id }
 		});
 
-		return this.mapWithDecryptedPassword(student);
+		if (student) {
+			return this.mapWithDecryptedPassword(student);
+		}
 	}
 
 	async findByFullName(fullName: string) {
@@ -47,7 +50,9 @@ export class StudentService {
 			where: { fullName }
 		});
 
-		return this.mapWithDecryptedPassword(student);
+		if (student) {
+			return this.mapWithDecryptedPassword(student);
+		}
 	}
 
 	async create(data: CreateStudentData) {
@@ -65,7 +70,11 @@ export class StudentService {
 			data: dataForCreate
 		});
 
-		return this.mapWithDecryptedPassword(student);
+		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
+
+		await this.subjectHelperService.createAll(studentWithDecryptedPassword);
+
+		return studentWithDecryptedPassword;
 	}
 
 	async update(id: number, data: UpdateStudentData) {
@@ -73,13 +82,13 @@ export class StudentService {
 
 		const dataForUpdate: DataForUpdateType = omit(data, 'password');
 
-		if (data.password) {
+		if (isExist(data.password)) {
 			dataForUpdate.encryptedPassword = this.passwordService.encrypt(
 				data.password
 			);
 		}
 
-		if (data.semester) {
+		if (isExist(data.semester)) {
 			dataForUpdate.course = this.calculateCourse(data.semester);
 		}
 
@@ -88,6 +97,14 @@ export class StudentService {
 			data: dataForUpdate
 		});
 
-		return this.mapWithDecryptedPassword(student);
+		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
+
+		if (isExist(data.semester)) {
+			await this.subjectHelperService.updateBySemester(
+				studentWithDecryptedPassword
+			);
+		}
+
+		return studentWithDecryptedPassword;
 	}
 }

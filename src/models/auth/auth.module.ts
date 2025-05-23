@@ -1,13 +1,12 @@
 import { DgmuModule } from 'src/models/dgmu/dgmu.module';
 import { StudentModule } from 'src/models/student/student.module';
 import { Module } from '@nestjs/common';
-import { SubjectUpdaterModule } from '../subject-helper/subject-helper.module';
 import { TokenModule } from '../token/token.module';
 import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 
 @Module({
-	imports: [StudentModule, TokenModule, SubjectUpdaterModule, DgmuModule],
+	imports: [StudentModule, TokenModule, DgmuModule],
 	controllers: [AuthController],
 	providers: [AuthService]
 })

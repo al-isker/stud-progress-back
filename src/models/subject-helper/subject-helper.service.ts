@@ -23,21 +23,21 @@ export class SubjectHelperService {
 			student,
 			subjectListWithGradeByAllSemesters
 		);
-		await this.ratingBySemesterService.update(
+		await this.ratingBySemesterService.updateBySemester(
 			student,
 			subjectListWithEventList
 		);
 	}
 
-	async update(student: StudentWithDecryptedPassword) {
+	async updateBySemester(student: StudentWithDecryptedPassword) {
 		const { subjectListWithGrade, subjectListWithEventList } =
 			await this.dgmuService.findManyOrThrow(student, {
 				grade: true,
 				eventList: true
 			});
 
-		await this.gradeService.update(student, subjectListWithGrade);
-		await this.ratingBySemesterService.update(
+		await this.gradeService.updateBySemester(student, subjectListWithGrade);
+		await this.ratingBySemesterService.updateBySemester(
 			student,
 			subjectListWithEventList
 		);

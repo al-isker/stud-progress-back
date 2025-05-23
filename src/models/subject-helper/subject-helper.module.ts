@@ -9,4 +9,4 @@ import { SubjectHelperService } from './subject-helper.service';
 	providers: [SubjectHelperService],
 	exports: [SubjectHelperService]
 })
-export class SubjectUpdaterModule {}
+export class SubjectHelperModule {}
