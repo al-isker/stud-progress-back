@@ -8,13 +8,13 @@ datasource db {
 }
 
 model Student {
-  id           Int           @id @default(autoincrement())
-  fullName     String        @unique @map("full_name")
-  password     String
-  refreshToken RefreshToken?
-  course       Int
-  semester     Int
-  subjects     Subject[]
+  id                Int           @id @default(autoincrement())
+  fullName          String        @unique @map("full_name")
+  encryptedPassword String        @map("encrypted_password")
+  refreshToken      RefreshToken?
+  course            Int
+  semester          Int
+  subjects          Subject[]
 
   @@map("student")
 }

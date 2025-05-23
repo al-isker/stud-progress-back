@@ -1,6 +1,7 @@
 import { ControlType, EventStatus, GradeStatus, Student } from '@prisma/client';
 import * as cheerio from 'cheerio';
 import { Injectable } from '@nestjs/common';
+import { StudentWithDecryptPassword } from '../student/types/student-with-decrypt-password.type';
 import { DgmuRouterService } from './dgmu-router.service';
 import {
 	DgmuEvent,
@@ -167,7 +168,7 @@ export class DgmuService {
 		GA extends boolean = false,
 		E extends boolean = false
 	>(
-		dto: Pick<Student, 'fullName' | 'password' | 'semester'>,
+		dto: Pick<StudentWithDecryptPassword, 'fullName' | 'password' | 'semester'>,
 		include?: { grade?: G; gradeByAllSemesters?: GA; eventList?: E }
 	) {
 		const sessid = await this.dgmuRouterService.getSessidOrThrow(dto);

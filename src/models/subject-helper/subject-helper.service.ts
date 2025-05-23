@@ -1,9 +1,9 @@
-import { Student } from '@prisma/client';
 import { Injectable } from '@nestjs/common';
 import { DgmuService } from '../dgmu/dgmu.service';
 import { GradeService } from '../grade/grade.service';
 import { RatingBySemesterService } from '../rating-by-semester/rating-by-semester.service';
 import { StudentService } from '../student/student.service';
+import { StudentWithDecryptPassword } from '../student/types/student-with-decrypt-password.type';
 
 @Injectable()
 export class SubjectHelperService {
@@ -14,9 +14,7 @@ export class SubjectHelperService {
 		private dgmuService: DgmuService
 	) {}
 
-	async createAll(
-		student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>
-	) {
+	async createAll(student: StudentWithDecryptPassword) {
 		const { subjectListWithGradeByAllSemesters, subjectListWithEventList } =
 			await this.dgmuService.findManyOrThrow(student, {
 				gradeByAllSemesters: true,
@@ -33,9 +31,7 @@ export class SubjectHelperService {
 		);
 	}
 
-	async someUpdate(
-		student: Pick<Student, 'id' | 'fullName' | 'password' | 'semester'>
-	) {
+	async someUpdate(student: StudentWithDecryptPassword) {
 		const { subjectListWithGrade, subjectListWithEventList } =
 			await this.dgmuService.findManyOrThrow(student, {
 				grade: true,

@@ -1,7 +1,7 @@
-import { Student } from '@prisma/client';
 import { DgmuService } from 'src/models/dgmu/dgmu.service';
 import { StudentService } from 'src/models/student/student.service';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
+import { StudentWithDecryptPassword } from '../student/types/student-with-decrypt-password.type';
 import { SubjectHelperService } from '../subject-helper/subject-helper.service';
 import { TokenService } from '../token/token.service';
 import { LoginDto } from './dto/login.dto';
@@ -31,7 +31,7 @@ export class AuthService {
 		return issuedTokens;
 	}
 
-	private async signIn(dto: LoginDto, student: Student) {
+	private async signIn(dto: LoginDto, student: StudentWithDecryptPassword) {
 		if (
 			dto.password !== student.password ||
 			dto.semester !== student.semester

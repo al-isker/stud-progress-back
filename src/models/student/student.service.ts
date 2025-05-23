@@ -1,42 +1,93 @@
+import { Student } from '@prisma/client';
+import { omit } from 'src/common/lib/light-lodash/omit';
+import { PrismaQueryData } from 'src/common/lib/prisma/types/prisma-query-data';
 import { PrismaService } from 'src/prisma.service';
 import { Injectable } from '@nestjs/common';
-import { CreateStudentDto } from './dto/create-student.dto';
-import { UpdateStudentDto } from './dto/update-student.dto';
+import { PasswordService } from './password.service';
+import { CreateStudentData } from './types/create-student-data.type';
+import { UpdateStudentData } from './types/update-student-data.type';
 
 @Injectable()
 export class StudentService {
-	constructor(private prisma: PrismaService) {}
+	constructor(
+		private prisma: PrismaService,
+		private passwordService: PasswordService
+	) {}
 
-	private course(semester: number) {
-		return { course: Math.ceil(semester / 2) };
+	private calculateCourse(semester: number) {
+		return Math.ceil(semester / 2);
+	}
+
+	private mapWithDecryptPassword(data?: Student) {
+		if (!data) return;
+
+		const { encryptedPassword, ...restData } = data;
+
+		return Object.assign(restData, {
+			password: this.passwordService.decrypt(encryptedPassword)
+		});
 	}
 
 	async findAll() {
-		return await this.prisma.student.findMany();
+		const students = await this.prisma.student.findMany();
+
+		return students.map(item => this.mapWithDecryptPassword(item));
 	}
 
 	async findById(id: number) {
-		return await this.prisma.student.findFirst({
+		const student = await this.prisma.student.findFirst({
 			where: { id }
 		});
+
+		return this.mapWithDecryptPassword(student);
 	}
 
 	async findByFullName(fullName: string) {
-		return await this.prisma.student.findFirst({
+		const student = await this.prisma.student.findFirst({
 			where: { fullName }
 		});
+
+		return this.mapWithDecryptPassword(student);
 	}
 
-	async create(dto: CreateStudentDto) {
-		return await this.prisma.student.create({
-			data: Object.assign(dto, this.course(dto.semester))
+	async create(data: CreateStudentData) {
+		const encryptedPassword = this.passwordService.encrypt(data.password);
+		const course = this.calculateCourse(data.semester);
+
+		const dataWithoutPassword = omit(data, 'password');
+
+		const dataForCreate = Object.assign(dataWithoutPassword, {
+			encryptedPassword,
+			course
 		});
+
+		const student = await this.prisma.student.create({
+			data: dataForCreate
+		});
+
+		return this.mapWithDecryptPassword(student);
 	}
 
-	async update(id: number, dto: UpdateStudentDto) {
-		return await this.prisma.student.update({
+	async update(id: number, data: UpdateStudentData) {
+		type DataForUpdateType = PrismaQueryData<typeof this.prisma.student.update>;
+
+		const dataForUpdate: DataForUpdateType = omit(data, 'password');
+
+		if (data.password) {
+			dataForUpdate.encryptedPassword = this.passwordService.encrypt(
+				data.password
+			);
+		}
+
+		if (data.semester) {
+			dataForUpdate.course = this.calculateCourse(data.semester);
+		}
+
+		const student = await this.prisma.student.update({
 			where: { id },
-			data: Object.assign(dto, dto.semester && this.course(dto.semester))
+			data: dataForUpdate
 		});
+
+		return this.mapWithDecryptPassword(student);
 	}
 }

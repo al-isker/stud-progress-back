@@ -5,6 +5,7 @@ import {
 	ServiceUnavailableException,
 	UnauthorizedException
 } from '@nestjs/common';
+import { StudentWithDecryptPassword } from '../student/types/student-with-decrypt-password.type';
 import { objectToFormData } from './utils/object-to-form-data';
 
 @Injectable()
@@ -34,7 +35,9 @@ export class DgmuRouterService {
 		return value as string;
 	}
 
-	async getSessidOrThrow(dto: Pick<Student, 'fullName' | 'password'>) {
+	async getSessidOrThrow(
+		dto: Pick<StudentWithDecryptPassword, 'fullName' | 'password' | 'semester'>
+	) {
 		const startRes = await fetch('https://lk.dgmu.ru/user/sign-in/login');
 
 		const startPage = await startRes.text();
