@@ -18,7 +18,7 @@ export class StudentService {
 		return Math.ceil(semester / 2);
 	}
 
-	private mapWithDecryptPassword(data?: Student) {
+	private mapWithDecryptedPassword(data?: Student) {
 		if (!data) return;
 
 		const { encryptedPassword, ...restData } = data;
@@ -31,7 +31,7 @@ export class StudentService {
 	async findAll() {
 		const students = await this.prisma.student.findMany();
 
-		return students.map(item => this.mapWithDecryptPassword(item));
+		return students.map(item => this.mapWithDecryptedPassword(item));
 	}
 
 	async findById(id: number) {
@@ -39,7 +39,7 @@ export class StudentService {
 			where: { id }
 		});
 
-		return this.mapWithDecryptPassword(student);
+		return this.mapWithDecryptedPassword(student);
 	}
 
 	async findByFullName(fullName: string) {
@@ -47,7 +47,7 @@ export class StudentService {
 			where: { fullName }
 		});
 
-		return this.mapWithDecryptPassword(student);
+		return this.mapWithDecryptedPassword(student);
 	}
 
 	async create(data: CreateStudentData) {
@@ -65,7 +65,7 @@ export class StudentService {
 			data: dataForCreate
 		});
 
-		return this.mapWithDecryptPassword(student);
+		return this.mapWithDecryptedPassword(student);
 	}
 
 	async update(id: number, data: UpdateStudentData) {
@@ -88,6 +88,6 @@ export class StudentService {
 			data: dataForUpdate
 		});
 
-		return this.mapWithDecryptPassword(student);
+		return this.mapWithDecryptedPassword(student);
 	}
 }

@@ -23,7 +23,7 @@ export class ProfileService {
 	async updateSemester(studentId: number, dto: UpdateSemesterDto) {
 		const student = await this.studentService.update(studentId, dto);
 
-		await this.subjectHelperService.someUpdate(student);
+		await this.subjectHelperService.update(student);
 
 		return {
 			fullName: student.fullName,

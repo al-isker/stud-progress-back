@@ -1,22 +1,16 @@
 import { GradeStatus, Student } from '@prisma/client';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
-import { DgmuService } from '../dgmu/dgmu.service';
-import { DgmuSubjectListWithGrade } from '../dgmu/types/dgmu-subject-list-with-grade';
-import { DgmuSubjectListWithGradeByAllSemesters } from '../dgmu/types/dgmu-subject-list-with-grade-by-all-semesters';
-import { StudentService } from '../student/student.service';
+import { DgmuSubjectListWithGradeByAllSemesters } from '../dgmu/types/dgmu-subject-list-with-grade-by-all-semesters.type';
+import { DgmuSubjectListWithGrade } from '../dgmu/types/dgmu-subject-list-with-grade.type';
 
 @Injectable()
 export class GradeService {
-	constructor(
-		private prisma: PrismaService,
-		private studentService: StudentService,
-		private dgmuService: DgmuService
-	) {}
+	constructor(private prisma: PrismaService) {}
 
 	async createAll(
-		dgmuSubjectListByAllSemesters: DgmuSubjectListWithGradeByAllSemesters,
-		student: Pick<Student, 'id'>
+		student: Pick<Student, 'id'>,
+		dgmuSubjectListByAllSemesters: DgmuSubjectListWithGradeByAllSemesters
 	) {
 		await Promise.all(
 			dgmuSubjectListByAllSemesters.map(async dgmuSubjectListBySemester => {
@@ -57,9 +51,9 @@ export class GradeService {
 		);
 	}
 
-	async someUpdate(
-		dgmuSubjectList: DgmuSubjectListWithGrade,
-		student: Pick<Student, 'id' | 'semester'>
+	async update(
+		student: Pick<Student, 'id' | 'semester'>,
+		dgmuSubjectList: DgmuSubjectListWithGrade
 	) {
 		await Promise.all(
 			dgmuSubjectList.map(async dgmuSubject => {
@@ -98,18 +92,5 @@ export class GradeService {
 				}
 			})
 		);
-	}
-
-	async specificUpdate(studentId: number) {
-		const student = await this.studentService.findById(studentId);
-
-		const { subjectListWithGrade } = await this.dgmuService.findManyOrThrow(
-			student,
-			{
-				grade: true
-			}
-		);
-
-		await this.someUpdate(subjectListWithGrade, student);
 	}
 }

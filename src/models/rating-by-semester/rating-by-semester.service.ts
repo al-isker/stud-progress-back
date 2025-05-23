@@ -1,19 +1,13 @@
-import { Event, Student, Subject, SubjectName } from '@prisma/client';
+import { Event, Student } from '@prisma/client';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
-import { DgmuService } from '../dgmu/dgmu.service';
-import { DgmuSubjectListWithEventList } from '../dgmu/types/dgmu-subject-list-with-event-list';
-import { StudentService } from '../student/student.service';
+import { DgmuSubjectListWithEventList } from '../dgmu/types/dgmu-subject-list-with-event-list.type';
 
 @Injectable()
 export class RatingBySemesterService {
-	constructor(
-		private prisma: PrismaService,
-		private studentService: StudentService,
-		private dgmuService: DgmuService
-	) {}
+	constructor(private prisma: PrismaService) {}
 
-	private averageMark(eventList: Pick<Event, 'mark'>[]) {
+	private calculateAverageMark(eventList: Pick<Event, 'mark'>[]) {
 		let marksCount = 0;
 
 		const marksSum = eventList.reduce((sum, { mark }) => {
@@ -31,19 +25,20 @@ export class RatingBySemesterService {
 		return averageMark;
 	}
 
-	private async findSubjectForUpdate({
-		studentId,
-		name,
-		semester
-	}: Pick<SubjectName, 'name'> &
-		Pick<Subject, 'studentId'> &
-		Pick<Student, 'semester'>) {
+	private async findSubjectForUpdate(
+		student: Pick<Student, 'id' | 'semester'>,
+		subjectName: string
+	) {
 		const existingSubject = await this.prisma.subject.findFirst({
 			where: {
-				studentId,
-				name: { name },
+				studentId: student.id,
+				name: {
+					name: subjectName
+				},
 				ratingBySemesterList: {
-					some: { semester }
+					some: {
+						semester: student.semester
+					}
 				}
 			},
 			include: {
@@ -62,8 +57,10 @@ export class RatingBySemesterService {
 
 		const eponymousSubjects = await this.prisma.subject.findMany({
 			where: {
-				studentId,
-				name: { name }
+				studentId: student.id,
+				name: {
+					name: subjectName
+				}
 			},
 			include: {
 				grade: true,
@@ -77,7 +74,7 @@ export class RatingBySemesterService {
 
 		if (eponymousSubjects.length) {
 			const eponymousSubjectsSorted = eponymousSubjects
-				.filter(item => item.grade.semester >= semester)
+				.filter(item => item.grade.semester >= student.semester)
 				.sort(
 					(itemOne, itemTwo) => itemOne.grade.semester - itemTwo.grade.semester
 				);
@@ -86,17 +83,16 @@ export class RatingBySemesterService {
 		}
 	}
 
-	async someUpdate(
-		dgmuSubjectList: DgmuSubjectListWithEventList,
-		student: Pick<Student, 'id' | 'semester'>
+	async update(
+		student: Pick<Student, 'id' | 'semester'>,
+		dgmuSubjectList: DgmuSubjectListWithEventList
 	) {
 		await Promise.all(
 			dgmuSubjectList.map(async dgmuSubject => {
-				const existingSubject = await this.findSubjectForUpdate({
-					studentId: student.id,
-					name: dgmuSubject.name,
-					semester: student.semester
-				});
+				const existingSubject = await this.findSubjectForUpdate(
+					student,
+					dgmuSubject.name
+				);
 
 				const existingRatingBySemester =
 					existingSubject.ratingBySemesterList?.find(item => {
@@ -108,7 +104,7 @@ export class RatingBySemesterService {
 						data: {
 							subjectId: existingSubject.id,
 							semester: student.semester,
-							averageMark: this.averageMark(dgmuSubject.eventList),
+							averageMark: this.calculateAverageMark(dgmuSubject.eventList),
 							eventList: {
 								createMany: {
 									data: dgmuSubject.eventList.map(event => ({
@@ -162,18 +158,5 @@ export class RatingBySemesterService {
 				}
 			})
 		);
-	}
-
-	async specificUpdate(studentId: number) {
-		const student = await this.studentService.findById(studentId);
-
-		const { subjectListWithEventList } = await this.dgmuService.findManyOrThrow(
-			student,
-			{
-				eventList: true
-			}
-		);
-
-		await this.someUpdate(subjectListWithEventList, student);
 	}
 }

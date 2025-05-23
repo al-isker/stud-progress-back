@@ -1,11 +1,10 @@
-import { Student } from '@prisma/client';
 import * as cheerio from 'cheerio';
 import {
 	Injectable,
 	ServiceUnavailableException,
 	UnauthorizedException
 } from '@nestjs/common';
-import { StudentWithDecryptPassword } from '../student/types/student-with-decrypt-password.type';
+import { DgmuStudentData } from './types/dgmu-student-data.type';
 import { objectToFormData } from './utils/object-to-form-data';
 
 @Injectable()
@@ -28,16 +27,14 @@ export class DgmuRouterService {
 		return cookie;
 	}
 
-	private getInputValue(dom: string, name: string) {
-		const $ = cheerio.load(dom);
+	private getInputValue(html: string, name: string) {
+		const $ = cheerio.load(html);
 		const value = $(`[name="${name}"]`).val();
 
 		return value as string;
 	}
 
-	async getSessidOrThrow(
-		dto: Pick<StudentWithDecryptPassword, 'fullName' | 'password' | 'semester'>
-	) {
+	async getSessidOrThrow(data: DgmuStudentData) {
 		const startRes = await fetch('https://lk.dgmu.ru/user/sign-in/login');
 
 		const startPage = await startRes.text();
@@ -53,8 +50,8 @@ export class DgmuRouterService {
 			method: 'POST',
 			body: objectToFormData({
 				_csrf: _csrfForm,
-				'LoginForm[identity]': dto.fullName,
-				'LoginForm[password]': dto.password
+				'LoginForm[identity]': data.fullName,
+				'LoginForm[password]': data.password
 			}),
 			redirect: 'manual',
 			headers: {
@@ -94,7 +91,7 @@ export class DgmuRouterService {
 		return await gradeRes.text();
 	}
 
-	async getEventsPage(sessid: string, semester: Student['semester']) {
+	async getEventsPage(sessid: string, semester: number) {
 		const eventsRes = await fetch(
 			'https://lk.dgmu.ru/student/journal?_referrer=%2Fstudent%2Findex',
 			{ headers: { cookie: sessid } }

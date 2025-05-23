@@ -1,27 +1,24 @@
-import { ControlType, EventStatus, GradeStatus, Student } from '@prisma/client';
+import { ControlType, EventStatus, GradeStatus } from '@prisma/client';
 import * as cheerio from 'cheerio';
 import { Injectable } from '@nestjs/common';
-import { StudentWithDecryptPassword } from '../student/types/student-with-decrypt-password.type';
 import { DgmuRouterService } from './dgmu-router.service';
+import { DgmuStudentData } from './types/dgmu-student-data.type';
 import {
 	DgmuEvent,
 	DgmuSubjectListWithEventList
-} from './types/dgmu-subject-list-with-event-list';
+} from './types/dgmu-subject-list-with-event-list.type';
+import { DgmuSubjectListWithGradeByAllSemesters } from './types/dgmu-subject-list-with-grade-by-all-semesters.type';
 import {
 	DgmuSubjectListWithGrade,
 	DgmuSubjectWithGrade
-} from './types/dgmu-subject-list-with-grade';
-import { DgmuSubjectListWithGradeByAllSemesters } from './types/dgmu-subject-list-with-grade-by-all-semesters';
+} from './types/dgmu-subject-list-with-grade.type';
 import { ruDateToJSDate } from './utils/ru-date-to-js-date';
 
 @Injectable()
 export class DgmuService {
 	constructor(private dgmuRouterService: DgmuRouterService) {}
 
-	private parseSubjectListWithGrade(
-		$: cheerio.CheerioAPI,
-		semester: Student['semester']
-	) {
+	private parseSubjectListWithGrade($: cheerio.CheerioAPI, semester: number) {
 		return $(`#tab-0-${semester - 1} tbody tr`)
 			.map((_, subjectEl) => {
 				const subjectWithGrade: Partial<DgmuSubjectWithGrade> = {};
@@ -122,7 +119,7 @@ export class DgmuService {
 
 	private async getSubjectListWithGrade(
 		sessid: string,
-		semester: Student['semester']
+		semester: number
 	): Promise<DgmuSubjectListWithGrade> {
 		const gradePage = await this.dgmuRouterService.getGradePage(sessid);
 
@@ -151,7 +148,7 @@ export class DgmuService {
 
 	private async getSubjectListWithEventList(
 		sessid: string,
-		semester: Student['semester']
+		semester: number
 	): Promise<DgmuSubjectListWithEventList> {
 		const eventsPage = await this.dgmuRouterService.getEventsPage(
 			sessid,
@@ -168,10 +165,10 @@ export class DgmuService {
 		GA extends boolean = false,
 		E extends boolean = false
 	>(
-		dto: Pick<StudentWithDecryptPassword, 'fullName' | 'password' | 'semester'>,
+		data: DgmuStudentData,
 		include?: { grade?: G; gradeByAllSemesters?: GA; eventList?: E }
 	) {
-		const sessid = await this.dgmuRouterService.getSessidOrThrow(dto);
+		const sessid = await this.dgmuRouterService.getSessidOrThrow(data);
 
 		const [
 			subjectListWithGrade,
@@ -179,18 +176,23 @@ export class DgmuService {
 			subjectListWithEventList
 		] = await Promise.all([
 			include?.grade
-				? this.getSubjectListWithGrade(sessid, dto.semester)
+				? this.getSubjectListWithGrade(sessid, data.semester)
 				: null,
 			include?.gradeByAllSemesters
 				? this.getSubjectListWithGradeByAllSemesters(sessid)
 				: null,
 			include?.eventList
-				? this.getSubjectListWithEventList(sessid, dto.semester)
+				? this.getSubjectListWithEventList(sessid, data.semester)
 				: null
 		]);
 
-		if (!include?.grade && !include?.gradeByAllSemesters && !include?.eventList)
+		if (
+			!include?.grade &&
+			!include?.gradeByAllSemesters &&
+			!include?.eventList
+		) {
 			return;
+		}
 
 		const result: Record<string, unknown> = {};
 

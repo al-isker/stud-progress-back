@@ -2,19 +2,17 @@ import { Injectable } from '@nestjs/common';
 import { DgmuService } from '../dgmu/dgmu.service';
 import { GradeService } from '../grade/grade.service';
 import { RatingBySemesterService } from '../rating-by-semester/rating-by-semester.service';
-import { StudentService } from '../student/student.service';
-import { StudentWithDecryptPassword } from '../student/types/student-with-decrypt-password.type';
+import { StudentWithDecryptedPassword } from '../student/types/student-with-decrypted-password.type';
 
 @Injectable()
 export class SubjectHelperService {
 	constructor(
-		private studentService: StudentService,
 		private gradeService: GradeService,
 		private ratingBySemesterService: RatingBySemesterService,
 		private dgmuService: DgmuService
 	) {}
 
-	async createAll(student: StudentWithDecryptPassword) {
+	async createAll(student: StudentWithDecryptedPassword) {
 		const { subjectListWithGradeByAllSemesters, subjectListWithEventList } =
 			await this.dgmuService.findManyOrThrow(student, {
 				gradeByAllSemesters: true,
@@ -22,32 +20,26 @@ export class SubjectHelperService {
 			});
 
 		await this.gradeService.createAll(
-			subjectListWithGradeByAllSemesters,
-			student
+			student,
+			subjectListWithGradeByAllSemesters
 		);
-		await this.ratingBySemesterService.someUpdate(
-			subjectListWithEventList,
-			student
+		await this.ratingBySemesterService.update(
+			student,
+			subjectListWithEventList
 		);
 	}
 
-	async someUpdate(student: StudentWithDecryptPassword) {
+	async update(student: StudentWithDecryptedPassword) {
 		const { subjectListWithGrade, subjectListWithEventList } =
 			await this.dgmuService.findManyOrThrow(student, {
 				grade: true,
 				eventList: true
 			});
 
-		await this.gradeService.someUpdate(subjectListWithGrade, student);
-		await this.ratingBySemesterService.someUpdate(
-			subjectListWithEventList,
-			student
+		await this.gradeService.update(student, subjectListWithGrade);
+		await this.ratingBySemesterService.update(
+			student,
+			subjectListWithEventList
 		);
-	}
-
-	async specificUpdate(studentId: number) {
-		const student = await this.studentService.findById(studentId);
-
-		await this.someUpdate(student);
 	}
 }
