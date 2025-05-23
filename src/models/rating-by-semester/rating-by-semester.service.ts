@@ -1,5 +1,5 @@
 import { Event, Student, Subject, SubjectName } from '@prisma/client';
-import { PrismaService } from 'src/prisma.service';
+import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { DgmuService } from '../dgmu/dgmu.service';
 import { DgmuSubjectListWithEventList } from '../dgmu/types/dgmu-subject-list-with-event-list';

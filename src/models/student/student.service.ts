@@ -1,7 +1,7 @@
 import { Student } from '@prisma/client';
 import { omit } from 'src/common/lib/light-lodash/omit';
 import { PrismaQueryData } from 'src/common/lib/prisma/types/prisma-query-data';
-import { PrismaService } from 'src/prisma.service';
+import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { PasswordService } from './password.service';
 import { CreateStudentData } from './types/create-student-data.type';

@@ -1,4 +1,4 @@
-import { PrismaService } from 'src/prisma.service';
+import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Module } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { PasswordService } from './password.service';

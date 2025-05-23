@@ -1,4 +1,4 @@
-import { PrismaService } from 'src/prisma.service';
+import { PrismaService } from 'src/models/prisma/prisma.service';
 import * as uuid from 'uuid';
 import { Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
