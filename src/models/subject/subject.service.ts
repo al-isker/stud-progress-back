@@ -145,7 +145,6 @@ export class SubjectService {
 						eventList: subject.ratingBySemesterList[0].eventList.map(event => ({
 							id: event.id,
 							status: event.status,
-							date: event.date,
 							mark: event.mark,
 							isNew: event.isNew
 						}))
