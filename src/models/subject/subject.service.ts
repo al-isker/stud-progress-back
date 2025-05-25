@@ -9,56 +9,6 @@ export class SubjectService {
 		private studentService: StudentService
 	) {}
 
-	async getAll(studentId: number) {
-		const student = await this.studentService.findById(studentId);
-
-		const subjectList = await this.prisma.subject.findMany({
-			where: {
-				studentId: student.id,
-				grade: {
-					semester: student.semester
-				}
-			},
-			include: {
-				name: true,
-				ratingBySemesterList: {
-					include: {
-						eventList: true
-					}
-				},
-				grade: true
-			}
-		});
-
-		return subjectList.map(subject => ({
-			id: subject.id,
-			name: subject.name.name,
-			controlType: subject.controlType,
-			ratingBySemesterList: subject.ratingBySemesterList.map(
-				ratingBySemester => ({
-					id: ratingBySemester.id,
-					semester: ratingBySemester.semester,
-					averageMark: ratingBySemester.averageMark,
-					eventList: ratingBySemester.eventList.map(event => ({
-						id: event.id,
-						status: event.status,
-						date: event.date,
-						mark: event.mark,
-						isNew: event.isNew
-					}))
-				})
-			),
-			grade: {
-				id: subject.grade.id,
-				semester: subject.grade.semester,
-				status: subject.grade.status,
-				date: subject.grade.date,
-				mark: subject.grade.mark,
-				isNew: subject.grade.isNew
-			}
-		}));
-	}
-
 	async getAllWithGrade(studentId: number) {
 		const student = await this.studentService.findById(studentId);
 

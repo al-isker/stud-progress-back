@@ -7,12 +7,6 @@ import { SubjectService } from './subject.service';
 export class SubjectController {
 	constructor(private readonly subjectService: SubjectService) {}
 
-	@Get()
-	@Auth()
-	getAll(@CurrentStudent() studentId: number) {
-		return this.subjectService.getAll(studentId);
-	}
-
 	@Get('grade')
 	@Auth()
 	getAllWithGrade(@CurrentStudent() studentId: number) {
