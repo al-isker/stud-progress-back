@@ -99,7 +99,10 @@ export class SubjectService {
 							isNew: event.isNew
 						}))
 					}
-				: null
+				: {
+						averageMark: null,
+						eventList: []
+					}
 		}));
 	}
 
