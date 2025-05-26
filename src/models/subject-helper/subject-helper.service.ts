@@ -14,7 +14,7 @@ export class SubjectHelperService {
 
 	async createAll(student: StudentWithDecryptedPassword) {
 		const { subjectListWithGradeByAllSemesters, subjectListWithEventList } =
-			await this.dgmuService.findManyOrThrow(student, {
+			await this.dgmuService.findMany(student, {
 				gradeByAllSemesters: true,
 				eventList: true
 			});
@@ -31,7 +31,7 @@ export class SubjectHelperService {
 
 	async updateBySemester(student: StudentWithDecryptedPassword) {
 		const { subjectListWithGrade, subjectListWithEventList } =
-			await this.dgmuService.findManyOrThrow(student, {
+			await this.dgmuService.findMany(student, {
 				grade: true,
 				eventList: true
 			});

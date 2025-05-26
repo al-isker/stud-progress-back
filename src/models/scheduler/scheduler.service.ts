@@ -10,12 +10,16 @@ export class SchedulerService {
 		private subjectHelperService: SubjectHelperService
 	) {}
 
-	@Cron(CronExpression.EVERY_HOUR)
+	@Cron(CronExpression.EVERY_MINUTE)
 	async updateSubjects() {
 		const students = await this.studentService.findAll();
 
-		for (const student of students) {
-			this.subjectHelperService.updateBySemester(student);
-		}
+		await Promise.all(
+			students.map(async student => {
+				try {
+					await this.subjectHelperService.updateBySemester(student);
+				} catch {}
+			})
+		);
 	}
 }

@@ -161,7 +161,7 @@ export class DgmuService {
 		return this.parseSubjectListWithEventList($);
 	}
 
-	async findManyOrThrow<
+	async findMany<
 		G extends boolean = false,
 		GA extends boolean = false,
 		E extends boolean = false
@@ -169,7 +169,7 @@ export class DgmuService {
 		data: DgmuStudentData,
 		include?: { grade?: G; gradeByAllSemesters?: GA; eventList?: E }
 	) {
-		const sessid = await this.dgmuRouterService.getSessidOrThrow(data);
+		const sessid = await this.dgmuRouterService.getSessid(data);
 
 		const [
 			subjectListWithGrade,

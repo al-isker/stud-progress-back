@@ -1,9 +1,10 @@
 import * as cheerio from 'cheerio';
 import {
+	BadGatewayException,
 	Injectable,
-	ServiceUnavailableException,
 	UnauthorizedException
 } from '@nestjs/common';
+import { fetchOrNull } from './lib/fetch-or-null';
 import { DgmuStudentData } from './types/dgmu-student-data.type';
 import { objectToFormData } from './utils/object-to-form-data';
 
@@ -34,19 +35,19 @@ export class DgmuRouterService {
 		return value as string;
 	}
 
-	async getSessidOrThrow(data: DgmuStudentData) {
-		const startRes = await fetch('https://lk.dgmu.ru/user/sign-in/login');
+	async getSessid(data: DgmuStudentData) {
+		const startRes = await fetchOrNull('https://lk.dgmu.ru/user/sign-in/login');
+
+		if (startRes === null) {
+			throw new BadGatewayException();
+		}
 
 		const startPage = await startRes.text();
-
-		if (startRes.status !== 200) {
-			throw new ServiceUnavailableException('Сервис временно недоступен');
-		}
 
 		const _csrfForm = this.getInputValue(startPage, '_csrf');
 		const _csrfCookie = this.parseCookie(startRes.headers, '_csrf');
 
-		const authRes = await fetch('https://lk.dgmu.ru/user/sign-in/login', {
+		const authRes = await fetchOrNull('https://lk.dgmu.ru/user/sign-in/login', {
 			method: 'POST',
 			body: objectToFormData({
 				_csrf: _csrfForm,
@@ -60,14 +61,22 @@ export class DgmuRouterService {
 			}
 		});
 
+		if (authRes !== null) {
+			throw new BadGatewayException();
+		}
+
 		const sessid = this.parseCookie(authRes.headers, 'LKSESSID');
 
-		const usersetRes = await fetch(
+		const usersetRes = await fetchOrNull(
 			'https://lk.dgmu.ru/user/sign-in/userset?role=Student',
 			{
 				headers: { cookie: sessid }
 			}
 		);
+
+		if (usersetRes === null) {
+			throw new BadGatewayException();
+		}
 
 		const usersetPage = await usersetRes.text();
 
@@ -81,21 +90,29 @@ export class DgmuRouterService {
 	}
 
 	async getGradePage(sessid: string) {
-		const gradeRes = await fetch(
+		const gradeRes = await fetchOrNull(
 			'https://lk.dgmu.ru/student/grade?_referrer=%2Fstudent%2Findex',
 			{
 				headers: { cookie: sessid }
 			}
 		);
 
+		if (gradeRes === null) {
+			throw new BadGatewayException();
+		}
+
 		return await gradeRes.text();
 	}
 
 	async getEventsPage(sessid: string, semester: number) {
-		const eventsRes = await fetch(
+		const eventsRes = await fetchOrNull(
 			'https://lk.dgmu.ru/student/journal?_referrer=%2Fstudent%2Findex',
 			{ headers: { cookie: sessid } }
 		);
+
+		if (eventsRes === null) {
+			throw new BadGatewayException();
+		}
 
 		const eventsPage = await eventsRes.text();
 
@@ -105,7 +122,7 @@ export class DgmuRouterService {
 		const plan_plan = this.getInputValue(eventsPage, 'plan_plan');
 		const plan_semester = `000000000${semester + 1}`.slice(-9);
 
-		const eventsBySemesterRes = await fetch(
+		const eventsBySemesterRes = await fetchOrNull(
 			'https://lk.dgmu.ru/student/journal',
 			{
 				method: 'POST',
@@ -120,6 +137,10 @@ export class DgmuRouterService {
 				}
 			}
 		);
+
+		if (eventsBySemesterRes === null) {
+			throw new BadGatewayException();
+		}
 
 		return await eventsBySemesterRes.text();
 	}

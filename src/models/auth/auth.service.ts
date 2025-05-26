@@ -49,7 +49,7 @@ export class AuthService {
 	}
 
 	async login(dto: LoginDto) {
-		await this.dgmuService.findManyOrThrow(dto);
+		await this.dgmuService.findMany(dto);
 
 		const student = await this.studentService.findByFullName(dto.fullName);
 
