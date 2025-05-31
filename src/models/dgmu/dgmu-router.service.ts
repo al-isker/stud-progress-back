@@ -61,7 +61,7 @@ export class DgmuRouterService {
 			}
 		});
 
-		if (authRes !== null) {
+		if (authRes === null) {
 			throw new BadGatewayException();
 		}
 

@@ -10,7 +10,7 @@ export class SchedulerService {
 		private subjectHelperService: SubjectHelperService
 	) {}
 
-	@Cron(CronExpression.EVERY_MINUTE)
+	@Cron(CronExpression.EVERY_HOUR)
 	async updateSubjects() {
 		const students = await this.studentService.findAll();
 
