@@ -124,17 +124,25 @@ export class SubjectService {
 
 	async viewGradeBySubjectId(subjectId: number) {
 		await this.prisma.grade.update({
-			where: { subjectId },
-			data: { isNew: false }
+			where: {
+				subjectId,
+				isNew: true
+			},
+			data: {
+				isNew: false
+			}
 		});
 	}
 
 	async viewEventsBySubjectId(subjectId: number) {
 		await this.prisma.event.updateMany({
 			where: {
-				ratingBySemester: { subjectId }
+				ratingBySemester: { subjectId },
+				isNew: true
 			},
-			data: { isNew: false }
+			data: {
+				isNew: false
+			}
 		});
 	}
 }
