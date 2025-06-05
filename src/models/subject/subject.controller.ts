@@ -1,4 +1,4 @@
-import { Controller, Get, Param, Patch } from '@nestjs/common';
+import { Controller, Get, Param, ParseIntPipe, Patch } from '@nestjs/common';
 import { Auth } from '../auth/decorators/auth.decorator';
 import { CurrentStudent } from '../student/decorators/student.decorator';
 import { SubjectService } from './subject.service';
@@ -33,13 +33,13 @@ export class SubjectController {
 
 	@Patch(':id/view-grade')
 	@Auth()
-	viewGradeBySubjectId(@Param('id') id: string) {
-		return this.subjectService.viewGradeBySubjectId(+id);
+	viewGradeBySubjectId(@Param('id', ParseIntPipe) id: number) {
+		return this.subjectService.viewGradeBySubjectId(id);
 	}
 
 	@Patch(':id/view-events')
 	@Auth()
-	viewEventsBySubjectId(@Param('id') id: string) {
-		return this.subjectService.viewEventsBySubjectId(+id);
+	viewEventsBySubjectId(@Param('id', ParseIntPipe) id: number) {
+		return this.subjectService.viewEventsBySubjectId(id);
 	}
 }
