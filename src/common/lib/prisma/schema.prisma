@@ -90,9 +90,9 @@ model Event {
 }
 
 enum ControlType {
-  TEST
-  GRADED_TEST
   EXAM
+  GRADED_TEST
+  TEST
 }
 
 enum GradeStatus {

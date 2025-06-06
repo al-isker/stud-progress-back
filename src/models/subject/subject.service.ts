@@ -19,6 +19,17 @@ export class SubjectService {
 					semester: student.semester
 				}
 			},
+			orderBy: [
+				{
+					grade: { isNew: 'desc' }
+				},
+				{
+					controlType: 'asc'
+				},
+				{
+					name: { name: 'asc' }
+				}
+			],
 			include: {
 				name: true,
 				ratingBySemesterList: true,
@@ -72,6 +83,16 @@ export class SubjectService {
 					semester: student.semester
 				}
 			},
+			orderBy: [
+				{
+					controlType: 'asc'
+				},
+				{
+					name: {
+						name: 'asc'
+					}
+				}
+			],
 			include: {
 				name: true,
 				ratingBySemesterList: {
@@ -85,25 +106,39 @@ export class SubjectService {
 			}
 		});
 
-		return subjectList.map(subject => ({
-			id: subject.id,
-			name: subject.name.name,
-			controlType: subject.controlType,
-			ratingByCurrentSemester: subject.ratingBySemesterList[0]
-				? {
-						averageMark: subject.ratingBySemesterList[0].averageMark,
-						eventList: subject.ratingBySemesterList[0].eventList.map(event => ({
-							id: event.id,
-							status: event.status,
-							mark: event.mark,
-							isNew: event.isNew
-						}))
-					}
-				: {
-						averageMark: null,
-						eventList: []
-					}
-		}));
+		return subjectList
+			.map(subject => ({
+				id: subject.id,
+				name: subject.name.name,
+				controlType: subject.controlType,
+				ratingByCurrentSemester: subject.ratingBySemesterList[0]
+					? {
+							averageMark: subject.ratingBySemesterList[0].averageMark,
+							eventList: subject.ratingBySemesterList[0].eventList.map(
+								event => ({
+									id: event.id,
+									status: event.status,
+									mark: event.mark,
+									isNew: event.isNew
+								})
+							)
+						}
+					: {
+							averageMark: null,
+							eventList: []
+						}
+			}))
+			.sort((one, two) => {
+				if (one.ratingByCurrentSemester.eventList.some(item => item.isNew)) {
+					return -1;
+				}
+
+				if (two.ratingByCurrentSemester.eventList.some(item => item.isNew)) {
+					return 1;
+				}
+
+				return 0;
+			});
 	}
 
 	async getCountRatingNews(studentId: number) {
