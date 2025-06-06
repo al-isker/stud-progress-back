@@ -33,13 +33,19 @@ export class SubjectController {
 
 	@Patch(':id/view-grade')
 	@Auth()
-	viewGradeBySubjectId(@Param('id', ParseIntPipe) id: number) {
-		return this.subjectService.viewGradeBySubjectId(id);
+	viewGradeBySubjectId(
+		@CurrentStudent() studentId: number,
+		@Param('id', ParseIntPipe) subjectId: number
+	) {
+		return this.subjectService.viewGradeBySubjectId(studentId, subjectId);
 	}
 
 	@Patch(':id/view-events')
 	@Auth()
-	viewEventsBySubjectId(@Param('id', ParseIntPipe) id: number) {
-		return this.subjectService.viewEventsBySubjectId(id);
+	viewEventsBySubjectId(
+		@CurrentStudent() studentId: number,
+		@Param('id', ParseIntPipe) subjectId: number
+	) {
+		return this.subjectService.viewEventsBySubjectId(studentId, subjectId);
 	}
 }

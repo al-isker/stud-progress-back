@@ -1,5 +1,5 @@
 import { PrismaService } from 'src/models/prisma/prisma.service';
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { StudentService } from '../student/student.service';
 
 @Injectable()
@@ -122,27 +122,61 @@ export class SubjectService {
 		return { count };
 	}
 
-	async viewGradeBySubjectId(subjectId: number) {
-		await this.prisma.grade.update({
-			where: {
-				subjectId,
-				isNew: true
-			},
-			data: {
-				isNew: false
+	async viewGradeBySubjectId(studentId: number, subjectId: number) {
+		try {
+			await this.prisma.grade.update({
+				where: {
+					subject: { studentId },
+					subjectId,
+					isNew: true
+				},
+				data: {
+					isNew: false
+				}
+			});
+		} catch (error) {
+			if (error.code === 'P2025') {
+				const subject = await this.prisma.subject.findFirst({
+					where: {
+						studentId,
+						id: subjectId
+					}
+				});
+
+				if (!subject) {
+					throw new NotFoundException();
+				}
+			} else {
+				throw error;
 			}
-		});
+		}
 	}
 
-	async viewEventsBySubjectId(subjectId: number) {
-		await this.prisma.event.updateMany({
+	async viewEventsBySubjectId(studentId: number, subjectId: number) {
+		const updatedEvents = await this.prisma.event.updateMany({
 			where: {
-				ratingBySemester: { subjectId },
+				ratingBySemester: {
+					subject: { studentId },
+					subjectId
+				},
 				isNew: true
 			},
 			data: {
 				isNew: false
 			}
 		});
+
+		if (updatedEvents.count === 0) {
+			const subject = await this.prisma.subject.findFirst({
+				where: {
+					studentId,
+					id: subjectId
+				}
+			});
+
+			if (!subject) {
+				throw new NotFoundException();
+			}
+		}
 	}
 }
