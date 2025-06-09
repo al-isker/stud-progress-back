@@ -32,7 +32,11 @@ export class SubjectService {
 			],
 			include: {
 				name: true,
-				ratingBySemesterList: true,
+				ratingBySemesterList: {
+					orderBy: {
+						semester: 'asc'
+					}
+				},
 				grade: true
 			}
 		});
@@ -100,7 +104,11 @@ export class SubjectService {
 						semester: student.semester
 					},
 					include: {
-						eventList: true
+						eventList: {
+							orderBy: {
+								date: 'asc'
+							}
+						}
 					}
 				}
 			}
