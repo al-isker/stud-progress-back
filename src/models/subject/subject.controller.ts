@@ -25,6 +25,15 @@ export class SubjectController {
 		return this.subjectService.getAllWithRating(studentId);
 	}
 
+	@Get(':id/rating')
+	@Auth()
+	getById(
+		@CurrentStudent() studentId: number,
+		@Param('id', ParseIntPipe) subjectId: string
+	) {
+		return this.subjectService.getByIdWithRating(studentId, +subjectId);
+	}
+
 	@Get('rating/count-news')
 	@Auth()
 	getCountRatingNews(@CurrentStudent() studentId: number) {

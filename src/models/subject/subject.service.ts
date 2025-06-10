@@ -151,6 +151,47 @@ export class SubjectService {
 			});
 	}
 
+	async getByIdWithRating(studentId: number, subjectId: number) {
+		const subject = await this.prisma.subject.findFirst({
+			where: {
+				studentId,
+				id: subjectId
+			},
+			include: {
+				name: true,
+				ratingBySemesterList: {
+					include: {
+						eventList: true
+					}
+				}
+			}
+		});
+
+		if (!subject) {
+			throw new NotFoundException();
+		}
+
+		return {
+			id: subject.id,
+			name: subject.name.name,
+			controlType: subject.controlType,
+			ratingBySemesterList: subject.ratingBySemesterList.map(
+				ratingBySemester => ({
+					id: ratingBySemester.id,
+					semester: ratingBySemester.semester,
+					averageMark: ratingBySemester.averageMark,
+					eventList: ratingBySemester.eventList.map(event => ({
+						id: event.id,
+						status: event.status,
+						date: event.date,
+						mark: event.mark,
+						isNew: event.isNew
+					}))
+				})
+			)
+		};
+	}
+
 	async getCountRatingNews(studentId: number) {
 		const student = await this.studentService.findById(studentId);
 
