@@ -28,13 +28,6 @@ export class DgmuRouterService {
 		return cookie;
 	}
 
-	private getInputValue(html: string, name: string) {
-		const $ = cheerio.load(html);
-		const value = $(`[name="${name}"]`).val();
-
-		return value as string;
-	}
-
 	async getSessid(data: DgmuStudentData) {
 		const startRes = await fetchOrNull('https://lk.dgmu.ru/user/sign-in/login');
 
@@ -43,8 +36,9 @@ export class DgmuRouterService {
 		}
 
 		const startPage = await startRes.text();
+		const startDocument = cheerio.load(startPage);
 
-		const _csrfForm = this.getInputValue(startPage, '_csrf');
+		const _csrfForm = startDocument('[name="_csrf"]').val() as string;
 		const _csrfCookie = this.parseCookie(startRes.headers, '_csrf');
 
 		const authRes = await fetchOrNull('https://lk.dgmu.ru/user/sign-in/login', {
@@ -115,24 +109,72 @@ export class DgmuRouterService {
 		}
 
 		const eventsPage = await eventsRes.text();
+		const eventsDocument = cheerio.load(eventsPage);
 
-		const _csrfCookie = this.parseCookie(eventsRes.headers, '_csrf');
+		const csrfCookie = this.parseCookie(eventsRes.headers, '_csrf');
+		const csrfForm = eventsDocument('input[name="_csrf"]').val() as string;
+		const cafId = eventsDocument('select[name="caf_id"]').val() as string;
+		const semesterId = `000000000${semester + 1}`.slice(-9);
 
-		const _csrfForm = this.getInputValue(eventsPage, '_csrf');
-		const plan_plan = this.getInputValue(eventsPage, 'plan_plan');
-		const plan_semester = `000000000${semester + 1}`.slice(-9);
+		const planRes = await fetchOrNull(
+			'https://lk.dgmu.ru/student/vedomost/ap?_referrer=%2Fstudent%2Fjournal',
+			{
+				method: 'POST',
+				body: objectToFormData({
+					'depdrop_parents[0]': cafId,
+					'depdrop_all_params[caf_id]': cafId
+				}),
+				headers: {
+					cookie: `${sessid}; ${csrfCookie}`,
+					'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+					'x-csrf-token': csrfForm
+				}
+			}
+		);
+
+		if (planRes === null) {
+			throw new BadGatewayException();
+		}
+
+		const planId = (await planRes.json()).selected.id;
+
+		const groupRes = await fetchOrNull(
+			'https://lk.dgmu.ru/student/vedomost/groups?_referrer=%2Fstudent%2Fjournal',
+			{
+				method: 'POST',
+				body: objectToFormData({
+					'depdrop_parents[0]': cafId,
+					'depdrop_parents[1]': planId,
+					'depdrop_all_params[caf_id]': cafId,
+					'depdrop_all_params[plan_id]': planId
+				}),
+				headers: {
+					cookie: `${sessid}; ${csrfCookie}`,
+					'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+					'x-csrf-token': csrfForm
+				}
+			}
+		);
+
+		if (groupRes === null) {
+			throw new BadGatewayException();
+		}
+
+		const groupId = (await groupRes.json()).selected.id;
 
 		const eventsBySemesterRes = await fetchOrNull(
 			'https://lk.dgmu.ru/student/journal',
 			{
 				method: 'POST',
 				body: objectToFormData({
-					_csrf: _csrfForm,
-					plan_semester,
-					plan_plan
+					_csrf: csrfForm,
+					plan_id: planId,
+					caf_id: cafId,
+					group_id: groupId,
+					semester_id: semesterId
 				}),
 				headers: {
-					cookie: `${sessid}; ${_csrfCookie}`,
+					cookie: `${sessid}; ${csrfCookie}`,
 					'content-type': 'application/x-www-form-urlencoded'
 				}
 			}

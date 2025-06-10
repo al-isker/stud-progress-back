@@ -11,10 +11,17 @@ export async function fetchOrNull(
 	}, TIMEOUT);
 
 	try {
-		return await fetch(input, {
+		const res = await fetch(input, {
 			...init,
 			signal: abortController.signal
 		});
+
+		if (!res.ok) {
+			if (res.status >= 400 && res.status < 600) {
+				throw Error();
+			}
+		}
+		return res;
 	} catch {
 		return null;
 	} finally {
