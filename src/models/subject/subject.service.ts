@@ -83,8 +83,10 @@ export class SubjectService {
 		const subjectList = await this.prisma.subject.findMany({
 			where: {
 				studentId: student.id,
-				grade: {
-					semester: student.semester
+				ratingBySemesterList: {
+					some: {
+						semester: student.semester
+					}
 				}
 			},
 			orderBy: [
