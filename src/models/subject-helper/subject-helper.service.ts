@@ -23,7 +23,7 @@ export class SubjectHelperService {
 			student,
 			subjectListWithGradeByAllSemesters
 		);
-		await this.ratingBySemesterService.updateBySemester(
+		await this.ratingBySemesterService.createBySemester(
 			student,
 			subjectListWithEventList
 		);

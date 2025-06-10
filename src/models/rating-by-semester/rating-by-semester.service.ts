@@ -84,6 +84,36 @@ export class RatingBySemesterService {
 		}
 	}
 
+	async createBySemester(
+		student: Pick<Student, 'id' | 'semester'>,
+		dgmuSubjectList: DgmuSubjectListWithEventList
+	) {
+		await Promise.all(
+			dgmuSubjectList.map(async dgmuSubject => {
+				const existingSubject = await this.findSubjectForUpdate(
+					student,
+					dgmuSubject.name
+				);
+
+				await this.prisma.ratingBySemester.create({
+					data: {
+						subjectId: existingSubject.id,
+						semester: student.semester,
+						averageMark: this.calculateAverageMark(dgmuSubject.eventList),
+						eventList: {
+							createMany: {
+								data: dgmuSubject.eventList.map(event => ({
+									...event,
+									isNew: false
+								}))
+							}
+						}
+					}
+				});
+			})
+		);
+	}
+
 	async updateBySemester(
 		student: Pick<Student, 'id' | 'semester'>,
 		dgmuSubjectList: DgmuSubjectListWithEventList
@@ -110,7 +140,7 @@ export class RatingBySemesterService {
 								createMany: {
 									data: dgmuSubject.eventList.map(event => ({
 										...event,
-										isNew: true
+										isNew: false
 									}))
 								}
 							}
