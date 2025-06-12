@@ -160,8 +160,15 @@ export class SubjectService {
 			include: {
 				name: true,
 				ratingBySemesterList: {
+					orderBy: {
+						semester: 'asc'
+					},
 					include: {
-						eventList: true
+						eventList: {
+							orderBy: {
+								date: 'asc'
+							}
+						}
 					}
 				}
 			}
