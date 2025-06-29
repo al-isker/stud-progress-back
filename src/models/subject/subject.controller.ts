@@ -27,7 +27,7 @@ export class SubjectController {
 
 	@Get(':id/rating')
 	@Auth()
-	getById(
+	getByIdWithRating(
 		@CurrentStudent() studentId: number,
 		@Param('id', ParseIntPipe) subjectId: string
 	) {
