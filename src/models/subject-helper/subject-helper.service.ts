@@ -1,14 +1,14 @@
 import { Injectable } from '@nestjs/common';
 import { DgmuService } from '../dgmu/dgmu.service';
-import { GradeService } from '../grade/grade.service';
-import { RatingBySemesterService } from '../rating-by-semester/rating-by-semester.service';
+import { GradeHelperService } from '../grade-helper/grade-helper.service';
+import { RatingBySemesterHelperService } from '../rating-by-semester-helper/rating-by-semester-helper.service';
 import { StudentWithDecryptedPassword } from '../student/types/student-with-decrypted-password.type';
 
 @Injectable()
 export class SubjectHelperService {
 	constructor(
-		private gradeService: GradeService,
-		private ratingBySemesterService: RatingBySemesterService,
+		private gradeHelperService: GradeHelperService,
+		private ratingBySemesterHelperService: RatingBySemesterHelperService,
 		private dgmuService: DgmuService
 	) {}
 
@@ -19,11 +19,11 @@ export class SubjectHelperService {
 				eventList: true
 			});
 
-		await this.gradeService.createAll(
+		await this.gradeHelperService.createAll(
 			student,
 			subjectListWithGradeByAllSemesters
 		);
-		await this.ratingBySemesterService.createBySemester(
+		await this.ratingBySemesterHelperService.createBySemester(
 			student,
 			subjectListWithEventList
 		);
@@ -36,8 +36,11 @@ export class SubjectHelperService {
 				eventList: true
 			});
 
-		await this.gradeService.updateBySemester(student, subjectListWithGrade);
-		await this.ratingBySemesterService.updateBySemester(
+		await this.gradeHelperService.updateBySemester(
+			student,
+			subjectListWithGrade
+		);
+		await this.ratingBySemesterHelperService.updateBySemester(
 			student,
 			subjectListWithEventList
 		);

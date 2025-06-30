@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { DgmuModule } from '../dgmu/dgmu.module';
-import { GradeModule } from '../grade/grade.module';
-import { RatingBySemesterModule } from '../rating-by-semester/rating-by-semester.module';
+import { GradeHelperModule } from '../grade-helper/grade-helper.module';
+import { RatingBySemesterHelperModule } from '../rating-by-semester-helper/rating-by-semester-helper.module';
 import { SubjectHelperService } from './subject-helper.service';
 
 @Module({
-	imports: [GradeModule, RatingBySemesterModule, DgmuModule],
+	imports: [GradeHelperModule, RatingBySemesterHelperModule, DgmuModule],
 	providers: [SubjectHelperService],
 	exports: [SubjectHelperService]
 })

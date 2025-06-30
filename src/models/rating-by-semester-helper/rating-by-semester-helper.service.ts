@@ -5,7 +5,7 @@ import { Injectable } from '@nestjs/common';
 import { DgmuSubjectListWithEventList } from '../dgmu/types/dgmu-subject-list-with-event-list.type';
 
 @Injectable()
-export class RatingBySemesterService {
+export class RatingBySemesterHelperService {
 	constructor(private prisma: PrismaService) {}
 
 	private calculateAverageMark(eventList: Pick<Event, 'mark'>[]) {
