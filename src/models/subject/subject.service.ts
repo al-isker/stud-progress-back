@@ -144,20 +144,6 @@ export class SubjectService {
 		}));
 	}
 
-	async getCountGradeNews(studentId: number) {
-		const student = await this.studentService.findById(studentId);
-
-		const count = await this.prisma.grade.count({
-			where: {
-				subject: { studentId },
-				semester: student.semester,
-				isNew: true
-			}
-		});
-
-		return { count };
-	}
-
 	async getAllWithRating(studentId: number) {
 		const student = await this.studentService.findById(studentId);
 
@@ -293,79 +279,5 @@ export class SubjectService {
 						eventList: []
 					}
 		};
-	}
-
-	async getCountRatingNews(studentId: number) {
-		const student = await this.studentService.findById(studentId);
-
-		const count = await this.prisma.event.count({
-			where: {
-				ratingBySemester: {
-					subject: { studentId },
-					semester: student.semester
-				},
-				isNew: true
-			}
-		});
-
-		return { count };
-	}
-
-	async viewGradeBySubjectId(studentId: number, subjectId: number) {
-		try {
-			await this.prisma.grade.update({
-				where: {
-					subject: { studentId },
-					subjectId,
-					isNew: true
-				},
-				data: {
-					isNew: false
-				}
-			});
-		} catch (error) {
-			if (error.code === 'P2025') {
-				const subject = await this.prisma.subject.findFirst({
-					where: {
-						studentId,
-						id: subjectId
-					}
-				});
-
-				if (!subject) {
-					throw new NotFoundException();
-				}
-			} else {
-				throw error;
-			}
-		}
-	}
-
-	async viewEventsBySubjectId(studentId: number, subjectId: number) {
-		const updatedEvents = await this.prisma.event.updateMany({
-			where: {
-				ratingBySemester: {
-					subject: { studentId },
-					subjectId
-				},
-				isNew: true
-			},
-			data: {
-				isNew: false
-			}
-		});
-
-		if (updatedEvents.count === 0) {
-			const subject = await this.prisma.subject.findFirst({
-				where: {
-					studentId,
-					id: subjectId
-				}
-			});
-
-			if (!subject) {
-				throw new NotFoundException();
-			}
-		}
 	}
 }

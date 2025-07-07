@@ -1,9 +1,9 @@
-import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable, NotFoundException } from '@nestjs/common';
+import { PrismaService } from '../prisma/prisma.service';
 import { StudentService } from '../student/student.service';
 
 @Injectable()
-export class GradeService {
+export class EventService {
 	constructor(
 		private prisma: PrismaService,
 		private studentService: StudentService
@@ -12,10 +12,12 @@ export class GradeService {
 	async getCountNews(studentId: number) {
 		const student = await this.studentService.findById(studentId);
 
-		const count = await this.prisma.grade.count({
+		const count = await this.prisma.event.count({
 			where: {
-				subject: { studentId },
-				semester: student.semester,
+				ratingBySemester: {
+					subject: { studentId },
+					semester: student.semester
+				},
 				isNew: true
 			}
 		});
@@ -23,12 +25,14 @@ export class GradeService {
 		return { count };
 	}
 
-	async viewById(studentId: number, gradeId: number) {
+	async viewById(studentId: number, eventId: number) {
 		try {
-			await this.prisma.grade.update({
+			await this.prisma.event.update({
 				where: {
-					id: gradeId,
-					subject: { studentId },
+					id: eventId,
+					ratingBySemester: {
+						subject: { studentId }
+					},
 					isNew: true
 				},
 				data: {
