@@ -65,8 +65,6 @@ export class SubjectService {
 	}
 
 	private calculateDaysWithoutMark(eventList: Event[]) {
-		const today = new Date();
-
 		let lastEventDate: Date;
 
 		for (let i = eventList.length - 1; i !== 0; i--) {
@@ -78,6 +76,12 @@ export class SubjectService {
 				break;
 			}
 		}
+
+		if (!lastEventDate) {
+			return null;
+		}
+
+		const today = new Date();
 
 		const timeWithoutMark = Math.abs(today.getTime() - lastEventDate.getTime());
 
