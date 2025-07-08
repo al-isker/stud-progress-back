@@ -1,5 +1,4 @@
 import { Event, Student } from '@prisma/client';
-import { isExist } from 'src/common/lib/light-lodash/is-exist';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { DgmuSubjectListWithEventList } from '../dgmu/types/dgmu-subject-list-with-event-list.type';
@@ -9,21 +8,25 @@ export class RatingBySemesterHelperService {
 	constructor(private prisma: PrismaService) {}
 
 	private calculateAverageMark(eventList: Pick<Event, 'mark'>[]) {
-		let marksCount = 0;
+		let markCount = 0;
 
-		const marksSum = eventList.reduce((sum, { mark }) => {
-			if (isExist(mark)) {
-				marksCount++;
-
-				return sum + mark;
+		const markSum = eventList.reduce((sum, { mark }) => {
+			if (mark === null) {
+				return sum;
 			}
 
-			return sum;
+			markCount++;
+
+			return sum + mark;
 		}, 0);
 
-		const averageMark = marksCount > 0 ? marksSum / marksCount : null;
+		if (markSum === 0) {
+			return null;
+		}
 
-		return averageMark;
+		const averageMark = markSum / markCount;
+
+		return Math.round(averageMark * 1000) / 1000;
 	}
 
 	private async findSubjectForUpdate(
@@ -186,6 +189,15 @@ export class RatingBySemesterHelperService {
 							})
 							.filter(item => item !== undefined)
 					);
+
+					await this.prisma.ratingBySemester.update({
+						where: {
+							id: existingRatingBySemester.id
+						},
+						data: {
+							averageMark: this.calculateAverageMark(dgmuSubject.eventList)
+						}
+					});
 				}
 			})
 		);
