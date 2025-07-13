@@ -85,7 +85,7 @@ export class SubjectService {
 
 		const timeWithoutMark = Math.abs(today.getTime() - lastEventDate.getTime());
 
-		const daysWithoutMark = Math.ceil(timeWithoutMark / (1000 * 60 * 60 * 24));
+		const daysWithoutMark = Math.floor(timeWithoutMark / (1000 * 60 * 60 * 24));
 
 		return daysWithoutMark;
 	}
