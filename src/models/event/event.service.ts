@@ -1,4 +1,4 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { StudentService } from '../student/student.service';
 
@@ -23,28 +23,5 @@ export class EventService {
 		});
 
 		return { count };
-	}
-
-	async viewById(studentId: number, eventId: number) {
-		try {
-			await this.prisma.event.update({
-				where: {
-					id: eventId,
-					ratingBySemester: {
-						subject: { studentId }
-					},
-					isNew: true
-				},
-				data: {
-					isNew: false
-				}
-			});
-		} catch (error) {
-			if (error.code === 'P2025') {
-				throw new NotFoundException();
-			}
-
-			throw error;
-		}
 	}
 }

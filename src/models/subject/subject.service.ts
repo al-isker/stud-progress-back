@@ -122,6 +122,19 @@ export class SubjectService {
 			}
 		});
 
+		await this.prisma.grade.updateMany({
+			where: {
+				subject: {
+					studentId: student.id
+				},
+				semester: student.semester,
+				isNew: true
+			},
+			data: {
+				isNew: false
+			}
+		});
+
 		return subjectList.map(subject => ({
 			id: subject.id,
 			name: subject.name.name,
@@ -246,6 +259,18 @@ export class SubjectService {
 		if (!subject) {
 			throw new NotFoundException();
 		}
+
+		await this.prisma.event.updateMany({
+			where: {
+				ratingBySemester: {
+					subjectId
+				},
+				isNew: true
+			},
+			data: {
+				isNew: false
+			}
+		});
 
 		return {
 			id: subject.id,

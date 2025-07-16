@@ -1,5 +1,5 @@
 import { PrismaService } from 'src/models/prisma/prisma.service';
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { StudentService } from '../student/student.service';
 
 @Injectable()
@@ -21,26 +21,5 @@ export class GradeService {
 		});
 
 		return { count };
-	}
-
-	async viewById(studentId: number, gradeId: number) {
-		try {
-			await this.prisma.grade.update({
-				where: {
-					id: gradeId,
-					subject: { studentId },
-					isNew: true
-				},
-				data: {
-					isNew: false
-				}
-			});
-		} catch (error) {
-			if (error.code === 'P2025') {
-				throw new NotFoundException();
-			}
-
-			throw error;
-		}
 	}
 }

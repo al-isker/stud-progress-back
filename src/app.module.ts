@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ScheduleModule } from '@nestjs/schedule';
 import { AuthModule } from './models/auth/auth.module';
+import { DeviceInfoModule } from './models/device-info/device-info.module';
 import { DgmuModule } from './models/dgmu/dgmu.module';
 import { EventModule } from './models/event/event.module';
 import { GradeHelperModule } from './models/grade-helper/grade-helper.module';
@@ -20,6 +21,7 @@ import { TokenModule } from './models/token/token.module';
 		StudentModule,
 		TokenModule,
 		AuthModule,
+		DeviceInfoModule,
 		ProfileModule,
 		SubjectModule,
 		SubjectHelperModule,
