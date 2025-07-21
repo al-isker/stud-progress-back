@@ -4,6 +4,7 @@ import { AuthModule } from './models/auth/auth.module';
 import { DeviceInfoModule } from './models/device-info/device-info.module';
 import { DgmuModule } from './models/dgmu/dgmu.module';
 import { EventModule } from './models/event/event.module';
+import { FcmModule } from './models/fcm/fcm.module';
 import { GradeHelperModule } from './models/grade-helper/grade-helper.module';
 import { GradeModule } from './models/grade/grade.module';
 import { PrismaService } from './models/prisma/prisma.service';
@@ -30,6 +31,7 @@ import { TokenModule } from './models/token/token.module';
 		GradeModule,
 		EventModule,
 		DgmuModule,
+		FcmModule,
 		SchedulerModule
 	],
 	providers: [PrismaService]
