@@ -1,16 +1,14 @@
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
-import { StudentService } from '../student/student.service';
 
 @Injectable()
 export class GradeService {
-	constructor(
-		private prisma: PrismaService,
-		private studentService: StudentService
-	) {}
+	constructor(private prisma: PrismaService) {}
 
 	async getCountNews(studentId: number) {
-		const student = await this.studentService.findById(studentId);
+		const student = await this.prisma.student.findFirst({
+			where: { id: studentId }
+		});
 
 		const count = await this.prisma.grade.count({
 			where: {

@@ -1,21 +1,17 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { DeviceInfoUpsertDto } from './dto/device-info-upsert.dto';
+import { UpdateFcmTokenDto } from './dto/update-fcm-token.dto';
 
 @Injectable()
 export class DeviceInfoService {
 	constructor(private prisma: PrismaService) {}
 
-	async upsert(studentId: number, dto: DeviceInfoUpsertDto) {
-		return await this.prisma.deviceInfo.upsert({
+	async updateFcmToken(studentId: number, dto: UpdateFcmTokenDto) {
+		return await this.prisma.student.update({
 			where: {
-				studentId
+				id: studentId
 			},
-			create: {
-				studentId,
-				fcmToken: dto.fcmToken
-			},
-			update: {
+			data: {
 				fcmToken: dto.fcmToken
 			}
 		});

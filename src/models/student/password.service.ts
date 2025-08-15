@@ -1,5 +1,5 @@
 import * as crypto from 'crypto-js';
-import { PASSWORD_CRYPTO_SECRET_KEY } from 'src/common/const/env-keys';
+import { PASSWORD_CRYPTO_SECRET_KEY } from 'src/common/lib/env/env-keys';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 

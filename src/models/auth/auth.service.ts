@@ -1,6 +1,7 @@
 import { DgmuService } from 'src/models/dgmu/dgmu.service';
 import { StudentService } from 'src/models/student/student.service';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
+import { PrismaService } from '../prisma/prisma.service';
 import { StudentWithDecryptedPassword } from '../student/types/student-with-decrypted-password.type';
 import { TokenService } from '../token/token.service';
 import { LoginDto } from './dto/login.dto';
@@ -9,6 +10,7 @@ import { RefreshTokenDto } from './dto/refresh-token.dto';
 @Injectable()
 export class AuthService {
 	constructor(
+		private prisma: PrismaService,
 		private studentService: StudentService,
 		private tokenService: TokenService,
 		private dgmuService: DgmuService
@@ -27,7 +29,7 @@ export class AuthService {
 		return issuedTokens;
 	}
 
-	private async signIn(dto: LoginDto, student: StudentWithDecryptedPassword) {
+	private async signIn(student: StudentWithDecryptedPassword, dto: LoginDto) {
 		if (
 			dto.password !== student.password ||
 			dto.semester !== student.semester
@@ -51,10 +53,14 @@ export class AuthService {
 	async login(dto: LoginDto) {
 		await this.dgmuService.findMany(dto);
 
-		const student = await this.studentService.findByFullName(dto.fullName);
+		const student = this.studentService.mapWithDecryptedPassword(
+			await this.prisma.student.findFirst({
+				where: { fullName: dto.fullName }
+			})
+		);
 
 		if (student) {
-			return await this.signIn(dto, student);
+			return await this.signIn(student, dto);
 		} else {
 			return await this.signUp(dto);
 		}

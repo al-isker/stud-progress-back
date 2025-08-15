@@ -12,7 +12,7 @@ model Student {
   fullName          String        @unique @map("full_name")
   encryptedPassword String        @map("encrypted_password")
   refreshToken      RefreshToken?
-  deviceInfo        DeviceInfo?
+  fcmToken          String?       @map("fcm_token")
   course            Int
   semester          Int
   subjects          Subject[]
@@ -28,15 +28,6 @@ model RefreshToken {
   studentId    Int      @unique @map("student_id")
 
   @@map("refresh_token")
-}
-
-model DeviceInfo {
-  id        Int     @id @default(autoincrement())
-  fcmToken  String  @map("fcm_token")
-  student   Student @relation(fields: [studentId], references: [id])
-  studentId Int     @unique @map("student_id")
-
-  @@map("device_info")
 }
 
 model Subject {

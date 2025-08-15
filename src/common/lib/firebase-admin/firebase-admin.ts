@@ -3,7 +3,7 @@ import {
 	FIREBASE_CLIENT_EMAIL_KEY,
 	FIREBASE_PRIVATE_KEY_KEY,
 	FIREBASE_PROJECT_ID_KEY
-} from 'src/common/const/env-keys';
+} from 'src/common/lib/env/env-keys';
 
 export const firebaseAdmin = admin.initializeApp({
 	credential: admin.credential.cert({

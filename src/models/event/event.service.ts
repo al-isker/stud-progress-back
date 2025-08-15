@@ -1,16 +1,14 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { StudentService } from '../student/student.service';
 
 @Injectable()
 export class EventService {
-	constructor(
-		private prisma: PrismaService,
-		private studentService: StudentService
-	) {}
+	constructor(private prisma: PrismaService) {}
 
 	async getCountNews(studentId: number) {
-		const student = await this.studentService.findById(studentId);
+		const student = await this.prisma.student.findFirst({
+			where: { id: studentId }
+		});
 
 		const count = await this.prisma.event.count({
 			where: {

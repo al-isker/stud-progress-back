@@ -3,10 +3,14 @@ import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { DgmuSubjectListWithGradeByAllSemesters } from '../dgmu/types/dgmu-subject-list-with-grade-by-all-semesters.type';
 import { DgmuSubjectListWithGrade } from '../dgmu/types/dgmu-subject-list-with-grade.type';
+import { PushNotificationService } from '../push-notification/push-notification.service';
 
 @Injectable()
 export class GradeHelperService {
-	constructor(private prisma: PrismaService) {}
+	constructor(
+		private prisma: PrismaService,
+		private pushNotificationService: PushNotificationService
+	) {}
 
 	async createAll(
 		student: Pick<Student, 'id'>,
@@ -52,7 +56,7 @@ export class GradeHelperService {
 	}
 
 	async updateBySemester(
-		student: Pick<Student, 'id' | 'semester'>,
+		student: Pick<Student, 'id' | 'fcmToken'>,
 		dgmuSubjectList: DgmuSubjectListWithGrade
 	) {
 		await Promise.all(
@@ -69,8 +73,17 @@ export class GradeHelperService {
 					}
 				});
 
-				if (existingSubject.grade.status !== dgmuSubject.status) {
-					return await this.prisma.subject.update({
+				if (
+					existingSubject.grade.status !== dgmuSubject.status &&
+					existingSubject.grade?.mark !== dgmuSubject.mark
+				) {
+					this.pushNotificationService.gradeUpdated(
+						student.fcmToken,
+						existingSubject.id,
+						dgmuSubject
+					);
+
+					await this.prisma.subject.update({
 						where: {
 							id: existingSubject.id
 						},
@@ -81,10 +94,7 @@ export class GradeHelperService {
 									date: dgmuSubject.date,
 									mark: dgmuSubject.mark,
 									status: dgmuSubject.status,
-									isNew:
-										existingSubject.grade.isNew ||
-										existingSubject.grade?.status !== dgmuSubject.status ||
-										existingSubject.grade?.mark !== dgmuSubject.mark
+									isNew: true
 								}
 							}
 						}

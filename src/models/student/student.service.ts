@@ -1,4 +1,3 @@
-import { Student } from '@prisma/client';
 import { isExist } from 'src/common/lib/light-lodash/is-exist';
 import { omit } from 'src/common/lib/light-lodash/omit';
 import { PrismaQueryData } from 'src/common/lib/prisma/types/prisma-query-data';
@@ -21,38 +20,14 @@ export class StudentService {
 		return Math.ceil(semester / 2);
 	}
 
-	private mapWithDecryptedPassword(data: Student) {
+	mapWithDecryptedPassword<D extends object>(
+		data: D & { encryptedPassword: string }
+	) {
 		const { encryptedPassword, ...restData } = data;
 
 		return Object.assign(restData, {
 			password: this.passwordService.decrypt(encryptedPassword)
 		});
-	}
-
-	async findAll() {
-		const students = await this.prisma.student.findMany();
-
-		return students.map(item => this.mapWithDecryptedPassword(item));
-	}
-
-	async findById(id: number) {
-		const student = await this.prisma.student.findFirst({
-			where: { id }
-		});
-
-		if (student) {
-			return this.mapWithDecryptedPassword(student);
-		}
-	}
-
-	async findByFullName(fullName: string) {
-		const student = await this.prisma.student.findFirst({
-			where: { fullName }
-		});
-
-		if (student) {
-			return this.mapWithDecryptedPassword(student);
-		}
 	}
 
 	async create(data: CreateStudentData) {

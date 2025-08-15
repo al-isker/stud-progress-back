@@ -1,14 +1,10 @@
 import { Event } from '@prisma/client';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { StudentService } from '../student/student.service';
 
 @Injectable()
 export class SubjectService {
-	constructor(
-		private prisma: PrismaService,
-		private studentService: StudentService
-	) {}
+	constructor(private prisma: PrismaService) {}
 
 	private calculateImpactLastMark(
 		averageMark: number | null,
@@ -91,7 +87,9 @@ export class SubjectService {
 	}
 
 	async getAllWithGrade(studentId: number) {
-		const student = await this.studentService.findById(studentId);
+		const student = await this.prisma.student.findFirst({
+			where: { id: studentId }
+		});
 
 		const subjectList = await this.prisma.subject.findMany({
 			where: {
@@ -158,7 +156,9 @@ export class SubjectService {
 	}
 
 	async getAllWithRating(studentId: number) {
-		const student = await this.studentService.findById(studentId);
+		const student = await this.prisma.student.findFirst({
+			where: { id: studentId }
+		});
 
 		const subjectList = await this.prisma.subject.findMany({
 			where: {
@@ -232,7 +232,9 @@ export class SubjectService {
 	}
 
 	async getByIdWithRating(studentId: number, subjectId: number) {
-		const student = await this.studentService.findById(studentId);
+		const student = await this.prisma.student.findFirst({
+			where: { id: studentId }
+		});
 
 		const subject = await this.prisma.subject.findFirst({
 			where: {

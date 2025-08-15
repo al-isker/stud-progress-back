@@ -1,6 +1,6 @@
 import { IsString } from 'class-validator';
 
-export class DeviceInfoUpsertDto {
+export class UpdateFcmTokenDto {
 	@IsString()
 	fcmToken: string;
 }

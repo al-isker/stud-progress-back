@@ -2,10 +2,14 @@ import { Event, Student } from '@prisma/client';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { DgmuSubjectListWithEventList } from '../dgmu/types/dgmu-subject-list-with-event-list.type';
+import { PushNotificationService } from '../push-notification/push-notification.service';
 
 @Injectable()
 export class RatingBySemesterHelperService {
-	constructor(private prisma: PrismaService) {}
+	constructor(
+		private prisma: PrismaService,
+		private pushNotificationService: PushNotificationService
+	) {}
 
 	private calculateAverageMark(eventList: Pick<Event, 'mark'>[]) {
 		let markCount = 0;
@@ -118,7 +122,7 @@ export class RatingBySemesterHelperService {
 	}
 
 	async updateBySemester(
-		student: Pick<Student, 'id' | 'semester'>,
+		student: Pick<Student, 'id' | 'semester' | 'fcmToken'>,
 		dgmuSubjectList: DgmuSubjectListWithEventList
 	) {
 		await Promise.all(
@@ -160,16 +164,35 @@ export class RatingBySemesterHelperService {
 								);
 
 								if (!existingEvent) {
+									this.pushNotificationService.eventCreated(
+										student.fcmToken,
+										existingSubject.id,
+										dgmuSubject,
+										dgmuEvent
+									);
+
 									return this.prisma.event.create({
 										data: {
-											...dgmuEvent,
-											isNew: true,
-											ratingBySemesterId: existingRatingBySemester.id
+											ratingBySemesterId: existingRatingBySemester.id,
+											status: dgmuEvent.status,
+											date: dgmuEvent.date,
+											mark: dgmuEvent.mark,
+											isNew: true
 										}
 									});
 								}
 
-								if (existingEvent.status !== dgmuEvent.status) {
+								if (
+									existingEvent?.status !== dgmuEvent.status ||
+									existingEvent?.mark !== dgmuEvent.mark
+								) {
+									this.pushNotificationService.eventUpdated(
+										student.fcmToken,
+										existingSubject.id,
+										dgmuSubject,
+										dgmuEvent
+									);
+
 									return this.prisma.event.update({
 										where: {
 											date_ratingBySemesterId: {
@@ -178,11 +201,10 @@ export class RatingBySemesterHelperService {
 											}
 										},
 										data: {
-											...dgmuEvent,
-											isNew:
-												existingEvent?.isNew ||
-												existingEvent?.status !== dgmuEvent.status ||
-												existingEvent?.mark !== dgmuEvent.mark
+											status: dgmuEvent.status,
+											date: dgmuEvent.date,
+											mark: dgmuEvent.mark,
+											isNew: true
 										}
 									});
 								}
