@@ -7,17 +7,17 @@ import {
 import { DgmuSubjectWithGrade } from '../dgmu/types/dgmu-subject-list-with-grade.type';
 import { FcmService } from '../fcm/fcm.service';
 import {
-	PushNotificationDataEventCreated,
-	PushNotificationDataEventUpdated,
-	PushNotificationDataGradeUpdated,
-	PushNotificationTypeEnum
+	PushNotificationEventCreatedData,
+	PushNotificationEventUpdatedData,
+	PushNotificationGradeUpdatedData
 } from './types/push-notification-data';
+import { PushNotificationTypeEnum } from './types/push-notification-type';
 
 @Injectable()
 export class PushNotificationService {
 	constructor(private fcmService: FcmService) {}
 
-	async gradeUpdated(
+	gradeUpdated(
 		fcmToken: string,
 		subjectId: number,
 		dgmuSubject: DgmuSubjectWithGrade
@@ -26,103 +26,127 @@ export class PushNotificationService {
 			let title: string;
 			let body: string;
 
-			const data: PushNotificationDataGradeUpdated = {
+			const data: PushNotificationGradeUpdatedData = {
 				type: PushNotificationTypeEnum.GRADE_UPDATED,
 				subjectId: subjectId.toString()
 			};
 
 			if (dgmuSubject.status === GradeStatus.PASS) {
-				if (dgmuSubject.controlType === ControlType.EXAM) {
-					title = 'Экзамен сдан';
-					body = `${dgmuSubject.name} − ${dgmuSubject.mark}, поздравляем!`;
-				} else if (dgmuSubject.controlType === ControlType.GRADED_TEST) {
-					title = 'Диф зачёт сдан';
-					body = `${dgmuSubject.name} − ${dgmuSubject.mark}, поздравляем!`;
-				} else if (dgmuSubject.controlType === ControlType.TEST) {
-					title = 'Зачёт сдан';
-					body = `${dgmuSubject.name} − зачтено, поздравляем!`;
+				switch (dgmuSubject.controlType) {
+					case ControlType.EXAM: {
+						title = 'Экзамен сдан';
+						body = `${dgmuSubject.name} − ${dgmuSubject.mark}, поздравляем!`;
+						break;
+					}
+					case ControlType.GRADED_TEST: {
+						title = 'Диф зачёт сдан';
+						body = `${dgmuSubject.name} − ${dgmuSubject.mark}, поздравляем!`;
+						break;
+					}
+					case ControlType.TEST: {
+						title = 'Зачёт сдан';
+						body = `${dgmuSubject.name} − зачтено, поздравляем!`;
+						break;
+					}
 				}
 			} else if (dgmuSubject.status === GradeStatus.FAIL) {
-				if (dgmuSubject.controlType === ControlType.EXAM) {
-					title = 'Экзамен не сдан';
-					body = `${dgmuSubject.name} − ${dgmuSubject.mark}, не расстраивайся!`;
-				} else if (dgmuSubject.controlType === ControlType.GRADED_TEST) {
-					title = 'Диф зачёт не сдан';
-					body = `${dgmuSubject.name} − ${dgmuSubject.mark}, не расстраивайся!`;
-				} else if (dgmuSubject.controlType === ControlType.TEST) {
-					title = 'Зачёт не сдан';
-					body = `${dgmuSubject.name} − не зачтено, не расстраивайся!`;
+				switch (dgmuSubject.controlType) {
+					case ControlType.EXAM: {
+						title = 'Экзамен не сдан';
+						body = `${dgmuSubject.name} − ${dgmuSubject.mark}, не расстраивайся!`;
+						break;
+					}
+					case ControlType.GRADED_TEST: {
+						title = 'Диф зачёт не сдан';
+						body = `${dgmuSubject.name} − ${dgmuSubject.mark}, не расстраивайся!`;
+						break;
+					}
+					case ControlType.TEST: {
+						title = 'Зачёт не сдан';
+						body = `${dgmuSubject.name} − не зачтено, не расстраивайся!`;
+						break;
+					}
 				}
 			}
 
-			return await this.fcmService.sendPushNotification(fcmToken, {
-				data,
-				notification: { title, body }
-			});
+			this.fcmService
+				.sendPushNotification(fcmToken, {
+					data,
+					notification: { title, body }
+				})
+				.catch(() => {});
 		}
 	}
 
-	async eventCreated(
+	eventCreated(
 		fcmToken: string,
 		subjectId: number,
 		dgmuSubject: DgmuSubjectWithEventList,
 		dgmuEvent: DgmuEvent
 	) {
-		const data: PushNotificationDataEventCreated = {
+		const data: PushNotificationEventCreatedData = {
 			type: PushNotificationTypeEnum.EVENT_CREATED,
 			subjectId: subjectId.toString()
 		};
 
 		if (dgmuEvent.status === EventStatus.ABSENCE) {
-			return await this.fcmService.sendPushNotification(fcmToken, {
-				data,
-				notification: {
-					title: 'Пропуск',
-					body: `${dgmuSubject.name} − нужно отработать`
-				}
-			});
+			this.fcmService
+				.sendPushNotification(fcmToken, {
+					data,
+					notification: {
+						title: 'Пропуск',
+						body: `${dgmuSubject.name} − нужно отработать`
+					}
+				})
+				.catch(() => {});
 		}
 
 		if (dgmuEvent.status === EventStatus.MARK) {
-			return await this.fcmService.sendPushNotification(fcmToken, {
-				data,
-				notification: {
-					title: 'Новый балл',
-					body: `${dgmuSubject.name} − ${dgmuEvent.mark}, посмотри свой средний балл`
-				}
-			});
+			this.fcmService
+				.sendPushNotification(fcmToken, {
+					data,
+					notification: {
+						title: 'Новый балл',
+						body: `${dgmuSubject.name} − ${dgmuEvent.mark}, посмотри свой средний балл`
+					}
+				})
+				.catch(() => {});
 		}
 	}
 
-	async eventUpdated(
+	eventUpdated(
 		fcmToken: string,
 		subjectId: number,
 		dgmuSubject: DgmuSubjectWithEventList,
 		dgmuEvent: DgmuEvent
 	) {
-		const data: PushNotificationDataEventUpdated = {
+		const data: PushNotificationEventUpdatedData = {
 			type: PushNotificationTypeEnum.EVENT_UPDATED,
 			subjectId: subjectId.toString()
 		};
 
 		if (dgmuEvent.status === EventStatus.UPWORKED) {
-			return await this.fcmService.sendPushNotification(fcmToken, {
-				data,
-				notification: {
-					title: 'Пропуск отработан',
-					body: `${dgmuSubject.name} − можно расслабиться`
-				}
-			});
+			this.fcmService
+				.sendPushNotification(fcmToken, {
+					data,
+					notification: {
+						title: 'Пропуск отработан',
+						body: `${dgmuSubject.name} − можно расслабиться`
+					}
+				})
+				.catch(() => {});
 		}
 
 		if (dgmuEvent.status === EventStatus.MARK) {
-			return await this.fcmService.sendPushNotification(fcmToken, {
-				data,
-				notification: {
-					title: 'Балл изменился',
-					body: `${dgmuSubject.name} − ${dgmuEvent.mark}, посмотри свой средний балл`
-				}
-			});
+			this.fcmService
+				.sendPushNotification(fcmToken, {
+					data,
+					notification: {
+						title: 'Балл изменился',
+						body: `${dgmuSubject.name} − ${dgmuEvent.mark}, посмотри свой средний балл`
+					}
+				})
+				.catch(() => {});
 		}
 	}
 }

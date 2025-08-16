@@ -20,12 +20,8 @@ export class SchedulerService {
 			return this.studentService.mapWithDecryptedPassword(item);
 		});
 
-		await Promise.all(
-			studentsWithDecryptedPassword.map(async student => {
-				try {
-					await this.subjectHelperService.updateBySemester(student);
-				} catch {}
-			})
-		);
+		for (const student of studentsWithDecryptedPassword) {
+			this.subjectHelperService.updateBySemester(student).catch(() => {});
+		}
 	}
 }

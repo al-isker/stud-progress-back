@@ -2,18 +2,18 @@ import { Body, Controller, Post } from '@nestjs/common';
 import { Auth } from '../auth/decorators/auth.decorator';
 import { CurrentStudent } from '../student/decorators/student.decorator';
 import { DeviceInfoService } from './device-info.service';
-import { DeviceInfoUpsertDto } from './dto/device-info-upsert.dto';
+import { UpdateFcmTokenDto } from './dto/update-fcm-token.dto';
 
 @Controller('device-info')
 export class DeviceInfoController {
 	constructor(private readonly deviceInfoService: DeviceInfoService) {}
 
-	@Post()
+	@Post('fcm-token')
 	@Auth()
-	upsert(
+	updateFcmToken(
 		@CurrentStudent() studentId: number,
-		@Body() dto: DeviceInfoUpsertDto
+		@Body() dto: UpdateFcmTokenDto
 	) {
-		return this.deviceInfoService.upsert(studentId, dto);
+		return this.deviceInfoService.updateFcmToken(studentId, dto);
 	}
 }

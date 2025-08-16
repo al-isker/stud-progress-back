@@ -4,10 +4,12 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class FcmService {
-	async sendPushNotification(token: string, payload: BaseMessage) {
-		await firebaseAdmin.messaging().send({
-			token,
-			...payload
-		});
+	async sendPushNotification(token: string | undefined, payload: BaseMessage) {
+		if (token) {
+			await firebaseAdmin.messaging().send({
+				token,
+				...payload
+			});
+		}
 	}
 }

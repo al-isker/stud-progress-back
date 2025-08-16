@@ -303,6 +303,9 @@ export class SubjectService {
 					}
 				: {
 						averageMark: null,
+						impactLastMark: null,
+						studentPercentWithBelowAverageMark: null,
+						daysWithoutMark: null,
 						eventList: []
 					}
 		};
