@@ -1,4 +1,4 @@
-const TIMEOUT = 20000;
+const TIMEOUT = 30000;
 
 export async function fetchOrNull(
 	input: RequestInfo | URL,
