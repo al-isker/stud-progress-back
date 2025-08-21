@@ -53,14 +53,15 @@ export class AuthService {
 	async login(dto: LoginDto) {
 		await this.dgmuService.findMany(dto);
 
-		const student = this.studentService.mapWithDecryptedPassword(
-			await this.prisma.student.findFirst({
-				where: { fullName: dto.fullName }
-			})
-		);
+		const student = await this.prisma.student.findFirst({
+			where: { fullName: dto.fullName }
+		});
 
 		if (student) {
-			return await this.signIn(student, dto);
+			return await this.signIn(
+				this.studentService.mapWithDecryptedPassword(student),
+				dto
+			);
 		} else {
 			return await this.signUp(dto);
 		}
