@@ -7,7 +7,7 @@ export class DeviceInfoService {
 	constructor(private prisma: PrismaService) {}
 
 	async updateFcmToken(studentId: number, dto: UpdateFcmTokenDto) {
-		return await this.prisma.student.update({
+		await this.prisma.student.update({
 			where: {
 				id: studentId
 			},
