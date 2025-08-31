@@ -2,12 +2,11 @@ import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule } from '@nestjs/swagger';
 import { AppModule } from './app.module';
-import { httpsOptions } from './common/config/https-options';
-import { swaggerConfig } from './common/config/swagger-config';
+import { swaggerConfig } from './common/config/swagger.config';
 
 async function bootstrap() {
 	const PORT = process.env.port ?? 4200;
-	const app = await NestFactory.create(AppModule, { httpsOptions });
+	const app = await NestFactory.create(AppModule);
 
 	const document = SwaggerModule.createDocument(app, swaggerConfig);
 	SwaggerModule.setup('api', app, document);
