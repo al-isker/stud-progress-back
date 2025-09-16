@@ -250,7 +250,7 @@ export class SubjectService {
 					include: {
 						eventList: {
 							orderBy: {
-								date: 'asc'
+								date: 'desc'
 							}
 						}
 					}
