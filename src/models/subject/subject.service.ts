@@ -16,7 +16,7 @@ export class SubjectService {
 
 		const eventListWithMarkOnly = eventList.filter(item => item.mark !== null);
 
-		const lastMark = eventListWithMarkOnly.at(-1).mark;
+		const lastMark = eventListWithMarkOnly[0].mark;
 
 		const averageMarkWithoutLastMark =
 			(averageMark * eventListWithMarkOnly.length - lastMark) /
@@ -61,17 +61,7 @@ export class SubjectService {
 	}
 
 	private calculateDaysWithoutMark(eventList: Event[]) {
-		let lastEventDate: Date;
-
-		for (let i = eventList.length - 1; i !== 0; i--) {
-			const event = eventList[i];
-
-			if (event.mark !== null) {
-				lastEventDate = event.date;
-
-				break;
-			}
-		}
+		const lastEventDate = eventList.find(event => event.mark !== null)?.date;
 
 		if (!lastEventDate) {
 			return null;
