@@ -1,7 +1,7 @@
-import { BaseMessage } from 'firebase-admin/lib/messaging/messaging-api';
+import { ExpoPushMessage } from 'expo-server-sdk';
 import { PushNotificationTypeEnum } from './push-notification-type';
 
-type BaseData = BaseMessage['data'];
+type BaseData = ExpoPushMessage['data'];
 
 export interface PushNotificationGradeUpdatedData extends BaseData {
 	type: PushNotificationTypeEnum.GRADE_UPDATED;

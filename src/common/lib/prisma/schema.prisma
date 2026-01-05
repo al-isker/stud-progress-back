@@ -12,7 +12,7 @@ model Student {
   fullName          String        @unique @map("full_name")
   encryptedPassword String        @map("encrypted_password")
   refreshToken      RefreshToken?
-  fcmToken          String?       @map("fcm_token")
+  expoPushToken     String?       @map("expo_push_token")
   course            Int
   semester          Int
   subjects          Subject[]

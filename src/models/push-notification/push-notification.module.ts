@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { FcmModule } from '../fcm/fcm.module';
+import { ExpoModule } from '../expo/expo.module';
 import { PushNotificationService } from './push-notification.service';
 
 @Module({
-	imports: [FcmModule],
+	imports: [ExpoModule],
 	providers: [PushNotificationService],
 	exports: [PushNotificationService]
 })

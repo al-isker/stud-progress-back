@@ -12,7 +12,7 @@ export class SchedulerService {
 		private subjectHelperService: SubjectHelperService
 	) {}
 
-	@Cron(CronExpression.EVERY_HOUR)
+	@Cron(CronExpression.EVERY_MINUTE)
 	async updateSubjects() {
 		const students = await this.prisma.student.findMany();
 

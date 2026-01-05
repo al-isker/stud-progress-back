@@ -5,7 +5,7 @@ import {
 	DgmuSubjectWithEventList
 } from '../dgmu/types/dgmu-subject-list-with-event-list.type';
 import { DgmuSubjectWithGrade } from '../dgmu/types/dgmu-subject-list-with-grade.type';
-import { FcmService } from '../fcm/fcm.service';
+import { ExpoService } from '../expo/expo.service';
 import {
 	PushNotificationEventCreatedData,
 	PushNotificationEventUpdatedData,
@@ -15,10 +15,10 @@ import { PushNotificationTypeEnum } from './types/push-notification-type';
 
 @Injectable()
 export class PushNotificationService {
-	constructor(private fcmService: FcmService) {}
+	constructor(private expoService: ExpoService) {}
 
 	gradeUpdated(
-		fcmToken: string,
+		expoPushToken: string,
 		subjectId: number,
 		dgmuSubject: DgmuSubjectWithGrade
 	) {
@@ -69,17 +69,14 @@ export class PushNotificationService {
 				}
 			}
 
-			this.fcmService
-				.sendPushNotification(fcmToken, {
-					data,
-					notification: { title, body }
-				})
+			this.expoService
+				.sendPushNotification(expoPushToken, { title, body, data })
 				.catch(() => {});
 		}
 	}
 
 	eventCreated(
-		fcmToken: string,
+		expoPushToken: string,
 		subjectId: number,
 		dgmuSubject: DgmuSubjectWithEventList,
 		dgmuEvent: DgmuEvent
@@ -90,32 +87,28 @@ export class PushNotificationService {
 		};
 
 		if (dgmuEvent.status === EventStatus.ABSENCE) {
-			this.fcmService
-				.sendPushNotification(fcmToken, {
-					data,
-					notification: {
-						title: 'Пропуск',
-						body: `${dgmuSubject.name} − нужно отработать`
-					}
+			this.expoService
+				.sendPushNotification(expoPushToken, {
+					title: 'Пропуск',
+					body: `${dgmuSubject.name} − нужно отработать`,
+					data
 				})
 				.catch(() => {});
 		}
 
 		if (dgmuEvent.status === EventStatus.MARK) {
-			this.fcmService
-				.sendPushNotification(fcmToken, {
-					data,
-					notification: {
-						title: 'Новый балл',
-						body: `${dgmuSubject.name} − ${dgmuEvent.mark}, посмотри свой средний балл`
-					}
+			this.expoService
+				.sendPushNotification(expoPushToken, {
+					title: 'Новый балл',
+					body: `${dgmuSubject.name} − ${dgmuEvent.mark}, посмотри свой средний балл`,
+					data
 				})
 				.catch(() => {});
 		}
 	}
 
 	eventUpdated(
-		fcmToken: string,
+		expoPushToken: string,
 		subjectId: number,
 		dgmuSubject: DgmuSubjectWithEventList,
 		dgmuEvent: DgmuEvent
@@ -126,25 +119,21 @@ export class PushNotificationService {
 		};
 
 		if (dgmuEvent.status === EventStatus.UPWORKED) {
-			this.fcmService
-				.sendPushNotification(fcmToken, {
-					data,
-					notification: {
-						title: 'Пропуск отработан',
-						body: `${dgmuSubject.name} − можно расслабиться`
-					}
+			this.expoService
+				.sendPushNotification(expoPushToken, {
+					title: 'Пропуск отработан',
+					body: `${dgmuSubject.name} − можно расслабиться`,
+					data
 				})
 				.catch(() => {});
 		}
 
 		if (dgmuEvent.status === EventStatus.MARK) {
-			this.fcmService
-				.sendPushNotification(fcmToken, {
-					data,
-					notification: {
-						title: 'Балл изменился',
-						body: `${dgmuSubject.name} − ${dgmuEvent.mark}, посмотри свой средний балл`
-					}
+			this.expoService
+				.sendPushNotification(expoPushToken, {
+					title: 'Балл изменился',
+					body: `${dgmuSubject.name} − ${dgmuEvent.mark}, посмотри свой средний балл`,
+					data
 				})
 				.catch(() => {});
 		}

@@ -122,7 +122,7 @@ export class RatingBySemesterHelperService {
 	}
 
 	async updateBySemester(
-		student: Pick<Student, 'id' | 'semester' | 'fcmToken'>,
+		student: Pick<Student, 'id' | 'semester' | 'expoPushToken'>,
 		dgmuSubjectList: DgmuSubjectListWithEventList
 	) {
 		await Promise.all(
@@ -165,7 +165,7 @@ export class RatingBySemesterHelperService {
 
 								if (!existingEvent) {
 									this.pushNotificationService.eventCreated(
-										student.fcmToken,
+										student.expoPushToken,
 										existingSubject.id,
 										dgmuSubject,
 										dgmuEvent
@@ -187,7 +187,7 @@ export class RatingBySemesterHelperService {
 									existingEvent?.mark !== dgmuEvent.mark
 								) {
 									this.pushNotificationService.eventUpdated(
-										student.fcmToken,
+										student.expoPushToken,
 										existingSubject.id,
 										dgmuSubject,
 										dgmuEvent

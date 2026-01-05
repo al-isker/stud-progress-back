@@ -56,7 +56,7 @@ export class GradeHelperService {
 	}
 
 	async updateBySemester(
-		student: Pick<Student, 'id' | 'fcmToken'>,
+		student: Pick<Student, 'id' | 'expoPushToken'>,
 		dgmuSubjectList: DgmuSubjectListWithGrade
 	) {
 		await Promise.all(
@@ -78,7 +78,7 @@ export class GradeHelperService {
 					existingSubject.grade?.mark !== dgmuSubject.mark
 				) {
 					this.pushNotificationService.gradeUpdated(
-						student.fcmToken,
+						student.expoPushToken,
 						existingSubject.id,
 						dgmuSubject
 					);
