@@ -74,11 +74,11 @@ export class StudentService {
 
 		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
 
-		if (isExist(data.semester)) {
-			await this.subjectHelperService.updateBySemester(
-				studentWithDecryptedPassword
-			);
-		}
+		// if (isExist(data.semester)) {
+		// 	await this.subjectHelperService.updateBySemester(
+		// 		studentWithDecryptedPassword
+		// 	);
+		// }
 
 		return studentWithDecryptedPassword;
 	}
