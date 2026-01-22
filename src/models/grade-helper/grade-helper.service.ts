@@ -74,7 +74,7 @@ export class GradeHelperService {
 				});
 
 				if (
-					existingSubject.grade.status !== dgmuSubject.status &&
+					existingSubject.grade.status !== dgmuSubject.status ||
 					existingSubject.grade?.mark !== dgmuSubject.mark
 				) {
 					this.pushNotificationService.gradeUpdated(
