@@ -1,7 +1,7 @@
-import { IsNumber, Max, Min } from 'class-validator';
+import { IsInt, Max, Min } from 'class-validator';
 
 export class UpdateSemesterDto {
-	@IsNumber()
+	@IsInt()
 	@Min(1)
 	@Max(12)
 	semester: number;

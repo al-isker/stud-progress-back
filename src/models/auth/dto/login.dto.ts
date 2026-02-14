@@ -1,4 +1,4 @@
-import { IsNumber, IsString, Max, Min } from 'class-validator';
+import { IsInt, IsString, Max, Min } from 'class-validator';
 import { Trim } from 'src/common/lib/transformers/trim';
 
 export class LoginDto {
@@ -10,7 +10,7 @@ export class LoginDto {
 	@Trim()
 	password: string;
 
-	@IsNumber()
+	@IsInt()
 	@Min(1)
 	@Max(12)
 	semester: number;

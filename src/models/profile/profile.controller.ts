@@ -14,7 +14,7 @@ export class ProfileController {
 		return this.profileService.getByStudentId(studentId);
 	}
 
-	@Patch('update-semester')
+	@Patch('semester')
 	@Auth()
 	updateSemester(
 		@CurrentStudent() studentId: number,
