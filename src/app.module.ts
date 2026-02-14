@@ -7,6 +7,7 @@ import { EventModule } from './models/event/event.module';
 import { ExpoModule } from './models/expo/expo.module';
 import { GradeHelperModule } from './models/grade-helper/grade-helper.module';
 import { GradeModule } from './models/grade/grade.module';
+import { MobileAppInfoModule } from './models/mobile-app-info/mobile-app-info.module';
 import { PrismaService } from './models/prisma/prisma.service';
 import { ProfileModule } from './models/profile/profile.module';
 import { PushNotificationModule } from './models/push-notification/push-notification.module';
@@ -24,6 +25,7 @@ import { TokenModule } from './models/token/token.module';
 		TokenModule,
 		AuthModule,
 		DeviceInfoModule,
+		MobileAppInfoModule,
 		ProfileModule,
 		SubjectModule,
 		SubjectHelperModule,
