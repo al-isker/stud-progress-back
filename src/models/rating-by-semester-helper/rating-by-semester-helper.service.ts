@@ -37,11 +37,16 @@ export class RatingBySemesterHelperService {
 		student: Pick<Student, 'id' | 'semester'>,
 		subjectName: string
 	) {
+		const isEllipsis = subjectName.endsWith('...');
+		const subjectNameWithoutEllipsis = subjectName.slice(0, -3);
+
 		const existingSubject = await this.prisma.subject.findFirst({
 			where: {
 				studentId: student.id,
 				name: {
-					name: subjectName
+					name: isEllipsis
+						? { startsWith: subjectNameWithoutEllipsis }
+						: subjectName
 				},
 				ratingBySemesterList: {
 					some: {
@@ -67,7 +72,9 @@ export class RatingBySemesterHelperService {
 			where: {
 				studentId: student.id,
 				name: {
-					name: subjectName
+					name: isEllipsis
+						? { startsWith: subjectNameWithoutEllipsis }
+						: subjectName
 				}
 			},
 			include: {
