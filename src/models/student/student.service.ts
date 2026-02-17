@@ -1,5 +1,3 @@
-import { omit } from 'src/common/lib/light-lodash/omit';
-import { PrismaQueryData } from 'src/common/lib/prisma/types/prisma-query-data';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { DgmuService } from '../dgmu/dgmu.service';
@@ -19,8 +17,20 @@ export class StudentService {
 		private dgmuService: DgmuService
 	) {}
 
-	private calculateCourse(semester: number) {
-		return Math.ceil(semester / 2);
+	private mapWithCalculateCourse<D extends object>(
+		data: D & { semester: number }
+	) {
+		return Object.assign(data, {
+			course: Math.ceil(data.semester / 2)
+		});
+	}
+
+	mapWithEncryptedPassword<D extends object>(data: D & { password: string }) {
+		const { password, ...restData } = data;
+
+		return Object.assign(restData, {
+			encryptedPassword: this.passwordService.encrypt(password)
+		});
 	}
 
 	mapWithDecryptedPassword<D extends object>(
@@ -40,15 +50,9 @@ export class StudentService {
 				eventList: true
 			});
 
-		const dataWithoutPassword = omit(data, 'password');
-
-		const encryptedPassword = this.passwordService.encrypt(data.password);
-		const course = this.calculateCourse(data.semester);
-
-		const dataForCreate = Object.assign(dataWithoutPassword, {
-			encryptedPassword,
-			course
-		});
+		const dataForCreate = this.mapWithEncryptedPassword(
+			this.mapWithCalculateCourse(data)
+		);
 
 		const student = await this.prisma.student.create({
 			data: dataForCreate
@@ -69,47 +73,44 @@ export class StudentService {
 	}
 
 	async update(id: number, data: UpdateStudentData) {
-		const student = await this.prisma.student.findFirst({
-			where: { id }
-		});
+		const existingStudent = this.mapWithDecryptedPassword(
+			await this.prisma.student.findFirst({
+				where: { id }
+			})
+		);
 
-		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
+		const requiredData = {
+			fullName: existingStudent.fullName,
+			password: data.password ?? existingStudent.password,
+			semester: data.semester ?? existingStudent.semester
+		};
 
 		const { subjectListWithGrade, subjectListWithEventList } =
-			await this.dgmuService.findMany(studentWithDecryptedPassword, {
+			await this.dgmuService.findMany(requiredData, {
 				grade: true,
 				eventList: true
 			});
 
-		type DataForUpdateType = PrismaQueryData<typeof this.prisma.student.update>;
+		const dataForUpdate = this.mapWithEncryptedPassword(
+			this.mapWithCalculateCourse(requiredData)
+		);
 
-		const dataWithoutPassword: DataForUpdateType = omit(data, 'password');
-
-		const encryptedPassword = this.passwordService.encrypt(data.password);
-		const course = this.calculateCourse(data.semester);
-
-		const dataForUpdate = Object.assign(dataWithoutPassword, {
-			encryptedPassword,
-			course
-		});
-
-		const updatedStudent = await this.prisma.student.update({
+		const student = await this.prisma.student.update({
 			where: { id },
 			data: dataForUpdate
 		});
 
 		await this.gradeHelperService.updateBySemester(
-			updatedStudent,
+			student,
 			subjectListWithGrade
 		);
 		await this.ratingBySemesterHelperService.updateBySemester(
-			updatedStudent,
+			student,
 			subjectListWithEventList
 		);
 
-		const updatedStudentWithDecryptedPassword =
-			this.mapWithDecryptedPassword(updatedStudent);
+		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
 
-		return updatedStudentWithDecryptedPassword;
+		return studentWithDecryptedPassword;
 	}
 }
