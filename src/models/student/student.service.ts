@@ -54,22 +54,26 @@ export class StudentService {
 			this.mapWithCalculateCourse(data)
 		);
 
-		const student = await this.prisma.student.create({
-			data: dataForCreate
+		const student = await this.prisma.$transaction(async tx => {
+			const student = await tx.student.create({
+				data: dataForCreate
+			});
+
+			await this.gradeHelperService.createAll(
+				student,
+				subjectListWithGradeByAllSemesters,
+				tx
+			);
+			await this.ratingBySemesterHelperService.createBySemester(
+				student,
+				subjectListWithEventList,
+				tx
+			);
+
+			return student;
 		});
 
-		await this.gradeHelperService.createAll(
-			student,
-			subjectListWithGradeByAllSemesters
-		);
-		await this.ratingBySemesterHelperService.createBySemester(
-			student,
-			subjectListWithEventList
-		);
-
-		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
-
-		return studentWithDecryptedPassword;
+		return this.mapWithDecryptedPassword(student);
 	}
 
 	async update(id: number, data: UpdateStudentData) {
@@ -95,22 +99,26 @@ export class StudentService {
 			this.mapWithCalculateCourse(requiredData)
 		);
 
-		const student = await this.prisma.student.update({
-			where: { id },
-			data: dataForUpdate
+		const student = await this.prisma.$transaction(async tx => {
+			const student = await tx.student.update({
+				where: { id },
+				data: dataForUpdate
+			});
+
+			await this.gradeHelperService.updateBySemester(
+				student,
+				subjectListWithGrade,
+				tx
+			);
+			await this.ratingBySemesterHelperService.updateBySemester(
+				student,
+				subjectListWithEventList,
+				tx
+			);
+
+			return student;
 		});
 
-		await this.gradeHelperService.updateBySemester(
-			student,
-			subjectListWithGrade
-		);
-		await this.ratingBySemesterHelperService.updateBySemester(
-			student,
-			subjectListWithEventList
-		);
-
-		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
-
-		return studentWithDecryptedPassword;
+		return this.mapWithDecryptedPassword(student);
 	}
 }

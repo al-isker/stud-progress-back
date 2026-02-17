@@ -1,4 +1,4 @@
-import { GradeStatus, Student } from '@prisma/client';
+import { GradeStatus, Prisma, Student } from '@prisma/client';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { DgmuSubjectListWithGradeByAllSemesters } from '../dgmu/types/dgmu-subject-list-with-grade-by-all-semesters.type';
@@ -14,13 +14,16 @@ export class GradeHelperService {
 
 	async createAll(
 		student: Pick<Student, 'id'>,
-		dgmuSubjectListByAllSemesters: DgmuSubjectListWithGradeByAllSemesters
+		dgmuSubjectListByAllSemesters: DgmuSubjectListWithGradeByAllSemesters,
+		tx?: Prisma.TransactionClient
 	) {
+		const prismaContext = tx ?? this.prisma;
+
 		await Promise.all(
 			dgmuSubjectListByAllSemesters.map(async dgmuSubjectListBySemester => {
 				await Promise.all(
 					dgmuSubjectListBySemester.subjectList.map(async dgmuSubject => {
-						await this.prisma.subject.create({
+						await prismaContext.subject.create({
 							data: {
 								student: {
 									connect: {
@@ -57,11 +60,14 @@ export class GradeHelperService {
 
 	async updateBySemester(
 		student: Pick<Student, 'id' | 'expoPushToken'>,
-		dgmuSubjectList: DgmuSubjectListWithGrade
+		dgmuSubjectList: DgmuSubjectListWithGrade,
+		tx?: Prisma.TransactionClient
 	) {
+		const prismaContext = tx ?? this.prisma;
+
 		await Promise.all(
 			dgmuSubjectList.map(async dgmuSubject => {
-				const existingSubject = await this.prisma.subject.findFirst({
+				const existingSubject = await prismaContext.subject.findFirst({
 					where: {
 						studentId: student.id,
 						name: {
@@ -84,7 +90,7 @@ export class GradeHelperService {
 						dgmuSubject
 					);
 
-					await this.prisma.subject.update({
+					await prismaContext.subject.update({
 						where: {
 							id: existingSubject.id
 						},

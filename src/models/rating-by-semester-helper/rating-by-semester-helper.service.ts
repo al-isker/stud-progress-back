@@ -1,4 +1,4 @@
-import { Event, Student } from '@prisma/client';
+import { Event, Prisma, Student } from '@prisma/client';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { DgmuSubjectListWithEventList } from '../dgmu/types/dgmu-subject-list-with-event-list.type';
@@ -35,12 +35,15 @@ export class RatingBySemesterHelperService {
 
 	private async findSubjectForUpdate(
 		student: Pick<Student, 'id' | 'semester'>,
-		subjectName: string
+		subjectName: string,
+		tx?: Prisma.TransactionClient
 	) {
+		const prismaContext = tx ?? this.prisma;
+
 		const isEllipsis = subjectName.endsWith('...');
 		const subjectNameWithoutEllipsis = subjectName.slice(0, -3);
 
-		const existingSubject = await this.prisma.subject.findFirst({
+		const existingSubject = await prismaContext.subject.findFirst({
 			where: {
 				studentId: student.id,
 				name: {
@@ -68,7 +71,7 @@ export class RatingBySemesterHelperService {
 			return existingSubject;
 		}
 
-		const eponymousSubjects = await this.prisma.subject.findMany({
+		const eponymousSubjects = await prismaContext.subject.findMany({
 			where: {
 				studentId: student.id,
 				name: {
@@ -100,16 +103,20 @@ export class RatingBySemesterHelperService {
 
 	async createBySemester(
 		student: Pick<Student, 'id' | 'semester'>,
-		dgmuSubjectList: DgmuSubjectListWithEventList
+		dgmuSubjectList: DgmuSubjectListWithEventList,
+		tx?: Prisma.TransactionClient
 	) {
+		const prismaContext = tx ?? this.prisma;
+
 		await Promise.all(
 			dgmuSubjectList.map(async dgmuSubject => {
 				const existingSubject = await this.findSubjectForUpdate(
 					student,
-					dgmuSubject.name
+					dgmuSubject.name,
+					tx
 				);
 
-				await this.prisma.ratingBySemester.create({
+				await prismaContext.ratingBySemester.create({
 					data: {
 						subjectId: existingSubject.id,
 						semester: student.semester,
@@ -130,13 +137,17 @@ export class RatingBySemesterHelperService {
 
 	async updateBySemester(
 		student: Pick<Student, 'id' | 'semester' | 'expoPushToken'>,
-		dgmuSubjectList: DgmuSubjectListWithEventList
+		dgmuSubjectList: DgmuSubjectListWithEventList,
+		tx?: Prisma.TransactionClient
 	) {
+		const prismaContext = tx ?? this.prisma;
+
 		await Promise.all(
 			dgmuSubjectList.map(async dgmuSubject => {
 				const existingSubject = await this.findSubjectForUpdate(
 					student,
-					dgmuSubject.name
+					dgmuSubject.name,
+					tx
 				);
 
 				const existingRatingBySemester =
@@ -145,7 +156,7 @@ export class RatingBySemesterHelperService {
 					});
 
 				if (!existingRatingBySemester) {
-					await this.prisma.ratingBySemester.create({
+					await prismaContext.ratingBySemester.create({
 						data: {
 							subjectId: existingSubject.id,
 							semester: student.semester,
@@ -161,7 +172,7 @@ export class RatingBySemesterHelperService {
 						}
 					});
 				} else {
-					await this.prisma.$transaction(
+					await Promise.all(
 						dgmuSubject.eventList
 							.map(dgmuEvent => {
 								const existingEvent = existingRatingBySemester.eventList.find(
@@ -178,7 +189,7 @@ export class RatingBySemesterHelperService {
 										dgmuEvent
 									);
 
-									return this.prisma.event.create({
+									return prismaContext.event.create({
 										data: {
 											ratingBySemesterId: existingRatingBySemester.id,
 											status: dgmuEvent.status,
@@ -200,7 +211,7 @@ export class RatingBySemesterHelperService {
 										dgmuEvent
 									);
 
-									return this.prisma.event.update({
+									return prismaContext.event.update({
 										where: {
 											date_ratingBySemesterId: {
 												date: dgmuEvent.date,
@@ -219,7 +230,7 @@ export class RatingBySemesterHelperService {
 							.filter(item => item !== undefined)
 					);
 
-					await this.prisma.ratingBySemester.update({
+					await prismaContext.ratingBySemester.update({
 						where: {
 							id: existingRatingBySemester.id
 						},
