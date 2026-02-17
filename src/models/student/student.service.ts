@@ -1,9 +1,10 @@
-import { isExist } from 'src/common/lib/light-lodash/is-exist';
 import { omit } from 'src/common/lib/light-lodash/omit';
 import { PrismaQueryData } from 'src/common/lib/prisma/types/prisma-query-data';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
-import { SubjectHelperService } from '../subject-helper/subject-helper.service';
+import { DgmuService } from '../dgmu/dgmu.service';
+import { GradeHelperService } from '../grade-helper/grade-helper.service';
+import { RatingBySemesterHelperService } from '../rating-by-semester-helper/rating-by-semester-helper.service';
 import { PasswordService } from './password.service';
 import { CreateStudentData } from './types/create-student-data.type';
 import { UpdateStudentData } from './types/update-student-data.type';
@@ -13,7 +14,9 @@ export class StudentService {
 	constructor(
 		private prisma: PrismaService,
 		private passwordService: PasswordService,
-		private subjectHelperService: SubjectHelperService
+		private gradeHelperService: GradeHelperService,
+		private ratingBySemesterHelperService: RatingBySemesterHelperService,
+		private dgmuService: DgmuService
 	) {}
 
 	private calculateCourse(semester: number) {
@@ -31,10 +34,16 @@ export class StudentService {
 	}
 
 	async create(data: CreateStudentData) {
-		const encryptedPassword = this.passwordService.encrypt(data.password);
-		const course = this.calculateCourse(data.semester);
+		const { subjectListWithGradeByAllSemesters, subjectListWithEventList } =
+			await this.dgmuService.findMany(data, {
+				gradeByAllSemesters: true,
+				eventList: true
+			});
 
 		const dataWithoutPassword = omit(data, 'password');
+
+		const encryptedPassword = this.passwordService.encrypt(data.password);
+		const course = this.calculateCourse(data.semester);
 
 		const dataForCreate = Object.assign(dataWithoutPassword, {
 			encryptedPassword,
@@ -45,41 +54,62 @@ export class StudentService {
 			data: dataForCreate
 		});
 
-		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
+		await this.gradeHelperService.createAll(
+			student,
+			subjectListWithGradeByAllSemesters
+		);
+		await this.ratingBySemesterHelperService.createBySemester(
+			student,
+			subjectListWithEventList
+		);
 
-		await this.subjectHelperService.createAll(studentWithDecryptedPassword);
+		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
 
 		return studentWithDecryptedPassword;
 	}
 
 	async update(id: number, data: UpdateStudentData) {
-		type DataForUpdateType = PrismaQueryData<typeof this.prisma.student.update>;
-
-		const dataForUpdate: DataForUpdateType = omit(data, 'password');
-
-		if (isExist(data.password)) {
-			dataForUpdate.encryptedPassword = this.passwordService.encrypt(
-				data.password
-			);
-		}
-
-		if (isExist(data.semester)) {
-			dataForUpdate.course = this.calculateCourse(data.semester);
-		}
-
-		const student = await this.prisma.student.update({
-			where: { id },
-			data: dataForUpdate
+		const student = await this.prisma.student.findFirst({
+			where: { id }
 		});
 
 		const studentWithDecryptedPassword = this.mapWithDecryptedPassword(student);
 
-		if (isExist(data.semester)) {
-			await this.subjectHelperService.updateBySemester(
-				studentWithDecryptedPassword
-			);
-		}
+		const { subjectListWithGrade, subjectListWithEventList } =
+			await this.dgmuService.findMany(studentWithDecryptedPassword, {
+				grade: true,
+				eventList: true
+			});
 
-		return studentWithDecryptedPassword;
+		type DataForUpdateType = PrismaQueryData<typeof this.prisma.student.update>;
+
+		const dataWithoutPassword: DataForUpdateType = omit(data, 'password');
+
+		const encryptedPassword = this.passwordService.encrypt(data.password);
+		const course = this.calculateCourse(data.semester);
+
+		const dataForUpdate = Object.assign(dataWithoutPassword, {
+			encryptedPassword,
+			course
+		});
+
+		const updatedStudent = await this.prisma.student.update({
+			where: { id },
+			data: dataForUpdate
+		});
+
+		await this.gradeHelperService.updateBySemester(
+			updatedStudent,
+			subjectListWithGrade
+		);
+		await this.ratingBySemesterHelperService.updateBySemester(
+			updatedStudent,
+			subjectListWithEventList
+		);
+
+		const updatedStudentWithDecryptedPassword =
+			this.mapWithDecryptedPassword(updatedStudent);
+
+		return updatedStudentWithDecryptedPassword;
 	}
 }

@@ -14,7 +14,6 @@ import { PushNotificationModule } from './models/push-notification/push-notifica
 import { RatingBySemesterHelperModule } from './models/rating-by-semester-helper/rating-by-semester-helper.module';
 import { SchedulerModule } from './models/scheduler/scheduler.module';
 import { StudentModule } from './models/student/student.module';
-import { SubjectHelperModule } from './models/subject-helper/subject-helper.module';
 import { SubjectModule } from './models/subject/subject.module';
 import { TokenModule } from './models/token/token.module';
 
@@ -28,7 +27,6 @@ import { TokenModule } from './models/token/token.module';
 		MobileAppInfoModule,
 		ProfileModule,
 		SubjectModule,
-		SubjectHelperModule,
 		GradeHelperModule,
 		RatingBySemesterHelperModule,
 		GradeModule,
