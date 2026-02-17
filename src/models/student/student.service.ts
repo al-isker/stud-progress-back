@@ -54,24 +54,27 @@ export class StudentService {
 			this.mapWithCalculateCourse(data)
 		);
 
-		const student = await this.prisma.$transaction(async tx => {
-			const student = await tx.student.create({
-				data: dataForCreate
-			});
+		const student = await this.prisma.$transaction(
+			async tx => {
+				const student = await tx.student.create({
+					data: dataForCreate
+				});
 
-			await this.gradeHelperService.createAll(
-				student,
-				subjectListWithGradeByAllSemesters,
-				tx
-			);
-			await this.ratingBySemesterHelperService.createBySemester(
-				student,
-				subjectListWithEventList,
-				tx
-			);
+				await this.gradeHelperService.createAll(
+					student,
+					subjectListWithGradeByAllSemesters,
+					tx
+				);
+				await this.ratingBySemesterHelperService.createBySemester(
+					student,
+					subjectListWithEventList,
+					tx
+				);
 
-			return student;
-		});
+				return student;
+			},
+			{ timeout: 30000 }
+		);
 
 		return this.mapWithDecryptedPassword(student);
 	}
@@ -99,25 +102,28 @@ export class StudentService {
 			this.mapWithCalculateCourse(requiredData)
 		);
 
-		const student = await this.prisma.$transaction(async tx => {
-			const student = await tx.student.update({
-				where: { id },
-				data: dataForUpdate
-			});
+		const student = await this.prisma.$transaction(
+			async tx => {
+				const student = await tx.student.update({
+					where: { id },
+					data: dataForUpdate
+				});
 
-			await this.gradeHelperService.updateBySemester(
-				student,
-				subjectListWithGrade,
-				tx
-			);
-			await this.ratingBySemesterHelperService.updateBySemester(
-				student,
-				subjectListWithEventList,
-				tx
-			);
+				await this.gradeHelperService.updateBySemester(
+					student,
+					subjectListWithGrade,
+					tx
+				);
+				await this.ratingBySemesterHelperService.updateBySemester(
+					student,
+					subjectListWithEventList,
+					tx
+				);
 
-			return student;
-		});
+				return student;
+			},
+			{ timeout: 30000 }
+		);
 
 		return this.mapWithDecryptedPassword(student);
 	}
