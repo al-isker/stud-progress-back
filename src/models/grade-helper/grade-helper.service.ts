@@ -84,11 +84,11 @@ export class GradeHelperService {
 					existingSubject.grade.date !== dgmuSubject.date ||
 					existingSubject.grade?.mark !== dgmuSubject.mark
 				) {
-					this.pushNotificationService.gradeUpdated(
-						student.expoPushToken,
-						existingSubject.id,
-						dgmuSubject
-					);
+					// this.pushNotificationService.gradeUpdated(
+					// 	student.expoPushToken,
+					// 	existingSubject.id,
+					// 	dgmuSubject
+					// );
 
 					await prismaContext.subject.update({
 						where: {
