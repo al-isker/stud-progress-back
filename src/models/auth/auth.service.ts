@@ -31,8 +31,8 @@ export class AuthService {
 
 	private async signIn(student: StudentWithDecryptedPassword, dto: LoginDto) {
 		if (
-			dto.password !== student.password ||
-			dto.semester !== student.semester
+			dto.semester !== student.semester ||
+			dto.password !== student.password
 		) {
 			student = await this.studentService.update(student.id, {
 				password: dto.password,
