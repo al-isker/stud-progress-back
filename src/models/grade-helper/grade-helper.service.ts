@@ -82,7 +82,7 @@ export class GradeHelperService {
 				if (
 					existingSubject.grade.status !== dgmuSubject.status ||
 					existingSubject.grade?.mark !== dgmuSubject.mark ||
-					existingSubject.grade.date.getTime() !== dgmuSubject.date.getTime()
+					existingSubject.grade?.date?.getTime() !== dgmuSubject.date?.getTime()
 				) {
 					this.pushNotificationService.gradeUpdated(
 						student.expoPushToken,
