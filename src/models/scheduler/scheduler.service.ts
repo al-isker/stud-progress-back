@@ -24,8 +24,8 @@ export class SchedulerService {
 			return this.studentService.mapWithDecryptedPassword(item);
 		});
 
-		for (const student of studentsWithDecryptedPassword) {
-			try {
+		await Promise.allSettled(
+			studentsWithDecryptedPassword.map(async student => {
 				const { subjectListWithGrade, subjectListWithEventList } =
 					await this.dgmuService.findMany(student, {
 						grade: true,
@@ -40,7 +40,7 @@ export class SchedulerService {
 					student,
 					subjectListWithEventList
 				);
-			} catch {}
-		}
+			})
+		);
 	}
 }
