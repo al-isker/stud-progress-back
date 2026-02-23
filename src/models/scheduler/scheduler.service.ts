@@ -1,3 +1,5 @@
+import { Student } from '@prisma/client';
+import { delay } from 'src/common/lib/light-lodash/delay';
 import { Injectable } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
 import { DgmuService } from '../dgmu/dgmu.service';
@@ -20,26 +22,39 @@ export class SchedulerService {
 	async updateSubjects() {
 		const students = await this.prisma.student.findMany();
 
-		const studentsWithDecryptedPassword = students.map(item => {
-			return this.studentService.mapWithDecryptedPassword(item);
-		});
+		const updateStudent = async (student: Student) => {
+			const studentWithDecryptedPassword =
+				this.studentService.mapWithDecryptedPassword(student);
 
-		await Promise.allSettled(
-			studentsWithDecryptedPassword.map(async student => {
-				const { subjectListWithGrade, subjectListWithEventList } =
-					await this.dgmuService.findMany(student, {
-						grade: true,
-						eventList: true
-					});
+			const { subjectListWithGrade, subjectListWithEventList } =
+				await this.dgmuService.findMany(studentWithDecryptedPassword, {
+					grade: true,
+					eventList: true
+				});
 
-				await this.gradeHelperService.updateBySemester(
-					student,
-					subjectListWithGrade
-				);
-				await this.ratingBySemesterHelperService.updateBySemester(
-					student,
-					subjectListWithEventList
-				);
+			await this.gradeHelperService.updateBySemester(
+				student,
+				subjectListWithGrade
+			);
+
+			await this.ratingBySemesterHelperService.updateBySemester(
+				student,
+				subjectListWithEventList
+			);
+		};
+
+		const DELAY_MS = 400;
+
+		const startAt = Date.now();
+
+		return await Promise.allSettled(
+			students.map(async (student, index) => {
+				const targetStartAt = startAt + index * DELAY_MS;
+				const targetDelayMs = targetStartAt - Date.now();
+
+				await delay(targetDelayMs);
+
+				return updateStudent(student);
 			})
 		);
 	}
