@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { ConfigService } from '@nestjs/config';
+import { ConfigModule } from '@nestjs/config';
 import { DgmuModule } from '../dgmu/dgmu.module';
 import { GradeHelperModule } from '../grade-helper/grade-helper.module';
 import { PrismaService } from '../prisma/prisma.service';
@@ -9,11 +9,12 @@ import { SchedulerService } from './scheduler.service';
 
 @Module({
 	imports: [
+		ConfigModule,
 		StudentModule,
 		GradeHelperModule,
 		RatingBySemesterHelperModule,
 		DgmuModule
 	],
-	providers: [SchedulerService, PrismaService, ConfigService]
+	providers: [SchedulerService, PrismaService]
 })
 export class SchedulerModule {}

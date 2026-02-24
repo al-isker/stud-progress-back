@@ -1,5 +1,5 @@
 import { Student } from '@prisma/client';
-import { IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS } from 'src/common/lib/env/env-keys';
+import { IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS_KEY } from 'src/common/lib/env/env-keys';
 import { delay } from 'src/common/lib/light-lodash/delay';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
@@ -24,7 +24,8 @@ export class SchedulerService {
 	@Cron(CronExpression.EVERY_HOUR)
 	async updateSubjects() {
 		const isEnabled =
-			this.configService.get(IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS) === 'true';
+			this.configService.get(IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS_KEY) ===
+			'true';
 
 		if (!isEnabled) return;
 

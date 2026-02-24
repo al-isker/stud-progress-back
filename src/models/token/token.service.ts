@@ -7,7 +7,7 @@ import { JwtService } from '@nestjs/jwt';
 export class TokenService {
 	constructor(
 		private prisma: PrismaService,
-		private jwt: JwtService
+		private jwtService: JwtService
 	) {}
 
 	private generateRefreshTokenExpiredAt() {
@@ -28,7 +28,9 @@ export class TokenService {
 	issueTokens(studentId: number) {
 		const accessTokenPayload = { id: studentId };
 
-		const accessToken = this.jwt.sign(accessTokenPayload, { expiresIn: '1h' });
+		const accessToken = this.jwtService.sign(accessTokenPayload, {
+			expiresIn: '1h'
+		});
 		const refreshToken = uuid.v7();
 
 		return { accessToken, refreshToken };
