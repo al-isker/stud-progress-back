@@ -1,6 +1,8 @@
 import { Student } from '@prisma/client';
+import { IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS } from 'src/common/lib/env/env-keys';
 import { delay } from 'src/common/lib/light-lodash/delay';
 import { Injectable } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import { Cron, CronExpression } from '@nestjs/schedule';
 import { DgmuService } from '../dgmu/dgmu.service';
 import { GradeHelperService } from '../grade-helper/grade-helper.service';
@@ -12,6 +14,7 @@ import { StudentService } from '../student/student.service';
 export class SchedulerService {
 	constructor(
 		private prisma: PrismaService,
+		private configService: ConfigService,
 		private studentService: StudentService,
 		private gradeHelperService: GradeHelperService,
 		private ratingBySemesterHelperService: RatingBySemesterHelperService,
@@ -20,6 +23,11 @@ export class SchedulerService {
 
 	@Cron(CronExpression.EVERY_HOUR)
 	async updateSubjects() {
+		const isEnabled =
+			this.configService.get(IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS) === 'true';
+
+		if (!isEnabled) return;
+
 		const students = await this.prisma.student.findMany();
 
 		const updateStudent = async (student: Student) => {
