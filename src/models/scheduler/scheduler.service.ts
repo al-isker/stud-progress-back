@@ -52,7 +52,7 @@ export class SchedulerService {
 			);
 		};
 
-		const DELAY_MS = 400;
+		const DELAY_MS = 2000;
 
 		const startAt = Date.now();
 
