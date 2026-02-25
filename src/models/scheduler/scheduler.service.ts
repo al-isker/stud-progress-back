@@ -3,7 +3,7 @@ import { IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS_KEY } from 'src/common/lib/env/env
 import { delay } from 'src/common/lib/light-lodash/delay';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { Cron, CronExpression } from '@nestjs/schedule';
+import { Cron } from '@nestjs/schedule';
 import { DgmuService } from '../dgmu/dgmu.service';
 import { GradeHelperService } from '../grade-helper/grade-helper.service';
 import { PrismaService } from '../prisma/prisma.service';
@@ -21,7 +21,7 @@ export class SchedulerService {
 		private dgmuService: DgmuService
 	) {}
 
-	@Cron(CronExpression.EVERY_HOUR)
+	@Cron('15 * * * *')
 	async updateSubjects() {
 		const isEnabled =
 			this.configService.get(IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS_KEY) ===
