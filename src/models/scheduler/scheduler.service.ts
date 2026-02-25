@@ -52,11 +52,11 @@ export class SchedulerService {
 			);
 		};
 
-		const DELAY_MS = 2000;
+		const DELAY_MS = 3000;
 
 		const startAt = Date.now();
 
-		return await Promise.allSettled(
+		const result = await Promise.allSettled(
 			students.map(async (student, index) => {
 				const targetStartAt = startAt + index * DELAY_MS;
 				const targetDelayMs = targetStartAt - Date.now();
@@ -66,5 +66,7 @@ export class SchedulerService {
 				return updateStudent(student);
 			})
 		);
+
+		console.log(result);
 	}
 }
