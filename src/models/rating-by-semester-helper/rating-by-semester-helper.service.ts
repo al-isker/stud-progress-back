@@ -91,13 +91,23 @@ export class RatingBySemesterHelperService {
 		});
 
 		if (eponymousSubjects.length) {
-			const eponymousSubjectsSorted = eponymousSubjects
-				.filter(item => item.grade.semester >= student.semester)
-				.sort(
-					(itemOne, itemTwo) => itemOne.grade.semester - itemTwo.grade.semester
-				);
+			const eponymousSubjectsSorted = eponymousSubjects.sort(
+				(itemOne, itemTwo) => itemOne.grade.semester - itemTwo.grade.semester
+			);
 
-			return eponymousSubjectsSorted[0];
+			const nextSubject = eponymousSubjectsSorted.find(
+				item => item.grade.semester >= student.semester
+			);
+
+			if (nextSubject) {
+				return nextSubject;
+			}
+
+			const prevSubject = eponymousSubjectsSorted
+				.reverse()
+				.find(item => item.grade.semester < student.semester);
+
+			return prevSubject;
 		}
 	}
 
