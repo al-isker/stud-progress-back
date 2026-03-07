@@ -15,9 +15,7 @@ export class StudentService {
 		private externalPortalService: ExternalPortalService
 	) {}
 
-	private mapWithCalculateCourse<D extends object>(
-		data: D & { semester: number }
-	) {
+	private mapWithCalculateCourse<D extends object>(data: D & { semester: number }) {
 		return Object.assign(data, {
 			course: Math.ceil(data.semester / 2)
 		});
@@ -31,9 +29,7 @@ export class StudentService {
 		});
 	}
 
-	mapWithDecryptedPassword<D extends object>(
-		data: D & { encryptedPassword: string }
-	) {
+	mapWithDecryptedPassword<D extends object>(data: D & { encryptedPassword: string }) {
 		const { encryptedPassword, ...restData } = data;
 
 		return Object.assign(restData, {
@@ -42,17 +38,12 @@ export class StudentService {
 	}
 
 	async create(data: CreateStudentData) {
-		const externalPortalProgress = await this.externalPortalService.getProgress(
-			data,
-			{
-				subjectListWithGradeByAllSemesters: true,
-				subjectListWithEventList: true
-			}
-		);
+		const externalPortalProgress = await this.externalPortalService.getProgress(data, {
+			subjectListWithGradeByAllSemesters: true,
+			subjectListWithEventList: true
+		});
 
-		const dataForCreate = this.mapWithEncryptedPassword(
-			this.mapWithCalculateCourse(data)
-		);
+		const dataForCreate = this.mapWithEncryptedPassword(this.mapWithCalculateCourse(data));
 
 		const student = await this.prisma.$transaction(
 			async tx => {
@@ -60,12 +51,7 @@ export class StudentService {
 					data: dataForCreate
 				});
 
-				await this.progressSyncService.init(
-					student,
-					student.semester,
-					externalPortalProgress,
-					tx
-				);
+				await this.progressSyncService.init(student, student.semester, externalPortalProgress, tx);
 
 				return student;
 			},
@@ -88,17 +74,12 @@ export class StudentService {
 			semester: data.semester ?? existingStudent.semester
 		};
 
-		const externalPortalProgress = await this.externalPortalService.getProgress(
-			requiredData,
-			{
-				subjectListWithGrade: true,
-				subjectListWithEventList: true
-			}
-		);
+		const externalPortalProgress = await this.externalPortalService.getProgress(requiredData, {
+			subjectListWithGrade: true,
+			subjectListWithEventList: true
+		});
 
-		const dataForUpdate = this.mapWithEncryptedPassword(
-			this.mapWithCalculateCourse(requiredData)
-		);
+		const dataForUpdate = this.mapWithEncryptedPassword(this.mapWithCalculateCourse(requiredData));
 
 		const result = await this.prisma.$transaction(
 			async tx => {

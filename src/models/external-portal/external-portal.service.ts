@@ -27,8 +27,7 @@ export class ExternalPortalService {
 		const sessid = await this.externalPortalRouterService.getSessid(data);
 
 		const gradePagePromise =
-			include?.subjectListWithGrade ||
-			include?.subjectListWithGradeByAllSemesters
+			include?.subjectListWithGrade || include?.subjectListWithGradeByAllSemesters
 				? this.externalPortalRouterService.getGradePage(sessid)
 				: Promise.resolve(null);
 
@@ -36,19 +35,15 @@ export class ExternalPortalService {
 			? this.externalPortalRouterService.getEventsPage(sessid, data.semester)
 			: Promise.resolve(null);
 
-		const [gradePage, eventsPage] = await Promise.all([
-			gradePagePromise,
-			eventsPagePromise
-		]);
+		const [gradePage, eventsPage] = await Promise.all([gradePagePromise, eventsPagePromise]);
 
 		const result: Record<string, unknown> = {};
 
 		if (include?.subjectListWithGrade && gradePage) {
-			result.subjectListWithGrade =
-				this.externalPortalGradePageParser.parseBySemester(
-					gradePage,
-					data.semester
-				);
+			result.subjectListWithGrade = this.externalPortalGradePageParser.parseBySemester(
+				gradePage,
+				data.semester
+			);
 		}
 
 		if (include?.subjectListWithGradeByAllSemesters && gradePage) {
@@ -57,8 +52,7 @@ export class ExternalPortalService {
 		}
 
 		if (include?.subjectListWithEventList && eventsPage) {
-			result.subjectListWithEventList =
-				this.externalPortalEventsPageParser.parse(eventsPage);
+			result.subjectListWithEventList = this.externalPortalEventsPageParser.parse(eventsPage);
 		}
 
 		return result as ExternalPortalProgress<TInclude>;

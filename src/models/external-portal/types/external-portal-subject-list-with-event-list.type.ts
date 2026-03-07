@@ -11,5 +11,4 @@ export interface ExternalPortalSubjectWithEventList {
 	eventList: ExternalPortalEvent[];
 }
 
-export type ExternalPortalSubjectListWithEventList =
-	ExternalPortalSubjectWithEventList[];
+export type ExternalPortalSubjectListWithEventList = ExternalPortalSubjectWithEventList[];

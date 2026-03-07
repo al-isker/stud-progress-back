@@ -21,23 +21,22 @@ export class SchedulerService {
 
 	@Cron('15 * * * *')
 	async updateSubjects() {
-		const isEnabled =
-			this.configService.get(IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS_KEY) ===
-			'true';
+		const isEnabled = this.configService.get(IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS_KEY) === 'true';
 
 		if (!isEnabled) return;
 
 		const students = await this.prisma.student.findMany();
 
 		const updateStudent = async (student: Student) => {
-			const studentWithDecryptedPassword =
-				this.studentService.mapWithDecryptedPassword(student);
+			const studentWithDecryptedPassword = this.studentService.mapWithDecryptedPassword(student);
 
-			const externalPortalProgress =
-				await this.externalPortalService.getProgress(
-					studentWithDecryptedPassword,
-					{ subjectListWithGrade: true, subjectListWithEventList: true }
-				);
+			const externalPortalProgress = await this.externalPortalService.getProgress(
+				studentWithDecryptedPassword,
+				{
+					subjectListWithGrade: true,
+					subjectListWithEventList: true
+				}
+			);
 
 			const progressUpdateResult = await this.progressSyncService.update(
 				student,

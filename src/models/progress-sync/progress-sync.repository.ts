@@ -91,10 +91,7 @@ export class ProgressSyncRepository {
 		});
 	}
 
-	async findManySubjectForRatingSync(
-		studentId: number,
-		tx?: Prisma.TransactionClient
-	) {
+	async findManySubjectForRatingSync(studentId: number, tx?: Prisma.TransactionClient) {
 		return await this.getPrismaContext(tx).subject.findMany({
 			where: {
 				studentId

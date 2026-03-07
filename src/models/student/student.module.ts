@@ -7,11 +7,7 @@ import { PasswordService } from './password.service';
 import { StudentService } from './student.service';
 
 @Module({
-	imports: [
-		ConfigModule,
-		ProgressSyncModule,
-		ExternalPortalModule
-	],
+	imports: [ConfigModule, ProgressSyncModule, ExternalPortalModule],
 	providers: [StudentService, PrismaService, PasswordService],
 	exports: [StudentService]
 })

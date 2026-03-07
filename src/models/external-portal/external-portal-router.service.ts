@@ -1,9 +1,5 @@
 import * as cheerio from 'cheerio';
-import {
-	BadGatewayException,
-	Injectable,
-	UnauthorizedException
-} from '@nestjs/common';
+import { BadGatewayException, Injectable, UnauthorizedException } from '@nestjs/common';
 import { fetchOrNull } from './lib/fetch-or-null';
 import { ExternalPortalStudentData } from './types/external-portal-student-data.type';
 import { objectToFormData } from './utils/object-to-form-data';
@@ -61,12 +57,9 @@ export class ExternalPortalRouterService {
 
 		const sessid = this.parseCookie(authRes.headers, 'LKSESSID');
 
-		const usersetRes = await fetchOrNull(
-			'https://lk.dgmu.ru/user/sign-in/userset?role=Student',
-			{
-				headers: { cookie: sessid }
-			}
-		);
+		const usersetRes = await fetchOrNull('https://lk.dgmu.ru/user/sign-in/userset?role=Student', {
+			headers: { cookie: sessid }
+		});
 
 		if (usersetRes === null) {
 			throw new BadGatewayException();
@@ -101,7 +94,9 @@ export class ExternalPortalRouterService {
 	async getEventsPage(sessid: string, semester: number) {
 		const eventsRes = await fetchOrNull(
 			'https://lk.dgmu.ru/student/journal?_referrer=%2Fstudent%2Findex',
-			{ headers: { cookie: sessid } }
+			{
+				headers: { cookie: sessid }
+			}
 		);
 
 		if (eventsRes === null) {
@@ -162,23 +157,20 @@ export class ExternalPortalRouterService {
 
 		const groupId = (await groupRes.json()).selected.id;
 
-		const eventsBySemesterRes = await fetchOrNull(
-			'https://lk.dgmu.ru/student/journal',
-			{
-				method: 'POST',
-				body: objectToFormData({
-					_csrf: csrfForm,
-					plan_id: planId,
-					caf_id: cafId,
-					group_id: groupId,
-					semester_id: semesterId
-				}),
-				headers: {
-					cookie: `${sessid}; ${csrfCookie}`,
-					'content-type': 'application/x-www-form-urlencoded'
-				}
+		const eventsBySemesterRes = await fetchOrNull('https://lk.dgmu.ru/student/journal', {
+			method: 'POST',
+			body: objectToFormData({
+				_csrf: csrfForm,
+				plan_id: planId,
+				caf_id: cafId,
+				group_id: groupId,
+				semester_id: semesterId
+			}),
+			headers: {
+				cookie: `${sessid}; ${csrfCookie}`,
+				'content-type': 'application/x-www-form-urlencoded'
 			}
-		);
+		});
 
 		if (eventsBySemesterRes === null) {
 			throw new BadGatewayException();

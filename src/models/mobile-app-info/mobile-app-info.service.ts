@@ -11,15 +11,9 @@ export class MobileAppInfoService {
 	constructor(private configService: ConfigService) {}
 
 	private info = {
-		minSupportedVersion: this.configService.get<string>(
-			MOBILE_APP_MIN_SUPPORTED_VERSION_KEY
-		),
-		linkToGooglePlay: this.configService.get<string>(
-			MOBILE_APP_LINK_TO_GOOGLE_PLAY_KEY
-		),
-		linkToAppStore: this.configService.get<string>(
-			MOBILE_APP_LINK_TO_APP_STORE_KEY
-		)
+		minSupportedVersion: this.configService.get<string>(MOBILE_APP_MIN_SUPPORTED_VERSION_KEY),
+		linkToGooglePlay: this.configService.get<string>(MOBILE_APP_LINK_TO_GOOGLE_PLAY_KEY),
+		linkToAppStore: this.configService.get<string>(MOBILE_APP_LINK_TO_APP_STORE_KEY)
 	};
 
 	async get() {

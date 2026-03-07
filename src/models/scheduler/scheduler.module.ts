@@ -7,12 +7,7 @@ import { StudentModule } from '../student/student.module';
 import { SchedulerService } from './scheduler.service';
 
 @Module({
-	imports: [
-		ConfigModule,
-		StudentModule,
-		ProgressSyncModule,
-		ExternalPortalModule
-	],
+	imports: [ConfigModule, StudentModule, ProgressSyncModule, ExternalPortalModule],
 	providers: [SchedulerService, PrismaService]
 })
 export class SchedulerModule {}

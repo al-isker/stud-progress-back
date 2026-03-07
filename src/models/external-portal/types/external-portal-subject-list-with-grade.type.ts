@@ -8,5 +8,4 @@ export interface ExternalPortalSubjectWithGrade {
 	mark: number;
 }
 
-export type ExternalPortalSubjectListWithGrade =
-	ExternalPortalSubjectWithGrade[];
+export type ExternalPortalSubjectListWithGrade = ExternalPortalSubjectWithGrade[];

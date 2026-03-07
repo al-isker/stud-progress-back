@@ -21,19 +21,13 @@ export class AuthService {
 
 		const issuedTokens = this.tokenService.issueTokens(student.id);
 
-		await this.tokenService.saveRefreshToken(
-			student.id,
-			issuedTokens.refreshToken
-		);
+		await this.tokenService.saveRefreshToken(student.id, issuedTokens.refreshToken);
 
 		return issuedTokens;
 	}
 
 	private async signIn(student: StudentWithDecryptedPassword, dto: LoginDto) {
-		if (
-			dto.semester !== student.semester ||
-			dto.password !== student.password
-		) {
+		if (dto.semester !== student.semester || dto.password !== student.password) {
 			student = await this.studentService.update(student.id, {
 				password: dto.password,
 				semester: dto.semester
@@ -42,10 +36,7 @@ export class AuthService {
 
 		const issuedTokens = this.tokenService.issueTokens(student.id);
 
-		await this.tokenService.updateRefreshToken(
-			student.id,
-			issuedTokens.refreshToken
-		);
+		await this.tokenService.updateRefreshToken(student.id, issuedTokens.refreshToken);
 
 		return issuedTokens;
 	}
@@ -58,19 +49,14 @@ export class AuthService {
 		});
 
 		if (student) {
-			return await this.signIn(
-				this.studentService.mapWithDecryptedPassword(student),
-				dto
-			);
+			return await this.signIn(this.studentService.mapWithDecryptedPassword(student), dto);
 		} else {
 			return await this.signUp(dto);
 		}
 	}
 
 	async refreshToken(dto: RefreshTokenDto) {
-		const foundRefreshToken = await this.tokenService.findRefreshToken(
-			dto.refreshToken
-		);
+		const foundRefreshToken = await this.tokenService.findRefreshToken(dto.refreshToken);
 
 		if (!foundRefreshToken) {
 			throw new UnauthorizedException('Refresh token not found');
@@ -84,9 +70,7 @@ export class AuthService {
 			throw new UnauthorizedException('Refresh token expired');
 		}
 
-		const issuedTokens = this.tokenService.issueTokens(
-			foundRefreshToken.studentId
-		);
+		const issuedTokens = this.tokenService.issueTokens(foundRefreshToken.studentId);
 
 		await this.tokenService.updateRefreshToken(
 			foundRefreshToken.studentId,

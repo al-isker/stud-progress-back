@@ -12,9 +12,7 @@ export class ExpoService {
 		payload: Omit<ExpoPushMessage, 'to'>
 	) {
 		if (expoPushToken) {
-			const [chunk] = this.expoClient.chunkPushNotifications([
-				{ to: expoPushToken, ...payload }
-			]);
+			const [chunk] = this.expoClient.chunkPushNotifications([{ to: expoPushToken, ...payload }]);
 
 			await this.expoClient.sendPushNotificationsAsync(chunk);
 		}

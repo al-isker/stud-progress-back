@@ -38,9 +38,7 @@ export class ProgressSyncHelperService {
 		>,
 		subjectName: string
 	) {
-		const matchingSubject = subjects.find(
-			subject => subject.name.name === subjectName
-		);
+		const matchingSubject = subjects.find(subject => subject.name.name === subjectName);
 
 		return matchingSubject ?? null;
 	}
@@ -86,11 +84,9 @@ export class ProgressSyncHelperService {
 			return matchingSubjectCurrentSemester;
 		}
 
-		const sortedSameNameSubjects = sameNameSubjects.toSorted(
-			(subjectOne, subjectTwo) => {
-				return subjectOne.grade.semester - subjectTwo.grade.semester;
-			}
-		);
+		const sortedSameNameSubjects = sameNameSubjects.toSorted((subjectOne, subjectTwo) => {
+			return subjectOne.grade.semester - subjectTwo.grade.semester;
+		});
 
 		const matchingSubjectNextSemester = sortedSameNameSubjects.find(
 			subject => subject.grade.semester >= semester
@@ -114,15 +110,11 @@ export class ProgressSyncHelperService {
 		return (
 			existingGrade.status !== externalPortalSubjectWithGrade.status ||
 			existingGrade.mark !== externalPortalSubjectWithGrade.mark ||
-			existingGrade.date?.getTime() !==
-				externalPortalSubjectWithGrade.date?.getTime()
+			existingGrade.date?.getTime() !== externalPortalSubjectWithGrade.date?.getTime()
 		);
 	}
 
-	differentEvents(
-		existingEventList: Event[],
-		externalPortalEventList: ExternalPortalEvent[]
-	) {
+	differentEvents(existingEventList: Event[], externalPortalEventList: ExternalPortalEvent[]) {
 		const created: ExternalPortalEvent[] = [];
 		const updated: ExternalPortalEvent[] = [];
 

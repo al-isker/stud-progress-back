@@ -10,10 +10,7 @@ export class DeviceInfoController {
 
 	@Post('expo-push-token')
 	@Auth()
-	updateExpoPushToken(
-		@CurrentStudent() studentId: number,
-		@Body() dto: UpdateExpoPushTokenDto
-	) {
+	updateExpoPushToken(@CurrentStudent() studentId: number, @Body() dto: UpdateExpoPushTokenDto) {
 		return this.deviceInfoService.updateExpoPushToken(studentId, dto);
 	}
 }

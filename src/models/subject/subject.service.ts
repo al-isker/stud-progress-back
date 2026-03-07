@@ -6,10 +6,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 export class SubjectService {
 	constructor(private prisma: PrismaService) {}
 
-	private calculateImpactLastMark(
-		averageMark: number | null,
-		eventList: Event[]
-	) {
+	private calculateImpactLastMark(averageMark: number | null, eventList: Event[]) {
 		if (averageMark === null) {
 			return null;
 		}
@@ -19,8 +16,7 @@ export class SubjectService {
 		const lastMark = eventListWithMarkOnly[0].mark;
 
 		const averageMarkWithoutLastMark =
-			(averageMark * eventListWithMarkOnly.length - lastMark) /
-			(eventListWithMarkOnly.length - 1);
+			(averageMark * eventListWithMarkOnly.length - lastMark) / (eventListWithMarkOnly.length - 1);
 
 		const impactLastMark = averageMark - averageMarkWithoutLastMark;
 
@@ -127,13 +123,11 @@ export class SubjectService {
 			id: subject.id,
 			name: subject.name.name,
 			controlType: subject.controlType,
-			ratingBySemesterList: subject.ratingBySemesterList.map(
-				ratingBySemester => ({
-					id: ratingBySemester.id,
-					semester: ratingBySemester.semester,
-					averageMark: ratingBySemester.averageMark
-				})
-			),
+			ratingBySemesterList: subject.ratingBySemesterList.map(ratingBySemester => ({
+				id: ratingBySemester.id,
+				semester: ratingBySemester.semester,
+				averageMark: ratingBySemester.averageMark
+			})),
 			grade: {
 				id: subject.grade.id,
 				semester: subject.grade.semester,
@@ -194,14 +188,12 @@ export class SubjectService {
 				ratingByCurrentSemester: subject.ratingBySemesterList[0]
 					? {
 							averageMark: subject.ratingBySemesterList[0].averageMark,
-							eventList: subject.ratingBySemesterList[0].eventList.map(
-								event => ({
-									id: event.id,
-									status: event.status,
-									mark: event.mark,
-									isNew: event.isNew
-								})
-							)
+							eventList: subject.ratingBySemesterList[0].eventList.map(event => ({
+								id: event.id,
+								status: event.status,
+								mark: event.mark,
+								isNew: event.isNew
+							}))
 						}
 					: {
 							averageMark: null,

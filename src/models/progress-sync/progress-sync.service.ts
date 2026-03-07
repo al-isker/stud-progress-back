@@ -37,19 +37,14 @@ export class ProgressSyncService {
 		externalPortalSubjectListWithEventList: ExternalPortalSubjectListWithEventList,
 		tx?: Prisma.TransactionClient
 	) {
-		const subjects =
-			await this.progressSyncRepository.findManySubjectForRatingSync(
-				student.id,
-				tx
-			);
+		const subjects = await this.progressSyncRepository.findManySubjectForRatingSync(student.id, tx);
 
 		for (const externalPortalSubjectWithEventList of externalPortalSubjectListWithEventList) {
-			const matchingSubject =
-				this.progressSyncHelperService.findMatchingSubjectForRatingSync(
-					subjects,
-					semester,
-					externalPortalSubjectWithEventList.name
-				);
+			const matchingSubject = this.progressSyncHelperService.findMatchingSubjectForRatingSync(
+				subjects,
+				semester,
+				externalPortalSubjectWithEventList.name
+			);
 
 			if (!matchingSubject) {
 				throw new InternalServerErrorException(
@@ -77,19 +72,17 @@ export class ProgressSyncService {
 	) {
 		const notificationCallbacks = Array<() => void>();
 
-		const subjects =
-			await this.progressSyncRepository.findManySubjectForGradeSync(
-				student.id,
-				semester,
-				tx
-			);
+		const subjects = await this.progressSyncRepository.findManySubjectForGradeSync(
+			student.id,
+			semester,
+			tx
+		);
 
 		for (const externalPortalSubjectWithGrade of externalPortalSubjectListWithGrade) {
-			const matchingSubject =
-				this.progressSyncHelperService.findMatchingSubjectForGradeSync(
-					subjects,
-					externalPortalSubjectWithGrade.name
-				);
+			const matchingSubject = this.progressSyncHelperService.findMatchingSubjectForGradeSync(
+				subjects,
+				externalPortalSubjectWithGrade.name
+			);
 
 			if (!matchingSubject?.grade) {
 				throw new InternalServerErrorException(
@@ -132,19 +125,14 @@ export class ProgressSyncService {
 	) {
 		const notificationCallbacks = Array<() => void>();
 
-		const subjects =
-			await this.progressSyncRepository.findManySubjectForRatingSync(
-				student.id,
-				tx
-			);
+		const subjects = await this.progressSyncRepository.findManySubjectForRatingSync(student.id, tx);
 
 		for (const externalPortalSubjectWithEventList of externalPortalSubjectListWithEventList) {
-			const matchingSubject =
-				this.progressSyncHelperService.findMatchingSubjectForRatingSync(
-					subjects,
-					semester,
-					externalPortalSubjectWithEventList.name
-				);
+			const matchingSubject = this.progressSyncHelperService.findMatchingSubjectForRatingSync(
+				subjects,
+				semester,
+				externalPortalSubjectWithEventList.name
+			);
 
 			if (!matchingSubject) {
 				throw new InternalServerErrorException(
@@ -172,11 +160,10 @@ export class ProgressSyncService {
 				continue;
 			}
 
-			const externalPortalDifferentEvents =
-				this.progressSyncHelperService.differentEvents(
-					ratingByCurrentSemester.eventList,
-					externalPortalSubjectWithEventList.eventList
-				);
+			const externalPortalDifferentEvents = this.progressSyncHelperService.differentEvents(
+				ratingByCurrentSemester.eventList,
+				externalPortalSubjectWithEventList.eventList
+			);
 
 			for (const externalPortalCreatedEvent of externalPortalDifferentEvents.created) {
 				await this.progressSyncRepository.createEvent(

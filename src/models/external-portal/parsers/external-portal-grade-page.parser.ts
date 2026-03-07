@@ -33,10 +33,7 @@ export class ExternalPortalGradePageParser {
 		Отлично: GradeStatus.PASS
 	};
 
-	parseBySemester(
-		page: string,
-		semester: number
-	): ExternalPortalSubjectListWithGrade {
+	parseBySemester(page: string, semester: number): ExternalPortalSubjectListWithGrade {
 		const $ = cheerio.load(page);
 
 		return $(`#tab-0-${semester - 1} tbody tr`)
@@ -69,9 +66,7 @@ export class ExternalPortalGradePageParser {
 			.get();
 	}
 
-	parseAllSemesters(
-		page: string
-	): ExternalPortalSubjectListWithGradeByAllSemesters {
+	parseAllSemesters(page: string): ExternalPortalSubjectListWithGradeByAllSemesters {
 		return Array(12)
 			.fill(null)
 			.map((_, index) => {

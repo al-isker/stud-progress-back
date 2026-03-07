@@ -12,19 +12,13 @@ export class PasswordService {
 	}
 
 	encrypt(password: string) {
-		const passwordCipher = crypto.AES.encrypt(
-			password,
-			this.passwordCryptoSecret()
-		);
+		const passwordCipher = crypto.AES.encrypt(password, this.passwordCryptoSecret());
 
 		return passwordCipher.toString();
 	}
 
 	decrypt(encryptedPassword: string) {
-		const passwordWordArray = crypto.AES.decrypt(
-			encryptedPassword,
-			this.passwordCryptoSecret()
-		);
+		const passwordWordArray = crypto.AES.decrypt(encryptedPassword, this.passwordCryptoSecret());
 
 		return passwordWordArray.toString(crypto.enc.Utf8);
 	}

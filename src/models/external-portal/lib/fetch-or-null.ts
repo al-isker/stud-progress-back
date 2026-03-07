@@ -1,9 +1,6 @@
 const TIMEOUT = 40000;
 
-export async function fetchOrNull(
-	input: RequestInfo | URL,
-	init?: RequestInit
-) {
+export async function fetchOrNull(input: RequestInfo | URL, init?: RequestInit) {
 	const abortController = new AbortController();
 
 	const timeoutId = setTimeout(() => {

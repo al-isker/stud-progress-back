@@ -66,9 +66,7 @@ export class PushNotificationService {
 				}
 			}
 
-			this.expoService
-				.sendPushNotification(expoPushToken, { title, body, data })
-				.catch(() => {});
+			this.expoService.sendPushNotification(expoPushToken, { title, body, data }).catch(() => {});
 		}
 	}
 
