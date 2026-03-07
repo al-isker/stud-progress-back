@@ -5,11 +5,11 @@ import {
 	UnauthorizedException
 } from '@nestjs/common';
 import { fetchOrNull } from './lib/fetch-or-null';
-import { DgmuStudentData } from './types/dgmu-student-data.type';
+import { ExternalPortalStudentData } from './types/external-portal-student-data.type';
 import { objectToFormData } from './utils/object-to-form-data';
 
 @Injectable()
-export class DgmuRouterService {
+export class ExternalPortalRouterService {
 	private parseCookie(headers: Headers, key: string) {
 		const cookies = headers.get('set-cookie');
 
@@ -28,7 +28,7 @@ export class DgmuRouterService {
 		return cookie;
 	}
 
-	async getSessid(data: DgmuStudentData) {
+	async getSessid(data: ExternalPortalStudentData) {
 		const startRes = await fetchOrNull('https://lk.dgmu.ru/user/sign-in/login');
 
 		if (startRes === null) {

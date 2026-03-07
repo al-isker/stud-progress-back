@@ -1,6 +1,6 @@
 import { ControlType, GradeStatus } from '@prisma/client';
 
-export interface DgmuSubjectWithGrade {
+export interface ExternalPortalSubjectWithGrade {
 	name: string;
 	controlType: ControlType;
 	date: Date;
@@ -8,4 +8,5 @@ export interface DgmuSubjectWithGrade {
 	mark: number;
 }
 
-export type DgmuSubjectListWithGrade = DgmuSubjectWithGrade[];
+export type ExternalPortalSubjectListWithGrade =
+	ExternalPortalSubjectWithGrade[];

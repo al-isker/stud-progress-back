@@ -1,8 +1,7 @@
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
-import { DgmuService } from '../dgmu/dgmu.service';
-import { GradeHelperService } from '../grade-helper/grade-helper.service';
-import { RatingBySemesterHelperService } from '../rating-by-semester-helper/rating-by-semester-helper.service';
+import { ExternalPortalService } from '../external-portal/external-portal.service';
+import { ProgressSyncService } from '../progress-sync/progress-sync.service';
 import { PasswordService } from './password.service';
 import { CreateStudentData } from './types/create-student-data.type';
 import { UpdateStudentData } from './types/update-student-data.type';
@@ -12,9 +11,8 @@ export class StudentService {
 	constructor(
 		private prisma: PrismaService,
 		private passwordService: PasswordService,
-		private gradeHelperService: GradeHelperService,
-		private ratingBySemesterHelperService: RatingBySemesterHelperService,
-		private dgmuService: DgmuService
+		private progressSyncService: ProgressSyncService,
+		private externalPortalService: ExternalPortalService
 	) {}
 
 	private mapWithCalculateCourse<D extends object>(
@@ -44,11 +42,13 @@ export class StudentService {
 	}
 
 	async create(data: CreateStudentData) {
-		const { subjectListWithGradeByAllSemesters, subjectListWithEventList } =
-			await this.dgmuService.findMany(data, {
-				gradeByAllSemesters: true,
-				eventList: true
-			});
+		const externalPortalProgress = await this.externalPortalService.getProgress(
+			data,
+			{
+				subjectListWithGradeByAllSemesters: true,
+				subjectListWithEventList: true
+			}
+		);
 
 		const dataForCreate = this.mapWithEncryptedPassword(
 			this.mapWithCalculateCourse(data)
@@ -60,14 +60,10 @@ export class StudentService {
 					data: dataForCreate
 				});
 
-				await this.gradeHelperService.createAll(
+				await this.progressSyncService.init(
 					student,
-					subjectListWithGradeByAllSemesters,
-					tx
-				);
-				await this.ratingBySemesterHelperService.createBySemester(
-					student,
-					subjectListWithEventList,
+					student.semester,
+					externalPortalProgress,
 					tx
 				);
 
@@ -92,39 +88,41 @@ export class StudentService {
 			semester: data.semester ?? existingStudent.semester
 		};
 
-		const { subjectListWithGrade, subjectListWithEventList } =
-			await this.dgmuService.findMany(requiredData, {
-				grade: true,
-				eventList: true
-			});
+		const externalPortalProgress = await this.externalPortalService.getProgress(
+			requiredData,
+			{
+				subjectListWithGrade: true,
+				subjectListWithEventList: true
+			}
+		);
 
 		const dataForUpdate = this.mapWithEncryptedPassword(
 			this.mapWithCalculateCourse(requiredData)
 		);
 
-		const student = await this.prisma.$transaction(
+		const result = await this.prisma.$transaction(
 			async tx => {
 				const student = await tx.student.update({
 					where: { id },
 					data: dataForUpdate
 				});
 
-				await this.gradeHelperService.updateBySemester(
+				const progressResult = await this.progressSyncService.update(
 					student,
-					subjectListWithGrade,
-					tx
-				);
-				await this.ratingBySemesterHelperService.updateBySemester(
-					student,
-					subjectListWithEventList,
+					student.semester,
+					externalPortalProgress,
 					tx
 				);
 
-				return student;
+				return { student, ...progressResult };
 			},
 			{ timeout: 30000 }
 		);
 
-		return this.mapWithDecryptedPassword(student);
+		for (const notificationCallback of result.notificationCallbacks) {
+			notificationCallback();
+		}
+
+		return this.mapWithDecryptedPassword(result.student);
 	}
 }

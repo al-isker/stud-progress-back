@@ -2,16 +2,14 @@ import { Module } from '@nestjs/common';
 import { ScheduleModule } from '@nestjs/schedule';
 import { AuthModule } from './models/auth/auth.module';
 import { DeviceInfoModule } from './models/device-info/device-info.module';
-import { DgmuModule } from './models/dgmu/dgmu.module';
+import { ExternalPortalModule } from './models/external-portal/external-portal.module';
 import { EventModule } from './models/event/event.module';
 import { ExpoModule } from './models/expo/expo.module';
-import { GradeHelperModule } from './models/grade-helper/grade-helper.module';
 import { GradeModule } from './models/grade/grade.module';
 import { MobileAppInfoModule } from './models/mobile-app-info/mobile-app-info.module';
 import { PrismaService } from './models/prisma/prisma.service';
 import { ProfileModule } from './models/profile/profile.module';
 import { PushNotificationModule } from './models/push-notification/push-notification.module';
-import { RatingBySemesterHelperModule } from './models/rating-by-semester-helper/rating-by-semester-helper.module';
 import { SchedulerModule } from './models/scheduler/scheduler.module';
 import { StudentModule } from './models/student/student.module';
 import { SubjectModule } from './models/subject/subject.module';
@@ -27,11 +25,9 @@ import { TokenModule } from './models/token/token.module';
 		MobileAppInfoModule,
 		ProfileModule,
 		SubjectModule,
-		GradeHelperModule,
-		RatingBySemesterHelperModule,
 		GradeModule,
 		EventModule,
-		DgmuModule,
+		ExternalPortalModule,
 		ExpoModule,
 		PushNotificationModule,
 		SchedulerModule

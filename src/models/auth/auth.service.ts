@@ -1,4 +1,4 @@
-import { DgmuService } from 'src/models/dgmu/dgmu.service';
+import { ExternalPortalService } from 'src/models/external-portal/external-portal.service';
 import { StudentService } from 'src/models/student/student.service';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
@@ -13,7 +13,7 @@ export class AuthService {
 		private prisma: PrismaService,
 		private studentService: StudentService,
 		private tokenService: TokenService,
-		private dgmuService: DgmuService
+		private externalPortalService: ExternalPortalService
 	) {}
 
 	private async signUp(dto: LoginDto) {
@@ -51,7 +51,7 @@ export class AuthService {
 	}
 
 	async login(dto: LoginDto) {
-		await this.dgmuService.findMany(dto);
+		await this.externalPortalService.validate(dto);
 
 		const student = await this.prisma.student.findFirst({
 			where: { fullName: dto.fullName }

@@ -1,18 +1,16 @@
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { DgmuModule } from '../dgmu/dgmu.module';
-import { GradeHelperModule } from '../grade-helper/grade-helper.module';
-import { RatingBySemesterHelperModule } from '../rating-by-semester-helper/rating-by-semester-helper.module';
+import { ExternalPortalModule } from '../external-portal/external-portal.module';
+import { ProgressSyncModule } from '../progress-sync/progress-sync.module';
 import { PasswordService } from './password.service';
 import { StudentService } from './student.service';
 
 @Module({
 	imports: [
 		ConfigModule,
-		GradeHelperModule,
-		RatingBySemesterHelperModule,
-		DgmuModule
+		ProgressSyncModule,
+		ExternalPortalModule
 	],
 	providers: [StudentService, PrismaService, PasswordService],
 	exports: [StudentService]

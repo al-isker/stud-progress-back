@@ -1,9 +1,8 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { DgmuModule } from '../dgmu/dgmu.module';
-import { GradeHelperModule } from '../grade-helper/grade-helper.module';
+import { ExternalPortalModule } from '../external-portal/external-portal.module';
 import { PrismaService } from '../prisma/prisma.service';
-import { RatingBySemesterHelperModule } from '../rating-by-semester-helper/rating-by-semester-helper.module';
+import { ProgressSyncModule } from '../progress-sync/progress-sync.module';
 import { StudentModule } from '../student/student.module';
 import { SchedulerService } from './scheduler.service';
 
@@ -11,9 +10,8 @@ import { SchedulerService } from './scheduler.service';
 	imports: [
 		ConfigModule,
 		StudentModule,
-		GradeHelperModule,
-		RatingBySemesterHelperModule,
-		DgmuModule
+		ProgressSyncModule,
+		ExternalPortalModule
 	],
 	providers: [SchedulerService, PrismaService]
 })

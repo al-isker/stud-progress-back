@@ -4,10 +4,9 @@ import { delay } from 'src/common/lib/light-lodash/delay';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { Cron } from '@nestjs/schedule';
-import { DgmuService } from '../dgmu/dgmu.service';
-import { GradeHelperService } from '../grade-helper/grade-helper.service';
+import { ExternalPortalService } from '../external-portal/external-portal.service';
 import { PrismaService } from '../prisma/prisma.service';
-import { RatingBySemesterHelperService } from '../rating-by-semester-helper/rating-by-semester-helper.service';
+import { ProgressSyncService } from '../progress-sync/progress-sync.service';
 import { StudentService } from '../student/student.service';
 
 @Injectable()
@@ -16,9 +15,8 @@ export class SchedulerService {
 		private prisma: PrismaService,
 		private configService: ConfigService,
 		private studentService: StudentService,
-		private gradeHelperService: GradeHelperService,
-		private ratingBySemesterHelperService: RatingBySemesterHelperService,
-		private dgmuService: DgmuService
+		private progressSyncService: ProgressSyncService,
+		private externalPortalService: ExternalPortalService
 	) {}
 
 	@Cron('15 * * * *')
@@ -35,21 +33,21 @@ export class SchedulerService {
 			const studentWithDecryptedPassword =
 				this.studentService.mapWithDecryptedPassword(student);
 
-			const { subjectListWithGrade, subjectListWithEventList } =
-				await this.dgmuService.findMany(studentWithDecryptedPassword, {
-					grade: true,
-					eventList: true
-				});
+			const externalPortalProgress =
+				await this.externalPortalService.getProgress(
+					studentWithDecryptedPassword,
+					{ subjectListWithGrade: true, subjectListWithEventList: true }
+				);
 
-			await this.gradeHelperService.updateBySemester(
+			const progressUpdateResult = await this.progressSyncService.update(
 				student,
-				subjectListWithGrade
+				student.semester,
+				externalPortalProgress
 			);
 
-			await this.ratingBySemesterHelperService.updateBySemester(
-				student,
-				subjectListWithEventList
-			);
+			for (const notificationCallback of progressUpdateResult.notificationCallbacks) {
+				notificationCallback();
+			}
 		};
 
 		const DELAY_MS = 3000;
