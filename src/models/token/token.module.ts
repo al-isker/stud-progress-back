@@ -1,5 +1,4 @@
-import { JWT_SECRET_KEY } from 'src/common/lib/env/env-keys';
-import { PrismaService } from 'src/models/prisma/prisma.service';
+﻿import { JWT_SECRET_KEY } from 'src/common/lib/env/env-keys';
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { JwtModule } from '@nestjs/jwt';
@@ -16,7 +15,10 @@ import { TokenService } from './token.service';
 			})
 		})
 	],
-	providers: [TokenService, PrismaService, JwtStrategy, ConfigService],
+	providers: [TokenService, JwtStrategy, ConfigService],
 	exports: [TokenService]
 })
 export class TokenModule {}
+
+
+
