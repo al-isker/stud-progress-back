@@ -38,11 +38,14 @@ export class SchedulerService {
 				}
 			);
 
-			const progressUpdateResult = await this.progressSyncService.update(
-				student,
-				student.semester,
-				externalPortalProgress
-			);
+			const progressUpdateResult = await this.prisma.$transaction(async tx => {
+				return await this.progressSyncService.update(
+					student,
+					student.semester,
+					externalPortalProgress,
+					tx
+				);
+			});
 
 			for (const notificationCallback of progressUpdateResult.notificationCallbacks) {
 				notificationCallback();
