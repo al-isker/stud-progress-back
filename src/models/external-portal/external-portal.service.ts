@@ -17,22 +17,22 @@ export class ExternalPortalService {
 	) {}
 
 	async validate(data: ExternalPortalStudentData) {
-		await this.externalPortalRouterService.getSessid(data);
+		await this.externalPortalRouterService.getSessionId(data);
 	}
 
 	async getProgress<TInclude extends ExternalPortalProgressInclude>(
 		data: ExternalPortalStudentData,
 		include: TInclude
 	) {
-		const sessid = await this.externalPortalRouterService.getSessid(data);
+		const sessionId = await this.externalPortalRouterService.getSessionId(data);
 
 		const gradePagePromise =
 			include?.subjectListWithGrade || include?.subjectListWithGradeByAllSemesters
-				? this.externalPortalRouterService.getGradePage(sessid)
+				? this.externalPortalRouterService.getGradePage(sessionId)
 				: Promise.resolve(null);
 
 		const eventsPagePromise = include?.subjectListWithEventList
-			? this.externalPortalRouterService.getEventsPage(sessid, data.semester)
+			? this.externalPortalRouterService.getEventsPage(sessionId, data.semester)
 			: Promise.resolve(null);
 
 		const [gradePage, eventsPage] = await Promise.all([gradePagePromise, eventsPagePromise]);
