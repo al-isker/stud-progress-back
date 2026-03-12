@@ -36,7 +36,7 @@ export class AuthService {
 
 		const issuedTokens = this.tokenService.issueTokens(student.id);
 
-		await this.tokenService.updateRefreshToken(student.id, issuedTokens.refreshToken);
+		await this.tokenService.updateOrCreateRefreshToken(student.id, issuedTokens.refreshToken);
 
 		return issuedTokens;
 	}
@@ -72,11 +72,24 @@ export class AuthService {
 
 		const issuedTokens = this.tokenService.issueTokens(foundRefreshToken.studentId);
 
-		await this.tokenService.updateRefreshToken(
+		await this.tokenService.updateOrCreateRefreshToken(
 			foundRefreshToken.studentId,
 			issuedTokens.refreshToken
 		);
 
 		return issuedTokens;
+	}
+
+	async logout(studentId: number) {
+		await this.prisma.student.update({
+			where: {
+				id: studentId
+			},
+			data: {
+				expoPushToken: null
+			}
+		});
+
+		await this.tokenService.deleteRefreshToken(studentId);
 	}
 }

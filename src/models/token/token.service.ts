@@ -50,12 +50,26 @@ export class TokenService {
 		});
 	}
 
-	async updateRefreshToken(studentId: number, refreshToken: string) {
+	async updateOrCreateRefreshToken(studentId: number, refreshToken: string) {
 		const expiredAt = this.generateRefreshTokenExpiredAt();
 
-		return await this.prisma.refreshToken.update({
+		return await this.prisma.refreshToken.upsert({
 			where: { studentId },
-			data: { expiredAt, refreshToken }
+			update: {
+				expiredAt,
+				refreshToken
+			},
+			create: {
+				expiredAt,
+				refreshToken,
+				studentId
+			}
+		});
+	}
+
+	async deleteRefreshToken(studentId: number) {
+		return await this.prisma.refreshToken.delete({
+			where: { studentId }
 		});
 	}
 }
