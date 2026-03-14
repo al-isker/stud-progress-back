@@ -3,6 +3,7 @@ import { ExternalPortalProgress } from 'src/models/external-portal/types/externa
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { ExternalPortalSubjectListWithEventList } from '../external-portal/types/external-portal-subject-list-with-event-list.type';
 import { ExternalPortalSubjectListWithGrade } from '../external-portal/types/external-portal-subject-list-with-grade.type';
+import { PrismaTransactionService } from '../prisma/prisma-transaction.service';
 import { PushNotificationService } from '../push-notification/push-notification.service';
 import { ProgressSyncHelperService } from './progress-sync-helper.service';
 import { ProgressSyncRepository } from './progress-sync.repository';
@@ -10,6 +11,7 @@ import { ProgressSyncRepository } from './progress-sync.repository';
 @Injectable()
 export class ProgressSyncService {
 	constructor(
+		private prismaTransaction: PrismaTransactionService,
 		private progressSyncRepository: ProgressSyncRepository,
 		private pushNotificationService: PushNotificationService,
 		private progressSyncHelperService: ProgressSyncHelperService
@@ -218,21 +220,23 @@ export class ProgressSyncService {
 		}>,
 		tx?: Prisma.TransactionClient
 	) {
-		for (const subjectListWithGradeBySemester of externalPortalProgress.subjectListWithGradeByAllSemesters) {
-			await this.createManySubjectWithGrade(
+		return this.prismaTransaction.anyway(async tx => {
+			for (const subjectListWithGradeBySemester of externalPortalProgress.subjectListWithGradeByAllSemesters) {
+				await this.createManySubjectWithGrade(
+					student,
+					subjectListWithGradeBySemester.semester,
+					subjectListWithGradeBySemester.subjectList,
+					tx
+				);
+			}
+
+			await this.createManyRating(
 				student,
-				subjectListWithGradeBySemester.semester,
-				subjectListWithGradeBySemester.subjectList,
+				semester,
+				externalPortalProgress.subjectListWithEventList,
 				tx
 			);
-		}
-
-		await this.createManyRating(
-			student,
-			semester,
-			externalPortalProgress.subjectListWithEventList,
-			tx
-		);
+		}, tx);
 	}
 
 	async update(
@@ -244,25 +248,27 @@ export class ProgressSyncService {
 		}>,
 		tx?: Prisma.TransactionClient
 	) {
-		const gradeUpdateResult = await this.updateManyGrade(
-			student,
-			semester,
-			externalPortalProgress.subjectListWithGrade,
-			tx
-		);
+		return this.prismaTransaction.anyway(async tx => {
+			const gradeUpdateResult = await this.updateManyGrade(
+				student,
+				semester,
+				externalPortalProgress.subjectListWithGrade,
+				tx
+			);
 
-		const ratingUpdateResult = await this.updateManyRating(
-			student,
-			semester,
-			externalPortalProgress.subjectListWithEventList,
-			tx
-		);
+			const ratingUpdateResult = await this.updateManyRating(
+				student,
+				semester,
+				externalPortalProgress.subjectListWithEventList,
+				tx
+			);
 
-		const notificationCallbacks = [
-			...gradeUpdateResult.notificationCallbacks,
-			...ratingUpdateResult.notificationCallbacks
-		];
+			const notificationCallbacks = [
+				...gradeUpdateResult.notificationCallbacks,
+				...ratingUpdateResult.notificationCallbacks
+			];
 
-		return { notificationCallbacks };
+			return { notificationCallbacks };
+		}, tx);
 	}
 }

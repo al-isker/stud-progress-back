@@ -1,4 +1,4 @@
-const TIMEOUT = 40000;
+const TIMEOUT = 60000;
 
 export async function fetchOrNull(input: RequestInfo | URL, init?: RequestInit) {
 	const abortController = new AbortController();

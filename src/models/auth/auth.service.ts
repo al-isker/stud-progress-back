@@ -1,8 +1,8 @@
+import { Student } from '@prisma/client';
 import { ExternalPortalService } from 'src/models/external-portal/external-portal.service';
 import { StudentService } from 'src/models/student/student.service';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { StudentWithDecryptedPassword } from '../student/types/student-with-decrypted-password.type';
 import { TokenService } from '../token/token.service';
 import { LoginDto } from './dto/login.dto';
 import { RefreshTokenDto } from './dto/refresh-token.dto';
@@ -17,28 +17,27 @@ export class AuthService {
 	) {}
 
 	private async signUp(dto: LoginDto) {
-		const student = await this.studentService.create(dto);
+		return await this.prisma.$transaction(async tx => {
+			const { student } = await this.studentService.create(dto, tx);
 
-		const issuedTokens = this.tokenService.issueTokens(student.id);
+			const issuedTokens = this.tokenService.issueTokens(student.id);
 
-		await this.tokenService.saveRefreshToken(student.id, issuedTokens.refreshToken);
+			await this.tokenService.saveRefreshToken(student.id, issuedTokens.refreshToken, tx);
 
-		return issuedTokens;
+			return issuedTokens;
+		});
 	}
 
-	private async signIn(student: StudentWithDecryptedPassword, dto: LoginDto) {
-		if (dto.semester !== student.semester || dto.password !== student.password) {
-			student = await this.studentService.update(student.id, {
-				password: dto.password,
-				semester: dto.semester
-			});
-		}
+	private async signIn(student: Student, dto: LoginDto) {
+		return await this.prisma.$transaction(async tx => {
+			await this.studentService.update(student.id, dto, tx);
 
-		const issuedTokens = this.tokenService.issueTokens(student.id);
+			const issuedTokens = this.tokenService.issueTokens(student.id);
 
-		await this.tokenService.updateOrCreateRefreshToken(student.id, issuedTokens.refreshToken);
+			await this.tokenService.updateOrCreateRefreshToken(student.id, issuedTokens.refreshToken, tx);
 
-		return issuedTokens;
+			return issuedTokens;
+		});
 	}
 
 	async login(dto: LoginDto) {
@@ -49,7 +48,7 @@ export class AuthService {
 		});
 
 		if (student) {
-			return await this.signIn(this.studentService.mapWithDecryptedPassword(student), dto);
+			return await this.signIn(student, dto);
 		} else {
 			return await this.signUp(dto);
 		}

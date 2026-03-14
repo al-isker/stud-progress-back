@@ -1,3 +1,4 @@
+import { Prisma } from '@prisma/client';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import * as uuid from 'uuid';
 import { Injectable } from '@nestjs/common';
@@ -42,18 +43,22 @@ export class TokenService {
 		});
 	}
 
-	async saveRefreshToken(studentId: number, refreshToken: string) {
+	async saveRefreshToken(studentId: number, refreshToken: string, tx?: Prisma.TransactionClient) {
 		const expiredAt = this.generateRefreshTokenExpiredAt();
 
-		return await this.prisma.refreshToken.create({
+		return await (tx ?? this.prisma).refreshToken.create({
 			data: { studentId, expiredAt, refreshToken }
 		});
 	}
 
-	async updateOrCreateRefreshToken(studentId: number, refreshToken: string) {
+	async updateOrCreateRefreshToken(
+		studentId: number,
+		refreshToken: string,
+		tx?: Prisma.TransactionClient
+	) {
 		const expiredAt = this.generateRefreshTokenExpiredAt();
 
-		return await this.prisma.refreshToken.upsert({
+		return await (tx ?? this.prisma).refreshToken.upsert({
 			where: { studentId },
 			update: {
 				expiredAt,

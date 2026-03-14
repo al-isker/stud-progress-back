@@ -8,16 +8,12 @@ import { Injectable } from '@nestjs/common';
 export class ProgressSyncRepository {
 	constructor(private prisma: PrismaService) {}
 
-	private getPrismaContext(tx?: Prisma.TransactionClient) {
-		return tx ?? this.prisma;
-	}
-
 	async findManySubjectForGradeSync(
 		studentId: number,
 		semester: number,
 		tx?: Prisma.TransactionClient
 	) {
-		return await this.getPrismaContext(tx).subject.findMany({
+		return await (tx ?? this.prisma).subject.findMany({
 			where: {
 				studentId,
 				grade: {
@@ -37,7 +33,7 @@ export class ProgressSyncRepository {
 		externalPortalSubjectWithGrade: ExternalPortalSubjectWithGrade,
 		tx?: Prisma.TransactionClient
 	) {
-		return await this.getPrismaContext(tx).subject.create({
+		return await (tx ?? this.prisma).subject.create({
 			data: {
 				student: {
 					connect: {
@@ -73,7 +69,7 @@ export class ProgressSyncRepository {
 		externalPortalSubjectWithGrade: ExternalPortalSubjectWithGrade,
 		tx?: Prisma.TransactionClient
 	) {
-		return await this.getPrismaContext(tx).subject.update({
+		return await (tx ?? this.prisma).subject.update({
 			where: {
 				id: subjectId
 			},
@@ -92,7 +88,7 @@ export class ProgressSyncRepository {
 	}
 
 	async findManySubjectForRatingSync(studentId: number, tx?: Prisma.TransactionClient) {
-		return await this.getPrismaContext(tx).subject.findMany({
+		return await (tx ?? this.prisma).subject.findMany({
 			where: {
 				studentId
 			},
@@ -115,7 +111,7 @@ export class ProgressSyncRepository {
 		averageMark: number | null,
 		tx?: Prisma.TransactionClient
 	) {
-		return await this.getPrismaContext(tx).ratingBySemester.create({
+		return await (tx ?? this.prisma).ratingBySemester.create({
 			data: {
 				subjectId,
 				semester,
@@ -137,7 +133,7 @@ export class ProgressSyncRepository {
 		externalPortalEvent: ExternalPortalEvent,
 		tx?: Prisma.TransactionClient
 	) {
-		return await this.getPrismaContext(tx).event.create({
+		return await (tx ?? this.prisma).event.create({
 			data: {
 				ratingBySemesterId,
 				status: externalPortalEvent.status,
@@ -153,7 +149,7 @@ export class ProgressSyncRepository {
 		externalPortalEvent: ExternalPortalEvent,
 		tx?: Prisma.TransactionClient
 	) {
-		return await this.getPrismaContext(tx).event.update({
+		return await (tx ?? this.prisma).event.update({
 			where: {
 				date_ratingBySemesterId: {
 					date: externalPortalEvent.date,
@@ -174,7 +170,7 @@ export class ProgressSyncRepository {
 		averageMark: number | null,
 		tx?: Prisma.TransactionClient
 	) {
-		return await this.getPrismaContext(tx).ratingBySemester.update({
+		return await (tx ?? this.prisma).ratingBySemester.update({
 			where: {
 				id: ratingBySemesterId
 			},

@@ -1,6 +1,8 @@
+import { Prisma } from '@prisma/client';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { ExternalPortalService } from '../external-portal/external-portal.service';
+import { PrismaTransactionService } from '../prisma/prisma-transaction.service';
 import { ProgressSyncService } from '../progress-sync/progress-sync.service';
 import { PasswordService } from './password.service';
 import { CreateStudentData } from './types/create-student-data.type';
@@ -10,6 +12,7 @@ import { UpdateStudentData } from './types/update-student-data.type';
 export class StudentService {
 	constructor(
 		private prisma: PrismaService,
+		private prismaTransaction: PrismaTransactionService,
 		private passwordService: PasswordService,
 		private progressSyncService: ProgressSyncService,
 		private externalPortalService: ExternalPortalService
@@ -37,7 +40,7 @@ export class StudentService {
 		});
 	}
 
-	async create(data: CreateStudentData) {
+	async create(data: CreateStudentData, tx?: Prisma.TransactionClient) {
 		const externalPortalProgress = await this.externalPortalService.getProgress(data, {
 			subjectListWithGradeByAllSemesters: true,
 			subjectListWithEventList: true
@@ -45,23 +48,20 @@ export class StudentService {
 
 		const dataForCreate = this.mapWithEncryptedPassword(this.mapWithCalculateCourse(data));
 
-		const student = await this.prisma.$transaction(
-			async tx => {
-				const student = await tx.student.create({
-					data: dataForCreate
-				});
+		const student = await this.prismaTransaction.anyway(async tx => {
+			const student = await tx.student.create({
+				data: dataForCreate
+			});
 
-				await this.progressSyncService.init(student, student.semester, externalPortalProgress, tx);
+			await this.progressSyncService.init(student, student.semester, externalPortalProgress, tx);
 
-				return student;
-			},
-			{ timeout: 30000 }
-		);
+			return student;
+		}, tx);
 
-		return this.mapWithDecryptedPassword(student);
+		return { student };
 	}
 
-	async update(id: number, data: UpdateStudentData) {
+	async update(id: number, data: UpdateStudentData, tx?: Prisma.TransactionClient) {
 		const existingStudent = this.mapWithDecryptedPassword(
 			await this.prisma.student.findFirst({
 				where: { id }
@@ -81,29 +81,20 @@ export class StudentService {
 
 		const dataForUpdate = this.mapWithEncryptedPassword(this.mapWithCalculateCourse(requiredData));
 
-		const result = await this.prisma.$transaction(
-			async tx => {
-				const student = await tx.student.update({
-					where: { id },
-					data: dataForUpdate
-				});
+		return await this.prismaTransaction.anyway(async tx => {
+			const student = await tx.student.update({
+				where: { id },
+				data: dataForUpdate
+			});
 
-				const progressResult = await this.progressSyncService.update(
-					student,
-					student.semester,
-					externalPortalProgress,
-					tx
-				);
+			const { notificationCallbacks } = await this.progressSyncService.update(
+				student,
+				student.semester,
+				externalPortalProgress,
+				tx
+			);
 
-				return { student, ...progressResult };
-			},
-			{ timeout: 30000 }
-		);
-
-		for (const notificationCallback of result.notificationCallbacks) {
-			notificationCallback();
-		}
-
-		return this.mapWithDecryptedPassword(result.student);
+			return { student, notificationCallbacks };
+		}, tx);
 	}
 }
