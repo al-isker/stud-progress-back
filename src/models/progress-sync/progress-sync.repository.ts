@@ -8,17 +8,10 @@ import { Injectable } from '@nestjs/common';
 export class ProgressSyncRepository {
 	constructor(private prisma: PrismaService) {}
 
-	async findManySubjectForGradeSync(
-		studentId: number,
-		semester: number,
-		tx?: Prisma.TransactionClient
-	) {
+	async findManySubjectForGradeSync(studentId: number, tx?: Prisma.TransactionClient) {
 		return await (tx ?? this.prisma).subject.findMany({
 			where: {
-				studentId,
-				grade: {
-					semester
-				}
+				studentId
 			},
 			include: {
 				name: true,

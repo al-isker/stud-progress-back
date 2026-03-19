@@ -75,11 +75,7 @@ export class ProgressSyncService {
 	) {
 		const notificationCallbacks = Array<() => void>();
 
-		const subjects = await this.progressSyncRepository.findManySubjectForGradeSync(
-			student.id,
-			semester,
-			tx
-		);
+		const subjects = await this.progressSyncRepository.findManySubjectForGradeSync(student.id, tx);
 
 		for (const externalPortalSubjectWithGrade of externalPortalSubjectListWithGrade) {
 			const matchingSubject = this.progressSyncHelperService.findMatchingSubjectForGradeSync(
