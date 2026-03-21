@@ -12,10 +12,9 @@ CREATE TABLE "student" (
     "id" SERIAL NOT NULL,
     "full_name" TEXT NOT NULL,
     "encrypted_password" TEXT NOT NULL,
+    "expo_push_token" TEXT,
     "course" INTEGER NOT NULL,
     "semester" INTEGER NOT NULL,
-    "external_portal_session_id" TEXT NOT NULL,
-    "expo_push_token" TEXT,
 
     CONSTRAINT "student_pkey" PRIMARY KEY ("id")
 );
