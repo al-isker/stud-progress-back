@@ -1,21 +1,51 @@
 import * as cheerio from 'cheerio';
 import * as cookie from 'cookie';
-import { BadGatewayException, Injectable, UnauthorizedException } from '@nestjs/common';
-import { fetchOrNull } from './lib/fetch-or-null';
+import { BadGatewayException, HttpStatus, Injectable, UnauthorizedException } from '@nestjs/common';
 import { ExternalPortalStudentData } from './types/external-portal-student-data.type';
 import { objectToFormData } from './utils/object-to-form-data';
 
 @Injectable()
 export class ExternalPortalRouterService {
+	private baseUrl = 'https://lk.dgmu.ru';
+	private fetchTimeout = 60000;
 	private csrfCookieName = '_csrf';
 	private sessionIdCookieName = 'LKSESSID';
 
-	async getSessionId(data: ExternalPortalStudentData) {
-		const loginPageRes = await fetchOrNull('https://lk.dgmu.ru/user/sign-in/login');
+	private async request(input: RequestInfo | URL, init?: RequestInit) {
+		const abortController = new AbortController();
 
-		if (loginPageRes === null) {
+		const timeoutId = setTimeout(() => {
+			abortController.abort();
+		}, this.fetchTimeout);
+
+		try {
+			const res = await fetch(input, {
+				...init,
+				signal: abortController.signal
+			});
+
+			if (!res.ok && res.status >= 400 && res.status < 600) {
+				throw Error();
+			}
+
+			return res;
+		} catch {
 			throw new BadGatewayException();
+		} finally {
+			clearTimeout(timeoutId);
 		}
+	}
+
+	private unauthorizedInterceptor<T extends Response>(res: T) {
+		if (res.redirected && res.url.startsWith(`${this.baseUrl}/user/sign-in/login`)) {
+			throw new UnauthorizedException('Session id expired');
+		}
+
+		return res;
+	}
+
+	async getSessionId(data: Pick<ExternalPortalStudentData, 'fullName' | 'password'>) {
+		const loginPageRes = await this.request(`${this.baseUrl}/user/sign-in/login`);
 
 		const loginPage = await loginPageRes.text();
 		const loginPageCheerio = cheerio.load(loginPage);
@@ -43,7 +73,7 @@ export class ExternalPortalRouterService {
 			[this.csrfCookieName]: csrfSetCookieValue
 		});
 
-		const loginRes = await fetchOrNull('https://lk.dgmu.ru/user/sign-in/login', {
+		const loginRes = await this.request(`${this.baseUrl}/user/sign-in/login`, {
 			method: 'POST',
 			redirect: 'manual',
 			body: loginBody,
@@ -53,8 +83,8 @@ export class ExternalPortalRouterService {
 			}
 		});
 
-		if (loginRes === null) {
-			throw new BadGatewayException();
+		if (loginRes.status !== HttpStatus.FOUND) {
+			throw new UnauthorizedException('Неверные ФИО и/или пароль');
 		}
 
 		const loginSetCookie = loginRes.headers.getSetCookie().map(item => cookie.parseSetCookie(item));
@@ -69,23 +99,9 @@ export class ExternalPortalRouterService {
 			[this.sessionIdCookieName]: sessionId
 		});
 
-		const usersetPageRes = await fetchOrNull(
-			'https://lk.dgmu.ru/user/sign-in/userset?role=Student',
-			{ headers: { cookie: usersetPageCookie } }
-		);
-
-		if (usersetPageRes === null) {
-			throw new BadGatewayException();
-		}
-
-		const usersetPage = await usersetPageRes.text();
-		const usersetPageCheerio = cheerio.load(usersetPage);
-
-		const usersetPageTitle = usersetPageCheerio('title').text().trim();
-
-		if (usersetPageTitle !== 'ЛК ДГМУ') {
-			throw new UnauthorizedException('Неверные ФИО и/или пароль');
-		}
+		await this.request(`${this.baseUrl}/user/sign-in/userset?role=Student`, {
+			headers: { cookie: usersetPageCookie }
+		});
 
 		return sessionId!;
 	}
@@ -95,14 +111,11 @@ export class ExternalPortalRouterService {
 			[this.sessionIdCookieName]: sessionId
 		});
 
-		const gradePageRes = await fetchOrNull(
-			'https://lk.dgmu.ru/student/grade?_referrer=%2Fstudent%2Findex',
-			{ headers: { cookie: gradePageCookie } }
+		const gradePageRes = this.unauthorizedInterceptor(
+			await this.request(`${this.baseUrl}/student/grade`, {
+				headers: { cookie: gradePageCookie }
+			})
 		);
-
-		if (gradePageRes === null) {
-			throw new BadGatewayException();
-		}
 
 		return await gradePageRes.text();
 	}
@@ -112,14 +125,11 @@ export class ExternalPortalRouterService {
 			[this.sessionIdCookieName]: sessionId
 		});
 
-		const eventsPageRes = await fetchOrNull(
-			'https://lk.dgmu.ru/student/journal?_referrer=%2Fstudent%2Findex',
-			{ headers: { cookie: eventsPageReqCookie } }
+		const eventsPageRes = this.unauthorizedInterceptor(
+			await this.request(`${this.baseUrl}/student/journal`, {
+				headers: { cookie: eventsPageReqCookie }
+			})
 		);
-
-		if (eventsPageRes === null) {
-			throw new BadGatewayException();
-		}
 
 		const eventsPage = await eventsPageRes.text();
 		const eventsPageCheerio = cheerio.load(eventsPage);
@@ -147,9 +157,8 @@ export class ExternalPortalRouterService {
 			[this.sessionIdCookieName]: sessionId
 		});
 
-		const planRes = await fetchOrNull(
-			'https://lk.dgmu.ru/student/vedomost/ap?_referrer=%2Fstudent%2Fjournal',
-			{
+		const planRes = this.unauthorizedInterceptor(
+			await this.request(`${this.baseUrl}/student/vedomost/ap`, {
 				method: 'POST',
 				body: planBody,
 				headers: {
@@ -157,12 +166,8 @@ export class ExternalPortalRouterService {
 					'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
 					'x-csrf-token': csrfInputValue
 				}
-			}
+			})
 		);
-
-		if (planRes === null) {
-			throw new BadGatewayException();
-		}
 
 		const plan = await planRes.json();
 
@@ -175,9 +180,8 @@ export class ExternalPortalRouterService {
 			'depdrop_all_params[plan_id]': planId
 		});
 
-		const groupRes = await fetchOrNull(
-			'https://lk.dgmu.ru/student/vedomost/groups?_referrer=%2Fstudent%2Fjournal',
-			{
+		const groupRes = this.unauthorizedInterceptor(
+			await this.request(`${this.baseUrl}/student/vedomost/groups`, {
 				method: 'POST',
 				body: groupBody,
 				headers: {
@@ -185,12 +189,8 @@ export class ExternalPortalRouterService {
 					'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
 					'x-csrf-token': csrfInputValue
 				}
-			}
+			})
 		);
-
-		if (groupRes === null) {
-			throw new BadGatewayException();
-		}
 
 		const group = await groupRes.json();
 
@@ -206,18 +206,16 @@ export class ExternalPortalRouterService {
 			semester_id: semesterId
 		});
 
-		const eventsBySemesterRes = await fetchOrNull('https://lk.dgmu.ru/student/journal', {
-			method: 'POST',
-			body: eventsBySemesterBody,
-			headers: {
-				cookie: eventsCookie,
-				'content-type': 'application/x-www-form-urlencoded'
-			}
-		});
-
-		if (eventsBySemesterRes === null) {
-			throw new BadGatewayException();
-		}
+		const eventsBySemesterRes = this.unauthorizedInterceptor(
+			await this.request(`${this.baseUrl}/student/journal`, {
+				method: 'POST',
+				body: eventsBySemesterBody,
+				headers: {
+					cookie: eventsCookie,
+					'content-type': 'application/x-www-form-urlencoded'
+				}
+			})
+		);
 
 		return await eventsBySemesterRes.text();
 	}

@@ -23,7 +23,7 @@ export class ProfileService {
 	}
 
 	async updateSemester(studentId: number, dto: UpdateSemesterDto) {
-		const { student } = await this.studentService.update(studentId, dto);
+		const { student } = await this.studentService.updateWithProgress(studentId, dto);
 
 		return {
 			fullName: student.fullName,

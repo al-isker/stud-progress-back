@@ -32,6 +32,7 @@ export class TokenService {
 		const accessToken = this.jwtService.sign(accessTokenPayload, {
 			expiresIn: '1h'
 		});
+
 		const refreshToken = uuid.v7();
 
 		return { accessToken, refreshToken };

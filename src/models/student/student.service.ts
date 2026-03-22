@@ -1,12 +1,13 @@
 import { Prisma } from '@prisma/client';
+import { isExist } from 'src/common/lib/light-lodash/is-exist';
 import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable } from '@nestjs/common';
 import { ExternalPortalService } from '../external-portal/external-portal.service';
 import { PrismaTransactionService } from '../prisma/prisma-transaction.service';
 import { ProgressSyncService } from '../progress-sync/progress-sync.service';
 import { PasswordService } from './password.service';
-import { CreateStudentData } from './types/create-student-data.type';
-import { UpdateStudentData } from './types/update-student-data.type';
+import { StudentCreateWithProgressData } from './types/student-create-with-progress-data.type';
+import { StudentUpdateWithProgressData } from './types/student-update-with-progress-data.type';
 
 @Injectable()
 export class StudentService {
@@ -18,13 +19,33 @@ export class StudentService {
 		private externalPortalService: ExternalPortalService
 	) {}
 
-	private mapWithCalculateCourse<D extends object>(data: D & { semester: number }) {
+	private mapWithCalculateCourse<D extends object & { semester?: undefined }>(data: D): D;
+
+	private mapWithCalculateCourse<D extends object & { semester: number }>(
+		data: D
+	): D & { course: number };
+
+	private mapWithCalculateCourse<D extends object>(data: D & { semester?: number }) {
+		if (data.semester === undefined) {
+			return data;
+		}
+
 		return Object.assign(data, {
 			course: Math.ceil(data.semester / 2)
 		});
 	}
 
-	mapWithEncryptedPassword<D extends object>(data: D & { password: string }) {
+	mapWithEncryptedPassword<D extends object>(data: D & { password?: undefined }): D;
+
+	mapWithEncryptedPassword<D extends object>(
+		data: D & { password: string }
+	): D & { encryptedPassword: string };
+
+	mapWithEncryptedPassword<D extends object>(data: D & { password?: string }) {
+		if (data.password === undefined) {
+			return data;
+		}
+
 		const { password, ...restData } = data;
 
 		return Object.assign(restData, {
@@ -32,7 +53,17 @@ export class StudentService {
 		});
 	}
 
+	mapWithDecryptedPassword<D extends object>(data: D & { encryptedPassword?: undefined }): D;
+
+	mapWithDecryptedPassword<D extends object>(
+		data: D & { encryptedPassword: string }
+	): D & { password: string };
+
 	mapWithDecryptedPassword<D extends object>(data: D & { encryptedPassword: string }) {
+		if (data.encryptedPassword === undefined) {
+			return data;
+		}
+
 		const { encryptedPassword, ...restData } = data;
 
 		return Object.assign(restData, {
@@ -40,17 +71,22 @@ export class StudentService {
 		});
 	}
 
-	async create(data: CreateStudentData, tx?: Prisma.TransactionClient) {
+	async createWithProgress(data: StudentCreateWithProgressData, tx?: Prisma.TransactionClient) {
 		const externalPortalProgress = await this.externalPortalService.getProgress(data, {
 			subjectListWithGradeByAllSemesters: true,
 			subjectListWithEventList: true
 		});
 
-		const dataForCreate = this.mapWithEncryptedPassword(this.mapWithCalculateCourse(data));
+		const dataToCreate = this.mapWithEncryptedPassword(
+			this.mapWithCalculateCourse({
+				...data,
+				externalPortalSessionId: externalPortalProgress.sessionId
+			})
+		);
 
 		const student = await this.prismaTransaction.anyway(async tx => {
 			const student = await tx.student.create({
-				data: dataForCreate
+				data: dataToCreate
 			});
 
 			await this.progressSyncService.init(student, student.semester, externalPortalProgress, tx);
@@ -61,30 +97,44 @@ export class StudentService {
 		return { student };
 	}
 
-	async update(id: number, data: UpdateStudentData, tx?: Prisma.TransactionClient) {
+	async updateWithProgress(
+		id: number,
+		data: StudentUpdateWithProgressData,
+		tx?: Prisma.TransactionClient
+	) {
 		const existingStudent = this.mapWithDecryptedPassword(
 			await this.prisma.student.findFirst({
 				where: { id }
 			})
 		);
 
-		const requiredData = {
+		const dataToGetProgress = {
 			fullName: existingStudent.fullName,
 			password: data.password ?? existingStudent.password,
-			semester: data.semester ?? existingStudent.semester
+			semester: data.semester ?? existingStudent.semester,
+			sessionId: !isExist(data.password) ? existingStudent.externalPortalSessionId : undefined
 		};
 
-		const externalPortalProgress = await this.externalPortalService.getProgress(requiredData, {
+		const externalPortalProgress = await this.externalPortalService.getProgress(dataToGetProgress, {
 			subjectListWithGrade: true,
 			subjectListWithEventList: true
 		});
 
-		const dataForUpdate = this.mapWithEncryptedPassword(this.mapWithCalculateCourse(requiredData));
+		const dataToUpdate = this.mapWithEncryptedPassword(
+			this.mapWithCalculateCourse({
+				password: isExist(data.password) ? data.password : undefined,
+				semester: isExist(data.semester) ? data.semester : undefined,
+				externalPortalSessionId:
+					existingStudent.externalPortalSessionId !== externalPortalProgress.sessionId
+						? externalPortalProgress.sessionId
+						: undefined
+			})
+		);
 
 		return await this.prismaTransaction.anyway(async tx => {
 			const student = await tx.student.update({
 				where: { id },
-				data: dataForUpdate
+				data: dataToUpdate
 			});
 
 			const { notificationCallbacks } = await this.progressSyncService.update(

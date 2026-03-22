@@ -28,15 +28,26 @@ export class SchedulerService {
 		const students = await this.prisma.student.findMany();
 
 		const updateStudent = async (student: Student) => {
-			const studentWithDecryptedPassword = this.studentService.mapWithDecryptedPassword(student);
+			const dataToGetProgress = this.studentService.mapWithDecryptedPassword(student);
 
 			const externalPortalProgress = await this.externalPortalService.getProgress(
-				studentWithDecryptedPassword,
+				dataToGetProgress,
 				{
 					subjectListWithGrade: true,
 					subjectListWithEventList: true
 				}
 			);
+
+			if (dataToGetProgress.externalPortalSessionId !== externalPortalProgress.sessionId) {
+				await this.prisma.student.update({
+					where: {
+						id: dataToGetProgress.id
+					},
+					data: {
+						externalPortalSessionId: externalPortalProgress.sessionId
+					}
+				});
+			}
 
 			const { notificationCallbacks } = await this.progressSyncService.update(
 				student,

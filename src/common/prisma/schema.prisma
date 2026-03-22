@@ -8,14 +8,15 @@ datasource db {
 }
 
 model Student {
-  id                Int           @id @default(autoincrement())
-  fullName          String        @unique @map("full_name")
-  encryptedPassword String        @map("encrypted_password")
-  refreshToken      RefreshToken?
-  expoPushToken     String?       @map("expo_push_token")
-  course            Int
-  semester          Int
-  subjects          Subject[]
+  id                      Int           @id @default(autoincrement())
+  fullName                String        @unique @map("full_name")
+  encryptedPassword       String        @map("encrypted_password")
+  course                  Int
+  semester                Int
+  externalPortalSessionId String        @map("external_portal_session_id")
+  refreshToken            RefreshToken?
+  expoPushToken           String?       @map("expo_push_token")
+  subjects                Subject[]
 
   @@map("student")
 }

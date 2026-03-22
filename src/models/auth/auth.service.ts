@@ -18,7 +18,7 @@ export class AuthService {
 
 	private async signUp(dto: LoginDto) {
 		return await this.prisma.$transaction(async tx => {
-			const { student } = await this.studentService.create(dto, tx);
+			const { student } = await this.studentService.createWithProgress(dto, tx);
 
 			const issuedTokens = this.tokenService.issueTokens(student.id);
 
@@ -30,7 +30,7 @@ export class AuthService {
 
 	private async signIn(student: Student, dto: LoginDto) {
 		return await this.prisma.$transaction(async tx => {
-			await this.studentService.update(student.id, dto, tx);
+			await this.studentService.updateWithProgress(student.id, dto, tx);
 
 			const issuedTokens = this.tokenService.issueTokens(student.id);
 
@@ -41,8 +41,6 @@ export class AuthService {
 	}
 
 	async login(dto: LoginDto) {
-		await this.externalPortalService.validate(dto);
-
 		const student = await this.prisma.student.findFirst({
 			where: { fullName: dto.fullName }
 		});
