@@ -6,14 +6,7 @@ import { ProgressSyncService } from './progress-sync.service';
 
 @Module({
 	imports: [PushNotificationModule],
-	providers: [
-		ProgressSyncService,
-		ProgressSyncRepository,
-		ProgressSyncHelperService
-	],
+	providers: [ProgressSyncService, ProgressSyncRepository, ProgressSyncHelperService],
 	exports: [ProgressSyncService]
 })
 export class ProgressSyncModule {}
-
-
-

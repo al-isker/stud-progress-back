@@ -32,9 +32,6 @@ import { TokenModule } from './models/token/token.module';
 		ExpoModule,
 		PushNotificationModule,
 		SchedulerModule
-	],
+	]
 })
 export class AppModule {}
-
-
-

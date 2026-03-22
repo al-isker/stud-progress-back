@@ -10,6 +10,3 @@ import { SchedulerService } from './scheduler.service';
 	providers: [SchedulerService]
 })
 export class SchedulerModule {}
-
-
-

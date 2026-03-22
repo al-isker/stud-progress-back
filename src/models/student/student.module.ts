@@ -11,6 +11,3 @@ import { StudentService } from './student.service';
 	exports: [StudentService]
 })
 export class StudentModule {}
-
-
-

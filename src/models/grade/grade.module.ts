@@ -7,6 +7,3 @@ import { GradeService } from './grade.service';
 	providers: [GradeService]
 })
 export class GradeModule {}
-
-
-

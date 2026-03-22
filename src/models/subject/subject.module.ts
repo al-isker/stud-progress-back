@@ -7,6 +7,3 @@ import { SubjectService } from './subject.service';
 	providers: [SubjectService]
 })
 export class SubjectModule {}
-
-
-

@@ -7,6 +7,3 @@ import { DeviceInfoService } from './device-info.service';
 	providers: [DeviceInfoService]
 })
 export class DeviceInfoModule {}
-
-
-
