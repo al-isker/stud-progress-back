@@ -1,7 +1,7 @@
 import { Student } from '@prisma/client';
 import { IS_ENABLED_SCHEDULER_UPDATE_SUBJECTS_KEY } from 'src/common/lib/env/env-keys';
 import { delay } from 'src/common/lib/light-lodash/delay';
-import { Injectable } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { Cron } from '@nestjs/schedule';
 import { ExternalPortalService } from '../external-portal/external-portal.service';
@@ -11,6 +11,8 @@ import { StudentService } from '../student/student.service';
 
 @Injectable()
 export class SchedulerService {
+	private readonly logger = new Logger(SchedulerService.name);
+
 	constructor(
 		private prisma: PrismaService,
 		private configService: ConfigService,
@@ -75,6 +77,6 @@ export class SchedulerService {
 			})
 		);
 
-		console.log(result);
+		this.logger.log({ result });
 	}
 }

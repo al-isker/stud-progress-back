@@ -1,3 +1,4 @@
+import { Logger } from 'nestjs-pino';
 import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule } from '@nestjs/swagger';
@@ -7,10 +8,12 @@ import { PORT_KEY } from './common/lib/env/env-keys';
 
 async function bootstrap() {
 	const PORT = process.env[PORT_KEY] ?? 4200;
+
 	const app = await NestFactory.create(AppModule);
 
-	const document = SwaggerModule.createDocument(app, swaggerConfig);
-	SwaggerModule.setup('api', app, document);
+	const logger = app.get(Logger);
+
+	app.useLogger(logger);
 
 	app.useGlobalPipes(
 		new ValidationPipe({
@@ -19,8 +22,9 @@ async function bootstrap() {
 		})
 	);
 
-	await app.listen(PORT, () => {
-		console.log(`Server started on port ${PORT}`);
-	});
+	const document = SwaggerModule.createDocument(app, swaggerConfig);
+	SwaggerModule.setup('api', app, document);
+
+	await app.listen(PORT);
 }
 bootstrap();

@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { Auth } from '../auth/decorators/auth.decorator';
-import { CurrentStudent } from '../student/decorators/student.decorator';
+import { CurrentStudent } from '../student/decorators/current-student.decorator';
 import { EventService } from './event.service';
 
 @Controller('event')

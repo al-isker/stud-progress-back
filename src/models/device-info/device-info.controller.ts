@@ -1,6 +1,6 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { Auth } from '../auth/decorators/auth.decorator';
-import { CurrentStudent } from '../student/decorators/student.decorator';
+import { CurrentStudent } from '../student/decorators/current-student.decorator';
 import { DeviceInfoService } from './device-info.service';
 import { UpdateExpoPushTokenDto } from './dto/update-expo-push-token.dto';
 

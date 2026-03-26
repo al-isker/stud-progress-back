@@ -11,7 +11,7 @@ import { TokenService } from './token.service';
 			imports: [ConfigModule],
 			inject: [ConfigService],
 			useFactory: (configService: ConfigService) => ({
-				secret: configService.get(JWT_SECRET_KEY)
+				secret: configService.get<string>(JWT_SECRET_KEY)
 			})
 		})
 	],

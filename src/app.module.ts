@@ -1,5 +1,7 @@
-﻿import { Module } from '@nestjs/common';
+import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
 import { ScheduleModule } from '@nestjs/schedule';
+import { LoggerModule } from './common/logger/logger.module';
 import { AuthModule } from './models/auth/auth.module';
 import { DeviceInfoModule } from './models/device-info/device-info.module';
 import { EventModule } from './models/event/event.module';
@@ -17,6 +19,8 @@ import { TokenModule } from './models/token/token.module';
 
 @Module({
 	imports: [
+		ConfigModule.forRoot({ isGlobal: true }),
+		LoggerModule,
 		ScheduleModule.forRoot(),
 		PrismaModule,
 		StudentModule,

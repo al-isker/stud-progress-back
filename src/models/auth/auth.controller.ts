@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { CurrentStudent } from '../student/decorators/student.decorator';
+import { CurrentStudent } from '../student/decorators/current-student.decorator';
 import { AuthService } from './auth.service';
 import { Auth } from './decorators/auth.decorator';
 import { LoginDto } from './dto/login.dto';
