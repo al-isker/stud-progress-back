@@ -23,8 +23,8 @@ export class SubjectController {
 	@Auth()
 	getByIdWithRating(
 		@CurrentStudent() studentId: number,
-		@Param('id', ParseIntPipe) subjectId: string
+		@Param('id', ParseIntPipe) subjectId: number
 	) {
-		return this.subjectService.getByIdWithRating(studentId, +subjectId);
+		return this.subjectService.getByIdWithRating(studentId, subjectId);
 	}
 }
