@@ -1,6 +1,6 @@
 import { Controller, Get, Param, ParseIntPipe } from '@nestjs/common';
 import { Auth } from '../auth/decorators/auth.decorator';
-import { CurrentStudent } from '../student/decorators/current-student.decorator';
+import { CurrentStudentId } from '../student/decorators/current-student-id.decorator';
 import { SubjectService } from './subject.service';
 
 @Controller('subject')
@@ -9,20 +9,20 @@ export class SubjectController {
 
 	@Get('grade')
 	@Auth()
-	getAllWithGrade(@CurrentStudent() studentId: number) {
+	getAllWithGrade(@CurrentStudentId() studentId: number) {
 		return this.subjectService.getAllWithGrade(studentId);
 	}
 
 	@Get('rating')
 	@Auth()
-	getAllWithRating(@CurrentStudent() studentId: number) {
+	getAllWithRating(@CurrentStudentId() studentId: number) {
 		return this.subjectService.getAllWithRating(studentId);
 	}
 
 	@Get(':id/rating')
 	@Auth()
 	getByIdWithRating(
-		@CurrentStudent() studentId: number,
+		@CurrentStudentId() studentId: number,
 		@Param('id', ParseIntPipe) subjectId: number
 	) {
 		return this.subjectService.getByIdWithRating(studentId, subjectId);

@@ -3,6 +3,7 @@ import { JWT_SECRET_KEY } from 'src/common/lib/env/env-keys';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { PassportStrategy } from '@nestjs/passport';
+import { JwtStudentPayload } from './types/jwt-student-payload.type';
 
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy) {
@@ -14,7 +15,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
 		});
 	}
 
-	async validate(payload: unknown) {
+	validate(payload: JwtStudentPayload) {
 		return payload;
 	}
 }

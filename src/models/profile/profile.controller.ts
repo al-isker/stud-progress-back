@@ -1,5 +1,5 @@
 import { Auth } from 'src/models/auth/decorators/auth.decorator';
-import { CurrentStudent } from 'src/models/student/decorators/current-student.decorator';
+import { CurrentStudentId } from 'src/models/student/decorators/current-student-id.decorator';
 import { Body, Controller, Get, Patch } from '@nestjs/common';
 import { UpdateSemesterDto } from './dto/update-semester.dto';
 import { ProfileService } from './profile.service';
@@ -10,13 +10,13 @@ export class ProfileController {
 
 	@Get()
 	@Auth()
-	getByStudentId(@CurrentStudent() studentId: number) {
+	getByStudentId(@CurrentStudentId() studentId: number) {
 		return this.profileService.getByStudentId(studentId);
 	}
 
 	@Patch('semester')
 	@Auth()
-	updateSemester(@CurrentStudent() studentId: number, @Body() dto: UpdateSemesterDto) {
+	updateSemester(@CurrentStudentId() studentId: number, @Body() dto: UpdateSemesterDto) {
 		return this.profileService.updateSemester(studentId, dto);
 	}
 }

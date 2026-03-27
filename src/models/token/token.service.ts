@@ -3,6 +3,7 @@ import { PrismaService } from 'src/models/prisma/prisma.service';
 import * as uuid from 'uuid';
 import { Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
+import { JwtStudentPayload } from './types/jwt-student-payload.type';
 
 @Injectable()
 export class TokenService {
@@ -27,7 +28,7 @@ export class TokenService {
 	}
 
 	issueTokens(studentId: number) {
-		const accessTokenPayload = { id: studentId };
+		const accessTokenPayload: JwtStudentPayload = { id: studentId };
 
 		const accessToken = this.jwtService.sign(accessTokenPayload, {
 			expiresIn: '1h'
