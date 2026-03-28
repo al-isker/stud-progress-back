@@ -1,5 +1,3 @@
-type DataType = Record<string, any>;
-
-export const objectToFormData = (data: DataType) => {
-	return new URLSearchParams(data).toString();
+export const objectToFormData = (object: Record<string, any>) => {
+	return new URLSearchParams(object).toString();
 };

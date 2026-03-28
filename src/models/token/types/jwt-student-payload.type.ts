@@ -1,3 +1,3 @@
-export type JwtStudentPayload = {
+export interface JwtStudentPayload {
 	id: number;
-};
+}

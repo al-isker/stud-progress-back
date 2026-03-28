@@ -1,5 +1,5 @@
-export type StudentCreateWithProgressData = {
+export interface StudentCreateWithProgressData {
 	fullName: string;
 	password: string;
 	semester: number;
-};
+}

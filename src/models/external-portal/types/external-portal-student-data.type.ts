@@ -1,5 +1,5 @@
-export type ExternalPortalStudentData = {
+export interface ExternalPortalStudentData {
 	fullName: string;
 	password: string;
 	semester: number;
-};
+}

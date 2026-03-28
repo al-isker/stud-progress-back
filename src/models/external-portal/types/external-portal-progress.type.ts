@@ -2,11 +2,11 @@ import { ExternalPortalSubjectListWithEventList } from './external-portal-subjec
 import { ExternalPortalSubjectListWithGradeByAllSemesters } from './external-portal-subject-list-with-grade-by-all-semesters.type';
 import { ExternalPortalSubjectListWithGrade } from './external-portal-subject-list-with-grade.type';
 
-type ExternalPortalProgressFull = {
+interface ExternalPortalProgressFull {
 	subjectListWithGrade: ExternalPortalSubjectListWithGrade;
 	subjectListWithGradeByAllSemesters: ExternalPortalSubjectListWithGradeByAllSemesters;
 	subjectListWithEventList: ExternalPortalSubjectListWithEventList;
-};
+}
 
 export type ExternalPortalProgressInclude = Partial<
 	Record<keyof ExternalPortalProgressFull, boolean>
