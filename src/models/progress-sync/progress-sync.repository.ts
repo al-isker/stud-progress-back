@@ -111,8 +111,8 @@ export class ProgressSyncRepository {
 				averageMark,
 				eventList: {
 					createMany: {
-						data: externalPortalEventList.map(event => ({
-							...event,
+						data: externalPortalEventList.map(externalPortalEvent => ({
+							...externalPortalEvent,
 							isNew: false
 						}))
 					}
@@ -129,32 +129,31 @@ export class ProgressSyncRepository {
 		return await (tx ?? this.prisma).event.create({
 			data: {
 				ratingBySemesterId,
-				status: externalPortalEvent.status,
-				date: externalPortalEvent.date,
-				mark: externalPortalEvent.mark,
+				...externalPortalEvent,
 				isNew: true
 			}
 		});
 	}
 
 	async updateEvent(
-		ratingBySemesterId: number,
+		id: number,
 		externalPortalEvent: ExternalPortalEvent,
 		tx?: Prisma.TransactionClient
 	) {
 		return await (tx ?? this.prisma).event.update({
 			where: {
-				date_ratingBySemesterId: {
-					date: externalPortalEvent.date,
-					ratingBySemesterId
-				}
+				id
 			},
 			data: {
-				status: externalPortalEvent.status,
-				date: externalPortalEvent.date,
-				mark: externalPortalEvent.mark,
+				...externalPortalEvent,
 				isNew: true
 			}
+		});
+	}
+
+	async deleteEvent(id: number, tx?: Prisma.TransactionClient) {
+		return await (tx ?? this.prisma).event.delete({
+			where: { id }
 		});
 	}
 

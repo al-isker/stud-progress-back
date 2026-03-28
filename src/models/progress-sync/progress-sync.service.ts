@@ -1,6 +1,6 @@
 ﻿import { Prisma, Student } from '@prisma/client';
 import { ExternalPortalProgress } from 'src/models/external-portal/types/external-portal-progress.type';
-import { Injectable, InternalServerErrorException } from '@nestjs/common';
+import { Injectable, InternalServerErrorException, Logger } from '@nestjs/common';
 import { ExternalPortalSubjectListWithEventList } from '../external-portal/types/external-portal-subject-list-with-event-list.type';
 import { ExternalPortalSubjectListWithGrade } from '../external-portal/types/external-portal-subject-list-with-grade.type';
 import { PrismaTransactionService } from '../prisma/prisma-transaction.service';
@@ -10,6 +10,8 @@ import { ProgressSyncRepository } from './progress-sync.repository';
 
 @Injectable()
 export class ProgressSyncService {
+	private readonly logger = new Logger(ProgressSyncService.name);
+
 	constructor(
 		private prismaTransaction: PrismaTransactionService,
 		private progressSyncRepository: ProgressSyncRepository,
@@ -158,15 +160,15 @@ export class ProgressSyncService {
 				continue;
 			}
 
-			const externalPortalDifferentEvents = this.progressSyncHelperService.differentEvents(
+			const differentEvents = this.progressSyncHelperService.differentEvents(
 				ratingByCurrentSemester.eventList,
 				externalPortalSubjectWithEventList.eventList
 			);
 
-			for (const externalPortalCreatedEvent of externalPortalDifferentEvents.created) {
+			for (const { externalPortalEvent } of differentEvents.created) {
 				await this.progressSyncRepository.createEvent(
 					ratingByCurrentSemester.id,
-					externalPortalCreatedEvent,
+					externalPortalEvent,
 					tx
 				);
 
@@ -175,26 +177,28 @@ export class ProgressSyncService {
 						student.expoPushToken,
 						matchingSubject.id,
 						externalPortalSubjectWithEventList.name,
-						externalPortalCreatedEvent
+						externalPortalEvent
 					);
 				});
 			}
 
-			for (const externalPortalUpdatedEvent of externalPortalDifferentEvents.updated) {
-				await this.progressSyncRepository.updateEvent(
-					ratingByCurrentSemester.id,
-					externalPortalUpdatedEvent,
-					tx
-				);
+			for (const { existingEvent, externalPortalEvent } of differentEvents.updated) {
+				await this.progressSyncRepository.updateEvent(existingEvent.id, externalPortalEvent, tx);
 
 				notificationCallbacks.push(() => {
 					this.pushNotificationService.eventUpdated(
 						student.expoPushToken,
 						matchingSubject.id,
 						externalPortalSubjectWithEventList.name,
-						externalPortalUpdatedEvent
+						externalPortalEvent
 					);
 				});
+			}
+
+			for (const { existingEvent } of differentEvents.deleted) {
+				this.logger.warn({ msg: 'Event deleted', data: { event: existingEvent } });
+
+				await this.progressSyncRepository.deleteEvent(existingEvent.id, tx);
 			}
 
 			await this.progressSyncRepository.updateAverageMarkBySemester(

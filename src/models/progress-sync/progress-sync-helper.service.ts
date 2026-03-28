@@ -2,6 +2,11 @@
 import { Injectable } from '@nestjs/common';
 import { ExternalPortalEvent } from '../external-portal/types/external-portal-subject-list-with-event-list.type';
 import { ExternalPortalSubjectWithGrade } from '../external-portal/types/external-portal-subject-list-with-grade.type';
+import {
+	DifferentCreatedEvent,
+	DifferentDeletedEvent,
+	DifferentUpdatedEvent
+} from './types/different-event.type';
 
 @Injectable()
 export class ProgressSyncHelperService {
@@ -115,8 +120,9 @@ export class ProgressSyncHelperService {
 	}
 
 	differentEvents(existingEventList: Event[], externalPortalEventList: ExternalPortalEvent[]) {
-		const created: ExternalPortalEvent[] = [];
-		const updated: ExternalPortalEvent[] = [];
+		const created = Array<DifferentCreatedEvent>();
+		const updated = Array<DifferentUpdatedEvent>();
+		const deleted = Array<DifferentDeletedEvent>();
 
 		for (const externalPortalEvent of externalPortalEventList) {
 			const existingEvent = existingEventList.find(item => {
@@ -124,7 +130,7 @@ export class ProgressSyncHelperService {
 			});
 
 			if (!existingEvent) {
-				created.push(externalPortalEvent);
+				created.push({ externalPortalEvent });
 				continue;
 			}
 
@@ -132,10 +138,20 @@ export class ProgressSyncHelperService {
 				existingEvent.status !== externalPortalEvent.status ||
 				existingEvent.mark !== externalPortalEvent.mark
 			) {
-				updated.push(externalPortalEvent);
+				updated.push({ existingEvent, externalPortalEvent });
 			}
 		}
 
-		return { created, updated };
+		for (const existingEvent of existingEventList) {
+			const externalPortalEvent = externalPortalEventList.find(item => {
+				return item.date.getTime() === existingEvent.date.getTime();
+			});
+
+			if (!externalPortalEvent) {
+				deleted.push({ existingEvent });
+			}
+		}
+
+		return { created, updated, deleted };
 	}
 }
