@@ -2,6 +2,6 @@ import { IsString, IsUUID } from 'class-validator';
 
 export class RefreshTokenDto {
 	@IsString()
-	@IsUUID()
+	@IsUUID(7)
 	refreshToken: string;
 }
