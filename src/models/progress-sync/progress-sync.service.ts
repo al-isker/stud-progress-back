@@ -49,10 +49,9 @@ export class ProgressSyncService {
 			);
 
 			if (!matchingSubject) {
-				throw new InternalServerErrorException({
-					studentId: student.id,
-					message: `Subject "${externalPortalSubjectWithEventList.name}" not found for initial rating sync`
-				});
+				throw new InternalServerErrorException(
+					`Subject "${externalPortalSubjectWithEventList.name}" not found for initial rating sync`
+				);
 			}
 
 			await this.progressSyncRepository.createRatingBySemester(
@@ -84,10 +83,9 @@ export class ProgressSyncService {
 			);
 
 			if (!matchingSubject?.grade) {
-				throw new InternalServerErrorException({
-					studentId: student.id,
-					message: `Subject "${externalPortalSubjectWithGrade.name}" not found for grade sync`
-				});
+				throw new InternalServerErrorException(
+					`Subject "${externalPortalSubjectWithGrade.name}" not found for grade sync`
+				);
 			}
 
 			const hasGradeChanged = this.progressSyncHelperService.hasGradeChanged(
@@ -135,10 +133,9 @@ export class ProgressSyncService {
 			);
 
 			if (!matchingSubject) {
-				throw new InternalServerErrorException({
-					studentId: student.id,
-					message: `Subject "${externalPortalSubjectWithEventList.name}" not found for rating sync`
-				});
+				throw new InternalServerErrorException(
+					`Subject "${externalPortalSubjectWithEventList.name}" not found for rating sync`
+				);
 			}
 
 			const ratingByCurrentSemester = matchingSubject.ratingBySemesterList.find(
