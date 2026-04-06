@@ -1,5 +1,4 @@
 import { Student } from '@prisma/client';
-import { ExternalPortalService } from 'src/models/external-portal/external-portal.service';
 import { StudentService } from 'src/models/student/student.service';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
@@ -12,8 +11,7 @@ export class AuthService {
 	constructor(
 		private prisma: PrismaService,
 		private studentService: StudentService,
-		private tokenService: TokenService,
-		private externalPortalService: ExternalPortalService
+		private tokenService: TokenService
 	) {}
 
 	private async signUp(dto: LoginDto) {
