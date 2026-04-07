@@ -8,7 +8,6 @@ import { objectToFormData } from './utils/object-to-form-data';
 export class ExternalPortalRouterService {
 	private baseUrl = 'https://lk.dgmu.ru';
 	private fetchTimeout = 60000;
-	private csrfCookieName = '_csrf';
 	private sessionIdCookieName = 'LKSESSID';
 
 	private async request(input: RequestInfo | URL, init?: RequestInit) {
@@ -54,10 +53,10 @@ export class ExternalPortalRouterService {
 		const loginPage = await loginPageRes.text();
 		const loginPageCheerio = cheerio.load(loginPage);
 
-		const csrfInputValue = loginPageCheerio('[name="_csrf"]').val() as string;
+		const csrf = loginPageCheerio('[name="_csrf"]').val() as string;
 
 		const loginBody = {
-			_csrf: csrfInputValue,
+			_csrf: csrf,
 			'LoginForm[identity]': data.fullName,
 			'LoginForm[password]': data.password,
 			'LoginForm[rememberMe]': 1
