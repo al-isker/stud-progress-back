@@ -2,6 +2,7 @@ import * as cheerio from 'cheerio';
 import { CookieJar } from 'src/common/lib/cookie-jar/cookie-jar';
 import {
 	BadGatewayException,
+	GatewayTimeoutException,
 	Injectable,
 	UnauthorizedException,
 	UnprocessableEntityException
@@ -38,7 +39,11 @@ export class ExternalPortalRouterService {
 			}
 
 			return res;
-		} catch {
+		} catch (error: any) {
+			if (error.name === 'AbortError') {
+				throw new GatewayTimeoutException();
+			}
+
 			throw new BadGatewayException();
 		} finally {
 			clearTimeout(timeoutId);
