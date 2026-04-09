@@ -6,7 +6,9 @@ export class AntiCaptchaService implements OnModuleInit, OnModuleDestroy {
 	private tesseractWorker: Tesseract.Worker;
 
 	async onModuleInit() {
-		this.tesseractWorker = await Tesseract.createWorker('eng', Tesseract.OEM.TESSERACT_ONLY);
+		this.tesseractWorker = await Tesseract.createWorker('eng', Tesseract.OEM.LSTM_ONLY, {
+			errorHandler: () => {}
+		});
 
 		await this.tesseractWorker.setParameters({
 			tessedit_pageseg_mode: Tesseract.PSM.SINGLE_LINE,
@@ -21,8 +23,8 @@ export class AntiCaptchaService implements OnModuleInit, OnModuleDestroy {
 		});
 	}
 
-	async recognize(imagePath: string) {
-		const { data } = await this.tesseractWorker.recognize(imagePath);
+	async recognizeText(image: Tesseract.ImageLike) {
+		const { data } = await this.tesseractWorker.recognize(image);
 
 		return data.text.trim();
 	}
