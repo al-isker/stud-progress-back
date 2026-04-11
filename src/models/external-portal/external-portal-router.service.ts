@@ -7,19 +7,16 @@ import {
 	UnauthorizedException,
 	UnprocessableEntityException
 } from '@nestjs/common';
-import { AntiCaptchaService } from '../anti-captcha/anti-captcha.service';
 import { ExternalPortalStudentData } from './types/external-portal-student-data.type';
 import { objectToFormData } from './utils/object-to-form-data';
 
 @Injectable()
 export class ExternalPortalRouterService {
-	constructor(private antiCaptchaService: AntiCaptchaService) {}
-
 	private baseUrl = 'https://lk.dgmu.ru';
 	private sessionIdCookieName = 'LKSESSID';
 
 	private fetchTimeout = 60000;
-	private maxCaptchaAttempts = 10;
+	private maxLoginAttempts = 10;
 
 	private async request(input: RequestInfo | URL, init?: RequestInit) {
 		const abortController = new AbortController();
@@ -35,6 +32,7 @@ export class ExternalPortalRouterService {
 			});
 
 			if (!res.ok && res.status >= 400 && res.status < 600) {
+				console.log(res);
 				throw Error();
 			}
 
@@ -70,27 +68,11 @@ export class ExternalPortalRouterService {
 
 		const csrf = loginPageCheerio('input[name="_csrf"]').val() as string;
 
-		for (let attempt = 1; attempt <= this.maxCaptchaAttempts; attempt++) {
-			const captchaImageRes = await this.request(`${this.baseUrl}/user/sign-in/captcha`, {
-				headers: { cookie: cookieJar.getStringify() }
-			});
-
-			const captchaImageArrayBuffer = await captchaImageRes.arrayBuffer();
-			const captchaImageBuffer = Buffer.from(captchaImageArrayBuffer);
-
-			let captchaText: string;
-
-			try {
-				captchaText = await this.antiCaptchaService.recognizeText(captchaImageBuffer);
-			} catch {
-				continue;
-			}
-
+		for (let attempt = 1; attempt <= this.maxLoginAttempts; attempt++) {
 			const loginBody = {
 				_csrf: csrf,
 				'LoginForm[identity]': data.fullName,
 				'LoginForm[password]': data.password,
-				'LoginForm[captcha]': captchaText,
 				'LoginForm[rememberMe]': 1
 			};
 
@@ -109,16 +91,15 @@ export class ExternalPortalRouterService {
 			const loginHTML = await loginRes.text();
 			const loginCheerio = cheerio.load(loginHTML);
 
-			const passwordErrorText = loginCheerio('.field-loginform-password .invalid-feedback').text();
-			const captchaErrorText = loginCheerio('.field-loginform-captcha .invalid-feedback').text();
+			const formErrorText = loginCheerio('.field-loginform-password .invalid-feedback').text();
 
-			if (passwordErrorText) {
+			if (formErrorText) {
 				throw new UnauthorizedException('Неверные ФИО и/или пароль');
 			}
 
-			if (!captchaErrorText) {
-				return cookieJar.getValue(this.sessionIdCookieName);
-			}
+			// добавить проверку статуса ответа на login
+
+			return cookieJar.getValue(this.sessionIdCookieName);
 		}
 
 		throw new UnprocessableEntityException('Не удалось получить доступ к личному кабинету');

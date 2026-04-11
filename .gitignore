@@ -15,9 +15,6 @@ lerna-debug.log*
 # OS
 .DS_Store
 
-# Model
-*.traineddata
-
 # Tests
 /coverage
 /.nyc_output
