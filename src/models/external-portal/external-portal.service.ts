@@ -17,18 +17,18 @@ export class ExternalPortalService {
 	) {}
 
 	private async getProgressBySessionId<TInclude extends ExternalPortalProgressInclude>(
-		data: Pick<ExternalPortalStudentData, 'semester'> & { sessionId: string },
+		data: Pick<ExternalPortalStudentData, 'semester'> & { cookie: string },
 		include: TInclude
 	) {
-		const { semester, sessionId } = data;
+		const { semester, cookie } = data;
 
 		const gradePagePromise =
 			include?.subjectListWithGrade || include?.subjectListWithGradeByAllSemesters
-				? this.externalPortalRouterService.getGradePage(sessionId)
+				? this.externalPortalRouterService.getGradePage(cookie)
 				: Promise.resolve(null);
 
 		const eventsPagePromise = include?.subjectListWithEventList
-			? this.externalPortalRouterService.getEventsPage(sessionId, semester)
+			? this.externalPortalRouterService.getEventsPage(cookie, semester)
 			: Promise.resolve(null);
 
 		const [gradePage, eventsPage] = await Promise.all([gradePagePromise, eventsPagePromise]);
@@ -55,16 +55,16 @@ export class ExternalPortalService {
 	}
 
 	async getProgress<TInclude extends ExternalPortalProgressInclude>(
-		data: ExternalPortalStudentData & { sessionId?: string },
+		data: ExternalPortalStudentData & { cookie?: string },
 		include: TInclude
 	) {
-		const { fullName, password, semester, sessionId } = data;
+		const { fullName, password, semester, cookie } = data;
 
-		if (sessionId) {
+		if (cookie) {
 			try {
-				const progress = await this.getProgressBySessionId({ semester, sessionId }, include);
+				const progress = await this.getProgressBySessionId({ semester, cookie }, include);
 
-				return Object.assign(progress, { sessionId });
+				return Object.assign(progress, { cookie });
 			} catch (error) {
 				const isUnauthorized = error instanceof UnauthorizedException;
 
@@ -74,16 +74,13 @@ export class ExternalPortalService {
 			}
 		}
 
-		const actualSessionId = await this.externalPortalRouterService.getSessionId({
+		const newCookie = await this.externalPortalRouterService.getAuthorizedCookie({
 			fullName,
 			password
 		});
 
-		const progress = await this.getProgressBySessionId(
-			{ semester, sessionId: actualSessionId },
-			include
-		);
+		const progress = await this.getProgressBySessionId({ semester, cookie: newCookie }, include);
 
-		return Object.assign(progress, { sessionId: actualSessionId });
+		return Object.assign(progress, { cookie: newCookie });
 	}
 }

@@ -80,7 +80,7 @@ export class StudentService {
 		const dataToCreate = this.mapWithEncryptedPassword(
 			this.mapWithCalculateCourse({
 				...data,
-				externalPortalSessionId: externalPortalProgress.sessionId
+				externalPortalCookie: externalPortalProgress.cookie
 			})
 		);
 
@@ -112,7 +112,7 @@ export class StudentService {
 			fullName: existingStudent.fullName,
 			password: data.password ?? existingStudent.password,
 			semester: data.semester ?? existingStudent.semester,
-			sessionId: !isExist(data.password) ? existingStudent.externalPortalSessionId : undefined
+			cookie: !isExist(data.password) ? existingStudent.externalPortalCookie : undefined
 		};
 
 		const externalPortalProgress = await this.externalPortalService.getProgress(dataToGetProgress, {
@@ -124,10 +124,7 @@ export class StudentService {
 			this.mapWithCalculateCourse({
 				password: isExist(data.password) ? data.password : undefined,
 				semester: isExist(data.semester) ? data.semester : undefined,
-				externalPortalSessionId:
-					existingStudent.externalPortalSessionId !== externalPortalProgress.sessionId
-						? externalPortalProgress.sessionId
-						: undefined
+				externalPortalCookie: externalPortalProgress.cookie
 			})
 		);
 

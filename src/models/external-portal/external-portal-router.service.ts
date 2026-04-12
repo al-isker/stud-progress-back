@@ -4,8 +4,7 @@ import {
 	BadGatewayException,
 	GatewayTimeoutException,
 	Injectable,
-	UnauthorizedException,
-	UnprocessableEntityException
+	UnauthorizedException
 } from '@nestjs/common';
 import { ExternalPortalStudentData } from './types/external-portal-student-data.type';
 import { objectToFormData } from './utils/object-to-form-data';
@@ -13,10 +12,7 @@ import { objectToFormData } from './utils/object-to-form-data';
 @Injectable()
 export class ExternalPortalRouterService {
 	private baseUrl = 'https://lk.dgmu.ru';
-	private sessionIdCookieName = 'LKSESSID';
-
 	private fetchTimeout = 60000;
-	private maxLoginAttempts = 10;
 
 	private async request(input: RequestInfo | URL, init?: RequestInit) {
 		const abortController = new AbortController();
@@ -56,59 +52,53 @@ export class ExternalPortalRouterService {
 		return res;
 	}
 
-	async getSessionId(data: Pick<ExternalPortalStudentData, 'fullName' | 'password'>) {
+	async getAuthorizedCookie(data: Pick<ExternalPortalStudentData, 'fullName' | 'password'>) {
 		const cookieJar = new CookieJar();
 
 		const loginPageRes = await this.request(`${this.baseUrl}/user/sign-in/login`);
 
-		cookieJar.setCookie(loginPageRes.headers.getSetCookie());
+		cookieJar.applySetCookie(loginPageRes.headers.getSetCookie());
 
 		const loginPageHTML = await loginPageRes.text();
 		const loginPageCheerio = cheerio.load(loginPageHTML);
 
 		const csrf = loginPageCheerio('input[name="_csrf"]').val() as string;
 
-		for (let attempt = 1; attempt <= this.maxLoginAttempts; attempt++) {
-			const loginBody = {
-				_csrf: csrf,
-				'LoginForm[identity]': data.fullName,
-				'LoginForm[password]': data.password,
-				'LoginForm[rememberMe]': 1
-			};
+		const loginBody = {
+			_csrf: csrf,
+			'LoginForm[identity]': data.fullName,
+			'LoginForm[password]': data.password,
+			'LoginForm[rememberMe]': 1
+		};
 
-			const loginRes = await this.request(`${this.baseUrl}/user/sign-in/login`, {
-				method: 'POST',
-				redirect: 'manual',
-				body: objectToFormData(loginBody),
-				headers: {
-					cookie: cookieJar.getStringify(),
-					'content-type': 'application/x-www-form-urlencoded'
-				}
-			});
-
-			cookieJar.setCookie(loginRes.headers.getSetCookie());
-
-			const loginHTML = await loginRes.text();
-			const loginCheerio = cheerio.load(loginHTML);
-
-			const formErrorText = loginCheerio('.field-loginform-password .invalid-feedback').text();
-
-			if (formErrorText) {
-				throw new UnauthorizedException('Неверные ФИО и/или пароль');
+		const loginRes = await this.request(`${this.baseUrl}/user/sign-in/login`, {
+			method: 'POST',
+			redirect: 'manual',
+			body: objectToFormData(loginBody),
+			headers: {
+				cookie: cookieJar.getStringify(),
+				'content-type': 'application/x-www-form-urlencoded'
 			}
+		});
 
-			// добавить проверку статуса ответа на login
+		cookieJar.applySetCookie(loginRes.headers.getSetCookie());
 
-			return cookieJar.getValue(this.sessionIdCookieName);
+		const loginHTML = await loginRes.text();
+		const loginCheerio = cheerio.load(loginHTML);
+
+		const formErrorText = loginCheerio('.field-loginform-password .invalid-feedback').text();
+
+		if (formErrorText) {
+			throw new UnauthorizedException('Неверные ФИО и/или пароль');
 		}
 
-		throw new UnprocessableEntityException('Не удалось получить доступ к личному кабинету');
+		// добавить проверку статуса ответа на login
+
+		return cookieJar.getStringify();
 	}
 
-	async getGradePage(sessionId: string) {
-		const cookieJar = new CookieJar({
-			[this.sessionIdCookieName]: sessionId
-		});
+	async getGradePage(cookie: string) {
+		const cookieJar = new CookieJar(cookie);
 
 		const gradePageRes = this.unauthorizedInterceptor(
 			await this.request(`${this.baseUrl}/student/grade`, {
@@ -119,10 +109,8 @@ export class ExternalPortalRouterService {
 		return await gradePageRes.text();
 	}
 
-	async getEventsPage(sessionId: string, semester: number) {
-		const cookieJar = new CookieJar({
-			[this.sessionIdCookieName]: sessionId
-		});
+	async getEventsPage(cookie: string, semester: number) {
+		const cookieJar = new CookieJar(cookie);
 
 		const eventsPageRes = this.unauthorizedInterceptor(
 			await this.request(`${this.baseUrl}/student/journal`, {
@@ -130,7 +118,7 @@ export class ExternalPortalRouterService {
 			})
 		);
 
-		cookieJar.setCookie(eventsPageRes.headers.getSetCookie());
+		cookieJar.applySetCookie(eventsPageRes.headers.getSetCookie());
 
 		const eventsPageHTML = await eventsPageRes.text();
 		const eventsPageCheerio = cheerio.load(eventsPageHTML);
@@ -155,7 +143,7 @@ export class ExternalPortalRouterService {
 			})
 		);
 
-		cookieJar.setCookie(planRes.headers.getSetCookie());
+		cookieJar.applySetCookie(planRes.headers.getSetCookie());
 
 		const plan = await planRes.json();
 
@@ -180,7 +168,7 @@ export class ExternalPortalRouterService {
 			})
 		);
 
-		cookieJar.setCookie(groupRes.headers.getSetCookie());
+		cookieJar.applySetCookie(groupRes.headers.getSetCookie());
 
 		const group = await groupRes.json();
 

@@ -1,10 +1,10 @@
-import * as cookie from 'cookie';
+import { parseCookie, parseSetCookie, stringifyCookie } from 'cookie';
 
 export class CookieJar {
 	private cookieMap: Map<string, string>;
 
-	constructor(initialCookie?: Record<string, string>) {
-		this.cookieMap = new Map(initialCookie && Object.entries(initialCookie));
+	constructor(initialCookie?: string) {
+		this.cookieMap = new Map(initialCookie && Object.entries(parseCookie(initialCookie)));
 	}
 
 	getValue(name: string) {
@@ -16,14 +16,26 @@ export class CookieJar {
 	}
 
 	getStringify() {
-		return cookie.stringifyCookie(this.getValues());
+		return stringifyCookie(this.getValues());
 	}
 
-	setCookie(setCookieList: string[]) {
-		for (const setCookieItem of setCookieList) {
-			const parsedSetCookieItem = cookie.parseSetCookie(setCookieItem);
+	applyCookie(cookie: string) {
+		const parsedCookie = parseCookie(cookie);
 
-			this.cookieMap.set(parsedSetCookieItem.name, parsedSetCookieItem.value);
+		for (const [parsedCookieName, parsedCookieValue] of Object.entries(parsedCookie)) {
+			this.cookieMap.set(parsedCookieName, parsedCookieValue);
+		}
+	}
+
+	applySetCookie(setCookieList: string[]) {
+		for (const setCookieItem of setCookieList) {
+			const parsedSetCookieItem = parseSetCookie(setCookieItem);
+
+			if (parsedSetCookieItem.value === 'deleted') {
+				this.cookieMap.delete(parsedSetCookieItem.name);
+			} else {
+				this.cookieMap.set(parsedSetCookieItem.name, parsedSetCookieItem.value);
+			}
 		}
 	}
 }

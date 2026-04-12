@@ -40,16 +40,14 @@ export class SchedulerService {
 				}
 			);
 
-			if (dataToGetProgress.externalPortalSessionId !== externalPortalProgress.sessionId) {
-				await this.prisma.student.update({
-					where: {
-						id: dataToGetProgress.id
-					},
-					data: {
-						externalPortalSessionId: externalPortalProgress.sessionId
-					}
-				});
-			}
+			await this.prisma.student.update({
+				where: {
+					id: dataToGetProgress.id
+				},
+				data: {
+					externalPortalCookie: externalPortalProgress.cookie
+				}
+			});
 
 			const { notificationCallbacks } = await this.progressSyncService.update(
 				student,
