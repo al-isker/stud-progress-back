@@ -4,7 +4,7 @@ import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { TokenService } from '../token/token.service';
 import { LoginDto } from './dto/login.dto';
-import { RefreshTokenDto } from './dto/refresh-token.dto';
+import { RefreshAccessTokenDto } from './dto/refresh-token.dto';
 
 @Injectable()
 export class AuthService {
@@ -50,7 +50,7 @@ export class AuthService {
 		}
 	}
 
-	async refreshToken(dto: RefreshTokenDto) {
+	async refreshAccessToken(dto: RefreshAccessTokenDto) {
 		const foundRefreshToken = await this.tokenService.findRefreshToken(dto.refreshToken);
 
 		if (!foundRefreshToken) {

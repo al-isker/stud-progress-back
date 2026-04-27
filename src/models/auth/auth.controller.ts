@@ -3,7 +3,7 @@ import { CurrentStudentId } from '../student/decorators/current-student-id.decor
 import { AuthService } from './auth.service';
 import { Auth } from './decorators/auth.decorator';
 import { LoginDto } from './dto/login.dto';
-import { RefreshTokenDto } from './dto/refresh-token.dto';
+import { RefreshAccessTokenDto } from './dto/refresh-token.dto';
 
 @Controller('auth')
 export class AuthController {
@@ -15,10 +15,10 @@ export class AuthController {
 		return this.authService.login(dto);
 	}
 
-	@Post('refresh-token')
+	@Post('refresh-access-token')
 	@HttpCode(HttpStatus.OK)
-	refreshToken(@Body() dto: RefreshTokenDto) {
-		return this.authService.refreshToken(dto);
+	refreshAccessToken(@Body() dto: RefreshAccessTokenDto) {
+		return this.authService.refreshAccessToken(dto);
 	}
 
 	@Post('logout')
