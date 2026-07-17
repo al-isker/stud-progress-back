@@ -38,12 +38,7 @@ import { CaptureResponseBodyInterceptor } from './interceptors/capture-response-
 							})
 						},
 						redact: {
-							paths: [
-								'req.body.password',
-								'req.body.refreshToken',
-								'res.body.accessToken',
-								'res.body.refreshToken'
-							],
+							paths: ['req.body.refreshToken', 'res.body.accessToken', 'res.body.refreshToken'],
 							censor: '[REDACTED]'
 						}
 					}

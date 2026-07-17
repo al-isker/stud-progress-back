@@ -8,15 +8,12 @@ datasource db {
 }
 
 model Student {
-  id                   Int           @id @default(autoincrement())
-  fullName             String        @unique @map("full_name")
-  encryptedPassword    String        @map("encrypted_password")
-  course               Int
-  semester             Int
-  externalPortalCookie String?       @map("external_portal_cookie")
-  refreshToken         RefreshToken?
-  expoPushToken        String?       @map("expo_push_token")
-  subjects             Subject[]
+  id            Int           @id @default(autoincrement())
+  fullName      String        @unique @map("full_name")
+  course        Int
+  semester      Int
+  expoPushToken String?       @map("expo_push_token")
+  refreshToken  RefreshToken?
 
   @@map("student")
 }
@@ -29,84 +26,4 @@ model RefreshToken {
   studentId    Int      @unique @map("student_id")
 
   @@map("refresh_token")
-}
-
-model Subject {
-  id                   Int                @id @default(autoincrement())
-  nameId               Int
-  name                 SubjectName        @relation(fields: [nameId], references: [id])
-  controlType          ControlType?       @map("control_type")
-  grade                Grade?
-  ratingBySemesterList RatingBySemester[]
-  student              Student            @relation(fields: [studentId], references: [id])
-  studentId            Int                @map("student_id")
-
-  // his unique [name, grade.semester, studentId]
-  // his unique [name, ratingBySemesterList.item.semester, studentId]
-  @@map("subject")
-}
-
-model SubjectName {
-  id       Int       @id @default(autoincrement())
-  name     String    @unique
-  subjects Subject[]
-
-  @@map("subject_name")
-}
-
-model Grade {
-  id        Int         @id @default(autoincrement())
-  semester  Int
-  status    GradeStatus
-  date      DateTime?
-  mark      Int?
-  isNew     Boolean     @map("is_new")
-  subject   Subject     @relation(fields: [subjectId], references: [id])
-  subjectId Int         @unique @map("subject_id")
-
-  @@map("grade")
-}
-
-model RatingBySemester {
-  id          Int     @id @default(autoincrement())
-  semester    Int
-  averageMark Float?  @map("average_mark")
-  eventList   Event[]
-  subject     Subject @relation(fields: [subjectId], references: [id])
-  subjectId   Int     @map("subject_id")
-
-  @@unique([semester, subjectId])
-  @@map("rating_by_semester")
-}
-
-model Event {
-  id                 Int              @id @default(autoincrement())
-  status             EventStatus
-  date               DateTime
-  mark               Int?
-  isNew              Boolean          @map("is_new")
-  ratingBySemester   RatingBySemester @relation(fields: [ratingBySemesterId], references: [id])
-  ratingBySemesterId Int              @map("rating_by_semester_id")
-
-  @@unique([date, ratingBySemesterId])
-  @@map("event")
-}
-
-enum ControlType {
-  EXAM
-  GRADED_TEST
-  TEST
-}
-
-enum GradeStatus {
-  PASS
-  FAIL
-  EMPTY
-}
-
-enum EventStatus {
-  MARK
-  EMPTY
-  ABSENCE
-  UPWORKED
 }
