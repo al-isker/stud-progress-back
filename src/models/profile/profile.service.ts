@@ -1,14 +1,10 @@
-import { StudentService } from 'src/models/student/student.service';
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { UpdateSemesterDto } from './dto/update-semester.dto';
 
 @Injectable()
 export class ProfileService {
-	constructor(
-		private prisma: PrismaService,
-		private studentService: StudentService
-	) {}
+	constructor(private prisma: PrismaService) {}
 
 	async getByStudentId(studentId: number) {
 		const student = await this.prisma.student.findFirst({
@@ -23,7 +19,10 @@ export class ProfileService {
 	}
 
 	async updateSemester(studentId: number, dto: UpdateSemesterDto) {
-		const { student } = await this.studentService.updateWithProgress(studentId, dto);
+		const student = await this.prisma.student.update({
+			where: { id: studentId },
+			data: { semester: dto.semester }
+		});
 
 		return {
 			fullName: student.fullName,
