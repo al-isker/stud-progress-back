@@ -7,7 +7,9 @@
 
 ## БД
 
-- Prisma 5 (`@prisma/client`) — ORM для `PostgreSQL`.
+- Prisma 7 (`@prisma/client` + `prisma-client`) — ORM.
+- `pg` — драйвер Node.js для работы с PostgreSQL.
+- `@prisma/adapter-pg` — адаптер, выступающий мостом между драйвером и ORM.
 
 ## Авторизация
 
