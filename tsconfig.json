@@ -10,9 +10,8 @@
 		"lib": ["ES2023.Array", "DOM", "ESNext"],
 		"sourceMap": true,
 		"outDir": "./dist",
-		"baseUrl": "./",
 		"paths": {
-			"@/*": ["src/*"]
+			"@/*": ["./src/*"]
 		},
 		"incremental": true,
 		"skipLibCheck": true,
