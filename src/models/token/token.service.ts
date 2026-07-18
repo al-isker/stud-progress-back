@@ -1,8 +1,8 @@
-import { Prisma } from 'src/common/prisma/generated/client';
-import { PrismaService } from 'src/models/prisma/prisma.service';
 import * as uuid from 'uuid';
 import { Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
+import { Prisma } from '@/common/prisma/generated/client';
+import { PrismaService } from '@/models/prisma/prisma.service';
 import { JwtStudentPayload } from './types/jwt-student-payload.type';
 
 @Injectable()

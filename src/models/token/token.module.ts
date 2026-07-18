@@ -1,7 +1,7 @@
-﻿import { JWT_SECRET_KEY } from 'src/common/lib/env/env-keys';
-import { Module } from '@nestjs/common';
+﻿import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { JwtModule } from '@nestjs/jwt';
+import { JWT_SECRET_KEY } from '@/common/lib/env/env-keys';
 import { JwtStrategy } from './jwt.strategy';
 import { TokenService } from './token.service';
 

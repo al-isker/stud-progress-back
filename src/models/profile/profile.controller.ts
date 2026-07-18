@@ -1,6 +1,6 @@
-import { Auth } from 'src/models/auth/decorators/auth.decorator';
-import { CurrentStudentId } from 'src/models/student/decorators/current-student-id.decorator';
 import { Body, Controller, Get, Patch } from '@nestjs/common';
+import { Auth } from '@/models/auth/decorators/auth.decorator';
+import { CurrentStudentId } from '@/models/student/decorators/current-student-id.decorator';
 import { UpdateSemesterDto } from './dto/update-semester.dto';
 import { ProfileService } from './profile.service';
 

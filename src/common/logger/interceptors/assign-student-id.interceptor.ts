@@ -1,7 +1,7 @@
 import { PinoLogger } from 'nestjs-pino';
 import { Observable } from 'rxjs';
-import { RequestWithUser } from 'src/models/auth/types/request-with-user.type';
 import { CallHandler, ExecutionContext, Injectable, NestInterceptor } from '@nestjs/common';
+import { RequestWithUser } from '@/models/auth/types/request-with-user.type';
 
 @Injectable()
 export class AssignStudentIdInterceptor implements NestInterceptor {

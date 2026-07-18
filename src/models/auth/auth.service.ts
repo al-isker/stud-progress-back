@@ -1,5 +1,5 @@
-import { PrismaService } from 'src/models/prisma/prisma.service';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
+import { PrismaService } from '@/models/prisma/prisma.service';
 import { TokenService } from '../token/token.service';
 import { RefreshAccessTokenDto } from './dto/refresh-token.dto';
 

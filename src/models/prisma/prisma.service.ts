@@ -1,7 +1,7 @@
 import { PrismaPg } from '@prisma/adapter-pg';
-import { DATABASE_URL_KEY } from 'src/common/lib/env/env-keys';
-import { PrismaClient } from 'src/common/prisma/generated/client';
 import { Injectable, OnModuleInit } from '@nestjs/common';
+import { DATABASE_URL_KEY } from '@/common/lib/env/env-keys';
+import { PrismaClient } from '@/common/prisma/generated/client';
 
 @Injectable()
 export class PrismaService extends PrismaClient implements OnModuleInit {

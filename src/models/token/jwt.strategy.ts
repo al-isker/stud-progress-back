@@ -1,8 +1,8 @@
 import { ExtractJwt, Strategy } from 'passport-jwt';
-import { JWT_SECRET_KEY } from 'src/common/lib/env/env-keys';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { PassportStrategy } from '@nestjs/passport';
+import { JWT_SECRET_KEY } from '@/common/lib/env/env-keys';
 import { JwtStudentPayload } from './types/jwt-student-payload.type';
 
 @Injectable()

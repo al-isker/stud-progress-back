@@ -8,7 +8,7 @@
 	"jsxSingleQuote": true,
 	"arrowParens": "avoid",
 	"plugins": ["@trivago/prettier-plugin-sort-imports"],
-	"importOrder": ["^@nestjs/(.*)$", "^[./]"],
+	"importOrder": ["^@nestjs/(.*)$", "^@/(.*)$", "^[./]"],
 	"importOrderSortSpecifiers": true,
 	"importOrderParserPlugins": ["typescript", "decorators-legacy"]
 }
