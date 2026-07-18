@@ -10,6 +10,10 @@
 
 - **[Стек](.claude/docs/stack/README.md)** — используемый стек и ключевые библиотеки.  
   @.claude/docs/stack/README.md
+
+- **[Соглашения](.claude/docs/conventions/README.md)** — соглашения, форматирование и самопроверка.  
+  @.claude/docs/conventions/README.md
+
 - **[Codebase Memory MCP](.claude/docs/codebase-memory-mcp/README.md)** — MCP-сервер для индексации и анализа кодовой базы.  
   @.claude/docs/codebase-memory-mcp/README.md
 
