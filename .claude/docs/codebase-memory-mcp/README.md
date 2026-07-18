@@ -1,4 +1,4 @@
-# codebase-memory-mcp
+# Codebase Memory MCP
 
 В начале каждой новой сессии обязательно выполни следующие действия:
 

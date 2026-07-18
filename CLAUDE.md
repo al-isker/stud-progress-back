@@ -6,11 +6,16 @@
 
 Материалы вынесены в `.claude/docs/`.
 
-### Обязательные к прочтению
+### Обязательная
 
-- [stack.md](.claude/docs/stack/README.md) — используемый стек и ключевые библиотеки.
-- [codebase-memory-mcp.md](.claude/docs/codebase-memory-mcp/README.md) — MCP-сервер для индексации и анализа кодовой базы.
+- **[Стек](.claude/docs/stack/README.md)** — используемый стек и ключевые библиотеки.  
+  @.claude/docs/stack/README.md
+- **[Codebase Memory MCP](.claude/docs/codebase-memory-mcp/README.md)** — MCP-сервер для индексации и анализа кодовой базы.  
+  @.claude/docs/codebase-memory-mcp/README.md
 
-### Справочные (по мере необходимости)
+### Справочная
 
-- [push-notification.md](.claude/docs/push-notification/README.md) — работа с push-уведомлениями.
+В ней зафиксированы принятые в проекте решения и нюансы.  
+Если задача затрагивает назначение конкретной документации из списка ниже — **обязательно открой соответствующую документацию до начала работы или формирования плана**.
+
+- **[Push-уведомления](.claude/docs/push-notification/README.md)** — работа с push-уведомлениями.
