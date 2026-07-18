@@ -12,12 +12,7 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
 			connectionTimeoutMillis: 5000
 		});
 
-		super({
-			adapter,
-			transactionOptions: {
-				timeout: 300000
-			}
-		});
+		super({ adapter });
 	}
 
 	async onModuleInit() {
