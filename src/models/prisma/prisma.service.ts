@@ -6,7 +6,11 @@ import { Injectable, OnModuleInit } from '@nestjs/common';
 @Injectable()
 export class PrismaService extends PrismaClient implements OnModuleInit {
 	constructor() {
-		const adapter = new PrismaPg({ connectionString: process.env[DATABASE_URL_KEY] });
+		const adapter = new PrismaPg({
+			connectionString: process.env[DATABASE_URL_KEY],
+			max: 10,
+			connectionTimeoutMillis: 5000
+		});
 
 		super({
 			adapter,
