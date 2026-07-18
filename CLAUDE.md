@@ -9,6 +9,7 @@
 ### Обязательные к прочтению
 
 - [stack.md](.claude/docs/stack/README.md) — используемый стек и ключевые библиотеки.
+- [codebase-memory-mcp.md](.claude/docs/codebase-memory-mcp/README.md) — MCP-сервер для индексации и анализа кодовой базы.
 
 ### Справочные (по мере необходимости)
 
