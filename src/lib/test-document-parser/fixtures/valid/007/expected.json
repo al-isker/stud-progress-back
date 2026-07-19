@@ -1,0 +1,63 @@
+{
+	"questions": [
+		{
+			"index": 1,
+			"text": "Риноскопия это:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "осмотр уха", "isCorrect": false },
+				{ "index": 2, "text": "осмотр носа", "isCorrect": true },
+				{ "index": 3, "text": "осмотр горла", "isCorrect": false },
+				{ "index": 4, "text": "осмотр гортани", "isCorrect": false },
+				{ "index": 5, "text": "проверка вестибулярного анализатора", "isCorrect": false }
+			]
+		},
+		{
+			"index": 2,
+			"text": "Осмотр средних отделов полости носа проводится?",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "носовым зеркалом Киллиана", "isCorrect": true },
+				{ "index": 2, "text": "носоглоточным зеркалом", "isCorrect": false },
+				{ "index": 3, "text": "гортанным зеркалом", "isCorrect": false },
+				{ "index": 4, "text": "отоскопом", "isCorrect": false },
+				{ "index": 5, "text": "без инструментов", "isCorrect": false }
+			]
+		},
+		{
+			"index": 3,
+			"text": "Хоана – это:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "задние отделы верхнего носового хода", "isCorrect": false },
+				{ "index": 2, "text": "отверстие из полости носа в носоглотку", "isCorrect": true },
+				{ "index": 3, "text": "задние отделы нижнего носового хода", "isCorrect": false },
+				{ "index": 4, "text": "задние отделы общего носового хода", "isCorrect": false }
+			]
+		},
+		{
+			"index": 4,
+			"text": "Какие мышцы имеются в барабанной полости:",
+			"type": "multiple",
+			"options": [
+				{ "index": 1, "text": "стременная мышца", "isCorrect": true },
+				{ "index": 2, "text": "мышца, натягивающая барабанную перепонку", "isCorrect": true },
+				{ "index": 3, "text": "отводящая мышца", "isCorrect": false },
+				{ "index": 4, "text": "приводящая мышца", "isCorrect": false },
+				{ "index": 5, "text": "двубрюшная мышца", "isCorrect": false }
+			]
+		},
+		{
+			"index": 5,
+			"text": "Какие косточки имеются в барабанной полости:",
+			"type": "multiple",
+			"options": [
+				{ "index": 1, "text": "молоточек", "isCorrect": true },
+				{ "index": 2, "text": "наковальня", "isCorrect": true },
+				{ "index": 3, "text": "стремечко", "isCorrect": true },
+				{ "index": 4, "text": "ладья", "isCorrect": false },
+				{ "index": 5, "text": "козелок", "isCorrect": false }
+			]
+		}
+	]
+}
