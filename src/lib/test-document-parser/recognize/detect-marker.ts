@@ -2,7 +2,7 @@ import { RawOption, RawQuestion } from './segment';
 
 export type MarkerResult =
 	| { marked: boolean[][] }
-	| { reason: 'no-answer-marker' | 'ambiguous-answer-marker' };
+	| { reason: 'no-answer-marker' | 'ambiguous-answer-marker'; questions: number[] };
 
 /** Агрегированные визуальные свойства варианта (по всем его строкам). */
 interface OptionStyle {
@@ -60,27 +60,35 @@ function markByRelativeScore(
 	styles: OptionStyle[][],
 	score: (s: OptionStyle) => number,
 	floor: number
-): boolean[][] | null {
-	const sets: boolean[][] = [];
-	for (const qs of styles) {
+): boolean[][] {
+	return styles.map(qs => {
 		const scores = qs.map(score);
 		const max = Math.max(...scores);
-		if (max < floor) return null;
+		if (max < floor) return qs.map(() => false);
 		const threshold = Math.max(floor, max * 0.5);
-		sets.push(scores.map(v => v >= threshold));
-	}
 
-	return sets;
-}
-
-/** Каждый вопрос должен помечать хотя бы один, но не все варианты. */
-function isSelective(sets: boolean[][]): boolean {
-	return sets.every(qs => {
-		const count = qs.filter(Boolean).length;
-
-		return count >= 1 && count < qs.length;
+		return scores.map(v => v >= threshold);
 	});
 }
+
+/** Кандидат-признак: его разметка и номера вопросов, где он неселективен. */
+interface Candidate {
+	sets: boolean[][];
+	badQuestions: number[];
+}
+
+/** Вопрос «плохой», если признак не выделил в нём ни одного или сразу все варианты. */
+function toCandidate(sets: boolean[][]): Candidate {
+	const badQuestions: number[] = [];
+	sets.forEach((qs, i) => {
+		const count = qs.filter(Boolean).length;
+		if (count < 1 || count >= qs.length) badQuestions.push(i);
+	});
+
+	return { sets, badQuestions };
+}
+
+const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('');
 
 /**
  * Ищет признак, выделяющий правильные ответы на фоне остальных: символьный
@@ -103,27 +111,37 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 		}
 	}
 
-	const candidates: boolean[][][] = [];
-	const pushIf = (sets: boolean[][] | null) => {
-		if (sets && isSelective(sets)) candidates.push(sets);
-	};
+	const candidates: Candidate[] = [];
+	for (const token of tokens)
+		candidates.push(toCandidate(markByPredicate(styles, s => s.token === token)));
+	candidates.push(toCandidate(markByRelativeScore(styles, s => s.highlight, 0.08)));
+	candidates.push(toCandidate(markByPredicate(styles, s => s.bold >= 0.55)));
+	candidates.push(toCandidate(markByPredicate(styles, s => s.italic >= 0.55)));
+	for (const color of colors)
+		candidates.push(toCandidate(markByPredicate(styles, s => s.color === color)));
 
-	for (const token of tokens) pushIf(markByPredicate(styles, s => s.token === token));
-	pushIf(markByRelativeScore(styles, s => s.highlight, 0.08));
-	pushIf(markByPredicate(styles, s => s.bold >= 0.55));
-	pushIf(markByPredicate(styles, s => s.italic >= 0.55));
-	for (const color of colors) pushIf(markByPredicate(styles, s => s.color === color));
+	const valid = candidates.filter(c => c.badQuestions.length === 0);
 
-	if (candidates.length === 0) return { reason: 'no-answer-marker' };
+	if (valid.length === 0) {
+		// Ни один признак не размечает все вопросы. Виновники — вопросы, где не
+		// сработал ближайший к рабочему признак (с наименьшим числом провалов).
+		const best = candidates.reduce((a, b) =>
+			b.badQuestions.length < a.badQuestions.length ? b : a
+		);
+
+		return { reason: 'no-answer-marker', questions: best.badQuestions };
+	}
 
 	// Признаки с одинаковой разметкой не конфликтуют — группируем по ней.
-	const signature = (sets: boolean[][]) =>
-		sets.map(s => s.map(b => (b ? '1' : '0')).join('')).join(';');
+	const signature = (sets: boolean[][]) => sets.map(questionSignature).join(';');
 	const groups = new Map<string, { sets: boolean[][]; total: number }>();
-	for (const sets of candidates) {
-		const key = signature(sets);
+	for (const c of valid) {
+		const key = signature(c.sets);
 		if (!groups.has(key)) {
-			groups.set(key, { sets, total: sets.reduce((n, qs) => n + qs.filter(Boolean).length, 0) });
+			groups.set(key, {
+				sets: c.sets,
+				total: c.sets.reduce((n, qs) => n + qs.filter(Boolean).length, 0)
+			});
 		}
 	}
 	if (groups.size === 1) {
@@ -137,5 +155,13 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 		}
 	}
 
-	return { reason: 'ambiguous-answer-marker' };
+	// Признаки расходятся — виновники это вопросы, где разметка неодинакова.
+	const variants = [...groups.values()].map(g => g.sets);
+	const questionsOut: number[] = [];
+	for (let qi = 0; qi < styles.length; qi++) {
+		const distinct = new Set(variants.map(v => questionSignature(v[qi])));
+		if (distinct.size > 1) questionsOut.push(qi);
+	}
+
+	return { reason: 'ambiguous-answer-marker', questions: questionsOut };
 }

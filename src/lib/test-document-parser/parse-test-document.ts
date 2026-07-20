@@ -1,9 +1,9 @@
 import { extractPdfLines } from './extract/extract-pdf';
-import { assembleTestDocument } from './recognize/assemble';
+import { assembleTestDocument, normalizeText } from './recognize/assemble';
 import { resolveAnswerMarker } from './recognize/detect-marker';
-import { segmentQuestions } from './recognize/segment';
+import { RawQuestion, segmentQuestions } from './recognize/segment';
 import { DocLine } from './types/document-model';
-import { InvalidReason, ParseResult } from './types/parse-result';
+import { InvalidQuestion, InvalidReason, ParseResult } from './types/parse-result';
 
 /** Вход парсера: сырые байты документа и необязательные подсказки формата. */
 export interface ParseInput {
@@ -15,6 +15,11 @@ export interface ParseInput {
 }
 
 const invalid = (reason: InvalidReason): ParseResult => ({ status: 'invalid', reason });
+
+/** Собирает список вопросов-виновников по их индексам в разобранном документе. */
+function culprits(raw: RawQuestion[], indices: number[]): InvalidQuestion[] {
+	return indices.map(i => ({ index: i + 1, text: normalizeText(raw[i].texts) }));
+}
 
 /**
  * Публичная точка входа модуля.
@@ -37,10 +42,20 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 
 	const raw = segmentQuestions(lines);
 	if (!raw) return invalid('no-questions-found');
-	if (raw.some(q => q.options.length < 2)) return invalid('question-without-options');
+
+	const withoutOptions = raw.map((q, i) => (q.options.length < 2 ? i : -1)).filter(i => i >= 0);
+	if (withoutOptions.length > 0) {
+		return {
+			status: 'invalid',
+			reason: 'question-without-options',
+			questions: culprits(raw, withoutOptions)
+		};
+	}
 
 	const marker = resolveAnswerMarker(raw);
-	if ('reason' in marker) return invalid(marker.reason);
+	if ('reason' in marker) {
+		return { status: 'invalid', reason: marker.reason, questions: culprits(raw, marker.questions) };
+	}
 
 	return assembleTestDocument(raw, marker.marked);
 }

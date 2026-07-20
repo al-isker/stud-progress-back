@@ -2,6 +2,8 @@ import { ParseResult } from '../types/parse-result';
 import { Question } from '../types/test-document';
 import { RawQuestion } from './segment';
 
+export { normalize as normalizeText };
+
 /**
  * Склеивает строки варианта/вопроса. На переносе (строка кончается дефисом)
  * пробел не ставится, а дефис убирается — если это не составное слово: дефис
@@ -34,14 +36,26 @@ export function assembleTestDocument(raw: RawQuestion[], marked: boolean[][]): P
 	const questions: Question[] = [];
 	for (let qi = 0; qi < raw.length; qi++) {
 		const text = normalize(raw[qi].texts);
-		if (!text) return { status: 'invalid', reason: 'empty-question-text' };
+		if (!text) {
+			return {
+				status: 'invalid',
+				reason: 'empty-question-text',
+				questions: [{ index: qi + 1, text }]
+			};
+		}
 
 		const options = raw[qi].options.map((option, oi) => ({
 			index: oi + 1,
 			text: normalize(option.texts),
 			isCorrect: marked[qi][oi]
 		}));
-		if (options.some(o => !o.text)) return { status: 'invalid', reason: 'empty-option-text' };
+		if (options.some(o => !o.text)) {
+			return {
+				status: 'invalid',
+				reason: 'empty-option-text',
+				questions: [{ index: qi + 1, text }]
+			};
+		}
 
 		const correctCount = options.filter(o => o.isCorrect).length;
 		questions.push({
