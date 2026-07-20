@@ -1,6 +1,3 @@
-/** Поддерживаемые форматы исходного документа. Список будет расширяться. */
-export type SourceFormat = 'pdf';
-
 /** Тип вопроса по количеству правильных ответов. */
 export type QuestionType = 'single' | 'multiple';
 
@@ -9,7 +6,7 @@ export interface Option {
 	/** Порядковый номер варианта в вопросе, начиная с 1. */
 	index: number;
 	text: string;
-	/** Помечен ли вариант как правильный (вычисляется из указателя ответа). */
+	/** Помечен ли вариант как правильный (вычисляется из признака-указателя). */
 	isCorrect: boolean;
 }
 
@@ -23,14 +20,7 @@ export interface Question {
 	options: Option[];
 }
 
-/** Необязательные метаданные распарсенного документа. */
-export interface TestDocumentMeta {
-	sourceFormat: SourceFormat;
-	questionCount: number;
-}
-
 /** Результат успешного парсинга — набор вопросов. */
 export interface TestDocument {
 	questions: Question[];
-	meta?: TestDocumentMeta;
 }

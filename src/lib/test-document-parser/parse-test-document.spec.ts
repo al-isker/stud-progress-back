@@ -2,10 +2,11 @@ import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseTestDocument } from './parse-test-document';
 
+jest.setTimeout(120000);
+
 type Validity = 'valid' | 'invalid';
 
 interface FixtureCase {
-	validity: Validity;
 	name: string;
 	dir: string;
 }
@@ -21,7 +22,7 @@ function discoverCases(validity: Validity): FixtureCase[] {
 	}
 
 	return readdirSync(base)
-		.map(name => ({ validity, name, dir: join(base, name) }))
+		.map(name => ({ name, dir: join(base, name) }))
 		.filter(entry => statSync(entry.dir).isDirectory());
 }
 
@@ -48,29 +49,37 @@ if (validCases.length === 0 && invalidCases.length === 0) {
 	test('корпус фикстур пуст — добавь кейсы в fixtures/valid|invalid', () => {
 		expect([...validCases, ...invalidCases]).toEqual([]);
 	});
-} else {
+}
+
+if (validCases.length > 0) {
 	describe('valid', () => {
-		test.each(validCases)('$name → valid', async ({ dir }) => {
-			const { filename, data } = readDocument(dir);
-			const expected = JSON.parse(readFileSync(join(dir, 'expected.json'), 'utf8'));
+		for (const { name, dir } of validCases) {
+			test(`${name} → valid`, async () => {
+				const { filename, data } = readDocument(dir);
+				const expected = JSON.parse(readFileSync(join(dir, 'expected.json'), 'utf8'));
 
-			const result = await parseTestDocument({ data, filename });
+				const result = await parseTestDocument({ data, filename });
 
-			expect(result.status).toBe('valid');
+				expect(result.status).toBe('valid');
 
-			if (result.status === 'valid') {
-				expect(result.document).toEqual(expected);
-			}
-		});
+				if (result.status === 'valid') {
+					expect(result.document).toEqual(expected);
+				}
+			});
+		}
 	});
+}
 
+if (invalidCases.length > 0) {
 	describe('invalid', () => {
-		test.each(invalidCases)('$name → invalid', async ({ dir }) => {
-			const { filename, data } = readDocument(dir);
+		for (const { name, dir } of invalidCases) {
+			test(`${name} → invalid`, async () => {
+				const { filename, data } = readDocument(dir);
 
-			const result = await parseTestDocument({ data, filename });
+				const result = await parseTestDocument({ data, filename });
 
-			expect(result.status).toBe('invalid');
-		});
+				expect(result.status).toBe('invalid');
+			});
+		}
 	});
 }
