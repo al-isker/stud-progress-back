@@ -1,9 +1,9 @@
 import { extractPdfLines } from './extract/extract-pdf';
-import { assembleTestDocument, normalizeText } from './recognize/assemble';
+import { assembleTestDocument } from './recognize/assemble';
 import { resolveAnswerMarker } from './recognize/detect-marker';
-import { RawQuestion, segmentQuestions } from './recognize/segment';
+import { segmentQuestions } from './recognize/segment';
 import { DocLine } from './types/document-model';
-import { InvalidReason, ParseResult, ParseStatus, QuestionRef } from './types/parse-result';
+import { InvalidReason, ParseResult, ParseStatus } from './types/parse-result';
 
 /** Вход парсера: сырые байты документа и необязательные подсказки формата. */
 export interface ParseInput {
@@ -16,18 +16,14 @@ export interface ParseInput {
 
 const invalid = (reason: InvalidReason): ParseResult => ({ status: ParseStatus.INVALID, reason });
 
-/** Собирает ссылки на вопросы по их индексам в разобранном документе. */
-function refs(raw: RawQuestion[], indices: number[]): QuestionRef[] {
-	return indices.map(i => ({ index: i + 1, text: normalizeText(raw[i].texts) }));
-}
-
 /**
  * Публичная точка входа модуля.
  *
  * Конвейер: извлечение строк с визуальными атрибутами → сегментация на вопросы
- * и варианты → поиск признака, выделяющего правильные ответы, → строгая сборка.
- * Документ валиден, даже если у части вопросов ответ не размечен (они попадают
- * в `unansweredQuestions`); невалиден — при проблемах уровня документа.
+ * и варианты → поиск признака, выделяющего правильные ответы, → сборка.
+ * Документ валиден, даже если у части вопросов мало вариантов, указатель ответа
+ * не найден или противоречив (такие вопросы попадают в `invalidQuestions`).
+ * Невалиден — только при проблемах уровня документа.
  */
 export async function parseTestDocument(input: ParseInput): Promise<ParseResult> {
 	const claimsPdf = /\.pdf$/i.test(input.filename ?? '') || /pdf/i.test(input.mime ?? '');
@@ -48,25 +44,19 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 	const raw = segmentQuestions(lines);
 	if (!raw) return invalid(InvalidReason.NO_QUESTIONS_FOUND);
 
-	const withoutOptions = raw.map((q, i) => (q.options.length < 2 ? i : -1)).filter(i => i >= 0);
-	if (withoutOptions.length > 0) {
-		return {
-			status: ParseStatus.INVALID,
-			reason: InvalidReason.QUESTION_WITHOUT_OPTIONS,
-			invalidQuestions: refs(raw, withoutOptions)
-		};
-	}
+	// Указатель ответа ищем только среди вопросов с двумя и более вариантами.
+	const answerableIndices: number[] = [];
+	raw.forEach((q, i) => {
+		if (q.options.length >= 2) answerableIndices.push(i);
+	});
 
-	const marker = resolveAnswerMarker(raw);
-	if ('reason' in marker) {
-		return marker.questions.length > 0
-			? {
-					status: ParseStatus.INVALID,
-					reason: marker.reason,
-					invalidQuestions: refs(raw, marker.questions)
-				}
-			: invalid(marker.reason);
-	}
+	const { marked, ambiguous } = resolveAnswerMarker(answerableIndices.map(i => raw[i]));
 
-	return assembleTestDocument(raw, marker.marked);
+	const marks: (boolean[] | undefined)[] = raw.map(() => undefined);
+	answerableIndices.forEach((globalIndex, localIndex) => {
+		marks[globalIndex] = marked[localIndex];
+	});
+	const ambiguousGlobal = new Set(ambiguous.map(localIndex => answerableIndices[localIndex]));
+
+	return assembleTestDocument(raw, marks, ambiguousGlobal);
 }

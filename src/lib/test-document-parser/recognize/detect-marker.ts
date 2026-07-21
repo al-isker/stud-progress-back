@@ -1,12 +1,16 @@
-import { InvalidReason } from '../types/parse-result';
 import { RawOption, RawQuestion } from './segment';
 
-export type MarkerResult =
-	| { marked: boolean[][] }
-	| {
-			reason: InvalidReason.NO_ANSWER_MARKER | InvalidReason.AMBIGUOUS_ANSWER_MARKER;
-			questions: number[];
-	  };
+/**
+ * Итог поиска указателя ответа. `marked` — разметка правильных вариантов по
+ * вопросам (пустая строка = ответ не найден). `ambiguous` — номера вопросов
+ * (в пределах переданного списка), где конкурирующие признаки разошлись и
+ * уверенно выбрать ответ нельзя. Провала уровня документа больше нет: если
+ * указателя нет вовсе, все вопросы просто остаются без пометок.
+ */
+export interface MarkerResult {
+	marked: boolean[][];
+	ambiguous: number[];
+}
 
 /** Агрегированные визуальные свойства варианта (по всем его строкам). */
 interface OptionStyle {
@@ -134,9 +138,12 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	for (const color of colors)
 		candidates.push(toCandidate(markByPredicate(styles, s => s.color === color)));
 
+	const unmarked = () => styles.map(qs => qs.map(() => false));
+
 	const usable = candidates.filter(c => !c.marksAll && c.answered >= 1);
 	if (usable.length === 0) {
-		return { reason: InvalidReason.NO_ANSWER_MARKER, questions: [] };
+		// Указателя ответа в документе нет — все вопросы остаются без пометок.
+		return { marked: unmarked(), ambiguous: [] };
 	}
 
 	// Настоящий маркер объясняет больше всего вопросов; шумовые признаки,
@@ -157,23 +164,30 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 		}
 	}
 	if (groups.size === 1) {
-		return { marked: [...groups.values()][0].sets };
+		return { marked: [...groups.values()][0].sets, ambiguous: [] };
 	}
 	if (groups.size === 2) {
 		const [a, b] = [...groups.values()];
 		const complementary = a.sets.every((set, qi) => set.every((m, oi) => m !== b.sets[qi][oi]));
 		if (complementary && a.total !== b.total) {
-			return { marked: (a.total < b.total ? a : b).sets };
+			return { marked: (a.total < b.total ? a : b).sets, ambiguous: [] };
 		}
 	}
 
-	// Признаки расходятся — виновники это вопросы, где разметка неодинакова.
+	// Признаки расходятся: там, где все группы согласны, берём их разметку;
+	// где расходятся — вопрос считаем неоднозначным и оставляем без пометок.
 	const variants = [...groups.values()].map(g => g.sets);
-	const questionsOut: number[] = [];
+	const marked: boolean[][] = [];
+	const ambiguous: number[] = [];
 	for (let qi = 0; qi < styles.length; qi++) {
 		const distinct = new Set(variants.map(v => questionSignature(v[qi])));
-		if (distinct.size > 1) questionsOut.push(qi);
+		if (distinct.size === 1) {
+			marked.push(variants[0][qi]);
+		} else {
+			marked.push(styles[qi].map(() => false));
+			ambiguous.push(qi);
+		}
 	}
 
-	return { reason: InvalidReason.AMBIGUOUS_ANSWER_MARKER, questions: questionsOut };
+	return { marked, ambiguous };
 }

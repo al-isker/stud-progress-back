@@ -1,8 +1,12 @@
-import { InvalidReason, ParseResult, ParseStatus, QuestionRef } from '../types/parse-result';
+import {
+	InvalidQuestions,
+	InvalidReason,
+	ParseResult,
+	ParseStatus,
+	QuestionRef
+} from '../types/parse-result';
 import { Question } from '../types/test-document';
 import { RawQuestion } from './segment';
-
-export { normalize as normalizeText };
 
 /**
  * Склеивает строки варианта/вопроса. На переносе (строка кончается дефисом)
@@ -32,40 +36,62 @@ function normalize(parts: string[]): string {
 }
 
 /**
- * Строгая сборка результата. Пустые тексты делают документ невалидным. Вопрос,
- * у которого не отмечен ни один правильный вариант, остаётся в документе, но
- * попадает в `unansweredQuestions` — документ из-за него невалидным не станет.
+ * Собирает результат. Пустой текст вопроса или варианта — единственная частная
+ * проблема, при которой документ невалиден (извлечь вопрос вообще не удалось).
+ * Остальные проблемные вопросы уходят в соответствующий перечень
+ * `invalidQuestions` и в `document.questions` не включаются; документ при этом
+ * остаётся валидным.
+ *
+ * @param marks  разметка правильных вариантов по вопросам; `undefined` — вопрос
+ *   не участвовал в поиске указателя (у него меньше двух вариантов).
+ * @param ambiguous  индексы вопросов (в `raw`) с противоречивым указателем.
  */
-export function assembleTestDocument(raw: RawQuestion[], marked: boolean[][]): ParseResult {
+export function assembleTestDocument(
+	raw: RawQuestion[],
+	marks: (boolean[] | undefined)[],
+	ambiguous: Set<number>
+): ParseResult {
 	const questions: Question[] = [];
-	const unansweredQuestions: QuestionRef[] = [];
+	const invalidQuestions: InvalidQuestions = {
+		withoutOptions: [],
+		ambiguousAnswerMarker: [],
+		noAnswerMarker: []
+	};
 
 	for (let qi = 0; qi < raw.length; qi++) {
 		const text = normalize(raw[qi].texts);
 		if (!text) {
-			return {
-				status: ParseStatus.INVALID,
-				reason: InvalidReason.EMPTY_QUESTION_TEXT,
-				invalidQuestions: [{ index: qi + 1, text }]
-			};
+			return { status: ParseStatus.INVALID, reason: InvalidReason.EMPTY_QUESTION_TEXT };
 		}
 
+		const mark = marks[qi];
 		const options = raw[qi].options.map((option, oi) => ({
 			index: oi + 1,
 			text: normalize(option.texts),
-			isCorrect: marked[qi][oi]
+			isCorrect: mark ? mark[oi] : false
 		}));
 		if (options.some(o => !o.text)) {
-			return {
-				status: ParseStatus.INVALID,
-				reason: InvalidReason.EMPTY_OPTION_TEXT,
-				invalidQuestions: [{ index: qi + 1, text }]
-			};
+			return { status: ParseStatus.INVALID, reason: InvalidReason.EMPTY_OPTION_TEXT };
+		}
+
+		// Проблемные вопросы уходят в соответствующий перечень и в основной массив
+		// document.questions НЕ попадают. index сохраняет позицию в исходном
+		// документе, поэтому в document.questions возможны пропуски номеров.
+		const ref: QuestionRef = { index: qi + 1, text };
+		if (options.length < 2) {
+			invalidQuestions.withoutOptions.push(ref);
+			continue;
+		}
+		if (ambiguous.has(qi)) {
+			invalidQuestions.ambiguousAnswerMarker.push(ref);
+			continue;
+		}
+		if (!options.some(o => o.isCorrect)) {
+			invalidQuestions.noAnswerMarker.push(ref);
+			continue;
 		}
 
 		const correctCount = options.filter(o => o.isCorrect).length;
-		if (correctCount === 0) unansweredQuestions.push({ index: qi + 1, text });
-
 		questions.push({
 			index: qi + 1,
 			text,
@@ -74,5 +100,5 @@ export function assembleTestDocument(raw: RawQuestion[], marked: boolean[][]): P
 		});
 	}
 
-	return { status: ParseStatus.VALID, document: { questions }, unansweredQuestions };
+	return { status: ParseStatus.VALID, document: { questions }, invalidQuestions };
 }
