@@ -80,45 +80,61 @@ function markByRelativeScore(
 }
 
 /**
- * Кандидат-признак: его разметка, число размеченных вопросов и флаг «в каком-то
- * вопросе помечены сразу все варианты» — такой признак не различает ответы и
- * потому не годится в маркеры.
+ * Кандидат-признак: его разметка и метрики отбора. Оценка ПО-ВОПРОСНАЯ: вопрос,
+ * где признак пометил ноль или сразу все варианты, он не различает — такой
+ * вопрос просто не в счёт, но сам признак кандидатом остаётся (одна аномалия не
+ * должна выбивать маркер на всех остальных вопросах).
  */
 interface Candidate {
 	sets: boolean[][];
-	answered: number;
-	marksAll: boolean;
+	/** Число вопросов, где признак различает ответ (помечено 1..n-1 вариантов). */
+	coverage: number;
+	/** Средняя доля помеченных вариантов среди различённых вопросов. */
+	avgFraction: number;
 }
 
 function toCandidate(sets: boolean[][]): Candidate {
-	let answered = 0;
-	let marksAll = false;
+	let coverage = 0;
+	let fractionSum = 0;
 	for (const qs of sets) {
 		const count = qs.filter(Boolean).length;
-		if (count >= qs.length) marksAll = true;
-		else if (count >= 1) answered++;
+		if (count >= 1 && count < qs.length) {
+			coverage++;
+			fractionSum += count / qs.length;
+		}
 	}
 
-	return { sets, answered, marksAll };
+	return { sets, coverage, avgFraction: coverage > 0 ? fractionSum / coverage : 1 };
 }
 
 const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('');
+
+/** Обнуляет разметку вопроса, если признак в нём ничего не различает. */
+function keepDiscriminating(qs: boolean[]): boolean[] {
+	const count = qs.filter(Boolean).length;
+
+	return count >= 1 && count < qs.length ? qs : qs.map(() => false);
+}
 
 /**
  * Ищет единственный признак, выделяющий правильные ответы на фоне остальных:
  * символьный префикс, цветовое выделение, жирность, курсив или цвет текста.
  *
- * Признак-кандидат годится, если ни в одном вопросе не помечает сразу все
- * варианты (иначе он не различает ответы) и размечает хотя бы один вопрос.
- * Отдельные вопросы он вправе оставить без пометки — это вопросы без ответа,
- * документ из-за них невалидным не становится. Из годных берётся тот, что
- * размечает больше всего вопросов; при двух взаимодополняющих признаках
- * (например, «~» у неправильных и «=» у правильных) — признак меньшинства.
- * `no-answer-marker` возвращается, только если ни один признак не разметил
- * ничего во всём документе.
+ * Маркер выделяет МЕНЬШИНСТВО вариантов (правильные), поэтому признаки, которые
+ * в среднем помечают больше половины вариантов (например «~» перед всеми
+ * неправильными), отбрасываются как «дополнение». Среди оставшихся берётся тот,
+ * что различает больше всего вопросов. Отдельные аномальные вопросы (маркер
+ * стоит у всех вариантов или ни у одного) остаются без пометки — на выбор
+ * признака для остальных вопросов они не влияют. Если ни один признак не годится,
+ * все вопросы остаются без пометок.
  */
 export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	const styles = questions.map(q => q.options.map(styleOf));
+	const unmarked = (): MarkerResult => ({
+		marked: styles.map(qs => qs.map(() => false)),
+		ambiguous: []
+	});
+	if (styles.length === 0) return unmarked();
 
 	const tokens = new Set<string>();
 	const colors = new Set<string>();
@@ -138,51 +154,34 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	for (const color of colors)
 		candidates.push(toCandidate(markByPredicate(styles, s => s.color === color)));
 
-	const unmarked = () => styles.map(qs => qs.map(() => false));
+	const usable = candidates.filter(c => c.coverage >= 1 && c.avgFraction <= 0.5);
+	if (usable.length === 0) return unmarked();
 
-	const usable = candidates.filter(c => !c.marksAll && c.answered >= 1);
-	if (usable.length === 0) {
-		// Указателя ответа в документе нет — все вопросы остаются без пометок.
-		return { marked: unmarked(), ambiguous: [] };
-	}
-
-	// Настоящий маркер объясняет больше всего вопросов; шумовые признаки,
+	// Настоящий маркер различает больше всего вопросов; шумовые признаки,
 	// зацепившие один-два варианта, отсеиваются.
-	const maxAnswered = Math.max(...usable.map(c => c.answered));
-	const top = usable.filter(c => c.answered === maxAnswered);
+	const maxCoverage = Math.max(...usable.map(c => c.coverage));
+	const top = usable.filter(c => c.coverage === maxCoverage);
 
 	// Признаки с одинаковой разметкой не конфликтуют — группируем по ней.
 	const signature = (sets: boolean[][]) => sets.map(questionSignature).join(';');
-	const groups = new Map<string, { sets: boolean[][]; total: number }>();
+	const variants: boolean[][][] = [];
+	const seen = new Set<string>();
 	for (const c of top) {
 		const key = signature(c.sets);
-		if (!groups.has(key)) {
-			groups.set(key, {
-				sets: c.sets,
-				total: c.sets.reduce((n, qs) => n + qs.filter(Boolean).length, 0)
-			});
-		}
-	}
-	if (groups.size === 1) {
-		return { marked: [...groups.values()][0].sets, ambiguous: [] };
-	}
-	if (groups.size === 2) {
-		const [a, b] = [...groups.values()];
-		const complementary = a.sets.every((set, qi) => set.every((m, oi) => m !== b.sets[qi][oi]));
-		if (complementary && a.total !== b.total) {
-			return { marked: (a.total < b.total ? a : b).sets, ambiguous: [] };
+		if (!seen.has(key)) {
+			seen.add(key);
+			variants.push(c.sets);
 		}
 	}
 
-	// Признаки расходятся: там, где все группы согласны, берём их разметку;
-	// где расходятся — вопрос считаем неоднозначным и оставляем без пометок.
-	const variants = [...groups.values()].map(g => g.sets);
+	// Где ведущие признаки согласны — берём их разметку; где расходятся — вопрос
+	// неоднозначен. Затем обнуляем вопросы, в которых маркер ничего не различает.
 	const marked: boolean[][] = [];
 	const ambiguous: number[] = [];
 	for (let qi = 0; qi < styles.length; qi++) {
 		const distinct = new Set(variants.map(v => questionSignature(v[qi])));
 		if (distinct.size === 1) {
-			marked.push(variants[0][qi]);
+			marked.push(keepDiscriminating(variants[0][qi]));
 		} else {
 			marked.push(styles[qi].map(() => false));
 			ambiguous.push(qi);
