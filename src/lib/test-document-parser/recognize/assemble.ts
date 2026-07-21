@@ -1,4 +1,4 @@
-import { ParseResult } from '../types/parse-result';
+import { InvalidReason, ParseResult, ParseStatus, QuestionRef } from '../types/parse-result';
 import { Question } from '../types/test-document';
 import { RawQuestion } from './segment';
 
@@ -31,16 +31,22 @@ function normalize(parts: string[]): string {
 	return out.replace(/\s+/g, ' ').trim();
 }
 
-/** Строгая сборка результата: любые пустоты в текстах делают документ невалидным. */
+/**
+ * Строгая сборка результата. Пустые тексты делают документ невалидным. Вопрос,
+ * у которого не отмечен ни один правильный вариант, остаётся в документе, но
+ * попадает в `unansweredQuestions` — документ из-за него невалидным не станет.
+ */
 export function assembleTestDocument(raw: RawQuestion[], marked: boolean[][]): ParseResult {
 	const questions: Question[] = [];
+	const unansweredQuestions: QuestionRef[] = [];
+
 	for (let qi = 0; qi < raw.length; qi++) {
 		const text = normalize(raw[qi].texts);
 		if (!text) {
 			return {
-				status: 'invalid',
-				reason: 'empty-question-text',
-				questions: [{ index: qi + 1, text }]
+				status: ParseStatus.INVALID,
+				reason: InvalidReason.EMPTY_QUESTION_TEXT,
+				invalidQuestions: [{ index: qi + 1, text }]
 			};
 		}
 
@@ -51,20 +57,22 @@ export function assembleTestDocument(raw: RawQuestion[], marked: boolean[][]): P
 		}));
 		if (options.some(o => !o.text)) {
 			return {
-				status: 'invalid',
-				reason: 'empty-option-text',
-				questions: [{ index: qi + 1, text }]
+				status: ParseStatus.INVALID,
+				reason: InvalidReason.EMPTY_OPTION_TEXT,
+				invalidQuestions: [{ index: qi + 1, text }]
 			};
 		}
 
 		const correctCount = options.filter(o => o.isCorrect).length;
+		if (correctCount === 0) unansweredQuestions.push({ index: qi + 1, text });
+
 		questions.push({
 			index: qi + 1,
 			text,
-			type: correctCount === 1 ? 'single' : 'multiple',
+			type: correctCount >= 2 ? 'multiple' : 'single',
 			options
 		});
 	}
 
-	return { status: 'valid', document: { questions } };
+	return { status: ParseStatus.VALID, document: { questions }, unansweredQuestions };
 }

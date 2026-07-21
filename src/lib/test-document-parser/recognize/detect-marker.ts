@@ -1,8 +1,12 @@
+import { InvalidReason } from '../types/parse-result';
 import { RawOption, RawQuestion } from './segment';
 
 export type MarkerResult =
 	| { marked: boolean[][] }
-	| { reason: 'no-answer-marker' | 'ambiguous-answer-marker'; questions: number[] };
+	| {
+			reason: InvalidReason.NO_ANSWER_MARKER | InvalidReason.AMBIGUOUS_ANSWER_MARKER;
+			questions: number[];
+	  };
 
 /** Агрегированные визуальные свойства варианта (по всем его строкам). */
 interface OptionStyle {
@@ -71,33 +75,43 @@ function markByRelativeScore(
 	});
 }
 
-/** Кандидат-признак: его разметка и номера вопросов, где он неселективен. */
+/**
+ * Кандидат-признак: его разметка, число размеченных вопросов и флаг «в каком-то
+ * вопросе помечены сразу все варианты» — такой признак не различает ответы и
+ * потому не годится в маркеры.
+ */
 interface Candidate {
 	sets: boolean[][];
-	badQuestions: number[];
+	answered: number;
+	marksAll: boolean;
 }
 
-/** Вопрос «плохой», если признак не выделил в нём ни одного или сразу все варианты. */
 function toCandidate(sets: boolean[][]): Candidate {
-	const badQuestions: number[] = [];
-	sets.forEach((qs, i) => {
+	let answered = 0;
+	let marksAll = false;
+	for (const qs of sets) {
 		const count = qs.filter(Boolean).length;
-		if (count < 1 || count >= qs.length) badQuestions.push(i);
-	});
+		if (count >= qs.length) marksAll = true;
+		else if (count >= 1) answered++;
+	}
 
-	return { sets, badQuestions };
+	return { sets, answered, marksAll };
 }
 
 const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('');
 
 /**
- * Ищет признак, выделяющий правильные ответы на фоне остальных: символьный
- * префикс, цветовое выделение, жирность, курсив или цвет текста.
+ * Ищет единственный признак, выделяющий правильные ответы на фоне остальных:
+ * символьный префикс, цветовое выделение, жирность, курсив или цвет текста.
  *
- * Признак валиден, если в каждом вопросе он помечает хотя бы один, но не все
- * варианты. При двух взаимодополняющих признаках (например, «~» у неправильных
- * и «=» у правильных) выбирается признак меньшинства — маркер по смыслу
- * выделяет исключение, а не фон.
+ * Признак-кандидат годится, если ни в одном вопросе не помечает сразу все
+ * варианты (иначе он не различает ответы) и размечает хотя бы один вопрос.
+ * Отдельные вопросы он вправе оставить без пометки — это вопросы без ответа,
+ * документ из-за них невалидным не становится. Из годных берётся тот, что
+ * размечает больше всего вопросов; при двух взаимодополняющих признаках
+ * (например, «~» у неправильных и «=» у правильных) — признак меньшинства.
+ * `no-answer-marker` возвращается, только если ни один признак не разметил
+ * ничего во всём документе.
  */
 export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	const styles = questions.map(q => q.options.map(styleOf));
@@ -120,22 +134,20 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	for (const color of colors)
 		candidates.push(toCandidate(markByPredicate(styles, s => s.color === color)));
 
-	const valid = candidates.filter(c => c.badQuestions.length === 0);
-
-	if (valid.length === 0) {
-		// Ни один признак не размечает все вопросы. Виновники — вопросы, где не
-		// сработал ближайший к рабочему признак (с наименьшим числом провалов).
-		const best = candidates.reduce((a, b) =>
-			b.badQuestions.length < a.badQuestions.length ? b : a
-		);
-
-		return { reason: 'no-answer-marker', questions: best.badQuestions };
+	const usable = candidates.filter(c => !c.marksAll && c.answered >= 1);
+	if (usable.length === 0) {
+		return { reason: InvalidReason.NO_ANSWER_MARKER, questions: [] };
 	}
+
+	// Настоящий маркер объясняет больше всего вопросов; шумовые признаки,
+	// зацепившие один-два варианта, отсеиваются.
+	const maxAnswered = Math.max(...usable.map(c => c.answered));
+	const top = usable.filter(c => c.answered === maxAnswered);
 
 	// Признаки с одинаковой разметкой не конфликтуют — группируем по ней.
 	const signature = (sets: boolean[][]) => sets.map(questionSignature).join(';');
 	const groups = new Map<string, { sets: boolean[][]; total: number }>();
-	for (const c of valid) {
+	for (const c of top) {
 		const key = signature(c.sets);
 		if (!groups.has(key)) {
 			groups.set(key, {
@@ -163,5 +175,5 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 		if (distinct.size > 1) questionsOut.push(qi);
 	}
 
-	return { reason: 'ambiguous-answer-marker', questions: questionsOut };
+	return { reason: InvalidReason.AMBIGUOUS_ANSWER_MARKER, questions: questionsOut };
 }

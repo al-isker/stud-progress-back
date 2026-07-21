@@ -3,7 +3,7 @@ import { assembleTestDocument, normalizeText } from './recognize/assemble';
 import { resolveAnswerMarker } from './recognize/detect-marker';
 import { RawQuestion, segmentQuestions } from './recognize/segment';
 import { DocLine } from './types/document-model';
-import { InvalidQuestion, InvalidReason, ParseResult } from './types/parse-result';
+import { InvalidReason, ParseResult, ParseStatus, QuestionRef } from './types/parse-result';
 
 /** Вход парсера: сырые байты документа и необязательные подсказки формата. */
 export interface ParseInput {
@@ -14,10 +14,10 @@ export interface ParseInput {
 	mime?: string;
 }
 
-const invalid = (reason: InvalidReason): ParseResult => ({ status: 'invalid', reason });
+const invalid = (reason: InvalidReason): ParseResult => ({ status: ParseStatus.INVALID, reason });
 
-/** Собирает список вопросов-виновников по их индексам в разобранном документе. */
-function culprits(raw: RawQuestion[], indices: number[]): InvalidQuestion[] {
+/** Собирает ссылки на вопросы по их индексам в разобранном документе. */
+function refs(raw: RawQuestion[], indices: number[]): QuestionRef[] {
 	return indices.map(i => ({ index: i + 1, text: normalizeText(raw[i].texts) }));
 }
 
@@ -26,35 +26,46 @@ function culprits(raw: RawQuestion[], indices: number[]): InvalidQuestion[] {
  *
  * Конвейер: извлечение строк с визуальными атрибутами → сегментация на вопросы
  * и варианты → поиск признака, выделяющего правильные ответы, → строгая сборка.
- * Результат бинарный: документ либо распознан целиком, либо невалиден.
+ * Документ валиден, даже если у части вопросов ответ не размечен (они попадают
+ * в `unansweredQuestions`); невалиден — при проблемах уровня документа.
  */
 export async function parseTestDocument(input: ParseInput): Promise<ParseResult> {
 	const claimsPdf = /\.pdf$/i.test(input.filename ?? '') || /pdf/i.test(input.mime ?? '');
 	const hasPdfMagic = input.data.subarray(0, 1024).includes('%PDF-');
-	if (!hasPdfMagic) return invalid(claimsPdf ? 'unreadable-document' : 'unsupported-format');
+	if (!hasPdfMagic) {
+		return invalid(
+			claimsPdf ? InvalidReason.UNREADABLE_DOCUMENT : InvalidReason.UNSUPPORTED_FORMAT
+		);
+	}
 
 	let lines: DocLine[];
 	try {
 		lines = await extractPdfLines(input.data);
 	} catch {
-		return invalid('unreadable-document');
+		return invalid(InvalidReason.UNREADABLE_DOCUMENT);
 	}
 
 	const raw = segmentQuestions(lines);
-	if (!raw) return invalid('no-questions-found');
+	if (!raw) return invalid(InvalidReason.NO_QUESTIONS_FOUND);
 
 	const withoutOptions = raw.map((q, i) => (q.options.length < 2 ? i : -1)).filter(i => i >= 0);
 	if (withoutOptions.length > 0) {
 		return {
-			status: 'invalid',
-			reason: 'question-without-options',
-			questions: culprits(raw, withoutOptions)
+			status: ParseStatus.INVALID,
+			reason: InvalidReason.QUESTION_WITHOUT_OPTIONS,
+			invalidQuestions: refs(raw, withoutOptions)
 		};
 	}
 
 	const marker = resolveAnswerMarker(raw);
 	if ('reason' in marker) {
-		return { status: 'invalid', reason: marker.reason, questions: culprits(raw, marker.questions) };
+		return marker.questions.length > 0
+			? {
+					status: ParseStatus.INVALID,
+					reason: marker.reason,
+					invalidQuestions: refs(raw, marker.questions)
+				}
+			: invalid(marker.reason);
 	}
 
 	return assembleTestDocument(raw, marker.marked);

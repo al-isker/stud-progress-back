@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseTestDocument } from './parse-test-document';
+import { ParseStatus } from './types/parse-result';
 
 jest.setTimeout(120000);
 
@@ -60,9 +61,9 @@ if (validCases.length > 0) {
 
 				const result = await parseTestDocument({ data, filename });
 
-				expect(result.status).toBe('valid');
+				expect(result.status).toBe(ParseStatus.VALID);
 
-				if (result.status === 'valid') {
+				if (result.status === ParseStatus.VALID) {
 					expect(result.document).toEqual(expected);
 				}
 			});
@@ -78,7 +79,7 @@ if (invalidCases.length > 0) {
 
 				const result = await parseTestDocument({ data, filename });
 
-				expect(result.status).toBe('invalid');
+				expect(result.status).toBe(ParseStatus.INVALID);
 			});
 		}
 	});
