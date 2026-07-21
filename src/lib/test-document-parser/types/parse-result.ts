@@ -14,9 +14,7 @@ export enum ParseStatus {
 export enum InvalidReason {
 	UNSUPPORTED_FORMAT = 'UNSUPPORTED_FORMAT',
 	UNREADABLE_DOCUMENT = 'UNREADABLE_DOCUMENT',
-	NO_QUESTIONS_FOUND = 'NO_QUESTIONS_FOUND',
-	EMPTY_QUESTION_TEXT = 'EMPTY_QUESTION_TEXT',
-	EMPTY_OPTION_TEXT = 'EMPTY_OPTION_TEXT'
+	NO_QUESTIONS_FOUND = 'NO_QUESTIONS_FOUND'
 }
 
 /** Ссылка на вопрос — для перечней проблемных вопросов. */
@@ -31,6 +29,8 @@ export interface QuestionRef {
  * `document.questions` они не входят — только в эти перечни (для логов и UX).
  */
 export interface InvalidQuestions {
+	/** Вопросы с пустым текстом вопроса или пустым текстом варианта. */
+	emptyText: QuestionRef[];
 	/** Вопросы, у которых меньше двух вариантов ответа. */
 	withoutOptions: QuestionRef[];
 	/** Вопросы, где признак-указатель ответа противоречив. */
@@ -47,7 +47,7 @@ export interface InvalidQuestions {
  * ответа). Их наличие документ невалидным не делает.
  *
  * `INVALID` возвращается только при проблемах уровня документа (не PDF, не
- * читается, нет вопросов, пустые тексты вопроса/варианта).
+ * читается, нет вопросов).
  */
 export type ParseResult =
 	| { status: ParseStatus.VALID; document: TestDocument; invalidQuestions: InvalidQuestions }
