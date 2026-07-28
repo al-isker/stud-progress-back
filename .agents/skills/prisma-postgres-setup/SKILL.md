@@ -34,7 +34,7 @@ Do **not** use this skill when:
 
 ## UX Guidelines
 
-When presenting choices to the user (region selection, project deletion, etc.), **use your platform's interactive selection mechanism** (e.g., `ask` tool in Claude Code, structured prompts in other agents). Do not print static tables and ask the user to type a value — present selectable options so the user can pick with minimal effort.
+When presenting choices to the user (region selection, project deletion, etc.), **use your platform's interactive selection mechanism** (e.g., `ask` tool in Codex, structured prompts in other agents). Do not print static tables and ask the user to type a value — present selectable options so the user can pick with minimal effort.
 
 ## Workflow
 
