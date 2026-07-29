@@ -1,16 +1,22 @@
 import { RawOption, RawQuestion } from './segment';
 
 /**
- * Итог поиска указателя ответа. `marked` — разметка правильных вариантов по
- * вопросам (пустая строка = ответ не найден). `ambiguous` — номера вопросов
- * (в пределах переданного списка), где конкурирующие признаки разошлись и
- * уверенно выбрать ответ нельзя. Провала уровня документа больше нет: если
- * указателя нет вовсе, все вопросы просто остаются без пометок.
+ * Итог поиска указателя ответа.
+ *
+ * `confirmed: true` — формат документа подтверждён: один признак размечает не
+ * менее FORMAT_CONFIRMATION_SHARE вопросов. `marked` — разметка правильных
+ * вариантов (в том числе «все варианты верны»; пустая разметка = ответ не
+ * найден), `ambiguous` — номера вопросов, где конкурирующие признаки разошлись.
+ *
+ * `confirmed: false` — единый формат указателя не подтверждён; документ
+ * целиком считается невалидным.
  */
-export interface MarkerResult {
-	marked: boolean[][];
-	ambiguous: number[];
-}
+export type MarkerResult =
+	| { confirmed: true; marked: boolean[][]; ambiguous: number[] }
+	| { confirmed: false };
+
+/** Минимальная доля вопросов, размеченных одним признаком, для подтверждения формата. */
+const FORMAT_CONFIRMATION_SHARE = 0.8;
 
 /** Агрегированные визуальные свойства варианта (по всем его строкам). */
 interface OptionStyle {
@@ -81,60 +87,61 @@ function markByRelativeScore(
 
 /**
  * Кандидат-признак: его разметка и метрики отбора. Оценка ПО-ВОПРОСНАЯ: вопрос,
- * где признак пометил ноль или сразу все варианты, он не различает — такой
- * вопрос просто не в счёт, но сам признак кандидатом остаётся (одна аномалия не
- * должна выбивать маркер на всех остальных вопросах).
+ * где признак пометил ноль или сразу все варианты, он не РАЗЛИЧАЕТ — такой
+ * вопрос не участвует в выборе признака, но сам признак кандидатом остаётся
+ * (одна аномалия не должна выбивать маркер на всех остальных вопросах).
  */
 interface Candidate {
 	sets: boolean[][];
 	/** Число вопросов, где признак различает ответ (помечено 1..n-1 вариантов). */
 	coverage: number;
+	/** Число вопросов, где признак присутствует (помечен хотя бы один вариант). */
+	conforming: number;
 	/** Средняя доля помеченных вариантов среди различённых вопросов. */
 	avgFraction: number;
 }
 
 function toCandidate(sets: boolean[][]): Candidate {
 	let coverage = 0;
+	let conforming = 0;
 	let fractionSum = 0;
 	for (const qs of sets) {
 		const count = qs.filter(Boolean).length;
+		if (count >= 1) conforming++;
 		if (count >= 1 && count < qs.length) {
 			coverage++;
 			fractionSum += count / qs.length;
 		}
 	}
 
-	return { sets, coverage, avgFraction: coverage > 0 ? fractionSum / coverage : 1 };
+	return { sets, coverage, conforming, avgFraction: coverage > 0 ? fractionSum / coverage : 1 };
 }
 
 const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('');
 
-/** Обнуляет разметку вопроса, если признак в нём ничего не различает. */
-function keepDiscriminating(qs: boolean[]): boolean[] {
-	const count = qs.filter(Boolean).length;
-
-	return count >= 1 && count < qs.length ? qs : qs.map(() => false);
-}
-
 /**
  * Ищет единственный признак, выделяющий правильные ответы на фоне остальных:
  * символьный префикс, цветовое выделение, жирность, курсив или цвет текста.
+ * Формат один на весь документ, поэтому сначала признак ПОДТВЕРЖДАЕТСЯ на всём
+ * файле, а уже потом применяется к каждому вопросу.
  *
- * Маркер выделяет МЕНЬШИНСТВО вариантов (правильные), поэтому признаки, которые
- * в среднем помечают больше половины вариантов (например «~» перед всеми
- * неправильными), отбрасываются как «дополнение». Среди оставшихся берётся тот,
- * что различает больше всего вопросов. Отдельные аномальные вопросы (маркер
- * стоит у всех вариантов или ни у одного) остаются без пометки — на выбор
- * признака для остальных вопросов они не влияют. Если ни один признак не годится,
- * все вопросы остаются без пометок.
+ * Отбор: маркер выделяет меньшинство вариантов, поэтому признаки, в среднем
+ * помечающие больше половины (например «~» перед всеми неправильными),
+ * отбрасываются как «дополнение»; из остальных побеждает различающий больше
+ * всего вопросов. Токен-маркер сопоставляется по началу префикса — повреждённый
+ * глифами токен («=<» при маркере «=») всё равно засчитывается.
+ *
+ * Подтверждение: победитель должен присутствовать не менее чем в
+ * FORMAT_CONFIRMATION_SHARE вопросов, иначе формат не подтверждён и документ
+ * невалиден.
+ *
+ * Применение подтверждённого маркера вопросу доверяет:
+ * помечены все варианты — значит, все и верны; не помечен ни один — у вопроса
+ * нет ответа (уйдёт в noAnswerMarker).
  */
 export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	const styles = questions.map(q => q.options.map(styleOf));
-	const unmarked = (): MarkerResult => ({
-		marked: styles.map(qs => qs.map(() => false)),
-		ambiguous: []
-	});
-	if (styles.length === 0) return unmarked();
+	if (styles.length === 0) return { confirmed: false };
 
 	const tokens = new Set<string>();
 	const colors = new Set<string>();
@@ -147,7 +154,9 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 
 	const candidates: Candidate[] = [];
 	for (const token of tokens)
-		candidates.push(toCandidate(markByPredicate(styles, s => s.token === token)));
+		candidates.push(
+			toCandidate(markByPredicate(styles, s => s.token !== null && s.token.startsWith(token)))
+		);
 	candidates.push(toCandidate(markByRelativeScore(styles, s => s.highlight, 0.08)));
 	candidates.push(toCandidate(markByPredicate(styles, s => s.bold >= 0.55)));
 	candidates.push(toCandidate(markByPredicate(styles, s => s.italic >= 0.55)));
@@ -155,12 +164,16 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 		candidates.push(toCandidate(markByPredicate(styles, s => s.color === color)));
 
 	const usable = candidates.filter(c => c.coverage >= 1 && c.avgFraction <= 0.5);
-	if (usable.length === 0) return unmarked();
+	if (usable.length === 0) return { confirmed: false };
 
 	// Настоящий маркер различает больше всего вопросов; шумовые признаки,
 	// зацепившие один-два варианта, отсеиваются.
 	const maxCoverage = Math.max(...usable.map(c => c.coverage));
 	const top = usable.filter(c => c.coverage === maxCoverage);
+
+	// Формат подтверждён, только если победитель присутствует в нужной доле вопросов.
+	const bestConforming = Math.max(...top.map(c => c.conforming));
+	if (bestConforming < styles.length * FORMAT_CONFIRMATION_SHARE) return { confirmed: false };
 
 	// Признаки с одинаковой разметкой не конфликтуют — группируем по ней.
 	const signature = (sets: boolean[][]) => sets.map(questionSignature).join(';');
@@ -174,19 +187,19 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 		}
 	}
 
-	// Где ведущие признаки согласны — берём их разметку; где расходятся — вопрос
-	// неоднозначен. Затем обнуляем вопросы, в которых маркер ничего не различает.
+	// Где ведущие признаки согласны — берём их разметку как есть (включая «все
+	// верны»); где расходятся — вопрос неоднозначен и остаётся без пометок.
 	const marked: boolean[][] = [];
 	const ambiguous: number[] = [];
 	for (let qi = 0; qi < styles.length; qi++) {
 		const distinct = new Set(variants.map(v => questionSignature(v[qi])));
 		if (distinct.size === 1) {
-			marked.push(keepDiscriminating(variants[0][qi]));
+			marked.push(variants[0][qi]);
 		} else {
 			marked.push(styles[qi].map(() => false));
 			ambiguous.push(qi);
 		}
 	}
 
-	return { marked, ambiguous };
+	return { confirmed: true, marked, ambiguous };
 }

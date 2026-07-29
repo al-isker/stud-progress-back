@@ -14,7 +14,12 @@ export enum ParseStatus {
 export enum InvalidReason {
 	UNSUPPORTED_FORMAT = 'UNSUPPORTED_FORMAT',
 	UNREADABLE_DOCUMENT = 'UNREADABLE_DOCUMENT',
-	NO_QUESTIONS_FOUND = 'NO_QUESTIONS_FOUND'
+	NO_QUESTIONS_FOUND = 'NO_QUESTIONS_FOUND',
+	/**
+	 * Формат указателя правильного ответа не подтверждён: ни один признак не
+	 * размечает нужную долю вопросов документа (см. FORMAT_CONFIRMATION_SHARE).
+	 */
+	ANSWER_MARKER_NOT_CONFIRMED = 'ANSWER_MARKER_NOT_CONFIRMED'
 }
 
 /** Ссылка на вопрос — для перечней проблемных вопросов. */
@@ -47,7 +52,7 @@ export interface InvalidQuestions {
  * ответа). Их наличие документ невалидным не делает.
  *
  * `INVALID` возвращается только при проблемах уровня документа (не PDF, не
- * читается, нет вопросов).
+ * читается, нет вопросов, формат указателя ответа не подтверждён).
  */
 export type ParseResult =
 	| { status: ParseStatus.VALID; document: TestDocument; invalidQuestions: InvalidQuestions }

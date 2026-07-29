@@ -50,13 +50,16 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 		if (q.options.length >= 2) answerableIndices.push(i);
 	});
 
-	const { marked, ambiguous } = resolveAnswerMarker(answerableIndices.map(i => raw[i]));
+	const marker = resolveAnswerMarker(answerableIndices.map(i => raw[i]));
+	if (!marker.confirmed) return invalid(InvalidReason.ANSWER_MARKER_NOT_CONFIRMED);
 
 	const marks: (boolean[] | undefined)[] = raw.map(() => undefined);
 	answerableIndices.forEach((globalIndex, localIndex) => {
-		marks[globalIndex] = marked[localIndex];
+		marks[globalIndex] = marker.marked[localIndex];
 	});
-	const ambiguousGlobal = new Set(ambiguous.map(localIndex => answerableIndices[localIndex]));
+	const ambiguousGlobal = new Set(
+		marker.ambiguous.map(localIndex => answerableIndices[localIndex])
+	);
 
 	return assembleTestDocument(raw, marks, ambiguousGlobal);
 }
