@@ -37,26 +37,26 @@
 		},
 		{
 			"index": 4,
-			"text": "Какие мышцы имеются в барабанной полости:",
+			"text": "Для триады аллергического ринита характерно:",
 			"type": "multiple",
 			"options": [
-				{ "index": 1, "text": "стременная мышца", "isCorrect": true },
-				{ "index": 2, "text": "мышца, натягивающая барабанную перепонку", "isCorrect": true },
-				{ "index": 3, "text": "отводящая мышца", "isCorrect": false },
-				{ "index": 4, "text": "приводящая мышца", "isCorrect": false },
-				{ "index": 5, "text": "двубрюшная мышца", "isCorrect": false }
+				{ "index": 1, "text": "затруднение носового дыхания", "isCorrect": true },
+				{ "index": 2, "text": "жидкие выделения из носа", "isCorrect": true },
+				{ "index": 3, "text": "пароксизмальное чихание", "isCorrect": true },
+				{ "index": 4, "text": "нистагм", "isCorrect": false },
+				{ "index": 5, "text": "сукровичные выделения", "isCorrect": false }
 			]
 		},
 		{
 			"index": 5,
-			"text": "Какие косточки имеются в барабанной полости:",
+			"text": "Аллергический ринит сочетается с:",
 			"type": "multiple",
 			"options": [
-				{ "index": 1, "text": "молоточек", "isCorrect": true },
-				{ "index": 2, "text": "наковальня", "isCorrect": true },
-				{ "index": 3, "text": "стремечко", "isCorrect": true },
-				{ "index": 4, "text": "ладья", "isCorrect": false },
-				{ "index": 5, "text": "козелок", "isCorrect": false }
+				{ "index": 1, "text": "секреторной эозинофилией", "isCorrect": false },
+				{ "index": 2, "text": "атопическим дерматитом", "isCorrect": true },
+				{ "index": 3, "text": "бронхиальной астмой", "isCorrect": true },
+				{ "index": 4, "text": "гипокальциемией", "isCorrect": false },
+				{ "index": 5, "text": "шизофренией", "isCorrect": false }
 			]
 		}
 	]
