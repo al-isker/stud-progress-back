@@ -8,8 +8,8 @@ import { RawOption, RawQuestion } from './segment';
  * вариантов (в том числе «все варианты верны»; пустая разметка = ответ не
  * найден), `ambiguous` — номера вопросов, где конкурирующие признаки разошлись.
  *
- * `confirmed: false` — единый формат указателя не подтверждён; документ
- * целиком считается невалидным.
+ * `confirmed: false` — единый формат указателя не подтверждён; парсер отклоняет
+ * документ целиком.
  */
 export type MarkerResult =
 	| { confirmed: true; marked: boolean[][]; ambiguous: number[] }
@@ -132,12 +132,12 @@ const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('
  * глифами токен («=<» при маркере «=») всё равно засчитывается.
  *
  * Подтверждение: победитель должен присутствовать не менее чем в
- * FORMAT_CONFIRMATION_SHARE вопросов, иначе формат не подтверждён и документ
- * невалиден.
+ * FORMAT_CONFIRMATION_SHARE вопросов, иначе формат не подтверждён и парсер
+ * отклоняет документ.
  *
  * Применение подтверждённого маркера вопросу доверяет:
- * помечены все варианты — значит, все и верны; не помечен ни один — у вопроса
- * нет ответа (уйдёт в noAnswerMarker).
+ * помечены все варианты — значит, все и верны; не помечен ни один — вопрос
+ * будет отклонён с причиной `NO_ANSWER_MARKER`.
  */
 export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	const styles = questions.map(q => q.options.map(styleOf));

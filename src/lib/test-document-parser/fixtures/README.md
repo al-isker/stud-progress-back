@@ -48,5 +48,7 @@
 
 ## Что проверяют тесты
 
-- `valid/`-кейсы → `status: "valid"` и `document` точно равен `expected.json`.
-- `invalid/`-кейсы → `status: "invalid"`.
+- `valid/`-кейсы → `status: "ACCEPTED"`, `document` точно равен `expected.json`,
+  а `issues.rejectedQuestions` содержит массив отклонённых вопросов с причиной
+  отклонения каждого вопроса.
+- `invalid/`-кейсы → `status: "REJECTED"`.

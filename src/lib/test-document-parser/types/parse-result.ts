@@ -2,58 +2,62 @@ import { TestDocument } from './test-document';
 
 /** Статус разбора документа. */
 export enum ParseStatus {
-	VALID = 'VALID',
-	INVALID = 'INVALID'
+	ACCEPTED = 'ACCEPTED',
+	REJECTED = 'REJECTED'
 }
 
 /**
- * Причина, по которой документ признан невалидным. Только проблемы уровня
- * документа: его нельзя прочитать или разобрать как набор вопросов. Проблемы
- * отдельных вопросов документ невалидным не делают — см. {@link InvalidQuestions}.
+ * Причина, по которой парсер отклонил документ. Только проблемы уровня
+ * документа: его нельзя прочитать или разобрать как набор вопросов. Отклонение
+ * отдельных вопросов не приводит к отклонению документа — см. {@link RejectedQuestion}.
  */
-export enum InvalidReason {
+export enum ParseRejectionReason {
 	UNSUPPORTED_FORMAT = 'UNSUPPORTED_FORMAT',
 	UNREADABLE_DOCUMENT = 'UNREADABLE_DOCUMENT',
-	NO_QUESTIONS_FOUND = 'NO_QUESTIONS_FOUND',
+	QUESTION_STRUCTURE_NOT_RECOGNIZED = 'QUESTION_STRUCTURE_NOT_RECOGNIZED',
 	/**
 	 * Формат указателя правильного ответа не подтверждён: ни один признак не
 	 * размечает нужную долю вопросов документа (см. FORMAT_CONFIRMATION_SHARE).
 	 */
-	ANSWER_MARKER_NOT_CONFIRMED = 'ANSWER_MARKER_NOT_CONFIRMED'
+	ANSWER_MARKER_NOT_RECOGNIZED = 'ANSWER_MARKER_NOT_RECOGNIZED'
 }
 
-/** Ссылка на вопрос — для перечней проблемных вопросов. */
-export interface QuestionRef {
+/** Причина, по которой вопрос не включён в разобранный документ. */
+export enum QuestionRejectionReason {
+	EMPTY_TEXT = 'EMPTY_TEXT',
+	INSUFFICIENT_OPTIONS = 'INSUFFICIENT_OPTIONS',
+	AMBIGUOUS_ANSWER_MARKER = 'AMBIGUOUS_ANSWER_MARKER',
+	NO_ANSWER_MARKER = 'NO_ANSWER_MARKER'
+}
+
+/**
+ * Вопрос, который парсер не включил в основной массив `document.questions`.
+ * Исходный вопрос не обязательно некорректен: причиной может быть ограничение
+ * или ошибка распознавания.
+ */
+export interface RejectedQuestion {
 	/** Порядковый номер вопроса в документе, начиная с 1. */
 	index: number;
 	text: string;
+	reason: QuestionRejectionReason;
+}
+
+/** Некритичные проблемы принятого документа. */
+export interface ParseIssues {
+	rejectedQuestions: RejectedQuestion[];
 }
 
 /**
- * Вопросы с проблемами, которые НЕ делают документ невалидным. В основной массив
- * `document.questions` они не входят — только в эти перечни (для логов и UX).
- */
-export interface InvalidQuestions {
-	/** Вопросы с пустым текстом вопроса или пустым текстом варианта. */
-	emptyText: QuestionRef[];
-	/** Вопросы, у которых меньше двух вариантов ответа. */
-	withoutOptions: QuestionRef[];
-	/** Вопросы, где признак-указатель ответа противоречив. */
-	ambiguousAnswerMarker: QuestionRef[];
-	/** Вопросы, где указатель правильного ответа не найден. */
-	noAnswerMarker: QuestionRef[];
-}
-
-/**
- * Итог парсинга — два статуса.
+ * Итог парсинга — документ либо принят, либо отклонён.
  *
- * `VALID` содержит разобранный документ и `invalidQuestions` — вопросы с
- * частными проблемами (мало вариантов, противоречивый или ненайденный указатель
- * ответа). Их наличие документ невалидным не делает.
+ * `ACCEPTED` содержит разобранный документ и `issues.rejectedQuestions` — вопросы,
+ * которые парсер не смог надёжно включить в документ. Их наличие не приводит к
+ * отклонению документа целиком.
  *
- * `INVALID` возвращается только при проблемах уровня документа (не PDF, не
- * читается, нет вопросов, формат указателя ответа не подтверждён).
+ * `REJECTED` возвращается только при проблемах уровня документа: формат не
+ * поддерживается, документ не читается, вопросы не найдены или формат указателя
+ * ответа не подтверждён.
  */
 export type ParseResult =
-	| { status: ParseStatus.VALID; document: TestDocument; invalidQuestions: InvalidQuestions }
-	| { status: ParseStatus.INVALID; reason: InvalidReason };
+	| { status: ParseStatus.ACCEPTED; document: TestDocument; issues: ParseIssues }
+	| { status: ParseStatus.REJECTED; reason: ParseRejectionReason };

@@ -3,7 +3,7 @@ import { assembleTestDocument } from './recognize/assemble';
 import { resolveAnswerMarker } from './recognize/detect-marker';
 import { segmentQuestions } from './recognize/segment';
 import { DocLine } from './types/document-model';
-import { InvalidReason, ParseResult, ParseStatus } from './types/parse-result';
+import { ParseRejectionReason, ParseResult, ParseStatus } from './types/parse-result';
 
 /** Вход парсера: сырые байты документа и необязательные подсказки формата. */
 export interface ParseInput {
@@ -14,23 +14,27 @@ export interface ParseInput {
 	mime?: string;
 }
 
-const invalid = (reason: InvalidReason): ParseResult => ({ status: ParseStatus.INVALID, reason });
+const reject = (reason: ParseRejectionReason): ParseResult => ({
+	status: ParseStatus.REJECTED,
+	reason
+});
 
 /**
  * Публичная точка входа модуля.
  *
  * Конвейер: извлечение строк с визуальными атрибутами → сегментация на вопросы
  * и варианты → поиск признака, выделяющего правильные ответы, → сборка.
- * Документ валиден, даже если у части вопросов мало вариантов, указатель ответа
- * не найден или противоречив (такие вопросы попадают в `invalidQuestions`).
- * Невалиден — только при проблемах уровня документа.
+ * Документ принимается, даже если у части вопросов мало вариантов, указатель
+ * ответа не найден или противоречив (такие вопросы попадают в
+ * `issues.rejectedQuestions`). Документ отклоняется только при проблемах уровня
+ * документа.
  */
 export async function parseTestDocument(input: ParseInput): Promise<ParseResult> {
 	const claimsPdf = /\.pdf$/i.test(input.filename ?? '') || /pdf/i.test(input.mime ?? '');
 	const hasPdfMagic = input.data.subarray(0, 1024).includes('%PDF-');
 	if (!hasPdfMagic) {
-		return invalid(
-			claimsPdf ? InvalidReason.UNREADABLE_DOCUMENT : InvalidReason.UNSUPPORTED_FORMAT
+		return reject(
+			claimsPdf ? ParseRejectionReason.UNREADABLE_DOCUMENT : ParseRejectionReason.UNSUPPORTED_FORMAT
 		);
 	}
 
@@ -38,11 +42,11 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 	try {
 		lines = await extractPdfLines(input.data);
 	} catch {
-		return invalid(InvalidReason.UNREADABLE_DOCUMENT);
+		return reject(ParseRejectionReason.UNREADABLE_DOCUMENT);
 	}
 
 	const raw = segmentQuestions(lines);
-	if (!raw) return invalid(InvalidReason.NO_QUESTIONS_FOUND);
+	if (!raw) return reject(ParseRejectionReason.QUESTION_STRUCTURE_NOT_RECOGNIZED);
 
 	// Указатель ответа ищем только среди вопросов с двумя и более вариантами.
 	const answerableIndices: number[] = [];
@@ -51,7 +55,9 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 	});
 
 	const marker = resolveAnswerMarker(answerableIndices.map(i => raw[i]));
-	if (!marker.confirmed) return invalid(InvalidReason.ANSWER_MARKER_NOT_CONFIRMED);
+	if (!marker.confirmed) {
+		return reject(ParseRejectionReason.ANSWER_MARKER_NOT_RECOGNIZED);
+	}
 
 	const marks: (boolean[] | undefined)[] = raw.map(() => undefined);
 	answerableIndices.forEach((globalIndex, localIndex) => {

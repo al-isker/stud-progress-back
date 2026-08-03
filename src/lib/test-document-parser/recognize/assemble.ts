@@ -1,4 +1,9 @@
-import { InvalidQuestions, ParseResult, ParseStatus, QuestionRef } from '../types/parse-result';
+import {
+	ParseResult,
+	ParseStatus,
+	QuestionRejectionReason,
+	RejectedQuestion
+} from '../types/parse-result';
 import { Question } from '../types/test-document';
 import { RawQuestion } from './segment';
 
@@ -30,9 +35,9 @@ function normalize(parts: string[]): string {
 }
 
 /**
- * Собирает результат. Документ всегда валиден: проблемные вопросы (пустой текст,
- * мало вариантов, противоречивый или ненайденный указатель) уходят в
- * соответствующий перечень `invalidQuestions` и в `document.questions` НЕ
+ * Собирает принятый документ: вопросы с пустым текстом, малым количеством
+ * вариантов, противоречивым или ненайденным указателем уходят в
+ * массив `issues.rejectedQuestions` и в `document.questions` НЕ
  * включаются. Мы ничего не «нормализуем» — как извлечено, так и раскладываем.
  * index сохраняет позицию в исходном документе, поэтому в `document.questions`
  * возможны пропуски номеров.
@@ -47,12 +52,7 @@ export function assembleTestDocument(
 	ambiguous: Set<number>
 ): ParseResult {
 	const questions: Question[] = [];
-	const invalidQuestions: InvalidQuestions = {
-		emptyText: [],
-		withoutOptions: [],
-		ambiguousAnswerMarker: [],
-		noAnswerMarker: []
-	};
+	const rejectedQuestions: RejectedQuestion[] = [];
 
 	for (let qi = 0; qi < raw.length; qi++) {
 		const text = normalize(raw[qi].texts);
@@ -63,21 +63,24 @@ export function assembleTestDocument(
 			isCorrect: mark ? mark[oi] : false
 		}));
 
-		const ref: QuestionRef = { index: qi + 1, text };
+		const rejectQuestion = (reason: QuestionRejectionReason) => {
+			rejectedQuestions.push({ index: qi + 1, text, reason });
+		};
+
 		if (!text || options.some(o => !o.text)) {
-			invalidQuestions.emptyText.push(ref);
+			rejectQuestion(QuestionRejectionReason.EMPTY_TEXT);
 			continue;
 		}
 		if (options.length < 2) {
-			invalidQuestions.withoutOptions.push(ref);
+			rejectQuestion(QuestionRejectionReason.INSUFFICIENT_OPTIONS);
 			continue;
 		}
 		if (ambiguous.has(qi)) {
-			invalidQuestions.ambiguousAnswerMarker.push(ref);
+			rejectQuestion(QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER);
 			continue;
 		}
 		if (!options.some(o => o.isCorrect)) {
-			invalidQuestions.noAnswerMarker.push(ref);
+			rejectQuestion(QuestionRejectionReason.NO_ANSWER_MARKER);
 			continue;
 		}
 
@@ -90,5 +93,9 @@ export function assembleTestDocument(
 		});
 	}
 
-	return { status: ParseStatus.VALID, document: { questions }, invalidQuestions };
+	return {
+		status: ParseStatus.ACCEPTED,
+		document: { questions },
+		issues: { rejectedQuestions }
+	};
 }

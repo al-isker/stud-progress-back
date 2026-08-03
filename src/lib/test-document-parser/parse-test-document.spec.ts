@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseTestDocument } from './parse-test-document';
-import { ParseStatus } from './types/parse-result';
+import { ParseRejectionReason, ParseStatus } from './types/parse-result';
 
 jest.setTimeout(120000);
 
@@ -42,44 +42,54 @@ function readDocument(dir: string): { filename: string; data: Buffer } {
 	return { filename, data: readFileSync(join(dir, filename)) };
 }
 
-const validCases = discoverCases('valid');
-const invalidCases = discoverCases('invalid');
+const acceptedCases = discoverCases('valid');
+const rejectedCases = discoverCases('invalid');
 
-if (validCases.length === 0 && invalidCases.length === 0) {
+if (acceptedCases.length === 0 && rejectedCases.length === 0) {
 	// Корпус ещё не наполнен — держим заглушку, чтобы у suite был хотя бы один тест.
 	test('корпус фикстур пуст — добавь кейсы в fixtures/valid|invalid', () => {
-		expect([...validCases, ...invalidCases]).toEqual([]);
+		expect([...acceptedCases, ...rejectedCases]).toEqual([]);
 	});
 }
 
-if (validCases.length > 0) {
-	describe('valid', () => {
-		for (const { name, dir } of validCases) {
-			test(`${name} → valid`, async () => {
+if (acceptedCases.length > 0) {
+	describe('accepted', () => {
+		for (const { name, dir } of acceptedCases) {
+			test(`${name} → accepted`, async () => {
 				const { filename, data } = readDocument(dir);
 				const expected = JSON.parse(readFileSync(join(dir, 'expected.json'), 'utf8'));
 
 				const result = await parseTestDocument({ data, filename });
 
-				expect(result.status).toBe(ParseStatus.VALID);
+				expect(result.status).toBe(ParseStatus.ACCEPTED);
 
-				if (result.status === ParseStatus.VALID) {
+				if (result.status === ParseStatus.ACCEPTED) {
 					expect(result.document).toEqual(expected);
+					expect(result.issues.rejectedQuestions).toEqual(expect.any(Array));
 				}
 			});
 		}
 	});
 }
 
-if (invalidCases.length > 0) {
-	describe('invalid', () => {
-		for (const { name, dir } of invalidCases) {
-			test(`${name} → invalid`, async () => {
+test('неподдерживаемый формат → rejected', async () => {
+	const result = await parseTestDocument({ data: Buffer.from('not a PDF') });
+
+	expect(result).toEqual({
+		status: ParseStatus.REJECTED,
+		reason: ParseRejectionReason.UNSUPPORTED_FORMAT
+	});
+});
+
+if (rejectedCases.length > 0) {
+	describe('rejected', () => {
+		for (const { name, dir } of rejectedCases) {
+			test(`${name} → rejected`, async () => {
 				const { filename, data } = readDocument(dir);
 
 				const result = await parseTestDocument({ data, filename });
 
-				expect(result.status).toBe(ParseStatus.INVALID);
+				expect(result.status).toBe(ParseStatus.REJECTED);
 			});
 		}
 	});
