@@ -1,0 +1,112 @@
+{
+	"questions": [
+		{
+			"index": 1,
+			"text": "Переднюю границу подмышечной ямки составляет:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "дельтовидная мышца;", "isCorrect": false },
+				{ "index": 2, "text": "медиальная головка трёхглавой мышцы плеча;", "isCorrect": false },
+				{ "index": 3, "text": "большая грудная мышца;", "isCorrect": true },
+				{ "index": 4, "text": "малая грудная мышца;", "isCorrect": false },
+				{ "index": 5, "text": "длинная головка трёхглавой мышцы плеча;", "isCorrect": false }
+			]
+		},
+		{
+			"index": 2,
+			"text": "Заднюю границу подмышечной ямки составляет мышца:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "широчайшая и большая круглая;", "isCorrect": true },
+				{ "index": 2, "text": "малая круглая;", "isCorrect": false },
+				{ "index": 3, "text": "подлопаточная;", "isCorrect": false },
+				{ "index": 4, "text": "длинная головка трицепса;", "isCorrect": false },
+				{ "index": 5, "text": "подостная;", "isCorrect": false }
+			]
+		},
+		{
+			"index": 3,
+			"text": "Поддельтовидная клетчатка связана с подмышечной клетчаткой по ходу:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "подлопаточной артерии;", "isCorrect": false },
+				{ "index": 2, "text": "подмышечной артерии;", "isCorrect": true },
+				{ "index": 3, "text": "срединного нерва;", "isCorrect": false },
+				{ "index": 4, "text": "подмышечного нерва;", "isCorrect": false },
+				{ "index": 5, "text": "лучевого нерва;", "isCorrect": false }
+			]
+		},
+		{
+			"index": 4,
+			"text": "Подлопаточная клетчатка связана с подмышечной по ходу:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "подлопаточной артерии и вены;", "isCorrect": true },
+				{ "index": 2, "text": "подмышечной артерии;", "isCorrect": false },
+				{ "index": 3, "text": "лучевого нерва;", "isCorrect": false },
+				{ "index": 4, "text": "подмышечного нерва;", "isCorrect": false },
+				{ "index": 5, "text": "подключичной вены;", "isCorrect": false }
+			]
+		},
+		{
+			"index": 5,
+			"text": "Подмышечная клетчатка связана с клетчаткой подключичной области по ходу:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "задней артерии, огибающей плечевую кость;", "isCorrect": true },
+				{ "index": 2, "text": "передней артерии, огибающей плечевую кость;", "isCorrect": false },
+				{ "index": 3, "text": "срединного нерва;", "isCorrect": false },
+				{ "index": 4, "text": "подмышечной артерии;", "isCorrect": false },
+				{ "index": 5, "text": "лучевого нерва;", "isCorrect": false }
+			]
+		},
+		{
+			"index": 6,
+			"text": "Смещение отломков при переломах нижней челюсти обусловливается:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "направлением удара", "isCorrect": false },
+				{ "index": 2, "text": "направлением тяги мышц", "isCorrect": true },
+				{ "index": 3, "text": "формой нижней челюсти", "isCorrect": false },
+				{ "index": 4, "text": "формой прикуса", "isCorrect": false },
+				{ "index": 5, "text": "подвижностью височно-нижнечелюстного сустава", "isCorrect": false }
+			]
+		},
+		{
+			"index": 7,
+			"text": "Поверхностный листок собственной фасции шеи образует влагалище для:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "поднижнечелюстной слюнной железы;", "isCorrect": true },
+				{ "index": 2, "text": "платизмы;", "isCorrect": false },
+				{ "index": 3, "text": "грудино-щитовидной мышцы;", "isCorrect": false },
+				{ "index": 4, "text": "общей сонной артерии;", "isCorrect": false },
+				{ "index": 5, "text": "внутренней яремной вены;", "isCorrect": false }
+			]
+		},
+		{
+			"index": 8,
+			"text": "Предпозвоночная фасция шеи покрывает все образования, кроме:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "пограничного симпатического ствола;", "isCorrect": false },
+				{ "index": 2, "text": "длинных мышц шеи и головы;", "isCorrect": false },
+				{ "index": 3, "text": "общей сонной артерии;", "isCorrect": true },
+				{ "index": 4, "text": "лестничных мышц;", "isCorrect": false },
+				{ "index": 5, "text": "плечевого сплетения;", "isCorrect": false }
+			]
+		},
+		{
+			"index": 9,
+			"text": "Пограничный симпатический ствол в области шеи находится во влагалище фасции:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "собственной шейной (поверхностного листк=;", "isCorrect": false },
+				{ "index": 2, "text": "собственной шейной (глубокого листк=;", "isCorrect": false },
+				{ "index": 3, "text": "внутренностной (париетального листк=;", "isCorrect": false },
+				{ "index": 4, "text": "внутренностной (висцерального листк=;", "isCorrect": false },
+				{ "index": 5, "text": "предпозвоночной;", "isCorrect": true }
+			]
+		}
+	]
+}

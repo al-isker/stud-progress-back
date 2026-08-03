@@ -9,8 +9,8 @@ import { ParseStatus, parseTestDocument } from './lib/test-document-parser';
 
 async function bootstrap() {
 	const result = await parseTestDocument({
-		// data: readFileSync('C:/Users/balis/OneDrive/Desktop/fixtures-short/valid/004/document.pdf'),
-		data: readFileSync('C:/Users/balis/OneDrive/Desktop/fixtures/invalid/001/document.pdf'),
+		// data: readFileSync('./src/lib/test-document-parser/fixtures/short/valid/001/document.pdf'),
+		data: readFileSync('./src/lib/test-document-parser/fixtures/full/valid/001/document.pdf'),
 		filename: 'bootstrap-test'
 	});
 

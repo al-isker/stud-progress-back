@@ -1,0 +1,200 @@
+{
+	"questions": [
+		{
+			"index": 1,
+			"text": "Основоположник андрологии в России:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "Синицын И.Ф.", "isCorrect": true },
+				{ "index": 2, "text": "Кирпатовский И.Д.", "isCorrect": false },
+				{ "index": 3, "text": "Тиктинский О.Л.", "isCorrect": false },
+				{ "index": 4, "text": "Петров П.П.", "isCorrect": false },
+				{ "index": 5, "text": "Игнатьев И.М.", "isCorrect": false }
+			]
+		},
+		{
+			"index": 2,
+			"text": "Задачи андрологии",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "репродуктивное здоровье мужчин", "isCorrect": false },
+				{ "index": 2, "text": "мочевыделительная система у мужчин", "isCorrect": false },
+				{ "index": 3, "text": "заболевания желез внутренней секреции", "isCorrect": false },
+				{ "index": 4, "text": "заболевания желез внешней секреции", "isCorrect": false },
+				{ "index": 5, "text": "все перечисленное верно.", "isCorrect": true }
+			]
+		},
+		{
+			"index": 3,
+			"text": "Что не входит в основные направлениям в андрологии:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "мужское бесплодие;", "isCorrect": false },
+				{ "index": 2, "text": "детская андрология;", "isCorrect": false },
+				{ "index": 3, "text": "гипертиреоз;", "isCorrect": true },
+				{ "index": 4, "text": "сексуальные дисфункции;", "isCorrect": false },
+				{ "index": 5, "text": "гипогонадизм", "isCorrect": false }
+			]
+		},
+		{
+			"index": 4,
+			"text": "В каком году создана в России и зарегистрирована профессиональная ассоциация андрологов (ПААР)",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "1971", "isCorrect": false },
+				{ "index": 2, "text": "1986", "isCorrect": false },
+				{ "index": 3, "text": "1996", "isCorrect": true },
+				{ "index": 4, "text": "2010", "isCorrect": false },
+				{ "index": 5, "text": "1950", "isCorrect": false }
+			]
+		},
+		{
+			"index": 5,
+			"text": "В каком году на базе клиники мочеполовых болезней медицинского факультета Московского университета была открыта первая андрологическая клиника:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "1877", "isCorrect": false },
+				{ "index": 2, "text": "1917", "isCorrect": false },
+				{ "index": 3, "text": "1941", "isCorrect": false },
+				{ "index": 4, "text": "1972", "isCorrect": false },
+				{ "index": 5, "text": "1979", "isCorrect": true }
+			]
+		},
+		{
+			"index": 6,
+			"text": "Специализированное учреждение МЗ РД, оказывающее медицинскую помощь мужчин в бесплодном браке:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "Республиканская клиническая больница", "isCorrect": false },
+				{ "index": 2, "text": "Республиканский урологический центр", "isCorrect": false },
+				{
+					"index": 3,
+					"text": "Республиканский центр охраны здоровья семьи и репродукции",
+					"isCorrect": true
+				},
+				{ "index": 4, "text": "женские консультации", "isCorrect": false },
+				{ "index": 5, "text": "поликлиники, по месту жительства пациентов", "isCorrect": false }
+			]
+		},
+		{
+			"index": 7,
+			"text": "Первая беременность в Дагестане, после проведенного ЭКО:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "2000 год", "isCorrect": false },
+				{ "index": 2, "text": "2003 год", "isCorrect": true },
+				{ "index": 3, "text": "2006 год", "isCorrect": false },
+				{ "index": 4, "text": "2009 год", "isCorrect": false },
+				{ "index": 5, "text": "2012 год", "isCorrect": false }
+			]
+		},
+		{
+			"index": 8,
+			"text": "К наружным половым органам относятся:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "яички и их придатки,", "isCorrect": false },
+				{ "index": 2, "text": "мошонка", "isCorrect": true },
+				{ "index": 3, "text": "семявыносящие и семявыбрасывающие протоки,", "isCorrect": false },
+				{ "index": 4, "text": "бульбоуретральные железы,", "isCorrect": false },
+				{ "index": 5, "text": "простата и семенные пузырьки", "isCorrect": false }
+			]
+		},
+		{
+			"index": 9,
+			"text": "Длина мужской уретры",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "8-10 см", "isCorrect": false },
+				{ "index": 2, "text": "10-15 см.", "isCorrect": false },
+				{ "index": 3, "text": "20-25 см", "isCorrect": true },
+				{ "index": 4, "text": "35-40 см", "isCorrect": false },
+				{ "index": 5, "text": "40-50 см.", "isCorrect": false }
+			]
+		},
+		{
+			"index": 10,
+			"text": "Оптимальной температуры, необходимой для созревания сперматозоидов в яичках составляет:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "менее 30градусовС", "isCorrect": false },
+				{ "index": 2, "text": "31-33градусовС", "isCorrect": false },
+				{ "index": 3, "text": "34-35 градусовС", "isCorrect": true },
+				{ "index": 4, "text": "36-38градусовС", "isCorrect": false },
+				{ "index": 5, "text": "38-40градусовС", "isCorrect": false }
+			]
+		},
+		{
+			"index": 11,
+			"text": "Сколько долек располагается в каждом яичке:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "2-3", "isCorrect": false },
+				{ "index": 2, "text": "25-30", "isCorrect": false },
+				{ "index": 3, "text": "250-300", "isCorrect": true },
+				{ "index": 4, "text": "1000-5000", "isCorrect": false },
+				{ "index": 5, "text": "более 1 млн.", "isCorrect": false }
+			]
+		},
+		{
+			"index": 12,
+			"text": "Показаниями к ЭКО являются:",
+			"type": "multiple",
+			"options": [
+				{ "index": 1, "text": "патоспермия различной степени выраженности", "isCorrect": true },
+				{ "index": 2, "text": "аутоиммуный фактор бесплодия", "isCorrect": false },
+				{
+					"index": 3,
+					"text": "состояния, обуславливающие невозможность вагинальной эякуляции",
+					"isCorrect": true
+				},
+				{ "index": 4, "text": "нормоспермия, при женском факторе", "isCorrect": true },
+				{ "index": 5, "text": "желание супружеской пары", "isCorrect": false }
+			]
+		},
+		{
+			"index": 13,
+			"text": "Показания к определению AZF фактора, кроме:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "азооспермия;", "isCorrect": false },
+				{ "index": 2, "text": "тяжелая олигозооспермия;", "isCorrect": false },
+				{
+					"index": 3,
+					"text": "для оценки риска нарушений фертильности у сыновей мужчин, с выявленнымиделециями AZF;",
+					"isCorrect": false
+				},
+				{ "index": 4, "text": "идиопатическое бесплодие;", "isCorrect": false },
+				{
+					"index": 5,
+					"text": "хронические заболевания органов репродуктивной системы",
+					"isCorrect": true
+				}
+			]
+		},
+		{
+			"index": 14,
+			"text": "Прогностическим факторам при бесплодии:",
+			"type": "multiple",
+			"options": [
+				{ "index": 1, "text": "длительность бесплодия", "isCorrect": true },
+				{ "index": 2, "text": "первичное или вторичное бесплодие", "isCorrect": true },
+				{ "index": 3, "text": "вредные привычки", "isCorrect": false },
+				{ "index": 4, "text": "состояние спермограммы", "isCorrect": true },
+				{ "index": 5, "text": "возраст и статус плодовитости", "isCorrect": true }
+			]
+		},
+		{
+			"index": 15,
+			"text": "К вспомогательным репродуктивным технологиям относятся:",
+			"type": "multiple",
+			"options": [
+				{ "index": 1, "text": "экстракорпоральное оплодотворение", "isCorrect": true },
+				{ "index": 2, "text": "гистероскопия шейки матки", "isCorrect": false },
+				{ "index": 3, "text": "интрацитоплазматическая инъекция сперматозоида", "isCorrect": true },
+				{ "index": 4, "text": "внутриматочная инсеминация", "isCorrect": true },
+				{ "index": 5, "text": "радиоволновая инцизия шейки матки", "isCorrect": false }
+			]
+		}
+	]
+}

@@ -12,7 +12,7 @@ interface FixtureCase {
 	dir: string;
 }
 
-const FIXTURES_DIR = join(__dirname, 'fixtures');
+const FIXTURES_DIR = join(__dirname, 'fixtures', 'short');
 
 /** Находит все папки-кейсы внутри fixtures/<validity>. */
 function discoverCases(validity: Validity): FixtureCase[] {

@@ -23,3 +23,5 @@
 Если в процессе работы задача затронула назначение конкретной документации из списка ниже — обязательно прочитать соответствующую документацию.
 
 - **[Push-уведомления](./.agents/docs/push-notification/README.md)** — работа с push-уведомлениями.
+
+- **[Корпус фикстур `test-document-parser`](./src/lib/test-document-parser/fixtures/README.md)** — работа с `test-document-parser`.

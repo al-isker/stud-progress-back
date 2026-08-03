@@ -1,0 +1,77 @@
+{
+	"questions": [
+		{
+			"index": 1,
+			"text": "Самой тонкой стенкой орбиты является:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "Наружная стенка", "isCorrect": false },
+				{ "index": 2, "text": "Верхняя стенка", "isCorrect": false },
+				{ "index": 3, "text": "Внутренняя стенка", "isCorrect": true },
+				{ "index": 4, "text": "Нижняя стенка", "isCorrect": false },
+				{ "index": 5, "text": "Задняя стенка", "isCorrect": false }
+			]
+		},
+		{
+			"index": 2,
+			"text": "Слезный мешок расположен:",
+			"type": "multiple",
+			"options": [
+				{ "index": 1, "text": "Интраорбитально;", "isCorrect": false },
+				{ "index": 2, "text": "Экстраорбитально;", "isCorrect": true },
+				{ "index": 3, "text": "Частично интра-,частично экстраорбитально", "isCorrect": false },
+				{ "index": 4, "text": "В области среднего носового хода", "isCorrect": false },
+				{ "index": 5, "text": "В области нижнего носового хода", "isCorrect": true }
+			]
+		},
+		{
+			"index": 3,
+			"text": "Слезно-носовой канал открывается в:",
+			"type": "single",
+			"options": [
+				{ "index": 1, "text": "Нижний носовой ход", "isCorrect": true },
+				{ "index": 2, "text": "Средний носовой ход", "isCorrect": false },
+				{ "index": 3, "text": "Верхний носовой ход", "isCorrect": false },
+				{ "index": 4, "text": "В конъюнктивальный мешок", "isCorrect": false },
+				{ "index": 5, "text": "В гайморову пазуху", "isCorrect": false }
+			]
+		},
+		{
+			"index": 4,
+			"text": "Из перечисленных симптомов выберите кардинальные признаки ирита:",
+			"type": "multiple",
+			"options": [
+				{ "index": 1, "text": "Боль в глазу", "isCorrect": true },
+				{ "index": 2, "text": "Боль в соответствующей половине головы", "isCorrect": false },
+				{ "index": 3, "text": "Смешанная инъекция", "isCorrect": false },
+				{ "index": 4, "text": "Миоз", "isCorrect": true },
+				{ "index": 5, "text": "Мидриаз", "isCorrect": false },
+				{ "index": 6, "text": "Изменение цвета и стушеванность рисунка радужки", "isCorrect": true }
+			]
+		},
+		{
+			"index": 5,
+			"text": "Объективные признаки циклита:",
+			"type": "multiple",
+			"options": [
+				{ "index": 1, "text": "Смешанная инъекция глазного яблока", "isCorrect": false },
+				{ "index": 2, "text": "Изменение цвета и рисунка радужки, миоз", "isCorrect": false },
+				{ "index": 3, "text": "Появление экссудата в стекловидном теле", "isCorrect": true },
+				{ "index": 4, "text": "Преципитаты", "isCorrect": true },
+				{ "index": 5, "text": "Мидриаз", "isCorrect": false }
+			]
+		},
+		{
+			"index": 6,
+			"text": "Укажите признаки центрального хориоретинита:",
+			"type": "multiple",
+			"options": [
+				{ "index": 1, "text": "Боль в глазу", "isCorrect": false },
+				{ "index": 2, "text": "Снижение зрения", "isCorrect": true },
+				{ "index": 3, "text": "Фотопсии, метаморфопсии", "isCorrect": true },
+				{ "index": 4, "text": "Задние синехии", "isCorrect": false },
+				{ "index": 5, "text": "Миоз", "isCorrect": false }
+			]
+		}
+	]
+}
