@@ -1,0 +1,9156 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Фармакокинетика - это раздел фармакологии, изучающий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совокупность эффектов лекарственных средств и механизмы их действия.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "процессы всасывания, распределения, связывания с белками, биотрансформации и выведения лекарственных веществ из организма.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "побочные эффекты лекарственных веществ на организм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "локализацию фармакологических эффектов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "механизм действия лекарственных веществ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Фармакодинамика - это раздел фармакологии, изучающий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совокупность эффектов лекарственных средств и механизмы их действия.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "процессы всасывания, распределения, связывания с белками, биотрансформации и выведения лекарственных веществ из организма.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "побочные эффекты лекарственных веществ на организм.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "действие организма на ЛС",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выведение лекарственных средств из организма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Основной механизм всасывания большинства лекарственных веществ в ЖКТ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пиноцитоз.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фильтрация.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Пассивная диффузия.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Активный транспорт.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Период «полужизни» (полуэлиминации) – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Время, за которое 70% вещества подвергается биотрансформации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Время, за которое концентрация вещества в плазме крови снижается наполовину.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Время, за которое половина вещества выводится из организма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Время, за которое 100% вещества подвергается биотрансформации.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Время, за которое 70% вещества подвергается биотрансформации.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Биодоступность лекарства – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Скорость выведения препарата из организма.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Скорость всасывания препарата в желудочно-кишечном тракте после приема per os.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Процентная часть внесосудисто введенной в организм дозы лекарственного вещества, которая попадает в системный кровоток в неизменном виде",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Скорость введения препарата в укорганизм.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Накопление в организме лекарственных веществ, при их повторных введениях – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Функциональная кумуляция.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Материальная кумуляция.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Сенсибилизация.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Идиосинкразия.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Тератогенность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Этим термином обозначают действие лекарственных веществ на эмбрион, приводящее к врожденным уродствам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Мутагенное действие.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фетотоксическое действие.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Тератогенное действие.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Эмбриотоксическое действие",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Пресистемная элиминация – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Потеря части лекарственного вещества (ЛС) при всасывании и первом прохождении через печень.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Биотрансформация ЛС в организме.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Распределение ЛС с мочой.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Выведение ЛС с желчью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Депонирование ЛС в организме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Для какого из препаратов биотрансформация в печени наиболее значима?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гидрофильных.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Липофильных.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Газообразных.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Смешанных.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Амфифильных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Рецепторы, относящиеся к классу G-белок-ассоциированных рецепторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ГАМК-рецепторы.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Адренорецепторы.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Инсулиновые рецепторы.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Глюкокортикоидные рецепторы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Какое из перечисленных ниже лекарственных средств является значимым индуктором микросомальных ферментов печени",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фенобарбитал",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Циметидин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Эритромицин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пропранолол.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Каптоприл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Что характерно для ректального способа введения лекарственных веществ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "всасывание происходит путем фильтрации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "всасывание происходит путем активного транспорта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "точность дозировки выше, чем при введении через рот",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "всасывание путем пиноцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "точность дозировки ниже, чем при введении через рот",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "В каких дозах проявляются побочные эффекты",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в токсических дозах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в терапевтическихдозах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в минимальных дозах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в летальных дозах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в максимальных дозах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какое взаимодействие может иметь место при смешивании растворов в одном шприце",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фармакологическое взаимодействие лекарственных веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фармакохимическое взаимодействие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фармакокинетическое взаимодействие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фармакодинамическое взаимодействие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синергизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Атипичные реакции на лекарственные вещества, связанные с генетическими факторами",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "толерантность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тахифилаксия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "идиосинкразия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кумуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тератогенность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Укажите основной механизм всасывания лекарственных веществ в желудочно-кишечном тракте",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "облегченная диффузия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пассивная диффузия;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "активный транспорт;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пиноцитоз;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Лекарственные средства, являющиеся слабыми основаниями, лучше назначать",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "натощак;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "после еды;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "натощак, запивая слабощелочными растворами;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "после еды, запивая слабокислыми растворами.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "во время еды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Укажите парентеральный путь введения лекарств",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сублингвальный;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ректальный;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дуоденальный;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "субарахноидальный.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "трансбуккальный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Повышение активности микросомальных ферментов печени чаще всего приводит к",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ускорению инактивации лекарства;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "замедлению инактивации лекарства;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличению токсичности лекарства;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличению числа побочных эффектов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "При каком способе введения биодоступность препарата 100%?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ректальный;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сублингвальный;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутривенный;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трансдермальный.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ингаляционный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Что характеризует такой показатель фармакокинетики как клиренс?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скорость всасывания;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "характер распределения;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержание активной формы лекарства в крови;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скорость элиминирования лекарства из организма.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "депонирование ЛС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "К какому типу относится действие лекарственных средств, восстанавливающих деятельность ЦНС при заболеваниях, сопровождающихся психическим и двигательным возбуждением?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тонизирующее;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "седативное;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "угнетающее;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "парализующее.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анксиолитическое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Больному назначено внутримышечное введение 2% раствора папаверина гидрохлорида по 2 мл 2 раза в день. Чему равна при таком режиме введения суточная доза папаверина гидрохлорида?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,02;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,04;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,06;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,08;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "0,8",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Больному при травме назначено внутримышечное введение 1% раствора морфина гидрохлорида по 1 мл 3 раза в день. Чему равна при таком режиме введения суточная доза морфина гидрохлорида?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 мг;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10 мг;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "300 мг;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "60 мг;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3 мг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Какое явление может иметь место при повторных введениях лекарств?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "привыкание;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "суммирование;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "потенцирование;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синергизм.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "идиосинкразия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "При повторном применении эфедрина через 20 мин после первого введения, уровень артериального давления повысился незначительно. Примером чего является данная ситуация?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "идиосинкразия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "толерантность;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кумуляция;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тахифилаксия;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "привыкание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Какое явление может иметь место при комбинированном применении лекарств?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "функциональная кумуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "привыкание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "материальная кумуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синергизм.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тахифилаксия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Способность вещества стимулировать рецептор",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутренняя активность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аффинитет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "первичная фармакологическая реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фармакологический эффект",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антагонизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Действие, развивающееся после всасывания ЛВ в системный кровоток",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "местное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неизбирательное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "резорбтивное",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рефлекторное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прямое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Местные анестетики производные парааминобензойной кислоты",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дикаин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Лидокаин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Тримекаин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Бупивакаин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фторотан",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Местноанестезирующие средства, относящиеся к группе замещенных амидов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Новокаин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Лидокаин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Анестезин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кокаин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кетамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Препараты, используемые для инфильтрационной анестезии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Анестезин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кокаин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Новокаин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Дикаин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кетамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Для купирования желудочковой аритмии при остром инфаркте миокарда применяют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Лидокаин.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Атропин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Клофелин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Адреналин.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Изадрин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Вещество, блокирующие одновременно М- и Н- холинорецепторы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прозерин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Физостигмин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Дипироксим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Циклодол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Атропин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Антихолинэстеразное вещество необратимого действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прозерин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Физостигмин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Армин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Дипироксим",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Атропин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Антихолинэстеразные вещества обратимого действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прозерин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Дипироксим",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Армин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Мезатон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Атропин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Эффекты, возникающие при использовании антихолинэстеразных средств в терапевтических дозах",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Сужение зрачков и снижение внутриглазного давления.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Ослабление моторики ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Снижение секреции бронхиальных и пищеварительных желез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Расширение зрачков и повышение внутриглазного давления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Тахикардия и повышение артериального давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Реактиваторы холинэстеразы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гигроний",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Прозерин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Дипироксим",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Галантамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Атропин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Эффекты, возникающие при действии М-холиноблокаторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Сужение зрачка и снижение внутриглазного давления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повышение тонуса гладкой мускулатуры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Расширение зрачка и повышение внутриглазного давления",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Бронхоспазм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Брадикардия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Вещества, относящиеся к группе Н–холиноблокаторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пилокарпин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Атропин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Скополамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пентамин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Ацеклидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Миорелаксанты деполяризующего типа действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дитилин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Пирилен",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гигроний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Тубокурарин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Скополамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Противопоказанием к применению атропина является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Почечная колика",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Язвенная болезнь желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Острый миокардит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Глаукома",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Бронхоспазм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Данная группа веществ повышает АД, ЧСС, увеличивает АV (атриовентрикулярную) проводимость, усиливает гликогенолиз, снижает тонус бронхов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "М-холиноблокаторы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Симпатолитики =+α- и β-адреномиметики",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ганглиоблокаторы =α- и β-адреноблокаторы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Механизм действия резерпина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Блокирует ганглионарные синапсы адренергических нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Блокирует адренорецепторы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Усиливает выброс медиатора",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Истощает запасы медиатора в гранулах вследствие ускорения его утечки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Блокирует гистаминовые рецепторы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Терапевтически значимым фармакологическим эффектом αадреноблокаторов является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышение АД",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Расслабление сфинктеров",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Сужение зрачка.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Понижение АД",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Повышение тонуса бронхов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Какие из этих препаратов относятся к группе обволакивающих средств",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "меди сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "магния сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "серебра нитрат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слизь крахмала",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "танин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Какой из этих препаратов эффективен при всех видах анестезии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анестезин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "новокаин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лидокаин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дикаин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бупивакаин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Средство для рефлекторной стимуляции дыхания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цититон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пентамин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анаприлин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атропина сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пилокарпин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Отметить антихолинэстеральное средство, проникающее через гематоэнцефалический барьер",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прозерин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "галантамин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пентамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эфедрин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цититон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Какой препарат не относятся к группе М – холиноблокаторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тубокурарин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метацин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скопаламин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "платифиллин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атропин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Какой эффект не связан с действием М – холиноблокаторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "паралич аккомодации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тахикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "брадикардия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "снижение тонуса гладких мышц внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бронходилатация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "С какими целями используют скополамин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для лечения миастении",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при вестибулярных расстройствах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для повышения артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при тахикардии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при стенокардии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Отметить особенности действия платифиллина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "превосходит атропин по способности вызывать мидриаз, тахикардию",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уступает атропину по способности вызывать мидриаз, тахикардию",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не влияет на ЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оказывает выраженное ганглиоблокирующее действие",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Указать механизм действия тубокурарина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение синтеза ацетилхолина в окончаниях двигательных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стойкая деполяризация постсинаптической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокирует н-холинорецепторы волокон скелетных мышц",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышение скорости гидролиза ацетилхолина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Укажите бронхолитическое средство из группы М –холиноблокаторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мезатон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мукалтин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ипратропий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ацеклидин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пирензепин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Ганглиоблокатор, показанный при гипертоническом кризе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензогексоний",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "парацетамол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атропин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пирантел",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "каптоприл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Курареподобное средство, антагонистом, которого является прозерин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дитилин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тубокурарин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пентамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бензогексоний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гигроний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Средство для лечения язвенной болезни желудка и двенадцатиперстной кишки из группы М-холиноблокаторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атропин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гигроний",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пирензепин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бензогексоний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скополамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Какими свойствами обладает атропин, в отличие от всей группы Мхолиноблокаторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стимулирует дыхательный центр",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оказывает седативное действие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вызывает самый длительный мидриаз и паралич аккомодации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стимулирует перистальтику ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вызывает бронхоспазм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Какие из перечисленных препаратов вызывают обострение язвенной болезни",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атропин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бензогексоний",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "галантамин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пентамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фамотидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Какие эффекты М - холиномиметиков имеют фармакотерапевтическую ценность",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширение зрачков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижение внутриглазного давления",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "спазм аккомодации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиление секреции бронхиальных желез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение артериального давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Указать препарат из группы Н-холиномиметиков",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "карбахолин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прозерин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цититон",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бензогексоний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атропин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Отметить антихолинэстеразное средство",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "карбахолин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ацеклидин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прозерин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "атропина сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "каптоприл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Как влияют антихолинэстеразные средства на действие ацетилхолина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиливают",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "укорачивают",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ослабляют",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не влияют",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Отметить антихолинэстеразные средства необратимого действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ацеклидин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прозерин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "армин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "карбахолин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пилокарпин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Отметить средство, облегчающее нервно - мышечную передачу",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "карбахолин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прозерин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цититон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атропина сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "празозин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "При отравлении М-холиноблокаторами назначают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цититон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пирантел",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "физостигмин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "атропина сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метоклопрамид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "М-холиномиметик, используемый при атонии кишечника",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атропина сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "платифилин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ацеклидин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "адреналина гидрохлорид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пилокарпин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Указать основной механизм действия эфедрина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетение моноаминооксидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "непосредственное возбуждение адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усиление освобождения норадреналина из окончаний адренергических волокон",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "угнетение освобождения норадреналина из окончаний адренергических волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блокада адренорецепторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Указать механизм действия изадрина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбуждение альфа и бета -адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "блокада альфа и бета - адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "преимущественное возбуждение бета2 -адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возбуждение бета1 и бета2 –адренорецепторов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "преимущественная блокада бета1 -адренорецепторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Указать механизм действия сальбутамола:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбуждение альфа и бета -адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "блокада альфа и бета - адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "преимущественное возбуждение бета1 -адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "преимущественное возбуждение бета2 -адренорецепторов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "преимущественная блокада бета2 -адренорецепторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Какие препараты относятся к группе альфа- адреномиметиков",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изадрин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "галазолин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фенотерол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "добутамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пилокарпин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Укажите средство, блокирующие альфа – адренорецепторы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метопролол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "празозин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анаприлин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сальбутамол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кленбутерол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Укажите средство, блокирующие бета1 и бета2 –адренорецепторы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метопролол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "талинолол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пропранолол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "атенолол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "формотерол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Отметить адреномиметик непрямого действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резерпин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эфедрин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "норадреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мезатон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Отметить симпатолитик",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "октадин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атеналол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лабеталол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "каптоприл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Отметить механизм действия резерпина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение содержания норадреналина(НА) в варикозных утолщениях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение содержания НА в варикозных утолщениях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокирует альфа1 и бета2 -адренорецепторы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "блокирует бета1 и бета2–адренорецепторы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блокирует Н1 гистаминовые рецепторы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "При применении какого препарата возникает тахикардия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "норадреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "октадин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эфедрин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "анаприлин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метопролол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Отметить симпатолитик, производное индола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "октадин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резерпин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "орнид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лабеталол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сальбутамол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Наиболее длительное гипотензивное действие отмечается при применении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензогексония",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резерпина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фентоламина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анаприлина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "каптоприла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Какой препарат из группы адреноблокаторов можно использовать для купирования гипертонического криза при феохромоцитоме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фентоламин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "резерпин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лабеталол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мезатон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нифедипин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Укажите механизм действия празозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "преимущественная блокада альфа1 -адренорецепторов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "преимущественная блокада альфа2 -адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокада альфа и бета - адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "блокада бета1 и бета2 –адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блокада дофаминовых рецепторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Основной путь введения норадреналина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подкожный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутримышечный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутривенный капельный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "внутрь через ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутрикожный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Показания к применению норадреналина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "купирование приступов бронхиальной астмы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипогликемическая кома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в качестве прессорного средства",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипотензивное средство",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стенокардия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Отметить побочные эффекты октадина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ортостатический коллапс",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетение дыхательного центра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обстипация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипертензивный криз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипергликемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "//Тема 3: Средства, влияющие на центральную нервную систему (ИД 1 ОПК-Средство для наркоза повышает чувствительность β-адренорецепторов сердца к катехоламинам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Закись азота.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Пропанидид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Фторотан",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Оксибутират натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кетамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Свойство ингаляционного анестетика, определяющее скорость индукции анестезии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Растворимость в жирах.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Растворимость в крови.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Удельный вес.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Агрегатное состояние (летучая жидкость или газ).",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Растворимость в воде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Алкалоид опия изохинолинового ряда",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Папаверин.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Кодеин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Промедол.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Налорфин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Морфин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Препарат, являющийся специфическим антагонистом морфина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Налоксон.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Диазепам.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Флумазенил.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Трамадол.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фентанил",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Противоэпилептическое средство, применяемое при бессудорожных формах эпилепсии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Натрия вальпроат.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Клонидин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Леводопа.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Морфин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Каптоприл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Основные фармакологические эффекты фенитоина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Стимуляция ЦНС .=+Способен купировать судороги.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Вызывает ингибирование микросомальных ферментов печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Не способствует накоплению в мозге ГАМК.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Препарат, применяемый при эпилептическом статусе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Вальпроат натрия.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Диазепам.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Карбамазепин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Этосуксимид.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Трамадол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Механизм антипсихотического действия нейролептиков",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Стимуляция адренергических процессов в ЦНС.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Угнетение дофаминергической передачи.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Центральное адренергическое действие.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Центральное дофаминомиметическое действие.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Средство, применяющееся для коррекции экстрапирамидных нарушений, вызываемых нейролептиками",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Метацин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Циклодол.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Леводопа.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Карбидопа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Метоклопрамид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Небензодиазепиновые анксиолитики",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Диазепам.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Анаприлин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Трифтазин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Буспирон.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Феназепам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Препарат, используемый для отмены эффектов бензодиазепинов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Налтрексон.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Диазепам.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Флумазенил.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Леводопа.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Аминазин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Препарат, применяемый при эпилептическом статусе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Вальпроат натрия.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Клоназепам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Карбамазепин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Этосуксимид.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Флумазенил",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Эффекты, характерные для действия ноотропных препаратов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышение устойчивости к гипоксии.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Возбуждение дыхательного и сосудодвигательного центров.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Повышение артериального давления.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Возбуждающее действие при наркозе.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Антиаритмический эффект",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Аналептик, оказывающий прямое влияние на дыхательный центр",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бемегрид.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Сиднокарб.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Лобелин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кордиамин.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Анаприлин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Отметить анксиолитики, агонисты серотониновых рецепторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминазин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диазепам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "галоперидол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "буспирон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "феназепам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Для анксиолитиков, производных бензодиазепина, характерны все ниже перечисленные эффекты, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снотворный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антипсихотический",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "миорелаксирующий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "противосудорожный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "седативный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "К \"дневным анксиолитикам\" относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "феназепам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "флумазенил",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мезапам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мидазолам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "буспирон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Все утверждения, касающиеся побочных эффектов анксиолитиков бензодиазепинового ряда, правильны, за исключением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вызывают сонливость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижают тонус скелетной мускулатуры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вызывают лекарственную зависимость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вызывают экстрапирамидные расстройства",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "усиливают действие средств для наркоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Для флумазенила, специфического антогониста бензодиазепинов, характерны все ниже перечисленные свойства, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "действует 30-60 мин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "препарат применяют для устранения остаточных эффектов действия бензодиазепинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "применяют при остром отравлении анксиолитиками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эффективен при невротических состояниях",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вводят обычно внутривенно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Для буспирона характерны все ниже перечисленные эффекты, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладает выраженной анксиолитической активностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эффект развивается медленно (1-2недели)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "взаимодействует с бензодиазепиновыми рецепторами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лишен седативного, противосудорожного, мышечно-расслабляющего действия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "биодоступность составляет 4%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Отметить ноотропное средство",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминазин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парацетамол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диазепам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пирацетам",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клоназепам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Укажите эффекты, характерные для пирацетама",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в случае нарушения мозговой деятельности улучшает память, процесс обучения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышает умственную и физическую работоспособность при утомлении",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "устраняет чувство страха и тревоги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышает возбудимость дыхательного центра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "понижает артериальное давление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Отметить ноотропное средство - производное витамина В6",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пирацетам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аминалон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пиридитол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "парацетамол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пантогам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Укажите агонист бензодиазепиновых рецепторов, наиболее широко применяемый в качестве снотворного средства",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зопиклон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "золпидем",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нитразепам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "буспирон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сульпирид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Какое снотворное средство существенно изменяет \"структуру\" сна",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитразепам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "феназепам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фенобарбитал",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хлоралгидрат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зопиклон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Чем объясняется снотворный эффект нитразепама",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усилением тормозного действия ГАМК",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "активацией дофаминергических влияний",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетением глутаматергических влияний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усилением тормозного действия серотонина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блокированием адренорецепторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Для диазепама характерны все нижеперечисленные свойства, за исключением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хорошо всасывается в кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладает кратковременным снотворным эффектом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "препарат кумулирует",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при длительном применении вызывает привыкание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применяют при эпилептическом статусе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Чем объясняется увеличение тормозного постсинаптического потенциала под влиянием агонистов бензодиазениновых рецепторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активацией хлорных каналов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "блокадой хлорных каналов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активацией калиевых каналов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "блокадой натриевых каналов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блокадой кальциевых каналов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "бензодиазенинам, обладает всеми ниже перечисленными свойствами, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сон наступает через 20-30 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продолжительность действия 6-8 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выводится почками, частично слюнными железами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вызывает материальную кумуляцию",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при длительном применении вызывает зависимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Для зопиклона (имован) характерны все нижеперечисленные побочные эффекты, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение аккомодации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экстрапирамидные расстройства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "металлический горький вкус",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "психические и поведенческие расстройства",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при длительном применении вызывает зависимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Укажите снотворное средство, не относящееся к бензодиазепинам, но обладающее сродством к бензодиазепиновым рецепторам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитразепам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "зопиклон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фенобарбитал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хлоралгидрат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мезапам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Чем обусловлены снотворный и успокаивающий эффекты барбитуратов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ГАМК - миметическим действием",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дофаминомиметическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокадой дофаминовых Д2 - рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "блокадой глутаматных рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блокадой серотониновых рецепторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Какие из перечисленных ниже препаратов вызывают клинически значимую индукцию микросомальных ферментов печени",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фенобарбитал",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сибазон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "морфин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аминазин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диазепам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Больному, страдающему бессонницей и принимающему фенобарбитал, в связи с обострением тромбофлебита был назначен неодикумарин, однако действие его оказалось малоэффективным. Почему?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фенобарбитал нарушает всасывание неодикумарина в кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фенобарбитал фармацевтически несовместим с неодикумарином",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фенобарбитал вытесняет неодикумарин из комплекса с белками плазмы крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фенобарбитал индуцирует синтез микросомальных ферментов печени, ускоряя метаболизм неодикумарина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Какой из перечисленных ниже снотворных средств, наиболее часто вызывает явление последействия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "этаминал - натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фенобарбитал",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нитразепам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хлоралгидрат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зопиклон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Какое действие вызывают барбитураты при их повторном применении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "материальную кумуляцию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "идиосинкразию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ортостатическую гипотензию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ригидность мышц и тремор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тахифилаксию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Фенобарбитал обладает всеми ниже перечисленными эффектами, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антипсихотическим",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "седативным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снотворным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "противосудорожным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кумулятивным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Какой из аналептиков используется при легких формах отравления барбитуратами",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кордиамин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "камфора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бемегрид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "этимизол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пропранолол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Все ниже перечисленные средства используют для ингаляционного наркоза, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эфир для наркоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фторотан",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кетамин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "энфлуран",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изофлуран",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Для неингаляционного наркоза используют все нижеперечисленные средства, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пропанидид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кетамин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фторотан",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тиопентал натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пропофол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Длительная стадия возбуждения (до 10-20 мин) характерна для наркоза, вызываемого",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фторотаном",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эфиром для наркоза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "азота закисью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пропанидидом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ксеноном",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Рефлекторное урежение дыхания и ритма сердечных сокращений, гиперсекреция бронхиальных и слюнных желез при использовании эфира предупреждается введением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дитилина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дроперидола",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гигрония",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атропина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "феназепама",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Какое прессорное средство следует ввести при снижении артериального давления на фоне фторотана",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "норадреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эфедрин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мезатон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "добутамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Какое наркозное средство может быть использовано при инфаркте миокарда в качестве болеутоляющего средства",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эфир для наркоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "азота закись",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фторотан",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пропанидид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кетамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Какое средство для неингаляционного наркоза обладает ультракоротким действием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пропанидид",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гексенал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тиопентал натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "натрия оксибутират",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кетамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Какое из перечисленных ниже наркозных средств дает \"диссоциативную\" анестезию",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кетамин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фторотан",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дроперидол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тиопентал натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изофлуран",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Указать причину кратковременности наркотического эффекта тиопентала натрия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "быстрое выведение вещества из организма почками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "быстрое снижение концентрации тиопентала натрия в мозговой ткани и в крови за счет депонирования вещества в жировой ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дезаминирование под влиянием моноаминоксидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "декарбоксилирование под влиянием дофа-декарбоксилазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "быстрое выведение вещества из организма легкими",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Какое наркозное средство в послеоперационном периоде (особенно у взрослых) вызывает психомоторные реакции, галлюцинации",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пропанидид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "натрия оксибутират",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тиопентал натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кетамин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пропофол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Отметить агонисты опиоидных рецепторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кислота ацетилсалициловая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анальгин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фентанил",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пентазоцин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бупивакаин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Специфическим антагонистом опиоидных анальгетиков является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анальгин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "налоксон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "амидопирин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "промедол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "флумазенил",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Укажите эффекты морфина, связанные с его угнетающим влиянием на кору головного мозга и лимбико-ретикулярный комплекс",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сосудорасширяющее действие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снотворное действие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышение температуры тела",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антипсихотическое действие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "учащение пульса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Укажите эффекты морфина, связанные с его угнетающим воздействием на продолговатый мозг",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "учащение частоты дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "противокашлевой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "способность вызвать эйфорию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снотворное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "учащение пульса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Каков механизм возникновения рвоты при введении морфина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "раздражение рецепторов слизистой оболочки желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямое возбуждение нейронов рвотного центра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "раздражение вестибулярного аппарата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возбуждение хеморецепторов \"пусковой зоны\" рвотного центра",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "(входит в состав препарата таламонал)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "морфин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "промедол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пентазоцин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фентанил",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кодеин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Отметить анальгетик со смешанным механизмом действия (опиоидным + неопиоидным)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трамадол",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фентанил",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "буторфанол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бупренорфин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "промедол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "К нейролептикам относятся все препараты, за исключением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминазина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трифтазина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "галоперидола",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диазепама",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клозапина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "К \"типичным\" антипсихотическим средствам относятся все препараты, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминазина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трифтазина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хлорпротиксена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клозапина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дроперидола",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "\"типичных\"является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие антидепрессивной активности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушение функций экстрапирамидной системы выражено в меньшей степени",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "слабая антипсихотическая активность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "развитие лекарственной зависимости (физической)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способность вызывать эйфорию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Снижение прессорной реакции на адреналин или \"извращение\" его эффекта на фоне аминазина объясняется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "блокадой вегетативных ганглиев",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "блокадой альфа -адренорецепторов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "блокадой бета -адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушением процесса депонирования норадреналина в везикулах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блокадой холинорецепторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Больному с психомоторным возбуждением внутримышечно был введен препарат, который купировал возбуждение, но при этом резко понизил артериальное давление. Какой препарат был назначен больному",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифенин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сибазон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ноотропил",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дроперидол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лидокаин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Отметить побочный эффект клозапина, ограничивающий его широкое использование",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экстрапирамидные расстройства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "привыкание и лекарственная зависимость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ортостатический коллапс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лейкопения и агранулоцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рвота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Укажите основной механизм стимуляции моноаминергических процессов в ЦНС под влиянием трициклических антидепрессантов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "блокирование дофаминовых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стимуляция дофаминовых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокирование серотониновых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетение нейронального захвата моноаминов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "стимуляция серотониновых рецепторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "ЦНС под влиянием ниаламида",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "блокирование дофаминовых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стимуляция дофаминовых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокирование серотониновых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетение активности МАО",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "стимуляция серотониновых рецепторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "серотонина, относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имизин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амитриптилин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "флуоксетин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ниаламид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мапротилин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "К антидепрессантам, избирательно блокирующим нейрональный захват норадреналина, относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имизин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мапротилин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ниаламид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амитриптилин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тразодон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "//Тема 4: Средства, влияющие на процессы обмена веществ. (ИД 1 ОПК-7) Отметить препараты гормонов передней доли гипофиза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "питуитрин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окситоцин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соматотропин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бромокриптин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тестостерон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Отметить наиболее важные показания к применению кортикотропина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение функциональной активности надпочечников в результате длительной терапии кортикостероидами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микседема",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тиреотоксикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диабет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "галакторея",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "ЦНС",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетает дофаминергические процессы в ЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стимулирует дофаминергические процессы в ЦНС",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стимулирует холинергические процессы в ЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подавляет холинергические процессы в ЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "влияет на серотонинергические процессы в ЦНС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Отметить основные показания к применению бромокриптина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стимуляция лактации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "акромегалия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипофизарная недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бесплодие, связанное с избыточной продукцией пролактина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Отметить гормон задней доли гипофиза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кортикотропин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кальцитонин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адиурекрин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Отметить основной эффект вазопрессина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение диуреза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение диуреза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расширение кровеносных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ослабление перистальтики кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение тонуса мочевого пузыря",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Отметить гормон - производное аминокислот",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тироксин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эстрон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прогрестерон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидрокортизон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инсулин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Как влияет кальцитонин на обмен кальция",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышает содержание кальция в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижает содержание кальция в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "способствует декальцификации костной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшает содержание кальция в костной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нормализует содержание кальция в костной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Какие изменения обмена вызывает тироксин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение основного обмена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение потребления кислорода тканями",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усиление синтеза белков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение массы тела",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "усиление синтеза гликогена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Отметить антитиреоидное средство, угнетающее синтез гормонов щитовидной железы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трийодтиронин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "калия перхлорат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мерказолил",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "L-тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тиреоидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Как влияет паратиреоидин на обмен кальция и фосфора",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышает содержание кальция в крови, снижает содержание НРО4- в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижает содержание кальция в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышает седержание НРО4- в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшает реабсорбцию кальция в почечных канальцах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способствует отложению кальция в костной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Какой препарат применяют для лечения сахарного диабета",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вазопрессин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окситоцин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "манинил",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "преднизолон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Отметить противодиабетическое средство, эффективное при приеме внутрь",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мерказолил",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "троглитазон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инсулин ультраленте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глибенкламид",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Отметить глюкокортикоидный препарат, используемый для резорбтивного действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синафлан",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дексаметазон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лоринден",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "флуцинар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фторокорт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Как влияют глюкокортикоиды на состав периферической крови",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивает содержание лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличивает содержание эозинофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличивает содержание нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличивает содержание моноцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшает содержание лимфоцитов и эозинофилов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Отметить глюкокортикоид, который используются только местно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидрокортизон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "преднизолон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дексаметазон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синафлан",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "триамцинолон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Какие эффекты характерны для минералокортикоидов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение реабсорбции Nа+ и увеличение выделения К+ из организма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение диуреза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение реабсорбции Na+ в почечных канальцах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение сократительной активности скелетных мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "понижение реабсорбции Na+ и уменьшение выделения К+ из организма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Отметить препарат с преимущественным анаболическим действием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синэстрол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретаболил",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тестостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прогестерон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эстрон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Отметить влияние тиамина на обменные процессы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стимулирует декарбоксилирование L-кетокислот",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетает декарбоксилирование L -кетокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понижает содержание пировиноградной и молочной кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активирует синтез норадреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетает синтез ацетилхолина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Каково влияние рибофлавина на обменные процессы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "принимает участие в окислительно-восстановительных процессах в составе дегидрогеназ и оксидаз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стимулирует декарбоксилирование L-кетокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стимулирует синтез глюкокортикоидов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышает тонус гладких мышц ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "понижает тонус гладких мышц ЖКТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Отметить показания к применению кислоты никотиновой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подагра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пеллагра",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемералопия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ксерофтальмия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Какие фармакологические препараты могут вызвать при длительном применении гиповитаминоз пиродоксина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "противотуберкулезные средства из группы гидразидов изоникотиновой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эргокальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "токоферол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глюкокортикоиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Какой витаминный препарат применяют при пернициозной анемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фолиевая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цианокоболамин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "никотиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токоферол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Какой витаминный препарат уменьшает проницаемость биологических мембран",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретинол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рутин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "токоферол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цианокоболамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рибофлавин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Чем объясняется понижение сосудистой проницаемости при действии препаратов, содержащих кислоту аскорбиновую и биофлавоноиды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подавление гиалуронидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "торможение синтеза коллагена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активирование синтеза проколлагена и коллагена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "торможение синтеза глюкокортикоидов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "торможением синтеза антител",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Какой витаминный препарат обладает антиоксидантным свойствам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токоферол",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ретинол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эргокальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пиридоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "филлохинон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "При каких состояниях применяют ретинол",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пеллагра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спру",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемералопия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цинга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемия Как влияет эргокальциферол на фосфорно-кальциевый обмен{",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "понижает содержание кальция и фосфатов",
+						"isCorrect": false
+					},
+					{
+						"index": 7,
+						"text": "ухудшает всасывание кальция в кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 8,
+						"text": "препятствует отложению кальция в костях",
+						"isCorrect": false
+					},
+					{
+						"index": 9,
+						"text": "способствует декальцификации костей",
+						"isCorrect": false
+					},
+					{
+						"index": 10,
+						"text": "повышает содержание кальция и фосфатов в крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "Отметить показания к применению эргокальциферола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пеллагра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атеросклероз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеомаляция",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "спру",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Какой витаминный препарат является антагонистом антикоагулянтов непрямого действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цианокобаламин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "витамин К",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тиамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пиридоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "Определить препарат из группы водорастворимых витаминов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретинол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токоферол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эргокальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "филлохинон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рибофлавин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "Отметить водорастворимые витамины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "филлохинон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цианокоболамин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эргокальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ретинол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токоферол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Отметить средство для лечения макроцитарной анемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цианокобаламин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аскорбиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фолиевая кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пиридоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Отметить средство для лечения железодефицитной анемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аскорбиновая кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фолиевая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цианокобаламин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пиридоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рибофлавин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "Отметить средство, способствующее синтезу протромбина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "витамин К",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тиамин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аскорбиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рутин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кверцетин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Отметить витаминный препарат для лечения полиневритов, пируватемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эргокальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цианокобаламин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пиридоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тиамин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "Отметить витаминный препарат для лечения и профилактики рахита",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "филлохинон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тиамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эргокальциферол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пиридоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "Отметить витаминный препарат для лечения ксерофтальмии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "никотиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретинол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эргокальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аскорбиновая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "Отметить основные физиологические функции ретинола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "участие в синтезе протромбина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участие в синтезе аминокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в синтезе метионина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участие в фоторецепции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "участие в синтезе коллагена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "Препарат наперстянки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Строфантин К.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Коргликон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Дигитоксин.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Новокаинамид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Коргликон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Какие сердечные гликозиды прочно связываются с белками плазмы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дигитоксин.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Строфантин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Коргликон.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Хинидина сульфат.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пропранолол. К противоаритмическим средствам 1 класса (блокаторам натриевых каналов) относят {",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "Верапамил.",
+						"isCorrect": false
+					},
+					{
+						"index": 7,
+						"text": "Пропранолол.",
+						"isCorrect": false
+					},
+					{
+						"index": 8,
+						"text": "Прокаинамид.",
+						"isCorrect": true
+					},
+					{
+						"index": 9,
+						"text": "Целанид",
+						"isCorrect": false
+					},
+					{
+						"index": 10,
+						"text": "Дилтиазем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Лекарственное средство, являющееся блокатором медленных кальциевых каналов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прокаинамид.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дилтиазем.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Лидокаин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Коргликон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Миноксидил",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "Средство рефлекторного действия, устраняющее коронароспазм",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нитроглицерин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Нитросорбид.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Валидол.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Дипиридамол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пропранолол.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "Препарат, который одновременно улучшает коронарный кровоток и снижает потребность миокарда в кислороде",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Валидол.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дигоксин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Нитроглицерин.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пропранолол.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "Препараты каких групп снижают артериальное давление, ограничивая работу сердца",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бета-адреномиметики.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Симпатомиметики.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Бета - адреноблокаторы.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Альфа- адреномиметики.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Альфа- адреноблокаторы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "Каптоприл",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Блокирует β-адренорецепторы.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ингибирует ангиотензинпревращающий фермент.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Может вызывать артериальную гипертензию.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Применяют для лечения бронхиальной астмы.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Противопоказан при сердечной недостаточности.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "Развитие ортостатической гипотензии возможно при введении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гидрохлоротиазида.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Пропранолола.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Верапамила.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Празозина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Амиодарона.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "Для купирования гипертонического криза применяют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пропранолол.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Клонидин.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гидрохлоротиазид.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Резерпин.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Амлодипин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "Диуретик, обладающий умеренным эффектом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фуросемид.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Листья толокнянки.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Этакриновая кислота.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гидрохлортиазид.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Торасемид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "Указать механизм диуретического действия спиронолактона",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Способствует выведению ионов калия из организма.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Угнетает синтез альдостерона.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Усиливает выведение ионов хлора.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Конкурентно взаимодействует с альдостероновыми рецепторами почек.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Повышает осмотическое давление в просвете почечных канальцев.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 200,
+				"text": "Указать препарат, применяемый для форсированного диуреза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Триамтерен.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Спиронолактон.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Фуросемид.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Гидрохлортиазид.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Индапамид.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 201,
+				"text": "петли Генле",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Спиронолактон.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Маннитол.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Фуросемид.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Индапамид.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гидрохлортиазид.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 202,
+				"text": "Какой препарат используют местно для остановки кровотечения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гепарин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кальция хлорид.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Тромбин.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Аминокапроновая кислота.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Варфарин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 203,
+				"text": "Механизм антиагрегантного действия клопидогрела",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Блокирует тромбоксановые рецепторы тромбоцитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ингибирует циклооксигеназу и нарушает образование тромбоксана.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ингибируют микросомальные ферменты печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Блокирует пуриновые рецепторы тромбоцитов и препятствует действию на них АДФ.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Активирует выработку протромбина.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "К прямым антикоагулянтам относят",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Апротинин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Варфарин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Урокиназу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гепарин.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Альтеплазу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 205,
+				"text": "Для остановки кровотечений применяют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Стрептокиназу.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Варфарин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Аминокапроновую кислоту",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Далтепарин натрия.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ацетилсалициловую кислоту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 206,
+				"text": "Характерно для либексина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Подавляет кашлевой центр.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "По эффективности сопоставим с кодеином.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Вызывает привыкание и развитие лекарственной зависимости.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Повышает возбудимость чувствительных окончаний.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Подавляет кашлевой рефлекс, действуя периферически.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 207,
+				"text": "Что обусловливает терапевтическое действие ганглиоблокаторов при отеке легких",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дегидратирующее действие.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Диуретическое действие.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Противовспенивающее действие.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Понижение давления в малом круге кровообращения.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Успокаивающее действие.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 208,
+				"text": "Средство, обладающее анорексигенным действием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Настойка полыни.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Инсулин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Сибутрамин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Алмагель.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Бисакодил.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 209,
+				"text": "Характерно для омепразола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Блокирует выделение гастрина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Блокирует гистаминовые Н2-рецепторы.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ингибирует протоновый насос.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Применяется при гипоацидном гастрите.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Действует 4-6 часов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 210,
+				"text": "Ранитидин уменьшает продукцию соляной кислоты в желудке, потому что",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Блокирует М-холинорецепторы.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Блокирует гистаминовые рецепторы первого типа.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Блокирует гистаминовые рецепторы второго типа.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Блокирует рецепторы к гастрину.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Блокирует адренорецепторы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 211,
+				"text": "Препарат, обладающий противорвотным действием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Диазепам.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Галоперидол.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Кофеин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пирацетам.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фенобарбитал.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 212,
+				"text": "Указать антагонист гепарина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желатин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фибриноген",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "витамин К",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "протамина сульфат",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "викасол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 213,
+				"text": "Отметить вещество, уменьшающее агрегацию тромбоцитов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дипиридамол",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "контрикал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амбен",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кислота аминокапроновая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неодикумарин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 214,
+				"text": "Отметить основное свойство урокиназы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышает фибринолитическую активность крови на 4-6 часов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при однократном введении повышает фибринолитическую активность крови на 48-72 часа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тормозит превращение профибринолизина в фибринолизин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оказывает прямое угнетающее действие на фибринолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по длительности действия равноценна стрептолиазе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 215,
+				"text": "Препарат группы антикоагулянтов - низкомолекулярных гепаринов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протамина сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "натрия гидроцитрат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синкумар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фенилин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эноксапарин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 216,
+				"text": "Кардиотоническое действие сердечных гликозидов обеспечивается их ингибирующим влиянием на",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "К +, Na- АТФ-азу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аденилатциклазу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изанилатциклазу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноаминоксидазу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "циклооксигеназу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 217,
+				"text": "Максимальной материальной кумуляцией обладает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "целанид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дигоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "строфантин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дигитоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "коргликон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 218,
+				"text": "Противоаритмическое действие сердечных гликозидов обусловлено",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышением тонуса блуждающего нерва и угнетением проводимости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышением тонуса симпатического нерва и усилением сократимости миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышением тонуса блуждающего нерва и угнетением автоматизма синусного узла",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "понижением тонуса блуждающего нерва",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 219,
+				"text": "Кардиостимулирующим действием обладают следующая группа веществ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адреноблокаторы =+β-адреномиметики",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "спазмолитики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "холиномиметики =α-адреномиметики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 220,
+				"text": "Перечислите побочный эффект, возможный при приёме фенотерола у беременных",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "флебиты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диспепсические расстройства",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипергликемия у плода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "судороги",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение артериального давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 221,
+				"text": "Когда следует принимать М-холиноблокаторы при язвенной болезни 12перстной кишки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 30 мин после еды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через 1-2 часа после еды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "за 30 мин до еды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "только на ночь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "во время приёма пищи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 222,
+				"text": "Подберите характеристику препарата алмагель",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "блокатор Н2 –гистаминовых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Н-холиноблокатор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антацид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бронхолитик",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вяжущее вещество",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 223,
+				"text": "Какой из препаратов, понижающих секрецию желез желудка, является пролекарством",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "омепразол",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фамотидин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пирензепин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ранитидин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "низатидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 224,
+				"text": "Какой из препаратов не приводит к нарушению фосфатного буфера в организме при длительном приёме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фосфалюгель",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "алмагель",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алмагель - А",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "алюминия гидроокись",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 225,
+				"text": "Укажите побочные эффекты сукралфата",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухость в ротовой полости, запоры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поносы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возбуждение ЦНС, бессонница",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетение ЦНС, апатия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метгемоглобинемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 226,
+				"text": "К противорвотным средствам, угнетающим серотониновые 5 НТ3 рецепторы, относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атропин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "этаперазин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ондансетрон",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тиэтилперазин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ципрофлоксацин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 227,
+				"text": "Антидиарейное действие имеет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лоперамид",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "александрийский лист",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кора крушины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вазопрессин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритромицин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 228,
+				"text": "На протяжении всего кишечника действуют следующие препараты из группы слабительных средств",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "масло касторовое",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изафенин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "таблетки ревеня",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экстракт крушины сухой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сенаде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 229,
+				"text": "Какое гипотензивное средство действует на ренинангиотензинальдостероновую систему регуляции А/Д",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верапамил",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "каптоприл",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "празозин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нитропруссид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миноксидил",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 230,
+				"text": "Какой из нижеперечисленных препаратов нельзя назначать больному с гипертонической болезнью, у которого имеется бронхиальная астма",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диротон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "капотен",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пропранолол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипотиазид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дибазол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 231,
+				"text": "Отметить гипотензивное средство, которое с осторожностью назначают с препаратами, угнетающими центральную нервную систему",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "октадин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пентамин каптоприл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клонидин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "анаприлин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 232,
+				"text": "Какой из перечисленных препаратов, применяемый для лечения гипертонической болезни, вызывает лекарственный паркинсонизм и депрессию",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клофелин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "моксонидин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метилдофа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гуанфацин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эналаприл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 233,
+				"text": "Укажите препарат, одновременно обладающий α и β- адреноблокирующей активностью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анаприлин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лабеталол",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "талинолол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метопролол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атенолол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 234,
+				"text": "Какой из перечисленных препаратов оказывает прямое ингибирующее действие на ренин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "каптоприл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "алискирен",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эналаприл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноприл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизиноприл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 235,
+				"text": "С чем связано возникновение бронхоспазма при длительном лечении ингибиторами АПФ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с влиянием гистамина на мускулатуру бронхиол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с влиянием медленно реагирующей субстанции анафилаксии (МРС –А) на мускулатуру бронхиол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с влиянием брадикинина на мускулатуру бронхиол с влиянием ацетилхолина на мускулатуру бронхиол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с влиянием простагландина Е2 ипростациклина на тонус бронхиол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 236,
+				"text": "При назначении какого препарата из группы гипотензивных средств может быть осложнение – гирсутизм",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миноксидил",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фенигидин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "каптоприл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резерпин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анаприлин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 237,
+				"text": "Длительность действия, какого из гипотензивных средств равна 1-2 мин.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "натрия нитропруссид",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гигроний",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нитроглицерин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "арфонад",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фентоламин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 238,
+				"text": "При введении магния сульфата внутрь наблюдается эффект",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипотензивный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "седативный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "противосудорожный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слабительный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наркотический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 239,
+				"text": "Каков механизм действия эуфиллина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетение вагусных влияний",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "блокада медиаторов аллергических реакций",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетение фосфодиэстеразы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активация адренорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетение дыхательного центра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 240,
+				"text": "Какая из групп бронхолитических средств угнетает секрецию слизи бронхиальными железами",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа и бета- адреномиметики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бета - адреномиметики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "М-холиноблокаторы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ксантины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "симпатомиметики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 241,
+				"text": "Каков механизм бронхолитического действия зилеутона",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "блокада М -холинорецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возбуждение бета2 – адренорецепторов бронхиол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокада аденозиновых рецепторов бронхиол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "торможение дегрануляции тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подавление эффектов лейкотриенов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 242,
+				"text": "Препараты какой группы наиболее эффективны при аспириновой астме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ингибиторы лейкотриеновых рецепторов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "М- холиноблокаторы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "симпатомиметики",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бета2 -адреномиметики",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альфа - и бета - адреномиметики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 243,
+				"text": "Кромолин-натрия применяется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ингаляционно",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутрь (перорально)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ректально",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутримышечно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутривенно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 244,
+				"text": "Как изменяют коронарный кровоток бета –адреноблокаторы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "улучшают",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ухудшают",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не изменяют",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "замедляют скорость кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличивают количество коллатералей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 245,
+				"text": "Укажите противопоказание к назначению дипиридамола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атеросклероз коронарных сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "спазм коронарных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипертоническая болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "болезни печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "болезни почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 246,
+				"text": "Отметить противоэпилептический препарат, обладающий противоаритмической активностью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифенин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лидокаин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "новокаинамид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "этмозин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "этацизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 247,
+				"text": "У больного отмечается синусовая брадикардия (пульс -45 ударов в 1 мин.). Какой из перечисленных препаратов может быть применён для лечения брадикирдии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анаприлин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кордарон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атропина сульфат",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дигоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "новокаинамид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 248,
+				"text": "Амиодарон блокирует все рецепторы, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "К+-каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Na+- каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Са +- каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альфа - и бета- адренорецепторы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "М- холинорецепторы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 249,
+				"text": "При использовании какого противоаритмического препарата период полувыведения Т1/2 составляет 10-50 дней",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амиодарона",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "орнида",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изоптина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лидокаина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атенолола",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 250,
+				"text": "Все перечисленные препараты являются блокаторами кальциевых каналов L - типа, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амиодарона",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "верапамила",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дилтиазепама",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фенигидина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "циннаризина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 251,
+				"text": "Указать механизм антиагрегантного действия кислоты ацетилсалициловой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетает циклооксигеназу и препятствует образованию тромбоксана",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетает циклооксигеназу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокирует фосфодиэстеразу тромбоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стимулирует аденилатциклазу тромбоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "препятствует агрегации тромбоцитов и вызывает выраженную вазоконстрикцию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 252,
+				"text": "При каких состояниях применяют противогистаминные препараты, блокирующие Н1 –рецепторы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперацидный гастрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стенокардия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "язвенная болезнь желудка и 12-перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "легкие аллергические реакции немедленного типа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гемморагический шок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 253,
+				"text": "Для какого препарата из группы противогистаминных средств не характерен снотворный эффект",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диазолин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дипразин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "супрастин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лоратадин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "димедрол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 254,
+				"text": "Какие препараты уменьшают повреждение тканей при гиперчувствительности замедленного типа",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "противогистаминные препараты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нестероидные противовоспалительные средства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стероидные противовоспалительные средства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анальгезирующие средства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 255,
+				"text": "При вирусных инфекциях для увеличения иммунитета применяются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "БЦЖ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фенкарол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интерфероны",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "диазолин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антибиотики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 256,
+				"text": "Антигистаминный препарат, используемый для лечения гастрита и язвенной болезни желудка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ибупрофен.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ранитидин.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Индометацин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Диазолин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Супрастин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 257,
+				"text": "Побочный эффект ацетилсалициловой кислоты отличает этот препарат от других нестероидных противовоспалительных средств",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бронхоспазм.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Синдром Рейя.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Раздражение слизистой оболочки желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Аллергическая реакция.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нефротоксичность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 258,
+				"text": "Противоаллергическое лекарственное средство, препятствующее вхождению ионов кальция в тучные клетки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Димедрол.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кетотифен.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Лоратадин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Тавегил.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Дезлоратадин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 259,
+				"text": "Препарат, относящийся к группе селективных ингибиторов ЦОГ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Индометацин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Диклофенак натрия.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Целекоксиб.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Кризанол.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Аспирин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 260,
+				"text": "Укажите ненаркотический анальгетик, производное парааминофенола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диклофенак",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бутадион",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анальгин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "парацетамол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аспирин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 261,
+				"text": "Наиболее токсичным препаратом из группы нестероидных противовоспалительных средств, вызывающих неблагоприятные побочные эффекты у значительной части больных (до 50%) является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пироксикам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "индометацин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диклофенак - натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ибупрофен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цеекоксиб",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 262,
+				"text": "Одним из наиболее активных противовоспалительных средств, обладающих низкой токсичностью и значительной широтой терапевтического действия является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "напроксен",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "индометацин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диклофенак - натрий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пироксикам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метамизол натрия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 263,
+				"text": "Какие побочные эффекты со стороны системы крови характерны для ненаркотических анальгетиков производных пиразолона",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетает циклооксигеназу и препятствует образованию тромбоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "угнетает агрегацию тромбоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тормозит синтез протромбина в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетение процессов кроветворения, развитие агранулоцитоза, апластической анемии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 264,
+				"text": "К стероидным противовоспалительным средствам относятся",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретаболил, нероболил",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гидрокортизон, триамцинолон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эстрон, эстрадиол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тестостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "индометацин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 265,
+				"text": "Отметить противогрибковый антибиотик",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амфотерицин В",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миконазол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метронидазол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "декамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клотримазол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 266,
+				"text": "Что характерно для нистатина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладает широким спектром действия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "назначается парентерально",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обладает высокой токсичностью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладает низкой токсичностью",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "используют для лечения системных микозов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 267,
+				"text": "Амфотерицин В назначают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутрь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутривенно",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ингаляционно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутримышечно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "местно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 268,
+				"text": "Отметить противовирусное средство, производное пептидов, ингибитор протеаз ВИЧ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "саквинавир",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "арбидол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фоскарнет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мидантан",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метисазон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 269,
+				"text": "Отметить противовирусное средство (аналог нуклеозидов), обладающее противогерпетической активностью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зидовудин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мидантан",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ацикловир",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фоскарнет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метисазон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 270,
+				"text": "Какой из перечисленных средств действует на вирус иммунодефицита человека (ВИЧ)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зидовудин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оксолин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ремантадин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интерферон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метисазон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 271,
+				"text": "Какое осложнение может возникнуть при применения препаратов стрептомицина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемералопия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижение слуха",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетение кроветворения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экстрапирамидные нарушения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 272,
+				"text": "Какой побочный эффект типичен для этамбутола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение слуха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушение функций печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение зрения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аллергические средства",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дисбактериоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 273,
+				"text": "Какая из нижеперечисленных групп лекарственных средств не относится к антибиотикам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пенициллины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тетрациклины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макролиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сульфаниламиды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 274,
+				"text": "Назвать группу антибиотиков, механизм антимикробного действия которой связан с нарушением проницаемости цитоплазматической мембраны",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тетрациклины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пенициллины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полимиксины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "макролиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 275,
+				"text": "Назвать микроорганизмы, на которые не действует бензилпенициллин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стафилококки, продуцирующие пенициллиназу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стафилококки не продуцирующие пенициллиназу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "менингококки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гонококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 276,
+				"text": "Что характерно для эритромицина и олеандомицина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по спектру действия соответствует бензилпенициллину",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "действует на те же микроорганизмы, что и бензилпенициллин, а так же риккетсии и хламидии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "устойчивость микроорганизмов к действию препаратов развивается медленно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "действует бактерицидно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хорошо и полностью всасывается в ЖКТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 277,
+				"text": "Назвать группу антибиотиков, механизм антимикробного действия которых, в основном, связан с нарушением синтеза клеточной стенки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макролиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тетрациклины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цефалоспорины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "полимиксины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 278,
+				"text": "Все нижеперечисленные антибиотики относятся к группе пенициллинов, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метациклина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бензилпенициллина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ампициллина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оксациллина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "карбенициллина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 279,
+				"text": "Назвать антибиотик, оказывающий преимущественно бактериостатическое действие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оксациллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гентамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритромицин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 280,
+				"text": "Назвать антибиотик, оказывающий преимущественно бактерицидное действие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цефалоридин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эритромицин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "олеандомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тетрациклин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "левомицетин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 281,
+				"text": "К группе аминогликозидов относятся все препараты, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептомицина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неомицина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гентамицина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "канамицина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритромицина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 282,
+				"text": "Укажите препарат сульфаниламидов только для местного применения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сульфапиридазин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "этазол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сульфацил - натрий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сульфален",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уросульфан",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 283,
+				"text": "Отметить механизмы антибактериального действия сульфаниламидов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушения синтеза клеточной стенки микроорганизмов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изменения проницаемости мембраны клеток микроорганизма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "конкурентный антагонизм с парааминобензойной кислотой в процессе синтеза фолиевой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "угнетение синтеза белка рибосомами бактериальной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушения синтеза РНК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 284,
+				"text": "Какой препарат относятся к производным хинолона",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитроксалин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фуродонин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кислота налидиксовая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "энтеросептол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диоксидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 285,
+				"text": "Какой из препаратов относится к производным 8-оксихинолина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фуразолидон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кислота налидиксовая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "этамбутол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нитроксолин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "офлоксацин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 286,
+				"text": "Отметить противосифилитические препараты",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фуразолидон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "невиграмон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нистатин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "амфотерицин В",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 287,
+				"text": "Макролид II поколения :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Эритромицин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Доксициклин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кларитромицин.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Тобрамицин.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Сизомицин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 288,
+				"text": "Отметить антисептик из группы окислителей",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "раствор перекиси водорода",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "раствор йода спиртовый",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цинка сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "окись ртути",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "серебра нитрат",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

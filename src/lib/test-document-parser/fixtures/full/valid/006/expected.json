@@ -1,0 +1,8289 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Сознательное, четкое и беспристрастное использование лучших из имеющихся доказательств при принятии решений о помощи конкретным больным, это одно из определений понятия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биометрии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "доказательной медицины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клинической эпидемиологии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "медицинской статистики",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клинической медицины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "С позиции доказательной медицины врач должен принимать решение о выборе метода лечения, на основании",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "информации из интернета",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опыта коллег",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "статьи из рецензируемого журнала с высоким индексом цитируемости",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "статьи из неизвестного источника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Пионером в разработке принципов доказательной медицины принято считать:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бруссе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кокран",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гавар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Фибигер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Луи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Кто первым начал внедрять в медицинскую практику методы статистического анализа результатов вмешательств:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бруссе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кокран",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гавар",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Фибигер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Луи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Кому принадлежит первое описание контролируемых исследований:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бруссе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Луи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кокран",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гавар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фибигер",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Кто разработал технологию выполнения мета-анализа клинических исследований, систематический обзор:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бруссе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кокран",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Луи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гавар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фибигер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Примерами необоснованного лечения не являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровопускание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "препарат Катрекс из акульего хряща",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аспирин при ИБС",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличение физической активности при ИБС",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "электронная таблетка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Показатель, характеризующий надежность информации, приведенной в научном журнале, это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "индекс достоверности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "индекс доверия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "индекс значимости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "индекс цитируемости",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Одной из предпосылок возникновения доказательной медицины, являлось:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ограниченность финансовых ресурсов, выделяемых на здравоохранение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появление новых врачебных специальностей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "совершенствование методов научных исследований",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "развитие математической статистики",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Выборочная совокупность – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "группа, состоящая из относительно однородных элементов, взятых в единых границах времени и пространства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "совокупность, состоящая из всех единиц наблюдения, которые могут быть к ней отнесены в соответствии с целью исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "часть генеральной совокупности, отобранная специальными методами и предназначенная для ее характеристики",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "всех единиц наблюдения, которые могут быть отнесены к ней в соответствии с целью исследования",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Репрезентативность — это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "достаточный объем генеральной совокупности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "достаточный объем выборочной совокупности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "непохожесть выборочной совокупности на генеральную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "способность выборочной совокупности наиболее полно представлять генеральную",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Доказательный подход основан на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "законах Российской Федерации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "личном мнении нескольких академиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анализе научных данных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "предчувствиях большинства врачей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "«Золотым стандартом» медицинских исследований называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перекрестные исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "одиночное слепое исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рандомизированные контролируемые испытания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "парные сравнения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечное исследование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Метод, при котором ни больной, ни наблюдающий его врач не знают, какой из способов лечения был применен, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двойной слепой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тройной слепой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одиночный слепой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плацебоконтролируемый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "открытый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Метод, при котором все знают, какой из способов лечения был применен, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двойной слепой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тройной слепой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одиночный слепой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "открытый",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "полное слепое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Метод, при котором никто не знает, какой из способов лечения был применен, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двойной слепой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тройной слепой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "одиночный слепой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "открытый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "закрытый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Безвредное неактивное вещество, предлагаемое под видом лекарства, которое не отличается от него по виду, запаху, текстуре, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биодобавка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аналог исследуемого препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гомеопатический препарат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плацебо",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "оригинальный препарат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Контролируемое испытание, это исследование:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретроспективное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проспективное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поперечное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перпендикулярное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "одномоментное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Исследование, в котором пациент не знает, а врач знает, какое лечение получает пациент, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плацебоконтролируемым",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "двойным слепым",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тройным слепым",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "простым слепым",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "открытым",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Исследование со случайно отобранной контрольной группой и наличием воздействия со стороны исследователя, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рандомизированное контролируемое клиническое испытание",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нерандомизированное исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обсервационное исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ретроспективное исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клиническое исследование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "В понятие «золотого стандарта» входят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двойные-слепые плацебо-контролируемые рандомизированные исследования",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "простые нерандомизированные исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тройные слепые исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "двойные-слепые нерандомизированные исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неконтролируемое исследование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Исследование, в котором пациенты распределяются по группам случайным образом, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "простое слепое",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нерандомизированное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плацебоконтролируемое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рандомизированное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "двойное слепое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Случайный отбор наблюдений носит название:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рандомизация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "медиана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вероятность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стратификация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "По степени открытости данных, исследование может быть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "открытым или слепым",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "закрытым или слепым",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "открытым или рандомизированным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рандомизированным или мультицентровым",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "параллельным или перекрестным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Испытание фармацевтического препарата проводилось на базе лечебных учреждений различных городов рф, это исследование является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "генеральное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "множественное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полицентрическое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мультицентровое",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "федеральное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "В какой фазе клинических испытаний принимают участие здоровые добровольцы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I фазе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "II фазе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "III фазе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "IV (постмаркетинговой) фазе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фазе доклинических испытаний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "К группам методов медицинской статистики относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сравнительная статистика",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "доказательная статистика",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "описательная статистика",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "математическая статистика",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прикладная статистика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Описательная статистика занимается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сравнением полученных данных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "набором материала",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "описанием и представлением данных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обоснованием полученных результатов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "статистическим анализом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Сбор данных может быть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "оптимизационным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "статическим и динамическим",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "конструктивным и деконструктивным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пассивным и активным",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "результативным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Сравнительная статистика позволяет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "формулировать выводы в виде гипотез или прогнозов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проводить сравнительный анализ данных в исследуемых группах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "проводить набор данных в соответствии с принципами рандомизации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "представлять полученные результаты перед аудиторией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внедрить результаты исследования",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Вариационный ряд — это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ряд числовых измерений признака, расположенных в ранговом порядке и характеризующихся определенной частотой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ряд цифровых значений различных признаков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "генеральная совокупность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "совокупность чисел",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Средняя арифметическая – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "варианта с наибольшей частотой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разность между наибольшей и наименьшей величиной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обобщающая величина, характеризующая размер варьирующего признака совокупности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "варианта, находящаяся в середине ряда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "варианта с маленькой частотой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Медиана – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "варианта с наибольшей частотой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разность между наибольшей и наименьшей величиной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обобщающая величина, характеризующая размер варьирующего признака совокупности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "варианта, находящаяся в середине ряда",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "варианта с маленькой частотой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Сколько людей включает I фаза клинических испытаний:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "около 100",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "200-600",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "700-900",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тысячи пациентов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "100-200",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Сколько людей включает II фаза клинических испытаний:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "около 100",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "200-600",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "700-900",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тысячи пациентов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50-100",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Сколько людей включает III фаза клинических испытаний:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "около 100",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "200-600",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тысячи пациентов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "700-900",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "500",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "При исследовании в одной группе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все пациенты получают одно и то же экспериментальное лечение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пациенты 2х или более групп получают различное лечение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исследование, при котором обследование каждого пациента проводится однократно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "исследование с наличием контрольной группы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "При исследовании в параллельных группах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все пациенты получают одно и то же экспериментальное лечение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пациенты 2х или более групп получают различное лечение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "исследование, при котором обследование каждого пациента проводится однократно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "исследование с наличием контрольной группы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Одномоментное исследование:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все пациенты получают одно и то же экспериментальное лечение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пациенты 2х или более групп получают различное лечение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исследование, при котором обследование каждого пациента проводится однократно",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "исследование, при котором экспериментальное и контрольное лечение получают одни и те же пациенты, с наличием периода отмывки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Перекрестное исследование:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все пациенты получают одно и то же экспериментальное лечение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пациенты 2х или более групп получают различное лечение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исследование, при котором обследование каждого пациента проводится однократно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "исследование, при котором экспериментальное и контрольное лечение получают одни и те же пациенты, с наличием периода отмывки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Продольное исследование:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все пациенты получают одно и то же экспериментальное лечение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "исследование с выделением группы людей, за которыми в течение некоторого времени наблюдают и повторно оценивают их состояние",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "исследование, при котором обследование каждого пациента проводится однократно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "исследование, при котором экспериментальное и контрольное лечение получают одни и те же пациенты, с наличием периода отмывки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "В какой фазе появляются рандомизация и группа контроля:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "II",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "III",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "IV",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "V",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Rакую фазу называют постмаркетинговой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "II",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "III",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "IV",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "V",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "B какой фазе учавствуют здоровые люди:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "II",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "III",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "IV",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "V",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Наиболее надежные по достоверности результаты gозволяет получить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "открытое исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "исследование с «заслеплением» третьих лиц",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двойное-слепое исследование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "простое «слепое» исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полное слепое исследование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Здоровые добровольцы участвуют в исследованиях",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I фазы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "IIa фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "IIb фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "III фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "IV фазы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Модель клинического испытания в одной группе обычно Используется в фазе исследования",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I фазы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "IIa фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "IIb фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "III фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "IV фазы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "К технологии негативного контроля относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "контроль по архивной статистике",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плацебо-контроль",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "активный контроль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контроль погрешностей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Высшую степень в иерархии доказательной медицины занимает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мета-анализ когортных исследований",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "систематический обзор рандомизированных клинических исследований",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обсервационное клиническое исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рандомизированное клиническое исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "исследование случай- контроль",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Для определения прогноза заболевания проводят поиск исследований:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "когортное исследование",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "исследование случай-контроль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "систематические обзоры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "литературные обзоры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Рандомизированное клиническое исследование призвано ответить на вопросы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лучший ли данный препарат, по сравнению с плацебо Или другим лекарственным препаратом, при данном заболевании",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выяснить параметры достоверности и надежности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определить прогноз заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "определить этиологию заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стоимость лечения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "В связи с чем можно утверждать, что в рандомизированном контролируемом исследовании (рки) пациенты, получающие плацебо, не подвергаются обману (неполучают должного лечения):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лечащий врач получает устное согласие пациента на проведение эксперимента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подписывает «информированное согласие пациента» (где предусмотрено его согласие на использование плацебо)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плацебо не оказывает вредного воздействия на организм, поэтому его применение не требует согласия пациента",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подписывает согласие на госпитализацию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "исследование нового препарата разрешено этическим комитетом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Совокупность, состоящая из относительно однородных элементов, объединенных наступлением определенного признака, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "группой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "когортой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "классом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выборкой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отрядом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Последнее место в «иерархии доказательств» занимает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "исследования «случай-контроль»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "когортные исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рандомизированные клинические исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "систематические обзоры и мета-анализы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сообщения об отдельных случаях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Первое место в «иерархии доказательств» занимает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "исследования «случай-контроль»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "когортные исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рандомизированные клинические исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "систематические обзоры и мета-анализы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сообщения об отдельных случаях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Материалы, соответствующие критериям высокого методического качества, представлены в базах данных:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "clinicalevidence",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "embase",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кокрановская библиотека",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "pubmed",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "medline",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Поиск систематических рефератов проверенного качества по всем имеющимся достоверным сведениям по определенной теме проводят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "medline",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кокрановская база данных",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "embase",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "pubmed",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "clinicalevidence",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Международные проблемные группы занимаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "составлением и обновлением кокрановских обзоров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анализом и обобщением данных, относящихся к различным клиническим разделам медицины по областям медицинской деятельности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анализом литературных обзоров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анализом статей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Мультидисплинарные группы занимаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "составлением и обновлением кокрановских обзоров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анализом и обобщением данных, относящихся к различным клиническим разделам медицины по областям медицинской деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "применением специальных методов компиляции, оценки и обобщения результатов испытаний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "анализом литературных обзоров",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Кокрановские рабочие группы по методологии обзоров занимаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "составлением и обновлением кокрановских обзоров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анализом и обобщением данных, относящихся к различным клиническим разделам медицины по областям медицинской деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "применением специальных методов компиляции, оценки и обобщения результатов испытаний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "анализом литературных обзоров",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Группы по областям интересов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "составляют и обновляют кокрановские обзоры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анализ и обобщение данных, относящихся к различным клиническим разделам медицины по областям медицинской деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "применение специальных методов компиляции, оценки и обобщения результатов испытаний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кокрановские подразделения, объединенные по таким аспектам, как условия оказания медицинской помощи, оказание помощи отдельным группам больных , различные уровни медицинской помощи",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Целью клинической эпидемиологии является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разработка методов статистической оценки клинических наблюдений",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "исследование инфекционной заболеваемости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разработка и применение эффективных методов клинического исследования",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "предотвращение возникновения эпидемии и заразных заболеваний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Исследования, опирающиеся на данные из прошлого это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретроспективные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "проспективные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прошлогодние",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продольные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Исследования, в которых сформированную в настоящем группу наблюдают в будущем это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретроспективные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проспективные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "продольные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "параллельные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "открытые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "К эксперементальным исследованиям относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«случай-контроль»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "когортные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "одномоментные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ретроспективное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Исследование, в котором изначально объединенную каким-либо общим признаком выделенную группу людей наблюдают в течение некоторого времени и сравнивают исходы у тех, кто был и не был подвергнут действию изучаемого вмешательства или другого фактора (т.е. экспонирован), либо был подвергнут ему в разной степени называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«случай-контроль»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "когортные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "одномоментные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ретроспективное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Исследования, в которых участники подвергаются однократному обследованию, обычно в течение относительно короткого периода времени, что позволяет в дальнейшем оценить распространенность того или иного исхода, течения заболевания, эффективности диагностики называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«случай-контроль»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "когортные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "одномоментные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ретроспективное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Формулярный список лекарственных средств является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ограничительным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рекомендательным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "законодательным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расширительным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определительным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "В формулярном списке обязательно используются наименования лекарственных средств:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "торговые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "химические",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "генерические",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "принятые в данном лечебном учреждении",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определенные клиническим фармакологом данного учреждения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "При составлении формулярного списка больницы необходимо собрать информацию об использовании лекарств в больнице:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "список десяти главных по стоимости используемых лекарств",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "список зафиксированных побочных эффектов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "данные о смертности в результате использования лекарств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "примеры дублирования лекарств",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "список дженериков используемых в больнице",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "К жизненно важным (vital) препаратам относят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лекарства, важные для спасения жизни, имеющие опасный для жизни синдром отмены, постоянно необходимые для поддержания жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лекарства, эффективные при лечении менее опасных, но серьезных заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лекарства для лечения легких заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лекарства сомнительной эффективности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дорогостоящие лекарства с симптоматическими показаниями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Необходимые (essential) это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лекарства, важные для спасения жизни, имеющие опасный для жизни синдром отмены, постоянно необходимые для поддержания жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лекарства, эффективные при лечении менее опасных, но серьезных заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лекарства для лечения легких заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лекарства сомнительной эффективности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дорогостоящие лекарства с симптоматическими показаниями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Второстепенные (non-essential) это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лекарства, важные для спасения жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лекарства, имеющие опасный для жизни синдром отмены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лекарства постоянно необходимые для поддержания жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лекарства, эффективные при лечении менее опасных, но серьезных заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лекарства для лечения легких заболеваний, лекарства сомнительной эффективности, дорогостоящие лекарства с симптоматическими показаниями",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Фтк решает следующие вопросы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мониторинг побочных эффектов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оценка использования лекарств",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "применение лекарств, находящихся на клинических испытаниях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отношения сотрудников больницы и представителей фармацевтических компаний и дистрибьюторов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Формуляр — это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Справочник лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Закупочный список лекарств",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Список жизненно-важных необходимых лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Справочник по специальности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ограниченный список лекарственных препаратов, рекомендованный к применению в конкретной медицинской организации или на территории субъекта РФ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Формулярный справочник (формуляр) —это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Руководство по назначению (и отпуску) отобранных ЛП",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Справочник лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Закупочный список лекарств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Список жизненно-важных необходимых средств",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Справочник по специальности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Формулярная система является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ограниченным списком лекарственных препаратов, рекомендованных к применению в конкретной медицинской организации или на территории субъекта РФ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Руководством по назначению (и отпуску) отобранных лекарственных препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Системой контроля за движением ЛС, начиная с их поступления в аптеку, затем в отделение и до момента выдачи конкретному больному",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Списком жизненно-важных необходимых лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Системой разработки и внедрения формуляров лекарственных препаратов в целях повышения качества лекарственного лечения и оптимизации затрат на оказание медицинской помощи",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Непрямые затраты на лечение включают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "затраты на приобретение лекарственных препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "затраты, связанные с использованием оборудования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "затраты на оплату труда медицинских работников",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "затраты, связанные с потерей производительности",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "затраты, связанные с лечением осложнений терапии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Фармакоэкономический показатель эффективности лечения может выражаться стоимостью одного спасенного года жизни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при анализе стоимость-прибыль",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при анализе стоимость-эффективность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при анализе минимизации стоимости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при анализе стоимость-утилитарность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при анализе прямых затрат на лечение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "С точки зрения анализа минимизации стоимости наиболее эффективным будет препарат:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладающий наибольшей клинической эффективностью при меньшей стоимости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладающий одинаковой клинической эффективностью, но меньшей стоимостью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обладающий меньшей клинической эффективностью и меньшей стоимостью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладающий наибольшей клинической эффективностью и большей стоимостью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обладающий меньшей клинической эффективностью и большей стоимостью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "С помощью анализа стоимость- эффективность обычно определяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "какой препарат следует применить, чтобы сэкономить денежные средства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "какой препарат следует применить, чтобы получить наибольшую клиническую эффективность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "какую сумму денег надо дополнительно затратить, чтобы получить определенное клиническое преимущество",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "какой препарат дешевле",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "какой препарат дороже",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Фармакоэкономический анализ минимизации стоимости применяется в тех случаях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "когда сравниваемые методы лечения имеют различную стоимость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "когда сравниваемые методы лечения имеют различную клиническую эффективность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "когда сравниваемые методы лечения имеют одинаковую клиническую эффективность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "когда трудно установить клиническую эффективность сравниваемых методов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "когда сравниваемые методы лечения имеют одинаковую стоимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Фармакоэкономический анализ стоимость утилитарность оценивает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стоимость одного года спасенной жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стоимость одного года жизни, прожитого с абсолютным качеством жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стоимость предотвращения одного осложнения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стоимость предотвращения одного осложнения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "общественную пользу эффективного лечения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "С точки зрения анализа минимизации стоимости наиболее эффективным будет препарат:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладающий наибольшей клинической эффективностью при меньшей стоимости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладающий одинаковой клинической эффективностью, но меньшей стоимостью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обладающий меньшей клинической эффективностью и меньшей стоимостью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладающий наибольшей клинической эффективностью при высокой стоимости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "К экономически эффективному лечению можно отнести:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "применение блокаторов рецепторов ангиотензина ii у больных с мягкой артериальной гипертонией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "применение ингибиторов ангиотензин-превращающего фермента у больных с хронической застойной сердечной недостаточностью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "применение мегадоз витаминов у больных с заболеваниями сердечно-сосудистой системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "применение рибоксина у больных дисгормональной миокардиодистрофией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применение витамина е у больных ишемической болезнью сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Экономические исходы представляют собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совокупность материальных и нематериальных затрат, связанных с выполнением анализируемых фармакотерапевтических вмешательств",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "регистрируемые лечащим врачом объективные изменения состояния пациента, которые достигаются в результате применения лечения, являясь показателями его эффективности и безопасности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "субъективно оцениваемые самим пациентом влияния проведенного лечения на его функциональный статус",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оцениваемое качество жизни, которое может измеряться по нескольким критериям",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "О доказательной и признанной эффективности метода или вмешательства свидетельствует класс клинических рекомендаций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I класс",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "IIa класс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "IIb класс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "III класс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "IV класс",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Результаты небольших исследований, ретроспективные исследования, общее мнение экспертов соответствует уровню доказательности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "E",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Результаты нескольких рандомизированных исследований соответствуют доказанности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "E",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Какой метод фармакоэкономического анализа используется для оценки результатов двух и более альтернативных методов лечения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Анализ стоимости болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Анализ затраты-эффективность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Анализ затраты - полезность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Анализ затраты – выгода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "VEN-анализ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Какой метод фармакоэкономического анализа используется для оценки влияния лечения на качество жизни пациента?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Анализ стоимости болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Анализ затраты-эффективность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Анализ затраты - полезность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Анализ затраты – выгода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "АВС-анализ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "К какому классу лекарственных средств будут относиться препараты, на которые затрачено до 80% средств бюджета учреждения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "А и В",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "К какому классу будут относиться препараты, применения которых при данном заболевании не показано?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "V",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Е",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "N",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "V и E",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Какой метод фармакоэкономического анализа используется для оценки потерь рабочего времени?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Затраты-эффективность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Затраты - полезность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Затраты - выгода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Моделирование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Анализ стоимости болезни",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Потенциальная польза для пациентов от клинических рекомендаций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "улучшение прогноза заболевания, снижение заболеваемости и смертности, улучшение качества жизни или ее отдельных аспектов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "улучшение качества клинических решений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "основание для повышения эффективности методов лечения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "создание стандартов медицинской помощи и протоколов ведения пациентов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рациональное финансирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Потенциальная польза для врачей от клинических рекомендаций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "улучшение прогноза заболевания, снижение заболеваемости и смертности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "улучшение качества жизни или ее отдельных аспектов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "улучшение качества клинических решений. КР, созданные на основе доказательной медицины помогают сделать выбор в пользу наиболее эффективных методов или способов лечения, обращают внимание врача на методы с недоказанной эффективностью, а также опасные или в целом бесполезные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "создание стандартов медицинской помощи и протоколов ведения пациентов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рациональное финансирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Потенциальные ограничения для пациентов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "часто возникают ситуации, когда вмешательство, в целом необходимое для популяции или больных с определенной нозологией, не применимо у конкретного пациента",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "составленные или написанные не соответствующим образом КР могут предоставить врачу неверную научную информацию, ввести в заблуждение при принятии решения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "система здравоохранения и страховые компании могут отказаться от использования КР, если это чревато увеличением расходов на дорогостоящие обследования и вмешательства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "система здравоохранения и страховые компании могут пострадать при использовании КР, если увеличат расходы на дорогостоящие обследования и вмешательства, не приносящие реальную пользу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Потенциальные ограничения для врачей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "часто возникают ситуации, когда вмешательство, в целом необходимое для популяции или больных с определенной нозологией, не применимо у конкретного пациента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "составленные или написанные не соответствующим образом КР могут предоставить врачу неверную научную информацию, ввести в заблуждение при принятии решения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "система здравоохранения и страховые компании могут пострадать при использовании КР, если увеличат расходы на дорогостоящие обследования и вмешательства, не приносящие реальную пользу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возможны ситуации, когда клинические рекомендации не содержат решения для пациентов с определенной нозологией или не применимо у конкретного пациента",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Потенциальные ограничения для здравоохранения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "часто возникают ситуации, когда вмешательство, в целом необходимое для популяции или больных с определенной нозологией, не применимо у конкретного пациента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "составленные или написанные не соответствующим образом КР могут предоставить врачу неверную научную информацию, ввести в заблуждение при принятии решения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "система здравоохранения и страховые компании могут пострадать при использовании КР, если увеличат расходы на дорогостоящие обследования и вмешательства, не приносящие реальную пользу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "возможны ситуации, когда клинические рекомендации не содержат решения для пациентов с определенной нозологией или не применимо у конкретного пациента",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Отхождение от клинических рекомендаций в России",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "карается в случае наступления общественно опасных последствий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "карается всегда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "карается исключительно в случае смерти пациента",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "никак не преследуется",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "штрафуюется работником фомса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Выберите верное утверждение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Актуальные клинические рекомендации размещены на сайте Минздрава",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Актуальные клинические рекомендации рассылает раз в год региональный минздрав",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Актуальные клинические рекомендации передает клиникам Росздравнадзор в информационных письмах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Актуальные клинические рекомендации издаются в виде сборника для продажи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Актуальные клинические рекомендации служат учебным пособием для среднего медперсонала",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Что такое минимальная токсическая доза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "максимальное количество препарата, не вызывающее токсическое действие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "доза, которая вызывает оптимальное терапевтическое или профилактическое действие у большинства больных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "доза, которая вызывает минимальные патофизиологические изменения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "доза, которая вызывает летальный исход в 10% наблюдений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "доза, которая вызывает интоксикацию или отравление в 50% наблюдений",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Выраженность каких побочных эффектов мало зависит от дозы вещества",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергической природы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неаллергической природы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "канцерогенные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Определить вид нежелательных эффектов лекарственных веществ: мало зависят от дозы, возникают, как правило, при повторных введениях лекарственных веществ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "побочные эффекты неаллергической природы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "побочные эффекты аллергической природы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "токсические эффекты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "идиосинкразия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Привыкание к лекарственному препарату может быть следствием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Психической зависимости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повышение метаболизма в печени",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Угнетение выведения препарата почками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Активирования молекулы в печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Привыкание к лекарственному веществу может быть следствием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Индукции микросомальных ферментов печени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Повышения чувствительности рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ингибирования микросомальных ферментов печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снижение канальцевой секреции в почках",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Как называется явление, когда отмена препарата вызывает серьезные психические и соматические нарушения, связанные с расстройством функций многих систем организма вплоть для смертельного исхода",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Синдром отдачи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сенсибилизация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Абстиненция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Идиосинкразия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Определить вид нежелательных эффектов лекарственного вещества: усиливаются с увеличением дозы, возникают при введении вещества в терапевтических дозах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "побочные эффекты связанные в фармакологическими свойствами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "побочные эффекты аллергической природы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсические эффекты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "идиосинкразия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Что характерно для побочных эффектов аллергической природы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникают при использовании вещества в любой дозе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "относятся к спектру фармакологического действия лекарственного вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обычно возникают при первом введении лекарственного вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возникают при использовании вещества в большой дозе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Как называется врожденная гиперчувствительность организма к ЛС:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "идиосинкразия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тератогенность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эмбриотоксичность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Как называется приобретенная гиперчувствительность организма к ЛС:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "идиосинкразия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аллергия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "индивидуальная непереносимость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сенсибилизация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Что лежит в основе идиосинкразии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "врожденная патология внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тяжелая черепно-мозговая травма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "генетически детерминированная недостаточность ферментов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "формирование зависимости к лекарственному средству",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "На какой по счету прием ЛС развивается идиосинкразия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на первый прием ЛС",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на повторный прием ЛС",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по завершении курса приема ЛС",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не имеет значения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Нежелательные эффекты лекарственного вещества, возникающие при его применении в дозах, превышающих терапевтические, называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "побочным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсическим действием",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "идиосинкразией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тератогенным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мутагенным действием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Токсическое действие не возникает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при передозировке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при кумуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при патологии печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при патологии почек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "частом применении небольших доз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Терапевтическим лекарственным мониторингом называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Контроль за скоростью выведения препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Контроль за правильностью введения препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Контроль за равновесной концентрацией препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Контроль за динамикой концентрации препарата в крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Для побочных фармакологических эффектов характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Возникают при применении вещества в терапевтических дозах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Их выраженность не зависит от дозы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Их выраженность возрастает с уменьшением дозы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Их выраженность зависит от пути введения препарата",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Тератогенное действие — это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Токсическое действие на печень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Отрицательное действие на плод, ведущее к врожденным уродствам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Токсическое действие на кроветворение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Токсическое действие на почки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Мутагенное действие препарата – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Действие на сердечно-сосудистую систему",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Действие на микросомальные ферменты печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Действие на половые клетки с изменением генетического аппарата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Действие на основной обмен веществ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "О побочном эффекте в фармаконадзор сообщают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не позднее 15 календарных дней со дня, когда стала известна соответствующая информация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в течение 24 ч после получения сведений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не позднее 30 календарных дней со дня, когда стала известна соответствующая информация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "если побоный эффект несет угрозу жизни пациента",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "О смертном случае в результате побочного эффекта в фармаконадзор сообщают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не позднее 15 календарных дней со дня, когда стала известна соответствующая информация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в течении 24 ч после получения сведений",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в течении 3 суток после получения сведений",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не позднее 7 дней со дня получения информации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Тахифилаксия – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение чувствительности к лекарственному веществу при повторных введениях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "необычная реакция на лекарственное вещество при его первом введении",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ослабление эффекта лекарственного вещества после его непродолжительного применения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение эффекта лекарственного вещества после его введения с небольшими интервалами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Непреодолимое стремление к повторным приемам лекарственного вещества характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кумуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тахифилаксии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лекарственной зависимости",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "привыкания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Фетотоксическое действие – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неблагоприятное действие на плод, не приводящее к развитию врожденных уродств",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неблагоприятное действие на эмбрион, не приводящее к развитию врожденных уродств",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "действие на эмбрион, приводящее к развитию врожденных уродств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "действие на эмбрион, приводящее к развитию опухолей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Мутагенное действие лекарственного вещества – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неблагоприятное действие на эмбрион, приводящее к врожденным уродствам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повреждение генетического аппарата, приводящее к изменению генотипа потомства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неблагоприятное действие на эмбрион, не вызывающее врожденных уродств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "действие на плод, приводящее к развитию опухолей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Наиболее безопасно во время беременности применение следующих антимикробных препаратов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитрофураны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пенициллины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Ко-тримоксазол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фторхинолоны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "К отсроченным относится следующая группа побочных эффектов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсические",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "развитие лекарственной зависимости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фармакогенетические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "канцерогенные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "синдром отмены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Побочные эффекты группы А это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прогнозируемые",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Непрогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мутагенность, тератогенность, канцерогенность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Зависимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Побочные эффекты группы В это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Непрогнозируемые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Мутагенность, тератогенность, канцерогенность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Зависимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Побочные эффекты группы С это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Непрогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мутагенность, тератогенность, канцерогенность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Зависимость",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Побочные эффекты группы D это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Непрогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мутагенность, тератогенность, канцерогенность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Зависимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Источником информации о нежелательных побочных реакциях не являются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спонтанные сообщения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "добровольное или законодательно оговоренное информирование регуляторных органов об обнаруженных побочных эффектах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спонтанные сообщения поступающие в службу фармаконадзора от медицинских и фармацевтических работников, производителей ЛС, держателей регистрационных удостоверений на ЛС, а также от потребителей и пациентов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "данные медицинских публикаций",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Если по результатам мониторинга безопасности будет установлено, что применение ЛС представляет угрозу жизни или здоровью пациентов, министерство здравоохранения РФ принимает решение о/об:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "приостановлении применения ЛС",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внесении изменений в инструкцию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изъятии из обращения ЛС",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повторных клинических исследованиях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Синдром «красной шеи» при быстром внутривенном введении ванкомицина относится к побочным реакциям:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тип А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тип В (аллергические реакции)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тип В (псевдоаллергнические реакции)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тип С",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тип D",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Наркомания относится к побочным реакциям:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тип А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тип В",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тип С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тип D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тип Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Укажите, к какому типу побочных реакций относится идиосинкразия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Укажите, к какому типу побочных реакций относится анафилактический шок:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Укажите, к какому типу побочных реакций относится печеночная недостаточность при передозировке парацетамола:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Укажите, к какому типу побочных реакций относится развившаяся лекарственная зависимость:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "К лекарственной аллергии могут привести все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Назначение ЛС в высоких терапевтических дозах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Длительное лечение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Полипрагмазия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Назначение терапевтических доз, на короткий срок лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Детский и старческий возраст",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Для снижения риска развития НЛР необходимо учитывать все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Возраст",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Вредные привычки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Образование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Питание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "При приеме каких из перечисленных ЛС может развиться НЛР в виде лекарственной зависимости",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ненаркотические анальгетики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Барбитураты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Отхаркивающие средства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Муколитики",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Антибиотики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Побочные эффекты группы А это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прогнозируемые",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Непрогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мутагенность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тератогенность, канцерогенность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лекарственная зависимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Побочные эффекты группы В это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Непрогнозируемые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Мутагенность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тератогенность, канцерогенность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лекарственная зависимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Побочные эффекты группы С это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Непрогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мутагенность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тератогенность, канцерогенность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лекарственная зависимость",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "К бактерицидным антибиотикам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цефотаксим",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "доксициклин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритромицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "линкомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "азитромицин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "ПРИМЕНЕНИЕ, КАКИХ АНТИМИКРОБНЫХ ПРЕПАРАТОВ НАИБОЛЕЕ БЕЗОПАСНО ПРИ БЕРЕМЕННОСТИ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ко-тримазол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нитрофураны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пенициллины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фторхинолоны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "ДЕЙСТВИЕ ПЕНИЦИЛЛИНОВ НА БАКТЕРИИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериостатическое",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактерицидное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бактерицидное или бактериостатическое в зависимости от возбудителя",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактерицидное или бактериостатическое в зависимости от дозы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бактерицидное или бактериостатическое в зависимости от пути введения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "ПРИМЕНЕНИЕ КЛАВУЛАНОВОЙ КИСЛОТЫ В СОЧЕТАНИИ С АМОКСИЦИЛЛИНОМ ПОЗВОЛЯЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "защитить амоксициллин от действия пенициллиназ бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "защитить амоксициллин от действия бета-лактамаз бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "защитить амоксициллин от действия желудочного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "защитить амоксициллин от действия эндотоксина бактерий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Активны против атипичных возбудителей (микоплазма, хламидии, легионеллы):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макролиды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пенициллины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метронидазол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Укажите антибиотик, не обладающий анти-синегнойной активностью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "меропенем",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цефазолин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тикарциллин (клавуланат)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ципрофлоксацин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цефтазидим",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Какие из перечисленных антибиотиков целесообразно использовать при лечении инфекций, вызванных метициллинчувствительным стафилококком?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ампициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оксациллин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амоксициллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Укажите антибактериальные препараты, обладающие антианаэробной активностью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гентамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хлорамфеникол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метронидазол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "цефотаксим",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Антимикробная терапия до получения результатов микробиологического исследования:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "патогенетическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "этиотропная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмпирическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "симптоматическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "заместительная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Для возбудителей нозокомиальных инфекций характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "более высокий уровень резистентности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "легко прогнозировать вид возбудителя до получения результатов бакпосева",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "флора чаще смешанная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "чувствительно к пенициллинам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Антимикробная терапия после получения результатов микробиологического исследования:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "патогенетическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "этиотропная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эмпирическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "симптоматическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "заместительная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "ЧЕРЕЗ СКОЛЬКО ДНЕЙ ПРОВОДИТСЯ ЗАМЕНА АНТИБИОТИКА В СЛУЧАЕ ЕГО НЕ ЭФФЕКТИВНОСТИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2-3",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "5-7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3-4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Какой из перечисленных цефалоспоринов 3 поколения обладает наиболее длительным антибактериальным эффектом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Цефотаксим (клафоран)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цефтриаксон (роцефин)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Цефтазидим (фортум)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Цефтизоксим (эпоциллин)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Цефоперазон (цефобид)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Укажите препараты, дозы которых можно не корригировать при ХПН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гентамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цефоперазон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Доксициклин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Цефазолин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ванкомицин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Выберите группу антибактериальных препаратов для лечения инфекций, вызванных внутриклеточными возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макролиды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Пенициллины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Цефалоспорины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Сульфаниламиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Для возбудителей нозокомиальных инфекций характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "более высокий уровень резистентности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Легко прогнозировать вид возбудителя до получения результатов бакпосева",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Флора чаще смешанная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Чувствительны к пенициллинам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Для лечения пневмонии антибиотик выбирается с учетом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "длительности заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "этиологии инфекционного процесса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сопутствующих заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возраста",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "объема поражения легочной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Препаратами выбора для лечения пневмококковой пневмонии являются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пенициллины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фторхинолоны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тетрациклины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цефалоспорины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Эффективность антибактериальной терапии оценивается через",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на вторые сутки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "через 3 суток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через 7 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через 2 недели",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Лечение легионеллезной пневмонии проводится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пенициллинами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цефалоспоринами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макролидами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тетрациклинами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аминогликозидами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Препаратом выбора для лечения микоплазменных и хламидийных пневмоний является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "азитромицин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тинидазол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гентамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цефтриаксон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "ПРЕПАРАТОМ ВЫБОРА ПРИ КРУПОЗНОЙ ПНЕВМОНИИ ЯВЛЯЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ципрофлоксацин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гентамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цефотаксим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бензилпенициллин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "КАКОЙ МИКРООРГАНИЗМ ЧАЩЕ ВСЕГО ВЫЗЫВАЕТ ВНЕБОЛЬНИЧНУЮ ПНЕВМОНИЮ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "золотистый стафилококк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмококк",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клебсиелла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Каковы причины появления доказательной медицины:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение объема и доступа к научной информации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нехватка средств, связанная с ростом расходов на здравоохранение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "необходимость опереться на индивидуальный врачебный опыт",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "необходимость опереться на мнение авторитетных экспертов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "необходимость опереться на мнение авторитетных врачей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "На чем базируется концепция дм:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "каждое клиническое решение должно приниматься с учетом научных данных",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вес каждого факта тем больше, чем строже методика научного исследования, в ходе которого он был получен",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "опыте авторитетных врачей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "законах российской федерации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "индивидуальном мнении эксперта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Чем обусловлена необходимость изучения и овладение принципами доказательной медицины:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "неуклонное увеличение объема научной информации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "постоянно ощущается нехватка средств, связанная с ростом расходов на здравоохранение, которая усугубляется финансово-экономическим кризисом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "из того, что делают врачи и медицинские сестры, лишь 20%обосновано данными клинических испытаний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "законом рф",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствием индивидуального подхода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "В отношении пациента доказательная медицина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "никак не влияет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обеспечивает защищённость",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижает защищённость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ухудшает прогноз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "улучшает прогноз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Доказательная медицина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мешает работе врача",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "незначительно упрощает работу врача",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "никак не влияет на работу врача",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сильно упрощает работу врача",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "повышает качество работы врача",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Доказательные данные в настоящее время",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "никак не соотносятся с практической медициной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "применяются только в научных исследованиях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "являются основой медицинского процесса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "служат основой для составления клинических рекомендаций",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "являются базой для обновления учебников",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Соотнесите основные принципы подходов в клинической практике врача:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "традиционный подход=знания о заболевания, диагностических тестах и эффективности лечения основаны на бессистемных клинических наблюдениях самого врача и отдельных экспертов\\единственное руководство для принятия клинических решений – знания об основных механизмах заболевания и патофизиологических принципах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "принцип доказательной медицины=использование систематических клинических наблюдений для принятия решений\\правильная интерпретация и использование научной литературы для принятия клинических решений и стратегии лечения\\новый подход придает меньшее значение авторитету отдельных экспертов, но не отвергает его. Врачам следует критически анализировать любую информацию, прежде чем использовать ее в работе с пациентами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Сопоставьте ученых и их вклад в развитие доказательной медицины:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бруссе=кровожаднейший врач в истории медицины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Кокран=разработал технологию выполнения мета анализа клинических исследований, систематический обзор",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гавар=начал внедрять в медицинскую практику методы статистического анализа результатов вмешательств",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Фибигер=первое описание контролируемых исследований",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Луи=внедрил в клиническую практику количественный метод оценки эффективности профилактических и лечебных подходов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Соотнесите вид вмешательства и его обоснованность:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обоснованный вид вмешательства=антибиотики для лечения хеликобактер пилори\\антикоагулянты при инфаркте миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "необоснованный вид вмешательства=рибоксин при заболеваниях сердца\\кровопускание при дизентерии\\лоботомия при шизофрении",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "Упорядочите пять основных шагов для работы врача в рамках доказательной медицины в порядке возрастания:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1=четкая формулировка клинического вопроса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2=поиск научной литературы. Хороший источник информации содержит высококачественные данные о пользе и рисках всех возможных вмешательств, клинически применим и удобен для пользователя",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3=критическая оценка информации: валидности, клинической значимости и применимости результатов исследований",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4=применение полученной информации в практике. Вопросы, которые важно задать перед принятием клинического решения: похожи участники исследования на моего пациента? Доступно ли предложенное лечение? Какие есть альтернативы? Какие риски для пациента?",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "5=оценка результата. Важно оценить, как использование данных исследований повлияло на пациента и насколько это соответствует результатам этих исследований",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Добиться однородности основной и контрольной групп Лечения позволяют методы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "стратификации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ослепления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плацебо-контроля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рандомизации",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "статистики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "К истинным критериям относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уровень ад",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уровень чсс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смерть",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "улучшение качества жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "уровень холестерина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "К суррогатным критериям относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ад",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "чсс",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "смерть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "улучшение качества жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выздоровление",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Формирование выборки основано на критериях:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "включения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обоснования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исключения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "формирования",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рандомизации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Недостатками исследования в параллельных группах являются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокая затратность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "необходимость большого числа анализируемых характеристик",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "необходимость включения большого количества больных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "смешение эффектов разных видов лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отсутствие контрольной группы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "К серьезным нежелательным явлениям безусловно относятся",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление аномальных значения лабораторных показателей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "угрожающее жизни состояние",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "смерть",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "продление текущей госпитализации",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "снижение аппетита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Цели III фазы клинических исследований:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Подтверждение эффективности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Мониторинг побочных эффектов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Расчёт себестоимости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Разработка рекламы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Подтверждение безопасности у широкой популяции",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "Какие группы подвергаются исследованиям в клинических фазах?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Здоровые добровольцы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Пациенты с заболеванием",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ветеринары",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Лаборанты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Производители",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "Какие из следующих требований обязательны перед началом клинических испытаний?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Одобрение этического комитета",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Регистрация в Минздраве",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Подписание информированного согласия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Наличие рекламы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Обсуждение с фарм компаниями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "Что изучается на доклиническом этапе?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Тератогенность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Канцерогенность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Острая токсичность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Влияние на маркетинг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Стоимость препарата",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "Методы, применяемые в доклинических исследованиях:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "In vitro",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "In vivo",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "In silico",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Информированное согласие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Сравнение с конкурентами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Соотнесите фазу клинических исследований и ее характеристики:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1 фаза=Изучение фармакокинетики у пациентов\\Исследования на здоровых добровольцах (50-100 человек)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2 фаза=Первые контролируемые исследования на больных 100-300 человек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3 фаза=Рандомизированные двойные слепые контролируемые исследования на больших группах пациентов (1000- 3000 человек)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4 фаза=Дополнительное изучение эффективности и безопасности препарата в процессе его рутинного использования",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Соотнесите роли участников исследований:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Спонсор=Организация и финансирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Этический комитет=Контроль этики и защиты прав",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Доброволец=Участие в испытании",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Исследователь=Проведение испытания по протоколу",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Пациент=Проведение испытания по протоколу",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "ПРИЧИНЫ «ВЫПАДЕНИЯ» ПАЦИЕНТОВ ИЗ КЛИНИЧЕСКИХ ИСПЫТАНИЙ",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Низкий комплаенс у пациента к препарату",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Исключение пациента врачом по клиническим показаниям",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Невозможность последующего наблюдения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Смерть",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "высокие расходы на исследование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "Какие указатели используются в поисковике:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "указатель немедицинских предметных рубрик (nonmeshtranslationtable)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "указатель журналов (journalstable)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "указатель фраз (phraselist)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "авторский указатель (authorindex)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "указатель страны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "Описательные исследования (количественные)",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обзор и оценка использования лекарственных средств",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обзоры потребления лекарственных средств",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "программы использования лекарственных средств",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стоимость лечения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стоимость болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "К источникам информации доказательной медицины относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "материалы публикаций в научно-популярных изданиях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "систематические обзоры",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "краткие обзоры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "системные источники информации: статьи, практические руководства, справочники доказательной медицины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "литературные обзоры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "К аналитическим исследованиям относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анкетирование",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экспериментальные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обсервационные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поперечные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "интервью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "К описательным исследованиям не относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "история болезни исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экспериментальные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обсервационные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "корреляционные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "анкетирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "cochrane library состоит из:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кокрановский регистр контролируемых исследований",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "база данных кокрановских систематических обзоров",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "база литературных обзоров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "база данных, посвященная научному синтезу, принципам и методологии проведения систематических обзоров",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "база данных успешных случаев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "В клиническом вопросе отражены следующие составляющие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вмешательство (предпринимаемые меры воздействия)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сравнение вмешательств (воздействий)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "исходы (результаты)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "анализ ситуации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стоимость вмешательства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 200,
+				"text": "К обсервационным исследованиям относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "«случай-контроль»",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "когортные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сообщения о случаях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "одномоментные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "перпендикулярные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 201,
+				"text": "Требования к структуре исследования:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие контрольной группы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ясные критерии отбора (включения и исключения) больных",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "включение больных в исследование до рандомизации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не случайный(специальный) метод распределения больных по группам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "включение в группы больных разного возраста",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 202,
+				"text": "Требования к структуре исследования:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "длительность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "\"слепое\" лечение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "\"слепая\" оценка результатов лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "неясные критерии отбора",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хороший результат исследования",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 203,
+				"text": "Причины «выпадения» пациентов из клинических испытаний",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие ожидаемого эффекта в процессе испытания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подозрение на побочный эффект от приема экспериментального лекарственного препарата",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижение мотивации у пациента («я не хочу больше принимать эти таблетки»)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "исключение пациента врачом по клиническим показаниям",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "снижение комплаенса (приверженности к лечению) в процессе испытания",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "Установите правильную последовательность в порядке убывания иерархию доказательной медицины:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1=Систематический обзор и метаанализ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2=Рандомизированных клинических исследований",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3=Когортные исследования",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4=Исследования типа «случай контроль»",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "5=Сообщение об отдельных случаях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 205,
+				"text": "Установите соответствия между фазой клинического исследования и характеристикой:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "I ФАЗА=установить безопасность и определить фармакокинетический и ФД профили у человека",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "II ФАЗА=оценить эффективность и краткосрочную безопасность у пациентов с заболеванием, для лечения которого и предполагается использовать новый препарат, а также определить режимы дозирования",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "III ФАЗА=установить баланс между безопасностью и эффективностью и определить общую и относительную терапевтическую ценность в условиях, близких к реальному использованию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "IV ФАЗА=изучить отдаленную безопасность, получить сведения о редких нежелательных реакциях\\выработать стратегию дальнейшего развития препарата",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 206,
+				"text": "Установите соответствия между видом клинического исследования и его характеристикой:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Обсервационное исследование=исследование, в котором изначально объединенную каким-либо общим признаком выделенную группу людей наблюдают в течение некоторого времени и сравнивают исходы у тех, кто был и не был подвергнут действию изучаемого вмешательства или другого фактора, либо был подвергнут ему в разной степени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Описание серии случаев=исследование, в котором представлен количественный анализ (чаще всего с применением описательной статистики) группы больных численностью 10 человек и более",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Исследование «случай — контроль»=ретроспективное исследование, в котором по архивным данным, воспоминаниям или суждениям пациентов сравнивают две группы: в одну отобраны пациенты е определенной патологией, а в другую — без нее",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Когортное исследование=Проспективное исследование, которое используется для выявления причин заболевания, установления связей между факторами риска и их последствий для здоровья",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Исследование до-после=Исследование, в ходе которого сравнивают состояние участников до и после изучаемого вмешательства",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 207,
+				"text": "При составлении формуляра прежде всего, необходимо собрать информацию об использовании лекарств в больнице:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "годовой бюджет на лекарственные закупки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "процентное соотношение бюджета на лекарственные закупки и общего годового бюджета больницы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "общее количество используемых больницей лекарственных средств",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стоимость дженериков использованных в прошлом году",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "количество пациентов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 208,
+				"text": "ВОЗМОЖНЫЕ ОГРАНИЧЕНИЯ ПО ИСПОЛЬЗОВАНИЮ ПРЕПАРАТА:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ограничения по диагнозу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Ограничения по уровню квалификации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Фармакологические ограничения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Этические ограничения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Локальныеограничения",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 209,
+				"text": "ФТК решает следующие вопросы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "критерии отбора лекарственных препаратов для формуляра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внесение и исключение лекарств из формуляра",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "требования к заполнению листов назначений",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "использование клинических рекомендаций",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "стоимости лекарств",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 210,
+				"text": "Разработка формулярного списка лекарственных средств включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Анализ структуры заболеваемости и состояния лекарственного обеспечения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Отбор лекарственных средств для формулярного списка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Утверждение формулярного списка лекарственных средств",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Установление поставщиков лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Штатное расписание фармацевтической службы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 211,
+				"text": "Соотнесите торговые и генерические названия препаратов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аспирин\\нурофен\\найз=торговое",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ацетилсалициловая кислота\\амоксициллин=генерическое",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 212,
+				"text": "Целью введения формулярной системы в больнице является:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "оптимизация фармакотерапии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение числа врачебных ошибок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обеспечение соответствия между государственными обязательствами, финансовыми возможностями и бюджетными затратами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Повышение квалификации врачей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Улучшение коплаентности пациентов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 213,
+				"text": "Правила работы формулярно-терапевтической комиссии (ФТК) следующие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обоснование потребности в лекарственных средствах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стоимость лекарственного средства должна быть оправдана его эффективностью и безопасностью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "исключение из формуляра дублирующих лекарственных средств",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Расширение списка дженериков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Составление клинических рекомендаций",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 214,
+				"text": "Упорядочите этапы создания формулярного списка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1=собрать данные о заболеваемости (в идеале, 50 основных нозологий) в порядке убывания числа случаев по каждой нозологии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2=подсчитать процент каждого из 50 заболеваний по отношению к общему числу заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3=выбрать лекарства (и данные об их стоимости), которые были использованы для лечения 50 главных заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4=подсчитать процент их стоимости по отношению к стоимости всех лекарственных закупок за исследуемый период",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "5=АВС и VEN анализ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 215,
+				"text": "Соотнесите торговые и генерические названия препаратов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "осельтамивир\\ампициллин=генерическое",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "меронем\\димедрол\\омез=торговое",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 216,
+				"text": "Причины использования генерических наименований:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "генерические наименования более информативны, чем фирменные, и отражают принадлежность к определенному классу и химической структуре",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "назначение генерических препаратов позволяет больничному провизору проводить генерическую замену, тогда как фирменная номенклатура обязывает отпускать только указанное в рецепте средство",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "генерические наименования позволяют закупать препараты у различных поставщиков и, как правило, дешевле фирменных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "легче записывать",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "они эффективнее чем оригинальные препараты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 217,
+				"text": "Классификации исходов (концепция echo):",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "экономические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клинические",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гуманистические",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "промежуточные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отрицательные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 218,
+				"text": "Лечение с большей стоимостью будет менее экономически эффективным, чем лечение с меньшей стоимостью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "когда лечение имеет одинаковую клиническую эффективности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "когда лечение имеет большую клиническую эффективность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "когда лечение имеет меньшую клиническую эффективность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "во всех случаях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "когда клиническую эффективность определить невозможно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 219,
+				"text": "Сопоставьте виды затрат по категориям",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фармакотерапия\\врачебные манипуляции=Прямые",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оплата больничного листа\\расходы социальных служб=Непрямые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "физические, психические способности=Нематериальные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 220,
+				"text": "Прямые затраты на лечение включают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "затраты на приобретение лекарственных препаратов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "затраты, связанные с использованием оборудования",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "затраты на оплату труда медицинских работников",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Затраты, связанные с потерей производительности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Стоимость непроизведенной пациентом продукции выберите правильный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 221,
+				"text": "Нематериальные затраты включают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмоциональные переживания пациента, связанные с болезнью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "психологические аспекты болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "затраты, связанные с терапией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "затраты, связанные с использованием оборудования",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "затраты на оплату труда медицинских работников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 222,
+				"text": "Для кого предназначена результаты фармакоэкономического анализа:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "родственников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "организаторов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "здравоохранения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пациента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "врача",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 223,
+				"text": "Установите соответствие между методами терапии и видом фармакоэкономического анализа:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "метод минимизации затрат=сравнение терапии цефтриаксоном и цефазолином\\сравнение терапии имипенем 500 мг и имипенем 1г",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метод затраты эффективность=терапия омепразолом и ранитидином\\терапия различные схемы терапии хеликобактер пилори\\сравнение терапии артериальной гипертонии ИАПФ и бетаадреноблокаторами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 224,
+				"text": "К основным методам фармакоэкономического анализа относят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "АВС анализ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "VEN анализ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метод минимизации затрат",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "метод затраты эффективность",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "затраты выгода",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 225,
+				"text": "Установите соответствие между методами фармакоэкономического анализа и их определением:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анализ минимизации затрат=сравнения стоимости двух и более вмешательств с равной клинической эффективностью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "анализ затраты эффективность=сравнение стоимости двух и более вмешательств, неодинаковых по эффективности и/или безопасности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анализ «затраты-выгода»=определение финансовой выгоды по отношению к затратам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "анализ «затраты-полезность»=определение соотношения стоимости лечения и его полезности, который основан на всестороннем и комплексном изучении качества жизни и его связи со степенью здоровья пациента",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "АВС-анализ=метод оценки рациональности расходования денежных средств путем распределения закупаемых лекарственных препаратов по трем классам в соответствии с их фактическим потреблением за определенный предыдущий период времени",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 226,
+				"text": "Упорядочите расчет полезности затрат по этапам:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1=Количественное определение субъективной прогностической оценки предпочтений, даваемой пациентом различным состояниям здоровья",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2=Вычисление интегрированного показателя полезности вмешательства с учетом продолжительности периода времени, для которого он был получен",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3=Вычисление соотношения затрат (cost), необходимых для проведения данного лечения и его гипотетической полезности (Ut), выражаемой показателем QALY",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4=Оценка экономической приемлемости терапии при расчете на один год жизни с абсолютным качеством",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 227,
+				"text": "Клинические рекомендации содержат",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "информацию по вопросам профилактики, диагностики, лечения и реабилитации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "последовательности действий медицинского работника",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "схем диагностики и лечения в зависимости от течения заболевания, наличия осложнений и сопутствующих заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Схему патогенеза заболевания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 228,
+				"text": "Цель создания КР",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечение информационной поддержки принятия врачом решений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышение качества оказания медицинской помощи пациенту с тем или иным заболеванием/состоянием/синдромом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "учёт новейших клинических данных и принципов доказательной медицины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Повышение заболеваемости населения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Снижение качества жизни больных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 229,
+				"text": "В состав рабочей группы для обеспечения междисциплинарного подхода могут входить:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "врачи-специалисты – представители основных медицинских специальностей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клинические фармакологи, эпидемиологи, анестезиологи-реаниматологи, медицинский реабилитолог, клинический лаборант, функциональный диагност, профпатологи, судебномедэксперты, организаторы здравоохранения, медицинские сестры и т.д",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "научные сотрудники",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "специалисты в области информационных технологий, социальные работники",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Преподаватели медицинских вузов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 230,
+				"text": "Какие утверждения верны?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Клинические рекомендации (КР) являются результатом длительной совместной работы специалистов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "КР утверждаются профессиональными медицинскими обществами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "КР предназначены для медицинских работников и организаторов здравоохранения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "КР можно использовать для терапии редких заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "КР нельзя использовать для разработки критериев качества и управления лечебно-диагностическим процессом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 231,
+				"text": "Основные принципы разработки клинических рекомендаций (КР):",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "КР не могут противоречить действующему законодательству и нормативно-правовым документам в сфере здравоохранения Российской Федерации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "КР разрабатываются и пересматриваются с учётом принципов доказательной медицины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "КР пересматриваются не реже 1 раза в 3 года",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "КР пересматриваются не реже 1 раза в 5 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрабатываются по инициативе ученых",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 232,
+				"text": "Какие утверждения верны?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "КР доступны для медицинских работников на всей территории Российской Федерации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "КР размещаются в глобальной сети Интернет на общедоступном информационном ресурсе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Сборники КР продаются через книжные магазины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "КР хранятся в городских библиотеках",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "КР разрабатываются сообществами ученых и практических врачей",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 233,
+				"text": "Соотнесите класс рекомендаций и его характеристику",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Класс I=Польза и эффективность диагностического метода или лечебного вмешательства доказаны и/или общепризнанны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Класс II=Противоречивые данные и/или расхождение мнений по поводу пользы/эффективности метода лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Класс IIa=Имеющиеся данные свидетельствуют о пользе/эффективности лечебного вмешательства",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Класс IIb=Польза/эффективность менее убедительны",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Класс III=Имеющиеся данные или общее мнение свидетельствуют о том, что лечение бесполезно/не эффективно и в некоторых случаях может быть вредным",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 234,
+				"text": "Упорядочите этапы ведения пациента с внебольничной пневмонией:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1=обследование и постановка диагноза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2=определение необходимости госпитализации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3=определение рисков резистентности и сопутствующих заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4=подбор антибактериальной терапии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "5=контроль эффективности и безопасности антибактериальной терапии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 235,
+				"text": "Какие утверждения верны?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Клинические рекомендации (КР) должны разрабатываться на основе принципов доказательной медицины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "КР разрабатываются и утверждаются медицинскими профессиональными некоммерческими организациями",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "КР разрабатываются по отдельным заболеваниям или состояниям (группам заболеваний или состояний)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "КР разрабатываются для экспертиов ФОМСа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "КР служат учебным пособием для студентов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 236,
+				"text": "Типы аллергических реакций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "реакция немедленного типа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "реакции замедленного типа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цитотоксическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иммунокомплексная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "псевдоаллергическая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 237,
+				"text": "Побочные эффекты группы D это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "непрогнозируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мутагенность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тератогенность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "канцерогенность",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лекарственная зависимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 238,
+				"text": "К антибиотикам группы карбапенемов относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "карбенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "имипенем",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "меропенем",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "азтреонам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "циластатин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 239,
+				"text": "Особенности аллергических реакций на применение ЛС:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отличаются от фармакологических эффектов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "могут носить перекрестный характер",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не коррелируют с дозой препарата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не отличаются от фармакологических эффектов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не могут носить перекрестный характер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 240,
+				"text": "Лекарственная аллергия:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нежелательна",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "относится к побочным эффектам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "возникает даже в терапевтических дозах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "возникает при введении больших доз препарата",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 241,
+				"text": "Побочные действия, зависящие от дозы препарата:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фармакодинамические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аллергические",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсические",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фармакоэкономические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фармакокинетические",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 242,
+				"text": "Побочные эффекты витамина C включают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование оксалатных камней в почках",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "образование холестериновых камней в почках",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение клиренса мочевой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лейкопению",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритроцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 243,
+				"text": "Строго дозозависимыми являются следующие группы побочных эффектов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фармацевтические",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсические",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Аллергические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мутагенные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синдром отмены",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 244,
+				"text": "Для уменьшения риска развития побочного действия следует учитывать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "принадлежность препарата к определенной фармакологической группе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возраст пациента",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "функциональное состояние органов и систем, участвующих в биотрансформации лекарственного средства и выведении препарата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стоимость препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие сопутствующих заболеваний",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 245,
+				"text": "Установите соответствие между видами отрицательного действия и ситуацией:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергия=У больного ревматизмом, принимающего бензилпенициллина развилось удушье, отек губ и сыпь на коже",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отрицательное действие, связанное с фармакодинамикой=У больного с сахарным диабетом, принимающего инсулин, развилась гипогликемия\\У больного при проведении операции в качестве анальгезирующего средства использован морфин в терапевтических дозировках произошло угнетение дыхания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "канцерогенное действие лекарств=У больного, длительное время проводившего терапию дерматита, развился рак кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "привыкание=Больной, страдающий нарушением акта засыпания, принимает в течение четырех дней снотворный препарат – нитразепам. На пятый день больной отметил, что препарат оказал эффект только при увеличении дозы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 246,
+				"text": "Установить правильную последовательность патогенеза 1 типа аллергических реакций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1=попадание препарата в организм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2=выработка антител класса IgE",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3=образование иммунного комплекса и оседание его на тучных клетках",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4=дегрануляция тучных клеток, с выходом медиаторов воспаления",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "5=клинические проявления",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 247,
+				"text": "Чем характеризуются тератогенные нежелательные явления?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нарушениями процессов эмбриогенеза и возникновениями аномалий развития",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "генетически предопределенные аномальные реакции на лекарственное средство",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "влиянием на плод в 1 триместре беременности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Развитиями аллергических реакций при применении определенных лекарственных препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Развитие аномалий развития совместимых с жизнью",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 248,
+				"text": "Что подразумевает собой понятие толерантность в фармакотерапии?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "потерю или ослабление эффекта препарата во время его регулярного применения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "привыкание к препарату",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ухудшение течения болезни после внезапной отмены лекарственного средства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ухудшения эффекта препарата, связанного с изменением течения самого заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие эффекта при начале введения препарата у отдельных пациентов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 249,
+				"text": "При отмене каких препаратов развивается синдром отмены?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкокортикоидов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "барбитуратов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "противовирусных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наркотических анальгетиков",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 250,
+				"text": "Как влияют курение и алкоголь на эффективность и безопасность лекарств?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Курение усиливает метаболизм лекарств, что может ослабить их эффекты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Курение снижает абсорбцию лекарств",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Алкоголь не влияет на их эффективность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Курение и алкоголь не оказывают значимого влияния на лекарства",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Алкоголь повышает риск гипотонии при приеме антигипертензивных препаратов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 251,
+				"text": "Какие особенности фармакокинетики и фармакодинамики следует учитывать при назначении лекарств пожилым пациентам?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение всасывания и метаболизма препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Снижение секреторной функции пищеварительных желез",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Повышение почечной экскреции лекарств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снижение моторной и всасывательный функции ЖКТ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Усиление чувствительности к препаратам без изменений фармакокинетики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 252,
+				"text": "О чем свидетельствует малое число побочных эффектов у препарата?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "О его высокой безопасности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "О его низкой безопасности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "О его низкой эффективности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "О его высокой эффективности",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 253,
+				"text": "Что относится к побочным реакциям?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сонливость при приеме антигистаминных препаратов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "прекращение кашля при приеме противокашлевых препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение давления при приеме гипотензивных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипокалиемия при приеме диуретиков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выраженная слабость при отмене глюкокортикоидов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 254,
+				"text": "Классификация побочных эффектов лекарственных средств. Сопоставьте типы побочных эффектов с их описаниями:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фармакодинамические=Связаны с фармакологическими свойствами ЛС, такие как ортостатические реакции при антигипертензивных средствах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Токсические=Обычно дозозависимые, связаны с токсичностью для жизненно важных органов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Аллергические (псевдоаллергические)=Непредсказуемые, часто связаны с аллергенностью определенных групп ЛС",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Идиосинкразия=Редкие генетически предопределенные аномальные реакции на ЛС",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Тератогенные и эмбриотоксические=Влияют на развитие плода, изучаются в экспериментах на животных",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 255,
+				"text": "Побочные эффекты и явления, связанные с приемом лекарств. Сопоставьте понятия с их описаниями:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Идиосинкразия=Генетически обусловленная патологическая реакция на определенный лекарственный препарат, возникающая при первом контакте",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Синдром отмены (рикошета)=Ухудшение течения болезни после внезапной отмены лекарственного средства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Лекарственная зависимость=Тяжелое психосоматическое состояние, требующее возобновления приема лекарственного средства, характерно для психотропных и наркосодержащих препаратов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Канцерогенность=Побочные эффекты ЛС, вызывающие развитие злокачественных опухолей",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Мутагенность==Побочные эффекты ЛС, приводящие к развитию генетических нарушений и болезней",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 256,
+				"text": "Какие вопросы должен задать себе врач перед медицинским вмешательством?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "следует ли вмешиваться назначением лекарства в течение заболевания?",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "какие нежелательные лекарственные реакции могут возникнуть в ходе лечения?",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "является ли доза лекарства адекватной состоянию пациента",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хочет ли принимать пациент данный препарат?",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "согласна ли семья пациента с назначением данного препарата?",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 257,
+				"text": "Фармакотерапию каких отдельных групп пациентов надо учитывать при назначении определенного вмешательства?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "подростков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "беременных",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "употребляющих кофе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "старших возрастных",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "новорожденных",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 258,
+				"text": "Какие нежелательные явления могут возникнуть в ходе лечения выбранным препаратом?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "терапевтические",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лечебные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "идиосинкразия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аллергические",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 259,
+				"text": "Для каких препаратов характерно развитие лекарственной зависимости?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "антиангинальных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхолитиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "психотропных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глюкокортикоидов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бета-блокаторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 260,
+				"text": "Для каких препаратов характерно развитие привыкания?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "витаминов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "барбитуратов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "муколитиков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слабительным",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сосудосуживающих ЛС",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 261,
+				"text": "Что включает в себя алгоритм, которого должен придерживаться врач, в выборе и подборе препаратов с позиций доказательной медицины?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "определение терапевтической мишени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "определение стоимости лечения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возможно ли добиться поставленной цели избранным лекарственным средством",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "определение соотношения «риск-польза»",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "определение стоимости болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 262,
+				"text": "Что входит в нежелательные лекарственные явления при терапии?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тератогенные эффекты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "генетические явления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "идиосинкразия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клинические явления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аллергия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 263,
+				"text": "К нежелательным лекарственным явлениям относится:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "токсические",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фармакодинамические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фармакоклинические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лекарственная зависимость",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 264,
+				"text": "Побочные реакции у беременных могут вызывать дозы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лечебные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышенные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "местные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "профилактические",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рекомендованные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 265,
+				"text": "Что такое резистентность?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "непереносимость препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "привыкание к препарату",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "невосприимчивость к препарату",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "зависимость от препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение эффекта в процессе терапии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 266,
+				"text": "Лечение внебольничной пневмонии у лиц молодого возраста следует начинать с",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цефалоспоринов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гентамицина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фторхинолонов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "карбопенемов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "макролидов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 267,
+				"text": "Внебольничная пневмония – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмония, которая развилась вне стационара",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Через 3 дня после поступления в стационар",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Через 5-6 дней после поступления в стационар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через 1 день после поступления в стационар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через 6 мес после пребывания в стационаре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 268,
+				"text": "Внутрибольничная пневмония это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмония, которая развилась вне стационара",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пневмония, которая развилась через 3 дня после поступления в стационар",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пневмония, которая развилась через 5-6 дней после поступления в стационар",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пневмония, которая развилась через 1 день после выписки из стационара",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмония, которая развилась у сотрудников стационара",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 269,
+				"text": "Показания для смены антибиотика или назначения второго антибактериального препарата:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Клиническая неэффективность лечения через 48-72 ч от начала лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Микробиологическая эффективность при отсутствии клинического улучшения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Индивидуальная непереносимость антибактериального препарата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Возможность развития нежелательных лекарственных явлений, связанных с длительным курсом антибактериального лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Улучшение состояния на третьи сутки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 270,
+				"text": "Критерии отмены антибактериального лечения при лечении внебольничной пневмонии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Температура тела <37,5 °С. и отсутствие интоксикации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Дыхательная недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гнойный характер мокроты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Лейкоциты крови <10х10%; нейтрофилы <80%; палочкоядерные нейтрофилы <6%",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Отсутствие отрицательной динамики на рентгенограмме",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 271,
+				"text": "Установите алгоритм стратегии выбора и назначения лекарственных средств с позиций доказательной медицины:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1=определение терапевтической мишени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2=возможность достижения поставленной цели избранным лекарственным средством",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3=оценка соотношения «риск-польза» при назначении избранного препарата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4=учет фармакотерапии отдельных групп пациентов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "5=учет влияния курения и алкоголя на эффективность и безопасность лекарственной терапии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 272,
+				"text": "Установите последовательность, в которой врач назначает ЛС, руководствуясь принципами «рациональной фармакотерапии»:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1=определение терапевтической мишени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2=определение сроков лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3=прогнозирование возможных НЛР",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4=учет особенностей фармакотерапии у беременных и лиц старшего возраста",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "5=учет влияния курения и алкоголя на эффективность ЛС",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}
