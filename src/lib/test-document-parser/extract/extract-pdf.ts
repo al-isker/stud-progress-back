@@ -65,7 +65,7 @@ const BOLD_FONT_RE = /bold|black|heavy|semibold|demibold/i;
 const ITALIC_FONT_RE = /italic|oblique/i;
 
 /** Латинские буквы, визуально неотличимые от кириллических. */
-const HOMOGLYPHS: Record<string, string> = {
+const LATIN_TO_CYRILLIC_HOMOGLYPHS: Record<string, string> = {
 	a: 'а',
 	c: 'с',
 	e: 'е',
@@ -88,17 +88,50 @@ const HOMOGLYPHS: Record<string, string> = {
 	Y: 'У'
 };
 
-/**
- * Чинит распространённый дефект кириллических PDF: отдельные буквы закодированы
- * латинскими двойниками (ToUnicode отдаёт «a» вместо «а»). Заменяем латиницу на
- * кириллицу только внутри слов, где кириллица уже есть, — целиком латинские
- * слова (аббревиатуры, англоязычные вставки) не трогаем.
- */
-function fixHomoglyphs(text: string): string {
-	return text.replace(/[A-Za-zА-Яа-яЁё]+/g, word => {
-		if (!/[А-Яа-яЁё]/.test(word) || !/[A-Za-z]/.test(word)) return word;
+const CYRILLIC_TO_LATIN_HOMOGLYPHS: Record<string, string> = Object.fromEntries(
+	Object.entries(LATIN_TO_CYRILLIC_HOMOGLYPHS).map(([latin, cyrillic]) => [cyrillic, latin])
+);
 
-		return word.replace(/[A-Za-z]/g, ch => HOMOGLYPHS[ch] ?? ch);
+/**
+ * Исправляет смешение визуально одинаковых латинских и кириллических букв.
+ * Сначала проверяет, в какой алфавит слово можно привести полностью. Если
+ * допустимы оба направления, выбирает преобладающий алфавит; при равенстве
+ * оставляет слово без изменений.
+ */
+export function fixHomoglyphs(text: string): string {
+	return text.replace(/[A-Za-zА-Яа-яЁё]+/g, word => {
+		const latinCharacters = word.match(/[A-Za-z]/g) ?? [];
+		const cyrillicCharacters = word.match(/[А-Яа-яЁё]/g) ?? [];
+		if (latinCharacters.length === 0 || cyrillicCharacters.length === 0) return word;
+
+		const canBeCyrillic = latinCharacters.every(
+			character => LATIN_TO_CYRILLIC_HOMOGLYPHS[character]
+		);
+		const canBeLatin = cyrillicCharacters.every(
+			character => CYRILLIC_TO_LATIN_HOMOGLYPHS[character]
+		);
+		if (!canBeCyrillic && !canBeLatin) return word;
+
+		const convertToCyrillic =
+			canBeCyrillic && (!canBeLatin || cyrillicCharacters.length > latinCharacters.length);
+		const convertToLatin =
+			canBeLatin && (!canBeCyrillic || latinCharacters.length > cyrillicCharacters.length);
+
+		if (convertToCyrillic) {
+			return word.replace(
+				/[A-Za-z]/g,
+				character => LATIN_TO_CYRILLIC_HOMOGLYPHS[character] ?? character
+			);
+		}
+
+		if (convertToLatin) {
+			return word.replace(
+				/[А-Яа-яЁё]/g,
+				character => CYRILLIC_TO_LATIN_HOMOGLYPHS[character] ?? character
+			);
+		}
+
+		return word;
 	});
 }
 

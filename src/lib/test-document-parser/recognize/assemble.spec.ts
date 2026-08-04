@@ -16,12 +16,17 @@ describe('assembleTestDocument', () => {
 			{ texts: [''], options: [option('Первый'), option('Второй')] },
 			{ texts: ['Мало вариантов'], options: [option('Единственный')] },
 			{ texts: ['Неоднозначный маркер'], options: [option('Первый'), option('Второй')] },
-			{ texts: ['Маркер не найден'], options: [option('Первый'), option('Второй')] }
+			{ texts: ['Маркер не найден'], options: [option('Первый'), option('Второй')] },
+			{
+				texts: ['Повреждённая структура'],
+				options: [option('Первый'), option('Второй')],
+				rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+			}
 		];
 
 		const result = assembleTestDocument(
 			raw,
-			[[true, false], undefined, [true, false], [false, false]],
+			[[true, false], undefined, [true, false], [false, false], undefined],
 			new Set([2])
 		);
 
@@ -45,6 +50,11 @@ describe('assembleTestDocument', () => {
 						index: 4,
 						text: 'Маркер не найден',
 						reason: QuestionRejectionReason.NO_ANSWER_MARKER
+					},
+					{
+						index: 5,
+						text: 'Повреждённая структура',
+						reason: QuestionRejectionReason.MALFORMED_STRUCTURE
 					}
 				]
 			}

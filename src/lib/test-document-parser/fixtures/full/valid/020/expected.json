@@ -4067,38 +4067,6 @@
 				]
 			},
 			{
-				"index": 128,
-				"text": "ЭЛЕКТИВНАЯ СРЕДА ДЛЯ ВЫДЕЛЕНИЯ СТАФИЛОКОККОВ:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "сывороточный агар",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "среда Эндо",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "желчный бульон",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "среда Китта - Тароцци",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "желточно - солевой агар",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 129,
 				"text": "КАКИХ ЛАБОРАТОРНЫХ ЖИВОТНЫХ ИСПОЛЬЗУЮТ ДЛЯВЫДЕЛЕНИЯ ПНЕВМОКОККОВ:",
 				"type": "single",
@@ -4196,7 +4164,7 @@
 			},
 			{
 				"index": 132,
-				"text": "ОСНОВНЫЕ ФАКТОРЫ ПАТОГЕННОСТИ STREPTOCOCCUS РNЕUМОNIАЕ:",
+				"text": "ОСНОВНЫЕ ФАКТОРЫ ПАТОГЕННОСТИ STREPTOCOCCUS PNEUMONIAE:",
 				"type": "single",
 				"options": [
 					{
@@ -5920,6 +5888,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 128,
+				"text": "ЭЛЕКТИВНАЯ СРЕДА ДЛЯ ВЫДЕЛЕНИЯ СТАФИЛОКОККОВ:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }

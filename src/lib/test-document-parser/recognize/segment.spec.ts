@@ -1,5 +1,5 @@
 import { DocLine } from '../types/document-model';
-import { ParseStatus } from '../types/parse-result';
+import { ParseStatus, QuestionRejectionReason } from '../types/parse-result';
 import { assembleTestDocument } from './assemble';
 import { resolveAnswerMarker } from './detect-marker';
 import { RawQuestion, segmentQuestions } from './segment';
@@ -223,25 +223,19 @@ describe('document-level option syntax', () => {
 		]);
 	});
 
-	test('ignores a stray closing brace before the actual end of an option block', () => {
+	test('marks a question with a premature closing brace as malformed', () => {
 		const questions = segment([
 			line('Question 1 {'),
-			line('~wrong 1'),
-			line('~wrong 2}'),
-			line('~wrong 3'),
 			line('=correct'),
-			line('~wrong 4'),
+			line('~wrong 1}'),
+			line('~wrong 2'),
+			line('~wrong 3'),
 			line('}'),
 			...bracketQuestion('Question 2', [['~wrong 1'], ['=correct'], ['~wrong 2']])
 		]);
 
-		expect(questions[0].options.map(option => option.texts[0])).toEqual([
-			'wrong 1',
-			'wrong 2',
-			'wrong 3',
-			'correct',
-			'wrong 4'
-		]);
+		expect(questions[0].options.map(option => option.texts[0])).toEqual(['correct', 'wrong 1']);
+		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
 	});
 
 	test('does not invent an option when a line has no structural prefix', () => {

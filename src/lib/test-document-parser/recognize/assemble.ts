@@ -86,6 +86,10 @@ export function assembleTestDocument(
 			rejectedQuestions.push({ index: qi + 1, text, reason });
 		};
 
+		if (raw[qi].rejectionReason) {
+			rejectQuestion(raw[qi].rejectionReason);
+			continue;
+		}
 		if (!text || options.some(o => !o.text)) {
 			rejectQuestion(QuestionRejectionReason.EMPTY_TEXT);
 			continue;

@@ -1,4 +1,5 @@
 import { DocLine } from '../types/document-model';
+import { QuestionRejectionReason } from '../types/parse-result';
 
 /**
  * Вариант ответа до сборки. Структурный префикс определяется по всему документу,
@@ -18,6 +19,8 @@ export interface RawOption {
 export interface RawQuestion {
 	texts: string[];
 	options: RawOption[];
+	/** Причина, по которой уже на этапе сегментации вопрос нельзя принимать. */
+	rejectionReason?: QuestionRejectionReason;
 }
 
 /** Максимальная исходная последовательность поддерживаемых символов в начале строки. */
@@ -153,6 +156,7 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 	interface QuestionDraft {
 		texts: string[];
 		segments: SegmentDraft[];
+		rejectionReason?: QuestionRejectionReason;
 	}
 
 	const drafts: QuestionDraft[] = [];
@@ -160,11 +164,15 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 	let inBlock = false;
 	let qTexts: string[] = [];
 	let segments: SegmentDraft[] = [];
+	let rejectionReason: QuestionRejectionReason | undefined;
 
 	const closeBlock = () => {
-		if (qTexts.length > 0 || segments.length > 0) drafts.push({ texts: qTexts, segments });
+		if (qTexts.length > 0 || segments.length > 0) {
+			drafts.push({ texts: qTexts, segments, rejectionReason });
+		}
 		qTexts = [];
 		segments = [];
+		rejectionReason = undefined;
 		inBlock = false;
 	};
 
@@ -192,6 +200,7 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 		if (before !== '') qTexts.push(before);
 		tail = [];
 		segments = [];
+		rejectionReason = undefined;
 		inBlock = true;
 	};
 
@@ -224,10 +233,7 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 					nextLineStartsWithSymbol &&
 					hasLaterCloseBeforeNextOpen(lineIndex, afterClose)
 				) {
-					// В реальных выгрузках `}` иногда ошибочно попадает внутрь варианта.
-					// Если до следующего `{` есть ещё одна `}`, закрывающей является последняя.
-					rest = rest.slice(0, close) + afterClose;
-					continue;
+					rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
 				}
 				addBlockSegment(rest.slice(0, close), line);
 				closeBlock();
@@ -259,7 +265,7 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 			}
 		}
 
-		return { texts, options };
+		return { texts, options, rejectionReason: draft.rejectionReason };
 	});
 	return questions.length > 0 ? questions : null;
 }

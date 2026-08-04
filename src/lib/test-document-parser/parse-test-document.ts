@@ -51,7 +51,7 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 	// Указатель ответа ищем только среди вопросов с двумя и более вариантами.
 	const answerableIndices: number[] = [];
 	raw.forEach((q, i) => {
-		if (q.options.length >= 2) answerableIndices.push(i);
+		if (!q.rejectionReason && q.options.length >= 2) answerableIndices.push(i);
 	});
 
 	const marker = resolveAnswerMarker(answerableIndices.map(i => raw[i]));
