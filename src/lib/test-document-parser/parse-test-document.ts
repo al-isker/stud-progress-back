@@ -67,5 +67,5 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 		marker.ambiguous.map(localIndex => answerableIndices[localIndex])
 	);
 
-	return assembleTestDocument(raw, marks, ambiguousGlobal);
+	return assembleTestDocument(raw, marks, ambiguousGlobal, marker.symbolPrefix);
 }

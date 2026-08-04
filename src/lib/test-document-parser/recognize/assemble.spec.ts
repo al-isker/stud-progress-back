@@ -2,7 +2,13 @@ import { ParseStatus, QuestionRejectionReason } from '../types/parse-result';
 import { assembleTestDocument } from './assemble';
 import { RawQuestion } from './segment';
 
-const option = (text: string) => ({ token: null, texts: [text], lines: [] });
+const option = (text: string) => ({
+	sourcePrefix: null,
+	structuralPrefix: null,
+	hasTextAfterSourcePrefix: false,
+	texts: [text],
+	lines: []
+});
 
 describe('assembleTestDocument', () => {
 	test('возвращает единый массив отклонённых вопросов с причинами', () => {

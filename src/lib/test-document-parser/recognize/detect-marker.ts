@@ -12,7 +12,13 @@ import { RawOption, RawQuestion } from './segment';
  * документ целиком.
  */
 export type MarkerResult =
-	| { confirmed: true; marked: boolean[][]; ambiguous: number[] }
+	| {
+			confirmed: true;
+			marked: boolean[][];
+			ambiguous: number[];
+			/** Глобальный символьный маркер; null для визуального признака. */
+			symbolPrefix: string | null;
+	  }
 	| { confirmed: false };
 
 /** Минимальная доля вопросов, размеченных одним признаком, для подтверждения формата. */
@@ -20,7 +26,8 @@ const FORMAT_CONFIRMATION_SHARE = 0.8;
 
 /** Агрегированные визуальные свойства варианта (по всем его строкам). */
 interface OptionStyle {
-	token: string | null;
+	sourcePrefix: string | null;
+	hasTextAfterSourcePrefix: boolean;
 	highlight: number;
 	bold: number;
 	italic: number;
@@ -51,7 +58,8 @@ function styleOf(option: RawOption): OptionStyle {
 	}
 
 	return {
-		token: option.token,
+		sourcePrefix: option.sourcePrefix,
+		hasTextAfterSourcePrefix: option.hasTextAfterSourcePrefix,
 		highlight: width > 0 ? highlight / width : 0,
 		bold: width > 0 ? bold / width : 0,
 		italic: width > 0 ? italic / width : 0,
@@ -93,6 +101,8 @@ function markByRelativeScore(
  */
 interface Candidate {
 	sets: boolean[][];
+	/** Символьный маркер для кандидата; null у визуальных признаков. */
+	symbolPrefix: string | null;
 	/** Число вопросов, где признак различает ответ (помечено 1..n-1 вариантов). */
 	coverage: number;
 	/** Число вопросов, где признак присутствует (помечен хотя бы один вариант). */
@@ -101,7 +111,7 @@ interface Candidate {
 	avgFraction: number;
 }
 
-function toCandidate(sets: boolean[][]): Candidate {
+function toCandidate(sets: boolean[][], symbolPrefix: string | null = null): Candidate {
 	let coverage = 0;
 	let conforming = 0;
 	let fractionSum = 0;
@@ -114,7 +124,13 @@ function toCandidate(sets: boolean[][]): Candidate {
 		}
 	}
 
-	return { sets, coverage, conforming, avgFraction: coverage > 0 ? fractionSum / coverage : 1 };
+	return {
+		sets,
+		symbolPrefix,
+		coverage,
+		conforming,
+		avgFraction: coverage > 0 ? fractionSum / coverage : 1
+	};
 }
 
 const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('');
@@ -143,19 +159,25 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	const styles = questions.map(q => q.options.map(styleOf));
 	if (styles.length === 0) return { confirmed: false };
 
-	const tokens = new Set<string>();
+	const symbolPrefixes = new Set<string>();
 	const colors = new Set<string>();
 	for (const qs of styles) {
 		for (const s of qs) {
-			if (s.token) tokens.add(s.token);
+			if (s.sourcePrefix && s.hasTextAfterSourcePrefix) symbolPrefixes.add(s.sourcePrefix);
 			if (s.color) colors.add(s.color);
 		}
 	}
 
 	const candidates: Candidate[] = [];
-	for (const token of tokens)
+	for (const symbolPrefix of symbolPrefixes)
 		candidates.push(
-			toCandidate(markByPredicate(styles, s => s.token !== null && s.token.startsWith(token)))
+			toCandidate(
+				markByPredicate(
+					styles,
+					s => s.sourcePrefix !== null && s.sourcePrefix.startsWith(symbolPrefix)
+				),
+				symbolPrefix
+			)
 		);
 	candidates.push(toCandidate(markByRelativeScore(styles, s => s.highlight, 0.08)));
 	candidates.push(toCandidate(markByPredicate(styles, s => s.bold >= 0.55)));
@@ -201,5 +223,25 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 		}
 	}
 
-	return { confirmed: true, marked, ambiguous };
+	// Символьный декоратор может быть немного повреждён и уступить более полному
+	// визуальному признаку. Удаляем его из текста, если он подтверждён на нужной
+	// доле вопросов и нигде не противоречит итоговой разметке.
+	const compatibleSymbolCandidates = usable
+		.filter((candidate): candidate is Candidate & { symbolPrefix: string } => {
+			if (!candidate.symbolPrefix) return false;
+			if (candidate.conforming < styles.length * FORMAT_CONFIRMATION_SHARE) return false;
+
+			return candidate.sets.every((question, questionIndex) =>
+				question.every((isMarked, optionIndex) => !isMarked || marked[questionIndex][optionIndex])
+			);
+		})
+		.sort(
+			(a, b) =>
+				b.coverage - a.coverage ||
+				a.symbolPrefix.length - b.symbolPrefix.length ||
+				a.symbolPrefix.localeCompare(b.symbolPrefix)
+		);
+	const symbolPrefix = compatibleSymbolCandidates[0]?.symbolPrefix ?? null;
+
+	return { confirmed: true, marked, ambiguous, symbolPrefix };
 }

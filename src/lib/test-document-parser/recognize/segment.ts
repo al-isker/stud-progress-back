@@ -1,8 +1,15 @@
 import { DocLine } from '../types/document-model';
 
-/** Вариант ответа до сборки: символьный маркер-префикс (если был) отделён от текста. */
+/**
+ * Вариант ответа до сборки. Структурный префикс определяется по всему документу,
+ * а не вырезается локальной регуляркой. `sourcePrefix` сохраняет исходную
+ * последовательность символов для последующего поиска маркера правильности.
+ */
 export interface RawOption {
-	token: string | null;
+	sourcePrefix: string | null;
+	structuralPrefix: string | null;
+	/** Останется ли непустой текст, если удалить весь sourcePrefix. */
+	hasTextAfterSourcePrefix: boolean;
 	texts: string[];
 	lines: DocLine[];
 }
@@ -13,19 +20,103 @@ export interface RawQuestion {
 	options: RawOption[];
 }
 
+/** Максимальная исходная последовательность поддерживаемых символов в начале строки. */
+const SYMBOL_PREFIX_RE = /^\s*([~=+!?*•·◦▪‣✓✔√×<>#@&$%|/\\-]+)/;
+
+interface SymbolHead {
+	symbols: string;
+}
+
+interface OptionSyntax {
+	prefixByFamily: Map<string, string>;
+}
+
+/** Неразрушающий лексический разбор: ничего не решает о границе префикса и текста. */
+function scanSymbolHead(text: string): SymbolHead | null {
+	const match = SYMBOL_PREFIX_RE.exec(text.trim());
+
+	return match ? { symbols: match[1] } : null;
+}
+
+function commonPrefix(values: string[]): string {
+	if (values.length === 0) return '';
+	let prefix = values[0];
+	for (let i = 1; i < values.length && prefix !== ''; i++) {
+		while (!values[i].startsWith(prefix)) prefix = prefix.slice(0, -1);
+	}
+
+	return prefix;
+}
+
+function createOptionSyntax(heads: SymbolHead[], families: Set<string>): OptionSyntax | null {
+	const prefixByFamily = new Map<string, string>();
+	for (const family of families) {
+		const values = heads.filter(head => head.symbols[0] === family).map(head => head.symbols);
+		const prefix = commonPrefix(values);
+		if (prefix) prefixByFamily.set(family, prefix);
+	}
+
+	return prefixByFamily.size > 0 ? { prefixByFamily } : null;
+}
+
 /**
- * Ведущий символьный токен строки: последовательность небуквенных маркерных
- * символов, за которой следует содержимое («= текст», «!+ текст», «~текст»).
+ * Определяет семейства структурных префиксов по всем группам вариантов документа.
+ * Случайный символ в одном вопросе не становится частью синтаксиса: семейство
+ * должно встречаться в большинстве групп.
  */
-// `%` в lookahead намеренно: строка `=%` — это маркер `=` и ответ `%`,
-// а не составной префикс без текста.
-const TOKEN_RE = /^\s*([~=+!?*•·◦▪‣✓✔√×<>#@&$%|/\\-]{1,4})(?=[\s%0-9A-Za-zА-Яа-яЁё«"'“‘([])/;
+function inferOptionSyntax(groups: string[][]): OptionSyntax | null {
+	if (groups.length === 0) return null;
+	const heads: SymbolHead[] = [];
+	const groupsByFamily = new Map<string, Set<number>>();
 
-function matchToken(text: string): { token: string; rest: string } | null {
-	const m = TOKEN_RE.exec(text);
-	if (!m) return null;
+	groups.forEach((group, groupIndex) => {
+		for (const text of group) {
+			const head = scanSymbolHead(text);
+			if (!head) continue;
+			heads.push(head);
+			const family = head.symbols[0];
+			const indices = groupsByFamily.get(family) ?? new Set<number>();
+			indices.add(groupIndex);
+			groupsByFamily.set(family, indices);
+		}
+	});
 
-	return { token: m[1], rest: text.slice(m.index + m[0].length).trim() };
+	const minGroups = Math.floor(groups.length / 2) + 1;
+	const families = new Set(
+		[...groupsByFamily]
+			.filter(([, groupIndices]) => groupIndices.size >= minGroups)
+			.map(([family]) => family)
+	);
+	const syntax = createOptionSyntax(heads, families);
+	if (!syntax) return null;
+
+	const structurallyValid = groups.filter(group => {
+		const optionStarts = group.filter(text => {
+			const head = scanSymbolHead(text);
+
+			return head ? syntax.prefixByFamily.has(head.symbols[0]) : false;
+		}).length;
+
+		return optionStarts >= 2;
+	}).length;
+
+	return structurallyValid >= minGroups ? syntax : null;
+}
+
+function parseOptionStart(text: string, line: DocLine, syntax: OptionSyntax): RawOption | null {
+	const trimmed = text.trim();
+	const head = scanSymbolHead(trimmed);
+	if (!head) return null;
+	const structuralPrefix = syntax.prefixByFamily.get(head.symbols[0]);
+	if (!structuralPrefix || !trimmed.startsWith(structuralPrefix)) return null;
+
+	return {
+		sourcePrefix: head.symbols,
+		structuralPrefix,
+		hasTextAfterSourcePrefix: trimmed.slice(head.symbols.length).trim() !== '',
+		texts: [trimmed.slice(structuralPrefix.length).trim()],
+		lines: [line]
+	};
 }
 
 /** Начало нового параграфа: первая строка страницы или заметный вертикальный зазор. */
@@ -55,32 +146,31 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 	const hasClose = lines.some(l => l.text.includes('}'));
 	if (!hasOpen || !hasClose) return null;
 
-	const questions: RawQuestion[] = [];
+	interface SegmentDraft {
+		text: string;
+		line: DocLine;
+	}
+	interface QuestionDraft {
+		texts: string[];
+		segments: SegmentDraft[];
+	}
+
+	const drafts: QuestionDraft[] = [];
 	let tail: DocLine[] = [];
 	let inBlock = false;
 	let qTexts: string[] = [];
-	let options: RawOption[] = [];
+	let segments: SegmentDraft[] = [];
 
 	const closeBlock = () => {
-		if (qTexts.length > 0 || options.length > 0) questions.push({ texts: qTexts, options });
+		if (qTexts.length > 0 || segments.length > 0) drafts.push({ texts: qTexts, segments });
 		qTexts = [];
-		options = [];
+		segments = [];
 		inBlock = false;
 	};
 
 	const addBlockSegment = (raw: string, line: DocLine) => {
 		const text = raw.trim();
-		if (text === '') return;
-		const tok = matchToken(text);
-		if (tok) {
-			options.push({ token: tok.token, texts: [tok.rest], lines: [line] });
-		} else if (options.length > 0) {
-			const last = options[options.length - 1];
-			last.texts.push(text);
-			last.lines.push(line);
-		} else {
-			qTexts.push(text);
-		}
+		if (text !== '') segments.push({ text, line });
 	};
 
 	const openBlock = (before: string, line: DocLine) => {
@@ -88,7 +178,7 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 		qTexts = paragraph.map(l => l.text.trim());
 		if (before !== '') qTexts.push(before);
 		tail = [];
-		options = [];
+		segments = [];
 		inBlock = true;
 	};
 
@@ -120,6 +210,30 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 	}
 	if (inBlock) closeBlock();
 
+	const syntax = inferOptionSyntax(
+		drafts.map(draft => draft.segments.map(segment => segment.text))
+	);
+	if (!syntax) return null;
+
+	const questions: RawQuestion[] = drafts.map(draft => {
+		const texts = [...draft.texts];
+		const options: RawOption[] = [];
+		for (const segment of draft.segments) {
+			const option = parseOptionStart(segment.text, segment.line, syntax);
+			if (option) {
+				options.push(option);
+			} else if (options.length > 0) {
+				const previous = options[options.length - 1];
+				previous.texts.push(segment.text);
+				previous.lines.push(segment.line);
+			} else {
+				texts.push(segment.text);
+			}
+		}
+
+		return { texts, options };
+	});
+
 	return questions.length > 0 ? questions : null;
 }
 
@@ -129,10 +243,10 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
  * Строка без токена — продолжение в своём параграфе, иначе игнорируется.
  */
 function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
-	const tokens = lines.map(l => matchToken(l.text.trim()));
+	const heads = lines.map(line => scanSymbolHead(line.text));
 	const families = new Map<string, number>();
-	for (const tok of tokens) {
-		if (tok) families.set(tok.token[0], (families.get(tok.token[0]) ?? 0) + 1);
+	for (const head of heads) {
+		if (head) families.set(head.symbols[0], (families.get(head.symbols[0]) ?? 0) + 1);
 	}
 	if (families.size < 2) return null;
 
@@ -144,8 +258,8 @@ function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
 			let vTotal = 0;
 			let sinceQ = -1;
 			let ok = true;
-			for (const tok of tokens) {
-				const fam = tok ? tok.token[0] : null;
+			for (const head of heads) {
+				const fam = head ? head.symbols[0] : null;
 				if (fam === qFam) {
 					if (sinceQ >= 0 && sinceQ < 2) {
 						ok = false;
@@ -165,20 +279,34 @@ function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
 		}
 	}
 	if (!best) return null;
+	const presentHeads = heads.filter((head): head is SymbolHead => head !== null);
+	const questionPrefix = commonPrefix(
+		presentHeads.filter(head => head.symbols[0] === best.q).map(head => head.symbols)
+	);
+	const optionSyntax = createOptionSyntax(presentHeads, new Set([best.v]));
+	if (!questionPrefix || !optionSyntax) return null;
 
 	const questions: RawQuestion[] = [];
 	let current: RawQuestion | null = null;
 	let mode: 'question' | 'option' | 'none' = 'none';
 	for (let i = 0; i < lines.length; i++) {
 		const line = lines[i];
-		const tok = tokens[i];
-		const fam = tok ? tok.token[0] : null;
+		const head = heads[i];
+		const fam = head ? head.symbols[0] : null;
 		if (fam === best.q) {
 			if (current) questions.push(current);
-			current = { texts: [tok.rest], options: [] };
+			current = {
+				texts: [line.text.trim().slice(questionPrefix.length).trim()],
+				options: []
+			};
 			mode = 'question';
 		} else if (fam === best.v && current) {
-			current.options.push({ token: tok.token, texts: [tok.rest], lines: [line] });
+			const option = parseOptionStart(line.text, line, optionSyntax);
+			if (!option) {
+				mode = 'none';
+				continue;
+			}
+			current.options.push(option);
 			mode = 'option';
 		} else if (current && mode !== 'none' && !isParagraphStart(line)) {
 			if (mode === 'question') {
@@ -243,7 +371,13 @@ function tryNumberedScheme(lines: DocLine[]): RawQuestion[] | null {
 			}
 			inQuestion = false;
 			if (newParagraph || options.length === 0) {
-				options.push({ token: null, texts: [line.text.trim()], lines: [line] });
+				options.push({
+					sourcePrefix: null,
+					structuralPrefix: null,
+					hasTextAfterSourcePrefix: false,
+					texts: [line.text.trim()],
+					lines: [line]
+				});
 			} else {
 				const option = options[options.length - 1];
 				option.texts.push(line.text.trim());
@@ -253,18 +387,26 @@ function tryNumberedScheme(lines: DocLine[]): RawQuestion[] | null {
 		questions.push({ texts, options });
 	}
 
-	// Если большинство вариантов всё же несёт символьный префикс — отделяем его.
+	// Если большинство вариантов всё же несёт единый документный синтаксис — применяем его.
 	const allOptions = questions.flatMap(q => q.options);
-	const optionTokens = allOptions.map(o => matchToken(o.texts[0] ?? ''));
-	const tokenized = optionTokens.filter(Boolean).length;
-	if (allOptions.length > 0 && tokenized >= allOptions.length * 0.6) {
-		allOptions.forEach((option, i) => {
-			const tok = optionTokens[i];
-			if (tok) {
-				option.token = tok.token;
-				option.texts[0] = tok.rest;
-			}
-		});
+	const syntax = inferOptionSyntax(
+		questions.map(question => question.options.map(option => option.texts[0] ?? ''))
+	);
+	if (syntax && allOptions.length > 0) {
+		const parsed = allOptions.map(option =>
+			parseOptionStart(option.texts[0] ?? '', option.lines[0], syntax)
+		);
+		const recognized = parsed.filter(Boolean).length;
+		if (recognized >= allOptions.length * 0.6) {
+			allOptions.forEach((option, index) => {
+				const detected = parsed[index];
+				if (!detected) return;
+				option.sourcePrefix = detected.sourcePrefix;
+				option.structuralPrefix = detected.structuralPrefix;
+				option.hasTextAfterSourcePrefix = detected.hasTextAfterSourcePrefix;
+				option.texts[0] = detected.texts[0];
+			});
+		}
 	}
 
 	return questions;

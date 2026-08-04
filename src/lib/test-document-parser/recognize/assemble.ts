@@ -5,7 +5,7 @@ import {
 	RejectedQuestion
 } from '../types/parse-result';
 import { Question } from '../types/test-document';
-import { RawQuestion } from './segment';
+import { RawOption, RawQuestion } from './segment';
 
 /**
  * Склеивает строки варианта/вопроса. На переносе (строка кончается дефисом)
@@ -26,12 +26,36 @@ function normalize(parts: string[]): string {
 			const core = out.replace(/[-‐]+$/, '');
 			const keepHyphen = /[оеОЕ]$/.test(core) || /^[A-ZА-ЯЁ0-9]/.test(part);
 			out = keepHyphen ? `${core}-${part}` : core + part;
+		} else if (/^[-‐‑‒–—](?=\p{L})/u.test(part)) {
+			// Перенесённая часть составного слова может начинаться с дефиса.
+			out += part;
 		} else {
 			out += ` ${part}`;
 		}
 	}
 
 	return out.replace(/\s+/g, ' ').trim();
+}
+
+/**
+ * Удаляет из текста только ту часть исходных символов, которая подтверждена
+ * как глобальный маркер правильности. При визуальном маркере символы после
+ * структурного префикса остаются содержимым ответа (`=%` → `%`).
+ */
+function optionTextParts(option: RawOption, symbolPrefix: string | null): string[] {
+	const parts = [...option.texts];
+	if (!symbolPrefix || !option.sourcePrefix?.startsWith(symbolPrefix) || !option.structuralPrefix) {
+		return parts;
+	}
+
+	const markerRemainder = symbolPrefix.startsWith(option.structuralPrefix)
+		? symbolPrefix.slice(option.structuralPrefix.length)
+		: '';
+	if (markerRemainder && parts[0]?.startsWith(markerRemainder)) {
+		parts[0] = parts[0].slice(markerRemainder.length).trimStart();
+	}
+
+	return parts;
 }
 
 /**
@@ -49,7 +73,8 @@ function normalize(parts: string[]): string {
 export function assembleTestDocument(
 	raw: RawQuestion[],
 	marks: (boolean[] | undefined)[],
-	ambiguous: Set<number>
+	ambiguous: Set<number>,
+	symbolPrefix: string | null = null
 ): ParseResult {
 	const questions: Question[] = [];
 	const rejectedQuestions: RejectedQuestion[] = [];
@@ -59,7 +84,7 @@ export function assembleTestDocument(
 		const mark = marks[qi];
 		const options = raw[qi].options.map((option, oi) => ({
 			index: oi + 1,
-			text: normalize(option.texts),
+			text: normalize(optionTextParts(option, symbolPrefix)),
 			isCorrect: mark ? mark[oi] : false
 		}));
 

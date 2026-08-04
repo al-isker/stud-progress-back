@@ -1328,12 +1328,22 @@
 					},
 					{
 						"index": 2,
-						"text": "Симпатолитики =+α- и β-адреномиметики",
-						"isCorrect": true
+						"text": "Симпатолитики",
+						"isCorrect": false
 					},
 					{
 						"index": 3,
-						"text": "Ганглиоблокаторы =α- и β-адреноблокаторы",
+						"text": "α- и β-адреномиметики",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Ганглиоблокаторы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "α- и β-адреноблокаторы",
 						"isCorrect": false
 					}
 				]
@@ -6950,17 +6960,27 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "адреноблокаторы =+β-адреномиметики",
-						"isCorrect": true
+						"text": "адреноблокаторы",
+						"isCorrect": false
 					},
 					{
 						"index": 2,
+						"text": "β-адреномиметики",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
 						"text": "спазмолитики",
 						"isCorrect": false
 					},
 					{
-						"index": 3,
-						"text": "холиномиметики =α-адреномиметики",
+						"index": 4,
+						"text": "холиномиметики",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "α-адреномиметики",
 						"isCorrect": false
 					}
 				]
