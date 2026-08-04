@@ -21,6 +21,12 @@ interface ImageRegion extends Box {
 	grid: Uint8Array;
 }
 
+interface ImagePaint {
+	id: string;
+	box: Box;
+	annotationId: string | null;
+}
+
 /** Текстовый прогон из контент-стрима: символы + цвет заливки на момент отрисовки. */
 interface TextRun {
 	chars: string;
@@ -138,11 +144,11 @@ function isHighlightFill(color: string): boolean {
  * фон. Порог намеренно мягкий — бледные выделения тоже должны попадать в маску;
  * ложные срабатывания шума отсекаются требованием вертикальной сплошности.
  */
-function isColoredPixel(r: number, g: number, b: number): boolean {
+function isColoredPixel(r: number, g: number, b: number, brightnessFloor: number): boolean {
 	const max = Math.max(r, g, b);
 	const min = Math.min(r, g, b);
 
-	return max - min > 22 && max > 100 && min < 250;
+	return max - min > 22 && max > brightnessFloor && min < 250;
 }
 
 function toHex(n: number): string {
@@ -170,8 +176,9 @@ function normalizeColorArg(args: unknown[]): string | null {
 
 interface PageGraphics {
 	fills: FillRect[];
-	imagePaints: { id: string; box: Box }[];
+	imagePaints: ImagePaint[];
 	runs: TextRun[];
+	annotationIdsWithAppearance: Set<string>;
 }
 
 /** Обход operator list: заливки, картинки и текстовые прогоны с цветом. */
@@ -190,13 +197,19 @@ function walkOperatorList(
 	);
 
 	const fills: FillRect[] = [];
-	const imagePaints: { id: string; box: Box }[] = [];
+	const imagePaints: ImagePaint[] = [];
 	const runs: TextRun[] = [];
+	const annotationIdsWithAppearance = new Set<string>();
 
 	let ctm = IDENTITY;
 	let fillColor: string | null = '#000000';
 	const stack: { ctm: Matrix; fillColor: string | null }[] = [];
-	let annotationDepth = 0;
+	const annotationStack: {
+		id: string | null;
+		ctm: Matrix;
+		fillColor: string | null;
+		graphicsStackDepth: number;
+	}[] = [];
 
 	for (let i = 0; i < fnArray.length; i++) {
 		const name = byCode.get(fnArray[i]);
@@ -207,7 +220,8 @@ function walkOperatorList(
 				stack.push({ ctm, fillColor });
 				break;
 			case 'restore': {
-				const s = stack.pop();
+				const stackFloor = annotationStack.at(-1)?.graphicsStackDepth ?? 0;
+				const s = stack.length > stackFloor ? stack.pop() : undefined;
 				if (s) ({ ctm, fillColor } = s);
 				break;
 			}
@@ -219,18 +233,39 @@ function walkOperatorList(
 				if (Array.isArray(args) && Array.isArray(args[0])) ctm = matMul(ctm, args[0] as Matrix);
 				break;
 			case 'paintFormXObjectEnd': {
-				const s = stack.pop();
+				const stackFloor = annotationStack.at(-1)?.graphicsStackDepth ?? 0;
+				const s = stack.length > stackFloor ? stack.pop() : undefined;
 				if (s) ({ ctm, fillColor } = s);
 				break;
 			}
-			// Содержимое аннотаций пропускаем: их учитываем через getAnnotations,
-			// а текст внутри них отсутствует в getTextContent и ломал бы сопоставление цветов.
-			case 'beginAnnotation':
-				annotationDepth++;
+			case 'beginAnnotation': {
+				annotationStack.push({
+					id: typeof args?.[0] === 'string' ? args[0] : null,
+					ctm,
+					fillColor,
+					graphicsStackDepth: stack.length
+				});
+				// pdf.js рисует appearance stream аннотации в отдельном начальном
+				// graphics state и последовательно применяет transform и matrix.
+				ctm = IDENTITY;
+				if (Array.isArray(args?.[2]) && args[2].length >= 6) {
+					ctm = matMul(ctm, args[2] as Matrix);
+				}
+				if (Array.isArray(args?.[3]) && args[3].length >= 6) {
+					ctm = matMul(ctm, args[3] as Matrix);
+				}
+				fillColor = '#000000';
 				break;
-			case 'endAnnotation':
-				annotationDepth = Math.max(0, annotationDepth - 1);
+			}
+			case 'endAnnotation': {
+				const annotation = annotationStack.pop();
+				if (annotation) {
+					stack.length = annotation.graphicsStackDepth;
+					ctm = annotation.ctm;
+					fillColor = annotation.fillColor;
+				}
 				break;
+			}
 			case 'setFillRGBColor':
 			case 'setFillGray':
 			case 'setFillCMYKColor':
@@ -240,7 +275,6 @@ function walkOperatorList(
 				fillColor = normalizeColorArg(args);
 				break;
 			case 'constructPath': {
-				if (annotationDepth > 0) break;
 				if (!Array.isArray(args) || args.length < 3) break;
 				const paintOp = args[0];
 				if (typeof paintOp !== 'number' || !fillOps.has(paintOp)) break;
@@ -258,26 +292,36 @@ function walkOperatorList(
 				// Заливка размером со страницу — фон, а не выделение.
 				if ((box.x1 - box.x0) * (box.y1 - box.y0) >= pageArea * 0.5) break;
 				fills.push({ ...box, color: fillColor });
+				const annotationId = annotationStack.at(-1)?.id;
+				if (annotationId) annotationIdsWithAppearance.add(annotationId);
 				break;
 			}
 			case 'paintImageXObject': {
-				if (annotationDepth > 0) break;
 				if (!Array.isArray(args) || typeof args[0] !== 'string') break;
-				const c1 = matApply(ctm, 0, 0);
-				const c2 = matApply(ctm, 1, 1);
+				const corners = [
+					matApply(ctm, 0, 0),
+					matApply(ctm, 1, 0),
+					matApply(ctm, 0, 1),
+					matApply(ctm, 1, 1)
+				];
+				const xs = corners.map(point => point[0]);
+				const ys = corners.map(point => point[1]);
 				imagePaints.push({
 					id: args[0],
+					annotationId: annotationStack.at(-1)?.id ?? null,
 					box: {
-						x0: Math.min(c1[0], c2[0]),
-						y0: Math.min(c1[1], c2[1]),
-						x1: Math.max(c1[0], c2[0]),
-						y1: Math.max(c1[1], c2[1])
+						x0: Math.min(...xs),
+						y0: Math.min(...ys),
+						x1: Math.max(...xs),
+						y1: Math.max(...ys)
 					}
 				});
 				break;
 			}
 			case 'showText': {
-				if (annotationDepth > 0) break;
+				// Текст appearance stream отсутствует в getTextContent и нарушит
+				// позиционное сопоставление текстовых прогонов с элементами страницы.
+				if (annotationStack.length > 0) break;
 				if (!Array.isArray(args) || !Array.isArray(args[0])) break;
 				let chars = '';
 				for (const g of args[0] as unknown[]) {
@@ -289,7 +333,7 @@ function walkOperatorList(
 		}
 	}
 
-	return { fills, imagePaints, runs };
+	return { fills, imagePaints, runs, annotationIdsWithAppearance };
 }
 
 /** Ожидает объект картинки из page.objs с таймаутом (декодируется асинхронно). */
@@ -318,7 +362,11 @@ function resolveImage(
  * так переживают даунсемплинг бледные и «зернистые» (полупрозрачные) выделения,
  * а редкий шум сжатия не набирает нужной плотности.
  */
-function buildImageRegion(image: PdfImageObject, box: Box): ImageRegion | null {
+function buildImageRegion(
+	image: PdfImageObject,
+	box: Box,
+	brightnessFloor: number
+): ImageRegion | null {
 	const { width, height, data } = image;
 	if (!width || !height || !data) return null;
 	const channels = Math.round(data.length / (width * height));
@@ -339,7 +387,9 @@ function buildImageRegion(image: PdfImageObject, box: Box): ImageRegion | null {
 			if (channels === 4 && data[o + 3] < 40) continue;
 			const cell = rowCell + Math.min(gw - 1, Math.floor((sx * gw) / width));
 			total[cell]++;
-			if (isColoredPixel(data[o], data[o + 1], data[o + 2])) colored[cell]++;
+			if (isColoredPixel(data[o], data[o + 1], data[o + 2], brightnessFloor)) {
+				colored[cell]++;
+			}
 		}
 	}
 
@@ -479,7 +529,7 @@ async function extractPage(
 	const pageArea = Math.abs((view[2] - view[0]) * (view[3] - view[1]));
 
 	const opList = await page.getOperatorList();
-	const { fills, imagePaints, runs } = walkOperatorList(
+	const { fills, imagePaints, runs, annotationIdsWithAppearance } = walkOperatorList(
 		opList.fnArray,
 		opList.argsArray,
 		pdfjs.OPS,
@@ -487,17 +537,26 @@ async function extractPage(
 	);
 
 	const imageRegions: ImageRegion[] = [];
-	for (const { id, box } of imagePaints) {
+	for (const { id, box, annotationId } of imagePaints) {
 		const image = await resolveImage(page, id, 3000);
 		if (!image) continue;
-		const region = buildImageRegion(image, box);
-		if (region) imageRegions.push(region);
+		// В appearance stream полупрозрачный маркер иногда хранится как тёмный
+		// RGB (около 64–128) плюс alpha. Для обычных изображений оставляем
+		// более строгий порог, чтобы не считать цветные иллюстрации маркером.
+		const region = buildImageRegion(image, box, annotationId ? 60 : 100);
+		if (region) {
+			imageRegions.push(region);
+			if (annotationId) annotationIdsWithAppearance.add(annotationId);
+		}
 	}
 
 	const annotations = await page.getAnnotations();
 	const annotationBoxes: Box[] = [];
 	for (const a of annotations) {
 		if (!a.subtype || !MARKUP_ANNOTATIONS.has(a.subtype)) continue;
+		// Если appearance stream удалось извлечь, используем его точную маску.
+		// Прямоугольник всей Stamp/Square-аннотации часто охватывает полстраницы.
+		if (a.id && annotationIdsWithAppearance.has(a.id)) continue;
 		const r = a.rect;
 		if (!r || r.length !== 4) continue;
 		annotationBoxes.push({

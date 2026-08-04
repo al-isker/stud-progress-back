@@ -16,6 +16,7 @@ export interface PdfTextContent {
 }
 
 export interface PdfAnnotation {
+	id?: string;
 	subtype?: string;
 	rect?: number[];
 }
