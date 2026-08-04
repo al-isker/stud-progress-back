@@ -38,21 +38,14 @@ function normalize(parts: string[]): string {
 }
 
 /**
- * Удаляет из текста только ту часть исходных символов, которая подтверждена
- * как глобальный маркер правильности. При визуальном маркере символы после
- * структурного префикса остаются содержимым ответа (`=%` → `%`).
+ * Удаляет из первой строки только точный служебный префикс, подтверждённый
+ * выбранной стратегией маркера. Остальные начальные символы являются частью
+ * ответа (`=%` → `%`, если `%` не был подтверждён как маркер).
  */
-function optionTextParts(option: RawOption, symbolPrefix: string | null): string[] {
+function optionTextParts(option: RawOption, consumedTextPrefix: string | null): string[] {
 	const parts = [...option.texts];
-	if (!symbolPrefix || !option.sourcePrefix?.startsWith(symbolPrefix) || !option.structuralPrefix) {
-		return parts;
-	}
-
-	const markerRemainder = symbolPrefix.startsWith(option.structuralPrefix)
-		? symbolPrefix.slice(option.structuralPrefix.length)
-		: '';
-	if (markerRemainder && parts[0]?.startsWith(markerRemainder)) {
-		parts[0] = parts[0].slice(markerRemainder.length).trimStart();
+	if (consumedTextPrefix && parts[0]?.startsWith(consumedTextPrefix)) {
+		parts[0] = parts[0].slice(consumedTextPrefix.length).trimStart();
 	}
 
 	return parts;
@@ -69,12 +62,13 @@ function optionTextParts(option: RawOption, symbolPrefix: string | null): string
  * @param marks  разметка правильных вариантов по вопросам; `undefined` — вопрос
  *   не участвовал в поиске указателя (у него меньше двух вариантов).
  * @param ambiguous  индексы вопросов (в `raw`) с противоречивым указателем.
+ * @param consumedTextPrefixes  служебные префиксы текста по вариантам.
  */
 export function assembleTestDocument(
 	raw: RawQuestion[],
 	marks: (boolean[] | undefined)[],
 	ambiguous: Set<number>,
-	symbolPrefix: string | null = null
+	consumedTextPrefixes: ((string | null)[] | undefined)[] = []
 ): ParseResult {
 	const questions: Question[] = [];
 	const rejectedQuestions: RejectedQuestion[] = [];
@@ -84,7 +78,7 @@ export function assembleTestDocument(
 		const mark = marks[qi];
 		const options = raw[qi].options.map((option, oi) => ({
 			index: oi + 1,
-			text: normalize(optionTextParts(option, symbolPrefix)),
+			text: normalize(optionTextParts(option, consumedTextPrefixes[qi]?.[oi] ?? null)),
 			isCorrect: mark ? mark[oi] : false
 		}));
 

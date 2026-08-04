@@ -65,12 +65,15 @@ describe('document-level option syntax', () => {
 		const marker = resolveAnswerMarker(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
-		expect(marker.symbolPrefix).toBe('=+');
+		expect(marker.consumedTextPrefixes).toEqual([
+			['+', null, null],
+			[null, '+', null]
+		]);
 		const result = assembleTestDocument(
 			questions,
 			marker.marked,
 			new Set(marker.ambiguous),
-			marker.symbolPrefix
+			marker.consumedTextPrefixes
 		);
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
 
@@ -113,12 +116,15 @@ describe('document-level option syntax', () => {
 		const marker = resolveAnswerMarker(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
-		expect(marker.symbolPrefix).toBeNull();
+		expect(marker.consumedTextPrefixes).toEqual([
+			[null, null, null],
+			[null, null, null]
+		]);
 		const result = assembleTestDocument(
 			questions,
 			marker.marked,
 			new Set(marker.ambiguous),
-			marker.symbolPrefix
+			marker.consumedTextPrefixes
 		);
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
 
@@ -137,12 +143,14 @@ describe('document-level option syntax', () => {
 		const marker = resolveAnswerMarker(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
-		expect(marker.symbolPrefix).toBe('=');
+		expect(marker.consumedTextPrefixes.every(question => question.every(value => !value))).toBe(
+			true
+		);
 		const result = assembleTestDocument(
 			questions,
 			marker.marked,
 			new Set(marker.ambiguous),
-			marker.symbolPrefix
+			marker.consumedTextPrefixes
 		);
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
 
@@ -170,7 +178,7 @@ describe('document-level option syntax', () => {
 			questions,
 			marker.marked,
 			new Set(marker.ambiguous),
-			marker.symbolPrefix
+			marker.consumedTextPrefixes
 		);
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
 
@@ -178,5 +186,76 @@ describe('document-level option syntax', () => {
 		expect(result.document.questions[0].options[0].text).toBe(
 			'диафрагмально-селезеночно-ободочная связка'
 		);
+	});
+
+	test('combines local percentage markers with the global document marker', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct 1'], ['~wrong 1'], ['~wrong 2']]),
+			...bracketQuestion('Question 2', [['~wrong 1'], ['=correct 2'], ['~wrong 2']]),
+			...bracketQuestion('Question 3', [['~wrong 1'], ['~wrong 2'], ['=correct 3']]),
+			...bracketQuestion('Question 4', [
+				['~%50% correct 1'],
+				['~%-33.33333% wrong'],
+				['~%50% correct 2']
+			])
+		]);
+		const marker = resolveAnswerMarker(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		const result = assembleTestDocument(
+			questions,
+			marker.marked,
+			new Set(marker.ambiguous),
+			marker.consumedTextPrefixes
+		);
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions.map(question => question.type)).toEqual([
+			'single',
+			'single',
+			'single',
+			'multiple'
+		]);
+		expect(result.document.questions[3].options).toEqual([
+			{ index: 1, text: 'correct 1', isCorrect: true },
+			{ index: 2, text: 'wrong', isCorrect: false },
+			{ index: 3, text: 'correct 2', isCorrect: true }
+		]);
+	});
+
+	test('ignores a stray closing brace before the actual end of an option block', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('~wrong 1'),
+			line('~wrong 2}'),
+			line('~wrong 3'),
+			line('=correct'),
+			line('~wrong 4'),
+			line('}'),
+			...bracketQuestion('Question 2', [['~wrong 1'], ['=correct'], ['~wrong 2']])
+		]);
+
+		expect(questions[0].options.map(option => option.texts[0])).toEqual([
+			'wrong 1',
+			'wrong 2',
+			'wrong 3',
+			'correct',
+			'wrong 4'
+		]);
+	});
+
+	test('does not invent an option when a line has no structural prefix', () => {
+		const questions = segment([
+			line('Question {'),
+			line('=correct'),
+			line('~wrong 1'),
+			line('~wrong 2'),
+			line('~wrong 3'),
+			line('wrong 4'),
+			line('}')
+		]);
+
+		expect(questions[0].options).toHaveLength(4);
+		expect(questions[0].options[3].texts).toEqual(['wrong 3', 'wrong 4']);
 	});
 });

@@ -173,6 +173,19 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 		if (text !== '') segments.push({ text, line });
 	};
 
+	/** Есть ли ещё закрывающая скобка до начала следующего блока вопросов. */
+	const hasLaterCloseBeforeNextOpen = (lineIndex: number, afterCurrentClose: string): boolean => {
+		for (let i = lineIndex; i < lines.length; i++) {
+			const text = i === lineIndex ? afterCurrentClose : lines[i].text;
+			const nextOpen = text.indexOf('{');
+			const nextClose = text.indexOf('}');
+			if (nextClose >= 0 && (nextOpen < 0 || nextClose < nextOpen)) return true;
+			if (nextOpen >= 0) return false;
+		}
+
+		return false;
+	};
+
 	const openBlock = (before: string, line: DocLine) => {
 		const paragraph = before !== '' && isParagraphStart(line) ? [] : lastParagraph(tail);
 		qTexts = paragraph.map(l => l.text.trim());
@@ -182,7 +195,8 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 		inBlock = true;
 	};
 
-	for (const line of lines) {
+	for (let lineIndex = 0; lineIndex < lines.length; lineIndex++) {
+		const line = lines[lineIndex];
 		let rest = line.text.trim();
 		let consumedOnLine = false;
 		while (rest.length > 0) {
@@ -201,9 +215,23 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 					addBlockSegment(rest, line);
 					break;
 				}
+				const afterClose = rest.slice(close + 1);
+				const attachedToOptionText = rest.slice(0, close).trim() !== '';
+				const nextLineStartsWithSymbol =
+					lineIndex + 1 < lines.length && scanSymbolHead(lines[lineIndex + 1].text) !== null;
+				if (
+					attachedToOptionText &&
+					nextLineStartsWithSymbol &&
+					hasLaterCloseBeforeNextOpen(lineIndex, afterClose)
+				) {
+					// В реальных выгрузках `}` иногда ошибочно попадает внутрь варианта.
+					// Если до следующего `{` есть ещё одна `}`, закрывающей является последняя.
+					rest = rest.slice(0, close) + afterClose;
+					continue;
+				}
 				addBlockSegment(rest.slice(0, close), line);
 				closeBlock();
-				rest = rest.slice(close + 1);
+				rest = afterClose;
 				consumedOnLine = true;
 			}
 		}
@@ -233,7 +261,6 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 
 		return { texts, options };
 	});
-
 	return questions.length > 0 ? questions : null;
 }
 

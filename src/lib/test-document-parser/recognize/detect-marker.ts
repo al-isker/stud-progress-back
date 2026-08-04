@@ -1,22 +1,31 @@
+import { resolvePercentageMarker } from './detect-percentage-marker';
 import { RawOption, RawQuestion } from './segment';
 
 /**
  * Итог поиска указателя ответа.
  *
- * `confirmed: true` — формат документа подтверждён: один признак размечает
- * строгое большинство вопросов. `marked` — разметка правильных
- * вариантов (в том числе «все варианты верны»; пустая разметка = ответ не
- * найден), `ambiguous` — номера вопросов, где конкурирующие признаки разошлись.
+ * `confirmed: true` — поддерживаемые стратегии совместно покрывают строгое
+ * большинство вопросов. `marked` — разметка правильных вариантов,
+ * `consumedTextPrefixes` — точные служебные префиксы, удаляемые из текста,
+ * `ambiguous` — номера вопросов, где глобальные признаки разошлись.
  *
- * `confirmed: false` — единый формат указателя не подтверждён; парсер отклоняет
- * документ целиком.
+ * `confirmed: false` — поддерживаемые форматы не покрывают большинство;
+ * парсер отклоняет документ целиком.
  */
 export type MarkerResult =
 	| {
 			confirmed: true;
 			marked: boolean[][];
 			ambiguous: number[];
-			/** Глобальный символьный маркер; null для визуального признака. */
+			consumedTextPrefixes: (string | null)[][];
+	  }
+	| { confirmed: false };
+
+type GlobalMarkerResult =
+	| {
+			confirmed: true;
+			marked: boolean[][];
+			ambiguous: number[];
 			symbolPrefix: string | null;
 	  }
 	| { confirmed: false };
@@ -138,8 +147,9 @@ const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('
 /**
  * Ищет единственный признак, выделяющий правильные ответы на фоне остальных:
  * символьный префикс, цветовое выделение, жирность, курсив или цвет текста.
- * Формат один на весь документ, поэтому сначала признак ПОДТВЕРЖДАЕТСЯ на всём
- * файле, а уже потом применяется к каждому вопросу.
+ * Формат един для переданного набора непроцентных вопросов, поэтому сначала
+ * признак ПОДТВЕРЖДАЕТСЯ на всём наборе, а уже потом применяется к каждому
+ * вопросу.
  *
  * Отбор: маркер выделяет меньшинство вариантов, поэтому признаки, в среднем
  * помечающие больше половины (например «~» перед всеми неправильными),
@@ -154,7 +164,7 @@ const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('
  * помечены все варианты — значит, все и верны; не помечен ни один — вопрос
  * будет отклонён с причиной `NO_ANSWER_MARKER`.
  */
-export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
+function resolveGlobalAnswerMarker(questions: RawQuestion[]): GlobalMarkerResult {
 	const styles = questions.map(q => q.options.map(styleOf));
 	if (styles.length === 0) return { confirmed: false };
 
@@ -224,7 +234,7 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 
 	// Символьный декоратор может быть немного повреждён и уступить более полному
 	// визуальному признаку. Удаляем его из текста, если он подтверждён на нужной
-	// большинстве вопросов и нигде не противоречит итоговой разметке.
+	// доле вопросов и нигде не противоречит итоговой разметке.
 	const compatibleSymbolCandidates = usable
 		.filter((candidate): candidate is Candidate & { symbolPrefix: string } => {
 			if (!candidate.symbolPrefix) return false;
@@ -243,4 +253,74 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	const symbolPrefix = compatibleSymbolCandidates[0]?.symbolPrefix ?? null;
 
 	return { confirmed: true, marked, ambiguous, symbolPrefix };
+}
+
+function consumedSymbolPrefixes(
+	questions: RawQuestion[],
+	symbolPrefix: string | null
+): (string | null)[][] {
+	return questions.map(question =>
+		question.options.map(option => {
+			if (
+				!symbolPrefix ||
+				!option.sourcePrefix?.startsWith(symbolPrefix) ||
+				!option.structuralPrefix ||
+				!symbolPrefix.startsWith(option.structuralPrefix)
+			) {
+				return null;
+			}
+
+			const remainder = symbolPrefix.slice(option.structuralPrefix.length);
+
+			return remainder !== '' && option.texts[0]?.startsWith(remainder) ? remainder : null;
+		})
+	);
+}
+
+/**
+ * Совмещает локальные процентные маркеры с единым глобальным форматом остальных
+ * вопросов. Процентная грамматика имеет приоритет только внутри распознанного
+ * вопроса и не участвует в выборе глобального символьного/визуального признака.
+ */
+export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
+	if (questions.length === 0) return { confirmed: false };
+
+	const percentageResults = questions.map(resolvePercentageMarker);
+	const marked = questions.map(question => question.options.map(() => false));
+	const consumedTextPrefixes: (string | null)[][] = questions.map(question =>
+		question.options.map(() => null)
+	);
+	const ambiguous: number[] = [];
+	let resolvedQuestions = 0;
+
+	const globalIndices: number[] = [];
+	percentageResults.forEach((result, questionIndex) => {
+		if (!result.recognized) {
+			globalIndices.push(questionIndex);
+			return;
+		}
+		if (!result.resolved) return;
+
+		marked[questionIndex] = result.marked;
+		consumedTextPrefixes[questionIndex] = result.consumedTextPrefixes;
+		resolvedQuestions++;
+	});
+
+	if (globalIndices.length > 0) {
+		const globalQuestions = globalIndices.map(index => questions[index]);
+		const global = resolveGlobalAnswerMarker(globalQuestions);
+		if (global.confirmed) {
+			const globalConsumedPrefixes = consumedSymbolPrefixes(globalQuestions, global.symbolPrefix);
+			globalIndices.forEach((questionIndex, localIndex) => {
+				marked[questionIndex] = global.marked[localIndex];
+				consumedTextPrefixes[questionIndex] = globalConsumedPrefixes[localIndex];
+			});
+			ambiguous.push(...global.ambiguous.map(localIndex => globalIndices[localIndex]));
+			resolvedQuestions += globalIndices.length;
+		}
+	}
+
+	if (!hasStrictMajority(resolvedQuestions, questions.length)) return { confirmed: false };
+
+	return { confirmed: true, marked, ambiguous, consumedTextPrefixes };
 }

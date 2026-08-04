@@ -60,12 +60,14 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 	}
 
 	const marks: (boolean[] | undefined)[] = raw.map(() => undefined);
+	const consumedTextPrefixes: ((string | null)[] | undefined)[] = raw.map(() => undefined);
 	answerableIndices.forEach((globalIndex, localIndex) => {
 		marks[globalIndex] = marker.marked[localIndex];
+		consumedTextPrefixes[globalIndex] = marker.consumedTextPrefixes[localIndex];
 	});
 	const ambiguousGlobal = new Set(
 		marker.ambiguous.map(localIndex => answerableIndices[localIndex])
 	);
 
-	return assembleTestDocument(raw, marks, ambiguousGlobal, marker.symbolPrefix);
+	return assembleTestDocument(raw, marks, ambiguousGlobal, consumedTextPrefixes);
 }

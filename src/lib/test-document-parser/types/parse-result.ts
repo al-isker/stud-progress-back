@@ -16,8 +16,8 @@ export enum ParseRejectionReason {
 	UNREADABLE_DOCUMENT = 'UNREADABLE_DOCUMENT',
 	QUESTION_STRUCTURE_NOT_RECOGNIZED = 'QUESTION_STRUCTURE_NOT_RECOGNIZED',
 	/**
-	 * Формат указателя правильного ответа не подтверждён: ни один поддерживаемый
-	 * признак не выделяет ответы в строгом большинстве вопросов документа.
+	 * Формат указателя правильного ответа не подтверждён: поддерживаемые локальные
+	 * и глобальные стратегии совместно не покрывают строгое большинство вопросов.
 	 */
 	ANSWER_MARKER_NOT_RECOGNIZED = 'ANSWER_MARKER_NOT_RECOGNIZED'
 }
