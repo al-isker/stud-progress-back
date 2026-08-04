@@ -3,8 +3,8 @@ import { RawOption, RawQuestion } from './segment';
 /**
  * Итог поиска указателя ответа.
  *
- * `confirmed: true` — формат документа подтверждён: один признак размечает не
- * менее FORMAT_CONFIRMATION_SHARE вопросов. `marked` — разметка правильных
+ * `confirmed: true` — формат документа подтверждён: один признак размечает
+ * строгое большинство вопросов. `marked` — разметка правильных
  * вариантов (в том числе «все варианты верны»; пустая разметка = ответ не
  * найден), `ambiguous` — номера вопросов, где конкурирующие признаки разошлись.
  *
@@ -21,8 +21,8 @@ export type MarkerResult =
 	  }
 	| { confirmed: false };
 
-/** Минимальная доля вопросов, размеченных одним признаком, для подтверждения формата. */
-const FORMAT_CONFIRMATION_SHARE = 0.8;
+/** Ровно половины недостаточно: формат подтверждает только строгое большинство. */
+const hasStrictMajority = (count: number, total: number) => count > total / 2;
 
 /** Агрегированные визуальные свойства варианта (по всем его строкам). */
 interface OptionStyle {
@@ -147,9 +147,8 @@ const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('
  * всего вопросов. Токен-маркер сопоставляется по началу префикса — повреждённый
  * глифами токен («=<» при маркере «=») всё равно засчитывается.
  *
- * Подтверждение: победитель должен присутствовать не менее чем в
- * FORMAT_CONFIRMATION_SHARE вопросов, иначе формат не подтверждён и парсер
- * отклоняет документ.
+ * Подтверждение: победитель должен присутствовать в строгом большинстве
+ * вопросов, иначе формат не подтверждён и парсер отклоняет документ.
  *
  * Применение подтверждённого маркера вопросу доверяет:
  * помечены все варианты — значит, все и верны; не помечен ни один — вопрос
@@ -193,9 +192,9 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	const maxCoverage = Math.max(...usable.map(c => c.coverage));
 	const top = usable.filter(c => c.coverage === maxCoverage);
 
-	// Формат подтверждён, только если победитель присутствует в нужной доле вопросов.
+	// Формат подтверждён, только если победитель присутствует в большинстве вопросов.
 	const bestConforming = Math.max(...top.map(c => c.conforming));
-	if (bestConforming < styles.length * FORMAT_CONFIRMATION_SHARE) return { confirmed: false };
+	if (!hasStrictMajority(bestConforming, styles.length)) return { confirmed: false };
 
 	// Признаки с одинаковой разметкой не конфликтуют — группируем по ней.
 	const signature = (sets: boolean[][]) => sets.map(questionSignature).join(';');
@@ -225,11 +224,11 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 
 	// Символьный декоратор может быть немного повреждён и уступить более полному
 	// визуальному признаку. Удаляем его из текста, если он подтверждён на нужной
-	// доле вопросов и нигде не противоречит итоговой разметке.
+	// большинстве вопросов и нигде не противоречит итоговой разметке.
 	const compatibleSymbolCandidates = usable
 		.filter((candidate): candidate is Candidate & { symbolPrefix: string } => {
 			if (!candidate.symbolPrefix) return false;
-			if (candidate.conforming < styles.length * FORMAT_CONFIRMATION_SHARE) return false;
+			if (!hasStrictMajority(candidate.conforming, styles.length)) return false;
 
 			return candidate.sets.every((question, questionIndex) =>
 				question.every((isMarked, optionIndex) => !isMarked || marked[questionIndex][optionIndex])

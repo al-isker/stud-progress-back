@@ -82,6 +82,29 @@ describe('document-level option syntax', () => {
 		]);
 	});
 
+	test('confirms an answer marker present in a strict majority of questions', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=+correct'], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=+correct'], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=wrong 1'], ['=wrong 2'], ['=+correct']]),
+			...bracketQuestion('Question 4', [['=answer 1'], ['=answer 2'], ['=answer 3']]),
+			...bracketQuestion('Question 5', [['=answer 1'], ['=answer 2'], ['=answer 3']])
+		]);
+
+		expect(resolveAnswerMarker(questions).confirmed).toBe(true);
+	});
+
+	test('does not confirm an answer marker present in exactly half of questions', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=+correct'], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=+correct'], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=answer 1'], ['=answer 2'], ['=answer 3']]),
+			...bracketQuestion('Question 4', [['=answer 1'], ['=answer 2'], ['=answer 3']])
+		]);
+
+		expect(resolveAnswerMarker(questions)).toEqual({ confirmed: false });
+	});
+
 	test('prefers a visual marker over consuming a coinciding symbolic answer', () => {
 		const questions = segment([
 			...bracketQuestion('Question 1', [['=/', 1], ['= other 1'], ['= other 2']]),
