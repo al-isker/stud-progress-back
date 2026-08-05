@@ -6,20 +6,17 @@ import { ParseRejectionReason, ParseStatus } from './types/parse-result';
 jest.setTimeout(120000);
 
 type Validity = 'valid' | 'invalid';
-type FixtureTier = 'full' | 'short';
 
 interface FixtureCase {
-	tier: FixtureTier;
 	name: string;
 	dir: string;
 }
 
 const FIXTURES_DIR = join(__dirname, 'fixtures');
-const FIXTURE_TIERS: FixtureTier[] = ['short', 'full'];
 
-/** Находит все папки-кейсы внутри fixtures/<tier>/<validity>. */
-function discoverCases(tier: FixtureTier, validity: Validity): FixtureCase[] {
-	const base = join(FIXTURES_DIR, tier, validity);
+/** Находит все папки-кейсы внутри fixtures/<validity>. */
+function discoverCases(validity: Validity): FixtureCase[] {
+	const base = join(FIXTURES_DIR, validity);
 
 	if (!existsSync(base)) {
 		return [];
@@ -27,7 +24,7 @@ function discoverCases(tier: FixtureTier, validity: Validity): FixtureCase[] {
 
 	return readdirSync(base)
 		.sort()
-		.map(name => ({ tier, name, dir: join(base, name) }))
+		.map(name => ({ name, dir: join(base, name) }))
 		.filter(entry => statSync(entry.dir).isDirectory());
 }
 
@@ -46,8 +43,8 @@ function readDocument(dir: string): { filename: string; data: Buffer } {
 	return { filename, data: readFileSync(join(dir, filename)) };
 }
 
-const acceptedCases = FIXTURE_TIERS.flatMap(tier => discoverCases(tier, 'valid'));
-const rejectedCases = FIXTURE_TIERS.flatMap(tier => discoverCases(tier, 'invalid'));
+const acceptedCases = discoverCases('valid');
+const rejectedCases = discoverCases('invalid');
 
 if (acceptedCases.length === 0 && rejectedCases.length === 0) {
 	// Корпус ещё не наполнен — держим заглушку, чтобы у suite был хотя бы один тест.
@@ -58,8 +55,8 @@ if (acceptedCases.length === 0 && rejectedCases.length === 0) {
 
 if (acceptedCases.length > 0) {
 	describe('accepted', () => {
-		for (const { tier, name, dir } of acceptedCases) {
-			test(`${tier}/${name} → accepted`, async () => {
+		for (const { name, dir } of acceptedCases) {
+			test(`${name} → accepted`, async () => {
 				const { filename, data } = readDocument(dir);
 				const result = await parseTestDocument({ data, filename });
 
@@ -67,7 +64,7 @@ if (acceptedCases.length > 0) {
 
 				const expectedPath = join(dir, 'expected.json');
 				if (!existsSync(expectedPath)) {
-					throw new Error(`No expected.json found for accepted fixture: ${tier}/${name}`);
+					throw new Error(`No expected.json found for accepted fixture: ${name}`);
 				}
 				const expected = JSON.parse(readFileSync(expectedPath, 'utf8'));
 
@@ -88,8 +85,8 @@ test('неподдерживаемый формат → rejected', async () => {
 
 if (rejectedCases.length > 0) {
 	describe('rejected', () => {
-		for (const { tier, name, dir } of rejectedCases) {
-			test(`${tier}/${name} → rejected`, async () => {
+		for (const { name, dir } of rejectedCases) {
+			test(`${name} → rejected`, async () => {
 				const { filename, data } = readDocument(dir);
 
 				const result = await parseTestDocument({ data, filename });

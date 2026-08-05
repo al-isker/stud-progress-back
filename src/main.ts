@@ -14,7 +14,7 @@ import {
 async function bootstrap() {
 	const result = await parseTestDocument({
 		// data: readFileSync('./src/lib/test-document-parser/fixtures/short/valid/001/document.pdf'),
-		data: readFileSync('./src/lib/test-document-parser/fixtures/full/valid/001/document.pdf'),
+		data: readFileSync('./src/lib/test-document-parser/fixtures/valid/001/document.pdf'),
 		filename: 'bootstrap-test'
 	});
 
