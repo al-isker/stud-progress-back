@@ -8,10 +8,9 @@ import { Question } from '../types/test-document';
 import { RawOption, RawQuestion } from './segment';
 
 /**
- * Склеивает строки варианта/вопроса. На переносе (строка кончается дефисом)
- * пробел не ставится, а дефис убирается — если это не составное слово: дефис
- * сохраняется после соединительной гласной («лечебно-…») или перед заглавной/
- * цифрой. В остальных случаях строки разделяются пробелом.
+ * Склеивает строки варианта/вопроса. Только мягкий перенос `U+00AD` является
+ * однозначным указанием объединить части слова без дефиса. Любая видимая
+ * чёрточка сохраняется; в остальных случаях строки разделяются пробелом.
  */
 function normalize(parts: string[]): string {
 	let out = '';
@@ -22,12 +21,13 @@ function normalize(parts: string[]): string {
 			out = part;
 			continue;
 		}
-		if (/[-‐]$/.test(out)) {
-			const core = out.replace(/[-‐]+$/, '');
-			const keepHyphen = /[оеОЕ]$/.test(core) || /^[A-ZА-ЯЁ0-9]/.test(part);
-			out = keepHyphen ? `${core}-${part}` : core + part;
-		} else if (/^[-‐‑‒–—](?=\p{L})/u.test(part)) {
-			// Перенесённая часть составного слова может начинаться с дефиса.
+		if (out.endsWith('\u00ad')) {
+			out = out.slice(0, -1) + part;
+		} else if (/[-‐‑]$/.test(out)) {
+			const separated = /\s[-‐‑]$/.test(out);
+			out += separated && !/^\d/.test(part) ? ` ${part}` : part;
+		} else if (/^[-‐‑](?=\p{L})/u.test(part)) {
+			// Видимая чёрточка является частью авторского текста.
 			out += part;
 		} else {
 			out += ` ${part}`;
