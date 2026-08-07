@@ -1,4 +1,5 @@
 import { resolvePercentageMarker } from './detect-percentage-marker';
+import { hasMatchingMarkerPattern, isMatchingCandidate } from './matching';
 import { RawOption, RawQuestion } from './segment';
 
 /**
@@ -16,6 +17,7 @@ export type MarkerResult =
 	| {
 			confirmed: true;
 			marked: boolean[][];
+			matching: boolean[];
 			ambiguous: number[];
 			consumedTextPrefixes: (string | null)[][];
 	  }
@@ -120,11 +122,16 @@ interface Candidate {
 	avgFraction: number;
 }
 
-function toCandidate(sets: boolean[][], symbolPrefix: string | null = null): Candidate {
+function toCandidate(
+	sets: boolean[][],
+	evaluationIndices: number[],
+	symbolPrefix: string | null = null
+): Candidate {
 	let coverage = 0;
 	let conforming = 0;
 	let fractionSum = 0;
-	for (const qs of sets) {
+	for (const questionIndex of evaluationIndices) {
+		const qs = sets[questionIndex];
 		const count = qs.filter(Boolean).length;
 		if (count >= 1) conforming++;
 		if (count >= 1 && count < qs.length) {
@@ -164,13 +171,17 @@ const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('
  * помечены все варианты — значит, все и верны; не помечен ни один — вопрос
  * будет отклонён с причиной `NO_ANSWER_MARKER`.
  */
-function resolveGlobalAnswerMarker(questions: RawQuestion[]): GlobalMarkerResult {
+function resolveGlobalAnswerMarker(
+	questions: RawQuestion[],
+	evaluationIndices: number[]
+): GlobalMarkerResult {
 	const styles = questions.map(q => q.options.map(styleOf));
-	if (styles.length === 0) return { confirmed: false };
+	if (styles.length === 0 || evaluationIndices.length === 0) return { confirmed: false };
 
 	const symbolPrefixes = new Set<string>();
 	const colors = new Set<string>();
-	for (const qs of styles) {
+	for (const questionIndex of evaluationIndices) {
+		const qs = styles[questionIndex];
 		for (const s of qs) {
 			if (s.sourcePrefix && s.hasTextAfterSourcePrefix) symbolPrefixes.add(s.sourcePrefix);
 			if (s.color) colors.add(s.color);
@@ -185,14 +196,35 @@ function resolveGlobalAnswerMarker(questions: RawQuestion[]): GlobalMarkerResult
 					styles,
 					s => s.sourcePrefix !== null && s.sourcePrefix.startsWith(symbolPrefix)
 				),
+				evaluationIndices,
 				symbolPrefix
 			)
 		);
-	candidates.push(toCandidate(markByRelativeScore(styles, s => s.highlight, 0.08)));
-	candidates.push(toCandidate(markByPredicate(styles, s => s.bold >= 0.55)));
-	candidates.push(toCandidate(markByPredicate(styles, s => s.italic >= 0.55)));
+	candidates.push(
+		toCandidate(
+			markByRelativeScore(styles, s => s.highlight, 0.08),
+			evaluationIndices
+		)
+	);
+	candidates.push(
+		toCandidate(
+			markByPredicate(styles, s => s.bold >= 0.55),
+			evaluationIndices
+		)
+	);
+	candidates.push(
+		toCandidate(
+			markByPredicate(styles, s => s.italic >= 0.55),
+			evaluationIndices
+		)
+	);
 	for (const color of colors)
-		candidates.push(toCandidate(markByPredicate(styles, s => s.color === color)));
+		candidates.push(
+			toCandidate(
+				markByPredicate(styles, s => s.color === color),
+				evaluationIndices
+			)
+		);
 
 	const usable = candidates.filter(c => c.coverage >= 1 && c.avgFraction <= 0.5);
 	if (usable.length === 0) return { confirmed: false };
@@ -204,7 +236,7 @@ function resolveGlobalAnswerMarker(questions: RawQuestion[]): GlobalMarkerResult
 
 	// Формат подтверждён, только если победитель присутствует в большинстве вопросов.
 	const bestConforming = Math.max(...top.map(c => c.conforming));
-	if (!hasStrictMajority(bestConforming, styles.length)) return { confirmed: false };
+	if (!hasStrictMajority(bestConforming, evaluationIndices.length)) return { confirmed: false };
 
 	// Признаки с одинаковой разметкой не конфликтуют — группируем по ней.
 	const signature = (sets: boolean[][]) => sets.map(questionSignature).join(';');
@@ -238,7 +270,7 @@ function resolveGlobalAnswerMarker(questions: RawQuestion[]): GlobalMarkerResult
 	const compatibleSymbolCandidates = usable
 		.filter((candidate): candidate is Candidate & { symbolPrefix: string } => {
 			if (!candidate.symbolPrefix) return false;
-			if (!hasStrictMajority(candidate.conforming, styles.length)) return false;
+			if (!hasStrictMajority(candidate.conforming, evaluationIndices.length)) return false;
 
 			return candidate.sets.every((question, questionIndex) =>
 				question.every((isMarked, optionIndex) => !isMarked || marked[questionIndex][optionIndex])
@@ -278,20 +310,23 @@ function consumedSymbolPrefixes(
 }
 
 /**
- * Совмещает локальные процентные маркеры с единым глобальным форматом остальных
- * вопросов. Процентная грамматика имеет приоритет только внутри распознанного
- * вопроса и не участвует в выборе глобального символьного/визуального признака.
+ * Кандидаты в matching не участвуют в выборе глобального маркера, но выбранный
+ * по обычным вопросам маркер применяется и к ним. После этого matching
+ * подтверждается только при состоянии ALL или NONE; состояние PARTIAL оставляет
+ * вопрос обычным. Локальные процентные грамматики не участвуют в выборе
+ * глобального признака.
  */
 export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	if (questions.length === 0) return { confirmed: false };
 
 	const percentageResults = questions.map(resolvePercentageMarker);
+	const matchingCandidates = questions.map(isMatchingCandidate);
 	const marked = questions.map(question => question.options.map(() => false));
 	const consumedTextPrefixes: (string | null)[][] = questions.map(question =>
 		question.options.map(() => null)
 	);
 	const ambiguous: number[] = [];
-	let resolvedQuestions = 0;
+	const resolved = questions.map(() => false);
 
 	const globalIndices: number[] = [];
 	percentageResults.forEach((result, questionIndex) => {
@@ -303,24 +338,41 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 
 		marked[questionIndex] = result.marked;
 		consumedTextPrefixes[questionIndex] = result.consumedTextPrefixes;
-		resolvedQuestions++;
+		resolved[questionIndex] = true;
 	});
 
 	if (globalIndices.length > 0) {
 		const globalQuestions = globalIndices.map(index => questions[index]);
-		const global = resolveGlobalAnswerMarker(globalQuestions);
+		const evaluationIndices = globalIndices
+			.map((questionIndex, localIndex) => ({ questionIndex, localIndex }))
+			.filter(({ questionIndex }) => !matchingCandidates[questionIndex])
+			.map(({ localIndex }) => localIndex);
+		const global = resolveGlobalAnswerMarker(globalQuestions, evaluationIndices);
 		if (global.confirmed) {
 			const globalConsumedPrefixes = consumedSymbolPrefixes(globalQuestions, global.symbolPrefix);
 			globalIndices.forEach((questionIndex, localIndex) => {
 				marked[questionIndex] = global.marked[localIndex];
 				consumedTextPrefixes[questionIndex] = globalConsumedPrefixes[localIndex];
+				resolved[questionIndex] = true;
 			});
 			ambiguous.push(...global.ambiguous.map(localIndex => globalIndices[localIndex]));
-			resolvedQuestions += globalIndices.length;
 		}
 	}
 
-	if (!hasStrictMajority(resolvedQuestions, questions.length)) return { confirmed: false };
+	const ambiguousSet = new Set(ambiguous);
+	const matching = questions.map(
+		(_, questionIndex) =>
+			matchingCandidates[questionIndex] &&
+			!ambiguousSet.has(questionIndex) &&
+			hasMatchingMarkerPattern(marked[questionIndex])
+	);
+	matching.forEach((isMatching, questionIndex) => {
+		if (isMatching) resolved[questionIndex] = true;
+	});
 
-	return { confirmed: true, marked, ambiguous, consumedTextPrefixes };
+	if (!hasStrictMajority(resolved.filter(Boolean).length, questions.length)) {
+		return { confirmed: false };
+	}
+
+	return { confirmed: true, marked, matching, ambiguous, consumedTextPrefixes };
 }

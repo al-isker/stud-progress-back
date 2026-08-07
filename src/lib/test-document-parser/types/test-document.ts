@@ -1,5 +1,5 @@
-/** Тип вопроса по количеству правильных ответов. */
-export type QuestionType = 'single' | 'multiple';
+/** Поддерживаемый тип вопроса. */
+export type QuestionType = 'single' | 'multiple' | 'matching';
 
 /** Вариант ответа. */
 export interface Option {
@@ -10,15 +10,33 @@ export interface Option {
 	isCorrect: boolean;
 }
 
-/** Вопрос с вариантами ответа. */
-export interface Question {
+/** Вопрос с выбором одного или нескольких правильных вариантов. */
+export interface ChoiceQuestion {
 	/** Порядковый номер вопроса в документе, начиная с 1. */
 	index: number;
 	text: string;
 	/** single — ровно один правильный вариант; multiple — два и более. */
-	type: QuestionType;
+	type: 'single' | 'multiple';
 	options: Option[];
 }
+
+/** Одна установленная пара matching-вопроса. */
+export interface MatchingPair {
+	left: string;
+	right: string;
+}
+
+/** Вопрос на установление соответствия. */
+export interface MatchingQuestion {
+	/** Порядковый номер вопроса в документе, начиная с 1. */
+	index: number;
+	text: string;
+	type: 'matching';
+	pairs: MatchingPair[];
+}
+
+/** Любой поддерживаемый вопрос тестового документа. */
+export type Question = ChoiceQuestion | MatchingQuestion;
 
 /** Результат успешного парсинга — набор вопросов. */
 export interface TestDocument {

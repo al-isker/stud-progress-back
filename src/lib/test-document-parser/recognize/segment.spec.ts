@@ -1,5 +1,6 @@
 import { DocLine } from '../types/document-model';
 import { ParseStatus, QuestionRejectionReason } from '../types/parse-result';
+import { ChoiceQuestion, Question } from '../types/test-document';
 import { assembleTestDocument } from './assemble';
 import { resolveAnswerMarker } from './detect-marker';
 import { RawQuestion, segmentQuestions } from './segment';
@@ -31,6 +32,12 @@ function segment(lines: DocLine[]): RawQuestion[] {
 	if (!questions) throw new Error('Questions were not segmented');
 
 	return questions;
+}
+
+function choiceQuestion(question: Question): ChoiceQuestion {
+	if (question.type === 'matching') throw new Error('Expected a choice question');
+
+	return question;
 }
 
 describe('document-level option syntax', () => {
@@ -78,7 +85,9 @@ describe('document-level option syntax', () => {
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
 
 		expect(
-			result.document.questions.map(question => question.options.map(option => option.text))
+			result.document.questions.map(question =>
+				choiceQuestion(question).options.map(option => option.text)
+			)
 		).toEqual([
 			['correct 1', 'wrong 1', 'wrong 2'],
 			['wrong 1', 'correct 2', 'wrong 2']
@@ -130,7 +139,7 @@ describe('document-level option syntax', () => {
 
 		expect(
 			result.document.questions.map(
-				question => question.options.find(option => option.isCorrect)?.text
+				question => choiceQuestion(question).options.find(option => option.isCorrect)?.text
 			)
 		).toEqual(['/', '/']);
 	});
@@ -155,7 +164,9 @@ describe('document-level option syntax', () => {
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
 
 		expect(
-			result.document.questions.map(question => question.options.map(option => option.text))
+			result.document.questions.map(question =>
+				choiceQuestion(question).options.map(option => option.text)
+			)
 		).toEqual([
 			['<4', '<32', '<15', '<8', 'normal'],
 			['<10', '<9', '<8', '100', 'normal']
@@ -182,10 +193,9 @@ describe('document-level option syntax', () => {
 		);
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
 
-		expect(result.document.questions[0].options).toHaveLength(2);
-		expect(result.document.questions[0].options[0].text).toBe(
-			'диафрагмально-селезеночно-ободочная связка'
-		);
+		const question = choiceQuestion(result.document.questions[0]);
+		expect(question.options).toHaveLength(2);
+		expect(question.options[0].text).toBe('диафрагмально-селезеночно-ободочная связка');
 	});
 
 	test('combines local percentage markers with the global document marker', () => {
@@ -216,7 +226,7 @@ describe('document-level option syntax', () => {
 			'single',
 			'multiple'
 		]);
-		expect(result.document.questions[3].options).toEqual([
+		expect(choiceQuestion(result.document.questions[3]).options).toEqual([
 			{ index: 1, text: 'correct 1', isCorrect: true },
 			{ index: 2, text: 'wrong', isCorrect: false },
 			{ index: 3, text: 'correct 2', isCorrect: true }
@@ -236,6 +246,58 @@ describe('document-level option syntax', () => {
 
 		expect(questions[0].options.map(option => option.texts[0])).toEqual(['correct', 'wrong 1']);
 		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
+	test('marks a nested opening brace inside an option block as malformed', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=left->right {'),
+			line('=other->pair'),
+			line('}'),
+			...bracketQuestion('Question 2', [['=left->right'], ['=other->pair']])
+		]);
+
+		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+		expect(questions[1].rejectionReason).toBeUndefined();
+	});
+
+	test('preserves a non-structural opening brace inside option text', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=left: { detail'),
+			line('=other'),
+			line('}'),
+			...bracketQuestion('Question 2', [['=left'], ['=other']])
+		]);
+
+		expect(questions[0].rejectionReason).toBeUndefined();
+		expect(questions[0].options[0].texts).toEqual(['left: { detail']);
+	});
+
+	test('infers bracket option syntax when most blocks contain one answer', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=left->right'], ['=other->pair']]),
+			...bracketQuestion('Question 2', [['=left->right'], ['=other->pair']]),
+			...bracketQuestion('Question 3', [['=answer']]),
+			...bracketQuestion('Question 4', [['=answer']]),
+			...bracketQuestion('Question 5', [['=answer']])
+		]);
+
+		expect(questions.map(question => question.options.length)).toEqual([2, 2, 1, 1, 1]);
+	});
+
+	test('keeps visually compatible lines of a multiline question', () => {
+		const firstLine = { ...line('First question line'), gapBefore: 30 };
+		const openingLine = { ...line('second question line {'), gapBefore: 30 };
+		const questions = segment([
+			firstLine,
+			openingLine,
+			line('=left->right'),
+			line('=other->pair'),
+			line('}')
+		]);
+
+		expect(questions[0].texts).toEqual(['First question line', 'second question line']);
 	});
 
 	test('does not invent an option when a line has no structural prefix', () => {

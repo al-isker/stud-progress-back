@@ -32,8 +32,10 @@ describe('assembleTestDocument', () => {
 			new Set()
 		);
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+		const question = result.document.questions[0];
+		if (question.type === 'matching') throw new Error('Question was recognized as matching');
 
-		expect(result.document.questions[0].options.map(item => item.text)).toEqual([
+		expect(question.options.map(item => item.text)).toEqual([
 			'пациент',
 			'онлайн-курс',
 			'что‐либо',
@@ -41,6 +43,36 @@ describe('assembleTestDocument', () => {
 			'матки - это',
 			'стеклами -2.0'
 		]);
+	});
+
+	test('собирает matching-вопрос без маркеров правильного ответа', () => {
+		const raw: RawQuestion[] = [
+			{
+				texts: ['Соотнесите страну и столицу'],
+				options: [option('Канада=Оттава'), option('Италия=Рим'), option('Япония=Токио')]
+			}
+		];
+
+		const result = assembleTestDocument(raw, [[false, false, false]], new Set(), [], new Set([0]));
+
+		expect(result).toEqual({
+			status: ParseStatus.ACCEPTED,
+			document: {
+				questions: [
+					{
+						index: 1,
+						text: 'Соотнесите страну и столицу',
+						type: 'matching',
+						pairs: [
+							{ left: 'Канада', right: 'Оттава' },
+							{ left: 'Италия', right: 'Рим' },
+							{ left: 'Япония', right: 'Токио' }
+						]
+					}
+				]
+			},
+			issues: { rejectedQuestions: [] }
+		});
 	});
 
 	test('возвращает единый массив отклонённых вопросов с причинами', () => {

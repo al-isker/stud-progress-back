@@ -67,7 +67,10 @@ function createOptionSyntax(heads: SymbolHead[], families: Set<string>): OptionS
  * Случайный символ в одном вопросе не становится частью синтаксиса: семейство
  * должно встречаться в большинстве групп.
  */
-function inferOptionSyntax(groups: string[][]): OptionSyntax | null {
+function inferOptionSyntax(
+	groups: string[][],
+	minimumOptionStartsPerGroup = 2
+): OptionSyntax | null {
 	if (groups.length === 0) return null;
 	const heads: SymbolHead[] = [];
 	const groupsByFamily = new Map<string, Set<number>>();
@@ -100,7 +103,7 @@ function inferOptionSyntax(groups: string[][]): OptionSyntax | null {
 			return head ? syntax.prefixByFamily.has(head.symbols[0]) : false;
 		}).length;
 
-		return optionStarts >= 2;
+		return optionStarts >= minimumOptionStartsPerGroup;
 	}).length;
 
 	return structurallyValid >= minGroups ? syntax : null;
@@ -136,6 +139,39 @@ function lastParagraph(tail: DocLine[]): DocLine[] {
 	}
 
 	return paragraph;
+}
+
+/** Соседняя строка того же визуального блока многострочного вопроса. */
+function hasCompatibleQuestionStyle(candidate: DocLine, opener: DocLine): boolean {
+	return (
+		candidate.page === opener.page &&
+		Math.abs(candidate.x0 - opener.x0) <= opener.size &&
+		Math.abs(candidate.size - opener.size) <= 0.5 &&
+		Math.abs(candidate.boldFrac - opener.boldFrac) <= 0.2 &&
+		Math.abs(candidate.italicFrac - opener.italicFrac) <= 0.2
+	);
+}
+
+function startsWithLowercaseLetter(text: string): boolean {
+	const firstLetter = /\p{L}/u.exec(text)?.[0];
+
+	return Boolean(
+		firstLetter &&
+			firstLetter === firstLetter.toLocaleLowerCase() &&
+			firstLetter !== firstLetter.toLocaleUpperCase()
+	);
+}
+
+function questionLead(tail: DocLine[], opener: DocLine, beforeOpen: string): DocLine[] {
+	if (!isParagraphStart(opener)) return lastParagraph(tail);
+	if (!startsWithLowercaseLetter(beforeOpen)) return [];
+	const lines: DocLine[] = [];
+	for (let i = tail.length - 1; i >= 0; i--) {
+		if (!hasCompatibleQuestionStyle(tail[i], opener)) break;
+		lines.unshift(tail[i]);
+	}
+
+	return lines;
 }
 
 /**
@@ -195,7 +231,7 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 	};
 
 	const openBlock = (before: string, line: DocLine) => {
-		const paragraph = before !== '' && isParagraphStart(line) ? [] : lastParagraph(tail);
+		const paragraph = before !== '' ? questionLead(tail, line, before) : lastParagraph(tail);
 		qTexts = paragraph.map(l => l.text.trim());
 		if (before !== '') qTexts.push(before);
 		tail = [];
@@ -220,6 +256,20 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 				consumedOnLine = true;
 			} else {
 				const close = rest.indexOf('}');
+				const nestedOpen = rest.indexOf('{');
+				const beforeNestedOpen = nestedOpen >= 0 ? rest.slice(0, nestedOpen).trim() : '';
+				const nestedOpenEndsLine = nestedOpen >= 0 && rest.slice(nestedOpen + 1).trim() === '';
+				const nestedOpenStartsQuestion =
+					beforeNestedOpen !== '' &&
+					scanSymbolHead(beforeNestedOpen) === null &&
+					isParagraphStart(line);
+				if (
+					nestedOpen >= 0 &&
+					(close < 0 || nestedOpen < close) &&
+					(beforeNestedOpen === '' || nestedOpenEndsLine || nestedOpenStartsQuestion)
+				) {
+					rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
+				}
 				if (close < 0) {
 					addBlockSegment(rest, line);
 					break;
@@ -244,8 +294,11 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 	}
 	if (inBlock) closeBlock();
 
+	// Скобки уже надёжно задают границы вопросов. Поэтому одноответные блоки
+	// тоже участвуют в подтверждении общего префикса и позже отклоняются точечно.
 	const syntax = inferOptionSyntax(
-		drafts.map(draft => draft.segments.map(segment => segment.text))
+		drafts.map(draft => draft.segments.map(segment => segment.text)),
+		1
 	);
 	if (!syntax) return null;
 

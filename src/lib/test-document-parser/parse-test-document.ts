@@ -61,13 +61,15 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 
 	const marks: (boolean[] | undefined)[] = raw.map(() => undefined);
 	const consumedTextPrefixes: ((string | null)[] | undefined)[] = raw.map(() => undefined);
+	const matchingGlobal = new Set<number>();
 	answerableIndices.forEach((globalIndex, localIndex) => {
 		marks[globalIndex] = marker.marked[localIndex];
 		consumedTextPrefixes[globalIndex] = marker.consumedTextPrefixes[localIndex];
+		if (marker.matching[localIndex]) matchingGlobal.add(globalIndex);
 	});
 	const ambiguousGlobal = new Set(
 		marker.ambiguous.map(localIndex => answerableIndices[localIndex])
 	);
 
-	return assembleTestDocument(raw, marks, ambiguousGlobal, consumedTextPrefixes);
+	return assembleTestDocument(raw, marks, ambiguousGlobal, consumedTextPrefixes, matchingGlobal);
 }

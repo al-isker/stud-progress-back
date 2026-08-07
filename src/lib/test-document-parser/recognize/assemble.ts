@@ -5,6 +5,7 @@ import {
 	RejectedQuestion
 } from '../types/parse-result';
 import { Question } from '../types/test-document';
+import { parseMatchingPairs } from './matching';
 import { RawOption, RawQuestion } from './segment';
 
 /**
@@ -52,8 +53,9 @@ function optionTextParts(option: RawOption, consumedTextPrefix: string | null): 
 }
 
 /**
- * Собирает принятый документ: вопросы с пустым текстом, малым количеством
- * вариантов, противоречивым или ненайденным указателем уходят в
+ * Собирает принятый документ. Matching-вопросы не требуют указателя правильного
+ * ответа; остальные вопросы с пустым текстом, малым количеством вариантов,
+ * противоречивым или ненайденным указателем уходят в
  * массив `issues.rejectedQuestions` и в `document.questions` НЕ
  * включаются. Мы ничего не «нормализуем» — как извлечено, так и раскладываем.
  * index сохраняет позицию в исходном документе, поэтому в `document.questions`
@@ -63,12 +65,14 @@ function optionTextParts(option: RawOption, consumedTextPrefix: string | null): 
  *   не участвовал в поиске указателя (у него меньше двух вариантов).
  * @param ambiguous  индексы вопросов (в `raw`) с противоречивым указателем.
  * @param consumedTextPrefixes  служебные префиксы текста по вариантам.
+ * @param matching  индексы подтверждённых matching-вопросов.
  */
 export function assembleTestDocument(
 	raw: RawQuestion[],
 	marks: (boolean[] | undefined)[],
 	ambiguous: Set<number>,
-	consumedTextPrefixes: ((string | null)[] | undefined)[] = []
+	consumedTextPrefixes: ((string | null)[] | undefined)[] = [],
+	matching: Set<number> = new Set()
 ): ParseResult {
 	const questions: Question[] = [];
 	const rejectedQuestions: RejectedQuestion[] = [];
@@ -98,6 +102,13 @@ export function assembleTestDocument(
 			rejectQuestion(QuestionRejectionReason.INSUFFICIENT_OPTIONS);
 			continue;
 		}
+		if (matching.has(qi)) {
+			const pairs = parseMatchingPairs(options);
+			if (pairs) {
+				questions.push({ index: qi + 1, text, type: 'matching', pairs });
+				continue;
+			}
+		}
 		if (ambiguous.has(qi)) {
 			rejectQuestion(QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER);
 			continue;
@@ -106,7 +117,6 @@ export function assembleTestDocument(
 			rejectQuestion(QuestionRejectionReason.NO_ANSWER_MARKER);
 			continue;
 		}
-
 		const correctCount = options.filter(o => o.isCorrect).length;
 		questions.push({
 			index: qi + 1,
