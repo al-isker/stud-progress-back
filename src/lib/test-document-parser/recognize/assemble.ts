@@ -98,8 +98,12 @@ export function assembleTestDocument(
 			rejectQuestion(QuestionRejectionReason.EMPTY_TEXT);
 			continue;
 		}
+		if (options.length === 1) {
+			rejectQuestion(QuestionRejectionReason.SINGLE_OPTION);
+			continue;
+		}
 		if (options.length < 2) {
-			rejectQuestion(QuestionRejectionReason.INSUFFICIENT_OPTIONS);
+			rejectQuestion(QuestionRejectionReason.NO_OPTIONS);
 			continue;
 		}
 		if (matching.has(qi)) {

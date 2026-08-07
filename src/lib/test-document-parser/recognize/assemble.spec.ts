@@ -75,10 +75,26 @@ describe('assembleTestDocument', () => {
 		});
 	});
 
+	test('отклоняет вопрос с одним вариантом независимо от маркера', () => {
+		const raw: RawQuestion[] = [
+			{ texts: ['С маркером'], options: [option('Единственный')] },
+			{ texts: ['Без маркера'], options: [option('Единственный')] }
+		];
+
+		const result = assembleTestDocument(raw, [[true], [false]], new Set());
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.issues.rejectedQuestions).toEqual([
+			{ index: 1, text: 'С маркером', reason: QuestionRejectionReason.SINGLE_OPTION },
+			{ index: 2, text: 'Без маркера', reason: QuestionRejectionReason.SINGLE_OPTION }
+		]);
+	});
+
 	test('возвращает единый массив отклонённых вопросов с причинами', () => {
 		const raw: RawQuestion[] = [
 			{ texts: [''], options: [option('Первый'), option('Второй')] },
 			{ texts: ['Мало вариантов'], options: [option('Единственный')] },
+			{ texts: ['Нет вариантов'], options: [] },
 			{ texts: ['Неоднозначный маркер'], options: [option('Первый'), option('Второй')] },
 			{ texts: ['Маркер не найден'], options: [option('Первый'), option('Второй')] },
 			{
@@ -90,8 +106,8 @@ describe('assembleTestDocument', () => {
 
 		const result = assembleTestDocument(
 			raw,
-			[[true, false], undefined, [true, false], [false, false], undefined],
-			new Set([2])
+			[[true, false], [true], undefined, [true, false], [false, false], undefined],
+			new Set([3])
 		);
 
 		expect(result).toEqual({
@@ -103,20 +119,25 @@ describe('assembleTestDocument', () => {
 					{
 						index: 2,
 						text: 'Мало вариантов',
-						reason: QuestionRejectionReason.INSUFFICIENT_OPTIONS
+						reason: QuestionRejectionReason.SINGLE_OPTION
 					},
 					{
 						index: 3,
+						text: 'Нет вариантов',
+						reason: QuestionRejectionReason.NO_OPTIONS
+					},
+					{
+						index: 4,
 						text: 'Неоднозначный маркер',
 						reason: QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER
 					},
 					{
-						index: 4,
+						index: 5,
 						text: 'Маркер не найден',
 						reason: QuestionRejectionReason.NO_ANSWER_MARKER
 					},
 					{
-						index: 5,
+						index: 6,
 						text: 'Повреждённая структура',
 						reason: QuestionRejectionReason.MALFORMED_STRUCTURE
 					}

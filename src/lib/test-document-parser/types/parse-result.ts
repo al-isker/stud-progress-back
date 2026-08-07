@@ -25,7 +25,8 @@ export enum ParseRejectionReason {
 /** Причина, по которой вопрос не включён в разобранный документ. */
 export enum QuestionRejectionReason {
 	EMPTY_TEXT = 'EMPTY_TEXT',
-	INSUFFICIENT_OPTIONS = 'INSUFFICIENT_OPTIONS',
+	SINGLE_OPTION = 'SINGLE_OPTION',
+	NO_OPTIONS = 'NO_OPTIONS',
 	MALFORMED_STRUCTURE = 'MALFORMED_STRUCTURE',
 	AMBIGUOUS_ANSWER_MARKER = 'AMBIGUOUS_ANSWER_MARKER',
 	NO_ANSWER_MARKER = 'NO_ANSWER_MARKER'
