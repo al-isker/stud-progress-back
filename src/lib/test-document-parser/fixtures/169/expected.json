@@ -1,0 +1,938 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Амниотический пузырек у человека образуется из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "энтодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мезодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эктодермы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трофобласта",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "симпластотрофобласта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Мезодерма у человека образуется из материала:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитотрофобласта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внезародышевой эктодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зародышевой эктодермы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "внезародышевой энтодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зародышевой энтодермы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Стадия ранней гаструляции у человека совершается на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "третий день",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пятый день",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "второй неделе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "третьей неделе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пятой неделе эмбрионального развития",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Стадия поздней гаструляции у человека совершается на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "третий день",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пятый день",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "второй неделе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "третьей неделе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пятой неделе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Производным аллантоиса у человека является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "детская часть плаценты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "материнская часть плаценты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хорион",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амнион",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пупочный канатик",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Производным хориона у человека является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "детская часть плаценты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "материнская часть плаценты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амниотический мешок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желточный мешок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пупочный канатик",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "В начале 4-й неделе эмбрионального развития у человека происходит образование:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амниотического пузырька",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желточного пузырька",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хориона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обособление тела зародыша от внезародышевых органов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дифференцировка трофобласта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Зародыш человека окружает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "симпластотрофобласт хориона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цитотрофобласт хориона",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амнион",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "желточный мешок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внезародышевая энтодерма желточного мешка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Амнион у человека выполняет функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трофическую",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фагоцитарную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образования первых половых клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кроветворную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "создание водной среды вокруг зародыша",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Желточный мешок у человека выполняет функции:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "трофическую",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фагоцитарную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "защитную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образования первых половых клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кроветворную",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "В состав плодной части плаценты входят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лакуны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соединительные септы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "часть хориона без ворсинок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "часть хориона с ворсинками",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "часть амниона без ворсинок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "В состав ворсинок хориона у человека входят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плотная соединительная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "РСТ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "слой гладкомышечных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эластическая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "симпластотрофобласт",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "В плаценте вырабатываются гормоны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ингибин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адренокотикотропин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эстроген",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "прогестерон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тестостерон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Хориальный гонадотропин плаценты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "способствует сохранению фолликулов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тормозит рост новых фолликулов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тормозит выработку ФСГ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тормозит выработку ЛГ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способствует сохранению желтого тела",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Производным энтодермы является эпителий:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ротовой полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передней доли гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желез желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "печени",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "серозной оболочки тонкой кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Производным эктодермы является эпителий:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ротовой полости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "щитовидной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желез желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дуоденальных желез 12-перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крипт толстой кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Производным дерматом мезодермы является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителий кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителий канальцев почек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпителий серозных покровов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "РСТ стенки пищевода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "соединительная ткань кожи",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Производным миотом мезодермы является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителий кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителий канальцев почек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпителий серозных покровов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мышцы языка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "РСТ стенки пищевода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Производным склеротом мезодермы является:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителиальная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "РСТ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плотная соединительная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хрящевая ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "костная ткань",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Особенностью химического состава студенистой ткани пупочного канатика является наличие в составе ткани большого количества:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сурфактанта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гликокаликса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиалуроновой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хондроитинсерной кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гликопротеинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Имплантация у человека совершается на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5-е сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "7-е сутки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "9-е сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "11-е сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "14-е сутки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Дробление зародыша человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полное равномерное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полное неравномерное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "частичное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полное асинхронное неравномерное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "частичное асинхронное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Источником развития гладкой мышечной ткани является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сомит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мезенхима спланхнотома",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нефротом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кожная эктодерма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кишечная энтодерма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Оплодотворение яйцеклетки у человека происходит в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полости матки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ампулярной части яйцевода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "истмической части матки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "области шейки матки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "При имплантации зародыша человека трофобласт вступает в контакт с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителием матки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соединительной тканью слизистой оболочки матки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "маточными железами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стенкой кровеносных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "материнской кровью",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "В течение первых 12 ч. развития зародыша происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имплантация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дробление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оплодотворение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1-я фаза гаструляции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2-я фаза гаструляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "В течение 1-5-х суток развития зародыша происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имплантация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дробление",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "оплодотворение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1-я фаза гаструляции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2-я фаза гаструляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "В течение 6-7-х суток развития зародыша происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имплантация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дробление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оплодотворение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1-я фаза гаструляции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2-я фаза гаструляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Какой тип яйцеклетки характерен для человека?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алецитальная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "олиголецитальная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мезолецитальная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "первично изолецитальная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вторично изолецитальная",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

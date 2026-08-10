@@ -1,0 +1,2000 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Гранулы эозинофильного гранулоцита содержат все перечисленное, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистаминазы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "основного белка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пероксидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидролитических ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гистамина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В составе грануломера кровяных пластинок имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "микросомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибосомы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микротрубочки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микрофиламенты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плотные тельца",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "В цитоплазме ретикулоцитов имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ядра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "митохондрии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рибосомы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "миофибриллы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тонофибриллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Маркером азурофильных гранул нейтрофилов является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фермент оксидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дегидрогеназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кислая фосфатаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щелочная фосфатаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пероксидаза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Плазмолиз эритроцитов вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипотонический раствор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертонический раствор",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "змеиный яд",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жирорастворители",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "несовместимая кровь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Эритроциты выполняют функции:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "транспорта СО",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспорта СО2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "транспорта О2",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "секреторную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выделительную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Термин “пойкилоцитоз” употребляется когда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "много эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "много макроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "много микроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "много эритроцитов с измененной формой",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нет эритроцитов измененной формой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Термин “анизоцитоз” употребляется когда много:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макроцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микроцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эритроцитов с измененной формой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритроцитов с малым содержанием гемоглобина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Эритроциты в норме имеют форму:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неправильную округлую",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "звездчатую",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шаровидную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "двояковыпуклую",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "двояковогнутую",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Термин “диапедез” означает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разнобой размеров эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разнобой формы эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разрыв оболочки эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выход эритроцитов из сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "склеивание эритроцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Особенностями химического состава оболочки эритроцитов являются наличие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "простагландинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гормонов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фолиевой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "силовых кислот",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ферментов цикла Кребса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Термин “оксигемоглобин” означает гемоглобин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "связанный с СО",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "связанный с СО2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "связанный с О2",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "связанный цианидами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "связанный аминокислотами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Термин “дезоксигемоглобин” означает гемоглобин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "связанный с СО2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "связанный с О2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "связанный цианидами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связанный аминокислотами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "без О2",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Термин “метгемоглобин” означает гемоглобин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "связанный с СО2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "связанный с СО",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "связанный с О2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связанный цианидами",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "связанный ферментами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Гемоглобин выполняет функции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "транспорта СО",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспорта СО2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "транспорта О2",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аминокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "липидов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Эритроцитов называют макроцитами если:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диаметр больше 7мк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диаметр больше 8мк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диаметр больше 9мк",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "диаметр больше 10мк",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диаметр больше 10,5мк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Увеличение количества ретикулоцитов в крови означает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ускоренный гранулопоэз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "замедленный гранулопоэз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ускоренный эритропоэз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "замедленный эритропоэз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "недостаточный синтез гемоглобина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Транспорт СО2 эритроцитами связан:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с гемоглобином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с оболочкой эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с ферментом - оксидоредуктаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угольная ангидраза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дегидрогеназа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "В составе гиаломера кровяных пластинок имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "митохондрии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микротрубочки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "микрофиламенты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тонофибриллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Эритроцитов называют микроцитами если:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диаметр меньше 4мк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диаметр меньше 5мк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диаметр меньше 6 мк",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "диаметр меньше 7мк",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диаметр меньше 8мк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Ядра палочкоядерного нейтрофила имеют форму:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "округлую",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "многодольчатую",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бобовидную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подковообразную",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "S-образную",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Для зернистости нейтрофилов характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупная базофильная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мелкая базофильная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крупная оксифильная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мелкая оксифильная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мелкая фиолетового цвета",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Для зернистости эозинофилов характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупная базофильная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мелкая слабо базофильная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мелкая базофильная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крупная оксифильная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мелкая оксифильная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Маркером специфических гранул нейтрофилов является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фермент оксидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дегидрогеназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кислая фосфатаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щелочная фосфатаза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пероксидаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Гемолиз эритроцитов вызывают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертонический раствор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипотонический раствор",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "окислительные ферменты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "змеиный яд",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "изотонический раствор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Нейтрофилы выполняют функции:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фагоцитоза микробов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фагоцитоза иммунных комплексов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выработки антител",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выработки гормонов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участия в аллергических реакциях.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Эозинофилы выполняет функции:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фагоцитоза микробов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выработки антител",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участия в аллергических реакциях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инактивации гистамина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выработки гистамина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Свои функции эритроциты выполняют в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мезенхиме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретикулярной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рыхлой соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "циркуляции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не циркуляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Функциями базофилов являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выраженная фагоцитарная активность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспортная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выработка антител",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выработка гистамина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выработка ренина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Т-Киллеры (лимфоциты) выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фагоцитоза микробов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фагоцитоза иммунных комплексов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выработки антител",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитотоксическую",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "угнетения образование антител",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Т-Хелперы (лимфоциты) выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фагоцитоза микробов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фагоцитоза иммунных комплексов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выработки антител",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитотоксическую",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "распознавания антигена и передача информации В-лимфо цитам",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Т-супрессоры (лимфоциты) выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фагоцитоза микробов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фагоцитоза иммунных комплексов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выработки антител",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетения образование антител",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "стимуляции образования антител",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Ретикулоциты крови в норме составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,1%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,5%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1%",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1,5%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Кровь, как ткань, имеет особенности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "клетки обладают полярностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "межклеточное вещество жидкое",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подвижная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "камбий рядом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слабая регенерационая способность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Зрелые эритроциты – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клетки крови, содержащие округлое ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клетки крови, содержащие бобовидное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетки крови, содержащие в цитоплазме зернистость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оксифильно окрашенные, безъядерные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "безъядерные фрагменты цитоплазмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Какие клетки крови содержат гранулы, имеющие сродство к кислым красителям?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эозинофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Назовите самую крупную клетку крови, выполняющую функцию макрофагоцитоза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эозинофил",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроцит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноцит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "базофил",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Ретикулоцит – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гранулоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "агранулоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "незрелый эритроцит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тромбоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зрелый эритроцит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Большинство эритроцитов имеет форму:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сферетическую(шаровидную)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отростчатую",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двояковогнутого диска",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "плоскую",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "овальную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Лейкоциты имеют форму:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шаровидную",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отростчатую",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двояковогнутого диска",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "седловидную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "веретеновидную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Форма ядра моноцита:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "округлая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "палочковидная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подковообразная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сегментированная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лапчатая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Неспецифическая зернистость гранулоцитов представлена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибосомами эндоплазматической сети",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "митохондриями",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зернами пигмента",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пластинчатым комплексом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизосомами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Форма ядра юных гранулоцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "округлая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бобовидная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сегментированная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "палочковидная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плоская",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "В ядрах каких клеток крови женщин определяется половой хроматин?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "моноцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "базофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эозинофилов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Гуморальный иммунитет обеспечивают клетки величиной от 7 мкм до 10 мкм с небольшим ядром, базофильной цитоплазмой со светлой зоной около ядра (где находится центриоль и аппарат Гольджи):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плазмоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "моноциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Назовите какой форменный элемент, реже всего встречаемый в мазке крови, имеет плохо контурируемое ядро и содержит метахроматически окрашенные азуром гранулы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зрелый нейтрофил",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "юный нейтрофил",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "базофил",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эозинофил",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоцит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Судебно-медицинским экспертам известно, что в структуре одного из форменных элементов крови имеется разница, позволяющая определить пол индивидуума. Какой это форменный элемент?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "базофил",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейтрофил",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эозинофил",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноцит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритроцит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "В мазке крови видны самые малые по размеру форменные элементы, содержащие органеллы, включения, специальные гранулы с серотонином, но не имеющие ядра. Это…",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретикулоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "юные базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "малые лимфоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Какие клетки крови, поступая в очаг воспаления, фагоцитируют бактерии и тканевые обломки, выделяя при этом бактерицидные вещества (при дегрануляции)? После выполнения функции они погибают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейтрофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "средние лимфоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Свертывание крови с образованием тромбов (например при атеросклерозе) сдерживается антикоагулирующим действием гепарина, выделяющегося при дегрануляции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эозинофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "базофилов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "моноцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Укажите показатели с отклонениями от нормы в приведенном анализе крови взрослого пациента",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилы 40%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эозинофилы 12%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "базофилы 10%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфоциты 40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Для какого форменного элемента крови свойственны наименования эхиноциты, дискоциты, сфероциты?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофила",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "базофила",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эозинофила",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тромбоцита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритроцита",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "При некоторых заболеваниях в крови человека определяются пойкило- и анизоцитоз. С какими форменными элементами это связанно?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с эритроцитами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с тромбоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с моноцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с лимфоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "с гранулоцитами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Способностью к фагоцитозу обладают форменные элементы, содержащие в цитоплазме специфическую зернистость и сегментированные ядра. Укажите, какие это клетки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретикулоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гранулоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Для экссудативной стадии воспаления характерно образование отека, что связанно с увеличением проницаемости кровеносных сосудов. Какие форменные элементы крови дают такой результат?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "базофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тромбоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "79. Дегрануляция какого форменного элемента оказывает антипаразитарное воздействие?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эозинофила",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нейтрофила",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "базофила",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноцита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "всех названных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Известно, что важным защитным аппаратом организма является макрофагическая система. Укажите, какие из перечисленных клеток относятся к этой системе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "звездчатые клетки печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глиальные макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гистиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Гликокаликс какого форменного элемента определяет его антигенный состав и, соответственно, группу крови?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоцита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эритроцита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гранулоцита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфоцита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моноцита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Известно, что нельзя переливать резус-положительную кровь резус-отрицательному пациенту. Это связанно с наличием агглютинина на поверхности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоцита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эритроцита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лимфоцита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноцита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейтрофила",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Большие дозы гистамина могут вызвать шок со смертельным исходом. Какие форменные элементы вырабатывают гистаминазу, ругилирующую активность гистамина?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эозинофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейтрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "средние лимфоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Нейтрофильные гранулоциты находятся в кровотоке около:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "года",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "8-12 часов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "месяца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "120 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1 часа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Гранулы эозинофильного гранулоцита содержат все перечисленное, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистаминазы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "основного белка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пероксидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидролитических фрментов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гистамина",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 32,
+				"text": "Термин “сдвиг вправо” употребляется:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

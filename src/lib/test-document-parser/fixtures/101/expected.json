@@ -1,0 +1,490 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Наиболее частым представителем хронической специфической хирургической инфекции является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Туберкулез (экстрапульмональный)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "актиномикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сифилис",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бруцеллез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проказа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Заражение при туберкулезе может происходить через:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дыхательные пути",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "конъюнктиву глаз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "свежие раны, ожоги и язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кожные покровы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфатическую систему",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Среди хирургических форм туберкулеза на первом месте стоят поражения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожных покровов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "периферических лимфоузлов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутренних органов живота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "костей, суставов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мочеполовых органов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "При абдоминальном туберкулезе наиболее часто поражается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшина и брыжеечные лимфоузлы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желчные пути",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сосуды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поджелудочная железа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Туберкулезный лимфаденит, как правило, наблюдается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у пожилых",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "у стариков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "у детей и юношей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "у беременных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в любой возрастной группе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "При туберкулезном шейном лимфадените дифференциальный диагноз следует провести с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфогранулематозом 2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфосаркомой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метастазами злокачественной опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "неспецифическим гнойным лимфаденитом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "со всеми указанными заболеваниями",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Наиболее часто туберкулезом поражается следующие суставы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тазобедренный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коленный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плечевой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "локтевой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все указанные составы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Поражение костей и суставов при туберкулезе происходит, как правило:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематогенным путем",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Per continuitatem",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфогенным путем",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "после открытых переломов костей и повреждения суставной капсулы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все приведенные причины верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Костно-суставным туберкулезом чаще поражаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "позвоночник",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дистальные суставы нижних конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крупные суставы верхних конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мелкие суставы конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плоские кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "При костном туберкулезе очаг чаще всего локализуется в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диафизе длинных трубчатых костей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпиметафизах длинных трубчатых костей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диафизе коротких трубчатых костей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плоских костях (череп, лопатка)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "любой кости и в любой ее части",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "При костно-суставном туберкулезе процесс начинается с поражения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синовиальной оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метафизарного отдела кости (возникновением первичного остита)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "одновременного поражения костной ткани и синовиальной оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "надкостницы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мягких тканей, расположенных рядом с суставом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Характерными рентгенологическими признаками при туберкулезном поражении костей являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атрофия, остеолиз кости в начальной стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расширение суставной щели",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие периостита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появление очагов некроза, образование секвестров в поздних стадиях",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "остеосклероз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Симптом Александрова при костном туберкулезе это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атрофия мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резкое утолщение кожной складки на стороне поражения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "появление местной температуры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ограничение движений в суставе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "укорочение конечности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "В комплексной терапии туберкулеза костей и суставов используют следующие антибактериальные препараты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ПАСК, фтивазид, стрептомицин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пенициллин, стрептоцид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бисептол, ампициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трихопол, эритромицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тетрациклин, этазол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Возбудителем актиномикоза является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бацилла Коха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "актиномицет (лучистый грибок)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бледная спирохета",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бацилла tetani",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бацилла antracis",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

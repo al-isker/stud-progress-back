@@ -52,6 +52,30 @@ function optionTextParts(option: RawOption, consumedTextPrefix: string | null): 
 	return parts;
 }
 
+const MACHINE_METADATA_RE = /(?:^|\s)@MDID\s*\{[0-9A-F-]+\}/iu;
+
+function containsMachineMetadata(question: RawQuestion): boolean {
+	return [...question.texts, ...question.options.flatMap(option => option.texts)].some(part =>
+		MACHINE_METADATA_RE.test(part)
+	);
+}
+
+function containsDuplicatedTwoPrefixSyntax(
+	question: RawQuestion,
+	questionText: string,
+	consumedTextPrefixes: (string | null)[]
+): boolean {
+	if (!questionText.startsWith('?')) return false;
+	const duplicatedOptions = question.options.filter((option, index) => {
+		if (!option.structuralPrefix) return false;
+		const text = normalize(optionTextParts(option, consumedTextPrefixes[index] ?? null));
+
+		return text.startsWith(option.structuralPrefix);
+	}).length;
+
+	return duplicatedOptions >= 2;
+}
+
 /**
  * Собирает принятый документ. Matching-вопросы не требуют указателя правильного
  * ответа; остальные вопросы с пустым текстом, малым количеством вариантов,
@@ -92,6 +116,13 @@ export function assembleTestDocument(
 
 		if (raw[qi].rejectionReason) {
 			rejectQuestion(raw[qi].rejectionReason);
+			continue;
+		}
+		if (
+			containsMachineMetadata(raw[qi]) ||
+			containsDuplicatedTwoPrefixSyntax(raw[qi], text, consumedTextPrefixes[qi] ?? [])
+		) {
+			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
 		}
 		if (!text || options.some(o => !o.text)) {

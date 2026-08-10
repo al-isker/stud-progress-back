@@ -1,0 +1,2155 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Что является источниками ионизирующего излучения в ракетных войсках?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ядерные боеголовки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Источники нейтронов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гаммадефектоскопы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Компоненты ракетных топлив",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Системы наведения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Что из перечисленного является окислителями в двухкомпонентных ракетных топливах?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Концентрированная азотная кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Жидкий кислород",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гидразины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Амины жирного ряда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нитроамино производные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Что из перечисленного является горючим в двухкомпонентных ракетных топливах?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гидразины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Амины жирного ряда",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Углеводороды жирного ряда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Концентрированная азотная кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Жидкий кислород",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Что из перечисленного является обеззараживающими жидкостями в ракетных войсках?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Концентрированная щелочь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Гидразины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Спирто - касторовые жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Спирто - глицериновые жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Этиленгликоль",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Что из перечисленного является гидравлическими жидкостями в ракетных войсках?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Спирто - касторовые жидкости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Спирто - глицериновые жидкости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Этиленгликоль",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Гидразины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Концентрированные щелочи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Что из перечисленного является неблагоприятными факторами, действующими на десантников?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Действие ускорений и перегрузок",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Недостаток кислорода",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Необходимость обслуживать сложную технику",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Действие ГСМ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Сильные шумы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Какие из перечисленных являются неблагоприятными факторами, действующими на пилотов современных самолетов?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Большая скорость полета",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Действие ускорений и перегрузок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Действие ГСМ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Действие вибрации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Действие ионизирующего излучения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какие неблагоприятные факторы характерны для военнослужащих РЛС и РТС?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Действие СВЧ- поля",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Действие ионизирующих излучений",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Высокая нервно-психическая нагрузка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Неблагоприятный микроклимат",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Действие ГСМ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Какие неблагоприятные факторы являются специфическими на РЛС и РТС?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Действие СВЧ- поля",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Действие мягкого рентгеновского излучения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Неблагоприятный микроклимат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Действие акустических шумов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Изменяющийся химический состав воздуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Что из перечисленного может являться источником СВЧ- излучения?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Генератор СВЧ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Фидерный тракт",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Антенная система",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Модулятор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Высоковольтный выпрямитель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Как делятся РЛС по используемой длине волны?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "РЛС миллиметрового диапазона",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "РЛС сантиметрового диапазона",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "РЛС дециметрового диапазона",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "РЛС метрового диапазона",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "РЛС микронного диапазона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Что является характерными проявлениями действия СВЧ- излучения на человека?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Астеническое состояние",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Повышение сухожильных рефлексов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Тремор пальцев вытянутых рук",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Головные боли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Схваткообразные боли в животе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Какие симптомы являются характерными для действия СВЧ-излучения?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Вазомоторная лабильность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Усиленная потливость",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Термоассиметрия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Бред, галлюцинации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Быстрая утомляемость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Сколько степеней поражения от СВЧ-излучения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Три",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Две",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Четыре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пять",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Семь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Какие клинические проявления характерны для первой степени поражения СВЧ-излучением?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышенная утомляемость",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Нарушение сна",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Выраженное астеническое состояние",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Нарушение памяти",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Какие клинические проявления характерны для второй степени поражения СВЧ- излучением?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышенная утомляемость",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Нарушение сна",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Выраженное астеническое состояние",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Диэнцефальные кризы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нарушение памяти",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Что общего между гигиеническими и экологическими факторами?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "общее для них безопасные нормативы их",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "одинаковое влияние на здоровье человека, населения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ничего общего нет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "общая классификация по природе факторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Ионизирующее излучение создается при следующих условиях:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при радиоактивном распаде;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при ядерных превращениях;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в случае торможения ядерных частиц в веществе;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при нагревании физических тел;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при солнечном излучении.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Ионизирующие излучения делятся на следующие категории:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "электромагнитные и корпускулярные.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "электромагнитные и ядерные;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тепловые и проникающие;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прямые и прерывистые;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прямые и волнообразные;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "В состав электромагнитных излучений входят следующие лучи:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ультрафиолетовые лучи;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфракрасные лучи.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рентгеновские лучи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гамма-излучение.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тормозное излучение.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Энергию частиц ионизирующего излучения измеряют в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "электрон-вольт;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кг/м2 ;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вольт/кг;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вольт/м2",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вольт.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Источники ионизирующего излучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "испускает ИИ;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "задерживает ИИ;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аккумулирует ИИ;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейтрализует ИИ;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "усиливает ИИ.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Население подвергается воздействию ИИ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "от природных источников;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при проведении медицинских процедур;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при полетах на большой высоте;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при обследовании радиоизотопных установок;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при градуировании дозиметрических приборов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Персонал подвергается воздействию ИИ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при обслуживании радиоизотопных установок;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при градуировании дозиметрических приборов;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при использовании спецодежды;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при перевозках радионуклидов;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при установке телеантен.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Виды чрезвычайных ситуаций, при которых возможно облучение:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ведение боевых действий с использованием ядерного оружия;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "проведение аврийно-дезактивационных работ на АЭС;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наводнение от сильных дождей;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сильные ветра зимой;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пожар на электростанциях.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Виды чрезвычайных ситуаций, при которых возможно облучение:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "случаи утери и хищения источников излучения;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неисправимости на ядерных транспортных средствах;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аварийный выброс технологических продуктов атомного предприятия;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аварии на газопроводах;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обрыв высоковольтных линий электропередач.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Оценки дозы облучения производят методами:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "физическими;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "химическими;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "физические и химические.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "биологическими;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "химические и биологические;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Наиболее радиочувствительными к облучению клетки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "костного мозга;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "половых желез;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стволовые клетки;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "костной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Соматические эффекты облучения - это последствия воздействия облучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на самого облучаемого;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на потомство;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на облученного и на его потомство;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на эпидермис;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на мышечную ткань.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Соматические эффекты делятся на:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "стохастические;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нестохастические;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "локальные и тотальные.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стохастические и локальные;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Стохастические эффекты это для которых:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствует порог дозы;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от дозы зависит вероятность возникновения эффекта;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отсутствует порог дозы и зависит вероятность возникновения эффекта.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "существует порог дозы;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от дозы зависит тяжесть эффекта;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Нестохастические эффекты это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поражение зависит от дозы;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "степень тяжести увеличивается с увеличением дозы;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для биологического эффекта существует дозовый порог;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поражение не зависит от дозы;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для биологических эффектов облучения не существует дозовый порог",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Основными стохастическими эффектами являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "канцерогенные;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "генетические;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "канцерогенные и генетические;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гематологические;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммунологические.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Острая лучевая болезнь возникает при дозах облучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "более 1Гр;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,5 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,3 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,2 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,1 Гр",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "ОЛБ протекает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "волнообразно;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стабильно;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "волнообразно благополучно;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стабильно благополучно;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стабильно неблагоприятно.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "При ОЛБ различают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3 периода;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2 периода;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4 периода;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5 периодов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6 периодов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "В основу прогностических категорий периода формирования ОЛБ лежит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поглощенные дозы.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "время облучения;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мощность дозы облучения;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возраст облученного;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пол;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Выживание при ОЛБ невозможно если доза облучения основной массы ткани достигает до:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6 Гр;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3 Гр:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10 Гр.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Выживание при ОЛБ возможно при дозах облучения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "2-3 Гр;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3,5-4,5 Гр;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1-2 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5-6 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6-10 Гр.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Выживание при ОЛБ вполне вероятно при дозах облучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-2 Гр;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1-3 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2-3 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2-4 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1-5 Гр",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Выхаживание при ОЛБ несомненно при дозах облучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "менее 1 Гр;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1-2 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,5-2,5 Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1,0-4,0Гр;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3,2-4,5Гр.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Модификация биологических эффектов зависит от:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "времени;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "локализации;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мощности дозы;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "времени года;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "времени суток.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "ОЛБ длится до:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 1,5 месяцев;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от 1,5 до3,0 месяцев;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от 2 до 3 месяцев;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от 2 до 5 месяцев;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "до 1-го года.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "На радиотоксичность изотопов влияет:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вид радиоактивного превращения;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "схемы радиоактивного распада;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пути поступления радиоактивных веществ в организм;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "профессия, вид деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от массы тела человека.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Пути поступления радиоактивных веществ в организм:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ингаляционный;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "водный;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "через кожу;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "парентеральный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Наиболее опасным путем поступления радиоактивных веществ является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ингаляционный;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с пищей;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "водный;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через кожу;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "парентеральный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "По характеру распределения радионуклидов в организме человека разделяются следующие группы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "скелетный;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ретикуло-эндотелиальный;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диффузный;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гематологический;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "жидкостный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Время пребывания радионуклида в организме зависит:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "от периода полураспада;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от периода полувыведения;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "от тяжести работы;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от пола;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от возраста человека.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Больше всего радионуклиды способны накопить:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "щитовидная железа:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "печень;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кишечник;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почки;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скелет.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "По скорости выведения радионуклидов больше всего из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "щитовидной железы;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "печени;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почек;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезенки;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кожи.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Особую опасность при авариях на АЭС представляют радиоактивные изотопы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "йода;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кальция;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цезия;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "водорода;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кислорода.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "В основе системы радиационной безопасности лежат следующие главные принципы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нормирование;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обоснование;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "оптимизация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лучше меньше да лучше.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Средства защиты от ИИ состоят из следующих классов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "средства коллективной защиты;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средства индивидуальной защиты;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "средства профессиональной защиты;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "средства сезонной защиты;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "средства возрастной защиты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Средства индивидуальной защиты включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "средства защиты органов дыхания;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средства защиты рук;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "средства защиты ног;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "летняя форма защиты персонала.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "На эффективность работы респираторов влияет:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "температура воздуха;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие в воздухе аэрозолей органических растворителей;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "концентрация аэрозолей выше 110 мг/м3;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "размер маски респиратор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "При применении радиопротекторов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "улучшается течение болезни;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ускоряет восстановительные процессы;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышает эффективность терапии;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ухудшает выживаемость;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Радиозащитные процессы должны быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "не вызывать побочного эффекта;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "действовать быстро и сравнительно продолжительное время;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "быть не токсичными;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иметь красный цвет.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Радиозащитные процессы должны быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "с терапевтическим коэффициентом не менее 3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не вызывать даже кратковременного снижения работоспособности;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "иметь удобную лекарственную форму;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "предназначены только для группы населения А.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Для биологической защиты от ИИ чаще используют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "женьшень;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "элеутерококк.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кровь медведя;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровь буйвола;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "козье молоко;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Х-лучи были открыты в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1895 г;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1913 г;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1933 г ;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1945 г.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1961г.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Естественная радиоактивность была открыта в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1896 г;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1789 г;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1799 г;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Источники естественного радиоактивного фона",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "АЭС",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "испытания ядерного оружия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медицинские рентгенологические обследования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "свалки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "источники земного и космического происхождения",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Самой высокой проникающей способностью обладает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа-излучение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бета-излучение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рентгеновское излучение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гамма-излучение",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "инфракрасное излучение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Что такое радиоактивность?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "это способность некоторых атомных ядер самопроизвольно превращаться в другие ядра с испусканием частиц и фотонов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "это радиоактивные превращения химических элементов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "это совокупность тормозного и характеристического фотонного излучения с непрерывным энергетическим спектром",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "это процесс распада химических элементов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Перечислите основные виды излучений.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгеновское излучение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "альфа- и гамма- излучения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бета- излучение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "космическое излучение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "позитронное излучение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Для измерения дозы внешнего облучения используют дозиметры:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ионизационные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "люминесцентные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сцинтилляционные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фотохимические",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "химические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Все источники ионизирующих излучений, воздействующие на человека, могут быть",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в открытом виде",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в закрытом виде",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в комбинированном виде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Что представляет собой альфа- излучение?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поток частиц, представляющий собой положительно заряженные ядра атомов гелия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поток отрицательно заряженных элементарных частиц",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поток позитронов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поток альфа - квантов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Что представляет собой бета- излучение?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поток отрицательно и положительно заряженных элементарных частиц (электронов и протонов)?",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поток фотонов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поток отрицательно заряженных элементарных частиц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поток отрицательно заряженных элементарных частиц и нейтрино",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Что представляет собой гамма- излучение?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поток квантов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поток позитронов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поток нейтрино",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поток электронов, позитронов и нейтрино",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

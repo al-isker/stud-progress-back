@@ -1,0 +1,2575 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Способность миокарда переходить в возбужденное состояние под действием раздражителя называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбудимостью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сократимостью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "автоматией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "раздражимостью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Потенциал действия типичного кардиомиоцита желудочка длится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,33 с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,02 с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,01 с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,47 с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Абсолютная рефрактерность типичного кардиомиоцита желудочка длится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,27 с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,01 с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,03 с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,1 с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Относительная рефрактерность типичного кардиомиоцита желудочка длится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,03 с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,01 с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,27 с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,1 с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Длительность систолы желудочков при ЧСС - 75 уд/мин составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,33 с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,2 с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,4 с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,1 с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Общая пауза сердца при ЧСС - 75 уд/мин продолжается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,37 с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,8 с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,3 с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,47 с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Компенсаторная пауза возникает при. . . . . экстрасистоле:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудочковой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синусовой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предсердной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атриовентрикулярной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "На вершине систолы кровяное давление в предсердиях достигает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5-8 мм рт. ст.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "70-80 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "25-30 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "15-20 мм рт. ст.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "На вершине систолы в левом желудочке кровяное давление достигает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "120-130 мм рт. ст.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "25-30 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "70-80 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40-55 мм рт. ст.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "На вершине систолы кровяное давление в правом желудочке достигает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "25-30 мм рт. ст.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "120-130 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "70-80 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40-55 мм рт. ст.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Минутный объем сердечного выброса в покое равен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,5-5,0 л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3,0-3,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,5-2 л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2,5-3 л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "равен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "25-30 л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3-3,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4,5-5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10-15 л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Спонтанные импульсы в синоатриальном узле возникают с частотой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "60-80 имп/мин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "40-50 имп/мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "20 имп/мин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10 имп/мин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Створчатые клапаны в период общей паузы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "открыты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "левый закрыт, правый открыт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закрыты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правый закрыт, левый открыт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Синхронное сокращение кардиомиоцитов обеспечивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "межклеточным взаимодействием",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутриклеточной регуляцией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутрисердечным периферическим рефлексом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экстракардиальными механизмами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Усиление сокращения миокарда при увеличении исходной длины мышечных волокон обеспечивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миогенной гетерометрической регуляцией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "межклеточным взаимодействием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутрисердечным периферическим рефлексом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миогенной гомеометрической регуляцией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "При раздражении блуждающего нерва содержание в сердечной мышце ионов калия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в начальную фазу увеличивается, затем уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Батмотропный эффект в деятельности сердца - это изменение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбудимости миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "проводимости миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "силы сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "частоты сокращений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Инотропный эффект в деятельности сердца - это изменение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "силы сокращений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "частоты сердечных сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возбудимости миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проводимости миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Дромотропный эффект в деятельности сердца - это изменение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проводимости миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возбудимости миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "частоты сердечных сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "силы сокращений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Хронотропный эффект в деятельности сердца - это изменение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "частоты сердечных сокращений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "силы сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возбудимости миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проводимости миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Симпатические нервы оказывают на сердечную мышцы эффекты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положительные инотропный и хронотропный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отрицательный инотропный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отрицательный хронотропный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "положительный инотропный и отрицательный хронотропный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "В окончаниях симпатического нерва, иннервирующего сердце, выделяется медиатор:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "норадреналин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "серотонин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ацетилхолин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гистамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "В окончаниях парасимпатического нерва, иннервирующего сердце, выделяется медиатор:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ацетилхолин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "серотонин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "норадреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гистамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Центр парасимпатической иннервации сердца находится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в продолговатом мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в верхних грудных сегментах спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в верхних шейных сегментах спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в парасимпатических ганглиях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Рефлекс Гольца – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рефлекторная остановка сердца при ударе в эпигастральную область",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изменение силы сокращений сердца при изменении давления в артериальной системе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изменение силы сокращений сердца при изменении исходной длины мышечных волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменение силы сокращения сердца при повышении частоты сердечных сокращений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Рефлекс Ашнера заключается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в уменьшении частоты сердечных сокращений при надавливании на глазные яблоки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в изменении силы сокращений сердца при изменении давления в артериальной системе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в изменении силы сокращений сердца при изменении исходной длины мышечных волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в изменение силы сокращения сердца при повышении частоты сердечных сокращений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Гомеометрическая регуляция заключается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в увеличении силы сокращения сердца при увеличении частоты сердечных сокращений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в уменьшении частоты сердечных сокращений при надавливании на глазные яблоки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в изменении силы сокращений сердца при изменении исходной длины мышечных волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в изменении силы сокращений сердца при изменении давления в артериальной системе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Частота сердечных сокращений повышается условно-рефлекторно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у спортсменов перед предстоящей физической нагрузкой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при выполнении дозированных физических нагрузок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при переходе тела из положения лежа, в положение стоя",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при увеличении кровенаполнения правого предсердия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Роль гипоталамуса в регуляции работы сердца заключается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в обеспечении работы сердца, адекватной ситуации и поведению",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в изменении частоты сердечных сокращений при задержке дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в условнорефлекторном изменении частоты сердечных сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в изменении работы сердца при повышении системного артериального давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "К ёмкостным сосудам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вены",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "крупные артерии эластического типа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "капилляры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артерии мышечного типа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Основным звеном в системе микроциркуляции являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "капилляры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "артериолы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крупные артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вены и венулы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Резистивными сосудами называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мелкие артерии и артериолы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вены и венулы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сосуды микроциркуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крупные артерии эластического типа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Сосудами компрессионной камеры (котла) называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупные артерии эластического типа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "капилляры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шунтирующие сосуды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артерии и вены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Линейная скорость кровотока в аорте равна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "50 см/с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "25 см/с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,15 см/с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,05 см/с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Линейная скорость кровотока в капиллярах равна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,5 мм/с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "25 мм/с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "35 мм/с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,05 мм/с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Время полного кругооборота крови по сердечно-сосудистой системе равно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20-23 с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "40-45 с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,5-2 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3,0-3,5 мин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Кровяное давление в капиллярах большого круга равно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30-10 мм рт.ст.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5-3 мм рт.ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "45-60 мм рт.ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "80-70 мм рт.ст.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Объёмная скорость кровотока меняется по ходу сосудистого русла:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "да",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "меняется при физических нагрузках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в артериях она больше, чем в венах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Сосудодвигательный центр расположен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в продолговатом мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в варолиевом мосту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в спинном мозгу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в гипоталамусе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Просвет сосудов увеличивается под действием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ацетилхолина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "серотонина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вазопрессина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ангиотензина II",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Окончатые капилляры располагаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в почках, железах внутренней секреции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в мышцах, легких, жировой и соединительной тканях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в печени, костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в ЖКТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Сплошные капилляры располагаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в мышцах, легких, жировой и соединительной тканях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в почках, железах внутренней секреции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в печени, костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в ЖКТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Несплошные капилляры располагаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в печени, костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в почках, железах внутренней секреции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в мышцах, легких, жировой и соединительной тканях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в ЖКТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Раздражение механорецепторов в области бифуркации сонной артерии вызывает рефлексы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "депрессорные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "прессорные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двуфазные сосудистые рефлексы: сначала расширение, затем сужение сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "двуфазные сосудистые рефлексы: сначала сужение, затем расширение сосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Коронарный кровоток максимален:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в общую паузу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в систолу желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в систолу предсердий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в начале диастолы предсердий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Адреналин. . . . . . .просвет периферических сосудов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшает",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличивает",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сначала увеличивает, затем уменьшает",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Адреналин. . . . . . . просвет сосудов мозга и коронарных сосудов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивает",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшает",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сначала увеличивает, затем уменьшает",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Ацетилхолин . . . . .. просвет сосудов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивает",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшает",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сначала увеличивает, затем уменьшает",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Серотонин . . . . . .просвет сосудов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшает",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не изменяет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличивает",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшает, затем увеличивает",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Гистамин . . . . . .просвет сосудов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивает",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшает",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличивает, затем уменьшает",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Электроды для регистрации ЭКГ в I стандартном отведении располагаются так:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правая рука - левая рука",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "левая рука - левая нога",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "правая рука - левая нога",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "левая рука – правая нога",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Электроды для регистрации ЭКГ во II стандартном отведении располагаются так:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правая рука - левая нога",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "левая рука - левая нога",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "правая рука - левая рука",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "левая рука – правая нога",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Электроды для регистрации ЭКГ в III стандартном отведении располагаются так:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "левая рука - левая нога",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "правая рука - левая нога",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "правая рука - левая рука",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "левая рука – правая нога",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Однополюсными являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грудные отведения по Вильсону",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "I стандартное отведение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "II стандартное отведение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "III стандартное отведение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "По электрокардиограмме можно судить:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "о характере возникновения и распространения возбуждения по миокарду",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "о сердечном выбросе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "о силе сокращений сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "о последовательности фаз и периодов кардиоцикла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Комплекс QRS на электрокардиограмме отражает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбуждение желудочков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "реполяризацию желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возбуждение предсердий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реполяризацию правого и левого предсердий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Зубец T на электрокардиограмме отражает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реполяризацию желудочков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возбуждение предсердий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возбуждение желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реполяризацию предсердий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Интервал Т - P на электрокардиограмме соответствует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "общей паузе сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "систоле предсердий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диастоле желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "систоле желудочков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "IV тон сердца регистрируется на фонокардиограмме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сокращении предсердий и дополнительном поступлении крови в желудочки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при захлопывании створчатых клапанов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в фазу быстрого пассивного наполнения желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при захлопывании полулунных клапанов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Митральный клапан лучше прослушивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в пятом межреберье слева, на 1,5 см кнутри от среднеключичной линии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "во втором межреберье справа от грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "у основания мечевидного отростка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "во втором межреберье слева от грудины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Трехстворчатый клапан лучше прослушивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у основания мечевидного отростка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в пятом межреберье слева, на 1,5 см кнутри от среднеключичной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "во втором межреберье справа от грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "во втором межреберье слева от грудины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Клапан легочного ствола лучше прослушивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "во втором межреберье слева от грудины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "во втором межреберье справа от грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "у основания мечевидного отростка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в пятом межреберье слева, на 1,5 см кнутри от среднеключичной линии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Аортальный клапан лучше прослушивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "во втором межреберье справа от грудины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "во втором межреберье слева от грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "у основания мечевидного отростка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в пятом межреберье слева, на 1,5 см кнутри от среднеключичной линии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Суть метода плетизмографии состоит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в изменении объема части тела в зависимости от его наполнения кровью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в изменении сопротивления ткани электрическому току",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в изменении давления крови в разные фазы кардиоцикла",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в изменении центра тяжести тела, связанного с гемодинамикой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "I тон сердца возникает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при захлопывании створчатых клапанов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при захлопывании полулунных клапанов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в фазу быстрого пассивного наполнения желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при систоле предсердий и выбросе дополнительного объема крови в желудочки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "II тон сердца возникает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при захлопывании полулунных клапанов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при захлопывании створчатых клапанов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в фазу быстрого пассивного наполнения желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при систоле предсердий и выбросе дополнительного объема крови в желудочки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Фазу плато кардиомиоцита определяют ионные токи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кальция-натрия и калия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "калия и хлора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "натрия-кальция и хлора",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кальция и хлора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Медленная диастолическая деполяризация свойственна клеткам:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пейсмекерам сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "типическим кардиомиоцитам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "волокнам скелетных мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гладкомышечным клеткам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Спонтанные импульсы в атрио-вентрикулярном узле возникают с частотой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "40-50 имп/мин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10 имп/мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "60-80 имп/мин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "15-20 имп/мин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Систола предсердий при частоте сердечных сокращений -75 уд/мин продолжается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,1 с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,3 с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,2 с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,47 с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Усиление сокращения левого желудочка при растяжении стенок правого предсердия обеспечивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутрисердечным периферическим рефлексом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутриклеточной регуляцией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "межклеточным взаимодействием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миогенными механизмами регуляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Центр симпатической иннервации сердца находится в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхних грудных сегментах спинного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "верхних шейных сегментах спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продолговатом мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "паравертебральных симпатических ганглиях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Линейная скорость кровотока меняется по ходу сосудистого русла:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да, меняется",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет, не меняется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышается при расширении сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в венах больше, чем в артериях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Базальный тонус сосудов - это тонус, обусловленный:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "автоматией гладкомышечных клеток, составляющих сосудистую стенку",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "влиянием парасимпатического отдела вегетативной нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "влиянием симпатического отдела вегетативной нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миогенными механизмами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Зубец Р на электрокардиограмме отражает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбуждение предсердий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возбуждение желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реполяризацию желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реполяризацию предсердий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Комплекс QRST на электрокардиограмме отражает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "деполяризацию и реполяризацию желудочков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возбуждение предсердий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реполяризацию желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "деполяризацию и реполяризацию предсердий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "По электрокардиограмме можно судить о:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "характере возникновения и распространения возбуждения по миокарду",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "силе сокращений сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сердечном выбросе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "последовательности сокращений и расслаблений разных отделов сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "III тон сердца регистрируется на фонокардиограмме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в фазу быстрого наполнения желудочков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при захлопывании полулунных клапанов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при захлопывании створчатых клапанов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в период напряжения желудочков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "IV тон сердца регистрируется на фонокардиограмме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сокращении предсердий и дополнительном поступлении крови в желудочки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в фазу быстрого наполнения желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при захлопывании створчатых клапанов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при захлопывании полулунных клапанов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Сфигмография представляет собой методику графической записи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пульсовых колебаний артериальных стенок",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "электрических потенциалов, возникающих в результате сердечной деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колебаний стенок венозных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменений сопротивления ткани в связи с изменением кровенаполнения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Усиление сокращения миокарда при увеличении конечно-диастолической длины мышечных волокон (гетерометрический механизм) обеспечивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "механизмом внутриклеточной регуляции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "влиянием блуждающего нерва на работу сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутрисердечным периферическим рефлексом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "механизмом межклеточного взаимодействия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Чем можно объяснить рабочую гипертрофию сердечной мышцы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усилением синтеза сократительных белков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшением синтеза сократительных белков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышением активности проводящей системы сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличением количества мышечных волокон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "О чем свидетельствует восстановление сокращений желудочков после наложения второй лигатуры Станниуса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "о том, что атриовентрикулярный узел обладает собственной автоматией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "о том, что атриовентрикулярный узел не обладает собственной автоматией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "о восстановлении проведения возбуждения из синусного узла",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "о том, что верхушка сердца не обладает собственной автоматией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Какое состояние клапанов соответствует фазе напряжения желудочков сердца:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атриовентрикулярные и полулунные клапаны закрыты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "атриовентрикулярные клапаны открыты, полулунные - закрыты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атриовентрикулярные клапаны закрыты, полулунные - открыты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атриовентрикулярные и полулунные клапаны открыты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Какое давление развивается в левом предсердии и левом желудочке при их систоле:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в предсердии 6-8 мм рт.ст.; в желудочке 115-125 мм рт.ст",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в предсердии 3-5 мм рт.ст.; в желудочке 25-30 мм рт.ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в предсердии 10-15 мм рт.ст.; в желудочке 75-80 мм рт.ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в предсердии 25-30 мм рт.ст.; в желудочке 125- 130 мм рт.ст.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Гиперполяризация мембран в клетках синусно-предсердного узла при раздражении блуждающего нерва происходит под влиянием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ацетилхолина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ацетилхолинэстеразы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "норадреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адреналина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Какой нейромедиатор выделяется при раздражении симпатических нервов сердца:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "норадреналин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ацетилхолин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дофамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адреналин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Какие влияния блуждающих нервов на сердце называют отрицательным хронотропным и батмотропным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение частоты сокращений сердца и возбудимости миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшение сократимости и проводимости миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение частоты и сократимости миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшение частоты сокращений сердца и проводимости миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Рефлекс Ашнера заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшении частоты сердечных сокращений при надавливании на глазные яблоки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "остановке сердца при ударе в эпигастральную область",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изменении деятельности сердца при раздражении хеморецепторов каротидного синуса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменении сердечной деятельности при раздражении барорецепторов каротидного синуса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Какие регуляторные механизмы относят к внутрисердечным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриклеточные механизмы, межклеточные взаимодействия внутрисердечные периферические рефлексы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутриклеточные механизмы с участием нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутриклеточные механизмы, гуморальные влияния, межклеточные взаимодействия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гуморальные влияния, межклеточные взаимодействия, периферические рефлексы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Основной фактор движения крови по артериям:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разность давлений в проксимальных и дистальных отделах сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие клапанов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разность между внутрисосудистым и тканевым давлением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "присасывающее действие грудной клетки при вдохе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Методика исследования артериальных сосудов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сфигмография",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пневмография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плетизмография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "флебография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Скорость распространения пульсовой волны тем выше, чем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больше жесткость артериальной стенки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "меньше жесткость артериальной стенки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "больше сила сокращения сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ниже артериальное давление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Чему равно время полного кругооборота крови у взрослого человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20-23 с.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1,5-2 мин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "55-60 с.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40-45 с.",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

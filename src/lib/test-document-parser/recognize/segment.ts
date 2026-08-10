@@ -24,7 +24,7 @@ export interface RawQuestion {
 }
 
 /** Максимальная исходная последовательность поддерживаемых символов в начале строки. */
-const SYMBOL_PREFIX_RE = /^\s*([~=+!?*•·◦▪‣✓✔√×<>#@&$%|/\\-]+)/;
+const SYMBOL_PREFIX_RE = /^\s*([~=+!?*•·◦▪‣✓✔√×<>#@&$%|/\\\-–—−]+)/;
 
 interface SymbolHead {
 	symbols: string;
@@ -93,6 +93,21 @@ function inferOptionSyntax(
 			.filter(([, groupIndices]) => groupIndices.size >= minGroups)
 			.map(([family]) => family)
 	);
+	// В скобочном GIFT-синтаксисе `~`, `=` и процентный score могут начинать
+	// варианты одного документа. Процент иногда записан без `~`: `%50%answer`.
+	// Если основная семья подтверждена большинством блоков, наблюдаемые редкие
+	// формы тоже считаются частью того же синтаксиса.
+	if (families.has('~') || families.has('=') || families.has('%')) {
+		if (groupsByFamily.has('~')) families.add('~');
+		if (groupsByFamily.has('=')) families.add('=');
+		if (groupsByFamily.has('%')) families.add('%');
+		for (const dash of ['–', '—']) {
+			const repeatedInOneBlock = groups.some(
+				group => group.filter(text => scanSymbolHead(text)?.symbols[0] === dash).length >= 2
+			);
+			if (repeatedInOneBlock) families.add(dash);
+		}
+	}
 	const syntax = createOptionSyntax(heads, families);
 	if (!syntax) return null;
 
@@ -123,6 +138,31 @@ function parseOptionStart(text: string, line: DocLine, syntax: OptionSyntax): Ra
 		texts: [trimmed.slice(structuralPrefix.length).trim()],
 		lines: [line]
 	};
+}
+
+function splitInlineDecoratedOption(
+	text: string,
+	line: DocLine,
+	syntax: OptionSyntax
+): { questionText: string; option: RawOption } | null {
+	for (let index = 1; index < text.length; index++) {
+		if (!/\s/u.test(text[index - 1])) continue;
+		const candidate = text.slice(index).trimStart();
+		const option = parseOptionStart(candidate, line, syntax);
+		if (
+			!option ||
+			!option.sourcePrefix ||
+			!option.structuralPrefix ||
+			option.sourcePrefix.length <= option.structuralPrefix.length ||
+			!option.hasTextAfterSourcePrefix
+		) {
+			continue;
+		}
+		const questionText = text.slice(0, index).trim();
+		if (questionText !== '') return { questionText, option };
+	}
+
+	return null;
 }
 
 /** Начало нового параграфа: первая строка страницы или заметный вертикальный зазор. */
@@ -329,7 +369,15 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
  * Строка без токена — продолжение в своём параграфе, иначе игнорируется.
  */
 function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
-	const heads = lines.map(line => scanSymbolHead(line.text));
+	const heads = lines.map(line => {
+		const text = line.text.trim();
+		// `#42`/`№42` — сильный нумераторный сигнал, а не семейство вариантов.
+		// Иначе редкий посторонний символ в большом нумерованном документе может
+		// ложно образовать пару «вопрос / вариант» с сотнями строк `#N`.
+		if (/^[#№]\s*\d{1,3}\s*[.):\]]?$/.test(text)) return null;
+
+		return scanSymbolHead(text);
+	});
 	const families = new Map<string, number>();
 	for (const head of heads) {
 		if (head) families.set(head.symbols[0], (families.get(head.symbols[0]) ?? 0) + 1);
@@ -381,11 +429,13 @@ function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
 		const fam = head ? head.symbols[0] : null;
 		if (fam === best.q) {
 			if (current) questions.push(current);
+			const body = line.text.trim().slice(questionPrefix.length).trim();
+			const inline = splitInlineDecoratedOption(body, line, optionSyntax);
 			current = {
-				texts: [line.text.trim().slice(questionPrefix.length).trim()],
-				options: []
+				texts: [inline?.questionText ?? body],
+				options: inline ? [inline.option] : []
 			};
-			mode = 'question';
+			mode = inline ? 'option' : 'question';
 		} else if (fam === best.v && current) {
 			const option = parseOptionStart(line.text, line, optionSyntax);
 			if (!option) {
@@ -396,7 +446,14 @@ function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
 			mode = 'option';
 		} else if (current && mode !== 'none' && !isParagraphStart(line)) {
 			if (mode === 'question') {
-				current.texts.push(line.text.trim());
+				const inline = splitInlineDecoratedOption(line.text.trim(), line, optionSyntax);
+				if (inline) {
+					current.texts.push(inline.questionText);
+					current.options.push(inline.option);
+					mode = 'option';
+				} else {
+					current.texts.push(line.text.trim());
+				}
 			} else {
 				const option = current.options[current.options.length - 1];
 				option.texts.push(line.text.trim());

@@ -1,0 +1,7826 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Какова картина белой крови при остром лимфобластном лейкозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфобласты единичные, гиперрегенеративный сдвиг формулы влево, тени Боткина-Гумпрехта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфобласты до 30%, лейкемический провал",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "миелобласты до 70-80%, лейкемический провал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миелобласты единичные, гиперрегенеративный сдвиг лейкоцитарной формулы влево, базофильно-эозинофильная ассоциация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "умеренный лейкоцитоз, регенеративный сдвиг лейкоцитарной формулы влево, выраженный моноцитоз, единичные монобласты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Какова картина белой крови при хроническом лимфолейкозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфобласты единичные, гиперрегенеративный сдвиг формулы влево, тени Боткина-Гумпрехта",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лимфобласты до 30%, лейкемический провал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миелобласты до 70-80%, лейкемический провал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миелобласты единичные, гиперрегенеративный сдвиг лейкоцитарной формулы влево, базофильно-эозинофильная ассоциация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "умеренный лейкоцитоз, регенеративный сдвиг лейкоцитарной формулы влево, выраженный моноцитоз, единичные монобласты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Какова картина белой крови при остром миелолейкозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфобласты единичные,гиперрегенеративный сдвиг формулы влево",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфобласты до 30%, лейкемический провал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миелобласты до 70-80%, лейкемический провал, лимфоцитопения, моноцитопения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "миелобласты единичные, гиперрегенеративный сдвиг лейкоцитарной формулы влево, базофильно-эозинофильная ассоциация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "умеренный лейкоцитоз, регенеративный сдвиг лейкоцитарной формулы влево, выраженный моноцитоз, единичные монобласты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какова картина белой крови при хроническом миелолейкозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфобласты единичные,гиперрегенеративный сдвиг формулы влево",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфобласты до 30%, лейкемический провал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миелобласты до 70-80%, лейкемический провал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миелобласты единичные, гиперрегенеративный сдвиг лейкоцитарной формулы влево, базофильно-эозинофильная ассоциация",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "умеренный лейкоцитоз, регенеративный сдвиг лейкоцитарной формулы влево, выраженный моноцитоз, единичные монобласты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Какой вид обмена резко повышен при лейкозах, особенно при миелоидном:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углеводный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "минеральный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белковый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пуриновый",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Какие клетки появляются в крови при ретикулезе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретикулярные клетки и монобласты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретикулоциты и мегалоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноциты и ретикулоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миелобласты и миелоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Как изменяется свертывание крови при лейкозах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "незначительно понижается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понижается",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какое изменение в нейтрофилах можно считать проявлением их дегенерации ~ наличие в цитоплазме пылевидной зернистости:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пикноз, фрагментоз ядра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "палочковидное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подковообразное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие четырех сегментов в ядре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Какое изменение в периферической крови может отражать ядерный сдвиг нейтрофилов вправо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение содержания палочкоядерных нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение метамиелоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "появление миелоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "базофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперсегментация ядер нейтрофилов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "О чем свидетельствует ядерный сдвиг нейтрофилов вправо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "об омоложении клеток нейтрофильного ряда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "о дегенерации нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "о старении клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "об уменьшении количества сегментоядерных нейтрофилов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Укажите причину, которая может привести к сдвигу лейкоцитарной формулы вправо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "радиоактивные воздействия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "действие высоких температур",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понижение напряжения О2 во вдыхаемом воздухе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "действие кислот, щелочей на организм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глистные инвазии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Количество эритроцитов при болезни Вакеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от 2 до 5 млн. в 1 куб. мм крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "от 5 до 6 млн. в 1 куб. мм крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от 6 до 7 млн. в 1куб. мм крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от 7 до 8 млн. в 1 куб. мм крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от 8 и более млн. в 1 куб. мм крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "При агранулоцитозе противоинфекционная устойчивость организма:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "понижена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не изменена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "незначительно повышена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "незначительно снижена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Укажите, какое заболевание сопровождается развитием абсолютной лимфоцитопении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционный мононуклеоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунная форма агранулоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острая лучевая болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипопластическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Какое состояние сопровождается развитием абсолютной лимфоцитопении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционный мононуклеоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунная форма агранулоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острая лучевая болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипопластическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Какое состояние сопровождается развитием абсолютной нейтропении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый инфаркт миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острая лучевая болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анемия Аддисона-Бирмера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стрессовые состояния",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острый аппендицит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Какое заболевание сопровождается абсолютной нейтрофилией:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление легких",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронический лимфолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туберкулез легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "болезнь Иценко-Кушинга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Какое изменение в периферической крови отмечается при нейтрофильном лейкоцитозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение процентного содержания лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появление полисегментированных нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение процентного содержания моноцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение содержания лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение процентного содержания палочкоядерных нейтрофилов, метамиелоцитов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Каков цветной показатель при злокачественной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,5 - 0,6",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,7 - 0,8",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,9 - 1,0",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1,2 - 1,3",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "0,3 - 0,4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Процент гемоглобина при пернициозной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резко снижен",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "умеренно снижен",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в пределах нормы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко увеличен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Изменения белой крови при пернициозной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лейкопения, гиперсегментация нейтрофилов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лимфопения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моноцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какая анемия возникает при дефиците внутреннего фактора Кастла:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энзимодефицитная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В12 - дефицитная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "белководефицитная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Каков цветной показатель при злокачественной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,5 - 0,6",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,7 - 0,8",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,9 - 1,0",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1,2 - 1,3",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "0,3 - 0,4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Процент гемоглобина при пернициозной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резко снижен",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "умеренно снижен",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в пределах нормы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко увеличен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Изменения белой крови при пернициозной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лейкопения, гиперсегментация нейтрофилов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лимфопения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моноцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Какая анемия возникает при дефиците внутреннего фактора Кастла:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энзимодефицитная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В12 - дефицитная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "белководефицитная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "При каком состоянии наблюдается уменьшение показателя гематокрита:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при снижении содержания в эритроцитах 2,3 - дифосфоглицерата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в течение первого часа после острой кровопотери",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 4-5 суток после острой кровопотери",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при неукротимой рвоте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при ожоговом шоке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Укажите, какое изменение гематологических показателей характерно для острой постгеморрагической анемии (на 7-е сутки):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анизоцитоз и пойкилоцитоз эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитопения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейтропения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипербилирубинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ретикулоцитоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Сразу после острой кровопотери возникает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигоцитемическая гиповолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полицитемическая гиповолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "простая гиповолемия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "олигоцитемическая нормоволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полицитемическая нормоволемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "К каким видам анемий относится острая постгеморрагическая анемия по типу кроветворения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к регенеративным",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к арегенеративным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к дегенеративным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к регенеративным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к эмбриональным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Изменения эритроцитов при острой постгеморрагической анемии на пятые сутки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макроциты, мегалоциты, нормобласты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретикулоциты, мегалобласты, полихроматофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анизоцитоз, микро- макроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полихроматофилия, гипохромия, ретикулоцитоз, нормобласты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "полихроматофилия, анизо-пойкилоцитоз, микроциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Каков цветной показатель в начальном периоде острой постгеморрагической анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в пределах нормы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "больше единицы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "меньше единицы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резко уменьшен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко увеличен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Каков цвет кожных покровов при гипохромной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синюшный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желтушный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бледный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не изменен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Количество эритроцитов при позднем хлорозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличено",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшено",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "существенно не изменено",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резко увеличено",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко уменьшено",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "К какому виду анемий относится хлороз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к постгеморрагической",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к гемолитической",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к железодефицитной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к анемии вследствие дефицита витамина В12 и фолиевой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к гемоглобинозам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Каков ведущий механизм нарушений функций организма при анемиях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полицитемическая гиповолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемическая гипоксия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "циркуляторная гипоксия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "олигоцитемическая гиперволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "олигоцитемическая гиповолемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Незрелые клетки, содержащие гемоглобин - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритробласты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нормобласты базофильные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проэритробласты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нормобласты ортохромные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ретикулоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Какой эритроцит содержит больше гемоглобина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макроцит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микроцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полихроматофил",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нормоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мегалоцит",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Анизоцитоз. Определение понятия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "различная форма клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "различная величина клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие зерен и нитей в эритроцитах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "способность окрашиваться кислой и основной краской",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление ядерных форм эритроцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Как называется различная форма эритроцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анизоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полихроматофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микроцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "макро-мегалоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пойкилоцитоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Дегенеративные формы эритроцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анизоцитоз, пойкилоцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полихроматофилия, анизоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микроцитоз, ретикулоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нормобласт, эритробласт",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пронормобласт, ретикулоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Анемия. Определение понятия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "малокровие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение эритроцитов в единице объема",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение гемоглобина в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшение гемоглобина, эритроцитов и качественные изменения эритроцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нет правильных вариантов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Какой вид анемии относится к регенеративному типу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлороз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "постгеморрагическая анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пернициозная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "белководефицитная анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Укажите причину гипохромных анемий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаток витаминов В12",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расстройство обмена белка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение функции костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение обмена железа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "усиленный распад эритроцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Как изменяются гемодинамические показатели в ближайшие минуты после острой кровопотери:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшается ОЦК, снижается минутный объем сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшается ОЦК, повышается минутный объем сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшается ОЦК, повышается тонус резистивных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижается минутный объем сердца, повышается тонус резистивных сосудов мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышается минутный объем сердца, снижается тонус резистивных сосудов мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "В каком случае возникает полицитемическая гиперволемия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при переливании большого количества крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "у пациентов с заболеваниями почек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при спадении отеков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "у пациентов с болезнью Вакеза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при парентеральном введении кровезаменителей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Укажите интервал времени, в течение которого обычно восстанавливается ОЦК (при потере 1000мл) за счет поступления в сосуды тканевой жидкости:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-2ч.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1-2 сут.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "2-3 сут.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4-5 сут.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "7-8 сут.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Укажите интервал времени, в течение которого обычно восстанавливается ОЦК (при потере 1000 мл) за счет активации эритропоэза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-2 ч.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1-2 сут.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2-3 сут.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4-5 сут.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "7-8 сут.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Укажите нормальные показатели гематокрита взрослого человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,40 - 0,55 Л/л крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,45 - 0,65 Л/л крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,36 - 0,48 Л/л крови",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "0,32 - 0,52 Л/л крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,30 - 0,43 Л/л крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Что такое гематокритное число:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "это содержание эритроцитов в общем объеме крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "процентное отношение гемоглобина к процентному отношению эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "степень насыщения гемоглобина эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отношение объема плазмы к общему объему крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Для гемолитической анемии характерна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигоцитемическая гиповолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "олигоцитемическая гиперволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полицетимическая гиповолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "олигоцитемическая нормоволемия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "полицитемическая нормоволемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Укажите фактор, имеющий приспособительное значение для организма в ближайшие минуты и часы после острой кровопотери:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение венозного возврата крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тканевая гипоперфузия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "периферическая вазоконстрикция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "брадикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиповентиляция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "В каком случае возникает полицитемическая гиперволемия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при переливании большого количества крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "у пациентов с заболеваниями почек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при спадении отеков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "у пациентов с болезнью Вакеза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при парентеральном введении кровезаменителей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Укажите интервал времени, в течение которого обычно восстанавливается ОЦК (при потере 1000 мл за счет активации эритропоэза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-2 ч.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1-2 сут.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2-3 сут.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4-5 сут.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "7-8 сут.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Признаки эмбрионального эритропоэза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретикулоциты, полихроматофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мегалобласты, мегалоциты, проэритробласты, нормобласты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анизоцитоз, пойкилоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мегалобласты, кольца Кабо, тельца Жолли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тельца Жолли, полихроматофилы, аницитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Способность эритроцитов окрашиваться кислой и основной краской:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полихроматофилия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "анизоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пойкилоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипохромия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "базофилия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Незрелые клетки, содержащие гемоглобин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритробласты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нормобласты базофильные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проэритробласты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нормобласты ортохромные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ретикулоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Какой эритроцит содержит больше гемоглобина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макроцит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микроцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полихроматофил",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нормоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мегалоцит",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Анизоцитоз. Определение понятия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "различная форма клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "различная величина клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие зерен и нитей в эритроцитах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "способность окрашиваться кислой и основной краской",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление ядерных формэритроцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Как называется различная форма эритроцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анизоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полихроматофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микроцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "макро-мегалоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пойкилоцитоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Дегенеративные формы эритроцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анизоцитоз, пойкилоцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полихроматофилия, анизоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микроцитоз, ретикулоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нормобласт, эритробласт",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пронормобласт, ретикулоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Анемия. Определение понятия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "малокровие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение эритроцитов в единице объема",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение гемоглобина в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшение гемоглобина, эритроцитов и качественные измения эритроцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нет правильных вариантов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Какой вид анемии относится к регенеративному типу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлороз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "постгеморрагическая анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пернициозная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "белководефицитная анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Укажите причину гипохромных анемий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаток витаминов В12",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расстройство обмена белка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение функции костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение обмена железа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "усиленный распад эритроцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Каково содержание гемоглобина при гипохромной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "умеренно уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличивается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "существенно не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резко уменьшается",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "умеренно увеличивается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Каков кожный цвет кожных покровов при гипохромной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синюшный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желтушный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бледный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не изменен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Количество эритроцитов при гипохромной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличено",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшено",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "существенно не изменено",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "резко уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко увеличивается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Каков ведущий механизм нарушений функций организма при анемиях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полицитемическая гиповолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемическая гипоксия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "циркуляторная гипоксия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "олигоцитемическая гиперволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "олигоцитемическая гиповолемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Какую из перечисленных анемий можно отнести к гипорегенераторным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническую постгеморрагическую анемию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острую постгеморрагическую анемию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "геморрагическую анемию Минковского-Шоффара",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аутоиммунную гемолитическую анемию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "апластическую анемию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "При какой анемии наблюдается мегалобластический тип кроветворения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острая постгеморрагическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемолитическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В12 (фолиево) - дефицитные анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гипопластическая анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Для какой анемии характерен микроцитоз эритроцитов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипопластическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железодефицитная анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "острая постгеморрагическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фолиеводефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "талассемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Какой фактор вызывает железодефицитную анемию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дефицит внутреннего фактора слизистой оболочки желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение продукции эритропоэтина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение расходования железа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "массивный гемолиз эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дефицит витамина В12",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Укажите, какие изменения гематологических показателей характерны для железодефицитной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержание железа в сыворотке крови больше 15 ммоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анизоцитоз, пойкилоцитоз, выраженная гипохромия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ретикулоцитоз до 15-20 %",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейтрофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипербилирубинемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Количество эритроцитов при позднем хлорозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличено",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшено",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "существенно не изменено",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резко увеличено",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко уменьшено",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "К какому виду анемий относится хлороз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к постгеморрагической",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к гемолитической",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к железодефицитной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к анемии, вследствие дефицита витамина В12 и фолиевой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к гемоглобинозам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Каков основной патогенетический механизм хлороза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемолиз эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение созревания эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение вымывания эритроцитов из костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушение процесса гемоглобинообразования",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "К каким видам анемий относится острая постгеморрагическая анемия по типу кроветворения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к регенеративным",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к арегенеративным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к дегенеративным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к регенеративным признакам регнерациий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к эмбриональным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Каков цветной показатель в начальном периоде острой постгеморрагической анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в пределах нормы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "больше единицы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "меньше единицы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резко уменьшен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко увеличен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Каков цветной показатель в поздний период острой кровопотери:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в пределах нормы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "меньше единицы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "больше единицы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резко уменьшен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко увеличен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Какое состояние может вызывать повышение выработки эритропоэтина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышенное насыщение крови кислородом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение содержания Нв в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наследственное нарушение синтеза нормального Нв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровопотеря",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гипоксия миелоидной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "При каком состоянии наблюдается простая гиповолемия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 30-40 мин:{ после острой кровопотери",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "через 24-48 ч:{ после острой кровопотери",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при ожоговом шоке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при перегревании организма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при митральном пороке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Укажите, какое изменение гематологических показателей характерно для острой постгеморрагической анемии (на 7-е сутки):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анизоцитоз и пойкилоцитоз эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитопения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейтропения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипербилирубинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ретикулоцитоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Сразу после острой кровопотери возникает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигоцитемическая гиповолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полицитемическая гиповолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "простая гиповолемия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "олигоцитемическая нормоволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полицитемическая нормоволемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Укажите причину гемолитической анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутривенное дробное введение гипертонических растворов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "действие фенилгидразина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "массивные кровоизлияния",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дефицит внутреннего фактора Кастла",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемофилия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Укажите, какой гематологический показатель характерен для острой гемолитической анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выраженная гипохромия эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипоплазия костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лейкопения, тромбоцитопения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие ретикулоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выраженный ретикулоцитоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Как изменяется цветной показатель при гемолитической анемии в период криза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "равен единице",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "больше единицы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "меньше единицы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "равен или больше единицы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "равен или меньше единицы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "При каком виде анемии нарушен обмен витамина В12:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при хлорозе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при мегалобластической",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при гемолитической",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при постгеморрагической",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при апластической",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Назовите тип кроветворения при злокачественной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "регенеративный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "арегенеративный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мегалобластический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "апластический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нормобластический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Каков цветной показатель при злокачественной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,5 - 0,6",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,7 - 0,8",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,9 - 1,0",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1,2 - 1,3",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "0,3 - 0,4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Процент гемоглобина при пернициозной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резко снижен",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "умеренно снижен",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в пределах нормы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко увеличен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Изменения белой крови при пернициозной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лейкопения, гиперсегментация нейтрофилов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лимфопения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моноцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Какая анемия возникает при дефиците внутреннего фактора Кастла:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энзимодефицитная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В12 - дефицитная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "белководефицитная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Какое состояние может обусловить развитие мегалобластной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гельминтоз (широкий лентец)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хроническая кровопотеря",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белковое голодание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "авитаминоз В6",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "усиление гемолиза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Какое состояние может обусловить развитие мегалобластной анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "беременность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хроническая кровопотеря",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белковое голодание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "авитаминоз В6",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "усиление гемолиза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Повышенный цветовой показатель обнаруживается при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наследственных гемолитических анемиях вне кризиса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипопластический анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анемии Аддисона-Бирмера",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острой постгеморрагической анемии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Укажите причину гипопластической анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резекция желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ионизирующая радиация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "недостаток в пище витамина В12",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перегревание организма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сердечная недостаточность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Какой гематологический показатель характерен для гипопластической анемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Панцитопения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Гипохромия эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ретикулоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гиперплазия костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нормобластический тип кроветворения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Назовите анемию, протекающую с отсутствием в костном мозге эритробластов и в периферической крови ретикулоцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипорегенераторная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипопластическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "апластическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "арегенераторная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "белководефицитная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Укажите причину эритроцитоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Кессонная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гиперволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Талассемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гипобарическая гипоксия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Какое состояние сопровождается развитием абсолютного эритроцитоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Болезнь Вакеза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Метаболическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гемодилюция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гемоконцентрация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Какое состояние сопровождается развитием абсолютного эритроцитоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Мегалобластная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Хроническая гипоксия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Болезнь Верльгофа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ишемия почек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гемодилюция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "При какой анемии развиваются воспалительно-атрофические процессы в слизистой оболочке пищевого канала:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолитической",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железодефицитной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белководефицитной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пернициозной",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гипопластической",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "При какой анемии развивается фуникулярный миелоз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолитический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железодефицитной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белководефицитной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пернициозной",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гипопластической",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "У какой клинической формы анемий возникает наследственный дефект первичной структуры цепей глобина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа-талассемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бета-талассемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "серповидноклеточная анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "микросфероцитарная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "К каким клиническим формам относится наследственная мембранопатия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозо- 6 фосфатдегидрогеназная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микросфероцитарная гемолитическая анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "альфа-талассемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бета-талассемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "серповидноклеточная анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Как изменяется общий объем крови при физической работе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникает гиперволемия олигоцитемическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возникает простая гиперволемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "возникат полицитемическая гиперволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "практически не меняется",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "возникает нормоволемия полицитемическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Что является показателем зрелости лейкоцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие зернистости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интенсивность окраски цитоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "степень сегментации ядра",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отсутствие зерен в цитоплазме",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие сегментации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Что понимают под термином \"агранулоцитоз\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резкое уменьшение лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резкое уменьшение зернистых лейкоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "резкое уменьшение лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резкое уменьшение эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перераспределение лейкоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "При каком заболевании возникает гранулоцитопения (агранулоцитоз):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при лекарственной аллергии и лучевой болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при стрепто-стафилококковых инфекциях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при хронических инфекциях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при острых инфекциях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при вирусных инфекциях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Какие функции выполняют нейтрофилы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антителообразования",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "являются хелперами в иммунном ответе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейтрализуют токсические вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участвуют в метаболических тканевых процессах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "завершают воспалительную реакцию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Укажите механизм развития лейкоцитозов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подавление лейкопоэза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "усиленое разрушение лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активация лейкопоэза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышенный выход лейкоцитов в ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение продукции лейкопоэтина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Лейкоцитарная формула при физиологическом лейкоцитозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не изменяется",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "незначительно изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "резко изменяется за счет нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличивается процент лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появляется базофильно-эозинофильная ассоциация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Каков механизм физиологического лейкоцитоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиление лейкопоэза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перераспределение лейкоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "понижение физиологического разрушение лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мобилизация косномозгового резерва без активации лейкопоэза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выброс из депо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "При каком заболевании наблюдается базофильный лейкоцитоз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при воспалении",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при сенной лихорадке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при миелоидном лейкозе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при скарлатине",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при туберкулезе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Что значит \"сдвиг ядра нейтрофилов влево\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение эозинофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение агранулоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение нейтрофилов с несегментированным ядром",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "появление гиперсегментации ядра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение базофилов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Какова причина сдвига ядра нейтрофилов влево:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "действие токсических веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "раздражение и повышенная реактивность костного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "радиоактивные излучения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хронические инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Что значит \"дегенеративный сдвиг ядра нейтрофилов влево\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение всех несегментированных форм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение эозинофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение агранулоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение базофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение только палочкоядерных",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Укажите причину сдвига ядра нейтрофиов вправо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение патологических форм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появление гиперсегментации и увеличение сегментоядерных форм",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличение лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение моноцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение всех форм гранулоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Укажите механизм возникновения лейкопений:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активация лейкопоэза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение продукции лейкопоэтина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение продукции эритропоэтина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подавление лейкопоэза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мобилизация костномозгового резерва лейкоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Какое заболевание сопровождается эозинофилией?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронический лимфолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериальная пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "корь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "паразитарное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эритремия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Укажите механизм возникновения лейкопений:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активация лейкопоэза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение продукции лейкопоэтина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение продукции эритропоэтина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение созревания в костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мобилизация костномозгового резерва лейкоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Укажите механизм возникновения истинного лейкоцитоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мобилизация костномозгового резерва без активации лейкопоэза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "замедленное разрушение лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышенный выход лейкоцитов из сосудистого русла в ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активация лейкопоэза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гемоконцентрация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Укажите механизм возникновения истинной лейкопении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетение лейкопоэза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышенный выход лейкоцитов из сосудистого русла в ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "недостаточная мобилизация костно-мозгового резерва лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активация лейкопоэза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение продукции эритропоэтина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "При агранулоцитозе противоинфекционная устойчивость организма:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "понижена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не изменена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "незначительно повышена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "незначительно снижена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Укажите, какое заболевание сопровождается развитием абсолютной лимфоцитопении?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционный мононуклеоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунная форма агранулоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острая лучевая болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипопластическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Какое состояние сопровождается развитием абсолютной лимфоцитопении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционный мононуклеоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунная форма агранулоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острая лучевая болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипопластическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Какое состояние сопровождается развитием абсолютной нейтропении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый инфаркт миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острая лучевая болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анемия Аддисона-Бирмера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стрессовые состояния",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острый аппендицит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Какое заболевание сопровождается абсолютной нейтрофилией:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление легких",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронический лимфолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "брюшной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулез легких",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Болезнь Иценко-Кушинга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Какое изменение в нейтрофилах можно считать проявлением их дегенерации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие в цитоплазме пылевидной зернистости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пикноз, фрагментоз ядра",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "палочковидное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подковообразное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие четырех сегментов в ядре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Какое изменение в периферической крови может отражать ядерный сдвиг нейтрофилов вправо?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение содержания палочкоядерных нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение метамиелоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "появление миелоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "базофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперсегментация ядер нейтрофилов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "О чем свидетельствует ядерный сдвиг нейтрофилов вправо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "об омоложении клеток нейтрофильного ряда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "о дегенерации нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "о гипосегментации ядер нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "о старении клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "об уменьшении количества сегментоядерных нейтрофилов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Укажите причину, которая может привести к сдвигу лейкоцитарной формулы вправо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "радиоактивные воздействия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "действие высоких температур",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понижение напряжения О2 во вдыхаемом воздухе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "действие кислот, щелочей на организм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глистные инвазии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Какова картина крови при нейтрофильном лейкоцитозе с гипорегенеративным сдвигом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение палочкоядерных, юных, появление миелоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение палочкоядерных, метамиелоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение палочкоядерных нейтрофилов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличение сегментоядерных нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперсегментация ядер нейтрофилов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Укажите, какое заболевание может сопровождаться нейтрофильным лейкоцитозом с регенеративным сдвигом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ангина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крупозная пневмония",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тяжелый перитонит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "краснуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Какое заболевание может сопровождаться нейтрофильным лейкоцитозом с гиперрегенеративным сдвигом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сепсис",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "корь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сывороточная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крапивница",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Какова картина крови при лейкемоидной реакции миелоидного типа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкопения, лимфоцитопения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лейкоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "резкий лейкоцитоз, гиперрегенеративный сдвиг лейкоцитарной формулы влево",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "умеренный лейкоцитоз, появление бластных клеток, базофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резкий лейкоцитоз, сдвиг формулы вправо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Отличие лейкемоидной реакции от лейкоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первичное поражение кроветворной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие базофильно-эозинофильной ассоциации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сопровождается метаплазией, анаплазией ткани костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "носит длительный, затяжной характер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "носит временный, симптоматический характер",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Какой из лейкозов чаще встречается в детском возрасте:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый лимфобластный лейкоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронический лимфолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронический миелолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острый миелолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронический ретикулоэндотелиоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Какова картина белой крови при остром Миелолейкозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфобласты единичные,гиперрегенеративный сдвиг формулы влево",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфобласты до 30%, лейкемический провал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миелобласты до 70-80%, лейкемический провал, лимфоцитопения, моноцитопения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "миелобласты единичные, гиперрегенеративный сдвиг лейкоцитарной формулы влево, базофильно-эозинофильная ассоциация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "умеренный лейкоцитоз, регенеративный сдвиг лейкоцитарной формулы влево, выраженный моноцитоз, единичные монобласты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Какова картина белой крови при хроническом миелолейкозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфобласты единичные,гиперрегенеративный сдвиг формулы влево",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфобласты до 30%, лейкемический провал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миелобласты до 70-80%, лейкемический провал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миелобласты единичные, гиперрегенеративный сдвиг лейкоцитарной формулы влево, базофильно-эозинофильная ассоциация",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "умеренный лейкоцитоз, регенеративный сдвиг лейкоцитарной формулы влево, выраженный моноцитоз, единичные монобласты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Какой вид обмена резко повышен при лейкозах, особенно при миелоидном:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углеводный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "минеральный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белковый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пуриновый",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Какие клетки появляются в крови при ретикулезе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретикулярные клетки и монобласты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретикулоциты и мегалоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноциты и ретикулоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миелобласты и миелоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Как изменяется свертывание крови при лейкозах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "незначительно понижается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понижается",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не изменяется",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Оглушенность миокарда - это состояние, вызванное:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кратковременной и выраженной ишемией миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронической гипоперфузией миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "незначительной ишемией миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полным прекращением коронарного кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "длительной и выраженной ишемий миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Бездействующий миокард - это состояние, вызванное:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кратковременной и выраженной ишемией миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронической гипоперфузией миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "незначительной ишемией миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полным прекращением коронарного кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "длительной и выраженной ишемий миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Чем обусловлена перегрузка миокарда в результате повышения сопротивления оттоку крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стенозом устья аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "недостаточностью митрального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "недостаточностью аортального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "недостаточностью трикуспидального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "артериальной гипотензией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Перегрузка миокарда увеличенным объемом крови может быть обусловлена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стенозом устья аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "легочной гипертензией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "регургитацией крови при недостаточности клапанов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "артериальной гипертензией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "системным атеросклерозом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Артимии вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "падение ударного объема сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышение ударного объема сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение периферического сопротивления сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение периферического сопротивления сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Какие электрокардиографические изменения являются маркерами некроза миокарда?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "удлинение интервала P-Q",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "углубление зубца Q",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изменение зубца P",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие подъема сегмента S-T",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уширение комплекса QRST",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Укажите факторы, состояния, которые могут вызывать сердечную недостаточность посредством прямого повреждения миокарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаточность трикуспидального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертоническая болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "септические состояния",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стеноз устья аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "недостаточность аортального клапана",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Гиперкалиемия вызывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атриовентикулярную блокаду проведения импульсов возбуждения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "артериальную гипертензию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тахикардию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мерцательную аритмию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экстрасистолию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Какой частотой сердечных сокращений характеризуется пароксизмальная тахикардия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердечный ритм неправильный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "частота сердечных сокращений - 100 – 140 ударов в 1 минуту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "частота сердечных сокращений - 140 – 250 ударов в 1 минуту",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "частота сердечных сокращений - 250 – 300 ударов в 1 минуту",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "частота сердечных сокращений – больше 300 ударов в 1 минуту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Чем характеризуется синусовая аритмия^",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличением частоты сердечных сокращений на вдохе в норме",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличением частоты сердечных сокращений на выдохе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшением ЧСС на вдохе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшением ЧСС на выдохе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тахикардией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Атриовентикулярная блокада первой степени характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "удлинением интервала P - Q более 0,1 с.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "периодическим выпадением комплекса QRST на каждое 2-3 сокращение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "периодическим выпадением комплекса QRST на каждое 8-9 сокращение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диссоциацией сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "смещением интервала ST",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Атриовентикулярная блокада второй степени характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "удлинением интервала P - Q до 0,21 с.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появлением периодов Венкебаха-Самойлова",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выпадением желудочкового комплекса на каждое 8-9 сокращение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диссоциацией сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "смещением интервала ST",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Какие химические вещества вызывают расширение коронарных сосудов при ишемии миокарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "молочная кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гистамин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "брадикинин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аденозин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "СО2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Какой ведущий механизм способствует развитию сердечных отеков:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение ударного и минутного объема крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение минутного объема крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "падение А/Д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Какие состояния приводят к перегрузке миокарда сопротивлением оттоку крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаточность митрального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "недостаточность аортального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "артериальная гипертензия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "недостаточность клапанов правого артиовентрикулярного отверстия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "При каких состояниях включается гомеометрический механизм компенсации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаточность митрального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стеноз митрального отверстия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "недостаточность аортального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "недостаточность трикуспидального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "недостаточность клапана легочной артерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "При каких состояниях включается гетерометрический механизм компенсации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сужение устья аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стеноз митрального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "недостаточность митрального клапана",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипертоническая болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сужение устья легочной артерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "При каких состояниях повышается напряжение мышечного волокна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при недостаточности митрального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при стенозе устья аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при недостаточности аортального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при недостаточности трикуспидального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при недостаточности клапана легочной артерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Какие механизмы компенсации относятся к экстракардиальным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "концентрическая гипертрофия миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миогенная дилятация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тахикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение тонуса сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тоногенная дилятация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Проявления сердечной недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение ОЦК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение остаточного объема в полостях сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличение скорости кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение давления в полостях сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "При каких экстрасистолиях наблюдается удлинение компенсаторной паузы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "предсердиях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атриовентрикулярных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желудочковых",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "При какой блокаде наблюдается диссоциация сокращений предсердий и желудочков:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синоаурикулярной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атриовентикулярной 4 степени",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "атриовентикулярной 1 степени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атриовентикулярной 2 степени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атриовентикулярной 3 степени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "ЭКГ признаки желудочковой экстрасистолии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "удлинение интервала P - Q",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "смещение интервала ST ниже изолинии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изменение конфигурации желудочкового комплекса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отрицательный зубец Т",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глубокий зубец Q",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Изменения в крови при инфаркте миокарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лекопения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эритропения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение СОЭ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лейкоцитоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Количество каких ферментов повышено в крови при инфаркте миокарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дастаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "АСТ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "АЛТ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щелочная фосфатаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альдолаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Укажите возможные причины некоронарного некроза миокарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спазм венечных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемоконцентрация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперпродукция стероидных гормонов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тромбоцитопения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемодилюция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Когда возникает коронарогенный некроз миокарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при отрыве атеросклеротической бляшки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при накоплении аденозина в миокарде",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при выборе катехоламинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при гипотиреозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при введении антикардинальной цитоксической сыворотки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Укажите последствия продолжительного приступа пароксизмальной тахикардии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивается сердечный выброс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличивается коронарный кровоток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижается ударный объем сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличивается систолическое А/Д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличивается ударный объем сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Какие изменения при гиперадреналинемии повреждают миокард?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение потребления миокардом кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипероксигенация миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение доставки кислорода к миокарду",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличение эффективности сопряжения аэробного окисления и фосфолирования в кардиомиоцитах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение содержания АТФ в кардиомиоцитах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "Какие виды аритмий относятся к монотопным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пароксимальная желудочковая тахикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "АВ-ритм (атриовентрикулярный ритм)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "идиовентрикулярный ритм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синусовая тахикардия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фибрилляция желудочков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Какие виды аритмий относятся к гетеротопным?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синдром слабости синусового узла",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудочковая экстрасистолия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синусовая брадикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синусовая тахикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синусовая аритмия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "Укажите причины правожелудочковой недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артериальная гипертензия большого круга кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфаркт передней стенки левого желудочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "недостаточность митрального клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипертензия малого круга кровообращения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "коарктация аорты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "Укажите причины левожелудочковой недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертензия малого круга кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эмфизема легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стеноз устья аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Тетрада Фалло",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стеноз легочной артерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Какие проявления характерны для левожелудочковой недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отеки нижних конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "асцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "застой в малом кругу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "набухание яремных вен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатомегалия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Какие проявления характерны для правожелудочковой недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "застой в системе полых вен",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "застой в малом круге",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миогенная дилятация левого предсердия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение А/Д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "Назовите механизмы срочной кардиальной компенсации при сердечной недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "брадикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертрофия миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение ОЦК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тахикардия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выброс депонированной крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Каковы методы моделирования артериальной гипертензии в эксперименте:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ишемия обоих надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перевязка одного мочеточника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двусторонняя перевязка мочеточников",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ишемизация обеих почек путем стенозирования их артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ишемия одного надпочечника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "Назовите механизмы срочной экстракардиальной компенсации при сердечной недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертрофия миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижение ОЦК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение активности парасимпатической нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тоногенная дилятация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "активация ренин-ангиотензиновой системы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "Назовите причину, оказывающую вазопрессорное действие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ренин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ангиотензин-2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гистамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серотонин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "агиотензин-1",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "Укажите состояния, сопровождающиеся повышением А/Д:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипотиреоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипокортицизм",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синдром Клайнфельтера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тиреотоксикоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пангипопитуитаризм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "Увеличение секреции ренина вызывается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличением перфузионного давления в артериолах почечных телец",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижением перфузионного давления в артериолах почечных телец",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипернатриемией и гипокалиемией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышением уровня ангиотензина-2 в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышенным образованием почками простагландинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Какие изменения возникают в кардиомиоцитах при ишемии в течение 10 миннут:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение сократительной функции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "развитие некроза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижение уровня АТФ на 50% от нормального",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "начало снижения уровня АТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение уровня АТФ на 90% от нормального",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Какие нарушения функций сердца и центральной гемодинамики возникают при сердечной недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение ударного объема сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышение ударного объема сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение остаточного систолического объема крови в желудочках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение давления крови в сосудах, приносящих кровь к сердцу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение конечного диастолического давления в желудочках сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "Укажите причину цианоза при недостаточности кровообращения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышенное содержание кислорода в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ускорение скорости кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение содержания в крови восстановленного гемоглобина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "артериализация венозной крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неполное использование кислорода тканями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "Какой отдел сердца подвергается гипертрофии при митральном стенозе в стадию компенсации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правое предсердие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "левое предсердие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "правый желудочек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "левый желудочек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечиленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "О чем свидетельствует появление на ЭКГ отрицательного зубца Т:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "о некрозе миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "о блокаде проведения импульса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "об ишемии миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "о прявлении эктопического очага возбуждения в имокарде",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "об инфаркте миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "Какие гемодинамические изменения характерны для коллапса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение ОЦК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение ударного и минутного объема сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение общего периферического сопротивления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшение емкости сосудистого русла",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "падение давления в артериях и венах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "Какие изменения возникают в крови при синдроме острой сосудистой недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разжижение крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение склонности к тромбообразованию",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипокоагуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение вязкости крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ускорение кровотока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "Острое легочное сердце возникает при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертонической болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эмфиземе легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмосклерозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эмболии малого круга кровообращения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "Хроническое легочное сердце возникает при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмболии сосудов малого круга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбозе сосудов малого круга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмфиземе легких",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "инфаркте миокарда правого желудочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфаркте миокарда левого желудочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "Чем характеризуются проявления сердечной недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возрастанием конечного диастолического давления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшением остаточного систолического объема крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понижением давления в венах, по которым кровь притекает к декомпенсированному отделу сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "брадикардией (60 в 1 мин:{)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 200,
+				"text": "Какие изменения в организме возникают при стенозе правого атриовентрикулярного отверстия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "застой в малом круге кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "брадикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "общий венозный застой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипертрофия левого предсердия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение давления в малом круге кровообращения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 201,
+				"text": "Какие вы знаете врожденные пороки сердца синего типа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "незаращение овального отверстия предсердной стенки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "незаращение межжелудочковой перегородки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "транспозиция магистральных артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коарктация аорты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 202,
+				"text": "Назовите пороки сердца белого типа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Тетрада Фалло",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспозиция магистральных артерий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дефект межпредсердной перегородки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "недостаточность клапанов аорты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 203,
+				"text": "Приведите пример некоронарогенного некроза миокарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ишемия Принцметала",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоз левой коронарной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "катехоламиновый",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сдавление коронарной артерии при гипертрофии левого желудочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "Узловой ритм сердца возникает, когда роль водителя ритма берет на себя:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эктопические очаги в предсердии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эктопические очаги в желудочке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "узел Ашоф -Товара",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эктопические очаги в пучке Гисса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 205,
+				"text": "Чем характеризуется предсердная экстрасистолия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличением величины зубца Р",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшением величины зубца Р",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "углублением зубца Q",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расшерением комплекса QRS",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отрицательным зубцом Т",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 206,
+				"text": "Чем характеризуется синоаурикулярная блокада:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появлением дополнительного зубца Т",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствием зубца Т",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расширением комплекса QRS",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выпадением полного сердечного цикла",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выпадением сокращения предсердий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 207,
+				"text": "К чему приводит эмболия легочной артерии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "брадипноэ, падение АД",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "падению А/Д, полипноэ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "апноэ, асистолия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение венозного давления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение АД",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 208,
+				"text": "Когда может возникнуть синдром Морганьи - Эдемса – Стокса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при синусовой тахикардии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при одиночной экстрасистолии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при синусовой брадикардии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при неполной блокаде",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при полной блокаде",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 209,
+				"text": "Что лежит в основе развития первичной гипотензии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение базального тонуса резистивных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушение центральных механизмов регуляции сосудистого тонуса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышение сосудорасширяющих веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение функции щитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение функции надпочечников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 210,
+				"text": "Гипертония малого круга связана:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с тахикардией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с гиперволемией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с централизацией кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с митральным стенозом",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "с правожелудочковой недостаточностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 211,
+				"text": "Количество эритроцитов при сердечной недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в стадию компенсации увеличивается, затем падает",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в стадию компенсации уменьшается, а затем падает",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 212,
+				"text": "Чем характеризуется полная атриовентикулярная блокада (поперечная)?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тахикардией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диссоциацией сокращений желудочков и предсердий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "брадикардией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшением силы сердечных сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выпадением желудочкового комплекса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 213,
+				"text": "Каковы особенности гетеротропного ритма:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неправильный ритм сердцебиений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "брадикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тахикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "упорядоченный ритм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 214,
+				"text": "К чему может привести длительная тахикардия при сердечной недостаточности?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к увеличению минутного объема",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к подъему артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к нарастанию явлений недостаточности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к уменьшению утомляемости сердечной мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к увеличению ударного объема",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 215,
+				"text": "Назовите основной фактор компенсации при митральной недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "левый желудочек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "правый желудочек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "левое предсердие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правое предсердие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 216,
+				"text": "Чем характеризуется тоногенная дилятация:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшением ударного выброса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличением ударного объема",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сочетанием увеличения ударного и уменьшения минутного объемов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "недостаточным освобождением желудочков от крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшением систолического крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 217,
+				"text": "Какие нарушения кровообращения возникают при мерцании предсердий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ускорение кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение минутного объма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшение минутного объема",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "увеличение объема циркулирующей крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 218,
+				"text": "Характерные гемодинамические нарушения при травматическом шоке (торпидной фазе):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение объема циркулирующей крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение объема циркулирующей крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение А/Д",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "урежение числа сердечных сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сужение сосудов и увеличение скорости кровотока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 219,
+				"text": "Как изменяется энергетический обмен сердца при раздражении волокон блуждающего нерва:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обмен усиливается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обмен уменьшается",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обмен извращается",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обмен не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 220,
+				"text": "Что лежит в основе гипертонической болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение объема циркулирующей крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение числа и силы сердечных сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение притока крови в почках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гормонально-активная опухоль надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стойкое повышение тонуса артериол",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 221,
+				"text": "Как можно получить гипертонию растормаживания:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "введением каолина в продолговатый мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выключением рефлексогенных зон сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "раздражением сосудодвигательного центра электрическим током",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "введением адреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушением симпатической иннервации сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 222,
+				"text": "Что такое экстрасистолия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атипичное рапространение возбуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушение пути прохождения импульса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внеочередное сокращение сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фибрилляция желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мерцание предсердий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 223,
+				"text": "Чем характеризуется продольная блокада сердца:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушением проведения импульсов в атриовентикулярном узле",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушением проведения импульсов в разветвлениях волокон Пуркинье",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушением прведения импульсов ниже бифуркации пучка Гисса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушением проведения импульсов к предсердиям",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "возникновением диссоциации сокращеий предсердий и желудочков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 224,
+				"text": "Назовите факторы, приводящие к уменьшению объема циркулирующей крови в торпидную фазу шока:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мобилизация крови в депо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поступление жидкости в сосудистое русло",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плазмопотеря",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "депонирование крови",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "преимущественное скопление крови в малом круге",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 226,
+				"text": "Какие изменения возникают на ЭКГ при мерцании предсердий?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появляются множество мелких волн на месте зубца Р",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшается зубец Р",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "удлинняется интервал P-Q",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возникает внеочередной комплекс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличивается зубец Р",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 227,
+				"text": "Какая фаза сердечной деятельности затруднена при экссудативном перикардите:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "систола",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диастола",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диастола и систола",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушений гемодинамики не наблюдается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 228,
+				"text": "Что собой представляет кардиогенный шок:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение микроциркуляции в тканях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синдром острой сердечно-сосудистой недостаточности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нарушение гемодинамики в малом кругу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение периферического сопротивления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спазм коронарных сосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 229,
+				"text": "ЭКГ при инфаркте миокарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "смещение сегмента ST, изменение QRS и T",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отрицательный зубец Т",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "удлинение интервала P-Q",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выпадение желудочкового комплекса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выпадение всего сердечного цикла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 230,
+				"text": "Какова непосредственная причина ослабления сердечной деятельности при экстрасистолиях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "утомление сердечной мышцы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выпадение сердечного цикла",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "длинная компенсаторная пауза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внеочередное сокращение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диссоциация работы желудочков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 231,
+				"text": "Укажите причину повышения давления в полости перикарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "накопление жидкости в перикарде",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сращение перикарда и эпикарда (майка)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "небольшие кровоизлияния в полость перикарда при ранении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение диастолического притока крови к сердцу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшение присасывающей силы грудной клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 232,
+				"text": "Проявления синусовой аритмии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экстрасистолии синусовые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синусовая тахикардия (увеличение числа сердечных сокращений в 1мин)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "урежение числа сердечных сокращений в 1 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение последовательности ритма",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нарушение проведения импульса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 233,
+				"text": "В каких случаях развивается динамическая лимфатическая недостаточность:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сердечной недостаточности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при развитии слоновости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при обтурации лимфатических сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при сдавлении растущей опухолью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 234,
+				"text": "Какая форма мерцательной аритмии вызывает наиболее неблагоприятные сдвиги общей гемодинамики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тахиаритмическая форма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "брадиаритмическая форма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мерцание предсердий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибрилляция желудочков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "трепетание предсердий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 235,
+				"text": "Чем характеризуется тахиаритмическая форма мерцательной аритмии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "частым беспорядочным ритмом сокращений желудочков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сравнительно медленным ритмом сердечных сокращений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диссоциацией сокращений предсердий и желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "десинхронизацией сокращений желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "чередованием сильного и слабого сокращений сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 236,
+				"text": "Органические факторы симптоматической гипертонии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспалительные заболевания почек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперпродукция вазопрессина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение образования АКТГ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение образования адреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "раздражение хеморецепторов при гипоксии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 237,
+				"text": "Как меняется скорость кровотока при декомпенсации сердечной недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличивается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшается",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "незначительно уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "незначительно увеличивается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 238,
+				"text": "Сущность закона Старлинга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение диастолического наполнения к уменьшению ударного объема",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение диастолического наполнения ведет к увеличению ударного объема",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение диастолического наполнения ведет к увеличению ударного объема",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличение диастолического наполнения ведет к уменьшению мышечного напряжения желудочков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 239,
+				"text": "Гемодинамические проявления синусовой брадикардии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение минутного и систолического объема",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ускорение кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понижение артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшение минутного и систолического объема",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "уменьшение объема циркулирующей крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 240,
+				"text": "Каков механизм возникновения экстрасистолий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расстройство нервной регуляции возбудимости сердца и электролитного обмена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшение концентрации внеклеточного К",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение концентрации Са в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышения возбуждения сосудодвигательного центра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшение концентрации внутриклеточного Са и К",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 241,
+				"text": "Патологическая синусовая аритмия возникает при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипоксии головного мозга, травме, нарушении кровообращения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возбуждении симпатической нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "торможении сердечных центров блуждающих нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "закупорке венечных артерий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровоизлияниях в миокарде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 242,
+				"text": "Какой вид дилятации развивается в начальный период недостаточности аортальных клапанов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миогенная дилятация левого желудочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миогенная дилятация правого желудочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тоногенная дилятация левого желудочка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тоногенная дилятация правого желудочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тоногенная дилятация правого и левого желудочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 243,
+				"text": "Назовите причину кардиогенного шока:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфаркт миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перикардит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушения проволимости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экстрасистолия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стенокардия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 244,
+				"text": "Периодами Венкебаха-Самойлова называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "периодическое выпадение на ЭКГ желудочкового комплекса с последующим его появлением",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возникновение компенсаторной паузы после экстрасистолии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закупорка предсердий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "удлинение интервала Р-Q",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 245,
+				"text": "Когда возникает мерцательная аритмия (фибрилляция) предсердия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при нарушении проводимости (блокадах)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при недостаточности клапанов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при нарушении возбудимости (экстрасистолиях)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при резком повышении нагрузки на миокард",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при скоплении жидкости в перикардиальной полости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 246,
+				"text": "Укажите последствия нарушения микроциркуляции при кардиогенном шоке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение метаболизма тканей и ацидоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перераспределение крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скопление крови в капилярах и повышение давления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутрисосудистая агрегация эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшение диастолического притока крови к сердцу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 247,
+				"text": "Каков механизм почечной гипертонии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение систолического давления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "усиление образования ренина (ангиотензина) и спазм артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "усиление образования адреналина в надпочечниках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение венозного оттока от почек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изменение физико-химических свойств стенки сосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 248,
+				"text": "Как изменяется работа правого желудочка при митральном стенозе в фазе компенсации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "резко снижается",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличивается",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко увеличивается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 249,
+				"text": "Какие виды экстрасистолий встречаются чаще всего:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синусовые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "предсердные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "атриовентрикулярные из верхней части АВ-узла",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желудочковые",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атриовентрикулярные из нижней части АВ-узла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 250,
+				"text": "Какой вид клапанного порока встречается наиболее часто:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаточность устья аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стеноз устья аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "недостаточность двустворчатого клапана",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сужение левого атриовентрикулярного отверстия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 251,
+				"text": "Какие нарушения кровообращения возникают при мерцании предсердий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ускорение кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение минутного объема",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение А/Д",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшение минутного объема",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "увеличение ОЦК",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 105,
+				"text": "При какой анемии в крови наблюдается мишеневидные или базофильно-пунктированные эритроциты:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 135,
+				"text": "Какова картина крови при нейтрофильном лейкоцитозе с регенеративным сдвигом?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 141,
+				"text": "Какова картина белой крови при хроническом лимфолейкозе:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 159,
+				"text": "Атривентикулярная блокада третьей степени характеризуется:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 160,
+				"text": "Атривентикулярная блокада четвертой степени характеризуется:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 225,
+				"text": "ЭКГ при предсердной экстрасистолии характеризуется:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

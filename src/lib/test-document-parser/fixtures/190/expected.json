@@ -1,0 +1,5422 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Сколько ядер содержится в цисте кишечной амебы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "8",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Органеллами движения у саркодовых являются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мионемы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "псевдоподии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реснички",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миофибриллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "В каких органах паразитирует мелкая вегетативная форма дизентерийной амебы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в желудке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в просвете толстой кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в желчном пузыре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в тонком отделе кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какое заболевание вызывает представитель саркодовых",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "энтеробиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лямблиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амебиаз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лейшманиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "балантидиаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Как диагностировать амебную дизентерию",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "исследованием крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "исследованием дуоденального содержимого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отделяемых кожных язв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фекалии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рвотная масса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Последовательное развитие дизентерийной амебы с момента заражения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "заражается большой вегетативной формой и переходит в цисту",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проглатывается малая вегетативная форма - переходит в цисту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проглатывается циста - малая форма - большая форма и обратно",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проглатывается большая форма - малая форма - циста и обратно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проглатывается малая форма - переходит в большую - затем циста и обратно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Что является бесспорным доказательством принадлежности большой вегетативной формы к дизентерийной амебе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "большой размер",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активное движение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "множество ядер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие эритроцитов в цитоплазме",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "постоянно меняющаяся форма тела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Каким путем проникает в организм человека возбудитель африканского трипаносомоза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трансмиссивно",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "активным внедрением через кожу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "попадает вместе с пищей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздушно-капельным путем",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через воду",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Какой материал используется для диагностики трихомоноза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мокрота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дуоденальное содержимое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пунктат из печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отделяемое из уретры и влагалища",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отделяемое из язвы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Каким путем проникает в организм человека возбудитель лямблиоза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пищевым",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "трансмиссионным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активным внедрением через кожу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздушно-капельным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Какой материал используют для диагностики кожного лейшманиоза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фекалии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мокрота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отделяемое из кожных язв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дуоденальное содержимое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рвотная масса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Какие жгутиковые вызывают у человека заболевания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейшмания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "амеба протей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "балантидий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амеба ниглерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Какой материал используется для диагностики африканской сонной болезни",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слюна",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мокрота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фекалии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пунктат лимфатических узлов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Назовите специальные органоиды, которые утрачены у споровиков, в связи с паразитизмом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "органоиды движения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "органоиды зрения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "органоиды дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мышцы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Какая стадия малярийного плазмодия инвазионна для комара",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гаметоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гаметы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оокинета",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спорозоит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шизонт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Как заражается человек малярией",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через укусы насекомого",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "проникает через кожные покровы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проникает через расчесы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздушно-капельным путем",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через пищевые продукты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Стадия развития возбудителя малярии в организме человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гаметоцит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оокинета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гаметы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спорозоид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Как называется половое и бесполое развитие возбудителя малярии и у кого оно происходит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гаметогония у комара",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спорогония у комара",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "спорогония у человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "схизогония у комара",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "В каких органах и тканях хозяина происходит схизогония",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кожа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "головной мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какие из этих заболеваний являются трансмиссивными",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсоплазмоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трехдневная малярия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "балантидиаз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лямблиоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Какие из простейших относятся к споровикам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лямблия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ротовая амеба",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "балантидий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плазмодий",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Половые формы малярийного плазмодия, образующиеся в организме человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гаметоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гомонты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спороциста",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ооцит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шизонт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "В каких органах человека развивается возбудитель малярии р. Plasmodium",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в подкожной клетчатке, образует язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сначала в клетках печени, затем в эритроцитах крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в кишечнике, прикрепляются к микроворсинкам слизистой оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сначала в лимфатичсекой системе, затем в нервных клетках",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Что значит \"ликвидация малярии как массового заболевания\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ликвидация заболевания в соотношении10:10 тыс.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ликвидация заболевания в соотношении10:100 тыс.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ликвидация заболевания в соотношении100:10 тыс.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ликвидация заболевания в соотношении1000:10 тыс.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ликвидация заболевания в соотношении100:100 тыс.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Когда была поставлена задача ликвидации малярии, как массового заболевания и когда она была достигнута",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поставлена задача в1950 г. и достигнута в1960 г.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поставлена задача в1949 г. и достигнута в1951г.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поставлена задача в1931г. и достигнута в1940г.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поставлена задача в1925г. и достигнута в1945г.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поставлена задача в1940г. и достигнута в1950г.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Когда достигнута окончательная ликвидация малярии в России (Дагестане)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1950г.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1956г.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1958г.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1959-1960гг.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Какой материал используется для диагностики балантидиаза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фекалии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дуоденальное содержимое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "моча",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спинномозговая жидкость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Какие органоиды движения у инфузорий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реснички",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "псевдоподии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ундулирующая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цитоплазматические выросты - ворсинки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Какая стадия балантидия инвазионна для человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цисты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вегетативная молодая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вегетативная взрослая форма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "циста и молодая форма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "циста и взрослая форма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Где в организме локализуется балантидий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "толстая кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спинномозговая жидкость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Как питательное вещество поступает в тело инфузории",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "путем фагоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "осмотически",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анимальным способом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "захватыванием ложноножкой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при помощи жгутиков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Какие органоиды передвижения у представителей класса Саркодовые",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жгутики;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "псевдоподии;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "реснички;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроворсинки;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Сколько ядер у представителей класса Инфузории",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "У представителя, какого класса типа Простейшие имеется «клеточный рот» - цитостом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Жгутиковые;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Саркодовые;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Инфузории;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Споровики;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "У представителя, какого класса типа Простейшие имеется «клеточная глотка» - цитофаринкс",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Жгутиковые;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Саркодовые;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Инфузории;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Споровики;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "У представителя, какого класса типа Простейшие отсутствуют органоиды движения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Жгутиковые;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Саркодовые;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Инфузории;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Споровики;",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Какая простейшая обитает в половых органах человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лямблия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трихоманада;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "малярийные плазмодии;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "балантидий;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Представитель жгутиковых, у которого имеется четыре пары жгутиков",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Лямблия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Лейшмания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Трипаносома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Трихомонада",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Вольвокс",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Если при дуоденальном зондировании обнаружены простейшие размером 10 – 15 мкм грушевидной формы, задний конец заострен, во время движения поворачиваются вокруг продольной оси тела, как бы сбоку на бок, то это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Лейшмании",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Трихомонады",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Трипаносомы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Лямблии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Амебы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Как называются болезни, вызываемые простейшими",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цестодозами;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нематодозами;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гельминтозами;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "протозойными;",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Периодичность приступов лихорадки при паразитировании Pl. vivax",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "72 часа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "12 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "60 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "48 часов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "56 часов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Путь проникновения в организм человека возбудителя амебиаза (выберите один правильный ответ)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Воздушно-капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Трансмиссивный (при укусе москитом)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Алиментарный (пищевой)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Половой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Трансплацентарный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "К саркодовым - паразитам человека относятся",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Trypanosoma brucei",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Entamoeba histolytica",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Toxoplasma gondii",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Leishmania tropica",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Возбудителем амебиаза, облигатным паразитом человека, является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Entamoeba coli",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Entamoeba gingivalis",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Entamoeba histolytica",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Entamoeba suis.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Entamoeba histolytica имеет следующие жизненные формы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Циста, спорозоит, гамонты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Циста четырехядерная, вегетативная (мелкая и крупная) и тканевая формы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Циста четырехядерная и тканевая форма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Одноядерную циста, вегетативная (мелкая)и тканевая формы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Инвазионной стадией для человека при амебной дизентерии является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Мелкая вегетативная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Крупная вегетативная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Циста",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Тканевая форма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Личинки каких видов комаров располагаются на поверхности воды в горизонтальном положении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Aedes",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Culex",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Anopheles",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Coquillettidia",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Распространению амебиаза способствуют следующие механические переносчики",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Комары",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Слепни",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Москиты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Тараканы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Инвазионная жизненная форма Entamoeba histolytica попадает в организм человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "При укусе москита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "С загрязненной водой и пищей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "При снятии шкур с убитых животных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Трансфузионно (при переливании крови)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Entamoeba histolytica паразитирует у человека в",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ротовой полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кишечнике",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Мышцах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Лабораторная диагностика амебиаза осуществляется с помощь обнаружения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Цист в моче",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Цист и вегетативных форм в фекалиях",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Вегетативных форм в дуоденальном содержимом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Тканевой формы паразита в кожных язвах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Меры личной профилактики при амебиазе следующие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Соблюдение личной гигиены при употреблении пищи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Предохранение от укусов кровососущих насекомых",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Соблюдение стерильности медицинского инструментария",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Соблюдение гигиены при половых контактах.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Симптомы амебиаза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нарушение дыхания и работы сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Снижение аппетита и нарушение работы сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Боли в животе, частый стул с примесью крови",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Боли в подреберье и нарушение дыхания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Патогенное действие дизентерийной амебы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Образование кровоточащих язв в стенке желудка и абсцессы печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Образование кровоточащих язв в стенке тонкого кишечника и поражение мышц сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Образование кровоточащих язв в стенке толстого кишечника и обезвоживание",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Образование кровоточащих язв в стенке тонкого и толстого кишечника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Возбудителем кожного лейшманиоза является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Leishmania donovani",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Leishmania tropica",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Leishmania brasiliensis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Leishmania infantum",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Leishmania tropica в организме человека локализуется в клетках",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Лимфатических узлов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Стенки кишечника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Возбудителем африканского трипаносомоза (сонной болезни) является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Trypanosoma crusi",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Trypanosoma brucei rhodesiense",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Toxoplasma gondii",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Leishmania brasiliensis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Профилактика африканского трипаносомоза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Борьба с москитами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Борьба с мухами цеце",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Уничтожение бродячих собак",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Уничтожение грызунов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Возбудителем урогенитального трихомониаза является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Trichomonas elongata",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Trichomonas hominis",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Trichomonas vaginalis",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Trypanosoma crusi",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "К морфологическим особенностям трихомонад относится наличие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4-5 Жгутиков, аксостиля, ундулирующей мембраны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1 жгутика, 2-х ядер",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Двух ядер, ресничек, ундулирующей мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ундулирующей мембраны и одного ядра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Заражение при урогенитальном трихомонозе происходит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Через загрязненную пищу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Через укус комара",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Половым путем",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "При питье воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Диагноз урогенитального трихомониаза ставится на основе микроскопирования",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фекалий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Нативных мазков из выделений влагалища, шейки матки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Мазка из десневых карманов зубов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Возбудителем лямблиоза является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Leishmania donovani",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Lamblia interstinali",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Trichomonas vaginali",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Trichomonas hominis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Паразитологический диагноз лямблиоза устанавливается путем микроскопирования мазков",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Крови и фекалий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дуоденального содержимого и фекалий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Крови и спинномозговой жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пунктат мышц",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "К профилактическим мероприятиям лямблиоза относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Строгое соблюдение личной гигиены",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Предохранение от укусов москитами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Термическая обработка рыбы и мяса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Предохранение от укусов комарами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Для представителей класса Сосальщиков характерным является наличие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожно-мускульного мешка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полости тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дыхательной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровеносной системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Для представителей класса Сосальщиков характерным является наличие",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожно-мускульного мешка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полости тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "билатеральная симметрия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дыхательной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровеносной системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Сколько присосок у представителей класса Сосальщиков",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Укажите, кто из перечисленных трематод паразитирует в желчных протоках печени",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фасциола",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "шистозома гематобиум",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "описторхис",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "парагонимус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шистозома мансони",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Укажите, какие из перечисленных стадий в цикле развития фасциолы являются ивазионными для человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мирацидий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "редия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "адолескарий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "церкарий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метацеркарий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Укажите, каковы пути проникновения возбудителя дикроцелиоза в организм человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при питье сырой воды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при употреблении в пищу немытых овощей, зелени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при употреблении в пищу плохо переваренной и прожаренной рыбы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при случайном проглатывании муравьев, проникших в продукты питания",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при употреблении в пищу плохо проваренных раков, крабов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Сколько стадий в цикле развития печеночного сосальщика",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "7",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "9",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "8",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Сколько стадий в цикле развития ланцетовидного сосальщика",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "7",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Какие из перечисленных представителей относятся к классу Ленточные черви",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "печеночный сосальщик",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бычий цепень",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лентец широкий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сибирский сосальщик",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аскарида человеческая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Укажите, какие из перечисленных признаков характерны для цестод",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "листовидное тело",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ланцетовидное тело",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие ротовой и брюшной присосок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лентовидное тело",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие сколекса",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Укажите, какая финна характерна для свиного цепня",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плероцеркоид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ценур",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистицерк",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цистицеркоид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эхинококк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Какая из перечисленных локализаций характерна для бычьего цепня",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "толстый кишечник",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желчные протоки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мочевой пузырь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тонкий кишечник",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "12-перстная кишка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "В чем состоит отличие гермафродитного членика свиного и бычьего цепней",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в количестве семенников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в количестве желточников",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в количестве долей яичников",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в количестве ветвей матки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в форме члеников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Назовите окончательного хозяина вооруженного цепня",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "собака",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "свинья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кошка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "человек",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "крыса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Какая личиночная стадия бычьего цепня является инвазионной для промежуточного хозяина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "яйцо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "онкосфера",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "финна",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "церкарий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проглоттида",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Назовите заболевание, которое вызывает личинка свиного цепня",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тениаринхоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парагонимоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистицеркоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тениоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альвеококкоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Какой гельминт и у кого вызывает заболевание тениаринхоз",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Taenia solium, человек окончательный хозяин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Taeniarhynchus saginatus, человек окончательный хозяин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ascaris lumbricoides, человек единственный хозяин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Opisthorchis felineus, человек окончательный хозяин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Enterobius vermicularis, человек единственный хозяин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Какие из названных размеров характерны для половозрелой формы эхинококка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10м",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2-4мм",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "4-6см",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2м",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2м",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Укажите, какое количество члеников характерно для карликового цепня",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3-4",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "до1000",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "несколько сот тысяч",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "200 и больше",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "100",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Какие из перечисленных личиночных стадий характерны для эхинококка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спороциста",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "онкосфера",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цистицерк",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мирацидий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метацеркарий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Какая локализация чаще характерна для эхинококка в теле человека",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "толстый кишечник",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тонкий кишечник",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "12-перстная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "легкие",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Укажите меры профилактики при альвеококкозе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соблюдение правил личной гигиены",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мытье овощей перед употреблением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "термическая обработка мяса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не ходить босиком по земле",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не употреблять мясо свиней",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Каким путем человек заражается альвеококкозом",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "употребляя в пищу печень крупного рогатого скота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при общении с собакой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при снятии шкурок с диких животных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трансмиссивно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "употребляя мясо свиней",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Что такое аутоинвазия при гименолепидозе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "заражение через кожу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "заражение с пищей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заражение без выхода яиц из кишечника во внешнюю среду",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "заражение при случайном проглатывании муравьев",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "больной человек повторно заражается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Для представителей класса Собственно круглые черви присущи",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожно-мускульный мешок",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "первичная полость тела",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дыхательная система",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровеносная система",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "радиальная симметрия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Какое значение имеет полостная жидкость нематод",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроскелет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сократительная функция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пищеварительная функция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "защитная функция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "создание тургора",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Каким путем человек заражается аскаридозом",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "через грязные руки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "половым путем",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через плохо прожаренное мясо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через немытые овощи и фрукты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "через кожу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Назовите органы, через которые мигрируют личинки аскариды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поджелудочная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "легкие",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Где откладывает яйца аскарида",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в кишечнике",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на коже",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на нательном белье",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в почве",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Что такое феномен миграции аскарид",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проникновение в организм хозяина взрослой аскариды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "переход из кишечника в кровь взрослой аскариды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "передвижение личинки через определенные органы и системы хозяина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "выход из организма во внешнюю среду аскарид и их личинок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спаривание аскарид и совместное передвижение их по органам и системам организма человека",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Через какое время яйцо острицы становится инвазионным",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4-6 ч.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1-2 дня",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2-3 нед.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "месяц",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "год",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Где откладывает яйца острица",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в почве",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на коже промежности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в постели",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в воде",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в кишечнике",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Через какое время при благоприятных условиях яйцо аскариды становится инвазионным",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1 час",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "6 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "17-20 суток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "30 суток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "60 суток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Назовите отличие самцов Круглых червей от самок",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "меньшие размеры тела",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "большие размеры тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "передний конец тела загнут на брюшную сторону",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задний конец тела загнут на брюшную сторону",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "степень окраски тела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Каким путем человек заражается трихинеллезом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через грязные руки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через мясо",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "через рыбу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через овощи и фрукты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через кожу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Перечислите меры личной профилактики при анкилостомозе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не пить сырую воду",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не употреблять плохо прожаренное мясо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мыть руки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не ходить босиком",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не гладить собак",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Какой гельминт имеет в своем жизненном цикле свободноживущее поколение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "власоглав",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анкилостома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трихинелла",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кишечная угрица",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ришта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Что происходит с личинками трихинеллы, попавшими в пищеварительный тракт человека с зараженным мясом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "превращаются в половозрелые формы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "проникает в кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выносятся с фекалиями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мигрируют в печень",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "погибают",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Каким образом человек заражается анкилостомозом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через сырую воду",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через грязные руки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через кожу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "через плохо прожаренное мясо",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при контакте с больным человеком",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Укажите, каким из перечисленных лабораторных методов можно диагностировать описторхоз",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анализом мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "копроанализом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анализом мокроты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анализом слюны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анализом дуоденального содержимого",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Укажите, кто из названных нематод питается кровью",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "власоглав",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острица",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ришта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "некатор",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кошачий сосальщик",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Укажите, где локализуется ришта в организме человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в толстом кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в сердце",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в подкожной клетчатке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в мышцах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в желчном пузыре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Укажите, как чаще заражается человек кишечной угрицей",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с водой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с немытыми овощами и фруктами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при ходьбе босиком",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с мясом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при поглаживании собак",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "В каких органах человека откладывает яйца кошачий сосальщик",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в бронхах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в желчных протоках",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в мочевом пузыре",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в перианальных складках",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "В каких органах человека откладывают яйца шистозомы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровеносных сосудах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "желчных протоках",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Назовите гельминты, яйца которых можно обнаружить в фекалиях человека",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аскарида",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острица",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шистозомы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трихинелла",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эхинококк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Назовите гельминты, яйца которых имеют крышечку для выхода личинки наружу",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тенииды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фасциола",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аскарида",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острица",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "карликовый цепень",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Каким образом яйца шистозомы попадают в полость мочевого пузыря",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "прокалывает стенку кровеносного сосуда с помощью шипа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "растворяет с помощью активных ферментов стенку сосудов мочевого пузыря",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мигрирует по кровеносному руслу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проходит по мочеточнику",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через легочную ткань",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "В каких органах и тканях человека откладывает яйца F. hepatica",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в желчных протоках",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на коже",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в бронхах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в венах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Какие виды гельминтов живородящи",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "печеночный сосальщик",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острица",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ришта",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трихинелла",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "карликовый цепень",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "В чем сущность метода флотации",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фекалии разводят раствором хлорида натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фекалии разводят растворам азотно-кислотного натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "яйца некоторых гельминтов концентрируются в поверхностной пленке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "яйца концентрируются в осадке",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "яйца центрифугируются",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Контактно-передаваемые гельминты",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аскарида",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бычий цепень",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "карликовый цепень",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "легочный сосальщик",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острица",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Гельминтозы, которые связаны с употреблением недостаточно термически обработанного мяса",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "трихоцефалез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гименолепидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трихинеллез",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "альвеококкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тениоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Человек является промежуточным и окончательным хозяином для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аскариды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лентеца широкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угрицы кишечной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трихинеллы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эхинококка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "По особенностям строения яйца можно поставить диагноз",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "трихинеллеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дракункулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "энтеробиоза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "шистосомоза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тениоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "В жизненном цикле смена хозяев происходит у",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "альвеококка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "власоглава",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "легочного сосальщика",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "острицы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ришты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Гельминтозы человека, связанные с употреблением рыбы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "парагонимоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифиллоботриоз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "описторхоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эхинококкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дракункулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Окончательным хозяином человек (только) является для",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эхинококка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альвеококка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бычьего цепня",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "карликового цепня",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кошачьего сосальщика",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Систематическое положение TRICHINELLA SPIRALIS",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тип Protozoa",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тип Nemathelminthes",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "класс Nematoda",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "класс Cestoidea",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "класс Trematodes",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Систематическое положение Opisthorchis felineus",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тип Protozoa",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тип Nemathelmintes",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тип Plathelmintes",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "класс Cestoda",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "класс Trematoda",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Раздельнополые гельминты",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кошачий сосальщик",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печеночный сосальщик",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровяной сосальщик",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ришта",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "свиной цепень",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Условия созревания яиц аскариды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почва",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "промежуточные хозяева",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "свет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "температура воздуха 20-250С",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Адолескарий – личиночная стадия у",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Schistosoma haematobium",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Opisthorchis felineus",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Paragonimus westermani",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Schistosoma mansoni",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Fasciola hepatica",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Яйцо имеет шипик у",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Shistosoma Mansoni",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Opisthorchis felineus",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Dicrocelium lanceatum",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Paragonimus westermani",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Shistosoma haematobium",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Стадия развития сосальщика, внедряющаяся в тело моллюска",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адолескарий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мирацидий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "редия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "церкарий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спороциста",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Способ инвазии человека кошачьим сосальщиком",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перкутанный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "несоблюдение правил личной гигиены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Трансмиссивный нематодоз",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "филяриоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аскаридоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "энтеробиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трихоцефалез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "некатороз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Продолжительность жизни половозрелой острицы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1 месяц",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "6 месяцев",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1 год",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "20 лет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Полупрозрачное, бесцветное, ассиметричное яйцо характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аскариды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "власоглава",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "некатора",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трихинеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острицы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Алиментарно в организм человека могут попасть инвазионные стадии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Fasciola hepatica",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Opisthorchis felineus",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Paragonimus westermani",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Schistosoma japonicum",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Schistosoma mansoni",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Дополнительный хозяин отсутствует у",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кошачьего сосальщика",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровяного сосальщика",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "легочного сосальщика",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печеночного сосальщика",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лентеца широкого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "В природном очаге эхинококкоза окончательным хозяином является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "волк",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "овца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "человек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лось",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Способ инвазии человека легочным сосальщиком",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аутореинвазия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздушно – капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "несоблюдение правил личной гигиены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Пищеварительная система трематод",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анальное отверстие отсутствует",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "имеет анальное отверстие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "имеет передний и средний отделы кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "имеет передний, средний и задний отделы кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствует задний отдел кишки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Промежуточный и дополнительный хозяин легочного сосальщика",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грызуны, человек, моллюски",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крупный рогатый скот, раки, раки, крабы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "моллюски, раки, крабы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "моллюски, хищные рыбы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плотоядные животные, человек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Способ инвазии человека ланцетовидным сосальщиком",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "случайное проглатывание муравьев",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "активное внедрение церкарий через кожу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аутореинвазия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через воду или овощи, помытые некипячёной водой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Стадии развития трематод в печени моллюска",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "адолескарий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спороциста",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мирацидий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метацеркарий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "редия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Локализация японского шистосомоза в организме человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчные протоки печени, желчный пузырь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вены мочеполовых органов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бронхи, легкие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вены кишечника и брыжейки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "протоки поджелудочной железы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "При диагностике парагонимоза яйца обнаруживаются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в моче (яйца без крышечки, с шипом)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в фекалиях (яйца без крышечки, с шипом)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в мокроте и фекалиях (яйца овальные с крышечкой)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в фекалиях (яйца овальные с крышечкой)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в дуоденальном содержимом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Профилактика фасциолеза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "термическая обработка говядины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обеззараживание воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "термическая обработка раков и крабов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "избегать купания в очагах инвазии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "термическая обработка рыбы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Условия для развития яиц сосальщиков",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кислород, влажность, почва",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кислород, вода, оптимальная температура",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кислород, оптимальная температура, почва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оптимальная температура, влажность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Природно – очаговое заболевание",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фасциолез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тениаринхоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "описторхоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "урогенитальный шистосомоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гименолепидоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Финна невооружённого цепня",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плероцеркоид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ценур",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эхинококк",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цистицеркоид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цистицерк",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Инвазионная стадия лентеца широкого для человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цистицерк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эхинококк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистицеркоид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плероцеркоид",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "яйцо с онкосферой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Способ инвазии человека тениозом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарный: недостаточно прожаренная рыба",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "алиментарный: недоваренное говяжье мясо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алиментарный: недоваренное свиное мясо",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "несоблюдение правил личной гигиены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "активное внедрение паразита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Инвазионная стадия эхинококка для человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плероцеркоид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цистицеркоид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "яйцо с онкосферой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "финна - эхинококк",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "свободноживущая личинка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Дополнительный хозяин лентеца широкого",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грызуны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крупный рогатый скот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лисица, песец, волк",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рыбы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "человек, плотоядные животные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Промежуточным хозяином невооружённого цепня являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грызуны, человек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "свинья, человек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рыбы, моллюски",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крупный рогатый скот",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "собака, волк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Матка в зрелом членике имеет от 17-35 боковых ветвей у:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альвеококка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бычьего цепня",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "карликового цепня",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лентеца широко",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "свиного цепня",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Гельминт, вызывающий цистицеркоз мозга у человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эхинококк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бычий цепень",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лентец широкий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "карликовый цепень",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "свиной цепень",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Инвазионная стадия трихинеллы для человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инвазионное яйцо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инкапсулированная личинка `микрофилярия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рабдитовидная личинка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "филяриевидная личинка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Какие особенности имеет поперечно-полосатая мускулатура:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сокращается медленнее, чем гладкая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сокращается быстрее, чем гладкая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сила сокращения больше",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сила сокращения меньше",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обеспечивает медленное движение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Сколько всего конечностей у хелицероносных:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6 пар",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2 пары",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4 пары",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3 пары",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "16 пар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Какое медицинское значение имеют клещи:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "являются переносчиками цестодозов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "переносчики вирусной и спирохетной инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "являются переносчиками аскаридоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "являются возбудителями заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "являются промежуточными и окончательными хозяевами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Какие заболевания называются трансмиссивными:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вызывающиеся гельминтами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передающиеся через промежуточного хозяина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "передающиеся через окончательного хозяина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "передающиеся через переносчика",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "передающиеся воздушно-капельным способом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Какие заболевания называются природно-очаговыми:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "очаги инфекции, переносящиеся от человека к человеку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "очаги инфекции, переносящиеся от человека к животным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очаги заболеваний, существующие в природных условиях независимо от человека и животных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "независимые от человека природные очаги заболеваний, поддерживаемых резервуарным хозяином и воспринимающим возбудителя болезни хозяином",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "очаги, поддерживаемые в природных условиях благодаря наличию переносчика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Какие заболевания называются облигатно-трансмиссивными:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "передающиеся только через переносчика",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "передающиеся как через переносчика, так и другими путями",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "переносчик не принимает участия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "передающиеся через воду и грязные руки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вызывающиеся представителем из членистоногих",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Дыхание у членистоногих:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жаберное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "легочное",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тканевое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кожно-жаберное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Место обитания поселкового клеща:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тайга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "степь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глинобитные дома",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "водоемы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "норы птиц",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Органы выделения поселкового клеща:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протонефридии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метанефридии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нефридии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мальпигиевы сосуды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Особенности природно-очаговых заболеваний:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие резервуарного хозяина переносчика, возбудителя и воспринимающего хозяина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие возбудителя, главного и промежуточного хозяев",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие возбудителя, переносчика, первого промежуточного хозяина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возбудитель-человек-хищные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "возбудитель - окончательный хозяин - человек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Переносчиком, какого облигатного трансмиссивного заболевания является таежный клещ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клещевого возвратного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клещевого сыпного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туляремия,",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чесотка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "энцефалит весенне-летний",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Переносчиком, какого облигатного трансмиссивного заболевания является клещ дермоцентр:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "клещевого возвратного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клещевого сыпного тифа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "туляремия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "чесотка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лейшманиоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Переносчиком, какого облигатного трансмиссивного заболевания является собачий клещ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клещевого возвратного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клещевого сыпного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туляремия, лептоспирозы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чесотка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "энцефалит весенне-летний",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Возбудителем какого облигатного трансмиссивного заболевания является Acarus siro:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клещевого возвратного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клещевого сыпного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туляремия, лептоспирозы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чесотка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "энцефалит весенне-летний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "У каких членистоногих наблюдается трансовариальная и трансфазная передача и что это такое:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у тараканов, передача через имаго",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "у скорпиона, передача через яйца-личинки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "у пауков, передача через яйцо-личинки-имаго",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "у чесоточного зудня, передача - личинка - имаго",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "у клещей, передача через яйцо - потомству, по фазам развития",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Чем питаются и как передается заболевание клещами:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержимым кишечника и вызывает заболевание кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тканями организма и повреждение их вызывает заболевание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровью и вызывают малокровие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровью и передаются возбудители заболевания при укусе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тканями и межклеточной жидкостью, повреждая ткани, проделывают ходы, вызывают заболевания",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Какие отделы тела имеют насекомые:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "головогрудь и брюшко",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "голова, грудь и брюшко",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "головогрудь и переднебрюшье, заднебрюшье",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нерасчленённое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "голова, грудобрюшко",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Площицы паразитируют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "На волосах лобка, в бровях, усах, бороде, на волосах в подмышечных впадинах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В швах одежды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В волосистой части головы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Под ногтями",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Под кожей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "В кровяное русло человека возбудитель сыпного тифа попадает через:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Слюну комара",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повреждения кожи при попадании гемолимфы или фекалий вшей на месте укуса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Слюну вшей при укусе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Через грязные руки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Через воду",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Самки клопа постельного откладывают яйца:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "На теле человека",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В щелях, под обоями, в мебели, в книгах и т.д.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "В почве",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "На одежде человека",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "На волосистой части головы",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

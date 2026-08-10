@@ -1,0 +1,944 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": ". Пункцию плевральной полости чаще всего проводят в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2-3 межреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4-5 межреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "7-8 межреберье",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "9-10 межреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10 - 1 1 межреберье",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Резиновая трубка между иглой и шприцем при плевральной пункции необходима для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для лучшей эвакуации содержимого",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "промывания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предотвращения попадания воздуха в плевральную полость",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "соблюдения стерильности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "введения лекарственных средств.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Наиболее удобное положение больного при плевральной пункции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стоя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лежа на боку",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сидя",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лежа на спине",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лежа на животе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Оптимальная точка для пункции живота:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правое подреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на середине расстояния между мечевидным отростком и пупком по средней линии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "левое подреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подвздошная область слева",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "надлонная область (между пупком и лобком по средней линии)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Какой путь введения наиболее удобен при инфузиях жидкостей?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подкожный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутривенный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "внутриартериальный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутриаортальный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутрикостный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Наиболее частой опасностью при пункции живота является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "развитие перитонита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перфорация полого органа 2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коллапс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "травматический шок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровотечение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Что такое лапароцентез?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вскрытие брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вскрытие грудной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "промывание брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "введение лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пункция брюшной полости.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "При какой инъекции возможна воздушная эмболия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутрикостной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подкожной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутривенной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "внутриартериальной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутримышечной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Черепашья повязка накладывается на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коленный сустав",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "голову",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грудную клетку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "промежность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "конечности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Пращевидная повязка-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наложение круговой повязки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наложение косыночной повязки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наложение полосы бинта оба конца которого надрезаны продольно",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наложение пластырной повязки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наложение клеоловой повязки 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "На какую часть тела накладывается Т-образная повязка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхнюю конечность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лицо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "живот",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "промежность",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нижнюю конечность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Повязку Гиппократа или чепец накладывают на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "культю конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": ") рану живота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грудную клетку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шею",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "голову",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "При необходимости длительных инфузий жидкостей чаще всего применяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "введение растворов через кубитальную вену",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "введение в подкожную клетчатку",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через катетеризованную подключичную вену",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "путем венесекции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутрикостный путь введения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Цель промывания катетера гепарином при длительных внутривенных инфузиях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для лучшего всасывания жидкостей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для улучшения оксигенации крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для предупреждения воздушной эмболии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для предупреждения аллергической реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для предупреждения образования тромба",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Десмургия-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "учение о ранах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "учение о повязках 4",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "учение о гипсовых повязках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "учение о наложении шин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "учение о репозиции костных отломков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Для чего нанесены метки на желудочных зондах?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для облегчения введения зонда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для облегчения стерилизации зонда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для уточнения месторасположения зонда в желудке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "для облегчения промывания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для облегчения эвакуации содержимого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Что говорит о правильном введении желудочного зонда?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление воздуха из зонда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появление содержимого желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отсутствие отделяемого из зонда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появление кашля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление рвотных движений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Кто первым предложил дренаж в хирургии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Цельс и затем Гиппократ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Авиценна",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Амбруаз Паре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гален",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пирогов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Кому принадлежит выражение «когда сомневаешься - дренируй!»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пирогову",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Бергману",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Листеру",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Спасокукоцкому",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Тайту",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Наиболее выражена реакция тканей на дренажи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стеклянные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резиновые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полихлорвиниловые",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "силиконовые",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пластмассовые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "С какой целью проводится дренирование полых органов?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для эвакуации содержимого и декомпрессии органа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "введения лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для питания больных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для уточнения диагноза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для подготовки к исследованию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Когда в послеоперационном периоде удаляется страховочный дренаж?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 2-3 день",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на 4-5 день",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на 6-7 день",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на 8-10 день",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "после прекращения отделяемого",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "С какой целью в трубчатые дренажи вставляли марлю?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для сокращения сроков лечения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для усиления дренирующих свойств",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для введения лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для уменьшения местной температуры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для уменьшения болей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Какой принцип использован при дренировании по Бюлау?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пассивный отток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активная аспирация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сифонного дренирования 6",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "применение двухпросветных трубок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применение нескольких трубок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Как используются дренажи по принципу их действия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активные и пассивные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "простые и сложные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одно- и двухпросветные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "функциональные и механические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "длинные и короткие",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Повязка накладывается с целью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "защиты пораженного органа или ткани от воздействия внешней среды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "создания комфортных условий для поврежденных тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "достижения гомеостаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "улучшения регенеративных процессов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скорейшего появления грануляционной ткани в гнойной ране",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Удобным и безопасным положением для в/м инъекции считается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лежа на животе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стоя во весь рост",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стоя с наклоном туловища вперед",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правое или левое боковое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "колено-локтевое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Кокситная гипсовая повязка накладывается при повреждениях костей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "голени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стопы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предплечья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бедра",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "плеча",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Повязка «гипсовый сапожок» накладывают при переломах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "большеберцовой кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "малоберцовой кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обеих костей голени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лодыжек и костей стопы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "головки малоберцовой кости",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 10,
+				"text": "Какую повязку накладывают при переломе ключицы или вывихе плеча?",
+				"reason": "NO_ANSWER_MARKER"
+			}
+		]
+	}
+}

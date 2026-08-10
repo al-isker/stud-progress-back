@@ -1,0 +1,6787 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Для бактериологического анализа пробы воды из поверхностных водоисточников отбирают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не менее 10-15 см от дна водоема",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с глубины 15-20 см от поверхности воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "c поверхности водоема",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "со дна водоема",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Проба воды для определения органолептических свойств отбирается в посуду",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полиэтиленовую",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стеклянная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стеклянную и полиэтиленовую",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "металлическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бумажная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "К органолептическим свойствам воды относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "запах, вкус (привкус)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "запах, вкус (привкус), цветность, прозрачность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "запах, вкус (привкус), цветность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цветность, окисляемость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "запах, вкус (привкус), цветность, сухой остаток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Наиболее благоприятная температура питьевой воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "7-120 С",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "менее 70 С",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "более 150 С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "220 С",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "16-220 С",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Вкус питьевых вод зависит от:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "температуры воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "температуры воды и растворенных газов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "температуры воды, растворенных газов и солей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "от рН",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от БПК 5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Мутность водопроводной воды должна быть не более, мг/л:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,5",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,0",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2,0",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Запах водопроводной воды должен быть не более, баллов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Привкус водопроводной воды должен быть не более, баллов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,5",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Качество воды в распределительной (водопроводной) сети соответствует требованиям СанПиН \"Питьевая вода\" если:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "запах и привкус 2 балла, цветность 20°, мутность 1,5 мг/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "запах и привкус 0 баллов, цветность 10° , мутность 2,5 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "запах и привкус 3 балла, цветность 30°, мутность 1,5 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "запах и привкус 3 балла, цветность 10°, мутность 2,0 мг/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Цветность природной воды обусловлена содержанием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гуминовых веществ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поверхностно-активных веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "солей кальция и магния",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "растворенного кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "общей жесткости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Эпидемическая безопасность питьевой воды в нормативных документах обеспечивается показателями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямыми",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "косвенными",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анкетными",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опросными",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бактериологическими",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Оценка эпидемической безопасности питьевой воды в соответствии с СанПиН \"Питьевая вода\" проводится по показателям:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "коли-индекс, общее микробное число",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коли-индекс, общее микробное число, патогенные микроорганизмы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коли-индекс, общее микробное число, термотолерантные колиформные бактерии, коли-фаги, споры сульфатредуцирующих клостридий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "минеральным составом воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эндемическими показателями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Прямые показатели эпидемической опасности питьевой воды:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбудители острых кишечных инфекций",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "патогенные энтеробактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сапрофитная микрофлора и бактерии группы кишечных палочек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтеровирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "возбудители газовой гангрены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Наибольшее количество биогенных элементов поступает в водоем со стоками:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хозяйственно-бытовыми",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с сельскохозяйственных полей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "промышленных предприятий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ливневыми",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поверхностные стоки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Самоочищение водоемов - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совокупность всех природных процессов, ведущих к восстановлению первоначальных свойств и состава воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "биологические механизмы, ведущие к снижению органического загрязнения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очистка на очистных сооружениях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "улучшение качества воды табельными средствами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "регулирование водотока водных источников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Коли-индекс - это количество:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактерий группы кишечной палочки в дм3 воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коли-фагов в 1 дм3 воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактерий группы кишечной палочки в см3 воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "количество мезофильных бактерии в 1 дм3",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "БПК 5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Вода считается эпидемически опасной, если индекс БГКП в колодезной воде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 10",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "до 3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "до 34",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 15",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 20",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Что может передаваться через воду",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшной тиф",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "туляремия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гепатит А",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сыпной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатит В",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Что из ниже перечисленного является источником антропогенного загрязнения поверхностных водоемов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бытовые сточные воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "промышленные стоки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ливневые стоки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "судоходство",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "геохимический состав почвы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Что характерно для эпидемии водного происхождения",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "быстрый рост числа заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "длительный период возникновения единичных случаев заболевания после ликвидации вспышки («контактный хвост»)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "территориальная ограниченность распространения заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "медленный спад числа заболеваний после изоляции очага",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "малое число заболевших",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Как можно уменьшить «водный голод» на Земле",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "создание водохранилищ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пополнение подземных водных горизонтов поверхностными водами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "организация оборотного водоснабжения на промышленных предприятиях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "использование опресненных вод морей и океанов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "закачивание промышленных сточных вод в глубокие подземные горизонты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какие существуют методы обеззараживания воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлорирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "озонирование",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обработка ультрафиолетовыми лучами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "коагуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фторирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Чем отличаются воды поверхностных водоёмов от межпластовых вод",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержание солей аммония",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "большей бактериальной обсемененностью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "большей склонностью к «цветению»",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "большей минерализованностью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "более стабильным химическим составом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Для какой болезни являются фактором риска особенности солевого состава воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мочекаменной болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гипертонической болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дизентерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диабету",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатиту А",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Какую инфекцию могут принести яйца водоплавающей птицы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сальмонеллеза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стафилококковой интоксикации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ботулизма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "афлатоксикоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Какой должен быть уровень общей минерализации воды, чтобы их назвали пресными",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "300 мг/дм³",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "500 мг/дм³",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1000 мг/дм³",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1500 мг/дм3",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2000 мг/дм3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Что включает в себя профилактика заболеваний водного происхождения",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рациональный выбор источника водоснабжения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "создание зон санитарной охраны",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стандартизацию качества воды и соблюдение гигиенических нормативов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эффективную обработку воды на водопроводных станциях",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "использование в качестве источников воды только межпластовых вод",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Гигиеническое нормирование качества воды проводится по показателям",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "органолептическим",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "химическим",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микробиологическим",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "биохимическим",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "физиологическим",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Инфекционные заболевания, передающиеся водным путем",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "холера",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "брюшной тиф",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дизентерия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лептоспироз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "туберкулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Избыток хлоридов в воде вызывает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетение желудочной секреции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшение диуреза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышение артериального давления",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эндемическую подагру",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Методы обеззараживания воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "озонирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперхлорирование",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кипячение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хлорирование",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дезактивация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Осветление и обесцвечивание воды на водопроводных станциях включает",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отстаивание",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фильтрование",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коагулирование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хлорирование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дезодорацию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Возможные проявления метгемоглобинемии у грудных детей",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "одышка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "цианоз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ожирение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тахикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "геморрагическая сыпь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Содержание свободного хлора в питьевой воде после хлорирования нормальными дозами, мг/дм3",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,3-0,5",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,1-0,2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,5-0,6",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,7-0,8",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,9-1,0",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Какое значение имеет вода в жизни человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "физиологическое, эпидемическое, гигиеническое (санитарно-гигиеническое)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "экологическое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "транспортное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "санитарно-гигиеническое, экологическое и лечебно-оздоровительное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хозяйственное, физиологическое, транспортное",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "биогеохимическое, хозяйственное и лечебно-оздоровительное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Какие условия способствуют возникновению флюороза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышенное содержание фтора в воде и пище",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышенное содержание йода в воде и пище",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пониженное содержание фтора в воде и пище",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пониженное содержание йода в воде и пище",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Какие эндемические заболевания относят к биогеохимическим",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндемический зоб",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "флюороз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "молибденовая подагра",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "водно-нитратная метгемоглобинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стронциевый рахит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Укажите причину водной метгемоглобинемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышенное содержание нитросоединений в воде",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышенная окисляемость воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пониженное содержание нитросоединений в воде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Перечислите пути уменьшения «водного» голода на Земле.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "создание водохранилищ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пополнение подземных водных горизонтов поверхностными водами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "организация оборотного водоснабжения на промышленных предприятиях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "использование опреснения вод морей и океанов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "закачивание промышленных сточных вод в глубокие подземные горизонты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Какие источники антропогенного загрязнения поверхностных водоемов Вы знаете",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бытовые сточные воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "промышленные стоки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ливневые стоки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "судоходство",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "геохимический состав воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Назовите косвенные показатели биогенного загрязнения воды водоемов.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержание солей аммония, нитритов, нитратов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "окисляемость воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "общая минерализация воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "концентрация фтора и йода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Чем отличаются воды поверхностных водоемов от межпластовых вод",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "большим содержанием кислорода",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "большей бактериальной обсемененностью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "большей склонностью к «цветению»",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "большей минерализованностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "СанПиН 2.1.4.1074-01 «Питьевая вода. Гигиенические требования к качеству воды для централизованных систем питьевого водоснабжения» обеспечивает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "благоприятные органолептические свойства",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "безвредность по химическому составу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "безопасность в эпидемическом отношении",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "безопасность в радиационном отношении",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "низкое содержание в ней солей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Эндемический зоб возникает при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пониженном содержании йода в воде и пище",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышенном содержании фтора в воде и пище",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышенном содержании йода в воде и пище",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какие химические вещества нормируются в питьевой воде в зависимости от климатического района",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фтор",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хлориды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нитраты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сульфаты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "алюминий",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "стронций",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Основные способы улучшения качества воды – это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеззараживание",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "осветление",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "опреснение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фторирование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обезжелезивание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Физическими методами обеззараживания являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кипячение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "облучение УФ лучами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "воздействие ультразвука",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хлорирование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "озонирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Химическими методами обеззараживания являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлорирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "озонирование",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кипячение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "облучение УФ лучами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Существуют следующие способы хлорирования воды:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлорирование с преаммонизацией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хлорирование нормальными дозами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гиперхлорирование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хлорирование послепереломными дозами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипохлорирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Каким должно быть минимальное содержание активного хлора в хлорной извести, чтобы ею можно было обеззараживать воду",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не менее 15%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не менее 10%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не менее 25%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 30%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Минимальное время контакта хлора с водой при хлорировании нормальными дозами является:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 мин. летом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1 час зимой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "30 минут зимой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1 час летом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Ориентировочные дозы хлора, используемые для гиперхлорирования воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10 и более мг/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1-5 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5-10 мг/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Какая величина микробного числа свидетельствует об эпидемической безопасности питьевой воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не более 50",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не более 25",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не более 100",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не более 45",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "В каком объеме воды не должны обнаруживаться общие колиморфные бактерии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в 300 мл",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в 100 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в 500 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в 150 мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Вода может быть причиной:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериальных и вирусных кишечных заболеваний с водным фактором передачи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кишечных, бактериальных заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кишечных бактериальных инфекций, вирусных заболеваний, глистных инвазий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериальных инфекций, вирусных заболеваний, глистных инвазий и трансмиссивных заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "алиментарные инфекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Для водных эпидемий характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бурное начало, резкий подъем заболеваемости населения, быстрый спад и \"эпидемический хвост\" контактных случаев",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бурное начало и медленный спад",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бурное начало, резкий подъем заболеваемости населения и медленный спад",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "медленное начало и быстрый спад заболеваемости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Косвенные показатели фекального загрязнения воды:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "общее микробное число и индекс БГКП",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аммиак, нитриты и нитраты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "жесткость и индекс БГКП",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микробное число и аммиак, йод",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аммиак, нитриты и нитраты, фтор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Показатели фекального загрязнения воды:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аммиак и аммонийные соли",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микробное число и индекс БГКП",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "серебро и аммонийные соли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нитриты и нитраты, жесткость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фтор, йод, сульфаты, аммиак",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Давнее и постоянное загрязнение водоисточника характеризуются наличием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аммиака, нитритов, нитратов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аммиака и нитритов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нитритов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аммиака, нитратов, сульфаты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нитритов, растворенного кислорода, остаточного хлора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Периодическое органическое загрязнение воды характеризуется наличием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аммиака и нитритов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аммиака и хлоридов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нитратов, сульфаты, соли кальция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аммиака, нитритов, магния",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "окисляемость, сульфаты, фтор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "О завершенности процессов самоочищения водоемов судят по наличию в воде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитратов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аммиака и нитратов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аммиака и нитритов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аммиака, нитритов, нитратов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Розовое окрашивание пробы воды характерно для качественной реакции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитриты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аммонийные соли",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нитраты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сульфаты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хлориды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Для качественного определения в пробе воды солей азотной кислоты (нитратов) используется реактив:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифениламин, бруцин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Несслера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Грисса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сегнетова соль",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фенолфталеин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Бактериологические показатели качества подземных вод с глубиной:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "улучшаются",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ухудшаются",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяются",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ухудшаются в субтропических условиях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "улучшатся только средней полосе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Водные вспышки лептоспироза и туляремии преимущественно связаны с водоснабжением:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "децентрализованным",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "централизованным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смешанным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "местным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только децентрализованным артезианским",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Гигиенические требование к химическому составу питьевой воды распространяется на соединения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "природного происхождения, реагентов, применяемых для обработки воды, химических веществ антропотехногенного происхождения и связанных с хозяйственной деятельностью человека",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "только природного происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "только для реагентов, применяемых для обработки воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "только для ароматизаторов применяемых для обработки воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только для реагентов, применяемых для коагуляции воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Количественно уровень солевого состава или степень минерализованности воды определяется величинами:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухого остатка и жесткости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "окисляемости и БПК5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хлоридов и сульфатов, окисляемости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коли титр, коли индекс, сухой остаток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эндемическими показателями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "При кипячении воды жесткость:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличивается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "влияет на цветность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышает минерализованность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Постоянная жесткость воды обусловлена содержанием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидрокарбонатов кальция и магния",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бикарбонатов и карбонатов щелочноземельных металлов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хлоридов, карбонатов и сульфатов кальция и магния",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фтора, йода, нитритов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "солей кальция и натрия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Жесткая питьевая вода - один из этиологических факторов в развитии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уролитиаза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эндемического зоба",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "флюороза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ожирения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атеросклероза, ИБС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Сухой остаток и жесткость подземных вод с глубиной:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличивается только до 100 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшается только до 2 мг/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Содержание сульфатов в водопроводной воде не должно превышать, мг/л:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "500",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "350",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "45",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "550",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "320",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Сухой (плотный) остаток в водопроводной воде не должен превышать, мг/л:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1000",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "350",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "500",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1500",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "750",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Норматив рН водопроводной воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6-9",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "14",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "7-12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0-7",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Содержание нитратов в водопроводной воде не должно превышать, мг/л:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "45",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "350",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "500",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "15",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "36",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Содержание хлоридов в водопроводной воде не должно превышать, мг/л:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "350",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "500",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "45",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "750",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "850",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "При нормировании химических веществ в питьевой воде учет климатического района проводится для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фтора",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нитратов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "железа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хлоридов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сульфатов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Питьевая вода является основным источником поступления в организм человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фтора",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "йода",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "железа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кадмия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "железа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "В патогенезе флюороза ведущий фактор - нарушение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фосфорно - кальциевого обмена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "водно-солевого баланса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кислотно-щелочного равновесия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "алиментарного",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "патология ССС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Содержание фтора в питьевой воде, при котором возможно развитие флюороза, мг/л:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "2,0 - 3,0",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3,4-5,0",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1,8-3,5",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "0,5 - 0,7",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,7 - 1,5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Содержание фтора в питьевой воде, при котором возможно развитие кариеса, мг/л:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "менее 0,5",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1,5 и более",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,0 и более",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "менее 2,5",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "менее 0,7",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Длительное потребление воды с повышенной концентрацией нитратов вызывает заболевание:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метгемоглобинемию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "флюороз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кариес",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уролитиаз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желчекаменная болезнь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Потребление воды с повышенной концентрацией фтора вызывает заболевание:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "флюороз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метгемоглобинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кариес",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уролитиаз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кахексия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Потребление воды с содержанием фтора менее 0,5 мг/л способствует возникновению заболевания:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кариеса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "флюороза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперкератоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уролитиаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ожирение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Для фторирования питьевой воды применяют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фторид натрия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кремнефтористый натрий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кремнефтористый аммоний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хлорид натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "азотнокислое серебро",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "К эндемическим заболеваниям относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уровская болезнь (Кашина-Бека) и нитритно-нитратная метгемоглобинемия, флюороз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аскаридоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туляремия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уровская болезнь (Кашина-Века), атеросклероз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уровская болезнь (Кашина-Бека) и нитритно-нитратная метгемоглобинемия, лептоспироз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Постоянство химического состава воды характерно для водоисточников:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "межпластовых",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метеорных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грунтовых",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поверхностных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "почвенных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Высокая минерализация характерна для водоисточников:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артезианских",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метеорных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поверхностных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почвенных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грунтовых",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Наиболее надежны в санитарном отношении водоисточники:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "межпластовые",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "грунтовые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метеорные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поверхностные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфильтрационные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Наименее надежны в санитарном отношении водоисточники:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поверхностные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метеорные воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "артезианские",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "межпластовые напорные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грунтовые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Низкая микробная загрязненность характерна для водоисточников:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артезианских",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "грунтовых",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поверхностных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почвенный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "регулируемых",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Концентрация химических веществ антропогенного происхождения при обработке воды на водопроводной станции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зависит от климатических поясов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не зависит от климатических поясов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Наиболее распространенный способ обеззараживания питьевой воды на водопроводной станции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлорирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "УФ - излучение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "озонирование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ультразвук",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гамма излучений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "При обеззараживании питьевой воды озоном ее органолептические свойства:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "улучшаются",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ухудшаются",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяются",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зависят от дозы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зависят от температуры воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "При обеззараживания воды хлорсодержащими препаратами ее органолептические свойства:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ухудшаются",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "зависят от дозы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не изменяются",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "улучшаются",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зависят от температуры воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Сколько процентов воды содержится в организме взрослого человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "70%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "60%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "80 %",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Потеря, какого количества воды приведет к смерти человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "80%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "От чего зависит физиологическая потребность в воде",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "от степени потоотделения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от климатических условий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "от тяжести труда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "от традиционных особенностей питания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от качество воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Почему для многих инфекций водный путь распространения является основным",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "из-за широкого использования воды в быту",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вода - благоприятная среда для многих микроорганизмов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "из-за загрязнения воды промышленными стоками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "из-за использования воды в сельском хозяйстве",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в воде усиливаются токсигенные свойства Микроорганизмов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Для каких из перечисленных инфекций распространение водным путем является основным",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшной тиф",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "холера",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ботулизм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малярия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Для каких из перечисленных инфекций распространение водным путем является основным",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холера",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "чума",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сыпной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возвратный энцефалит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дизентерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "К чему приведет большое количество хлоридов в воде",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к изменению вкуса воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к отравлениям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к возникновению метгемоглобинемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к изменению цветности воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холелитиазису",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "К чему приведет большое количество нитратов в питьевой воде",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к возникновению метгемоглобинемии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к изменению вкуса воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к отравлениям",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к возникновению кариеса зубов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "флюорозу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Какое количество хлоридов допустимо в воде по санитарным нормам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не более 350 мг/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не более 250 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не более 450 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не более 500 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 200 мг/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Какое количество нитратов допустимо в питьевой воде",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не более 40 мг/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не более 0,1 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не более 20 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не допускается",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "следы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Почему в воде нормируется жесткость",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "жесткая вода может провоцировать заболевания человека",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "приведет к развитию мочекаменной болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вода приобретает неприятные органолептические свойства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жесткая вода приведет к развитию флюороза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "жесткая вода приведет к развитию кариеса зубов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "К чему приведет избыток фтора в питьевой воде",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к развитию эндемического флюороза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к изменению органолептических свойств",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к развитию зоба",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к развитию кариеса зубов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к развитию уровской болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Какой из перечисленных источников выбирается в первую очередь для питьевого водоснабжения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артезианская вода",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вода реки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вода озера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "колодезная вода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вода из водохранилища",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "В каком из перечисленных водоисточников процессы самоочищения идут наиболее интенсивно",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вода из реки с гидроузлами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "горная река",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вода реки без плотин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вода водохранилища",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "озерная вода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Что не разрешается в поясе ограничений санитарной зоны для источника централизованного водоснабжения",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "строительство детских учреждений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "строительство промышленных предприятий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сброс промышленных и бытовых сточных вод",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "очистные сооружения для канализационных стоков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "использование земли в сельхоз. целях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Что разрешается в поясе строгого режима санитарной зоны для источника централизованного водоснабжения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "водоочистные сооружения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "строительство жилых и общественных зданий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "строительство промышленных предприятий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сброс сточных вод",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нахождение ската и сельхоз. использование земли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Какой из перечисленных является способом улучшения органолептических свойств воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отстаивание",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коагуляция",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фильтрация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хлорирование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гамма изучения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Какой из способов обеззараживания воды является самым распространенным",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлорирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "озонирование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ультрафиолетовое облучение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хлорирование с последующим озонированием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ультрафиолетовое облучение с умягчением",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Какой из способов обеззараживания воды является самым перспективным",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "озонирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хлорирование с последующим озонированием",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хлорирование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ультрафиолетовое облучение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ультразвук",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Что понимают под термином \"хлоропоглощаемость воды\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "количество активного хлора, которое полностью поглощается 1л воды за 30 мин.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "количество активного хлора, необходимое для полного обеззараживания 1 л. воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "количество активного хлора, в водопроводной воде",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "количество активного хлора в хлорной извести",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "активность хлорной извести",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Что из перечисленного применяется в качестве коагулянтам",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сернокислый алюминий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сернокислое железо",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хлорное железо",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сернокислая медь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ПВА",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Какие недостатки присущи хлорированию воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ухудшение органолептических свойств",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сложность нормирование",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дороговизна способа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "невозможность иметь запас обеззараживающего вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "невозможность обеззараживать мутную воду",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Какие недостатки присущи озонированию воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дороговизна способа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "невозможность иметь запас обеззараживающего вещества",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "невозможность обеззараживать мутную воду",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ухудшение органолептики",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сложность нормирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Чему должен быть равен коли-титр водопроводной воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не менее 300",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не более 3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не более 100",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 1000",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 400",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Чему должен быть равен коли-индекс питьевой воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не более 3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не менее 300",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не более 100",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 1000",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Что понимают под термином \"коли-индекс\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "количество кишечных палочек, обнаруженных в 1л. воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "объем воды в мл, в котором обнаружена 1 кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "количество кишечных палочек в 1 мл воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "количество бактерий, обнаруженных в 1 мл. воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "количество кишечных палочек, обнаруженных в 10мл. вод",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Что понимают под термином \"коли-титр\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "объем воды в мл, в котором обнаружена 1 кишечная палочка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "количество кишечных палочек в 1 мл воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "количество бактерий, обнаруженных в 1мл воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Количество кишечных палочек, обнаруженных в 1л воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Количество кишечных палочек 10 мл воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Чему должно равняться микробное число питьевой воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не более 100",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не более 3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не менее 300",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 1000",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Что понимают под термином \"микробное число\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "общее количество колоний микробов, содержащихся в 1мл воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "объем воды в мл, в котором обнаружена 1 кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "количество кишечных палочек в 1 мл воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "количество кишечных палочек обнаруженных в 1л воды.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Укажите виды отстойников:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "горизонтальные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вертикальные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "камера реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резервуары для чистой воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "осветлители",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Укажите принцип работы ионитовых установок",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обменивают свои ионы на ионы, содержащиеся в воде",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "растворимые соли воды переводят в нерастворимые соединения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обеззараживает воду",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "установки для фторирование воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обезвреживание воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Какой из методов применяется для обеззараживания воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлорирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "облучение ультрафиолетовыми лучами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "опреснение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коагуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "умягчение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Что означает понятие \"каптаж родников\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устройство для сбора поземных вод",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обеззараживание родниковой воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "устройство для сбора родниковой воды для исследований",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метод дренирования",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "водоотвод",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Укажите гигиенические нормы содержания солей, обуславливающих общую жесткость питьевой воды при водоснабжении из подземных источников водоснабжения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 14 мг/экв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "до 7 мг/экв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не менее 7 мг/ экв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 14 мг/экв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 12 мг/экв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Какие из устройств могут быть использованы для улучшения эпид безопасности воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медленные фильтры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "контактные осветители",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скорые фильтры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резервуары для чистой воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "камера реакции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Укажите методы дезодорации воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фильтрация через активированный уголь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "озонирование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аэрация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "добавления флокулянтов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "добавление Al2 (SO4)3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Какой из методов применяется для обеззараживания воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "озонирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кипячение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аэрация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "осветление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "умягчение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "От чего зависит протяженность зоны ограничения при водозаборе из реки",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "от процессов самоочищения воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от дебита воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "от рельефа местности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от климато- географических особенностей местности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от вида водопользования",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Дайте гигиеническую характеристику дождевой воды:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "низкая степень минерализации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "загрязнения химическими веществами из атмосферы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "высокая минерализация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высокое микробное загрязнение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хорошие органолептические показатели",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "С какой целью проводят коагуляцию воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "для ускорения осаждения взвешенных частиц",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для выведения из воды солей кальция и магния",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для снижения содержания нитратов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для опреснения воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для выведения из воды фтора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Что означает термин \"дезодорация\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устранение привкусов и запахов воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "удаления радиоактивных веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "осветления воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "удаление хлоридов из воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обесцвечивание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Укажите время необходимое для полного обеззараживания воды озоном",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3-5мин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10-15 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30 минут и более",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "20-25 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50 мин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Как называется III пояс санитарной охраны открытых водоисточников",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зона наблюдения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "зона рекреации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зона строго режима",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зона ограничения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зона контроля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Укажите косвенные показатели микробного загрязнения воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "азотный спектр, окисляемость",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нитриты, цветность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окисляемость, жесткость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "азотный спектр, фтор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хлориды. остаточный хлор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Что означает термин осветление воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устранение мутности воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "устранение цветности воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "деминерализация воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обеззараживание воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "устранение микроорганизмов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "С какой целью применяют флокулянты при обработке воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "облегчают и ускоряют коагуляцию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижает жесткость воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для увеличения содержания растворенного кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для снижения окисления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для увеличение окисляемости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Укажите факторы, ограничивающие применение УФЛ как метод обеззараживания воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "большая мутность, цветность воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "малая проникающая способность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "денатурирует воду",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменяет органолептические свойства",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшает минерализацию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Укажите протяженность зоны строгого режима:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "200-500 м",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1-2 км",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "50 м",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "30-60 км",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "500 м",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Что является фильтрующим слоем в скорых фильтрах",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "речной песок",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гравий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аниониты и катиониты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "биологическая пленка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "базальт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Укажите метод дезактивации воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "катион - анионообменные смолы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коагуляция, фильтрация, отставание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "озонирование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аэрация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "базальт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Укажите рабочую дозу озона для обеззараживания воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от 0,5 до 6 мг/ л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10-20 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от 0,01 до 0,10 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от 0,1 - до 0.3 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 8 мг/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Укажите протяженность зоны ограничения при водозаборе из реки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20-30 км",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1-2 км",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "50 м",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "200-500 м",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 60 км",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Дайте понятия ОМЧ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие в воде сапрофитной флоры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие в воде патогенных кишечных палочек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие в воде патогенных энтеробактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие в воде энтерококков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие вирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Что является фильтрующим слоем в медленных фильтрах",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биологическая пленка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гравий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "речной песок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аниониты, катиониты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "базальт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Укажите методы дефторирования воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фильтрация через анионообменные смолы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коагуляция воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "добавление флокулянтов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аэрация воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обезвреживание воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Укажите преимущества озонирования как метода обеззараживания воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "более сильно окислительное и бактерицидное свойства",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "улучшает органолептические свойства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уменьшается жесткость воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшается цветность воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшается уровень сульфатов воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Укажите протяженность зоны наблюдения при водозаборе из реки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "весь бассейн реки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "20-30 км вверх по течению реки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "200-500 м в радиусе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1-2 км вниз по течению реки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3-5 км вверх по течению реки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "В каких единицах определяют коли - индекс",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечные палочки в 1л воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кишечные палочки в 1 мл воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "объем воды, содержаний 1 кишечную палочку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сапрофиты в 1 мл воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусы в одном литре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Укажите скорость фильтрации воды через скорые фильтры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5-8 м/ч",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,1-0,3 м/ч",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "15 м/ч",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10 м/ч",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "20 м/ч",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Укажите методы опреснения воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фильтрация через ионитовые установки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выпаривание воды с конденсацией паров",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вымораживание",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аэрация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "контактные осветлители",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Укажите преимущества хлорирования как метод обеззараживания воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "надежность, доступность метода",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшаем минерализацию воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "улучшает органолептические свойства воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "окислительный потенциал выше, чем у озона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к хлору чувствительны бактерии, вирусы, споры и др",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Укажите протяженность 1 пояса охраны подземных источников водоснабжения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30-50 м",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "200-500 м",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,5-2 км",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устанавливается",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не устанавливается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "В каких единицах определяют коли - титр",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "объем воды, содержащий 1 кишечную палочку",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кишечные палочки в 1 мл воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кишечные палочки в 1л воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сапрофиты в 1 мл воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусы в 1 мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Укажите скорость фильтрации через медленные фильтры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,1-0,3 м/ч",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5-8 м/ч",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "15 м/ч",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10 м/ч",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "20 м/ч",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Укажите современный метод умягчения воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фильтрация через ионитовые установки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вымораживании воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аэрация воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фильтрация воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "УФЛ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Какой из методов применяется для обеззараживания воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кипячение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "УФЛ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коагуляция воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опреснение воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "добавление полиакриламида",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Укажите протяженность II пояса охраны подземных источников водоснабжения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не устанавливается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от 50-1000 м и более",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "весь бассейн реки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "30-40 км",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15-20 км",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Укажите гигиенические нормы содержания хлоридов в питьевой воде",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 350 мг/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "до 100 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "до 200 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "до 500 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "до 1000 мл/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Укажите суточную потребность в питьевой воде при оптимальной температуре в средней физической нагрузке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,5 л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10 л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Укажите гигиеническую норму нитритов в питьевой воде при централизованном водоснабжении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не допускается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "следы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не менее 0,5 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее I мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не более 2 мл/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Укажите причину водных вспышек кишечных инфекций при центральном водоснабжении:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аварии на распределительной сети города",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не эффективная обработка воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "использование подземных вод",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вспышки кишечных инфекции ниже водозабора",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "залповые спуски неочищенных сточных вод в море",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "К чему может привести избыточное соединение сульфатов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к диспепсическим явлениям",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к образованию метгемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к образованию карбоксигемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к ухудшению органолептических показателей воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к зобу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Какие источники водоснабжения являются приоритетными в условиях применения ОМП",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "напорные воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "реки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "водохранилища",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грунтовые воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метеорные воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Укажите суточную потребность в питьевой воде в условиях жаркого климата или тяжелой работе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "8-10",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2-4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5-7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "11-13 л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1,5-2 л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Укажите гигиеническую норму нитратов в питьевой воде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не более 40 мг/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "до 10 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "до 20 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 20 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не допускается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Укажите этиологический фактор водных эпидемий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "патогенные энтеробактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гельминты, простейшие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комплексоны металлов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "П А В",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сапрофитная флора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Укажите органолептические показатели качества питьевой воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цветность, вкус, прозрачность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "окисляемость, цвет, запах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие солей, температура воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мутность, минерализация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вкус, запах, хлориды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Какой из видов подачи питьевой воды эпидемиологически наиболее надежной:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подача централизованная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "децентрализованная подача",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "каптажи родников",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "из уличных стояков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "колодцы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Гигиенические нормы водопотребления при централизованном питьевом водоснабжении без горячей воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "250-270 л/ с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "150-200 л/с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "400-500 л/ с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "600 и более л/с",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "80-100 л/с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Высокий уровень жесткости питьевой воды как фактор риска возникновения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчекаменной болезнью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "общей неспецифической резистентности организма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "язвенной болезни желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рахита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уровской болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Санитарные нормы запаха в водопроводной воде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 2 баллов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "до 1 балла",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "до 4 баллов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "до 6 баллов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не нормируется",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Дайте гигиеническую характеристику метеорных вод:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "низкая степень минерализации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "высокая минерализация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высокое микробное загрязнение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хорошие органолептические показатели",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "высокая температура",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "Нормы водопотребления при децентрализованном водоснабжении (в сельской местности):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "70-150 л/с",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "150-200 л/с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "250-300 л/с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40-60 л/с",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "45-55 л/с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Укажите гигиенические параметры окисляемости питьевой воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 4 мг/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не менее 5 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не более 6 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 3 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 4 мл/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "К открытым источникам водоснабжения относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реки, водохранилища",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "реки, каптажи, пруды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "межпластовые воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "напорные, межпластовые воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "родники",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "В чем заключается гигиеническое значение воды",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "закаливает организм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в профилактике кишечных инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "регулирует обмен веществ в организме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "укрепляет иммунный статус организма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поддерживает гомеостаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Что характеризует окисляемость воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "показатели органического загрязнения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "показатель микробного загрязнения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "показатель минерализации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "показатель наличие свободного кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "показатель чистоты воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Укажите косвенные показатели микробного загрязнения воды:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "азотистый спектр, окисляемость",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хлориды, аммиак, нитриты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нитриты, цветность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "окисляемость, жесткость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "азотистый спектр, фтор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "Укажите гигиенические нормы содержание солей, обуславливающих общую жесткость питьевой воды из поверхностных водоисточников:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не менее 7 мг/экв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не более 7 мг/экв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не менее 14 мг/экв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не более 14 мг/экв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 20 мл/экв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Какие из указанных источников водоснабжения называется подземными",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "межпластовые воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "напорные, межпластовые воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "реки, каптажи, пруды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реки, водохранилища",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "озеро, родники",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "Что означает понятие \"Гигиенические значение воды\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "использование воды для личной гигиены",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "использование для восстановления водносолевого баланса в организме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "использование для приготовления детских питательных смесей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "использование воды для технических целей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "Что означает \"Растворенный в воде кислород\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "показатель наличие свободного кислорода",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "показатели органолептического загрязнения воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "показатель микробного загрязнения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "показатель минерализации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "показатели органического загрязнения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "Укажите гигиенические нормы содержания сульфатов в питьевой воде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "500 мг/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "100 мг/л,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "200 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "300 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50 мл/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "Что означает понятие \"метеорные воды\"",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дождевая вода",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снег, талые воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "водопроводная вода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артезианская вода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "почвенные воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Укажите гигиеническую норму фтора в питьевой воде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от 0,5 - 1,5 мг/л,",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "до 1 мг/л,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "до 5 мг/л,",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от 1,5 - 3,0 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "до 0,1-0,5 мл/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Что означает понятие эпидемиологическое значение воды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вода как фактор передачи инфекционных заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вода как фактор профилактики инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вода как фактор специфической профилактики кишечных инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вода как фактор флюороза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "как фактор эндемических заболеваний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "От чего зависит выбор источника водоснабжения в мирное время:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "от дебита воды в источнике",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от эпидситуации в зоне влияния источника",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "от уровня микробного загрязнения воды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "органолептических показателей качества воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "площади бассейна источника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "Укажите гигиенические параметры аммиака в питьевой воде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не допускается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "до о,3 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не менее 0,3 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 1,5 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не нормируется",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "Для каких инфекций водный фактор является ведущим:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшной тиф",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "холера",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бруцеллез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бруцеллез, ботулизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "К чему может привести избыточное содержание железа в питьевой воде",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ухудшению вкуса и вида воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изменению цвета воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "образование оксигемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образование желче- и мочекаменной болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образованию гуминовых соединений в воде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "Отчего зависит выбор источника водоснабжения в военное время:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дебита воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "показателей качество воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "от эпидситуации в зоне влияния источника",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глубины залегания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "площади бассейна источника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "Укажите водные эндемические заболевания",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "метгемоглобинемия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "флюороз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желчекаменная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лептоспироз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атеросклероз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "Укажите суточную потребность в питьевой воде при оптимальной температуре и средней физической нагрузке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,5 л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 9 л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "Укажите суточную потребность в питьевой воде в условиях жаркого климата или при тяжелой работе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "8-10 л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2-4 л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5-7 л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "11-13 л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1,5-2 л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 200,
+				"text": "Укажите потерю воды (в % массы тела), приводящая к нарушению обмена веществ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3%,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "8%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "20 %",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 201,
+				"text": "Содержание сульфатов в питьевой воде больше 500 мг / л вызывает заболевания:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышечной системы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мочекаменную",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "суставов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желчекаменную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 202,
+				"text": "Содержание хлоридов в питьевой воде больше 350 мг / л может быть причиной заболеваний:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипоацидного гастрита",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "органов дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кожи и слизистых",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепатита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 203,
+				"text": "Инфекционные заболевания с водным фактором распространения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дизентерия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "холера",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "острые кишечные инфекции, вирусный гепатит, лептоспироз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "болезни сердечно - сосудистой системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "Содержание воды в эмбрионе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "97,0%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "65,0%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "70,0%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "49,0%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 205,
+				"text": "Дефицит воды в организме неопасен для жизни, если составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10 - 12,0%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "32,0%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "20 - 25,0%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "50,0%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 206,
+				"text": "Избыток воды в организме может привести к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертонии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "болезням скелета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заболеваниям кожи и слизистых",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дисфункции эндокринной системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 207,
+				"text": "Загрязнение воды мышьяком в количествах больше ПДК может служить причиной:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "злокачественных опухолей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воспалительных заболеваний легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заболеваний скелета",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "заболеваний системы крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 208,
+				"text": "Угроза жизни при дефиците воды на 20 - 25%:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "опасно для жизни при любых условиях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет опасности для здоровья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опасно для здоровья при заболеваниях ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отягощает течение и исход заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нормализует терморегуляцию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 209,
+				"text": "Дефицит воды в организме может быть следствием:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаточного потребления воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышенных потерь воды при кишечных инфекциях",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышенных потерях при тяжелой физической работе в жаркую погоду",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рациона питания без первых блюд",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 210,
+				"text": "Дефицит воды в организме влияет на эффективность лекарственной терапии из-за:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиповолемии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшения объема межклеточной жидкости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "невозможности достичь динамического равновесия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушение транспортной функции циркулирующей крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "невозможности достичь химического распада лекарств",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 211,
+				"text": "Азотный спектр воды определяют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержание в воде аммиака, нитритов и нитратов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "содержание в воде хлоридов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержание в воде сульфатов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "концентрация в воде мышьяка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 212,
+				"text": "Зависимость азотного спектра воды от:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "загрязнение воды хозяйственно -бытовыми стоками и стоками животноводческих комплексов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хлорирование воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "загрязнения воды стоками предприятий цветной и черной металлургии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "загрязнение строительным мусором",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "загрязнение воды синтетическими соединениями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 213,
+				"text": "Наличие аммиака в воде свидетельствует о:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "свежем загрязнении органическими веществами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "о повышенном риске микробного загрязнения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "старом загрязнении органическими веществами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "загрязнения стоками химического производства",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вовсе не свидетельствует о загрязнение воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 214,
+				"text": "Причиной избытка воды в организме могут быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение выделительной функции почек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "потребления воды больше потребности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышенное потребление NaCl",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "заболевания органов дыхания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 215,
+				"text": "Микроклимат - это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сочетание метеорологических условий в помещении;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "совокупность метеорологических условий в определенном месте в данное время",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "закономерная последовательность метеорологических процессов, выявляющая в многолетнем режиме погоды в данной местности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сочетание метеорологических условий в приземном слое небольших участков земной поверхности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "совокупность метеорологических условий в определенном месте в зимой и летом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 216,
+				"text": "Система организма наиболее чувствительная к изменению микроклимата:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "терморегуляция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пищеварение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нервная система",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сердечно - сосудистая",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

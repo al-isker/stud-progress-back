@@ -1,0 +1,1418 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Для вен безмышечного типа характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие базальной мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие средней оболочки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет плотной связи с окружающими тканями",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеется связь с окружающими тканями",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В стенке артерий эластического типа нет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладких миоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эластических мембран",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эластических волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "исчерченных миоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Эндотелий капилляров имеет сплошные контакты в:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тимусе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коже",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "головном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "поджелудочной железе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Для фенестрированных капилляров характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие базальной мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "базальная мембрана пористая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "базальная мембрана сплошная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "между эндотелиальными клетками выраженные щели",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в цитоплазме эндотелиальных клеток поры",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Для синусоидных капилляров характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "базальная мембрана сплошная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в цитоплазме эндотелиальных клеток поры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "базальная мембрана прерывистая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "между эндотелиальными клетками сплошные плотные контакты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "между эндотелиальными клетками выраженные щели",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Капилляры фенестрированного типа имеются в:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипофизе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "надпочечниках",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "В состав внутренней оболочки артериол входят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкомышечные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эластическая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндотелий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ретикулярная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "базальная мембрана",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "В состав средней оболочки артериол входят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эластическая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндотелий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гладкомышечные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "базальная мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпителий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "В состав наружной оболочки артериол входят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эластическая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндотелий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "базальная мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибробласты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "коллагеновые волокна",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Отличить капилляры от артериол на препаратах можно по признаку:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие эластической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие базальной мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие перицитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие гладкомышечных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие адвентициальных клеток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Артериолы выполняют функции:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "всасывание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выделение продуктов обмена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "регуляция артериального давления",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фильтрация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "регуляция притока крови к органам",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Для артериол характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие плотных контактов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие десмосом между клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие гладкомышечных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отсутствие базальной мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие выраженных щелей между клетками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Венулы выполняют функции:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "всасывание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фильтрация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пропотевание плазмы из крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миграция лейкоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "прохождение тканевой жидкости в кровь",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Признаки позволяющие отличить венулы от артериол:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "малый диаметр",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "большой диаметр",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отсутствие гладкомышечных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малое количество гладкомышечных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отсутствие наружной оболочки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Во внутренней оболочке артерий мышечного типа имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "циркулярно-ориентированные гладкомышечные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наружная эластическая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутренняя эластическая мембрана",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эндотелий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "прослойка из ретикулярной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "В средней оболочке артерий мышечного типа имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "слой эндотелиальных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слой эпителиальных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "циркулярно-ориентированные гладкомышечные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "прослойки из ретикулярной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сеть эластических волокон",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "В наружной оболочке артерий мышечного типа имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "циркулярно-ориентированные гладкомышечные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретикулярная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "РСТ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слой эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сосуды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Артерии эластического типа отличаются от артерий мышечного типа следующими признаками:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие слоя из эпителиальных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие множества эластических мембран в средней оболочке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие мембран из коллагеновых волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие прослоек из ретикулярной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Вены от артерий отличаются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствием эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствием эластических мембран",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отсутствием поперечно ориентированных гладкомышечных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "более выраженной средней оболочкой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "менее выраженной средней оболочкой",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Во внутренней оболочке вен имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотелий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эластическая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "РСТ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ретикулярная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечно ориентированные гладкомышечные клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "В средней оболочке вен имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотелий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эластическая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гладкая мышечная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сосуды",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ретикулярная ткань",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "В наружной оболочке вен имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сосуды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эластическая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечно ориентированные гладкомышечные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плотная неоформленная соединительная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "РСТ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "В состав стенки сплошных капилляров входят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фибробласты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перициты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гистооциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндотелиоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "плазмоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Вены безмышечного типа имеются в:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "печени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поджелудочной железе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желудке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезенке",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тимусе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Для вен нижних конечностей характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие подэндотелиального слоя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие слабо выраженной средней оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие сильно выраженной средней оболочки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие одного слоя гладкомышечных клеток в средней оболочке",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие двух слоев гладкомышечных клеток в средней оболочке",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Тканевые элементы эндокарда развиваются из:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейроэктодермы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "энтодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "висцерального листка мезодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "париетального листка мезодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мезенхима",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "В составе эндокарда имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кардиомиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слой эпителиальных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндотелий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "прослойки из ретикулярной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прослойки из РСТ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "В составе миокарда имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "РСТ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эластические мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "слой эндотелиальных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сеть ретикулиновых волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сеть сердечных мышечных волокон",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Сердечные импульсы генерируют клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клетки Беца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клетки Руже",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетки Пуркинье",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клетки пейсмекеры",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клетки Ранвье",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Клетки пейсмекеры располагаются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правом предсердие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "устье нижней полой вены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "левом предсердие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устье верхней полой вены",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "толще левого желудочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "К микроциркуляторному руслу относятся все сосуды, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "венул",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемокапилляров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анастомозов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "артериол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "В расщеплении базальной мембраны стенки капилляров располагаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перициты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фибробласты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адвентицильные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "липоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "В стенке артериолы имеется все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутренней эластической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перицита",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гладких миоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рыхлой соединительной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "В стенке кровеносного капилляра нет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "базальной мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перицита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адвентициальной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гладких миоцитов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "В состав стенки бедренной вены входит все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подэнтотелиального слоя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окончатых эластических мембран",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "циркулярно расположенных гладких миоцитов в средней оболочке",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "В эндокарде нет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подэнтотелиального слоя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мышечно-эластического слоя",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наружного соединительнотканного слоя",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровеносных сосудов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "В стенке артерий мышечного типа нет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подэндотелиального слоя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутренней эластической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "окончатых эластических мембран",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гладких миоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Эластический каркас артерий мышечного типа образуют все элементы, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эластических волокон внутренней оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутренней эластической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окончатых эластических мембран",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эластических волокон средней оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эластических волокон наружной оболочки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Эндотелий кровеносных сосудов выполняет все функции, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атромбогенной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "регуляции сосудистого тонуса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обменной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "барьерной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трофической",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "В крупных лимфатических сосудах гладкие миоциты расположены:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "во внутренней оболочке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в средней оболочке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в наружной оболочке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "во всех оболочках",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отсутствуют",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Сосуды сосудов имеются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артериях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "венах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфатических сосудах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в венах и лимфатических сосудах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "во всех сосудах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Во внутренней оболочке артерии эластического типа присутствуют все элементы, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рыхлой соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндотелия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перицитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отдельных гладких миоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сплетений эластических волокон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "При окраске препарата сосуда орсеином в средней оболочке видны окончатые эластические мембраны, этот сосуд:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артерия мышечного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вена мышечного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "капилляр",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артериола",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "артерия эластического типа-аорта",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Наличие в сосуде мягкой мозговой оболочки цепочки эритроцитов характерно для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артериолы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "артерии мышечного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вены мышечного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "венулы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "капилляра",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

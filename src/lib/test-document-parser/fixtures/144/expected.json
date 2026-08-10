@@ -1,0 +1,2986 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Укажите нервные волокна, имеющиеся в составе спинномозговых нервов :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "постганглионарные симпатические",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чувствительные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "преганглионарные симпатические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "двигательные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Укажите анатомические образования, к которым подходят задние ветви спинномозговых нервов :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глубокие мышцы спины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кожа дорсальной поверхности туловища",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поверхностные мышцы шеи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мышцы головы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мышцы живота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Укажите спинномозговые нервы, от которых отходят белые соединительные ветви:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "грудные (I-XII) спинномозговые нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "шейные (I-VII) спинномозговые нервы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхние поясничные (I-II) спинномозговые нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поясничные (III-V) спинномозговые нервы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крестцовые спинномозговые нервы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Укажите нервы, направляющиеся к молочной железе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "медиальные нервы V - VII межреберных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латеральные ветви IV - VI межреберных нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "передние ветви II- IV межреберных нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "передние ветви V – VIII межреберных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задние ветви IV- VI межреберных нервов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Укажите топографические части зрительного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриглазничная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутриканальная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пещеристая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "паутинная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мозговая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышца, поднимающая верхнее веко",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нижняя прямая мышца глаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "медиальная прямая мышца глаза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верхняя прямая мышца глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижняя косая мышца глаза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Укажите места прохождения глазодвигательного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "боковая стенка пещеристого синуса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "зрительный канал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхняя глазничная щель",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нижняя глазничная щель",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижняя глазничная щель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Укажите мышцы, которые иннервирует блоковый нерв:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхняя косая мышца глаза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нижняя косая мышца глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медиальная прямая мышца глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "латеральная прямая мышца глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижняя прямая мышца глаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Укажите мышцы, которые иннервирует отводящий нерв:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медиальная прямая мышца глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нижняя косая мышца глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "латеральная прямая мышца глаза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верхняя косая мышца глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижняя прямая мышца глаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Укажите нерв, чувствительные волокна которого направляются к ресничному узлу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "носо-ресничный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лобный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "слезный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глазодвигательный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "надглазничный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Укажите ветви тройничного нерва, которые иннервируют слизистую оболочку полости носа :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подглазничный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "носо-ресничный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "скуло-лицевая ветвь скулового нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скуло-височная ветвь скулового нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лобный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Укажите ветви, которые отходят от глазного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "слезный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подглазничный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лобный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "щечный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скуловой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Укажите нервы, участвующие в образовании верхнего и нижнего зубных сплетений:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижнечелюстной нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подглазничный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лицевой нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "языкоглоточный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скуловой нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Ветви какого нерва образуют «малую гусиную лапку» :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подглазничного",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лицевого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижнечелюстного",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скулового",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижний альвеолярный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Укажите состав нервных волокон язычного нерва до вступления в него барабанной струны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "волокна общей и проприоцептивной чувствительности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вкусовые волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двигательные волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "симпатические волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Укажите нервы, иннервирующие вкусовые сосочки :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "барабанная струна",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "языкоглоточный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нижнечелюстной нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхнечелюстной нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блуждающий нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Укажите отверстие, через которое большой каменистый нерв выходит из лицевого канала:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расщелина канала малого каменистого нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "шилососцевидное отверстие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутреннее отверстие сонного канала",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расщелина канала большого каменистого нерва",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "каменисто-барабанная щель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Укажите нервы, участвующие в образовании нерва крыловидного канала:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "малый каменистый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "барабанная струна",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "большой каменистый нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глубокий каменистый нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "менингеальная ветвь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Укажите ветви «большой гусиной лапки» :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "скуловая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "шейная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подглазничная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "язычная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Укажите нервы образующие верхнее зубное сплетение:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхние альвеолярные нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "передние, средние и задние альвеолярные нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нижний альвеолярный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скуловой нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Укажите нервы, отходящие от крыло-небного узла:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "большие и малые небные ветви",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нижние задние носовые ветви",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "короткие ресничные ветви",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глоточные ветви",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "носо-ресничный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Укажите ветви лицевого нерва, отходящие от него в лицевом канале:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "скуловые ветви",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "малый каменистый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "барабанная струна",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стременной нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "шилососцевидная ветвь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Укажите нервы, которые своими ветвями участвуют в образовании глоточного сплетения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "блуждающий нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "языкоглоточный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тройничный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подьязычный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Укажите места выхода из мозга и прохождения языкоглоточного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "между медиальной и латеральной крыловидными мышцами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "позади наружной сонной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "позади оливы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "между внутренней сонной артерией и внутренней яремной веной",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Укажите ветви, отходящие от языкоглоточного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глоточные ветви",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "щечные ветви",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "барабанный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "височные ветви",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "большой каменистый нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Укажите органы, которые иннервируют ветви переднего ствола блуждающего нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "почка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "передняя стенка желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "верхний гортанный нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Укажите органы, которые иннервируют ветви заднего ствола блуждающего нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тощая кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мочевой пузырь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пищеводные ветви",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Укажите анатомические структуры, которые иннервирует ушная ветвь блуждающего нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задняя ушная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кожа наружной поверхности ушной раковины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кожа задней стенки наружного слухового прохода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верхняя ушная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слизистую оболочку глотки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Укажите места выхода из мозга и прохождения блуждающего нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задняя боковая борозда продолговатого мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "позади корня легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на претрахеальной пластинке шейной фасции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на предпозвоночной пластинке шейной фасции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "на поверхностном листке шейной фасции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Укажите мышцы, которые иннервирует добавочный нерв:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ромбовидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грудино-ключично-сосцевидная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "двубрюшная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трапециевидная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "челюстно- подъязычная мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Укажите ветви, которые отходят от добавочного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя ветвь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наружная ветвь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "внутренняя ветвь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "задняя ветвь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верхняя",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Укажите анатомические структуры, которые иннервирует поперечный нерв шеи:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "трапециевидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грудинно-ключично -сосцевидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кожа передней области шеи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кожа латеральной области шеи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кожа затылочной области",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "В каких анатомических образованиях проходит большой затылочный нерв:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в большом затылочном отверстии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "между затылочной костью и атлантом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "между дугой атланта и осевым позвонком",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "через трапециевидную мышцу",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "между лестничными мышцами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Укажите источники иннервации трапециевидной и грудинно- ключично-сосцевидной мышц:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "добавочный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "языкоглоточный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ветви шейного сплетения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ветви плечевого сплетения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блуждающий нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Укажите анатомические структуры, которые иннервируют надключичные нервы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожа над дельтовидной мышцей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кожа над большой грудной мышцей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кожа задней области шеи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кожа передней области шеи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кожа задней области плеча",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Укажите источник иннервации кожи передней и латеральной области шеи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "добавочный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подъязычный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лицевой нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечный нерв шеи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "большой затылочный нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Укажите отделы средостения, в которых проходит диафрагмальный нерв:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхний отдел",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нижний передний отдел",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижний задний отдел",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижний средний отдел",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "передний нижний отдел",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Укажите нервы, которые относятся к коротким ветвям плечевого сплетения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "длинный грудной нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подмышечный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "латеральный кожный нерв предплечья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "медиальный кожный нерв плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "медиальный кожный нерв предплечья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Укажите мышцы, которые иннервирует дорсальный нерв лопатки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задняя лестничная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мышца, поднимающая лопатку",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ромбовидная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "большая грудная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "малая грудная мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Укажите мышцы, которые иннервирует подмышечный нерв:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя лестничная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дельтовидная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "малая грудная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "большая грудная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подключичная мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Укажите, какие нервы обеспечивают кожную чувствительность в области задней поверхности предплечья:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "локтевой нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лучевой нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "срединный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подмышечный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мышечно-кожный нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Укажите мышцы, которые иннервирует длинный грудной нерв:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подлопаточная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передняя зубчатая мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "широчайшая мышца спины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "межреберные мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задняя верхняя зубчатая мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Укажите мышцы, которые иннервирует мышечно-кожный нерв:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "клювовидно-плечевая мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "двуглавая мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "трехглавая мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "локтевая мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плечелучевая мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Укажите нервы, которые берут начало от медиального пучка плечевого сплетения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "локтевой нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лучевой нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мышечно-кожный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "медиальный кожный нерв плеча",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "подмышечный нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Укажите анатомические структуры, которые иннервирует локтевой нерв:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лучевой сгибатель запястья",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "локтевой сгибатель запястья",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "круглый пронатор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "локтевой сустав",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "локтевой разгибатель запястья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Укажите мышцы, которые иннервирует срединный нерв на кисти:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышца, сгибающая мизинец",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "короткий разгибатель большого пальца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "короткая мышца, отводящая большой палец кисти",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мышца, противопоставляющая большой палец кисти",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "длинная мышца отводящая большой палец",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Укажите места прохождения срединного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "над апоневрозом двуглавой мышцы плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в плече-мышечном канале",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "между двумя головками круглого пронатора",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "между поверхностным и глубоким сгибателями пальцев",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "по латеральному краю предплечья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Укажите мышцы, которые иннервирует лучевой нерв:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "трехглавая мышца плеча",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "плечевая мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "локтевая мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "круглый пронатор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лучевой сгибатель запястья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Укажите места прохождения лучевого нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "между головками круглого пронатора",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через медиальную межмышечную перегородку",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через латеральную межмышечную перегородку",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в плече-мышечном канале",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "по передней поверхности предплечья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Укажите мышцы, которые иннервирует глубокая ветвь лучевого нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "разгибатель пальцев",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "разгибатель указательного пальца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глубокий сгибатель пальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лучевой сгибатель запястья",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плече-лучевая мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Укажите нервы, являющиеся ветвями поясничного сплетения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхний ягодичный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подреберный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "запирательный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "латеральный кожный нерв бедра",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "задний кожный нерв бедра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Укажите места прохождения запирательного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "по передней поверхности большой поясничной мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вдоль медиального края большой поясничной мышцы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "над запирательной артерией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "позади запирательной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по латеральной поверхности бедра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Укажите нервы, участвующие в иннервации четырехглавой мышцы бедра:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бедренный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "седалищный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "запирательный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "общий малоберцовый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "запирательный нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Укажите мышцы, которые иннервирует подвздошно-подчревный нерв:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поперечная мышца живота",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутренняя косая мышца живота",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диафрагма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прямая мышца бедра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "портняжная мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Укажите анатомические структуры, которые иннервирует подкожный нерв на нижней конечности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожа передней поверхности голени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кожа латерального края стопы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кожа латеральной поверхности голени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кожа медиального края стопы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кожа передней поверхности бедра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Укажите нервы, являющиеся короткими ветвями крестцового сплетения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бедренный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бедренно-половой нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхний ягодичный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нижний ягодичный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "задний кожный нерв бедра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Укажите нерв, который иннервирует большую ягодичную мышцу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "седалищный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нижний ягодичный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхний ягодичный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бедренный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутренний половой нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Укажите мышцы, которые иннервирует поверхностный малоберцовый нерв:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя большеберцовая мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "длинная малоберцовая мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "короткая малоберцовая мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "задняя большеберцовая мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "длинный разгибатель пальцев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Укажите места расположения большеберцового нерва:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "между медиальной и латеральной головками икроножной мышцы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в приводящем канале",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "впереди подколенной вены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "позади латеральной лодыжки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на передней поверхности голени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "отделу вегетативной нервной системы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ядра заднего рога серого вещества спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крылонебный узел",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "узлы симпатического ствола",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "промежуточно-латеральные ядра в спинном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Укажите ветви, которые подходят к симпатическому стволу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белые соединительные ветви",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "серые соединительные ветви",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "межузловые ветви",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малый внутренностный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "большой внутренностный нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Укажите анатомические структуры, относящиеся к симпатической нервной системе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "белые соединительные ветви",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глубокий каменистый нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "малый каменистый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "добавочное ядро глазодвигательного нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "большой каменистый нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Укажите место локализации верхнего шейного симпатического узла :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "впереди тел II-III шейных позвонков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "впереди поперечных отростков II-III шейных позвонков",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "позади внутренней сонной артерии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "латеральнее блуждающего нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "впереди наружной сонной артерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Укажите ветви, которые отходят от симпатического ствола:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "белые соединительные ветви",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "малый внутренностный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "менингеальные ветви",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серые соединительные ветви",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "задние межреберные нервы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Укажите место расположения чревного сплетения :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "на передней поверхности аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на передней поверхности нижней полой вены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вокруг чревного ствола",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на уровне VI грудного позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на передней стенке желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Укажите нервы, которые подходят к чревному сплетению:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "большие внутренностные нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подчревные нервы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "малые внутренностные нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "межреберные нервы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "малый внутренностный нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Укажите ветви, которые отходят от грудных узлов симпатического ствола:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "легочные нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пищеводные нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диафрагмальные нервы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печеночные нервы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "общее сонное сплетение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Укажите вегетативный узел, от которого секреторные волокна направляются к слезной железе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крылонебный узел",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ресничный узел",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поднижнечелюстной узел",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ушной узел",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сонный гломус",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Укажите место локализации поднижнечелюстного узла:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "на медиальной поверхности поднижнечелюстной слюнной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возле язычного нерва",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на передней поверхности поднижнечелюстной слюнной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возле подъязычного нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Укажите анатомические образования, проходящие через межпозвоночные отверстия грудного отдела позвоночного столба:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ветви передних межреберных артерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парасимпатические волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спинномозговые нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ветви задних межреберных артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Укажите сосуды и нервы перикарда:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ветви нижних диафрагмальных артерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ветви верхних диафрагмальных артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ветви диафрагмальных нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "чревные нервы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Укажите анатомические образования, проходящие через остистое отверстие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "менингеальная добавочная ветвь (артерия)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "задняя менингеальная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "средняя менингеальная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "менингеальная ветвь (нерв)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "верхняя глазная вена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Укажите сосуды и нервы, проходящие через зрительный канал:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глазной нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глазная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подглазничная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зрительный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отводящий нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Укажите нервы и кровеносные сосуды, которые проходят через нижнюю глазничную щель:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "подглазничный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глазная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скуловой нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "центральная артерия сетчатки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глазодвигательный нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Укажите сосуды и нервы, проходящие через верхнюю глазничную щель:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "подглазничная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подглазничный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блоковый нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отводящий нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "скуловой нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "отверстие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "языкоглоточный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ветвь задней ушной артерии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лицевой нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ветвь затылочной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "большой каменистый нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Какие анатомические образования входят в состав мышечно-трубного канала:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "барабанная струна",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мышца, напрягающая барабанную перепонку",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стременная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слуховая труба",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мышца, поднимающая небную занавеску",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Укажите нервы и кровеносные сосуды, проходящие через каменисто-барабанную щель височной кости:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "барабанная струна",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ушная ветвь блуждающего нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижняя барабанная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "передняя барабанная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "глубокие височные ветви",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Укажите сосуды и нервы легких:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутренняя грудная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхиальные ветви из грудной части аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "окологрудинные лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ветви блуждающего нерва",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ветви брюшной аорты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Укажите, какие кровеносные сосуды прилежат к срединному нерву:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лучевая артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глубокая артерия плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подмышечная артерия и вена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "локтевая артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "латеральная грудная артерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Укажите, какие сосуды и нервы следуют вдоль латерального края лопатки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "артерия, огибающая лопатку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латеральная грудная артерия и вена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грудоспинные артерия и вены",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грудоспинной нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "верхняя грудная артерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Какие сосуды и нервы прилежат к латеральной поверхности передней зубчатой мышцы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "длинный грудной нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "латеральная грудная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грудоспинная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дорсальный нерв лопатки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "медиальный грудной нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Укажите сосуды и нервы, которые проходят через четырехстороннее отверстие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "артерия, огибающая лопатку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "задняя артерия, огибающая плечевую кость",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подмышечный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "передняя артерия, огибающая плечевую кость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грудо-акромиальная артерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Какие сосуды и нервы проходят через трехстороннее отверстие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "задняя артерия, огибающая плечевую кость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "артерия, огибающая лопатку",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грудоспинная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подмышечный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "латеральный грудной нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Укажите сосуды и нервы, которые проходят в плече -мышечном канале:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышечно-кожный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глубокая артерия плеча",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхняя локтевая коллатеральная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лучевой нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "подмышечный нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Какие сосуды и нервы залегают в локтевой борозде предплечья:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "латеральная подкожная вена руки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "локтевая вена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поверхностная ветвь лучевого нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "локтевой нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ладонная запястная ветвь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Какие сосуды и нервы залегают в лучевой борозде предплечья :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "срединный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "локтевая артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медиальная подкожная вена руки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лучевая вена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "глубокая ветвь лучевого нерва",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Какие сосуды и нервы проходят через надгрушевидное отверстие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижний ягодичный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "верхние ягодичные вены",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхняя ягодичная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "половой нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутренняя половая артерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Какие сосуды и нервы проходят через сосудистую лакуну:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бедренный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бедренная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "большая подкожная вена ноги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бедренная вена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "латеральный кожный нерв бедра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Укажите сосуды и нервы, которые проходят через приводящий канал:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медиальная верхняя коленная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бедренная вена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "запирательный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "икроножный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задний кожный нерв бедра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Укажите анатомические структуры, проходящие в голенно-подколенном канале:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя большеберцовая артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "большеберцовый нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "задняя большеберцовая артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глубокий малоберцовый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подколенная артерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Укажите сосуды и нервы, которые проходят через верхний мышечно-малоберцовый канал:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поверхностный малоберцовый нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глубокий малоберцовый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медиальная нижняя коленная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "икроножный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "латеральная нижняя коленная артерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Какие сосуды и нервы проходят через нижний мышечно-малоберцовый канал:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тыльная артерия стопы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "общий малоберцовый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "передняя большеберцовая артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малоберцовая артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "икроножный нерв",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

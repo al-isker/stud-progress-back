@@ -1,0 +1,1400 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "При каких отравлениях нельзя промывать желудок беззондовым способом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грибами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бензином",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "алкоголем",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лекарством",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Какое количество воды необходимо приготовить для промывания желудка (л)?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3 - 5",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "7 - 8",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10 - 12",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "12 – 15",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Промывание желудка следует проводить до",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чистых промывных вод",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "улучшения состояния пациента",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исчезновения симптомов интоксикации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "использования всей приготовленной воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какое количество воды, при промывании желудка, можно ввести одновременно? (л)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Количество промывных вод, отправляемых в лабораторию на исследование (мл)?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "50",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "100",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "150",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "200",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "При промывании желудка зонд вводится на расстояние:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100 см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "60 см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рост пациента минус 100 см",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Для промывания желудка необходимо приготовить:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10 -12 литров воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1 – 1,5 литра воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5 литров воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "При рвоте для профилактики асфиксии голову необходимо запрокинуть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "назад",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на бок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вперёд, поддерживая за лоб",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Дуоденальное зондирование проводят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "толстым желудочным зондом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тонким желудочным зондом с оливой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тонким желудочным зондом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "При дуоденальном зондировании получают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желудочный сок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержимое желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Фракционное зондирование позволяет исследовать:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреторную функцию желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желчь 12–ти перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "переваривающую способность кишечника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Для фракционного зондирования необходимо приготовить:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "толстый желудочный зонд с воронкой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "9 баночек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "зонд с металлической оливой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Для стимуляции при дуоденальном зондировании используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,1% раствор атропина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "33% раствор сернокислой магнезии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,1% раствор гистамина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "При дуоденальном зондировании порцию «С» получают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "из желчного пузыря",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "из желчных протоков",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "из 12– ти перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "из желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "При исследовании желудочного сока беззондовым методом используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ацидотест",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "раствор магния сульфата",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "раствор гистамина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "раствор глюкозы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "При появлении крови в промывных водах необходимо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продолжить промывание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поставить пузырь со льдом на область эпигастрия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поставить грелку на область эпигастрия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "При дуоденальном зондировании порцию «А» получают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "из желчных протоков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "из 12– ти перстной кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "из желчного пузыря",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "из желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Стимуляцию выработки желудочного сока проводят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "после 5порции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "после 1 порции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перед 5 порцией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 порций",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Полученный желудочный сок направляют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в биохимическую лабораторию",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в клиническую лабораторию",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в бактериологическую лабораторию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Резиновые зонды стерилизуют при режиме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "180 в течение 60 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при 2,2 атм., Т 132 в течение 20 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при 1,1 атм., Т 120 в течение 45 минут",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "100 мин при температуре 80 С",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Резиновые зонды стерилизуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в сухожаровых шкафах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в автоклавах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в 3% растворе хлорамина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в растворе хлорамина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Лекарственные препараты, необходимые для остановки кровотечения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "викасол",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "магния сульфат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дексаметазон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Кружку Эсмарха применяют для постановки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "очистительной клизмы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сифонной клизмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лекарственной клизмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "масляной клизмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Оснащение для очистительной клизмы включает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кружка эсмарха, вазелин, судно, вода 1-1,5 л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кружка эсмарха, вазелин, судно, вода 5-6 л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2 толстых зонда, воронка, вазелин, вода 10-15 л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "газоотводная трубка, грушевидный баллон с наконечником, вода 500 мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "При постановке гипертонической клизмы необходимо приготовить 50-100 мл раствора хлорида натрия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,9%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "20%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "К послабляющим клизмам относятся",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "масляная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сифонная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очистительная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лекарственная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Кратность промывания кишечника при сифонной клизме предполагается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до чистых промывных вод",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1 раз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3 раза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5 раз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Для гипертонической клизмы применяют 10% раствор хлорида натрия в объеме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100-200 мл",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10-50 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "200-400 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "800-1000 мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Для очистительной клизмы необходимо приготовить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-1,5 л воды комнатной температуры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "100 мл 10% раствора хлорида натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10-12 л воды комнатной температуры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "100-200 мл масляного раствора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "При постановке сифонной клизмы зонд вводят в кишечник на глубину ___см",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30-40",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5-10",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10-15",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40-60",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "После масляной клизмы опорожнение кишечника наступает через",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10-12 часов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10-15 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1 час",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "6 часов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Газоотводную трубку не оставляют в кишечнике надолго, потому что",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "могут образоваться пролежни в стенке кишечника",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "это утомит больного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закончится лечебный эффект",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "заканчивается ее стерильност",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "При метеоризме газоотводная трубка вводится на глубину (в см)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "50",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20 -30",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "10 -12",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 – 4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Опорожнение кишечника после постановки гипертонической клизмы, как правило, наступает через (в часах)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "8-10",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4-6",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2-3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Необходимое количество растительного масла для постановки масляной клизмы (в мл)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1000",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "500",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "100",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Показания к постановке очистительной клизмы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый аппендицит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первые дни после операции на органах пищеварения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "запор",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "подготовка больного к извлечению желудочного содержимого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "При постановке очистительной клизмы наконечник вводят на глубину (в см)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "40",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10-12",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "2-4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Преобладание ночного диуреза над дневным называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полиурией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "никтурией",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анурией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "олигурией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "К дизурическим расстройствам относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поллакиурия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глюкозури",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Полиурия — это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение количества выделяемой мочи за сутки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшение количества выделяемой мочи за сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полное прекращение выделения мочи почками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "невозможность опорожнить мочевой пузырь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение количества выделяемой мочи ночью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "При проведении процедуры катетеризации мочевого пузыря могут возникнуть осложнения",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "повреждение уретры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гематурия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инфицирование мочевого пузыря и уретры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "снижение артериального давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Мочевой катетер перед введением необходимо смазать",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кипячёной водой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стерильным глицерином",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "0,9% раствором натрия хлорида",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фурацилином",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стерильным вазелиновым маслом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Выберите одно из средств для обработки мочеиспускательного канала перед катетеризацией мочевого пузыря",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "70% спирт",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фурацилин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глицерин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стерильное вазелиновое масло",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,9% раствором натрия хлорида",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "При проведении катетеризации мочевого пузыря пациент должен принять положение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лёжа на правом боку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лёжа на левом боку",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сидя на стуле с раздвинутыми ногами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лёжа на спине, с разведенными в коленях ногами",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лёжа на спине с приподнятым ножным концом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Перед проведением катетеризации мочевого пузыря у женщины медицинская сестра должна выполнить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гигиеническую обработку промежности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гигиеническую обработку промежности и отверстия мочеиспускательного канала",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гигиеническую обработку отверстия мочеиспускательного канала",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спринцевание влагалища антисептическим раствором",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "орошение половых органов антисептическим раствором",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Выберите состояние, которое не является противопоказанием для проведения катетеризации мочевого пузыря",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый простатит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острый уретрит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровь в мочеиспускательном канале",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая задержка мочи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кровоподтёки промежности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Медицинская сестра при проведении катетеризации мочевого пузыря имеет право использовать катетер",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медицинская сестра не имеет право проводить эту процедуру",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "медицинская сестра имеет право проводить эту процедуру мягким катетером",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "медицинская сестра имеет право проводить эту процедуру эластичным катетером",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "медицинская сестра имеет право проводить эту процедуру жёстким катетером",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "медицинская сестра имеет право проводить эту процедуру любым катетером",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Катетер Фолея имеет длину",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20 см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "25 см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "35 см",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40 см",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "55 см",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Металлический уретральный катетер устанавливает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "врач или медицинская сестра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "медицинская сестра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "врач",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Катетеризацию мочевого пузыря следует проводить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В стерильных перчатках",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В нестерильных перчатках",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В нестерильнях перчатках предварительно обработанных антисептиком",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Баллон катетера Фолея следует наполнять",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Воздухом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Стерильной водой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Стерильным физиологическим раствором",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Определите расстояние, на которое пациент должен проглотить зонд при промывании желудка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от губ до мочки уха и вниз до мечевидного отростка;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от губ до мечевидного отростка;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от губ вниз по передней брюшной стенке до пупка;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от губ и вниз по передней брюшной стенке на 6 см ниже пупка;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от губ до мочки уха и вниз по передней брюшной стенке на 6 см ниже пупка",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 52,
+				"text": "Противопоказаниями для промывания желудка являются",
+				"reason": "NO_ANSWER_MARKER"
+			}
+		]
+	}
+}

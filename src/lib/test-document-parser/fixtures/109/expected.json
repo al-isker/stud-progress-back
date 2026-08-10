@@ -1,0 +1,965 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Наука о питании называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нутрициология",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "андрология",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "персонология",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ихтиология",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сейсмология",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Существуют следующие виды искусственного питания:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фистульное, парентеральное, зондовое",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "парентеральное, зондовое, парафундальное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "парафундальное, парентеральное, зондовое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "парадонтальное, фистульное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Наиболее часто применяемым видом зондового питания является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интраперитонеальный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интраабдоминальный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "назофарингеальный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "назогастральный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "прямокишечный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Для фистульного кормления свищ накладывается на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подвздошную кишку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "восходящую часть ободочной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нисходящую часть ободочной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желудок",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "любом отделе ЖКТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Превосходства естественного энтерального питания заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образовании на здоровой слизистой кишки пика очагов пролиферации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обеспечении интенсивного всасывания продуктов на обширном участке слизистой ЖКТ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "появлении бурной перистальтики кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появление в кишечном тракте обильной микрофлоры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "активации процессов перекисного окисления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Преимущества использования тонкого зонда для зондового питания:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устраняются явления дискомфорта, образования эрозий, изъязвлений на слизистой ЖКТ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ускоряется процесс эпителизации хронических язв желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не ограничивается двигательная активность больного 2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активизируется выделение ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "быстро нормализуются изменения в функциональных пробах печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Золотое правило искусственного питания означает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "создание нулевого энергетического баланса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "создание отрицательного энергетического баланса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "создание положительного энергетического баланса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "создание должного энергетического баланса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "создание действующего энергетического баланса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Для определения потребности в энергии по методу (или формуле) Харриса-Бенедикта известную величину энергозатраты покоя (25 ккал/кг/сутки) следует умножить на следующий расчетный фактор метаболической активности",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,2-1,7",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,2-0,7",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,1-1,0",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,3-0,8",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,4-1,9",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Особо глюкозо-инсулиново зависимыми являются больные:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атеросклерозом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхиальной астмой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сепсисом и травматическими повреждениями",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "язвенной болезнью желудка и 12 –перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "артериальной гипертонией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Сырьем для производства жировых эмульсий является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мукополисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмульгированные растительные масла",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "производные ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "высококалорийные средства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Транспортной формой жиров является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хиломикрон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "левомикрон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "минимикрон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полимикрон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "позитрон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Наиболее ценным свойством растворов кристаллических аминокислот (РКА) является содержание в них всех:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "незаменимых аминокислот",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "заменимых аминокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "основных электролитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "основных микроэлементов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "компонентов свертывающей системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Первый трактат о питании был написан:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Аристотелем",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Галеном",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гиппократом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Авиценном",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Демокритом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "суточные нормы белков, жиров, углеводов, а также средняя энергетическая ценность суточного рациона первыми рассчитали выдающиеся ученые:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Либнх, Карл Фойт",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Экклезиаст",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гельвиций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эрисман",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пашутин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Значительный вклад в развитии науки о питании внесли отечественные ученые:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пашутин, Збарский",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Павлов, Покровский",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Доброславин, Северин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эрисман, Шатерников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Центральный институт питания был открыт в Москве в следующем году:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1860",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1910",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1930",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1960",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1999",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "менее плодовиты чем другие»?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Авиценне",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сократу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Руссо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Аристотелю",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "галену, Гарвею",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Суточная потребность углеводах должна быть не менее:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "150-200г",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "250-260г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "100-150г",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "80-100г",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50-100г",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Основным источником энергии при (ПП) являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углеводы, жиры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "белки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "минералы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "витамины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полипептиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "К основным пищевым веществам (макронутриентам) относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энтеросгель",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мукополисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белки, жиры, углеводы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "полипептиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "К микронутриентам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "витамины, минеральные вещества",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "анионы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "катионы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фосфаты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "минералокартикоиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Температура горячих блюд при раздачи должна быть в пределах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "45-500С",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "57-620С",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "87-720С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "35-470С",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50-600С 5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Энпит как препарат для энтерального питания представляет собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гомогенизированную эмульсию сбалансированную по белкам, жирам, углеводам, витаминам и минеральным солям",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гомогенизированную эмульсию сбалансированную только по белкам, жирам и углеводам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гомогенизированную эмульсию сбалансированную по белкам, жирам и витаминам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гомогенизированную эмульсию сбалансированную только по жирам, углеводам и минеральным солям",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гомогенизированную эмульсию сбалансированную лишь по белкам, витаминам и минеральным солям",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Важным элементом питания является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "режим питания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сервировка столов питания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возраст обслуживающего персонала",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "степень искусственного освещения в столовой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "присутствия во время кормления больных представителя администрации больницы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Столы в столовой должны быть рассчитаны на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3-5 человека",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1-3 человека",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2-4 человека",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1-2 человека",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "4-6 человека",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Диета (стол) №1а показана больным с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резким обострением язвенной болезни желудка и двенадцатиперстной кишки впервые 8-10 дней",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хроническим гастритом и гастродуоденитом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хроническим энтеритом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хроническими колитами с преобладанием запоров",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острым нефритом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Лечебный стол больному назначается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "главным врачом лечебного учреждения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лечащим врачом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "палатной сестрой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диетврачом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "представителем горздрава курирующим лечебное учреждение 6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "По лечебному столу № 1а больным запрещается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "блюда и гарниры из овощей, хлебобулочные изделия, молочнокислые продукты, пряности, закуски, кофе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "слизистые супы из круп с добавлением сливок, сливочного масла",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пюре из нежирных сортов мяса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "протертые каши с добавлением молока, сливок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "яйца всмятку, кисели и желе из сладких сортов ягод и фруктов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Полное голодание на 1-3 дня назначают больным после:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпицистостомии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колостомии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нефростонии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резекции желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ампутации конечности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Порционником называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "требование на получение лекарственных препаратов от старшей сестры утром текущего дня",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "требование на питание больных, составляемое в конце рабочего дня палатной медсестрой на основе назначения врача",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выписка из стационарного журнала по движению больных в отделении за истекшие сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "требование на количество порций хлеба подлежащих получить на больных из кухни",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "требование на приобретение комплекта постельного белья из склада",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

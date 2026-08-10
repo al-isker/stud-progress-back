@@ -1,0 +1,960 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": ". Частой причиной острой артериальной недостаточности является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоэмболия артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острый тромбофлебит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "варикозное расширение вен",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атеросклероз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ревмокардит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Частая причина хронической артериальной недостаточности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоэмболия артерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острый тромбофлебит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рожистое воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атеросклероз артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "варикоз вен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Наиболее информативный метод исследования при артериальной недостаточности кровообращения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прощупывание пульсации артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реовазография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "осциллография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артериография",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ультразвуковая доплерометрия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Тромб из левого желудочка может попасть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхнюю полую вену",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в ветви аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в яремную вену",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в нижнюю полую вену",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в бедренную вену",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Артериография это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "определение пульсации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгеноскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определение давления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рентгенконтрастное исследование артерий",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Флебография это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "определение венозного давления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "исследование лимфатических сосудов 2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рентгенконтрастное исследование вен",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "томография",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "доплерография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Тромб из глубоких вен нижних конечностей может попасть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в верхнюю полую вену",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в правый желудочек сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в сонные артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в аорту",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в яремные вены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какие препараты применяются для расплавления тромба:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "физиологический раствор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фурацилин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фибринолизин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стрептомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "новокаин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Назовите антикоагулянты прямого действия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фенилин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гепарин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эуфиллин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дикумарин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аспирин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "К каким осложнениям может привести острая тромбоэмболия магистральной артерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "варикозное расширение вен",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слоновость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гангрена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отек конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рожистое воспаление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Омертвение тканей это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "некроз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "варикоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Полное излечение варикозно-трофической язвы возможно только при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "применении венотонизируюших препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ношении эластических чулок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хирургическом вмешательстве",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лечении повязками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применении гиперборической оксигенации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Укажите наиболее важный симптом артериальной недостаточности конечности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бледность кожных покровов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижение кожной температуры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие пульсации периферических артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "выпадение волос",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперкератоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Трофическая язва это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "омертвение тканей органа в результате первичного нарушения кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "одна из форм некроза от воздействий инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участок некробиоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дефект кожи (слизистой) с малой тенденцией к заживлению",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "локальное омертвение тканей от сдавления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Одной из частных причин возникновения трофических язв может быть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническое нарушение периферического кровообращения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "психическая травма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ревматизм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полиартрит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перелом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Наиболее опасно для больного наличие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "колостомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гастростомы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тонкокишечного свища",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эпицистостомы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пупочного свища",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Какой из перечисленных относится к внутренним свищам?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпицистостома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гастростома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пищеводно-трахеальный свищ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слюной свищ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пупочный свищ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "К врожденному свищу относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гастроэнтеро анастомоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "влагалищно-прямокишечный свищ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эпицистостома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "колостома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желчный свищ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Выделите основной клинический признак влажный гангрены:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выраженная интоксикация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нормальная температура, хороший аппетит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отек, зловонный запах пораженных тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие четкой демаркационной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "чистый PS высокий лейкоцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Основная причина гангрены:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ревматизм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "варикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неврит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "авитаминоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атеросклероз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Самым характерным клиническим признаком сухой гангрены является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пузырь с геморрагическим содержимым",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мумификация тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие демаркационной линии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "выраженный отек тканей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какие лечебные средства применяются для расплавления тромба:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "физиологический раствор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертонический раствор новокаин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фурацилин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стрептокиназа 5",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Фистулография это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенконтрастное исследование свища",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рентгеноскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пальцевое исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "введение зонда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "исследование отделяемого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Абсолютным показаниям к ампутации конечности являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "оскольчатый перелом бедренной кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острый тромбофлебит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пандактилит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прогрессирующая анаэробная гангрена конечности",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "абсцесс голени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Пролежень чаще всего возникает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при активном ведении больных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "после аппендэктомии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при длительном лежачем положении",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "после массажа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "у больных тромбофлебитом подкожных вен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "При тромбозе вен назначают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "викасол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "переливание крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хлористый кальций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепарин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аминокапроновая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Язвы чаще всего возникают после:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "асептических операций",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ранения нервного ствола",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паранефральной блокады",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутривенной инъекции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "артериография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Какие свищи относятся к врожденным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "колостома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гастростома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "срединные и боковые свищи шеи 6",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эпицистостома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цекостома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Пролежни локализуются чаще в области:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бедра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предплечья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поясницы-крестца",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "надколенных чашек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Какой свищ относится к приобретенным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "срединный свищ шеи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боковой свищ шеи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпицистома",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "влагалишно - прямокишечный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "врожденный артериовенозный",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

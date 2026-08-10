@@ -1,0 +1,5418 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Поражение у детей младшего возраста вызывают в основном:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЭПКП",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ЭТКП",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ЭИКП",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ЭГКП",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ЭАГП",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Гемокультура - это культура микроорганизмов, выделенных из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мокроты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "испражнений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мочи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Для диагностики брюшного тифа ставят серологическую реакцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Видаля",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Вассермана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Борде - Жангу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Асколи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Райта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Кишечная палочка является возбудителем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дизентерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колиэнтеритов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сыпного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холеры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Бактериальная дизентерия – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шигеллез",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сальмонеллез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эшерихиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трепонематоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микобактериоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Для выделения гемокультур при диагностике брюшного тифа и паратифов кровь засевают на среду:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Раппопорта",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Желточно - солевую среду",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "МПА",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Левенштейна – Йенсена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Ведущим для диагностики кишечных инфекций является метод:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериоскопический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биологический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактериологический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "серологический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аллергический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Для морфологии холерного вибриона характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "овоидная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие одного жгутика",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перитрихиальное раположение жгутиков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спорообразование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие капсулы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Диагностика брюшного тифа на первой неделе заболевания проводится путем бактериологического исследования:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "испражнений",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гноя",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мочи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "При бактериологической диагностике дизентерии испражнения засевают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на МПА",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на среду Плоскирева",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на сахарный МПБ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на среду Китта - Тароцци",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на среду Леффлера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "засевают на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "МПА",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среду Леффлера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "среду Эндо",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "желчный бульон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среду Вильсон – Блера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Для микробиологической диагностики дизентерии рименяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериологическое исследование испражнений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кожно-аллергическую пробу Манту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакцию флокуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроскопию мазка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "феномен Исаева – Пфейффера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Специфическая профилактика холеры проводится путем применения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антитоксической сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "живой вакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анатоксина - холерогена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аутовакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вакцины АКДС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Микробиологическая диагностика холеры проводится путем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "посева исследуемого материала на щелочную пептонную воду",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микроскопии мазков крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исследования испражнений в реакции преципитации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "заражения белых мышей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "постановки кожно-аллергической пробы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Международная классификация рода шигелл основана на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тинкториальных свойствах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсинообразовании",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "морфологических особенностях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антигенном строении",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "расщеплении глюкозы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Для бактериологической диагностики эшерихиозов используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "посев испражнений на среду Эндо",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "исследование сыворотки в реакции нейтрализации токсина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заражение белых мышей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакцию Асколи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микроскопию мазка в темном поле",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Возбудитель брюшного тифа впервые был обнаружен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Х. Шотмюллером",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Л. Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К. Эбертом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Р. Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Д.И. Ивановским",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Для возбудителя холеры характерна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитевидная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кокковидная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательная окраска",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "терминальная спора",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "требовательность к питательным средам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Рост холерного вибриона на питательной среде отмечается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 24-48 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через 6-8 ч",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "через 1-2 недели",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в анаэробных условиях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при повышенной концентрации СО2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "На среде эндо кишечная палочка образует колонии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "красные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желтые",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бесцветные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кремовые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Для микробиологической диагностики дизентерии ведущим является метод:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроскопический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериоскопический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактериологический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "биологический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аллергический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Для культивирования холерного вибриона применяют питательные среды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "щелочной агар",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "среда Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровяной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желточный бульон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среда Раппопорта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Копрокультура - это культура, выделенная из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "испражнений",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гноя",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ликвора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Биликультура - культура, выделенная из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гноя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желчи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "испражнений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мочи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Сальмонеллы являются возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дизентерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "брюшного тифа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бруцеллеза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "колиэнтеритов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холеры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Энтеротоксигенные кишечные палочки вызывают у человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дизентерие подобное заболевание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "холероподобную коли инфекцию",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "колиэнтериты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "брюшной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "паратифы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Диффернциация свойств бактерий на среде Эндо основана на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расщеплении глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расщеплении лактозы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "разложении пептона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грампозитивной и грамнегативной окраске",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выявлении гемолитической активности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Колиэнтериты у детей вызывают кишечные палочки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "энтеропатогенные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "энтеротоксигенные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "энтероинвазивные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтероадгезивные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "энтерогеморрагические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Для возбудителя брюшного тифа характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие жгутиков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие зерен валютина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие капсулы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грамположительная окраска",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спорообразование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Серологическая диагностика брюшного тифа проводится путем постановки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реакции Райта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реакции Хеддльсона",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакции Борде - Жангу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакции Видаля",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "реакции Манту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Источник инфекции при брюшном тифе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больной человек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "крупный рогатый скот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мелкий рогатый скот",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грызуны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "свиньи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Helicobacterpylori у человека вызывает поражение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудка и 12 перстной кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "почек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мочевого пузыря",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Пищевые токсикоинфекции характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коротким инкубационным периодом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стойким иммунитетом после перенесенного заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хроническим течением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "длительным инкубационным периодом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивным путем заражения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Материалом для бактериологического исследования при сальмонеллезах служат:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спинномозговая жидкость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мокрота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "испражнения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мазок из зева",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мазок из влагалища",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Представители рода шигелл характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подвижностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличиемVi и Н-антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образованием капсулы в макроорганизме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличиемо - соматического антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "неспособностью расти на простых питательных средах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Шигеллы вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дизентерию",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "холеру",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ревматизм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гастроэнтерит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Шигеллез характеризуется поражением:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тонкого кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "толстого кишечника",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "слизистой полости рта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочеполовых органов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слизистой желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Дизентерия в настоящее время наиболее часто вызывается шигеллами:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Флекснера",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Зонне",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Григорьева-Шига",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Бойда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Видаля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Морфология кишечных палочек:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мелкие палочки с закругленными концами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "капсулу образуют при росте на питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "имеют грамположительную окраску",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "красятся по методу Нейссера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеют центральное расположение споры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Возбудитель холеры имеет форму:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кокковидную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "извитую, виде запятой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ввиде палочки с обрубленными концами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "барабанной палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "веретенообразную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Холерный вибрион красится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по Цилю - Нильсену",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по Морозову",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамнегативно",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грампозитивно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по Гинсу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Резистентность возбудителя холеры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "быстро погибает при низкой температуре",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чувствителен к кислой среде желудочного сока",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сохраняется при кипячении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устойчив к действию дезинфицирующих веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в испражнениях больного мало устойчив",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Холероген, синтезируемый холерным вибрионом относится к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзотоксинам",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эндотоксинам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анатоксинам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериоцинам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бактериофагам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Для дифференциации энтеробактерий по способности ферментировать лактозу, используют среды:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Левина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "МПБ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Плоскирева",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эндо",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "МПА",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Источником инфекции при холере является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больной человек или бактерионоситель",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "насекомые - переносчики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крупный рогатый скот",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мелкий рогатый скот",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мыши",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Возбудитель холеры агглютинируется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "01 - сывороткой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "02 - сывороткой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "03 - сывороткой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "04 - сывороткой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не агглютинируется сывороткой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Возбудитель брюшного тифа относится к роду:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Escherichia",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Bordetella",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Salmonella",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Moraxella",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Neisseria",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Иммунитет после перенесенного брюшного тифа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "искусственный активный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "видовой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антитоксический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антибактериальный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Диагностика брюшного тифа в стадии реконвалесценции проводится путем бактериологического исследования:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гноя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "испражнений",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мазка из зева",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желудочного сока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Бактериологическая диагностика холеры проводится путем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "исследования испражнений в реакции преципитации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "заражения белых мышей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "посева исследуемого материала на щелочную пептонную воду",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "микроскопии мазков крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "постановки пробы манту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "что исследуемая культура:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферментирует глюкозу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ферментирует лактозу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коагулирует плазму",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грамположительная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грамотрицательная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Ингредиенты необходимые для постановки реакции Видаля:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшнотифозный о - диагностикум",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "брюшнотифозный н - диагностикум",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эритроцитарный Vi-диагностикум",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "комплемент",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитическая сыворотка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Пути передачи кишечных инфекций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вертикальный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "алиментарный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "половой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "К бактериальным кишечным инфекциям относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшной тиф",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "холера",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "туляремия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бруцеллез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дифтерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Shigella flexneri вызывает заболевание:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гастроэнтерит у детей и взрослых",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эшерихиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бруцеллез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тифо-паратифозную инфекцию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дизентерию",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Качестве исследуемого материала используют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желчь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слизь из носоглотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моча",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Для ускоренного обнаружения холерного вибриона используют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммунофлюоресцентный метод",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выделение биликультуры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "серологический метод",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аллергический метод",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полимеразно-цепная реакция",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Серовары холерного вибриона:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Огава",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Инаба",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Бенгал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эль-тор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Бюрне",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Пути передачи холеры:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "водный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алиментарный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воздушно-пылевой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Среди возбудителей кишечных инфекций, как правило, неподвижны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эшерехии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сальмонеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шигеллы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "холерный вибрион",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Коли-титр определяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "методом бумажных дисков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "методом мембранных фильтров",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фаготипированием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "седиментационным методом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хлорированием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Дифференциально-диагностической средой для эшерихий является среда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ру",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Леффлера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Вильсон - Блера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эндо",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Кровяной Агар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Антибиотикорезистентность выделенной культуры шигелл определяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "методом мембранных фильтров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фаготипированием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "методом бумажных дисков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "РИФ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ПЦР (полимеразно-цепная реакция)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Коли-титр – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "количество особей e.coli, которое обнаруживается в 1 л воды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наименьший объем воды, в котором обнаружена хотя бы одна особь e.coli",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наименьший объем воды, в котором обнаруживается до 10 особей e.coli",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "количество особей е.coli, которое обнаруживается в 10 л воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "количество особей e.coli, которое обнаруживается в 5 л воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Коли - индекс – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "количество кишечных палочек в 1 л воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "количество всех микробов в 1 мл воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "минимальное количество воды, в котором содержится 1 кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "количество кишечных палочек в 10 л воды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "количество энтеробактерий в 1мл воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Для морфологии возбудителя холеры характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грамположительная окраска",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "терминальноерасположение спор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образование капсулы в макроорганизме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "извитая форма",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "расположение в виде цепочки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Основной механизм передачи холеры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аэрогенный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровяной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вертикальный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фекально-оральный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "контактно-половой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Источники инфекции при холере:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больные и бактерионосители",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "насекомые-переносчики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грызуны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидробионты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крупный рогатый скот",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Для изучения морфологии холерного вибриона применяют Метод окраски по:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Граму",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Нейссеру",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Цилю-Нильсену",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ожешко",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Бурри-Гинсу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "На среде эндо кишечная палочка образует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бесцветные колонии с голубоватым оттенком",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колонии желтого цвета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колонии с зоной гемолиза вокруг колоний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "красные колонии с металлическим блеском",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "синие колонии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Дизентериеподобные заболевания вызывают эшерихии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "энтеропатогенные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энтероинвазивные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "энтеротоксигенные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтерогеморрагические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "парентеральные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Материалом для исследования при пищевых Токсикоинфекциях являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рвотные массы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "остатки продуктов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слизь из носоглотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моча",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Укажите возбудитель холеры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Vіbrіo cholerae",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Vіbrіo parahaemolytіcus",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Vіbrіo algіnolytіcus",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Vіbrіo vulnіfіcus",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Vіbrіo fluvіalіs",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Укажите морфологические свойства холерного вибриона: :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грам+ неспорообразующие палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грам- подвижные монотрихи в виде запятой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грам+ спиралевидные бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грам- коккобактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грам- перитрихи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Укажите фамилию ученого, открывшего возбудителя классической холеры Vіbrіo cholerae:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т. Эшерих",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Р. Кох",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Д. Сальмон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "А. Иерсен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "К. Шига",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Эль-тор Vіbrіo eltor: :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Г. Гаффки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "К. Эберт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ф. Готшлих",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Г. Шотмюллер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Э. Клебс",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Элективной питательной средой для холерного вибриона является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "среда эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среда плоскирева",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "висмутсульфитный агар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щелочной агар",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мясо-пептонный агар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Действием какого фактора патогенности Vіbrіo cholerae Обусловлено обезвоживание организма при холере:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активной подвижностью вибриона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адгезией вибриона",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пенетрацией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экзотоксином-холерогеном",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эндотоксином",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Укажите экспресс-метод диагностики холеры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериоскопический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериологический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "серологический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунолюминисцентный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аллергический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Укажите факторы патогенности холерного вибриона:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "подвижность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нейраминидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плазмокоагулаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экзотоксин-холерогенп",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиалуронидаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Какой молекулярный механизм лежит в основе биологических эффектов холерогена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активация аденилатциклазы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инактивация белка G",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение баланса ионов Na +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетение образования ЦАМФ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "активация гуанилатциклазы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "В городе А. вспышка заболевания, похожего на холеру. Укажите, что подлежит первоочередному бактериологическому исследованию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пищевые продукты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вода",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "почва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "животные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грызуны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Укажите признаки, соответствующие морфологии кампилобактерий:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Грамотрицательные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Извитые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Подвижные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Капсул не образуют",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Укажите тип дыхания кампилобактеров:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Аэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Облигатные анаэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Факультативные анаэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Капнофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Микроаэрофилы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Какой из указанных капсульных антигенов характерны для эшерихий:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "А-Аг",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "B-Аг",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "L-Аг",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Vі-Аг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "М-Ar",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Патогенные варианты эшерихий вызывают у людей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коли-бактериоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колиэнтерит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коли-сепсис",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кольпит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дисбактериоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Какой материал берется от больного для бактериологического исследования при колиэнтеритах (ОКЗ):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "моча",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желчь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "испражнения",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Что характерно для коли-бактериозов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникают на фоне иммунодефицита",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сопровождаются снижением активности фагоцитоза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нарушается барьерная функция тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "невосприимчивость не формируется",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "формируется напряженный иммунитет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Укажите морфологические признаки, свойственные Эшерихиям:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупные грамположительные палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "палочки, располагающиеся в цепочку",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "палочки с центрально расположенной спорой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грамотрицательные палочки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "извитые бактерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Укажите назначение среды эндо в бактериологической диагностике кишечных инфекций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "среда накопления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "элективная среда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дифференциально-диагностическая среда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "транспортная среда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "основная среда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Укажите морфологию колоний, образуемых кишечной палочкой на среде Эндо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сине-черные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "белые с зоной гемолиза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "темно-красные с металлическим блеском",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "черные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шероховатые r-формы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Укажите биохимические свойства, служащие главным отличительным свойством эшерихий от патогенных энтеробактерий:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "расщепляют глюкозу до кислоты и газа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "расщепляют лактозу до кислоты и газа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "образуют индол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расщепляют маннит до кислоты и газа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уреазоотрицательные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Отличительным свойством уропатогенных эшерихий является наличие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "r-плазмид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "р-фимбрий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "экзотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "жгутиков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Перечислите факторы патогенности эшерихий:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фимбрии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "энтеротоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эксфолиатин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемолизин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лецитиназа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Укажите фамилию ученого, впервые выделившего кишечную палочку:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Д. Сальмон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Т. Эшерих",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "К. Шига",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Э. Клебс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "А. Иерсен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Укажите признаки, отличающие кишечную палочку от шигелл:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "характер роста на среде эндо",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "биохимические свойства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антигенная структура",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "подвижность",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "морфология",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "В алгоритм идентификации кишечных палочек не входит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "определение морфологических свойств",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "определение характера роста на среде эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определение биохимических свойств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакция агглютинации с ОВ-коли-сыворотками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определение Vі-антигена",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Серологическую идентификацию патогенных эшерихий проводят с помощью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютинирующих поливалентных сальмонеллезных сывороток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "агглютинирующих ов-коли-сывороток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "агглютинирующих дизентерийных сывороток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коли-протейного бактериофага",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "агглютинирующих моновалентных сальмонеллезных сывороток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Из посева испражнений больного кишечной инфекцией на среду эндо выросли бесцветные колонии, агглютинирующиеся смесью ОВ-коли-сывороток. Какой следующий шаг вы предпримете для верификации диагноза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поставите р. агглютинации с типоспецифическими ов-коли- сыворотками",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поставите аллергическую пробу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поставите р. преципитации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "определите токсигенность культуры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определите вирулентность культуры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Укажите микробы, являющиеся возбудителями бактериальной дизентерии:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Salmonella enterіtіdіs",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Shіgella dysenterіae",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Shіgella flexnerі",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Shіgella boydіі",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Shіgella sonneі",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Для каких из нижеуказанных энтеробактерий отсутствие жгутиков является родовым признаком:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сальмонелл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эшерихий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шигелл",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иерсиний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протеев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Эффективным этиотропным средством для лечения дизентерии являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пенициллины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нитрофурановые препараты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полиены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интерферон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рифампицины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Морфологические признаки, свойственные шигеллам:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "палочки с закругленными концами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "грамотрицательные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неподвижные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "капсул не образуют",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образуют цисты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Внутриродовая классификация шигелл основана на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "морфологических различиях видов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "культуральных различиях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсинообразующей способности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тинкториальных особенностях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антигенном строении",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Укажите морфологию колоний, образуемых шигеллами на средах Эндо, Левина, Плоскирева:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фиолетовые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "розовые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "темно-красные с металлическим блеском",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бесцветные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "шероховатые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Какие биохимические свойства отличают shіgella sonne от других шигелл:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не расщепляют маннит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сбраживают глюкозу до кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медленно на 3-5-й день сбраживают лактозу до кислоты без газа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "образуют индол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сероводород не образуют",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "В микробиологической диагностике дизентерии используются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "люминисцентная микроскопия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бактериологический метод",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бактериоскопический метод",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "реакция непрямой агглютинации",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "реакция нейтрализации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Специфическая профилактика дизентерии осуществляется с помощью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дизентерина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поливалентного дизентерийного бактериофага",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антитоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анатоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коли-протейного фага",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Для лечения хронической дизентерии применяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антитоксическую сыворотку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "специфический гамма-глобулин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поливалентный бактериофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антимикробную сыворотку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аутовакцину",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Схема кауфмана - уайта отражает антигенную структуру:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эшерихий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клебсиелл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "протеев",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сальмонелл",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "иерсиний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Какие из указанных энтеробактерий имеют двухфазный Н - антиген:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эшерихии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сальмонеллы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "иерсинии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шигеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клебсиеллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Укажите возбудитель брюшного тифа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Salmonella enterіtіdіs",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Salmonella typhіmurіum",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Salmonella anatum",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Salmonella іnfantіs",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Salmonella typhі",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Материалом для бактериологического исследования при подозрении на брюшной тиф в 1-ю неделю заболевания Является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "испражнения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желчь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "моча",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "промывные воды кишечника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "К факторам патогенности сальмонелл относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "энтеротоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цитотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "способность к размножению в макрофагах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гистотоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "При брюшном тифе на 2-3 неделе заболевания бактериологически исследуются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "испражнения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "моча",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "промывные воды кишечника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Специфическая профилактика (вакцинация) какой кишечной инфекции разработана и входит в систему противоэпидемических мероприятий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дизентерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колиэнтеритов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "брюшного тифа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иерсиниоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сальмонеллеза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Человек, в прошлом перенесший брюшной тиф, хочет работать в пищеблоке. Какие исследования необходимо провести для того, чтобы допустить его к работе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выделить копрокультуру и поставить р. Vі-гемагглютинации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выделить копрокультуру и поставить р. Нейтрализации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выделить гемокультуру",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "взять смыв из носоглотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выделить уринокультуру",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Возбудители бактериальной дизентерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микроаэрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "психрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не требовательны к питательным средам",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нуждаются в дополнительных факторах роста",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "ЭПКП вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поражения толстого кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поражения тонкого кишечника",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диарею инвазивного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "токсинемию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "септицимию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Возбудители бактериальной дизентерии относятся к роду:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Escherichia",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Shigella",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Salmonella",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Yersinia",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Klebsiella",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Возбудители бактериальной дизентерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коккобактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамположительны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательны",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подвижны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Элективные среды для выделения возбудителей бактериальной дизентерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЖСА, КА",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Плоскирева, Эндо",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Сывороточный агар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Шоколадный агар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Висмут-сульфит агар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Возбудители бактериальной дизентерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "представители нормальной микрофлоры человека",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "условно-патогенные микроорганизмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "патогенные микроорганизмы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "возбудители оппортунистических инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сапрофитические микроорганизмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Антиген возбудителей бактериальной дизентерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жгутиковый",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "протективный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "капсульный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "соматический о-антиген",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "суперантиген",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Пути передачи при бактериальной дизентерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушно-пылевой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "алиментарный, контактный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "трансплацентарный, половой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Исследуемый материал при бактериологической диагностике бактериальной дизентерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "испражнения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моча",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сыворотка крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Дизентерин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аллерген",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "иммуномодулятор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Исследуемый материал при бактериологической диагностике бактериальной дизентерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "испражнения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моча",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сыворотка крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Возбудителей брюшного тифа, паратифов а и в дифференцируют по:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "морфологии, окраске по граму",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "культуральным, биохимическим свойствам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "биохимическим, антигенным свойствам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антигенным, вирулентным свойствам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "устойчивости во внешней среде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Источники инфекции при брюшном тифе, паратифах а и в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пищевые продукты, вода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "больные люди, бактерионосители",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синантропные грызуны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "природные грызуны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перелетные птицы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Пути передачи возбудителей брюшного тифа, паратифов а и в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарный, контактный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "трансплацентарный, половой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздушно-пылевой д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трасмиссивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Методы микробиологической диагностики брюшного тифа, паратифов а и в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроскопический, бактериологический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериологический, серологический",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "серологический, аллергический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аллергический, генетический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не разработана",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Исследуемый материал при подозрении на брюшной тиф на первой неделе заболевания:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желчь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "испражнения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моча",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Время выдачи ответа из бак.лаборатории при выделении гемокультуры возбудителя брюшного тифа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 3-4-й день",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на 4-5-й день",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на 5-6-й день",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на 7-10-й день",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "на 14-16-й день",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Выделение гемокультуры при бактериологической диагностике брюшного тифа включает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроскопию препарата из крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "посев крови на желчный бульон 1:5",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "посев крови на желчный бульон 1:10",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "посев крови на висмут-сульфит агар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "исследование парных сывороток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Арбитражным методом микробиологической диагностики бактерионосительства S. typhi является выделение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемокультуры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биликультуры",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "копрокультуры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уринокультуры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миелокультуры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "О бактерионосительстве S. typhi свидетельствуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IgA",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "IgE",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "IgD",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "IgM",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "IgG",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Для «инфекционного» видаля характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение титра специфических антител при исследовании парных сывороток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарастание титра специфических антител при исследовании парных сывороток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие только IgG",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие только Ig M",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "РА положительна с 1-го дня заболевания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Для «анамнестического» видаля характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарастание титра специфических антител при исследовании парных сывороток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие нарастания титра специфических антител при исследовании парных сывороток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие только Ig M",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие Ig M, IgG",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие Ig M, IgG, IgA",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Для «прививочного» видаля характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ра положительна у больных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ра положительна у переболевших",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ра положительна у вакцинированных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ра положительна у новорожденных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ра положительна у подростков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Специфическая терапия брюшного тифа, паратифов А и В:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аутовакцина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммуноглобулин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериофаг",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "анатоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Источник инфекции при сальмонеллезных пищевых токсикоинфекциях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больные люди",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактерионосители",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пищевые продукты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "больные животные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Возбудители при сальмонеллезных пищевых токсикоинфекциях накапливаются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тонком кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "толстом кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желчном пузыре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "готовом блюде",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "инфицированной воде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Методы микробиологической диагностики сальмонеллезных пищевых токсикоинфекций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроскопический, экспресс-диагностика (РИФ)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериологический, серологический",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "серологический, аллергический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аллергический, генетический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не проводится",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Время выдачи ответа из баклаборатории при выделении копрокультуры возбудителя сальмонеллезных пищевых токсикоинфекций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 3-4-й день",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на 4-5-й день",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на 5-6-й день",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на 7-10-й день",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на 14-16-й день",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Отличительная особенность сальмонелл – возбудителей пищевых токсикоинфекций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферментация лактозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образование экзотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "психрофильность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "основной резервуар - животные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "основной резервуар – человек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "При сальмонеллезных пищевых токсикоинфекциях получение положительных результатов наиболее вероятно при bсследовании:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желчи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "испражнений",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ликвора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Холерный вибрион длительно сохраняется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в почве",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в водоемах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в грызунах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "под прямыми солнечными лучами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в 1% соляной кислоте",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "При холере поражаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "суставы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печень, селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тонкий кишечник",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "толстый кишечник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Холерный вибрион относится к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "облигатным анаэробам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "факультативным анаэробам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "облигатным аэробам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроаэрофилам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "капнофилам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "При исследовании на бактерионосительство холерного вибриона материал из прямой кишки забирают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пинцетом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериологической петлей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ректальной петлей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "руками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шпателем Дригальского",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "В настоящее время пандемию холеры определяет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биовар Cholerae",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биовар Eltor",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "серовар Бенгал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всеобщее потепление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "социально-экономическое положение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Фекальные массы при холере представляют собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обычный кал",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "«рисовый» отвар",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "меконий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выделения, содержащие слизь и кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прозрачную жидкость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "При окрашивании по граму холерный вибрион:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "окрашивается грамположительно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окрашивается грамотрицательно",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не окрашивается обычными красителями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "окрашивается биполярно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "окрашивается в зеленый цвет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "На щелочной пептонной воде холерный вибрион дает видимый невооруженным взглядом рост:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 20 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через 4-6 ч",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "через 9-12 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через 24 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через 48 ч",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Холерный вибрион относится к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "облигатным анаэробам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "факультативным анаэробам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "облигатным аэробам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроаэрофилам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "капнофилам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "У холерного вибриона выделяют биовары:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эльтор, тифи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гикошима, бенгал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "огава, эльтор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эльтор, холера",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кавказика, алтаика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "По морфологии возбудитель холеры относится к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коккам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бациллам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вибрионам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "овоидам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спириллам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Оптимум температуры длякультивирования холерного вибриона:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "28 с",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "30 с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "37 с",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "40 с",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "56 с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Путь передачи холерного вибриона:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "алиментарный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "половой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трансплацентарный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "В природе холерой болеют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "домашний крупный рогатый скот",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пресмыкающиеся, земноводные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "только люди",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "млекопитающиеся, люди",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "птицы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Схема исследования на холеру основана на способности вибриона:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "опережать рост сопутствующей флоры и расти на щелочных питательных средах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "расти в дистиллированной воде",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расти на кислых питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расти на плотных питательных средах в течении месяца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "расти на питательных средах с добавлением фенола",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Правила забора и доставки испражнений при холере:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на фоне антибиотикотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "доставка не позднее 3-х суток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "до начала антибиотикотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "после приема пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "забор после чистки зубов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Холерный вибрион:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образует капсулу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образует спору",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активно подвижен",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "неподвижен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "устойчив в воздушной среде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Холерный вибрион был выделен в чистой культуре:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Э. Дженнером",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Р. Кохом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Л. Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Л. А. Зильбером",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "З. В. Ермольевой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Холера относится к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндемичным инфекциям",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "особо опасным инфекциям",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инфекциям, не представляющим особой опасности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зоонозным инфекциям",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивным инфекциям",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Методы экспресс-диагностики при холере:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "посев на щелочной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "риф с выделенной культурой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "риф с испражнениями обследуемого",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "заражение лабораторных животных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рнга с сывороткой обследуемого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "В европе холера известна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "со времен древнего рима",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "со средневековья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с начала XIX века",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с конца XIX века",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "с начала XX век",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Во время вспышек холеры больных содержат:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в специализированных госпиталях",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в обычных инфекционных отделениях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лечат амбулаторно в поликлиниках",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не изолируют",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

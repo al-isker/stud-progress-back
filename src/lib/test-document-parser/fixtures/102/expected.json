@@ -1,0 +1,635 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Наиболее часто разрывается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "широчайшая мышца спины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямая мышца живота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "четырехглавая мышца бедра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "двуглавая мышца плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "икроножная мышца голени",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Выделите клинический признак ушиба мягких тканей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "понижение местной температуры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение местной температуры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение чувствительности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "припухлость, нарушение функции гиперемия кожи с четкими границами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Выделите основную локализацию внутричерепных гематом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутрижелудочковая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "субдуральная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перидуральная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "междолевая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интрадуральная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Клиническая картина травматического токсикоза развивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сразу после сдавления конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с момента освобождения конечности находившегося от сдавлении не менее через 2-3 часа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "через 4-8 ч. после освобождения конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в течении 24-48 ч. после освобождения конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через 2-4 сут. после освобождения конечности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Выделите основной патогенетический фактор в развитии травматического токсикоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертермический синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировая эмболия внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "парез ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение свертываемости крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "травматическая токсемия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Клиническая картина сотрясения головного мозга характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антеградной амнезией 2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выпадением функции тех или иных структур мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушением чувствительности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "потерей сознания в момент травмы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гемипарезом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "К закрытым повреждениям мягких тканей относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "травматическая асфиксия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сотрясение грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "травматический токсикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ушибы, растяжение, разрывы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сдавление грудной клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Оказание первой помощи при травматическом токсикозе означает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровопускание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "введение антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наложение гипсовой повязки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наложение жгута на конечность, транспортная иммобилизация, введение болеутоляющих средств, местное применение холода",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "интубация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Основные клинические симптомы ушиба мозга - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гибернация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "длительная потеря сознания, многократная рвота, появление очаговых симптомов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кровоизлияние в области груди",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "потеря аппетита, кахексия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Ориентировочный срок лечения ушиба мозга составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1,5 месяца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2 месяца",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "5 месяцев",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полгода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Дегидратационная терапия проводится при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повреждениях желудочно-кишечного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повреждениях грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плазмопотере",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повреждениях головы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "повреждениях органов забрюшинной области 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Применение холода при повреждениях мозга направлено на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остановку желчеистечения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "остановку ликвороистечения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "остановку кровотечения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "остановку лимфореи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "восстановление чувствительности в конечностях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "При повреждении головы для транспортной иммобилизации применяют шину:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Белера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Цито",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Виноградова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Еланского",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Кузьминского",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "При закрытых повреждениях головы лучшим для транспортировки считается положение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Тренделенбурга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фовлера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "горизонтальное на спине",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на правом боку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на спине с валиком под шею",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "В лечении сдавления мозга ведущее место занимают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибактериальная терапия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемотрансфузия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "декомпрессионная трепанация черепа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "спинномозговая пункция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применение ферментов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Клиника разрыва мышцы выражается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выпадении функции поврежденной мышцы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "появлении контрактуры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипертонусе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "параличе конечности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "является: 4",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переливание крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вливание физиологического раствора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "назначение грелки на голову",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в/в вливание 40% раствора глюкозы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "назначение морфина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Травматический токсикоз характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эйфорией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разжижением крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличием в моче гемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличием в моче миоглобина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличием в моче сахара",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Оказание первой помощи при травматическом токсикозе заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "новокаиновой футлярной блокаде и наложение жгута на конечность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обкладывании поврежденной ноги грелками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вливание гипотензивнных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ведение мезатона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вливание 40% уротропина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Сотрясение головного мозга характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кратковременной потерей сознания расширением зрачков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "потерей речи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экхимозами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тахикардией",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

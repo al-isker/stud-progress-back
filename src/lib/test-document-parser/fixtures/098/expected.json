@@ -1,0 +1,1488 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Первичная костная мозоль образуется из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "камбиального слоя надкостницы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кровеносных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфатических сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гематомы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "костных балок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Замедление консолидации отломков костей возникает при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперкальцемии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интерпозиции тканей между отломками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повреждении лимфатических сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повреждении надкостницы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "чрезмерно длительной иммобилизации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Противопоказанием к остеосинтезу отломков является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сепсис",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поперечный перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отрывной перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ложный сустав",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перелом, сросшийся со смещением",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "По анатомической локализации различают следующие переломы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диафизарные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "интрамедуллярные 2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "косые",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интраспонгиозные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "В первые часы перелома отсутствует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение температуры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "боль",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение функции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "деформация на месте перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крепитация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Эпифизарные переломы характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутрисуставным расположением линии излома",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "легкостью сопоставления отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "быстрым срастанием отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "склонностью к жировой эмболии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "значительным укорочением длины конечности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Метафизарные переломы характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чаще вколоченностью отломков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "плохим срастанием отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подвижностью отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "значительным смещением отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неблагоприятным течением",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Источником костеобразования при переломе не является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "костная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надкостница",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гаверсовы каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мышцы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "При транспортировке больного с переломом бедра лучше всего использовать шину:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Крамера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Майорова",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Дитерихса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Кузьминского",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Богданова",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Переломы не бывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриутробные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наследственные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "патологические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "приобретенные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "несросшиеся",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Наиболее часто привычный вывих возникает в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коленном суставе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тазобедренном суставе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плечевом суставе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "локтевом суставе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "голеностопном суставе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "К методам вправления вывиха плеча не относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бормана",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Кахера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гиппократа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пирогова",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Вколоченным перелом считается в случае если:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "один отломок внедряется в другой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перелом сочетается с вывихом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не нарушается целость кожных покровов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не нарушается целость надкостницы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не происходит смещение отломков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Аппарат Илизарова применяется для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внеочагового остеосинтеза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "скелетного вытяжения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "контроля качества гипса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммобилизации конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "транспортировки в лечебное учреждение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Шина Дитерихса применяется при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "репозиции отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспортировке больного",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "скелетном вытяжении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лечение осложненных переломов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оперативном лечении 4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Первая помощь при переломе на месте происшествия заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "введении антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммобилизации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "введении новокаина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наложении швов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "переливании крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "К наркотическим анальгетикам относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "камфора",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "морфин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кордиамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "викасол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "димедрол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "С целью транспортной иммобилизации применяется шина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Волкова",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Белера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Пирогова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Крамера",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Киршнера, Вишневского",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какой способ лечения является правильным, если у больного косой перелом без смещения отломков?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "оперативное лечение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипсовая повязка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "скелетное вытяжение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммобилизация шиной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "липкопластырное вытяжение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "При переломе средней трети плеча следует наложить гипсовую повязку с охватом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одного сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "двух суставов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трех суставов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не имеет значения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только на диафиз плеча",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Оптимальная длина гипсового бинта составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,5 - 1 м 5",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1,5- 2 м",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "2,5 - 3 м",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3,5 - 4 м",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "4,5 - 5 м",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Оптимальной температурой для смачивания гипсового бинта (лангеты) является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20°",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "30°",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "40°",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "50°",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "60°",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Качество гипса считается хорошим, если наложенная в 4-5 слоя циркулярная гипсовая повязка затвердевает за:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1 -2 мин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3-4 мин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6-15 мин.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "18-20 мин.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "22-30 мин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Какой из перечисленных переломов лечится гипсовой повязкой?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отрывной перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перелом шейки бедра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечный перелом диафиза бедра со смещением отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поднадкостничный перелом",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "перелом таза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Перелом по типу «зеленой веточки» это–:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "открытый перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перелом кости с сохранением целостности надкостницы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перелом выступающих частей кости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутрисуставной перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перелом кости без повреждения мягких тканей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Какую гипсовую повязку применяют при переломе плеча:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "корсетную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кокситную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "торакобрахиальную",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипсовый тутор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипсовую кроватку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Какую гипсовую повязку применяют при переломе бедра:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "корсетную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кокситную (тазобедренную)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "торакобрахиальную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипсовый тутор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипсовую кроватку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Показанием для лечения перелома гипсовой повязкой является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отрывной перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поднадкостничный перелом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поперечный перелом диафиза со смещением отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "косой перелом диафиза с интерпозицией мягких тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перелом шейки бедра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Оптимальным методом лечения открытого перелома бедра является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "применение повязок с антисептическими растворами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лечение гипсовыми повязками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наложение скелетного вытяжения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "закрытая репозиция отломков с ПХО раны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оперативное лечение с ПХО раны, репозицией и фиксацией отломков костей",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Какой способ лечения является правильным, если у больного поперечный перелом с интерпозицией мягких тканей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипсовая повязка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "скелетное вытяжение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оперативное лечение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иммобилизация шиной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "физиотерапевтическое лечение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Симптомом травматического вывиха конечности является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изменение относительной длины конечности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изменение абсолютной длины конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "патологическая подвижность в суставе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крепитация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подкожная эмфизема",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Какой максимальный срок скелетного вытяжения для больного в возрасте 35 лет с поперечным переломом бедра:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5-6 мес.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4-4,5 мес. 7",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2-2,5 мес.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3-3,5 мес.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1-1,5 мес.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Что является критерием для снятия скелетного вытяжения при лечении переломов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изменение абсолютной длины конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образование первичной костной мозоли",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "исчезновение болей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменение относительной длины конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование вторичной мозоли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Какую шину следует применить для скелетного вытяжения при переломах бедра и большеберцовой кости:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Крамера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Белера",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Дитерихса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кузьминского",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Цито",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Укажите вид оперативного вмешательства применяемый при переломах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "металлоостеосинтез",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": ") тендопластика",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миопластика",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артротомия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "остеотомия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Назовите автора вправления вывиха бедра:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фовлер",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Джанелидзе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Дезо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Вельпо",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кузьминский",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "К клиническим признакам вывиха относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вынужденное положение конечности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "разболтанность в области сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крепитация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "патологическая подвижность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изменение абсолютной длины конечности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Одним из инструментов для скелетного вытяжения является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дрель",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "костные кусачки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "металлический стержень",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "игла Кассирского",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "элеватор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "При переломе ключицы накладывается стандартная шина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дитерихса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Маерова",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кузьминского",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Виноградова",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Импровизированная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "При переломе ключицы накладывается повязка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дезо",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Пирогова",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Черепашья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Крестообразная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Колосовидная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Для обезболивания перелома новокаин вводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подкожно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутримышечно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поднадкостницу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в гематому вокруг отломков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эндоневрально",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Универсальной медицинской шиной является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дитерихса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Крамера",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Богданова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кузминского",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пирогова",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "При лечении перелома плеча следует использовать шину:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Крамера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Виноградова",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Маерова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Дитерихса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ЦИТО 9",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "При переломе шейных позвонков иммобилизация производится шиной:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Еланского",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Крамера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кузминского",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Виноградова",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Вакумной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Эпифизиолиз это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перелом эпифиза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перелом метафиза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутрисуставной перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перелом мыщелка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перелом по линии ростковой зоны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Основным источником костеобразования при переломе является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гаверсовы каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндост",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "камбиальный слой надкостницы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "соединительная ткань вокруг перелома",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 3,
+				"text": "В отдаленном периоде после консолидации отломков костей наблюдаются осложнения:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

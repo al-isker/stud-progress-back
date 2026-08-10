@@ -1,0 +1,3152 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "ТЗ_ Р6. БЛОК А. Укажите передне- задний размер (в мм) спинного мозга у лиц зрелого возраста:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5-6",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "7-8",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "8-9",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "11-12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "14-16",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Укажите площадь поперечного сечения (в кв.мм) спинного мозга у лиц зрелого возраста:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "50",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "63",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "90",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "100",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "38",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Укажите щели спинного мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя срединная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "задняя срединная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "боковая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "промежуточная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верхняя",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Укажите, где находится тонкий пучок Голля и клиновидный пучок Бурдаха:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "боковой канатик",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "задний канатик",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "передний канатик",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продолговатый мозг",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Укажите перекресты продолговатого мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "перекрест пирамид",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перекрест покрышки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зрительный перекрест",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перекрест медиальных петель",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "руброспинальный перекрест",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Укажите локализацию оливы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "латеральнее пирамиды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "медиальнее пирамиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "под пирамидой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на задней поверхности продолговатого мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Укажите, к какому отделу мозга относится продолговатый мозг:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "к ромбовидному мозгу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к среднему мозгу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к переднему мозгу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к заднему мозгу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к мозговому стволу",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Укажите, к какому отделу мозга относится эпифиз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "промежуточный мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ромбовидный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "четверохолмие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продолговатому",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Укажите, какова длина (см) спинного мозга у мужчин:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "30",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "52",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "43",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "45",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "55",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Укажите проекцию места расположения верхней границы спинного мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уровень верхнего края второго шейного позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уровень нижнего края большого затылочного отверстия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уровень нижнего края первого шейного позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "место выхода корешков первой пары спинномозговых нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "уровень шейного утолщения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Укажите анатомические образования, которые формируют спинномозговой нерв:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задний канатик",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боковой канатик",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "передний корешок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "задний корешок",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "передний канатик",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Укажите уровни расположения крестцовых и копчиковых сегментов, в позвоночном канале:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уровень тел X-XI грудных позвонков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уровень тела XII грудного позвонка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уровень тела первого поясничного позвонка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уровень тела первого крестцового позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уровень IV поясничного позвонка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Укажите анатомические образования, которые входят в состав рефлекторной дуги:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "афферентный нейрон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "задний канатик",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "передний канатик",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эфферентный нейрон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "боковой канатик",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Укажите ядра, имеющиеся в составе задних рогов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "промежуточно-латеральное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "центральное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "задне-латеральное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "собственное ядро",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "задне-медиальное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Укажите ядра, имеющиеся в составе передних рогов спинного мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "центральное ядро",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "грудное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "собственное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "заднее латеральное ядро",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "промежуточное латеральное ядро",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Какие анатомические образования соединяет передняя (белая) спайка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "столбы свода и терминальную пластинку",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ножки свода и терминальную пластинку",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полушария малого мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "таламусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "правый и левый обонятельные треугольники",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "серого вещества спинного мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "центральное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грудное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "центральное (медиальное) вещество",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ретикулярная формация",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Укажите анатомические образования, которые входят в состав конечного мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задняя спайка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "базальные ядра",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "внутренняя капсула",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "таламус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипоталамус",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Укажите отдел головного мозга, к которому относятся ножки мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средний мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "промежуточный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "конечный мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Между какими анатомическими образованиями мозга располагается борозда мозолистого тела:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "язычная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поясная извилина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхняя лобная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мозолистое тело",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нижняя височная извилина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Укажите извилины, находящиеся на нижней поверхности полушария большого мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "предклинье",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямая извилина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глазничная извилина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "угловая извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "парацентральная долька",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Укажите борозды, находящиеся на дорсолатеральной поверхности полушария большого мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обонятельная борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "центральная борозда",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нижняя лобная борозда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поясная борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "парацентральная долька",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Укажите, возле какой борозды располагается надкраевая извилина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхняя височной борозды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латеральной борозды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "центральной борозды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шпорной борозды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "теменно-затылочной борозды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Укажите извилины, входящие в состав лобной доли полушария большого мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "покрышечная часть",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "прямая извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надкраевая извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "предцентральная извилина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "треугольная часть",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Укажите борозду полушария, задней частью которой является подтеменная борозда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "теменно-затылочная борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "борозда гиппокампа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шпорная борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поясная борозда",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "парагиппокампальная борозда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Укажите, к какой борозде снизу прилежит обонятельный тракт:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глазничная борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "носовая борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обонятельная борозда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "коллатеральная борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечные борозды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Укажите извилины полушария большого мозга, между которыми располагается коллатеральная борозда:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "язычная извилина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "парагиппокампальная извилина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поясная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижняя височная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "надкраевая извилина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Укажите извилину, в которой локализуется ядро двигательного анализатора:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхняя лобная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "постцентральная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надкраевая извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "предцентральная извилина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "средняя лобная извилина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Укажите место локализации коркового центра общей чувствительности и проприоцептивной чувствительности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средняя лобная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "затылочная доля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "постцентральная извилина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "покрышечная часть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "предцентральная извилина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Укажите области коры большого мозга, относящиеся к зрительному анализатору:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "затылочная доля",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "верхняя теменная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижняя лобная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижняя теменная извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верхняя височная извилина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Укажите отделы головного мозга, которые относятся к обонятельному мозгу:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "островок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "надкраевая извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крючок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гиппокамп",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "язычная извилина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Укажите, между какими бороздами полушария большого мозга располагается предклинье:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "теменно-затылочная борозда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "конец поясной борозды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "борозда мозолистого тела",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "затылочно-височная борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шпорная борозда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Укажите борозды большого мозга, расположенные в теменной доле:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "предцентральная борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "постцентральная борозда",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "центральная борозда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутритеменная борозда",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "восходящая ветвь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Укажите извилины, входящие в состав височной доли полушария большого мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "надкраевая извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поперечные извилины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "угловая извилина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "треугольная извилина.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "покрышечная часть",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Укажите анатомические образования, ограничивающие внутреннюю капсулу мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "головка хвостатого ядра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миндалевидное тело",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "чечевицеобразное ядро",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ограда.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "таламус",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Укажите анатомические образования, относящиеся к базальным ядрам полушария большого мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "красное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полосатое тело",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "черное вещество",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ограда",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "субталамическое ядро",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Укажите место локализации миндалевидного тела:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "островок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "затылочная доля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "височная доля",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "теменная доля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лобная доля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Какие анатомические образования граничат с оградой:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наружная капсула",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутренняя капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скорлупа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "самая наружная капсула",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "передняя спайка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Укажите структуры, которые входят в центральный отдел обонятельного мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "зубчатая извилина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обонятельный треугольник",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиппокамп",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обонятельная луковица",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обонятельная борозда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Какие стенку переднего рога бокового желудочка образует прозрачная перегородка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхнюю",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нижнюю",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медиальную",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "переднюю",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "заднюю",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Укажите анатомические структуры, которые участвуют в образовании стенок нижнего рога бокового желудочка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бахромка гиппокампа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мозолистое тело",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "таламус",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиппокамп",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "поясная извилина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Укажите анатомические образования, входящие в состав заталамической области:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипофиз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "шишковидное тело",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медиальное коленчатое тело",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "латеральное коленчатое тело",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сосцевидные тела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Укажите анатомические образования, входящие в состав надталамической области:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "треугольник поводка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "медиальное коленчатое тело",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "межталамическое сращение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шишковидное тело",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "межповодковое сращение",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Укажите отверстия, соединяющие полость III желудочка с IV и боковыми желудочками:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "срединная апертура",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латеральная апертура",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отверстие водопровода мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "межжелудочковые отверстия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "центральная апертура",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Укажите части головного мозга, участвующие в образовании стенок третьего желудочка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипоталамус",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "терминальная пластинка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "таламус",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мозолистое тело",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поясная извилина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Укажите ядра гипоталамической области:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хвостатое ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "околожелудочковое ядро",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "надзрительное ядро",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "красное ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "черное вещество",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Укажите анатомические образования головного мозга, которые являются подкорковыми центрами зрения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "медиальное коленчатое тело",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латеральное коленчатое тело",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "заднее продырявленное вещество",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхние холмики среднего мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нижние холмики среднего мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Укажите проводящие пути, проходящие в покрышке среднего мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "боковой спинно-таламический путь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "боковой корково-спинномозговой путь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "слуховой путь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "передний корково-спинномозговой путь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "корково-ядерный путь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Укажите анатомические образования, входящие в состав среднего мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "черное вещество",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ножки мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "трапециевидное тело",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхний мозговой парус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "треугольник петли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Какие анатомические образования относятся к экстрапирамидной системе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "черное вещество",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "медиальная петля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "красное ядро",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "голубое пятно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "добавочное глазодвигательное ядро",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Укажите анатомические образования, разделяющие мост на покрышку и основание:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медиальная петля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трапециевидное тело",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "спинномозговая петля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечные волокна моста",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "латеральная петля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Укажите анатомические образования, относящиеся к перешейку ромбовидного мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхний мозговой парус",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ручки верхних холмиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхние ножки мозжечка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ручки нижних холмиков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "треугольник петли",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Укажите черепные нервы, ядра которых находятся в толще моста:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "VII пара",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "IX пара",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "VI пара",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Х пара",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "XII пара",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Укажите область расположения волокон латеральной (слуховой) петли:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхние ножки мозжечка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "верхний мозговой парус",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижние ножки мозжечка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "треугольник петли",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "средние ножки мозжечка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Укажите ядра, имеющиеся у мозжечка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пробковидное ядро",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ядра ретикулярной формации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ядро шатра",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "заднее ядро трапециевидного тела",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шаровидное ядро",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Укажите отделы головного мозга, которые соединяют нижние ножки мозжечка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мост",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продолговатый мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мозжечок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верхние сегменты спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "средний мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Укажите отделы головного мозга, которые соединяют средние ножки мозжечка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мозжечок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мост",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "таламус",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Укажите анатомические образования, составляющие крышу IV желудочка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхний мозговой парус",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нижний мозговой парус",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "свод мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхние сегменты спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Укажите отделы мозга, в которых располагается двигательное ядро тройничного нерва:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мост",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перешеек ромбовидного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "промежуточный мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Укажите отделы, где располагается двигательное ядро добавочного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продолговатый мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мост",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхние сегменты спинного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "промежуточный мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Укажите черепные нервы, для которых ядро одиночного пути является общим:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "VII- пара",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "IX- пара",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "XI- пара",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "XII-пара",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "VI -пара",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Укажите черепные нервы, для которых двигательное ядро (двойное) является общим:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "VII-пара",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Х- пара",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "IX- пара",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "XII- пара",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "IV пара",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Укажите отделы мозга, в которых располагается нижнее слюноотделительное ядро:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мост",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продолговатый мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "промежуточный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мозжечок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Укажите отделы мозга, в которых располагается верхнее слюноотделительное ядро:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мост",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "промежуточный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мозжечок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Укажите проводящие пути (волокна) в составе нижних мозжечковых ножек:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "волокна заднего спинно-мозжечкового пути",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "задний продольный пучок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутренние дуговые волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наружные дуговые волокна",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "корково-спинномозговые пути",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Укажите анатомические образования, в которых проходят комиссуральные проводящие пути:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мозолистое тело",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "передняя спайка мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "внутренняя капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наружная капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "самая наружная капсула",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Укажите проводящий путь, волокна которого образуют вентральный перекрест покрышки среднего мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "задний продольный пучок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "корково-спинномозговой путь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "красноядерно-спинномозговой путь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "медиальная петля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бульбо-таламический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Укажите проводящий путь, волокна которого образуют дорсальный перекрест покрышки среднего мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "красноядерно-спинномозговой путь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "покрышечно-спинномозговой путь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пирамидный путь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "путь болевой и температурной чувствительности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спино-таламический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Укажите проводящие пути, проходящие через заднюю ножку внутренней капсулы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "слуховой путь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "красноядерно-спинномозговой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лобно-мостовой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зрительный путь",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "теменно –височно- мостовой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Укажите проводящие пути, проходящие через колено внутренней капсулы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спинно-таламический передний путь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "корково-таламический путь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лобно-мостовой путь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "корково-ядерный путь",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Какие части мозга соединяют ассоциативные нервные волокна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полушария большого мозга с мозжечком",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "правое и левое полушария большого мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "таламус и кору большого полушария",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лобную и затылочную доли полушария",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "таламус и лобную долю",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Укажите отделы спинного мозга, через которые проходит красноядерно-спинномозговой путь:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "передний канатик спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боковой канатик спинного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "задний канатик спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "передний рог спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижние мозжечковые ножки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Укажите проводящие пути (пучки нервных волокон) в составе задних канатиков спинного мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задний продольный пучок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тонкий пучок (Голля)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "задний (дорсальный) спинно-мозжечковый путь (Флексига)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клиновидный пучок (пучок Бурдаха)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Укажите проводящие пути (пучки нервных волокон) в составе боковых канатиков спинного мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "латеральный собственный пучок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латеральная петля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "покрышечно-спинномозговой путь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "красноядерно-спинномозговой путь",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тонкий пучок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Укажите, виды волокон, проходящие через внутреннюю капсулу мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "длинные ассоциативные волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "комиссуральные волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проекционные волокна",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "короткие ассоциативные волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Укажите отделы головного и спинного мозга, через которые проходит преддверно-спинномозговой путь:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "передний канатик спинного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "боковой канатик спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "задний канатик спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ножка мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "средние мозжечковые ножки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Укажите части спинного мозга, в которых проходят волокна пирамидного пути:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "боковой канатик",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "передний канатик",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "задний канатик",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серая спайка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Укажите ядра мозга, отростки клеток которых образуют медиальную петлю:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "собственное ядро заднего рога спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ядро клиновидного пучка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ядро тонкого пучка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "двигательное ядро тройничного нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Укажите отделы головного мозга, через которые проходит корково-ядерный путь:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задняя ножка внутренней капсулы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колено внутренней капсулы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "покрышка среднего мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "основание моста",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Укажите отделы головного и спинного мозга, через которые проходит задний спинно-мозжечковый путь (пучок Флексига):",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "боковой канатик спинного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нижняя ножка мозжечка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхняя ножка мозжечка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задний канатик спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "передний канатик",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Укажите структуры мозга, в которых заканчиваются волокна латеральной петли:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ядра медиального коленчатого тела",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ядра верхних холмиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ядра глазодвигательного нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ядра нижних холмиков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ядра трапециевидных тел",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Укажите структуры мозга, секретирующие спинномозговую жидкость:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "паутинная оболочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сосудистое сплетение боковых желудочков",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сосудистое сплетение третьего желудочка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "твердая оболочка головного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Укажите анатомические образования, располагающиеся в эпидуральном пространстве позвоночного канала:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "спинномозговая жидкость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировая клетчатка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "внутренние позвоночные венозные сплетения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наружные передние позвоночные венозные сплетения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наружные задние позвоночные венозные сплетения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Укажите, из какой полости мозга спинномозговая жидкость оттекает в подпаутинное пространство:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "из четвертого желудочка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "из третьего желудочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "из боковых желудочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "из водопровода мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "из центрального канала спинного мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Укажите отверстия, соединяющие полость IV желудочка и подпаутинное пространство:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отверстие водопровода мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латеральные апертуры",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "срединная апертура",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "межжелудочковые отверстия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ценральный канал спинного мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Укажите анатомические образования обеспечивающие отток спинномозговой жидкости из подпаутинного пространства:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зубчатые связки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цистерны паутинной оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грануляции паутинной оболочки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отростки твердой оболочки головного мозга.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "центральный канал спинного мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Укажите подпаутинные цистерны, располагающиеся на базальной поверхности мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "межножковая цистерна",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мозжечково-мозговая цистерна",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистерна латеральной ямки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цистерна перекреста",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "обходящая цистерна",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Укажите особенности, характеризующие строение твердой оболочки головного мозга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие отростков между отделами мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие венозных синусов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие пахионовых грануляций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие зубчатых связок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие цистерн",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Какие синусы и вены впадают в прямой синус:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхний сагиттальный синус",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нижний сагиттальньй синус",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "малая мозговая вена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "большая мозговая вена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верхний каменистый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Укажите синусы твердой мозговой оболочки, которые образуют синусный сток:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пещеристый синус",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сигмовидный синус",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхний сагиттальный синус",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "прямой синус",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "поперечный синус",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Укажите, в какой из синусов впадает нижний сагиттальный синус:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхний сагиттальный синус",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сигмовидный синус",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прямой синус",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поперечный синус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сток синусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Укажите, какой синус дает начало внутренней яремной вене:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сигмовидный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "прямой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "затылочный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижний каменистый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Укажите черепной нерв, который выходит из мозга на медиальной поверхности ножки мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отводящий нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "блоковый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тройничный нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глазодвигательный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "глазной нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Укажите черепные нервы, которые выходят из мозга между пирамидой и оливой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IX-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "XI-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "XII-я пара черепных нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Х-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "V-я пара черепных нервов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Укажите черепные нервы, которые выходят из продолговатого мозга позади оливы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "IX-я пара черепных нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Х-я пара черепных нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "XII-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "V-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "VI-я пара черепных нервов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "продолговатого мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IV-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "III-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "VI-я пара черепных нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "V-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "II-я пар черепных нервов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Укажите черепные нервы, выходящие мозга на дорсальной поверхности мозгового ствола:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "III-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "IV-я пара черепных нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "V-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "VI-я пара черепных нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "VII-я пара черепных нервов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Укажите отверстия, через которые из черепа выходят ветви тройничного нерва:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рваное отверстие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "круглое отверстие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "овальное отверстие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "яремное отверстие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "решетчатые отверстия",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 42,
+				"text": "Укажите анатомические образования, относящиеся к промежуточному мозгу:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

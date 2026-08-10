@@ -1,0 +1,1414 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Мочеобразование обеспечивают процессы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фильтрации, реабсорбции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фильтрации, реабсорбции, канальцевой секреции синтезируемых веществ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фильтрации, реабсорбции, экскреции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "канальцевой секреции и реабсорбции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Реабсорбцией в процессе мочеобразования называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переход плазмы в полость капсулы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "процесс обратного всасывания веществ из почечных канальцев в кровь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "активный транспорт веществ в просвет канальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пассивный транспорт веществ в просвет канальцев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Реабсорбция воды в почках осуществляется путем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активного транспорта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пассивного транспорта",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фильтрации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диффузии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Процесс секреции компонентов мочи заключается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в фильтрации в полость капсулы почечного клубочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в активном выведении веществ в просвет канальцев",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в фильтрации в просвет канальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в пассивном выведении веществ в просвет канальцев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Суточный диурез в норме равен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "15-20 л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1,5-2,0 л",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "150-180 л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5-10л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Гидростатическое давление в капиллярах клубочка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "80 - 100 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10 - 30 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "45 - 50 мм рт. ст.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "20-30 мм рт. ст.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Давление ультрафильтрата в капсуле клубочка в норме равно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "70-80 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10-20 мм рт. ст.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "50-60 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40-50 мм рт. ст.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Онкотическое давление плазмы крови равно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "80-100 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "25-30 мм рт. ст.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "50-70 мм рт. ст.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "30-40 мм рт. ст.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Обязательная реабсорбция белка и глюкозы происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в петле Генле",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в проксимальном извитом канальце",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в собирательной трубке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в дистальном извитом канальце",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Факультативная реабсорбция воды в основном происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в проксимальном извитом канальце",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в собирательных трубочках",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в дистальном канальце",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в петле Генле",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Содержание калия в конечной моче под действием альдостерона:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличивается",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличивается незначительно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "На проницаемость собирательных трубок для воды влияет фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "карбоангидраза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиалуронидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "АТФ-аза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "карбоксипептидаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Определение скорости фильтрации осуществляется с помощью расчета клиренса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инулина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "парааминогиппуровой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инсулина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "К пороговым не относится вещество:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сульфаты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мочевина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инсулин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "В норме моча человека имеет реакцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтральную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кислую",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "щелочную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слабо кислую",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "За сутки в почках образуется фильтрата:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,5 - 2,0 л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "150 - 180 л",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "15 - 20 л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "180-200",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Всасывание обратно в кровь воды, глюкозы, аминокислот, микроэлементов, солей и низкомолекулярных белков происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в капиллярах клубочков почечного тельца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в проксимальном канальце",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в собирательных канальцах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в петле Генле",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Реабсорбируется на протяжении всех канальцев нефрона:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вода",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "витамины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Активация антидиуретического механизма происходит при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "водной нагрузке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "приеме соленой пищи, потере жидкости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "приеме острой пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при обезвоживании",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Содержание натрия в моче увеличивается под влиянием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "натрийуретического пептида",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "альдостерона",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инсулина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкагона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Ренин, участвующий в регуляции водно-солевого гомеостаза и поддержании постоянства артериального давления, секретируется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "юкстагломерулярным аппаратом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "петлей Генле",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "собирательными трубочками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "канальцевым аппаратом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Секрецию альдостерона стимулирует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тиреотропный гормон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ангиотензин II",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ренин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антидиуретический гармон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Физиологическая роль ренина заключается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в поддержании клеточного состава крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в регуляции артериального давления",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в свертывании крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в стимуляции диуреза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Реабсорбцию натрия в почках регулируют гормоны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антидиуретический, альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альдостерон, натрийуретический пептид",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антидиуретический, актг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "окситоцин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Антидиуретический гормон влияет на проницаемость для воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проксимального канальца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "собирательных трубок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "петли Генле",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дистального извитого канальца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Центр жажды находится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в гипофизе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в гипоталамусе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в базальных ганглиях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в таламусе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Основные гомеостатические функции почки -это поддержание постоянства:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биологически активных веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "осмотического давления, кислотно-основного равновесия, АД",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "продуктов метаболизма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гармонов коры надпочечников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Процесс образования мочи в капсуле Шумлянского-Боумена называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "канальцевой экскрецией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клубочковой ультрафильтрацией",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "канальцевой секрецией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "канальцевой реабсорбцией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Фильтрат, образующийся в почечных клубочках, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "конечной мочой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первичной мочой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вторичной мочой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ультрафильтратом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "За сутки в среднем образуется фильтрата:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,5-2 л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10-15 л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "150-180 л",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "180-200л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Транспорт натрия из клетки канальца в межклеточную жидкость является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пассивным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "облегченным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вторично-активным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "На реабсорбцию натрия и калия влияет гормон:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альдостерон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антидиуретический гормон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адреналин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Натрийуретический пептид вырабатывается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правом предсердии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "левом предсердии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дуге аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипоталамусе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "При активации антинатрий уретического механизма:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "объем и плотность мочи увеличится",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "объем мочи увеличится, плотность уменьшится",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "объем мочи уменьшится, плотность увеличится",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "объем и плотность уменьшится",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Транспорт глюкозы из клетки канальца в межклеточную жидкость является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пассивным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вторично-активным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "первично-активным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пиноцитозом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Стимуляция Na-АТФ-азы в клетках дистальных почечных канальцев происходит под действием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ренина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альдостерона",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инсулина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкагона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Антидиуретический механизм запускается при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшении осмотического давления крови, АД",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличении осмотического давления, уменьшении объема крови и АД",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уменьшении осмотического давления, увеличении объема крови и АД",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при увеличении АД",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Антидиуретический гормон активирует фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мальтазу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиалуронидазу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "трипсин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтерокиназу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Ангиотензин вызывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "торможение секреции АДГ и альдостерона, расширениесосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активацию выработки АДГ и альдостерона, сужение сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "активацию гиалуронидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активацию выработка окситоцина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Центральные осморецепторы находятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в гипофизе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в гипоталамусе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в таламусе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в коре головного мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Функция собирательных трубок:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование ренина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "концентрация мочи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "экскреция метаболитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синтез белков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "В клетках почечных канальцев синтезируется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "креатинин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парааминогиппуровая кислота, аммиак",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ренин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "натрийуретический пептид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Проницаемость дистальных извитых канальцев и собирательных трубок для воды увеличивает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антидиуретический гормон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ренин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "натрийуретический пептид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Прекращение образования мочи называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анурия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Ренин действует на белок крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кальцийсвязывающий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ангиотензиноген",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фибриноген",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альбумин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Какой из ответов правильный ? Обратное всасывание веществ происходит в следующих отделах нефрона:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в проксимальном отделе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в петле Генле",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в дистальных отделах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "во всех отделах канальцев нефрона",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "В каком пункте правильно названы эффекты альдостерона на почечный каналец:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивает реабсорбцию натрия и калия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшает реабсорбцию натрия и увеличивает реабсорбцию калия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличивает реабсорбцию натрия, увеличивает секрецию калия и ионов водорода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не изменяет реабсорбцию натрия и секрецию калия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Регуляция экскреции калия достигается преимущественно за счет воздействия на скорость какого из следующих процессов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фильтрации калия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реабсорбции калия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "секреции калия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фильтрации и секреции калия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Выделите из перечисленного функциональную особенность нисходящего отдела петли Генле:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "непроницаема для воды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проницаема для натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проницаема для воды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проницаемо для калия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Выберите один правильный ответ. Удельный вес мочи у здорового взрослого человека после ограничения жидкости равен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,025-1,035",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1,005-1,010",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,040-1,050",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1,035-1,045",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Ребенку 10 дней. Ему каждый час приходится менять пеленки. Нормально ли это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мочевыделение повышено",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диурез нормален",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мочеотделение понижено",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диурез незначительно понижен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Какой процент крови, выбрасываемой сердцем, проходит через сосуды обеих почек у человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "80-90 %",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20-25 %",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "50-60 %",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "60-70%",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

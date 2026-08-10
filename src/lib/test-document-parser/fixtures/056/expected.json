@@ -1,0 +1,3915 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Какие способы лучевого исследования могут быть использованы при обследовании больных с заболеваниями лёгких:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгендиагностическое исследование:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ангиография:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "КТ:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "УЗИ:",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "правильно всё перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Какие способы рентгенологического исследования могут быть использованы при обследовании больных с заболеваниями лёгких:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгеноскопия, рентгенография:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "флюорография:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "томография:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхография:",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "правильно всё перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Случаи использования томографии лёгких:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "определение глубины залегания опухоли и других патологических образований:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выявление неоднородности опухолевых образований:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выявление состояния крупных бронхов и лимфатических узлов:",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уточнение структуры лёгочной ткани:",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Перечислите случаи, когда целесообразно использовать радионуклидное исследование лёгких:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сцинтиграфическое выявления при тромбоэмболиях;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сцинтиграфическая дифференцировка тромбоэмболии лёгочной артерии и инфаркта миокарда при клинически неясных случаях:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "радиопульмонографическая оценка состояния внешнего дыхания:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сцинтиграфическое выявление объёма выключенного кровотока при опухоли лёгкого:",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "правильно всё перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "В каких случаях целесообразно использовать ангиографическое исследование лёгких:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифференциальная диагностика кисты и злокачественной опухоли:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выявление усиления лёгочного рисунка:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выявление острой пневмонии:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выявление сдавления верхней полой вены опухолью:",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выявление сдавления корня легкого:",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Вздутие участка лёгкого характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "просветлением:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "затемнением 1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обширным затемнением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "очаговым затемнением",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Полость в лёгком характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "просветлением:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "затемнением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обширным затемнением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "очаговым затемнением",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Выпот в плевральной полости характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "очаговым просветлением:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "затемнением:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обширным просветлением:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кольцевидной тенью с горизонтальным уровнем жидкости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Опухоль, исходящая из стенки грудной полости, характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "просветлением:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "затемнением:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "очаговым затемнением:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кольцевидной тенью:",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Перечислите причины, проявляющиеся на рентгенограммах затемнением лёгких:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфильтрация лёгочной ткани:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опухолевая ткань в лёгком:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ателектаз в лёгком:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "развитие соединительной ткани в лёгком:",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "правильно всё перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "По каким рентген признакам можно оценить смещение органов средостения влево:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "смещение сосудистого пучка влево:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "смещение изображения трахеи влево:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обнажение правого края позвоночника:",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "смещение левого контура сердца кнаружи за среднеключичную линию:",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Симптом «ограниченное просветление» может встречаться при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вздутии участка лёгкого:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выпоте в плевральную полость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опухоли, исходящей из стенки грудной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опухоли, исходящей из стенки миокарда.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "опухоли, исходящей из стенки аорты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Симптом «затемнение» может встречаться при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вздутии участка лёгкого:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полости в лёгком:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опухоли, исходящей из стенки аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выпоте в плевральную полость:",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Перечислите причины, вызывающие на рентгенограмме затемнение лёгких:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфильтрация лёгочной ткани:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опухолевая ткань в лёгком:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ателектаз в лёгком:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "развитие соединительной ткани в участке лёгкого:",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "правильно всё перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Синдром круглой тени в лёгком характерен, для:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "периферического рака без распада:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воздушной кисты лёгкого:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туберкулемы:",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "абсцесса лёгкого:",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Синдром кольцевидной тени в лёгком характерен для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "периферического рака:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воздушной кисты:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "туберкулемы:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "абсцесса лёгкого:",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "центрального рака",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Синдром кольцевидной тени в лёгком с горизонтальным уровнем жидкости характерен для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "периферического рака:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воздушной кисты:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туберкулемы:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "абсцесса лёгкого:",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "центрального рака",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Синдром однородного изменения корня лёгкого характерен для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "периферического рака:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воздушной кисты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туберкулемы:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "абсцесса лёгкого",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "центрального рака",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Укажите рентгенологический синдром, встречающийся при острой пневмонии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "очаги и ограниченная диссеминация: 3",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "круглая тень:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тотальное затемнение:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ограниченное затемнение",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "При каких заболеваниях лёгкого средостение смещается в сторону тотального затемнения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ателектаз:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "экссудативный плеврит:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цирроз лёгкого:",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония:",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Какие заболевания лёгких проявляются очаговыми тенями в лёгочном поле:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "острая пневмония:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туберкулёз:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "метастазы злокачественной опухоли в лёгких:",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "киста лёгкого:",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какие заболевания сопровождаются усилением лёгочного рисунка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "венозное и артериальное полнокровие лёгких:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эмфизема лёгких:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острые воспалительные заболевания:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хронические воспалительные заболевания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Какие заболевания лёгких могут сопровождаться увеличением лимфоузлов корня лёгкого:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулёз:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "системное заболевание лимфоузлов:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рак лёгкого:",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эмфизема;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острый бронхит;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Для выявления бронхоэктазов наиболее информативной методикой является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенография:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "томография:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бронхография:",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ангиопульмонография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Для выявления увеличенных лимфатических узлов средостения наиболее информативны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенография:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ЗИ:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "томография:",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сцинтиграфия;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "КТ; 4",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "В дифференциальной диагностике хронической пневмонии и туберкулеза легких имеет значение",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "локализация:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "объем поражения:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие очаговых теней:",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие участка просветления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "При бронхоэктатической болезни наиболее часто изменения локализуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в верхней доле правого легкого:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в средней доле:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в нижней доле левого легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в нижней доле правого легкого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Для туберкулезного бронхоаденита характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двухстороннее поражение л/узлов с обезыствлением:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "одностороннее увеличение одной или двух групп внутригрудных л/узлов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "расширение корня с сочетанием фокуса в легком:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расширение корня с сочетанием фокуса в средостении:",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Туберкулез внутригрудных л/узлов чаще встречается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в детском и юношеском возрасте:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в пожилом возрасте;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в молодом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в старческом возрасте",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Для центрального рака с преимущественным эндобронхиальном ростом характерна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение бронхиальной проходимости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "узловое образование в области корня легкого:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "локальное усиление легочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "узловое образование в верхней доле легкого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "К наиболее частым распространенным паразитарным заболеваниям легких относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсоплазмоз:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гистоплазмоз:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "саркоидоз:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эхинококкоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Наиболее частая форма эхинококка легких:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "овоидное гомогенное образование больших размеров: 5",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "округлое образование:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "долевое уплотнение:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образование неправильной формы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "К лабораторным исследованиям подтверждающим диагноз эхиноккокоза относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лабораторные тесты отсутствуют:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клинический анализ крови:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "биохимические реакции:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакция Кацонни",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Корень левого легкого расположен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выше правого корня:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на уровне правого корня:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ниже правого корня",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на уровне междолевой плевры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Что является морфологической единицей легкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ацинус:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "долька:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сегмент:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отдел",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Назовите контрастное вещество применяемое при бронхографии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "технеций:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "билигност:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пропилйодон",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "омнипак",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Средостение смещено в сторону затемнения при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмонии:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ателектазе:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "экссудативном плеврите",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулезе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Ингаляционная сцинтиграфия предназначена для изучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вентиляционной функции легких:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "капиллярного снабжения легких:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "легочного кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сосудистого рисунка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Сцинтиграфические признаки рака легкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холодный очаг:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "горячий очаг: 6",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "равномерное распределение РФП",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "неравномерное распределение РФП",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "На чем основана позитивная сцинтиграфия с туморопным РФП (цитратом галия):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на изучении содержания РФП в бронхах:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на изучении состояния легочного кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "капиллярного снабжения легких:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на избирательном повышенном накоплении РФП в тканях злокачественной опухоли по сравнению с непораженной тканью легкого",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Назовите проекцию косой междолевой щели:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от остистого отростка Th-3 к месту соединения хрящевой части 4-ребра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от остистого отростка Th-5 к месту соединения хрящевой части 5-ребра,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на уровне 6-ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на уровне 9-ребра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Ангиопульмонография это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "контрастирование бронхиальных артерий:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "контрастирование бронхов:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "контрастирование непарной вены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "исследование системы легочной артерии:",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Что означает термин «каваграфия»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственное контрастирование верхней полой вены:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "контрастирование бронхиальных артерий,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "контрастирование бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контрастирование непарной вены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Что является субстратом «круглой тени» в легочном поле:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эозинофильный инфильтрат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туберкулезный инфильтрат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфаркт легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "доброкачественная опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы правильны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какие отделы легких чаще поражаются при туберкулезе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхушки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "среднее легочное поле",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижнее легочное поле",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "При малокровии легочной рисунок:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усилен ,",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сгущен ,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обеднен",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Каковы причины спонтанного пневмоторакса",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрыв стенки каверны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "разрыв стенки кисты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие экссудата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "При подозрении на бронхоплевральный свищ прибегают к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "томографии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхографии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сцинтиграфии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Назовите рентгенологические симптомы тромбоэмболии легочной артерии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширение ствола легочной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ослабление сосудистого рисунка в зоне поражения,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подъем купола диафрагмы на той же стороне,",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "При тромбоэмболии крупных ветвей легочной артерий на сцинтиграмме будет выявляться:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холодный очаг",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "горячий очаг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неравномерное распределение РФП",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "На рентгенограммах при абструктивном бронхите отмечаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение объема соединительной ткани в легких,",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эмфизема и легочная гипертензия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "относительно малые размеры сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Назовите рентгенологическую картину пневмокониозов у шахтеров:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие выпота в плевральную полость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обширное затемнение легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие множественных очагов на фоне диффузного сетчатого фиброза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Назовите основной рентгенологический признак кавернозного туберкулеза легких:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие кальцевидной тени,",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие ограниченного затемнения,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие ограниченного просветление;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Рентгенологическая картина малого периферического рака легкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одиночный очаг в легком слабой интенсивности звездчатой формы,",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "округлая тень с четкими обезыствленными контурами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ограниченное затемнение легочного поля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "К числу сетчато-узелковых поражений относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмокониозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "саркоидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсические альвеолиты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Какой минимальный объема экссудата в легких выявляется при УЗИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3-мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "5-мл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "15-20 мл",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "6-мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Чем проявляется поражение плевры при рентгеноскопии:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "неравномерным смещением куполов диафрагм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ограничением подвижности куполов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отсутствием подвижности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличием просветления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличием затемнения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Как смещаются куполы диафрагмы при акте дыхания в норме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "равномерно",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неравномерно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амплитуда колебаний неодинакова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правый отстает в акте дыхания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Что может лежать в основе симптома «затемнение»",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ателектаз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инфильтрация легочной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пневмотораксе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиление легочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скопление жидкости 9",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Частичное нарушение бронхиальной проходимости проявляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ателектазом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пневмосклерозом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмотораксом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиповентиляцией",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "обтурационной эмфиземой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Что может лежать в основе симптома «просветление»",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "опухолевое разрастание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пневмоническая инфильтрация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие полости",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ателектаз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмоторакс",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Какие заболевания чаще всего локализуются в переднем средостении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "загрудинный зоб",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тимома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тератома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Какие заболевания обнаруживают чаще всего в заднем средостении",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейрогенные опухоли и кисты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аневризмы нисходящей части аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличенная вилочковая железа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Перечислите органы, дающие при рентгеновском исследовании «тень»",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "грудина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желудок, заполненный газом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сердце",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лёгкие",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Метод, позволяющий точно определить место положение опухоли в лёгком",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхография",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "послойное исследование (томография)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рентгенография в 2 -х взаимно- перпендикулярных проекциях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Какую цель преследуют, проводя исследование с введением газа в пространство около органа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "определение размеров органа:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "определение формы:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определение функции: 10",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "определение поверхности органа",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Какие задачи решают, проводя рентгеновскую томографию лёгких в прямой проекции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "определение более точных чем на рентгенограмме размеров патологического очага:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "определение характера контуров очага:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определение структуры патологического очага:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правильно все",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Рентгенологической картиной малого периферического рака легкого является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одиночный очаг в легком слабой интенсивности, звездчатой формы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "округлая тень с четкими обызвествленными контурами,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ограниченное затемнение лёгочного поля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Обострение хронической пневмонии рентгенологически подтверждаются выявлением:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиления и деформация легочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плевральных наслоений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бронхоэктазов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инфильтративных изменений",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Основном признаком хронического абсцесса является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сморщивающий процесс в лёгком",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плевральные шварты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плевральные шварты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плевральные шварты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Бронхиолит - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "любое инородное тело бронха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обызвествленный лимфатический узел",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обызвествленный лимфатический узел, пролабирующий в бронх",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Для диффузного пневмосклероза характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиление, деформация лёгочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грубый рисунок корней",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "затемнение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правильно все",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "К рентгенологическим симптомам острого бронхита относятся: 11",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиления лёгочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "деформация лёгочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "потеря структуры корней лёгких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие рентгенологических признаков",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Дифференциальная диагностика туберкуломы и периферического рака основывается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на анализе характера контура",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на локализации опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на размерах образования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на изменения плевры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Наиболее характерной локализацией центрального рака лёгкого является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "характерной локализации нет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нижние отделы лёгкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "корень лёгкого",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верхние отделы лёгкого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "На бронхограмме при центральном раке лёгкого определяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширение бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие изменений в бронхах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "культя, сужение бронхов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "деформация бронхов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "При периферическом раке лёгкого контуры затемнения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чёткие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фестончатые, нечеткие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ровные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "определить невозможно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Для «верхушечного» рака характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расположение тени в области верхушки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расположение тени в области верхушки в сочетании с деструкцией ребра:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие «дорожки» к корню",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие полости распада",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Поражение лимфоузлов средостения устанавливается на основании:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширения тени средостения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "одностороннего расширения верхнего средостения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полицикличности очертаний расширенного средостения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "К наиболее частым паразитарным заболеванием лёгких относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсоплазмоз 12",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парагонимоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эхинококкоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гистоплазмоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "К осложнениям возможным при эхинококкозе легкого относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прорыв в бронх",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обсеменение легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Для туберкулезного бронхоаденита характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двустороннее поражение внутригрудных лимфатических узлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "одностороннее увеличение одной- двух групп внутригрудных лимфоузлов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "расширения корня лёгкого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расширения корня лёгкого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "При пневмотораксе лёгкое спадается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кверху",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "книзу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вверх и медиально",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вниз и медиально",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Анатомическим субстратом лёгочного рисунка в норме является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхиальное дерево",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альвеолярная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ответвления лёгочных артерий и вен",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфатические сосуды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфатические сосуды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Анатомическим субстратом корня лёгкого в норме являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стволы артерий и вен, бронхи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стволы артерий и вен, лимфатические сосуды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стволы артерий и вен, лимфатические узлы, клетчатка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Для исследования капиллярного лёгочного кровотока используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пер фузионную сцинтиграфию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ингаляционную сцинтиграфию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ангиопульмонографию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "допплерографию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Смещения средостения в здоровую сторону характерно для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "центрального рака лёгкого с ателектазом доли или сегмента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экссудативного плеврита 13",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хронической пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Смещение средостения в сторону поражения характерно для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экссудативного плеврита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цирроза лёгких",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диафрагмальной грыжи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Абсцесс в лёгких характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выпотом в плевральную полость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфильтратом в лёгком",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усилением лёгочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полостью содержащий газ и горизонтальный уровень жидкости",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Признаки острой пневмонии характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "субтотальным затемнением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участком просветления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неоднородным затемнением с просветлением в нём бронхов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Деление рака на центральный и периферический обусловлено:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "долевой локализацией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уровнем поражения бронхиального дерева",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "формой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отношением к средостению",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Для центрального рака с эндобронхиальным ростом характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ателектаз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "узловое образование в области корня лёгкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "локальное усиление лёгочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Периферический рак исходит из эпителия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "долевых бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сегментарных бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "субсегментарных бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альвеол",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Для тромбоэмболии крупной ветви лёгочной артерии в ранние сроки характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение прозрачности участка лёгочного поля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "локальное ослабление лёгочного рисунка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диффузное усиление лёгочного рисунка 14",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "понижение прозрачности участка лёгкого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "При пневмотораксе в месте скопления воздуха наблюдают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ослабление сосудистого рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "усиление сосудистого рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усиление прозрачности лёгочного поля отсутствие сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ослабление прозрачности лёгочного поля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Ячеистая деформация лёгочного рисунка характерна для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острой пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интерстециальной пневмонии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диссеминированного туберкулёза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фиброзирующего альвеолита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Рентгенологическое повышение воздушности лёгочной ткани с обеднением лёгочного рисунка может наблюдаться:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при врождённой долевой эмфиземе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при бронхиальной астме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при инородных телах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "во всех случаях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Преимуществами УЗИ при пневмониях у детей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возможность точной характеристики качества плеврального выпота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возможность раннего выявления мелких очагов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возможность точной характеристики точного объема",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правильно все",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "При отёке лёгких имеет место рентгенологический симптом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«голова акулы»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "«мишени»",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "«крыльев бабочки»",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "«слоёного пирога»",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Для диагностики бронхоэктазов используют при бронхографии контрастное вещество:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сульфат бария",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "йдолипол",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гиппуран",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всё выше перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Застойные явления в лёгких рентгенологически проявляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сгущением деформации бронхососудистого рисунка: 15",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инфильтрацией верхних отделов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмотораксом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правильно выше перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Бронхиальные артерии питающие лёгочную ткань берут начало:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от грудной части аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от лёгочных артерий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от брюшной части аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "О чёткости рентгенограмм грудной клетки судят по контурам:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средостения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диафрагмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "магистральных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рёбер",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "В диагностике эмфиземы лёгких наиболее важными методиками являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "томография",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бронхография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "функциональные пробы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Для изучения структуры «круглой» тени наиболее информативна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгеноскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рентгенография с прямым увеличенным изображением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "томография",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Для пневмонии характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "просветление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "затемнение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изменение корня",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменение лёгочного рисунка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Правое лёгкое состоит из сегментов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "8",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "9",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "11",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "На обзорной рентгенограмме грудной клетки в прямой проекции головка корня левого лёгкого находится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выше правого",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на одном уровне 16",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ниже правого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ниже правого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Левое лёгкое состоит из сегментов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "8",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "9",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Туберкулёз внутригрудных лимфа узлов чаще наблюдается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в детском и юношеском возрасте",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в пожилом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в молодом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в среднем возрасте",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Обызыствление при периферическом раке лёгкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "закономерны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "никогда не встречаются",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "встречаются редко",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на фоне петрефеката",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Томография и зонография дают возможность определить:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "смещение органов средостения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подвижность диафрагмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пульсацию сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "состояние лёгочной паренхимы и бронхов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Наиболее эффективной методикой исследования при «маленьком» (до 2 см) круглом образовании в лёгком является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгеноскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "томография",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бронхография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Основным признаком хронического абсцесса является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сморщивающий процесс в лёгком",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плевральные шварты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхоэктазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "К рентгенологическим симптомам острого бронхита относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиления лёгочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "деформация лёгочного рисунка 17",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "потеря структуры корней лёгких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие рентгенологических признаков",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Дифференциальная диагностика туберкуломы и периферического рака основывается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на анализе характера контура",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на локализации опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на размерах образования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на изменения плевры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Центральный рак лёгкого чаще возникает в бронхах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "главных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "долевых",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "промежуточных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сегментарных",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Наиболее характерной локализацией центрального рака лёгкого является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "характерной локализации нет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нижние отделы лёгкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "корень лёгкого",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "На бронхограмме при центральном раке лёгкого определяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширение бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие изменений в бронхах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "культя, сужение бронхов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "деформация бронхов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "При периферическом раке лёгкого контуры затемнения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чёткие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фестончатые, нечеткие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ровные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "определить невозможно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Для «верхушечного» рака характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расположение тени в области верхушки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расположение тени в области верхушки в сочетании с деструкцией ребра",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие «дорожки» к корню",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие полости распада",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Поражение лимфоузлов средостения устанавливается на основании:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширения тени средостения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "одностороннего расширения верхнего средостения 18",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полицикличности очертаний расширенного средостения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "К наиболее частым паразитарным заболеванием лёгких относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсоплазмоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парагонимоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эхинококкоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гистоплазмоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "К осложнениям возможным при эхинококкозе легкого относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прорыв в бронх",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обсеменение легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Для туберкулезного бронхоаденита характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двустороннее поражение внутригрудных лимфатических узлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "одностороннее увеличение одной- двух групп внутригрудных лимфоузлов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "расширения корня лёгкого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расширение средостения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "При пневмотораксе лёгкое спадается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кверху",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "книзу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вверх и медиально",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вниз и медиально",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Для полной локализации опухоли в лёгких необходимы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенография в 2 -х перпендикулярных проекциях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рентгеноскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продольная томография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рентгеноконтрастные препараты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Безвоздушный участок лёгочной ткани выглядит как:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "просветление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "затемнение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "очаговое просветление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обширное просветление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Компьютерная томография наиболее информативна при исследовании:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфатических узлов средостения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пульсации сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подвижности диафрагмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы правильные 19",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Анатомическим субстратом лёгочного рисунка в норме является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхиальное дерево",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альвеолярная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ответвления лёгочных артерий и вен",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфатические сосуды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Анатомическим субстратом корня лёгкого в норме являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стволы артерий и вен, бронхи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стволы артерий и вен, лимфатические сосуды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стволы артерий и вен, лимфатические узлы, клетчатка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стволы артерий и вен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Для исследования капиллярного лёгочного кровотока используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пер фузионную сцинтиграфию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ингаляционную сцинтиграфию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ангиопульмонографию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "допплерографию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Признаки острой пневмонии характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "субтотальным затемнением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участком просветления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тотальным затемнением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "неоднородным затемнением с просветлением в нём бронхов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Для центрального рака с эндобронхиальным ростом характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ателектаз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "узловое образование в области корня лёгкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "локальное усиление лёгочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "узловое образование на периферии лёгкого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Для тромбоэмболии крупной ветви лёгочной артерии в ранние сроки характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение прозрачности участка лёгочного поля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "локальное ослабление лёгочного рисунка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диффузное усиление лёгочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диффузное просветление лёгочного рисунка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "При пневмотораксе в месте скопления воздуха наблюдают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ослабление сосудистого рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "усиление сосудистого рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усиление прозрачности лёгочного поля отсутствие сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ослабление прозрачности лёгочного поля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы правильные 20",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Рентгенологическое повешение воздушности лёгочной ткани с обеднением лёгочного рисунка может наблюдаться:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при врождённой долевой эмфиземе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при бронхиальной астме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при инородных телах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "во всех случаях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Для диагностики бронхоэктаза используют при бронхографии контрастное вещество:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сульфат бария",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "йодолипол",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гиппуран",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "РФП",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Линия «Демуазо» наблюдается при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экссудативном плеврите",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "раке лёгкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "саркоидозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулезе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Застойные явления в лёгких рентгенологически проявляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сгущением деформации бронхососудистого рисунка:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инфильтрацией верхних отделов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмотораксом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правильно вышеперечисленное",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

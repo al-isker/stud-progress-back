@@ -1,0 +1,6142 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "В патологии человека особо большое значение имеют риккетсиозы?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпидемический сыпной тиф",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "марсельская лихорадка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндемический сыпной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "везикулярный риккетсиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спорадический сыпной тиф",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Указать свойства вибриона Р.Коха?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обитает в пресной воде",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "малоустойчив во внешней среде",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вызвает легкое течение болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устойчив во внешней среде",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "обитает в морской воде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Туберкулез легких может вызывать попадание в организм туберкулезных микобактерий?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "типа холоднокровных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "птичьего типа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "человечьего типа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рыбьего типа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Туберкулезный менингит наиболее часто встречается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при зажившем первичном туберкулезном комплексе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при гематогенном туберкулезе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при туберкулезе мочеполовой системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при вторичном туберкулезе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Указать наиболее характерные проявления взаимоотношений вируса гриппа с клеткой-мишенью?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пролиферация клеток-мишеней",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образование телец-включений",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цитолитическое действие вируса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "интеграция вируса с геномом клетки без выраженной ее деструкции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гигантоклеточная трансформация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "В понятие ОРВИ входит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коклюш",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грипп",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "корь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скарлатина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аденовирусная инфекция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Корь характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фибринозным трахеитом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энантемой во рту в виде пятен Бильшовского - Филатова - Коплика",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "экзантемой на сгибательных поверхностях конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плевритом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перитонитом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Панбронхит при тяжелом течении кори бывает?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фиброзным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "некротическим",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "крупозным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гнойно-некротическим",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гнилостным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Источником заболевания человека гриппом являются больные гриппом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "птицы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лошади",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "собаки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "свиньи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "люди",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Возбудитель оспы относится к?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "простейшим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирусам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грибам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "риккетсиям",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Возбудитель оспы имеет тропность к?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоузлам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителию кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "слизистой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слизистой носоглотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нервной системе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Наиболее тяжелая клинико-морфологическая форма оспы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вариолоид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "папулопустулезная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "геморрагическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Для оспы характерны следующие цитоплазматические включения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гранулы коричневого цвета",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ацидофильная зернистость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тельца Пашена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "липофусцина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "меланина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Воспаление слизистой оболочки верхних дыхательных путей при неосложненной кори имеет характер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойного",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "некротического",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фибринозного",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "катарального",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "геморрагического",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Наиболее часто поражаются при полиомиелите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "задние рога спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передние рога спинного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мозжечок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кора затылочной доли головного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кора лобной доли головного мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Тельца Негри обнаруживаются у больных?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "корью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желтой лихорадкой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсоплазмозом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бешенством",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вирусным гепатитом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Пятна Бильшовского-Филатова-Коплика обнаруживается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на ладонях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на разгибательной поверхности предплечья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на языке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на внутренней поверхности щек",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "на голове",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Воспаление бронхов при осложненной кори имеет характер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гранулематозного",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойного",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "катарального",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серозного",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фибринозного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Преимущественной локализацией возбудителя полиомиелита является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотелий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слизистая трахеи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двигательные нейроны",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кишечник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Первую клиническую стадию развития полиомиелита обозначают?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "как острую",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "как паралитическую",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "как активную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "как препаралитическую",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Мофрологические изменения спинного мозга в паралитической стадии полиомиелита характеризуются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кистами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дистрофией нейронов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "олеогранулемами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пролиферации глиоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "серозным менингитом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Мофрологические изменения спинного мозга в остаточной стадии полиомиелита характеризуются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гранулемами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кистами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "жировой дистрофией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всем перечисленным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Брюшной тиф – это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечная инфекция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вирусная инфекция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "риккетсиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "респираторно-синцитиальная инфекция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аденовирусная инфекция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Указать типичные только для брюшного тифа признаки?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие брюшнотифозных гранулем в органах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперпластические процессы в лимфоузлах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "характерная сыпь на коже живота",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дистрофия паренхиматозных органов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровоизлияния во внутренние органы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Указать причины развития перитонита при брюшном тифе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пиелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прободение язв в тонкой кишке",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "восковидный некроз прямой мышцы живота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атеросклероз мезентериальных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперплазия лимфоузлов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Сальмонеллы – это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "типичные зоонозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антропозоонозы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антропонозы нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Шигеллы - это причина?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сыпного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дизентерии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амебиаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "натуральной оспы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "При дизентерии (шигеллезе) поражаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двенадцатиперстная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аппендикс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желудок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подвздошная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сигмовидная кишка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Указать кишечные осложнения дизентерии?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перитонит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "артрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровотечение",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "абсцесс печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Холера - карантинная инфекция, так как?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чрезвычайно контагиозна",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "является зоонозом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поражает пищеварительный тракт",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возбудитель устойчив во внешней среде",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "возбудитель обитает в почве",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "При холере селезенка в размерах?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшается",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "атрофируется",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сопровождается разрывом капсулы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "К специфическим осложнениям холеры относятся?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойники в органах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "холерный тифоид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рожа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Указать причины смерти при холере?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "легочная недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рак кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интоксикация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обезвоживание",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кахексия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Профузная диарея сопровождается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиповолемическим шоком",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипоксией вледствие сгущения крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "потерей воды ~обменным ацидозом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Для брюшного тифа наиболее характерны?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фибринозный колит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифтерическое воспаление тонкой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "язвенный колит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мозговидное набухание пейровых бляшек с образованием язв в тонкой кишке",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "катаральный энтероколит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "При брюшном тифе чаще поражаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сигмовидная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "двенадцатиперстная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "слепая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подвздошная кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "прямая кишка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Наиболее характерным общим изменением при брюшном тифе является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миокардит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойный артрит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экзантема",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гломерулопатия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "менингит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "К осложнениям брюшного тифа относится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пиелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "орхит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "менингит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндометрит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кишечное кровотечение",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Для взрослых характерной формой дизентерийного колита является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "катаральный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "десквамативный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибринозный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "геморрагический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Характерным поражением селезенки при брюшном тифе является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническое венозное полнокровие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперплазия красной пульпы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инфаркт",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное верно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Основные микроскопические изменения в кишечнике при брюшном тифе характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровоизлияниями в слизистую оболочку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пролиферацией клеток типа макрофагов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пролиферацией лимфоидных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всем перечисленным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "В развернутую стадию брюшного тифа во внутренних органах могут наблюдаться очаговые скопления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гигантских многоядерных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клеток типа макрофагов и эпителиоидных",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плазмоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "В желудочно-кишечном тракте возможны следующие формы брюшного тифа?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "катаральная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "септическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колотиф",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Для постановки диагноза брюшного тифа на первой неделе заболевания используют?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "посев каловых масс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реакцию Видаля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемокультуру (посев крови)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Для брюшнотифозной гранулемы характерны следующие клетки?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителиоидные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Как осложнение холеры может расцениваться следующий процесс в почке?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тубулонекроз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инфаркты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "камнеобразование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гломерулонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нефроцирроз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Для холерного тифоида характерно?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "понижение температуры тела",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гастроэнтерит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дифтеритически-язвенный колит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эритроцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипопротеинемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Обезвоживание организма при холере возникает вследствие?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушения белкового обмена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диареи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отека слизистой желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жировой дистрофии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сердечно - сосудистой недостаточности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Основным признаком алгидного периода холеры у умершего является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "\"руки прачки\"",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ригидность шейных мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поза \"гладиатора\"",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "При легкой форме холеры обнаруживается обычно?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "риккетсия Провачека",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вибрион Эль-Тор",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бацилла Эберта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Для амебной дизентерии характерно поражение?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тонкой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "слепой кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сигмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Наиболее опасным внекишечным осложнением амебиаза является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изъязвление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диарея",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "абсцессы печени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гломерулонефрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Основным морфологическим признаком амебиаза в стенке кишки является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "округлые изъязвления",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фибринозное воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "катаральное воспаление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Для амебиаза характерно?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отек стенки кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "некроз ее тканей с образованием язв",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фибринозное воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "катаральное воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "геморрагии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "К осложнениям, наиболее характерным для амебиаза относится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прободение язв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перитонит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стенозирующие рубцы после заживления язв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Из перечисленных осложнений для хронической бактериальной дизентерии характерен?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "парапроктит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "абсцесс печени (эмболический)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паратифлит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровотечения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гастрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Источником заражения дифтерией чаще является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кошка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "больной дифтерией ребенок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вши",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бациллоноситель дифтерийной палочки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "собаки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Дифтерия характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойным ларингитом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фибринозным тонзиллитом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гломерулонефритом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гастритом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "циститом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Фибринозный тонзиллит при дифтерии носит характер воспаления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупозного",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифтеритического",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "флегмонозного",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "катарального",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "геморрагического",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Указать органы, на которые первично действует экзотоксин дифтерийной палочки?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердце и сосуды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "легкие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мочевой пузырь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "При дифтерии чаще поражаются нервы?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "седалищный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лицевой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "языкоглоточный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тройничный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диафрагмальный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Заразиться скарлатиной можно?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушно-капельным путем",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фекально-оральным путем",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "контактным путем",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "переливанием крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "половым путем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Указать признаки, характерные только для I периода скарлатины?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "малиновый язык",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поражение сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "\"пылающий зев\"",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поражение почек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "судороги",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Тяжелая септическая форма скарлатины характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отитом-антритом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острым энтеритом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стоматитом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "язвой желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гнойным остеомиелитом верхней челюсти",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Указать формы менингококковой инфекции?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "менингококкцемия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гнойный артрит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "назофарингит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "некротический нефроз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "серозно-геморрагический артрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Какие органы поражаются при синдроме Уотерхауса- Фридериксена (речь идет о менингококковой инфекции)?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "легкие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "головной мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надпочечники",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "щитовидная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "яичника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Во входных воротах при дифтерии воспаление имеет характер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продуктивного",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крупозного",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гнойного",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "геморрагического",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гнилостного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Наиболее редко входными воротами при дифтерии являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гортань",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудочно-кишечный тракт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зев",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "раневая поверхность",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "миндалины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "К дифтерийному токсину наиболее чувствительны?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "надпочечники",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "легкие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кишечник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "К формам вторичного туберкулеза относятся?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфильтративный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цирротический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кавернозный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "острый очаговый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Туберкулома может образоваться из всех перечисленных ниже форм, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "очаговой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфильтративной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "каверны",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лобулярной казеозной пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "из всех перечисленных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "При туберкулезе отражает \"специфику\" процесса?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альтеративная некротическая фаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экссудативная воспалительная фаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пролиферативная (гранулематозная) фаза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Обострение туберкулеза характеризует?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование гранулем",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экссудация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пролиферация гистиоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "склероз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Разновидностями гематогенного туберкулеза следует считать?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "казеозную пневмонию",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острый кавернозный туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цирротический туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "милиарный туберкулез",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "инфильтративный туберкулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "При вторичном туберкулезе возможны следующие пути распространения инфекции?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интраканаликулярный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лимфогенный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гематогенный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "К вторичному туберкулезу не относится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый очаговый туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острый кавернозный туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфильтративный туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "милиарный туберкулез",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "цирротический туберкулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Для первичного туберкулезного комплекса характерны?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диссеминация во внутренние органы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только первичный аффект",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "первичный аффект, лимфангит и лимфаденит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кавернозный пиелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулезный сепсис",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "При гематогенно диссеминированном туберкулезе диссеминация?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в одном легком",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в обоих легких",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в верхней доле левого легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в пищеварительной системе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только в лимфоцитах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "При острейшем туберкулезном сепсисе в легких отмечаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мелкие очаги некроза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "милиарные бугорки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крупные бугорки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крупные очаги казеозного некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Характерной органной локализацией вторичного туберкулеза является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "головной мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поджелудочная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "легкие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "суставы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Для инфильтративного туберкулеза легких характерно?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выраженное перифокальное воспаление",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выраженный фиброз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мелкие очаги с фиброзом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Туберкулома легких характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "множественными мелкими очагами некроза со специфическими грануляциями в капсулах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "одиночным крупным очагом казеозного некроза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полостью с фиброзной стенкой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Острый кавернозный туберкулез легких характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полостью с фиброзной стенкой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кистоподобной полостью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полостью, содержащей казеозные массы, не отграниченные фиброзной тканью от окружающей легочной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Фиброзно-кавернозный туберкулез легких характеризуется полостью?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержащей гнойно-некротические массы, специфические грануляции и фиброзную ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "содержащей гнойно-некротические массы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выстланной многослойным плоским и цилиндрическим эпителием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "содержанием хитиновой оболочки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Циррротический туберкулез легких характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выраженным фиброзом, бронхоэктазами, кистоподобными полостями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эмфиземой легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активным специфическим воспалением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всем перечисленными",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничем из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Выражением обострения туберкулезного процесса является воспалительно-тканевая реакция?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продуктивная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экссудативно-некротическая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "продуктивно-инфильтративная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продуктивно-некротическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "реакция гиперчувствительности замедленного типа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Указать исход туберкулезной гранулемы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нагноение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "геморрагическая инфильтрация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гнилостное разложение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рубцевание",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "атрофия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Какая форма вторичного туберкулеза преобладает в настоящее время?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфильтративный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фиброзно-кавернозный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цирротический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диссеминированный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Для человека патогенны типы микобактерий туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "птичий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рыбий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "холоднокровных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бычий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "китовый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "При туберкулезе чаще всего и более всего поражаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "легкие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слизистая оболочка рта",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "печень",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Разновидности гематогенного туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первичная легочная чахотка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острейший туберкулезный сепсис",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фиброзно-очаговый туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инфильтративный туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Туберкулома - это проявление туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первичного",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гематогенного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вторичного",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "туберкулезного сепсиса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "первичного аффекта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Наиболее характерные для вторичного туберкулеза осложнения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секвестры в костях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровотечения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "менингит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхоаденит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиалиноз сосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Риккетсия Провацека - да Роха-Лима - это возбудитель:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ку-лихорадки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпидемического сыпного тифа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "натуральной оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бешенства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Сыпнотифозные гранулемы Попова встречаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в головном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в селезенке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в лимфоузлах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Карантинными являются инфекционные заболевания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холера",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "иерсиниоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сибирская язва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бешенство",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сепсис",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Возбудитель малярии обнаруживается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в эндотелии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в лимфоцитах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в эритроцитах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нейтрофилах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гистиоцитах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Характерными для малярии изменениями являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "десквамативный бронхит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гастро-энтерит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепатит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "энцфалит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Возвратный тиф вызывается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирусами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериями",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спирохетами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грибками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стафилококком",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Возбудителем сифилиса является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шигелла",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коринбактерия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бледная трепонема (спирохета).",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Основным компонентом первичного инфекционного комплекса при сифилисе является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "везикула",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "твердый шанкр.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изъязвление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сифилиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гумма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Возбудитель актиномикоза в тканях может иметь вид?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дрожжеподобных форм и нитей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "друз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "септированных гифов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всего перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Путями проникновения токсоплазм в организм человека являются все перечисленные, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аэрогенного",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трансмиссивного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алиментарного",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контактного",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полового",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "К осложнениям со стороны центральной нервной системы при развитии врожденного токсоплазмоза относятся?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроцефалия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "очаговый фиброз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровоизлияния",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Возбудителей микоплазмоза следует искать во всех перечисленных клетках, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмоцитов 2 типа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макрофагов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроцитов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "При микоплазмозе во внутренних органах выявляются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гранулематозное воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "катаральное воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемодинамические расстройства.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "При пневмоцистной пневмонии отделяемое с поверхности разреза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "геморрагическое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вязкое сероватое",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "При пневмоцистной пневмонии содержимое альвеол?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "геморрагическое",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "некротическое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пенистые массы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Источником заражения альвеолярным эхинококкозом являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "собаки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крупный рогатый скот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грызуны",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Инфильтрирующий рост пузырей характерен?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для альвеококкоза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для гидатидозного эхинококкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для того и другого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Возбудитель трихинеллеза паразитирует?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в толстой кишке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в тонкой кишке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в желчном пузыре.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "во всех перечисленных органах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Возбудитель трихинеллеза личиночной стадии обнаруживается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в головном мозгу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в мышцах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Общие признаки инфекционных заболеваний:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие возбудителя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дистрофия паренхиматозных органов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "очень высокая контагиозность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие входных ворот",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие первичного комплекса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Пути распространения инфекционного агента из первичного очага или комплекса при разных инфекционных болезнях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфогенный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неврогенный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "параневральный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миогенный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кардиогенный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Своеобразие и отличие сепсиса от других инфекционных болезней заключается в?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полиэтиологичности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "цикличность течения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высокой контагиозности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличии строго специфического возбудителя",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Изменения в септическом очаге?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гранулематозное воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продуктивное воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фибринозное воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гнойное воспаление",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Клиники - морфологические формы сепсиса:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "септицемия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "септикопиемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пупочный сепсис",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грибковый сепсис",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Образование абсцессов в различных органах и тканях характерно для?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "септического эндокардита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "септического эндометрита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "криптогенного сепсиса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "септикопиемии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Механизм возникновения абсцессов в органах при септикопиемии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоэмболия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировая эмболия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тканевая эмболия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериальная эмболия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Компоненты септического очага?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интерстициальный миокардит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперплазия селезенки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гнойный лимфангит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "инфаркт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Механизм возникновения инфарктов в органах при септикопиемии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоэмболия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировая эмболия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микробная эмболия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "длительный спазм сосуда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Характеристика септической селезенки?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уплотнение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "белый инфаркты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обильный соскоб пульпы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нити фибрина на капсуле",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "При септикопиемии метастатические очаги первого порядка обнаружить в?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подкожной клетчатке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "легких",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "При локализации септического очага в аппендиксе первые метастатические абсцессы можно выявить в?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "легких",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почказ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "костном мозге",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Общие изменения при сепсисе?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперплазия лимфоидной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "продуктивный лимфаденит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гнойный тромбофлебит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уремия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Изменения кожи при сепсисе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желтуха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пустулы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "витилиго",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лейкодерма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Изменения створок клапанов при инфекционном эндокардите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изъязвление и некроз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фибринозные наложения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпителиоидно - клеточные казеозные гранулемы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "многочисленные многоядерные гигинтские клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Из крови больных септическим (инфекционным) эндокардитом удается выделить возбудителя?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "всегда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не всегда",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Осложнения полипозно - язвенного эндокардита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый пиелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфаркты печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гангрена кишки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Склероз отверстий Можанди и Лушка в исходе диффузного гнойного лептоменингита приводит к?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "склерозу мягких мозговых оболочек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хроническому эцефалиту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отеку и набуханию мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидроцефалии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Вирус кори относится к семейству?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретровирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "герпевирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пикорнавирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "парамиксовирусов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Спастическое сужение голосовой щели называется ложным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "струпом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сопором",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тумором",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "~Коревая сыпь на коже называется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзаментема",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "энантема",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмпиема",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эмболия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Коревая сыпь отсутствует у детей с недостаточным иммунитетом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клеточным",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гуморальным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Вирус кори размножается в клетках:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макрофагах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нейтрофилах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроцитах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тромбоцитах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Варианты течения кори?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повторная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "осложненная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "персистирующая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рецидивирующая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Распространение вируса кори по организму вызывает?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ларинготрахеит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "холецистит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "панкреатит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уретрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Редкая локализация местных изменений при дифтерии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трахея",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глотка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бронхи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "конъюнктива",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Редкая локализация местных изменений при дифтерии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трахея",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глотка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гортань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полость носа",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Частая локализация местных изменений при дифтерии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рана кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миндалины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полость носа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гениталии (у девочек)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Источник заражения дифтерией?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "носитель - животное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "больное животное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "носитель - человек",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "насекомые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Проявления дифтерии зависят от воздействия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемагглютинина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейроминидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфолипазы С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экзотоксина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Черепно - мозговой нерв, который часто поражается при дифтерии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глазной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "добавочный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тройничный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "языкоглоточный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Дифтерийный токсин преимущественно поражает систему?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышечную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адреналовую",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "костно - суставную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пищеварительную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Изменения в сердце при дифтерии в начале 2-й недели болезни?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый бородавчатый эндокардит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мелкоочаговый кардиосклероз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фибринозный перикардит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "межуточный миокардит",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Дифтерия дыхательный путей чаще сопровождается развитием воспаления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифтерического",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крупозного",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "катарального",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серозного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Дифтерийный токсин преимущественно поражает системы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нервную",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мышечную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кроветворную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пищеварительную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Путь заражения при гриппе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушно - капельный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фекально - оральный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контактный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Способность вируса избирательно поражать клетки и ткани называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирулентность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "патогенность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инвазивность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фагицитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тропизм",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Защитными реакциями макроорганизма являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фагоцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сенсибилизация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аутоиммунизация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аллергия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Основные патогенные свойства вируса гриппа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стимуляция иммунитета",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вазопатическое действие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нейропатическое действие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "онкогенное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Цитопатическое действие вируса гриппа микроскопически проявляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспалением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отеком тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровоизлияниями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "некрозом эпителия бронхиол и альвеол",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Присоединение вторичной инфекции при гриппе связано с действием вируса?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммунодепрессивным",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нейропатическим",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цитопатическим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вазопатическим",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Общие изменения при гриппе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дистрофия и некроз эпителия бронхов и альвеол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дистрофия паренхиматозных органов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кишечное расстройства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "При легкой форме гриппа в слизистой оболочке верхних дыхательных путей развивается воспаление?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "катаральное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фибринозное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "геморрагическое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Микроскопические изменения слизистой оболочки верхних дыхательный путей при легкой форме гриппе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фуксинофильные включения в цитоплазме эпителия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лимфо - плазмоцитарная инфильтрация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "некроз слизистой оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипосекреция желез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "При гриппе средней тяжести воспаление развивается в?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трахее",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "плевре",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в селезенке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "конъюнктиве",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "При гриппе средней тяжести в трахее и бронхах развивается воспаление?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серозно - геморрагическое",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фибринозное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "катаральное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гнойное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Варианты течения тяжелой формы гриппа?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсическая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миокардитечская",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепатоксическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Метафорически легкое при тяжелой форме гриппа с легочными осложнениями называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сальное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сотовое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "большое белое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "большое пестрое",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Изменения головного мозга при тяжелой форме гриппа представлены?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серозным менингитом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фибринозным воспалением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гидроцефалией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кальцинозом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Морфологическое выражение язвенной болезни желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острая язва",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хроническая эрозия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "множественные острые эрозии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хроническая рецидивирующая язва",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Очаги экстрамедуллярного кроветворения при пернициозной анемии могут встречаться?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только в селезенке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повсеместно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "только в селезенке и в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "везде, кроме костного мозга",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Постоянныне признаки гемолитических анемий?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемоглобинурийный нефроз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "общий гемосидероз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "меланоз кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "петехии на коже",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подпеченочная желтуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "К эритроцитопатиям относятся?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фавизм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "а-талассемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "серповидноклеточная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наследственный овалоцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "постгеморрагическая анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "К группе злокачественных иммунопролиферативных заболеваний относятся все нижеперечисленные процессы, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миеломной болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миелосклероза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "макроглобулинемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "болезни тяжелых цепей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "болезней легких цепей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Для гемолитических анемий характерна триада?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемия, гепатомегалия, спленомегалия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спленомегалия, фуникулярный миелоз, анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анемия, спленомегалия, желтуха",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гепатомегалия, анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемия, фуникулярный миелоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Причины гемолитических анемий, обусловленных внутрисосудистым гемолизом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "малярия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воспалительные процессы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "васкулиты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гематома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ревматизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Постоянные признаки гемолитических анемий, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсический нефроз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "общий гемосидероз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперплазия костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экстрамедуллярное кроветворение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "надпеченочная желтуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Возбудителем скарлатины является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диплококк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стрептококк группы А",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "зеленящий стрептококк",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стафилококк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Типичной локализацией местных изменений при скарлатине является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "язычная миндалина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "верхние дыхательные пути",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кожа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кишечник",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слизистая оболочка зева",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Изменения регионарных лимфоузлов при скарлатине носят характер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некроза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "малокровия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипоплазии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "склероза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атрофии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Формой менингококковой инфекции является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "назофарингит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "миелит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ларинготрахеит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "При менингококковом менингите типичным воспалением является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "геморрагическое",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "катаральное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продуктивное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гнойное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гранулематозное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Характерная для туберкулезной гранулемы клетка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ашкенази",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "койлоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпителиальная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эпителиоидная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "миоэпителиальная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Характерная для туберкулезной гранулемы клетка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гигантская многоядерная Лангханса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "многоядерная Рид-Штернбеога",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миофибробласт",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Микулича",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Вирхова",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Предшественник гигантской многоядерной клетки Лангханса?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "костномозговой моноцит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тканевой фибробласт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетка адвентиции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клетка Купфера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "Неблагоприятный исход туберкулезной гранулемы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ослизнение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "малигнизация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образование кисты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гнойное расплавление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение зоны некроза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Виды фагоцитоза в гранулеме при туберкулезе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неполный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "завершенный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ограниченный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "Исход творожистого некроза при заживлении первичного аффекта при туберкулезе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование кисты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "распространение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фиброзирование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "расплавление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфаркт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "Исход творожистого некроза при заживлении первичного аффекта при туберкулезе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "петрификация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "формирование кисты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образование фибриноида",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метастатическое обызвествление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Клинико-морфологические формы туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подострый",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "первичный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "возвратный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Клинико-морфологические формы туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возвратный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гематогенный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "Очаг Гона – это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "казеозная бронхопневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "заживший туберкулез легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заживший гематогенный туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "первичный туберкулезный легочный аффект",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "заживший первичный туберкулезный легочный аффект",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Первичный туберкулез развивается при?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трансплацентарной передаче возбудителя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активации инфекта в гематогенных очагах отсева",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "первом попадании микобактерии в организм человека",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повторном попадании микобактерии в организм человека",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "Морфологическое выражение первичного туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первичный аффект",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первичный комплекс",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "казеозная пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "милиарный туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулезный лимфаденит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "Компоненты первичного легочного туберкулезного комплекса?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойный флебит, регионарный лимфаденит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "очаг бронхопневмонии, регионарный лимфаденит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "абсцесс легкого, тромбофлебит, регионарный лимфаденит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "очаг геморрагической пневмонии, лимфангит, лимфаденит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "очаг казеозной пневмонии, лимфангит, регионарный лимфаденит",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "Характеристика гематогенного туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интраканаликулярное распространение возбудителя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфожелезистое прогрессирование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экссудативное тканевая реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продуктивная тканевая реакция",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "Формы гематогенного туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфильтративный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "генерализированный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "казеозная пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с лимфожелезистой генерализацией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Характеристика хронического крупноочагового туберкулеза легких?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие внелегочного туберкулезного очага",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "«этажность» поражений в легком",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "каналикулярное распространение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие очага реинфекта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Характеристика поражения легких при гематогенном туберкулезе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "симметричные очаги в легких",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "«этажность» поражений в легком",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие очага реинфекта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфаденит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "Характеристика хронического крупноочагового туберкулеза легких?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие очага Гона",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поражение одного легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие очага реинфекта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "«этажность» поражений в легком",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "Источник гематогенного туберкулеза – очаг?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематогенного отсева во внутренних органах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Структова",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ашоффа - Пуля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ассмана – Редекера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "Типичная локализация очагов при костно - суставном туберкулезе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кости стопы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кости черепа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тела позвонков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мелкие суставы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "Состояние первичного туберкулезного аффекта при вторичном туберкулезе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рост аффекта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очаг Абрикосова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "заживший - очаг Гона",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "Формы вторичного туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематогенно - дессиминированный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический крупноочаговый",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острый милиарный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулома",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "туберкулома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "Форма прогрессирования инфильтративного туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронический деструктивный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фиброзно - кавернозный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "казеозная пневмония",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фиброзно - очаговый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "Очаг Абрикосова локализуется в сегментах легкого?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "VIII - IX",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "VII - X",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "III - V",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "I - II",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "Изменение бифуркационных лимфатических узлов при вторичном туберкулезе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "казеозный некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кристаллизация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пертификация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амилоидоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 200,
+				"text": "Очаг Ашоффа - Пуля – это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "свежие очаги реинфекта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зажившие очаги реинфекта",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "очаги отсева гематогенного туберкулеза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 201,
+				"text": "Форма прогрессирования острого кавернозного туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фиброзно - кавернозный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фиброзно - очаговый",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "генерализованный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цирротический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 202,
+				"text": "Морфология очага Абрикосова?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гранулема",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первичный аффект",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крупозная пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "казеозная бронхопневмония",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 203,
+				"text": "При спутогенном распространении туберкулеза поражается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плевра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кишечник",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "миндалины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочевыводящая система",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "Общие изменения при скарлатине обусловлены?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоцитопенией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диспротеинемией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсемией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "виремией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 205,
+				"text": "Гнойно - некротические осложнения первого периода скарлатины?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миокардит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амилоидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гнойный отит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 206,
+				"text": "Формы течения скарлатины?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсико - септическая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "септикопиемическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уремическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибринозная",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

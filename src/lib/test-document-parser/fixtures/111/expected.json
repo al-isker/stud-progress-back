@@ -1,0 +1,880 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Основными эндемичными зонами эхинококкоза являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прибалтика",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кавказ, Средняя Азия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Якутия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Комчатка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Красноярская область",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Основным хозяином эхинококка является один из следующих домашних животных:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "овца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "свинья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лошадь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "собака, кошка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "корова",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Промежуточным хозяином эхинококка является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "волк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лисица",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "человек",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кошка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "собака",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какая географическая зона России не является эндемическим очагом эхинококкоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Заполярье",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Кавказ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Крым",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Поволжье",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Западная Сибирь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Инфицирование человека эхинококком происходит при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "употреблении копченной рыбы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "употреблении сырых яиц",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проглатывании личинки эхинококка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проглатывании яиц эхинококка и вдыхании пыли с яйцами эхинококка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "попадании личинки эхинококка на кожу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Распространения эхинококка в организме человека после заражения происходит по:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчевыводящим путям",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфатической системе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кишечнику",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интерстициальным пространствам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровеносным сосудам",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Наиболее часто поражаемыми эхинококком органами человека являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "головной мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спинной мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почки, селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кожа, кишечник, мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "печень, легкие",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Эхинококковый пузырь окружает следующие оболочки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пиогенная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грануляционная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зародышевая и хитиновая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мезотелиальная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фиброзная, деморкационная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Длительность развития эхинококка в организме человека составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-2 месяца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "6-12 месяцев",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1-3 года",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10-20 лет",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "30-40 лет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Эхинококковые кисты чаще бывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "множественные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "одиночные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "многополярные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мультинодулярные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": ") коллоидные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "При больших эхинококковых кистях механическая травма может привести к опасному осложнению",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нагноению кисти",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разрыву кисти, анафилактическому шоку.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "механическому сдавлению окружающих тканей и органов.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфорреи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровотечению",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Стадиями клинического течения эхинококкоза являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острая стадия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хроническая стадия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стадия обострения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стадия начала, разгара и осложнения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "стадия ремиссии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Клиническими симптомами I стадии эхинококкоза является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "боли, недомогание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ознобы, неустойчивая гемодинамика",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аллергические проявления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "похудание, дефицит веса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клинических симптомов нет",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какие симптомы характерны для первой стадии эхинококкоза печени:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокая лихорадка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение селезенки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ослабление дыхания, кашель",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клинические симптомы отсутствуют",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Клиническими симптомами II стадии эхинококкоза печени являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желтуха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гектическая температура",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "асцит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выраженная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "периодическая субфебрильная температура, слабость, потливость, похудание, дискомфорт в правом подреберье, малое увеличение печени",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Специфическими серологическими реакциями для диагностики эхинококкоза являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проба Оппеля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реакция манту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакция Пирке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проба Каццони и реакция Латекс-агглюцинации",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "проба Брауна",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Проба Каццони заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутрикожном введении эхинококковых антител с развитием местной аллергической реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутрикожном введении эхинококкового антигена с развитием аллергической реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличении количества эозинофилов при пальпации живой паразиторной кисты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение содержания эозинофилов при проведении пункции эхинококковой кисты 5",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение содержания эозинофилов в крови больного после гемотрансфузии от больного оперированного по поводу эхинококкоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Проба Анфилюгова заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличении количества эозинофилов в крови после пальпации живой паразитарной кисты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение количество эозинофилов в крови после пальпации паразитарной кисты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исчезновение эозинофилов из крови после пальпации паразитарной кисты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутрикожном введении эхинококкового антигена с развитием общей аллергической реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутрикожном введении эхинококкового антигена с развитием местной аллергической реакции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Проба Анфилюгова позволяет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "определить заражение человека эхинококком",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поставить диагноз эхинококкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определить жизнеспособность паразита",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "определить активность клинического течения заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определить исход заболевания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Какой рентгенологический признак не характерен для эхинококкоза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение размеров печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "высокое стояние и малая подвижность диафрагмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тень кисты в проекции печени при кальцификации паразита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшение размеров печени",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аваскулярные зоны в печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какие методы лечения применяются при эхинококкозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "консервативный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хирургический",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лучевая терапия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "химиотерапия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "склеротерапия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Какой вид хирургического вмешательства не применим для лечения эхинококкоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "краевая резекция органов вместе с кистой 6",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закрытая эхинококкэктомия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пункционный метод лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "радикальная эхинококкэктомия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лапароскопическая закрытая эхинококкэктомия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Профилактикой эхинококкоза является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "предупреждение микротравм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение санитарно - гигиенических условий населения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прием антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунизация населения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "санация домашних животных",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "При локализации эхинококковой кисты вблизи ворот печени могут появиться следующие осложнения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоз мезентериалльных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "механическая желтуха, асцит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кишечная непроходимость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипертонический криз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Первичная инвазия альвеококка происходит в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "легком",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печени",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "почке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезенке",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "головном мозге",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Основным хозяином альвеококка является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "корова",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "овца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "собака",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "человек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грызуны, лисы, песцы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Источником заражения аскаридозом является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "человек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кошка 7",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "собака",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крупный рогатый скот",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мелкий рогатый скот",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 16,
+				"text": "Клиническими симптомами эхинококкоза печени III стадии являются:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

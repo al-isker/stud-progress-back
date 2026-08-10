@@ -1,0 +1,1392 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Отметить препараты гипоталамических гормонов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "соматостатин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "протирелин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гидрокортизон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кальцитонин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тироксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Отметить препараты гормонов передней доли гипофиза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "питуитрин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окситоцин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соматотропин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бромокриптин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тестостерон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Отметить наиболее важные показания к применению кортикотропина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение функциональной активности надпочечников в результате длительной терапии кортикостероидами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микседема",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тиреотоксикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диабет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "галакторея",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Каков механизм влияния бромокриптина на дофаминергические процессы в ЦНС",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетает дофаминергические процессы вЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стимулирует дофаминергическиепроцессы в ЦНС",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стимулирует холинергические процессы вЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подавляет холинергические процессы вЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "влияет на серотонинергические процессыв ЦНС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Отметить основные показания к применению бромокриптина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стимуляция лактации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "акромегалия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипофизарная недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бесплодие, связанное с избыточной продукцией пролактина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Отметить гормон задней доли гипофиза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кортикотропин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кальцитонин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адиурекрин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Отметить основной эффект вазопрессина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение диуреза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение диуреза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расширение кровеносных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ослабление перистальтики кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение тонуса мочевого пузыря",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Отметить гормон - производное аминокислот",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тироксин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эстрон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прогрестерон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидрокортизон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инсулин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Как влияет кальцитонин на обмен кальция",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышает содержание кальция в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижает содержание кальция в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "способствует декальцификации костной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшает содержание кальция в костной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нормализует содержание кальция в костной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Какие изменения обмена вызывает тироксин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение основного обмена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение потребления кислорода тканями",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усиление синтеза белков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение массы тела",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "усиление синтеза гликогена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Отметить антитиреоидное средство, угнетающее синтез гормонов щитовидной железы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трийодтиронин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "калия перхлорат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мерказолил",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "L-тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тиреоидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Как влияет паратиреоидин на обмен кальция и фосфора",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышает содержание кальция в крови, снижает содержание НРО4- в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижает содержание кальция в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышает седержание НРО4- в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшает реабсорбцию кальция в почечных канальцах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способствует отложению кальция в костной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Какой препарат применяют для лечения сахарного диабета",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вазопрессин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окситоцин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "манинил",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "преднизолон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какой механизм гипогликемического действия инсулина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "способствует проникновению глюкозы в клетки и ее утилизации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшает гликогеногенез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "препятствует всасыванию глюкозы в тонком кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "препятствует проникновению глюкозы в клетки и ее утилизации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "усиливает выделение эндогенного инсулина β- клетками поджелудочной железы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Каков механизм гипогликемического действия акарбозы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшает глюкогеногенез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ингибирование кишечного фермента альфа - глюкозидазы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ускоряет всасывание глюкозы в тонкой кишке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиливает выделение эндогенного инсулина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способствует проникновению глюкозы в клетки и ее утилизации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Отметить глюкокортикоидный препарат, используемый для резорбтивного действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синафлан",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дексаметазон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лоринден",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "флуцинар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фторокорт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Как влияют глюкокортикоиды на состав периферической крови",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивает содержание лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличивает содержание эозинофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличивает содержание нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличивает содержание моноцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшает содержание лимфоцитов и эозинофилов в крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Какие виды действия глюкокортикоидов находят применение в медицинской практике",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "противошоковое",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гипотензивное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммунодепрессивное",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышают тонус бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы верные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Отметить глюкокортикоид, который используются только местно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидрокортизон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "преднизолон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дексаметазон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синафлан",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "триамцинолон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какие эффекты характерны для минералокортикоидов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение реабсорбции Na+ и увеличение выделения К+ из организма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение диуреза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение реабсорбции Na+ в почечных канальцах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение сократительной активности скелетных мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "понижение реабсорбции Na+ и уменьшение выделения К+ из организма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Отметить влияние тиамина на обменные процессы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стимулирует декарбоксилирование L-кетокислот",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетает декарбоксилирование L -кетокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понижает содержание пировиноградной и молочной кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активирует синтез норадреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетает синтез ацетилхолина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Каково влияние рибофлавина на обменные процессы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "принимает участие в окислительно-восстановительных процессах в составе дегидрогеназ и оксидаз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стимулирует декарбоксилирование L-кетокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стимулирует синтез глюкокортикоидов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышает тонус гладких мышц ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "понижает тонус гладких мышц ЖКТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Отметить показания к применению кислоты никотиновой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подагра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пеллагра",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемералопия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ксерофтальмия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Какие витаминные препараты применяют при пернициозной анемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фолиевая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цианокоболамин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "никотиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токоферол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Отметить фармакологические свойства аскорбиновой кислоты",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивает сосудистую проницаемость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшает синтез коллагена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окисляет в кишечнике двухвалентное железо в трехвалентное",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышает адаптационные возможности организма",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все ответы верные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Какие витаминные препараты уменьшают проницаемость биологических мембран",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретинол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рутин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "токоферол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цианокоболамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рибофлавин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Отменить жирорастворимые витамины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цианокоболамин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фолиевая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "филлохинон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рутин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "При каких состояниях применяют ретинол",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пеллагра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спру",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемералопия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цинга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Как влияет эргокальциферол на фосфорно-кальциевый обмен",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "понижает содержание кальция и фосфатов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ухудшает всасывание кальция в кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "препятствует отложению кальция в костях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "способствует декальцификации костей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышает содержание кальция и фосфатов в крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Отменить показания к применению эргокальциферола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пеллагра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атеросклероз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеомаляция",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "спру",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Какой витаминный препарат является антагонистом антикоагулянтов непрямого действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цианокобаламин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "витамин К",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тиамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пиридоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Определить препарат из группы водорастворимых витаминов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретинол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токоферол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эргокальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "филлохинон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рибофлавин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Отметить водорастворимые витамины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "филлохинон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цианкоболамин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эргокальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ретинол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токоферол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Отметить средство для лечения макроцитарной анемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цианокобаламин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аскорбиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фолиевая кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пиридоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Отметить средство для лечения железодефицитной анемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аскорбиновая кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фолиевая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цианокобаламин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пиридоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рибофлавин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Отметить средство, способствующее синтезу протромбина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "витамин К",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тиамин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аскорбиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рутин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кверцетин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Отметить витаминный препарат для лечения и профилактики рахита",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "филлохинон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тиамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эргокальциферол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пиридоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Отметить витаминный препарат для лечения ксерофтальмии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "никотиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибофлавин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретинол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эргокальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аскорбиновая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Отметить системы, наиболее чувствительные к недостатку витамина В12",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудочно-кишечный тракт, кроветворение, нервная система",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нервная система, мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соединительная ткань, костная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "система свертывания крови и фибринолиза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сетчатка глаза, эпителий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Отметить показания, к применению аскорбиновой кислоты",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бери-бери",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пеллагра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спру",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рахит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровотечения, связанные с повышенной сосудистой проницаемостью",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Отметить показания к применению пиридоксина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровотечения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для предупреждения побочных эффектов производных гидразида изоникотиновой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "скорбут",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пеллагра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Отметить основные физиологические функции ретинола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "участие в синтезе протромбина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участие в синтезе аминокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в синтезе метионина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участие в фоторецепции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "участие в синтезе коллагена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Отметить препарат с А - витаминной активностью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плоды шиповника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ягоды черноплодной рябины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "масло облепиховое",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "масло касторовое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плоды смородины",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 24,
+				"text": "Какие фармакологические препараты могут вызвать при длительном применении гиповитаминоз пиродоксина",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

@@ -1,0 +1,1003 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Назовите зоны коркового вещества надпочечников:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "клубочковая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мозговая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "корковая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "центральная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пучковая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Назовите части гипофиза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "латеральная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "промежуточная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "краниальная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задняя доля",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "передняя",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "В каком органе находятся тельца Гассаля:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "щитовидная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипофиз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимус",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "надпочечник",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поджелудочная железа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Укажите зоны надпочечника, клетки которой вырабатывают гормоны, получившие название глюкокортикоидов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клубочковая зона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мозговое вещество",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сетчатая зона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пучковая зона",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "строма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Укажите отделы средостения, в которых располагается тимус:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижнее переднее средостение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "верхнее средостение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нижнее среднее средостение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижнее заднее средостение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Укажите поверхность или край надпочечников, на которых находятся их ворота:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя поверхность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нижняя поверхность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медиальный край",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задняя поверхность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "латеральная поверхность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Назовите анатомические структуры, которые входят в состав передней доли гипофиза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бугорная часть",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нейрогипофиз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воронка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дистальная часть",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "воронка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Укажите, какие гормоны выделяет передняя доля гипофиза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "соматотропный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гонадотропный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "окситоцин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адренокортикотропный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Укажите эндокринные железы бранхиогенной группы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поджелудочная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интерстициальные клетки половых желез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шишковидное тело",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щитовидная железа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "паращитовидные железы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Укажите, какие части выделяют у щитовидной железы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пирамидальная доля",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "правая доля",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нижняя доля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задняя доля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "левая доля",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Укажите гормоны щитовидной железы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тиреокальцитонин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "трийодтиронин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тимозин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мелатонин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кальцитонин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Укажите место расположения гипофиза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "турецкое седло",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "крыловидная ямка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "передняя черепная ямка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задняя черепная ямка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "большие крылья крыловидной кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Укажите, где вырабатывается секрет накапливающийся в нейрогипофизе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "супраоптические ядра гипоталамуса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "паравентрикулярные ядра гипоталамуса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "промежуточная части гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задняя доля гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "таламус",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Укажите эндокринную часть паренхимы поджелудочной железы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поджелудочные ацинусы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "островки Лангерганса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дольки железы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "строма железы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Укажите гормоны поджелудочной железы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "инсулин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глюкагон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гидрокортизон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "соматостатин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Какие сосуды являются начальным звеном (корнями) лимфатической системы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфатические капилляры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лимфатические сосуды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфатические стволы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфатические протоки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Укажите лимфатические узлы, относящиеся к париетальным:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "общие подвздошные лимфатические узлы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "брыжеечные лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхние диафрагмальные лимфатические узлы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трахеобронхиальные лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Укажите лимфатические узлы, относящиеся к висцеральным узлам:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижние диафрагмальные лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "средостенные лимфатические узлы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "окологрудинные лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижние надчревные лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Укажите место впадения грудного лимфатического протока в кровеносное русло:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плечеголовная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "левый венозный угол",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наружная яремная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правая внутренняя яремная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Укажите места расположения грудного протока на его пути к левому венозному углу:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аортальное отверстие",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отверстие нижней полой вены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на передней поверхности пищевода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "между грудной частью аорты и непарной веной",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Укажите, при слиянии каких стволов образуется грудной проток?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правого и левого бронхосредостенных;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "правого и левого поясничных;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "правого и левого яремных.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кишечного и бронхосредостенного",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Укажите группы лимфоузлов головы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сосцевидные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "заглоточные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "паратрахеальные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "предгортанные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Укажите место локализации группы нижнечелюстных лимфатических узлов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "на наружной поверхности тела нижней челюсти",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на дне ротовой полости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в области ветви нижней челюсти",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в поднижнечелюстном треугольнике",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Укажите место расположения затылочных лимфатических узлов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "на поверхностном листке шейной фасции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на предпозвоночном листке шейной фасции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по ходу внутренней яремной вены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "под поверхностным листком шейной фасции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Укажите органы, лимфатические сосуды которых впадают в передние средостенные лимфатические узлы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "перикард",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "спинной мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "молочная железа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пищевод",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Укажите группы лимфоузлов шеи:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глубокие",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поверхностные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "щечные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сосцевидные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Отток лимфы от молочной железы осуществляется в:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "подмышечные лимфатические узлы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "локтевые лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окологрудинные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трахеобронхиальные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Укажите анатомические образования, лежащие позади тимуса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дуга аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полунепарная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сердце",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "непарная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Укажите части тимуса, в которых располагаются тельца (Гассаля):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подкапсульная зона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "корковое вещество",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "междольковые перегородки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мозговое вещество",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Укажите структуры иммунной системы, содержащие преимущественно Т-лимфоциты:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "паракортикальная зона лимфатических узлов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "периартериальная часть лимфоидных узелков селезенки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мякотные тяжи лимфатических узлов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфоидные узелки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Укажите артерии, вокруг которых имеются периартериальные лимфоидные муфты селезенки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сегментарные артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кисточковые артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трабекулярные артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пульпарные артерии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 13,
+				"text": "К какой части мозга соединяется эпифиз с помощью поводков:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

@@ -1,0 +1,426 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Первая медицинская неквалифицированная помощь оказывается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средним медперсоналом или немедиками прошедшими подготовку по оказанию первой медицинской помощи.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рентгенологами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "травматологами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "терапевтами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хирургами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Первую медицинскую доврачебную помощь оказывают в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фельдшерско-акушерском пункте (ФАП)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "участковой больнице",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "специализированном хирургическом отделении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "научно-исследовательском институте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "научном центре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Первую врачебную помощь оказывают в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ФАП",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участковой больнице",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хирургическом отделении ЦРБ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Республиканской клинической больнице",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "круглосуточном травматологическом пункте",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Специализированная медицинская помощь оказывают в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "участковой больнице",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фельдшерско-акушерском пункте",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "специализированном отделении больницы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "приемном покое больницы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "операционной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Первая помощь при вывихах плеча заключается в наложении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипсовой повязки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "косыночной повязки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "шины Дитерихса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аппарата Илизарова",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "колосовидной повязки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Специализированная помощь при повреждении крупной артерии заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перевязке артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наложении жгута",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наложении сосудистого шва 2",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "переливании крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наложении зажима",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Первую неквалифицированную врачебную помощь оказывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хирург районной больницы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "семейный врач",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "комбустиолог",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хирург общего профиля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "травматолог",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Специализированную хирургическую помощь оказывает врач:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "получивший специальную подготовку в определенной области хирургии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "любого профиля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "общего профиля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интерн",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аспирант первого года обучения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Первая помощь при переломах трубчатых костей заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммобилизации перелома",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наложении мягкой повязки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "введении новокаина в область перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наложении жгута",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "консультации больного хирургом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Первую помощь при травматическом шоке следует начинать с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммобилизации при переломах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспортировки в лечебное учреждение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "асептической повязки на рану",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устранения боли",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "восстановления ОЦК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Какова первая помощь при остановке сердца:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переливание крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "непрямой массаж сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "искусственная вентиляция легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "переливание кровезаменителей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прямой массаж сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "При подъеме температуры в целях первой помощи нельзя назначать:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обильное питье",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пузырь со льдом на лобно-височную область 3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутрь алкоголь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "внутрь аспирин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обтирание тела прохладной водой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Первая помощь при рвоте больному с лекарственным отравлением заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полоскании ротовой полости молоком",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "переливании кровезаменителей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "быстром многократном промывании желудка до чистой воды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "искусственной вентиляции легких",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "катетеризации мочевого пузыря",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

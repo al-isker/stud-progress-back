@@ -1,0 +1,3044 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Сколько пар жаберных щелей у ланцетника",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "50",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "70",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "менее 100",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "100 и более",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Какая кровеносная система у ланцетника",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеется лишь брюшная аорта, несущая кровь к жабрам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "имеется лишь спинная аорта, несущая кровь к голове",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "имеется незамкнутая система",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "имеется замкнутая кровеносная система",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "имеется лишь венозный синус",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Признаки прогрессивной эволюции скелета позвоночных",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление черепа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "появление внутреннего скелета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "появление позвоночника",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "появление плавников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление хорды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Органы выделения позвоночных",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протонефридии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метанефридии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мальпигиевы сосуды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нефридии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Сколько жаберных щелей у рыбы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5-7",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "10",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "100",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Есть ли сердце у рыб и сколько камерное оно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердце заменяет брюшная аорта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "имеется сердце с множеством камер",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сердце однокамерное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сердце двухкамерное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сердце трехкамерное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Прогрессивные изменения скелета у амфибии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление шейного отдела позвоночника",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исчезновение крестцового позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "большая степень дифференцировки позвоночника",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие ребер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какой тип почек у амфибий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "головная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "предпочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туловищная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тазовая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нефридии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Сколько сосудов выходит из сердца рептилий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Какой отдел органа слуха у млекопитающих появляется впервые?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутреннее ухо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наружное ухо",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "среднее ухо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слуховая трубка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наружная слуховая раковина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Какой отдел головного мозга млекопитающих прогрессивно развивается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "передний мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "промежуточный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мозжечок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продолговатый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Сколько сосудов выходит из сердца у рыб",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "много",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Сколько сосудов выходит из сердца у рептилий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "много",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какой паре жаберных дуг гомологичны сонные артерии человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "второй",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "третьей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "четвертой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пятой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Какой паре жаберных дуг рыб гомологичны легочные артерии у наземных позвоночных",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "второй",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "четвертой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пятой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шестой",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Какие отделы головного мозга развиваются из переднего мозгового пузыря",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "промежуточный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средний",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мозжечок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "передний мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "В каком отделе мозга находится высший интегрирующий центр нервной деятельности у рыб",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "промежуточном отделе мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среднем отделе мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мозжечке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "переднем отделе мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продолговатом отделе мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "В каком отделе мозга находится высший интегрирующий центр нервной деятельности у млекопитающих",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "промежуточном отделе мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среднем отделе мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мозжечке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "переднем отделе мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "продолговатом отделе мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Какие отделы мозга развиваются из среднего мозгового пузыря",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "промежуточный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "средний",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мозжечок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "передний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какую функцию выполняет кора у рептилий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "является высшим интегрирующим центром",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "является обонятельным центром",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "координирует движения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "является зрительным центром",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "является слуховым центром",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "У какого класса позвоночных в процессе эволюции появилась новая кора",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рыб",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амфибий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рептилий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "птиц",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "млекопитающих",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какие функции выполняет высший интегрирующий центр",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "принимает информацию из окружающей среды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "принимает информацию о деятельности внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анализирует поступившую информацию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вырабатывает ответную реакцию",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "обеспечивает передачу информации по центробежным и центростремительным путям",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Неполное разделение ротовой полости на пищеварительный и дыхательный отделы впервые наблюдается у",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хрящевых рыб",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "костных рыб",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "земноводных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пресмыкающихся",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "млекопитающих",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "В эволюции позвоночных многоклеточные слюнные железы появляются у",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хрящевых рыб",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амфибий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "костных рыб",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рептилий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "млекопитающих",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Назовите прогрессивные изменения в скелете позвоночных",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление 4х-камерного сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появление черепа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "появление позвоночника",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "появление плавников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление метамерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Нервная система позвоночных - это",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "окологлоточное нервное кольцо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "головной мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "спинной мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "брюшная нервная цепочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нервные ганглии, нервное кольцо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Назовите прогрессивные признаки изменения скелета амфибий",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление шейного отдела",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "появление пятипалых конечностей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "появление членистых конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появление поясничного отдела",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление позвоночника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Головной мозг у земноводных, в отличие от головного мозга у рыб, имеет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "более развитый передний мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "более развитый мозжечок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "три отдела",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "менее развитый передний мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Назовите отделы кровеносной системы бесхвостых амфибий",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "2-х камерное сердце",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кардинальные вены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полная перегородка в сердце",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3-х камерное сердце",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дуги аорты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Назовите прогрессивные изменения в органах дыхания рептилий",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифференцировка дыхательных путей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "появление альвеол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение дыхательной поверхности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "появление воздушных мешков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие дифференцировки и альвеол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Назовите сосуды, приносящие кровь в сердце рептилий",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дуги аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "легочные артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "легочные вены",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "спинная аорта",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полые вены",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Особенности размножения грызунов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "малое количество зародышей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "большое количество зародышей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "способность размножения круглый год",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "длительные сроки внутриутробного развития",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прогрессивное развитие половой системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Особенности строения кровеносной системы млекопитающих",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "замкнутая кровеносная система",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие правой дуги аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие 4-х камерного сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие левой дуги аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие малого и большого круга кровообращения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Особенности строения кровеносной системы птиц",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "замкнутая кровеносная система",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие правой дуги аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие 4-х камерного сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие левой дуги аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие малого и большого круга кровообращения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Какие отделы головного мозга развиты у птиц",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мозжечок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "промежуточный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "передний мозг",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Какой отдел головного мозга развит у млекопитающих по сравнению с птицами",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мозжечок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "промежуточный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "передний мозг",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Сколько камерное сердце и какая кровь в левой дуге аорты у рептилий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердце 2-х камерное, артериальная кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердце 3-х камерное, смешанная кровь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сердце 4-х камерное, венозная кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сердце 4-х камерное, артериальная кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сердце 2-х камерное, венозная кровь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Сколько камерное сердце и какая кровь в правой дуге аорты у рептилий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердце 2-х камерное, артериальная кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердце 3-х камерное, артериальная кровь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сердце 4-х камерное, венозная кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сердце 4-х камерное, артериальная кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сердце 2-х камерное, венозная кровь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Сколько камерное сердце и какая кровь в сонных артериях у рептилий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердце 2-х камерное, артериальная кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердце 3-х камерное, артериальная кровь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сердце 4-х камерное, венозная кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сердце 4-х камерное, артериальная кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сердце 2-х камерное, венозная кровь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Какая кровь в сердце амфибий?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только чисто артериальная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только чисто венозная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "только смешанная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артериальная, венозная, смешанная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "только венозная и артериальная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Сущность эволюционного процесса заключается",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в естественном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "борьбе за существование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "постепенном накоплении генетических изменений в геномах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "превращении одних генотипов в другие",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Движущей силой эволюции по Дарвину является",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "борьба за существование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изменение внешних условий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пангенезис",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "естественный отбор",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "целесообразная организация индивидуума",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "В каких категориях развёртывается эволюционный процесс",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в индивидууме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в отряде",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в популяциях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в виде",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в роде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Основные критерии вида",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "внешнее сходство",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "генетический",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "экологический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "одинаковые вкусовые предпочтения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "групповые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Что ведет к упрощению организации организма",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ароморфоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дегенерация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "идиоадаптация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "филэмбриогенезы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Гомологичными органами являются крылья бабочка и крылья",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "летучей мыши",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пчелы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "воробья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "муравья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Выберите положение теории Ч. Дарвина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все изменения, произошедшие под действием внешней среды, наследуются",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "виды неизменны и созданы Творцом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в результате воздействия среды выживают наиболее приспособленные особи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "видообразование бывает экологическим и географическим",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "В чём значение надвидовых таксонов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "являются таксонами реальной жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не является таксонами реальной жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "образованы искусственно для изучения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подчеркивает филогенетическое единство организмов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "подчеркивает различие и сходство между организмами различных таксонов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Приспособленность летучих мышей к ловле насекомых с помощью издаваемых ими ультразвуков – это результат",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "действия движущих сил эволюции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "проявления законов наследственности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проявления модификационной изменчивости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "методического отбора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Популяция - это",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "группа различных видов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "группа особей одного вида",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "межвидовые группировки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "группа особей не скрещивающиеся между собой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "группа особей скрещивающиеся между собой",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Сущность процесса микроэволюции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "развитие индивидуума до репродуктивной стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "процессы завершаются видообразованием",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "процессы завершаются образованием родов и семейств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "процессы завершаются образованием классов и типов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "процессы завершаются образованием довидовых /подвид, популяция/ категорий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Сущность процесса макроэволюции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "развитие индивидуума до репродуктивной стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "процессы завершаются видообразованием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "процессы завершаются образованием классов и типов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "процессы завершаются образованием популяции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Элементарным эволюционным фактором является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарный процесс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "абиотический процесс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антропогенный процесс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мутационный процесс",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "биоэкологический процесс",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Сущность процесса макроэволюции",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "процесс, завершающийся видообразованием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "развитие индивидуума до репродуктивной стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "процессы, завершающиеся образованием родов, семейств и т.д.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "процессы, завершающиеся образованием классов, типов и т.д.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "процессы, завершающиеся образованием довидовых (подвид, популяция, категорий)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Мутации по значимости бывают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только вредные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только нейтральные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "только полезные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вредные, нейтральные и полезные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вредные и нейтральные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Мутации, которые могут контролироваться отбором",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "доминантные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рецессивные у гетерозигот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "летальные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вредные и полезные вместе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Советские ученые, которые занимались разработкой синтетической теории эволюции",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "И.И. Мечников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Н.П.Дубинин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С.С.Четвериков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "В.Серебряковский",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Н.К.Кольцов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Появление антибиотико-устойчивых бактерий и ДДТ устойчивых рас комаров объясняется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некачественным изготовлением препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "некачественным их применением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличением концентрации рецессивных мутаций",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличение концентрации доминантных мутаций",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение гетерозиготных особей устойчивости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Полезные мутации распространяются в популяциях благодаря",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перемещению особей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "свободному скрещиванию",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "физиологической изоляции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экологической изоляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Идеальная популяция - это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совокупность скрещивающихся между собой особей вида",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бесконечно большая совокупность, неподвергающаяся мутации и отбору",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бесконечно большая совокупность, подвергающаяся панмиксии и отбору",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малочисленная большая совокупность, подвергающаяся непрерывной мутации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "совокупность особей, дающая плодовитое потомство",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Какой закон позволяет определить соотношение частот аллелей в популяции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "закон расщепления признаков и единообразия гибридных поколей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закон сцепленного наследования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закон независимого комбинирования генов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "закон Харди-Вайнберга",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "закон о гомологических рядах наследственной изменчивости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Кто является создателем закона, позволяющего определить соотношение аллелей в популяциях",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Г.Мендель и Т.Г.Морган",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Г.Мендель и А.Вейсман",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Н.И.Вавилов и В.Серебровский",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Д.Харди и Г.Вайнберг",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "В.Иогансен и Н.К.Кольцов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "В каких популяциях действует закон Харди-Вайнберга",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "реальных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "идеальных",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "малочисленных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "многочисленных",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "подверженных мутациям",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Широкая норма реакции вырабатывается при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положительном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отрицательном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стабилизирующим отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дизруптивном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "движущем отборе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Узкая норма реакции вырабатывается при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положительном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отрицательном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стабилизирующим отборе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дизруптивном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "движущем отборе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Несколько разных норм реакции вырабатываются и сохраняются при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положительном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отрицательном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стабилизирующим отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дизруптивном отборе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "движущем отборе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Движущийся отбор действует в направлении",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличения большего охвата количества особей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расширения нормы реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "усиления силы воздействия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смены нормы реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ослабления силы и величины отбора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Стабилизирующий отбор действует в направлении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширения нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закрепления широкой нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закрепления узкой нормы реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "смены нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выработки и закрепления нескольких норм реакции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Дизруптивный отбор действует в направлении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширения нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закрепления широкой нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закрепления узкой нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смены нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выработки и закрепления нескольких норм реакции",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Сохранение фенотипа особей в популяции в длительном ряду поколений является следствием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дрейфа генов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "движущей формы отбора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стабилизирующей формы отбора",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мутационного процесса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изменчивости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "От каких обезьян произошли человекообразные обезьяны",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дриопитеки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "долгопятоподобные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лемуроподобные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиббоны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шимпанзе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Среди какого вида людей возникло человеческое общество",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неоантропов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "палеоантропов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проантропов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "архантропов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "австралопитеков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Какие условия обитания оказали влияние на морфологию человека в различных частях земного шара",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "условия внешней среды и питания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "условия питания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трудовая деятельность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "социальные отношения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отношения полов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "В каком направлении шел естественный отбор при антропогенезе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по признакам физической силы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в направлении развития прогрессивных человеческих особенностей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в направлении ужесточения внутривидовой борьбы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в направлении истребления популяции людей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в направлении разъединения группировок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Для человека отбор перестал быть фактором биологической эволюции тогда, когда",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникло общество",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "научились пользоваться огнем",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "научились изготавливать орудия труда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "приняли вертикальное положение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "научились готовить пищу и изготавливать одежду.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "После появления прямохождения в каком направлении пошла эволюция человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изменение в строении кисти;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "развитие четырехкамерного сердца;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дифференцировка зубов;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появление второй сигнальной системы;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Уровень развития трудовой деятельности предков человека зависел от",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "физической организации, особенности высшей нервной деятельности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "климатических условий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "района обитания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "приспособления к среде обитания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "качества пищи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Кто из предков человека впервые стал использовать огонь",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "человек прямоходящий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дриопитек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "австралопитек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "палеоантроп",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Современные расы произошли",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от единого предка;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от разных предковых форм;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от гибридных форм;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от разных видов;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от близких видов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Сходство современных рас с древними предками указывает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на их происхождение от разных предковых форм;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на приспособление к среде обитания;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на гибридизацию неоантропов с предковыми формами;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на действие стабилизирующего отбора;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на дивергентную эволюцию.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Широкая норма реакции вырабатывается при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положительном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отрицательном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стабилизирующим отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дизруптивном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "движущем отборе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Узкая норма реакции вырабатывается при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положительном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отрицательном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стабилизирующим отборе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дизруптивном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "движущем отборе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Несколько разных норм реакции вырабатываются и сохраняются при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положительном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отрицательном отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стабилизирующим отборе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дизруптивном отборе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "движущем отборе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Движущийся отбор действует в направлении",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличения большего охвата количества особей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расширения нормы реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "усиления силы воздействия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смены нормы реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ослабления силы и величины отбора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Стабилизирующий отбор действует в направлении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширения нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закрепления широкой нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закрепления узкой нормы реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "смены нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выработки и закрепления нескольких норм реакции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Дизруптивный отбор действует в направлении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширения нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закрепления широкой нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закрепления узкой нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смены нормы реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выработки и закрепления нескольких норм реакции",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Сохранение фенотипа особей в популяции в длительном ряду поколений является следствием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дрейфа генов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "движущей формы отбора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стабилизирующей формы отбора",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мутационного процесса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изменчивости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "На какие два этапа делится единый эволюционный процесс",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на онто- и филогенез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на микро- и макроэволюцию",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на биологическую и социальную эволюцию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на дивергентную и конвергентную эволюцию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на дивергентную и филетическую эволюцию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Какой закон показывает существование единства между онто- и филогенезом",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "зародышевого сходства",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сцепленное наследование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "о гомологичных рядах наследственной изменчивости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "биогенетический",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эмбрионального развития",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Как называется процесс повторения признаков далеких предков",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полигенез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ценогенез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рекапитуляция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гетеротопия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "девиация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Как называются новые признаки, возникающие в различные этапы эмбриогенеза и имеющие эволюционное значение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмбриопатии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адаптогенезы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "филэмбриогенезы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ароморфозы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Предшественник рода homo ходил на двух ногах, имел рост 120 см, вес 30 – 50 кг, объем головного мозга 450-550 см3",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "человек умелый",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "питекантроп",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неандерталец",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "австралопитек",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кроманьонец",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Прогрессивное изменение черепа: высокий свод, отсутствие сплошного надглазничного валика, наличие подбородочного выступа на нижней челюсти характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кроманьонца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "человека умелого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "питекантропа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синантропа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неандертальцы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Представитель рода homo – человек умелый имел объем головного мозга",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "900-1045 см3",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1350 см3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "менее 500 см3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "510-650 см3",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "660-800 см3",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Древних людей ростом 1 м 70 см и объемом мозга до 1600 смЗ, обитавших в ледниковый период, называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "питекантропы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неандертальцы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кроманьонцы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "австралопитеки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Что относят к атавизмам человека?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие пятипалых конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аппендикс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие хвоста",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "остаток 3 века",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Что относят к рудиментам людей?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "многососковость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "остаток третьего века",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие хвоста",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ихтиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие сводчатой стопы",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

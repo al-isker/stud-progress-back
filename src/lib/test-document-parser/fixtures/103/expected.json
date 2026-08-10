@@ -1,0 +1,304 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "К острому сепсису относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "молниеносный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рецидивирующий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возвратный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2х фазный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "последовательный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "К грамположительным возбудителям сепсиса относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактероиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кишечные палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стафилококки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клостридий септикум",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "описторхоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "К грамотрицательным возбудителям сепсиса относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синегнойная палочка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "руминококки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микобактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спирахеты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "К клостридиальным анаэробным возбудителям сепсиса относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "менингококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "протей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клостридий перфрингес",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фузобактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "актиномицеты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "К неклостридиальным анаэробным возбудителям сепсиса относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гонококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эхинококки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кампилобактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "С1. эдиматиенс",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "К очагу дремлющей инфекции способного вызвать сепсис относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойные раны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойные воспалительные процессы мягких тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острые воспалительные заболевания дыхательных органов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хронические воспалительные заболевания придаточных пазух носа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "острые гнойные заболевания органов малого таза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Патогенез сепсиса определяется следующими факторами:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микробиологический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "временной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пространственный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "производственный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "патронажный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Третий фактор патогенеза сепсиса реактивность организма - обусловлен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "площадью поражения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунобиологическим состоянием организма",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "длительностью действия микробов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирулентностью возбудителя",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "очагом внедрения инфекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Криптогенный сепсис возникает при наличии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "явного гнойного очага",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "маловирулентной инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скрыто протекающей - дремлющей инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отсутствие какого либо очага инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "смешанной инфекции",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 6,
+				"text": "Из группы гнилостных микробов возбудителем сепсиса являются: а) пентококк б) виелонелла г) лактобацилла (CI. hystolyticum) 2",
+				"reason": "SINGLE_OPTION"
+			}
+		]
+	}
+}

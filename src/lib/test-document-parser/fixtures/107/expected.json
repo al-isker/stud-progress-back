@@ -1,0 +1,1564 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Как называются реакции II типа по Кумбсу-Джеллу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактические",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клеточные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цитотоксические",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иммунокомплексные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рецепторно-опосредованные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Как называются реакции III типа по Кумбсу-Джеллу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактические",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клеточные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цитотоксические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунокомплексные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рецепторно-опосредованные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Как называются реакции I типа по Кумбсу-Джеллу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клеточные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цитотоксические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунокомплексные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рецепторно-опосредованные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Под иммунологической толерантностью понимают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие иммунной реакции на антиген",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ослабление иммунной реакции на антиген",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение иммунной реакции на антиген",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "индукция иммунного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Укажите вид иммунодефицита при агаммаглобулинемии Бруттона:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клеточный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гуморальный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ретикулярная дисгенезия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ТКИН",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Вторичные иммунодефициты могут возникать при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "очаговой пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхитах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "злокачественных опухолях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Fe - дефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Укажите первичные иммунодефициты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синдром Дауна",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синдром Иова",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "СПИД",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синдром Ди-Джорджи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "синдром Клайнфельтера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Антиген - распознающими клетками являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нейтрофилы все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Антиген - презентирующими клетками являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нейтрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Какие клетки участвуют в IV-ом типе аллергических реакций (по Кумбсу) :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В - лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетки соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Т - клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клетки нейроглии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "К центральным органам иммунной системы относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "костный мозг",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфоциты крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "К центральным органам иммунной системы относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимус",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфоциты крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "К периферическим органам иммунной системы относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "селезенка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тимус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "К реакциям трансплантат против хозяина (РТПХ) относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гомологичная болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "феномен Овери",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сывороточная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "феномен Артюса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анафилаксия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Укажите характер повреждений, развивающихся по III типу (по Кумбсу и Джеллу):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поллинозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "контактный дерматит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сывороточная болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "К заболеваниям аутоиммунной природы относят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поллиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отек Квинке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крапивница",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тиреоидит Хашимото",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Трансплантация каких тканей вызывает развитие РТПХ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стромальных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителиальных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "селезенки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клетки крови (лейкоциты и эритроциты)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Реакции IV типа по Кумбсу и Джеллу называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактическими",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клеточными",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цитотоксическими",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунокомплексными",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рецепторно-опосредованными",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Эпитопы – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антигенные детерминанты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "антитела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммуноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ферменты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моносахариды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какими клетками обеспечивается клеточный иммунный ответ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т - клетками",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В - клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейтрофилами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "базофилами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Очередность стадий аллергических реакций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "патохимические нарушения, иммунологические реакции, патофизиологические нарушения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "патохимические нарушения, патофизиологические нарушения, иммунологические реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммунологические реакции, патохимические нарушения, патофизиологические нарушения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иммуннологические реакции, патофизиологические нарушения, патохимические нарушения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "патофизиологические нарушения, патохимические нарушения, иммунологические реакции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Сущность стадии патофизиологических нарушений:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активизация тканевых и клеточных ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "накопление в организме специфических антител",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакция поврежденных аллергеном клеток и тканей организма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "быстрое усиление некротических процессов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Сущность стадии патохимических нарушений:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активизация тканевых и клеточных ферментов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "накопление в организме специфических антител",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакция поврежденных аллергеном клеток и тканей организма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "быстрое усиление некротических процессов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Сущность стадии иммунных реакций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активизация тканевых и клеточных ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "накопление в организме специфических антител",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "реакция поврежденных аллергеном клеток и тканей организма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "быстрое усиление некротических процессов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Определение понятия гаптен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полноценный антиген",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вещество, вызывающее активную выработку антител",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вещество, приобретающее свойства полного антигена после соединения с белками организма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вещество, образованное из собственных тканей организма под влиянием различных повреждений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Примеры аллергических реакций замедленного типа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сывороточная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "контактный дерматит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отек Квинке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крапивница",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "агранулоцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Примеры аллергических реакций немедленного типа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сывороточная болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "контактный дерматит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакция отторжения трансплантата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продуктивное воспаление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Чем характеризуется гиперергическая форма болезни?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "быстрым, бурным течением",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отсутствием проявлений болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "слабыми проявлениями болезни, вялым течением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "извращением защитных реакций (фагоцитоза, AT- образования)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Воспалительные реакции в состоянии зимней спячки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление протекает так же, как и в норме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспаление протекает медленно",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "воспаление приобретает гиперергический характер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Что такое гипоэргия :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышенная реактивность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пониженная реактивность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полное отсутствие ответных реакций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "извращенные ответные реакции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Что такое гиперергия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышенная реактивность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пониженная реактивность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полное отсутствие ответных реакций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "извращенные ответные реакции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Реактивность в детском возрасте:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "понижена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "адекватна реактивности взрослых",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "извращена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Механизм расстройства акта дыхания при бронхиальной астме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникает инспираторная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возникает экспираторная одышка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "возникает смешанная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возникает периодическое дыхание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Чем характеризуется бронхиальная астма:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внезапным приступом удушья с затруднением выдоха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "затруднением вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "затруднением обеих фаз дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внезапной остановкой дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внезапным приступом кашля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Причины пассивной сенсибилизации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "употребление некоторых пищевых продуктов (мед, яйца и т.д.)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "введение сыворотки сенсибилизированного организма",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "попадание аллергена в организм парентеральным путем",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контакт кожи больного организма с низкомолекулярными веществами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вдыхание различных пылевых частиц",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Что такое анергия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "состояние повышенной реактивности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "состояние пониженной реактивности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полное отсутствие ответных реакций",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "извращение ответной реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ослабление ответной реакции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Что такое дизергия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышенная реактивность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пониженная реактивность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полное отсутствие ответных реакций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "извращенные ответные реакции",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Скорость возникновения анафилактического шока:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через несколько секунд после введения разрешающей дозы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "через 1-2 мин. после введения разрешающей дозы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 1-2 час. после введения разрешающей дозы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через 1-2 недели после введения разрешающей дозы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Факторы, нарушающие бронхиальную проходимость при бронхиальной астме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхоспазм, отек слизистой и гиперсекреция слизистых желез",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "закупорка бронхов слизью, инородными телами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение эластичного каркаса легочных альвеол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расстройство кровообращения бронхиального дерева",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воспалительный процесс в бронхах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Причина чужеродности ткани хрусталика для организма:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ткань хрусталика соединяется с экзогенными веществами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эта ткань в процессе онтогенеза впервые появляется в организме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в процессе онтогенеза ткань оказалась изолированной от аппарата иммуногенеза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ткань хрусталика претерпевает изменения вследствие экзогенных влияний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфоидная ткань извращенно реагирует на контакт с тканью хрусталика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Важнейшее условие развития сывороточной болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "введение лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "циркуляция свободных антител",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наследственные дефекты иммунологогической системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повторное введение антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие аллергической конституции - предрасположение человека к аллергии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "В каком организме наиболее интенсивно выражены защитно-физиологические явления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в одноклеточном",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в многоклеточном",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в пойкилотермном",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в гомойотермном",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Сущность десенсибилизационного метода A.M. Безредко:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "введение антигена под наркозом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дробное парентеральное введение малых доз антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "введение антигена в ранние сроки сенсибилизации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутривенное введение больших доз антигена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Способы создания десенсибилизации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "введение антигена по методу А. Я. Безредко",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "введение антигена внутривенно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "введение антигена в оптимальные сроки сенсибилизации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "введение больших доз антигена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Патогенез отека Квинке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушается проницаемость сосудов за счет серотонина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расширяются кровеносные капилляры за счет брадикинина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "освобождается большое количество жидкости за счет гепарина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "меняется холинэстеразная активность тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышается гидрофильность волокон рыхлой соединительной ткани за ~ счет гистамина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Причины идиосинкразии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "употребление необычной пищи (клубника, мед, яйца и т.д.)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "введение сыворотки сенсибилизированного организма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "попадание аллергена в организм парентеральным путем",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контакт кожи больного организма с низкомолекулярными веществами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Причина активной сенсибилизации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "употребление некоторых пищевых продуктов (клубника, мед, яйца и т.д.)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "введение сыворотки сенсибилизированного организма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "попадание аллергена в организм парентеральным путем",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "контакт кожи больного организма с низкомолекулярными веществами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вдыхание различных пыльных частиц",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Виды сенсибилизации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокая и низкая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "быстрая и замедленная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активная и пассивная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "специфическая и неспецифическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "видовая и специфическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Способ обнаружения реагинов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реакция связывания комплемента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реакция преципитации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакция агглютинации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакция Праусница- Кюстнера",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Сущность феномена Артюса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактическая реакция изолированных гладкомышечных волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспалительно-некротическая реакция кожи в месте многократного введения чужеродного антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "немедленное местное выражение общей анафилактической реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "некротические изменения в кишечнике после введения антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "местное вазотоксическое действие антигена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Наиболее частое проявление анафилактической реакции у человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактический шок",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сывороточная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "феномен Артюса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "феномен Овери",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Определение понятия анафилаксии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "состояние приобретенной повышенной чувствительности к действию собственного белка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "состояние приобретенной пониженной чувствительности к действию чужеродного белка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "состояние приобретенной повышенной чувствительности к действию чужеродного белка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "генетически обусловленная высокая чувствительность к чужеродному белку",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

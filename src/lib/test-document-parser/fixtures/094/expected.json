@@ -1,0 +1,6575 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Какое заболевание не является заболеванием желудочно-кишечного тракта",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эзофагит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энтероколит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грыжа пищеводного отверстия диафрагмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ахалазия кардии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гестоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Где расположена эпигастральная область",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "между двуреберной линией и правой и левой реберными линиями",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в треугольнике образованном левой реберной дугой, левой парастернальной линией и двуреберной линией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в треугольнике образованном правой реберной дугой, правой парастернальной линией и двуреберной линией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в средней части живота вокруг пупка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "область сложной формы, соответствующая проекции желудка на переднюю брюшную стенку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Ранние боли это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "боли возникающие через 1-2 дня после начала или обострения заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боль проходящая на короткое время после приема пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очень сильные боли в левой подреберной области",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "боли возникающие через 20-30 минут после приема пищи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "боли возникающие через 8-10 дней после начала заболевания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Поздние боли это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "боли усиливающиеся через 2-3 часа после приема пищи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "боль проходящая на короткое время после приема пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очень сильные боли в левой подреберной области",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "боли возникающие через 1-2 дня после начала заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "боли возникающие через 8-10 дней после начала заболевания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Стереотипные боли это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "боли усиливающиеся через 2-3 часа после приема пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боли появляющиеся в определенное время дня и ночи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "симметричные боли в правой и левой подреберных областях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "боли возникающие в определенное время года",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "боли возникающие после физической нагрузки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Панкреатит это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспаление печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воспаление поджелудочной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воспаление 12 перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воспаление селезенки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Рвота центрального генеза наблюдается при поражении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12 перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нервной системы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "При язве 12 перстной кишки аппетит обычно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усилен",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ослаблен",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наблюдается анорексия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наблюдается отвращение к мясной пище",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет никакой закономерности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Тенезмами может сопровождаться",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изжога",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отрыжка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анорексия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "понос",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "запор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Тянущие боли в области прямой кишки с чувством неполного опорожнения называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метеоризм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "запор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понос",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тенезмы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отрыжка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Накопление газов в кишечнике называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метеоризм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "запор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понос",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тенезмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отрыжка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Запор это задержка стула более",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "12 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10 суток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2 суток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "5 суток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1 недели",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Кишечные кровотечения с выделением алой крови называются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мелена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рвота кофейной гущей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тенезмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "\"овечий кал\"",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из перечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Перкуторно при метеоризме звук",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ясный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "притупленный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тупой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тимпанический",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Ахилия это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие желудочной секреции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "избыточная желудочная секреция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие секреции поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "избыточная секреция поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение выделения желчи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Ректороманоскопия это метод исследования",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудка и 12 перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печени и желчных путей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сигмовидной и прямой кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "только прямой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "\"Печеночные ладони\" это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "распространенные массивные отеки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окрашивание кожи рук в желтый с зеленоватым оттенком цвет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "утолщение концевых фаланг пальцев кисти",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "покраснение кожи в области тенара и гипотенара",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "звездчатое расширение отдельных кожных сосудов кистей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Асцит это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "накопление жидкости в полости сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резкое истощение больного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение поверхностных вен на передней брюшной стенке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "большая киста брюшной плости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперчисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Симптом \"головы медузы\" это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение живота с выпячиванием пупка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резкое истощение больного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение поверхностных вен на передней брюшной стенке преимущественно вокруг пупка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "очень плотная деревянистая печень",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Баллотирующая пальпация печени применяется при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перитоните",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "асците",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плотной деревянистой печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резкой болезненности печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резком истощении больного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Где находится область проекции желчного пузыря",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на месте пересечения правой парастернальной линии с линией bicostalis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на месте пересечения правой среднеключичной линии с линией bicostalis",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на месте пересечения правой среднеключичной линии с линией biiliaca",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на месте пересечения правой парастернальной линии с реберной дугой",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "на месте пересечения правой передней подмышечной линии с линией bicostalis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Дайте определение \"френикус-симптома\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "болезненность при надавливании на место проекции желчного пузыря",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резкая болезненность при надавливании в эпигастральной области",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ритмичное покачивание головы, синхронное с пульсацией сонных артерий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "болезненность при надавливании на m. sternoclaidomastoideus у верхнего края ключицы справа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "урежение сердечного ритма при надавливании на глазные яблоки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "В норме желчный пузырь пальпируется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почти всегда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "очень часто",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в 50% случаев",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почти никогда",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "требует специальных навыков пальпации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Размеры печени можно определить при помощи",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "осмотра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пальпации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перкуссии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аускультации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одного из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Размеры левой доли печени по курлову в норме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "9±1-2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "8±1-2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "7±1-2 см",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "6±1-2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выступает из-под реберной дуги на 3-4 см",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Размеры правой доли печени по курлову в норме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "9±1-2 см",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "8±1-2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "7±1-2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "6±1-2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выступает из-под реберной дуги на 3-4 см",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "В норме перкуторно длина селезенки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "9±2 см",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "8±2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "7±2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "6±2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не определяется",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "В норме перкуторно ширина селезенки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "9±2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "8±2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "7±2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "6±2 см",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не определяется",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Для определения положения первой точки по курлову перкутируют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сверху вниз по среднеключичной линии снизу вверх по среднеключичной линии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сверху вниз по срединной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снизу вверх по срединной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Для определения положения третьей точки по курлову перкутируют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сверху вниз по среднеключичной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снизу вверх по среднеключичной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сверху вниз по срединной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снизу вверх по срединной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "В норме общий белок сыворотки крови",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "18-35 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "40-60 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "65-85 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "95-120 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "18-35 мкмоль/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Выберите белково-осадочную пробу, которая используется в практике до сих пор",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проба Штанге",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бромсульфалеиновая проба",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вофовердиновая поба",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тимоловая проба",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "проба Petrelli",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Протромбиновый индекс в норме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100±15",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2-4 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3,33-5,55 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,407-0,503",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0-4 ед.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Тимоловая проба в норме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100±15",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2-4 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3,33-5,55 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,407-0,503",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0-5 ед.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "При распаде гемоглобина образуется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямой (коньюгированный) билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "непрямой (неконьюгированный) билирубин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "общий билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уробилиноген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стеркобилин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Растворим в воде, и может выделяться с мочой, окрашивая мочу в цвет пива",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямой (коньюгированный) билирубин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "непрямой (неконьюгированный) билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "общий белок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холестерин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хиломикроны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Увеличение ферментов (асат, алат)сыворотки крови отражает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белково-синтезирующую функцию печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "барьерную функцию печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экскреторную функцию печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "степень повреждения (лизиса) печеночных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пигментный обмен в печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Сколько порций получают при дуоденальном зондировании с целью изучения функционирования желчного пузыря и состава желчи",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Пузырная желчь при дуоденальном зондировании это порция",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "A",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "B",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "C",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "E",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Положительный HBSAG наблюдается при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническом носительстве вирусного гепатита А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хроническом носительстве вирусного гепатита B",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хроническом носительстве вирусного гепатита C",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желчекаменной болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "механической (подпеченочной) желтухе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Гепатит можно назвать хроническим,если он длится более",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6 мес.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1 года",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 2 обострений в год в течение 2 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Выберите факторы риска гепатита",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "работа на станции переливания крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медицинская профессия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наркомания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "При осмотре больного при свете электрической лампы желтуха",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выражена более отчетливо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не видна",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выглядит так же, как при дневном свете",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появляется синеватый оттенок, как при цианозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Гепатомегалия может выявляться при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острых гепатитах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронических гепатитах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "циррозах печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "болезнях накопления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при всех вышеперечисленных состояниях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Для печеночной желтухи наиболее характерно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение уровня только непрямого билирубина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение уровня только прямого билирубина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение уровня обеих фракций в зависимости от поражения печени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышение уровня каротина в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение уровня гликосилмрованного гемоглобина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Главная причина развития спида при вич-инфекции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрушение Т8 клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разрушение Т4 клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "разрушение естественных килеров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разрушение макрофагов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрушение в лимфоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "К индикаторным ферментам печени относят",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЛДГ, ACT, АЛТ, альдолаза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фруктозо-1-6-дифосфатальдолаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "церулоплазмин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холинэстераза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "урокиназа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Для надпеченочной желтухи наиболее характерно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение непрямого билирубина и увеличение стеркобилина в кале и моче",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышение только непрямого билирубина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение только прямого билирубина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение прямого билирубина и увеличение стеркобилина в кале и моче",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление желчных пигментов в моче",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Синдром, отличающий цирроз печени от гепатита",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гепатомегалия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внепеченочные знаки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диспепсия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитолитический синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "портальная гипертензия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Объясните, что такое \"melena\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "\"жирный\", блестящий, плохо смывающийся кал",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кал черного цвета",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обесцвеченный кал (серый)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кал с кусочками непереваренной пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "черный оформленный кал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Оцените результаты анализа желудочного содержимого: Базальная секреция Кол-во 12 Общая к-ть 16 Свободная к-ть 0 Стимуляция гистамином Кол-во 30 Общая к-ть 44 Свободная к-ть 0 Кол-во 30 Общая к-ть 60 Свободная к-ть 0 Кол-во 21 Общая к-ть 50 Свободная к-ть 0 Кол-во 10 Общая к-ть 21 Свободная к-ть 0 Реакция на молочную кислоту отрицательная, пепсин отсутствует",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперхлоргидрия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипохлоргидрия, гипосекреция",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ахлоргидрия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ахилия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "норма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "выраженное увеличение стеркобилина в кале характерно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для подпеченочной желтухи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для надпеченочной (гемолитической) желтухи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для почечно-каменной болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для инфаркта почки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для хронического нефрита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Внутривенная холецистография является информативным методом диагностики",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "а)расширения общего желчного протока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "б)хронического калькулезного холецистита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в)хронического активного гепатита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верно а) и б)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "всего перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Конъюгированный (связанный) билирубин образуется в клетках печени с помощью фермента",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкуронилтрансферазы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лейцинаминопептидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кислой фосфатазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нуклеотидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Лапароскопию назначают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при подозрении на первичный рак печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при подозрении на метастатический рак печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для уточнения причины асцита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при подозрении на первичный и метастатический рак печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при всем перечисленном",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Компьютерная томография позволяет выявить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "опухоли брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кисты поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дивертикулы кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опухоли брюшной полости и кисты поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Этиологическими факторами язвенной болезни являются все перечисленные, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алкоголя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "никотина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушения питания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эмоциональных стрессов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "переохлаждения",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Подтвердить пенетрацию язвы могут все перечисленные симптомы, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появления ночных болей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшения ответной реакции на антациды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "появления болей в спине",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиления болей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "переход болей в боли постоянного характера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "постоянные боли в эпигастральной области, похудание. в данном случае можно думать о следующем осложнении язвенной болезни",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стенозе выходного отдела желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "малигнизации язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пенетрации язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микрокровотечении из язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перфорации язвы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Основными отличиями симптоматических язв от язвенной болезни являются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "локализация язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "величина язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие хронического рецидивирующего течения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "частая пенетрация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Для асцита характерно наличие следующих симптомов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одышки при физической нагрузке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижения суточного диуреза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличения веса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "всё перечисленноое",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "У больных с асцитом парацентез применяется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для диагностических целей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для устранения одышки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для быстрого устранения асцита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ни для одной из перечисленных целей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для всего перечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Вирусы, наиболее часто приводящие к развитию хронических гепатитов и циррозов печени",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Асцит при циррозе печени является следствием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вторичного гиперальдостеронизма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипоальбуминемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "портальной гипертензии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всего перечисленного",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "При каком заболевании наблюдается снижение секреторно-кислотообразующей функции желудка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "язвенная болезнь 12-перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический атрофический гастрит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хронический гипертрофический гастрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синдром Золлингера-Эллисона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при всех указанных формах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "У больного с многолетним течением язвенной болезни желудка появились почти постоянные боли с иррадиацией в спину. аппетит и масса тела не изменились. такое осложнение можно предположить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стеноз привратника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пенетрация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "малигнизация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перфорация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "демпинг-синдром",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Внутривенная холеграфия является информативным методом для диагностики",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширения общего желчного протока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронического калькулезного холецистита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронического активного гепатита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ничего из перечисленного",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "для всего перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Ферменты - маркеры холестаза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "АЛТ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "АСТ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "щелочная фосфатаза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ЛДГ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "креатинфосфокиназа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "В диагностике цирроза печени решающим является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уровень альбуминов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уровень билирубина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимоловая проба",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уровень трансаминаз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни один из перечисленных тестов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Причиной механической желтухи является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холедохолитиаз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стриктура фатерова соска",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рак головки поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все вышеназванное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Увеличение активности щелочной фосфатазы наблюдается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при внутрипеченочном холестазе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при вирусном гепатите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при подпеченочном холестазе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при гемолитической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при любом холестазе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Из перечисленных признаков о внутрипеченочном холестазе свидетельствует",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение уровня гамма-глобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижение уровня липопротеидов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение щелочной фосфатазы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышение уровня АСТ и АЛТ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение уровня кислой фосфатазы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "К вам на прием обратился больной с жалобами на боли в эпигастрии, появляющиеся через 1,5-2 часа после еды и натощак. на наличие какой патологии предположительно указывает этот симптом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронический гастрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "язвенная болезнь желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "язвенная болезнь 12-перстной кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "панкреатит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холецистит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Реакция кала на скрытую кровь может быть положительной",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при микрокровотечениях из язвы двенадцатиперстной кишки или кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при микрокровотечениях из опухолей желудочно-кишечного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при микрокровотечениях из язвы желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при употреблении мяса в пищу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при всем перечисленном",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Каков характер болей при язвенной болезни 12-перстной кишки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тупая, давящая боль в эпигастрии, усиливающаяся при приеме пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "схваткообразные ноющие боли в правом подреберье с иррадиацией в правое плечо при приеме жирной пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "постоянная тупая боль, не связанная с приемом пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "боли в эпигастрии, возникающие натощак и через 2-3 часа после еды, уменьшающиеся сразку после еды («голодные»)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "боли через 30 минут после еды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Главным местом метаболизма алкоголя в организме является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жировая ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "головной мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желудочно-кишечный тракт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "У больного, страдающего язвенной болезнью желудка, в период очередного обострения появились жалобы на отрыжку \"тухлым яйцом\", рвоту принятой накануне пищей. какое осложнение возникло у больного",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пенетрация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перфорация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стеноз привратника",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "малигнизация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Женщина 35 лет предъявляет жалобы на кожный зуд. больна в течение 3 лет. При обследовании выявлена плотная увеличенная печень, выступающая из-под края реберной дуги на 10 см. билирубин - 96 мкмоль/л, прямой - 80 мкмоль/л, щелочная фосфатаза - 400 ед., алт - 86 ед. предположительный диагноз",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "портальный цирроз печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический активный гепатит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемолитическая желтуха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "билиарный цирроз печени",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "острый вирусный гепатит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Какая жалоба не характерна для заболеваний пищевода",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дисфагия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Рвота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Поносы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Кровотечения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Изжога",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "При детализации жалоб на боли в подложечной области необходимо уточнение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "локализации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ночной или голодный характер",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "облегчения состояния после приёма щелочей (соды)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "периодичности болей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "всего перечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Какие утверждения в отношении плевральной пункции не верны",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Плевральную пункцию проводят с диагностической и лечебной целями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Прокол грудной стенки производят для введения ЛС",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Пункцию проводят по задней подмышечной линии в по верхнему краю нижележащего ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Плевральная пункция показана при экссудативном плеврите",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Плевральная пункция показана при сухом плеврите",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Появление \"мелены\" характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровотечение из высоких отделов ЖКТ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "длительного приема препаратов висмута",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровотечения из сигмовидной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дизентерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бродильной диспепсии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Быстро увеличивающаяся и каменисто-плотная печень выявляется при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническом алкагольном гепатите",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хроническом вирусном гепатите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при прогрессировании недостаточности кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепатозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "первичном раке печени",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Отвращение к мясным блюдам свойственно больным",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническим колитом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хроническим гастритом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "язвенной болезнью желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "язвенной болезнью 12-перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "раком желудка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Появление телеангиоэктазий характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирусного гепатита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронического холецистита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цирроза печени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "метастатического поражения легких",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желчекаменной болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Рвота пищей, съеденной накануне, бывает при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническом гастрите",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "язвенной болезни желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "раке кардиального отдела желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стенозе привратника",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "язвенной болезни двенадцатиперстной кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Ксантелазмы определяются при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническом панкреатите",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "митральном стенозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмфиземе легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "циррозе печени",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "остром гломерулонефрите",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "звездочки\". заподозрен",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронический холецистит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эхинококк печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алкогольный гепатоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Цирроз печени",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "язвенная болезнь желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Полусогнутое положение сидя с прижатыми к болезненной области живота руками занимают больные с",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обострением язвенной болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острым аппендицитом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "раком поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диафрагмальном плевритом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перитонитом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "\"Кинжальная\" боль в эпигастральной области характерна для следующего осложнения язвенной болезни",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перфорация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пенетрация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "малигнизация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стеноза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровотечение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Характерным признаком асцита при осмотре является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличенный в объеме живот с выбухающим пупком",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличенный в объеме живот с глубоким, втянутым пупком",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "венозный рисунок на боковых участках живота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отеки нижних конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "\"печеночные\" ладони",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Синдром мальабсорбции возникает при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остром гастрите",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резекции участка тонкой кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "резекции сигмовидной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "язве 12-перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "язве желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "При глубокой пальпации слепой кишки кожная складка делается по направлению к",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гребню подвздошной кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пупку",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мечевидному отростку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правому подреберью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "левому подреберью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "При пальпации восходящего отдела толстой кишки кожная складка делается по направлению к … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гребню подвздошной кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пупку",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мечевидному отростку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "правому подреберью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "левому подреберью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Стеаторея – это присутствие в кале большого количества … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крахмала",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейтрального жира",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клетчатки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мышечных волокон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Амилорея – это присутствие в кале большого количества … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крахмала",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нейтрального жира",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетчатки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мышечных волокон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Спланхноптоз – это … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "опущение внутренних органов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшение размеров внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение размеров внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушения эмбрионального развития внутренних органов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Боли при язве 12-перстной кишки чаще всего локализуются в эпигастральной области … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у мечевидного отростка по срединной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слева от срединной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "справа от срединной линии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "При язве пилорического отдела желудка боли чаще всего локализуются в эпигастральной области … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у мечевидного отростка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "справа от срединной линии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "слева от срединной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в области левого подреберья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "При язве кардиального отдела желудка боли чаще всего локализуются в эпигастральной области … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у мечевидного отростка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в области пупка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "справа от срединной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в области правого подреберья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Назовите заболевание, при котором сравнительно часто натощак выявляется шум плеска в желудке.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гастрит.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический атрофический гастрит.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "язва желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рак кардиального отдела желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "язва 12-перстной кишки.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Может ли наблюдаться при язве резкое напряжение мышц передней брюшной стенки и положительный симптом раздражения брюшины?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нет.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "если «да», то в фазе обострения заболевания.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "да, при кровотечении.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "да, при малигнизации.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "да, при перфорации.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "При каком осложнении язвы выявляется поздний «шум плеска» и усиленная перистальтика в эпигастрии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при кровотечении.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при прободении.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при пенетрации.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при стенозе привратника.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при малигнизации.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "При каком заболевании выявляется рентгенологический симптом «ниши»?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при остром гастрите.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при хроническом гастрите.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при язве.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при раке желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "При каком заболевании выявляется рентгенологический симптом «дефект наполнения»?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при остром гастрите.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при хроническом гастрите.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при раке желудка.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при язве желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при язве 12-перстной кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Что в анализе кала характерно для кровотечения из нижних отделов толстого кишечника?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кал темно-коричневого цвета.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "примесь алой крови в кале.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "черный дегтеобразный стул.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "большое количество лейкоцитов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Каким из перечисленных способов исследования кала лучше всего выявляется амилорея?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макроскопическим.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реакцией Грегерсена.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "икроскопическим в нативном препарате.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроскопическим в препарате окрашенном раствором Люголя.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "микроскопическим в препарате окрашенном суданом III.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Каким из перечисленных способов исследования кала лучше всего выявляется нейтральный жир?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроскопическим в нативном препарате.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микроскопическим в препарате окрашенном раствором Люголя.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микроскопическим в препарате окрашенном суданом III.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "химическим (реакция Грегерсена).",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Какой метод исследования позволяет наиболее точно установить диагноз «язва желудка»?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расспрос.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поверхностная пальпация живота.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глубокая пальпация живота.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "исследование секреторной функции желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фиброгастродуоденоскопия.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Какой из перечисленных рентгенологических признаков относится к прямым признакам язвы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиленная перистальтика желудка или 12-перстной кишки.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обрыв перистальтической волны.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "симптом «ниши».",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дефект наполнения.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Какой из приведенных методов исследования позволяет наиболее точно диагностировать хронический гастрит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расспрос.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пальпация живота.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исследование секреторной функции желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рентгенологическое исследование желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фиброгастроскопия с биопсией слизистой.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Диагностические признаки рака желудка могут быть выявлены при … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расспросе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аускультации живота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рентгеноскопии (графии) желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фиброгастороскопии с биопсией",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "колоноскопии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Какой из перечисленных методов исследования позволяет наиболее точно установить диагноз рака желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расспрос.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пальпация живота.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исследование секреторной функции желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фиброгастроскопия с биопсией.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Назовите современный метод оценки кислотообразующей функции желудка.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рН-метрический метод.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метод исследования желудочного сока.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндоскопический метод.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рентгенологический метод.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "При какой желтухе одновременно повышается свободный и связанный билирубин в крови?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "надпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печеночной.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при всех.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Каковы особенности метаболизма уробилиногена?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуется из холестерина.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образуется из билирубина.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "образуется из стеркобилиногена.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образуется из липопротеидов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "При какой желтухе выявляется одновременно билирубин и уробилиноиды в моче?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при печеночной.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при подпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при надпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при всех.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "При какой желтухе повышается стеркобилиноген в кале?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при печеночной.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при подпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при надпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при всех.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "При какой желтухе повышаются свободный билирубин в крови, уробилиноиды в моче и стеркобилиноген в кале?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при печеночной.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при подпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при надпечеочной.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при всех.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "При какой желтухе повышается билирубин в крови, который выводится с мочой, отсутствуют уробилиноиды в моче и стеркобилиноген в кале?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при печеночной.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при подпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при надпеченочной.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при всех.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "При какой желтухе повышаются свободный и связанный билирубин в крови; выявляются билирубин и уробилиноиды в моче; уменьшается стеркобилиноген в кале?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при печеночной.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при подпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при надпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при всех.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Какой из перечисленных показателей не соответствует изменениям пигментного обмена при гемолитической желтухе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "общий билирубин в крови повышен.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "билирубин повышен.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "билирубин в моче – реакция резко положительная.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уробилин в моче – реакция положительная.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стеркобилиноген в кале – реакция резко положительная.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Что характерно для «ложной» желтухи?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышен общий билирубин в крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желтушность кожи и склер глаз.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желтушность только кожи.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "общий билирубин в крови в норме.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желтушность только склер ладоней.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Содержится ли при механической (подпеченочной) желтухе в моче билирубин?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не содержится.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "содержится только прямой (связанный) билирубин.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "содержится только непрямой (свободный) билирубин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "содержатся обе фракции билирубина.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Для какой желтухи характерны эти результаты исследования? В крови: общий билирубин 109,5 мкмоль/л; прямой билирубин 92,4 мкмоль/л; непрямой билирубин 17,1 мкмоль/л. В моче: реакция на билирубины положительная, уробилина нет. Кал: стеркобилин отсутствует.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для гемолитической (надпеченочная).",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для паренхиматозной (печеночная).",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для механической (подпеченочная).",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "для всех видов желтух.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Для «ложной» желтухи.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Спленомегалия – это … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение селезенки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Увеличение печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Уменьшение размеров селезенки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Уменьшение печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Для каких из перечисленных заболеваний характерен синдром холестаза? ~хронический холецистит.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "портальный цирроз печени.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первичный билиарный цирроз печени.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желчнокаменная болезнь (обтурация общего желчного протока).",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хронический персистирующий гепатит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Наиболее частая причина ладонной эритемы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипофункция щитовидной железы.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический бронхит.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острая ревматическая лихорадка.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цирроз печени.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хронический холецисцит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Отеки при циррозах печени могут быть обусловлены … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышением содержания белка в сыворотке крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышением гиалуронидазной активности в сыворотке крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижением содержания альбуминов в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "снижением количества альдостерона в сыворотке крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышением содержания билирубина в крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Портальная гипертензия – это … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение давления в V.portae",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышение артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение центрального венозного давления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение внутричерепного давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Сколько точек при определении размеров печени по М.Г. Курлову Вы знаете?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "6.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "7.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Первая точка по Курлову соответствует … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижней границе абсолютной печеночной тупости по правой срединно-ключичной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "верхней границе абсолютной печеночной тупости по правой срединно-ключичной линии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нижней границе абсолютной печеночной тупости по правой грудинной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхней границе абсолютной печеночной тупости по правой грудинной линии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Четвертая точка по Курлову соответствует … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижней границе печени по передней срединной линии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нижней границе печени по левой грудинной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижней границе печени по правой грудинной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхней границе печени по правой грудинной линии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Что характерно для пальпации живота при хроническом гепатите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "боли в зоне желчного пузыря.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боли в левом подреберье.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепатомегалия.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нормальные размеры печени.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спленомегалия при нормальных размерах печени.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Перечислите данные осмотра пациентов с циррозом печени.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желтушность кожи.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперемия лица.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "«малиновый язык».",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "«сосудистые звездочки».",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ксантепазмы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Основной жалобой пациентов с первичным билиарным циррозом является … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отечность лица",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боли в правом подреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зуд кожных покровов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ахолия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "После приема бензойно-кислого натрия, гиппуровую кислоту определяют в моче, собранной … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 1 час",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в течение 2 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в течение 4 часов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Как чаще изменяется уровень протромбина при заболеваниях печени?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышается.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "понижается.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не изменяется.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Что характерно для синдрома «цитолиза гепатоцитов»?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положительная сулемовая проба.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение активности трансаминаз крови (AST, ALT).",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "понижение активности трансаминаз крови (AST, ALT).",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение альбумино/глобулинового коэффициента.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение содержания в крови протромбина.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Для какого синдрома характерно уменьшение альбуминов, увеличение глобулинов (альфа и гамма) и иммуноглобулинов в крови?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для синдрома холестаза.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для синдрома воспаления гепатоцитов.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для синдрома цитолиза гепатоцитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для синдрома печеночно-клеточной недостаточности.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для портальной гипертензии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Активность какого фермента повышается при синдроме холестаза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "АсАТ.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "АлАТ.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "щелочной фосфатазы.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лактатдегидрогеназы.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "амилазы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Активность какого фермента в крови снижается при синдроме печеночно-клеточной недостаточности?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминотрансферазы аспарагиновой (AST).",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аминотрансферазы аланиновой (ALT).",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "щелочной фосфатазы.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лактатдегидрогеназы.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холинэстеразы сывороточной.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Какая проба проводится для исследования углеводной функции печени?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с нагрузкой глюкозой.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с нагрузкой фруктозой.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с нагрузкой галактозой.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Квика-Пытеля.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бромсульфалеиновая.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Выберите два наименее информативных метода обследования при заболеваниях желудка и 12 перстной кишки",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "осмотр",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пальпация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перкуссия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аускультация",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лабораторные данные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Для боли при язвенной болезни 12 - перстной кишки характерно",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление через 1,5-2 часа после еды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "появление через 15 минут после еды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "облегчение боли после рвоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "усиление боли сразу после приема пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление боли после приема жирной пиши",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Для изучения секреторной функции желудка используются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "йодокалиевая проба",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проба с d ксилозой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гистаминовые тесты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пределение уропепсиногена в моче",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "каротиновый тест",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Выберите основные жалобы больных с заболеваниями печени",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "боли в эпигастральной области",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боли в правой подвздошной области",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "чувство тяжести в правом подреберье",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кахексия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление желтухи",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Острые, сильные, схваткообразные боли в правом подреберье характерны для",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "острого холецистита",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острого гепатита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желчной колики на основе желчекаменной болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цирроза печени тяжелой степени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфаркта миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Как по другому называется билирубин глюкуронид",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "непрямой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "свободный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связанный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "неконьюгированный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Охарактеризуйте непрямой билирубин",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуется в крови при распаде гемоглобина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "образуется после прохождения через печень, выделяется с желчью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "растворим в воде, в норме в крови небольшое количество (менее 25 %), может выделяться с мочой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не растворим в воде, не выделяется с мочой, связан с альбуминами крови, в крови 2/3 от общего",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "увеличивается при механической желтухе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Охарактеризуйте прямой билирубин",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуется при распаде гемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "растворим в воде, в норме в крови небольшое количество (менее 25 %), может выделяться с мочой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "образуется после прохождения через печень, выделяется с желчью",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличивается при механической желтухе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не растворим в воде, не выделяется с мочой, связан с альбуминами крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "К основным методам, позволяющим верифицировать диагноз хронического гастрита, относятся",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "перкуторное исследование желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пальпаторное исследование желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гастроскопия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "морфологическое исследование слизистой оболочки желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выявление Helicobacter pylori",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Ведущими факторами в возникновении язвенной болезни двенадцатиперстной кишки являются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперсекреция соляной кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дуоденит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "заболевания желчного пузыря",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хеликобактерная инфекция",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "заболеввния печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Что из перечисленного может подтвердить пенетрацию язвы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "приобретение постоянного характера болей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ранний характер болей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "появление болей в ночное время",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиление болей и изменение их характерного ритма",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мелена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Отметьте методы изучения всасывательной функции кишечника",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гастроскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изучение желудочного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "каротиновый тест",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проба с д-ксилозой",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бромсульфалеиновая проба",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Асцит может быть следствием",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "цирроза печени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронического гепатита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рака придатков матки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полисерозита",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хронического холецистита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "При наличии у больного симптомов явного желудочно-кишечного кровотечения ему следует произвести",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обзорную рентгенографию органов грудной и брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгенографию желудочно-кишечного тракта с бариевой взвесью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зофагогастродуоденоскопию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "колоноскопию",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "провести анализ кала на скрытую кровь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Достоверным клиническим признаком стеноза привратника является",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рвота съеденной накануне пищей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "урчание в животе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "резонанс под пространством Траубе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шум плеска через 3-4 часа после приема пищи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "видимая перистальтика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Вирусы, наиболее часто приводящие к развитию хронических гепатитов и циррозов печени",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Характеристика болей при панкреатите",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "чаще локализуются в верхней половине живота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чаще локализуются в левом подреберье",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "носят опоясывающий характер,усиливаются в положении на спине",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "чаще локализуются в правом подреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "могут иррадиировать в загрудинную область",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Хроническая алкогольная интоксикация приводит",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "к жировой дистрофии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к холестатическому гепатиту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к циррозу печени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ко всему перечисленному",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни к чему из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Выберите признаки, отличающие гепатит от цирроза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие портальной гипертензии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сосудистые звездочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гинекомастиа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие признаков анастомозирования вен",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "длительность до 6 месяцев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Печень - единственное место синтеза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "альбуминов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "протромбина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гамма-глобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ничего из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Выберите правильные утверждения в отношении свободной жидкости в брюшной полости",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "перкуссию проводят от пупка по направлению к боковым отделам живота при положении больного на спине",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в вертикальном положении больного тупой звук определяется в низу живота",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для определения больших количеств жидкости рекомендуется перкуссия в коленно-локтевом положении больного",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малое количество жидкости обнаруживается с помощью симптом флюктуации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в положении на боку над верхней половиной живота тупой звук сменяется тимпаническим",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Какие состояния необходимо исключать при наличии скрытой крови в кале",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "язвенная болезнь двенадцатиперстной кишки в стадии обострения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "опухоль толстой кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дисбактериоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цирроз печени",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рефлюкс-эзофагит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Какие факторы могут выступать причинами запоров",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "опухоли",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "малоподвижный образ жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "прием малого количества пищи или ее сильное переваривание",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "избыточное содержание растительной клетчатки в пище",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синдром Золлингера-Эллисона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Какие факторы относят к факторам риска заболеваний печени",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "переливание крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "курение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "злоупотребление алкоголем",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "внутривенное введение наркотиков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "переохлаждение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Какие жалобы предъявляют больные с циррозом печени",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение живота в объёме",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кровотечения изо-рта",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кровохарканье",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выраженная слабость",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "диарея",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Что позволяет выявить перкуссия живота",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "громкий тимпанический звук над желудком, кишечником",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "свободную или осумкованную жидкость в брюшной полости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перистальтику кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шум трения брюшины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение печени, селезенки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Какие лабораторные признаки могут указывать на поражение печени",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение активности АЛТ и ACT",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперкалиемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипербилирубинемия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отрицательная тимоловая проба",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение содержания тромбоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Повышение каких ферментов является маркёром цитолиза гепатоцитов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "АЛТ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "МВ-фракция КФК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ACT",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амилаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холинэстераза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Какие инструментальные исследования наиболее ценны при подозрении на цирроз печени",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ФГДС (фиброгастродуоденоскопия)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "УЗИ брюшной полости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ирригоскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "биопсия печени",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сцинтиграфия печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Что имеет значение в развитии асцита при заболеваниях печени",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "портальная гипертензия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нарушение свёртывания крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активация ренин-альдостероновой системы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипербилирубинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипоальбуминемия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Диарея – это",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "стул 3 раза в сутки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стул 2 раза в сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стул 4 раза в сутки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стул 1 раз в сутки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Опишите боль при остром панкреатите.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "боль неинтенсивная.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боль интенсивная.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "боль локализуется в правом подреберьи.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "боль локализуется в левом подреберьи.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "боль носит опоясывающий характер.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Рвота может быть симптомом",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "заболеваний центральной нервной системы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "заболеваний желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "заболеваний органов дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интоксикации организма",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "заболеваний органов кровообращения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "Назовите характерные особенности рвоты при заболеваниях желудка.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникает на высоте боли, локализованной в подложечной области.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "многократная, не приносит облегчения.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "приносит облегчение.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сочетается с приступообразными болями в правом подреберье.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сочетается с другими симптомами желудочной диспепсии.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Назовите заболевания, при которых может быть рвота содержимым цвета «кофейной гущи».",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "простой острый гастрит.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "язва желудка.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эрозивный гастрит.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хронический гастрит.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рак желудка.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "Назовите заболевания, при которых часто бывает диарея.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "язва 12-перстной кишки.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дисбактериоз кишечника.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хронический колит.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипофункция щитовидной железы.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пищевая аллергия.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "Черный дегтеобразный стул (melaena) может быть симптомом .",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "простого острого гастрита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коррозивного гастрита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "язвы желудка и 12-перстной кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хронического гастрита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рака прямой кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Для язвы 12-перстной кишки характерно возникновение боли .",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сразу же после приема пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через 15-30 минут после приема пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 2-3 часа после приема пищи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ночью, на «голодный желудок»",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Какие диспепсические жалобы часто бывают при язве 12-перстной кишки?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тошнота.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рвота на высоте болей.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изжога.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "диарея.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "горечь во рту.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "При язве кардиального отдела желудка боль может иррадиировать .",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в область сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в грудной отдел позвоночника",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в область правого подреберья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в область пупка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Какие диспепсические жалобы бывают сравнительно часто при язве желудка?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тошнота.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рвота на высоте болей.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изжога.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отрыжка воздухом.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диарея.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "В каких случаях при язве снижается секреторная и кислотообразующая функция желудка?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при язве субкардиального отдела желудка.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при язве пилорического отдела желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при язве двенадцатиперстной кишки.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при малигнизации.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "Укажите особенности хронического атрофического гастрита.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поражение дна и тела желудка.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поражение антрального отдела желудка.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атрофия слизистой желудка.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эрозии слизистой.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выраженное воспаление слизистой.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "Синдром желудочной диспепсии включает в себя .",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "боль в эпигастральной области",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "запор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "чувство переполнения в подложечной области после еды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "диарею",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "При кровопотере наблюдается.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "брадикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тахикардия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипертензия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипотензия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Назовите симптомы желудочного кровотечения.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тахикардия.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гипертензия.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мелена.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цианоз.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Рентгеноскопия (графия) желудка выявляет диагностические признаки.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "язвы желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "язвы 12-перстной кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "острого гастрита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хронического гастрита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рака желудка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "Биопсия слизистой желудка является методом исследования, уточняющим диагноз .",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "острого гастрита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронического гастрита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рака желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полипов желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "острого гастродуоденита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "При помощи ректороманоскопии можно выявить заболевания .",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "восходящей и нисходящей ободочной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слепой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечно-ободочной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сигмовидной кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "прямой кишки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "Какие из перечисленных элементов в анализе кала подтверждают снижение внешнесекреторной функции поджелудочной железы?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "большое количество эритроцитов и лейкоцитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "большое количество переваренной растительной клетчатки.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "креаторея +++.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стеаторея +++.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "амилорея +++.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "Какие из перечисленных показателей в анализе кала характерны для обтурации общего желчного протока?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кал черного цвета.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кал цвета белой глины (ахоличный).",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кал золотисто-желтого цвета.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие стеркобилиногена.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "стеаторея ++++.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "Какие из перечисленных показателей в анализе кала характерны для кровотечения в верхних отделах желудочно-кишечного тракта?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "цвет кала золотисто-желтый.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "примесь алой крови в кале.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "черный дегтеобразный стул (melaena).",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "реакция Грегерсена ++++.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "большое количество эритроцитов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "Что из ниже перечисленного выявляется в анализе кала в большом количестве при резком угнетении желудочной секреции?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "стеаторея.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амилорея.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соединительнотканные волокна.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мышечные волокна.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "Макроскопическим.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроскопическим в нативном препарате.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микроскопическим с окраской суданом III.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микроскопическим с окраской раствором Люголя.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "химическим (реакция Грегерсена).",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "Назовите способы выявления Helicobacter pylori.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериологический.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "морфологический.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "макроскопический.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "провокационный.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микроскопический.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 200,
+				"text": "Для верификации диагноза ГЭРБ используется",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ультразвуковое исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ФГДС",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рН-метрия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "контрастная рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пальпация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 201,
+				"text": "Какие изменения в анализе крови характерны для острого панкреатита?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение активности щелочной фосфатазы.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение активности амилазы.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличение активности аминотрансфераз.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение активности лактатдегидрогеназы.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение активности липазы.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 202,
+				"text": "Диагностические признаки острого гастрита могут быть выявлены при",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "расспросе пациента",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пальпации живота",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "исследовании секреторной функции желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рентгеноскопии и графии желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фиброгастроскопии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 203,
+				"text": "При каких желтухах повышается свободный (непрямой) билирубин в крови?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "надпеченочной (гемолитической)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подпеченочной (механической)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печеночной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при всех",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "При каких желтухах повышается связанный (прямой) билирубин в крови?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "надпеченочной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печеночной",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подпеченочной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при всех",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 205,
+				"text": "При каких желтухах выявляются уробилиноиды в моче?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "печеночной.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при подпеченочной.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при надпеченочной.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при всех.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 206,
+				"text": "У пациента после приступа печеночной колики произошла полная закупорка общего желчного протока. Какие изменения характерны для этого состояния?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в крови повышен прямой (связанный) билирубин.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в крови повышен непрямой (свободный) билирубин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в мочи повышено содержание уробилиновых тел.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в моче уробилиновых тел нет.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "изменений показателей в крови и моче нет.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 207,
+				"text": "Для каких из перечисленных заболеваний характерен синдром холестаза? ~%-33.33333% хронический холецистит.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "портальный цирроз печени.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первичный билиарный цирроз печени.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желчнокаменная болезнь (обтурация общего желчного протока).",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хронический персистирующий гепатит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 208,
+				"text": "При каких заболеваниях наиболее вероятно нарушение экскреторной функции печени?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при хроническом холецистите.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при желчнокаменной болезни.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при хроническом персистирующем гепатите.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при хроническом активном гепатите.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при циррозе печени.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 209,
+				"text": "Что включает клиника цирроза печени?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "астеновегетативный синдром.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "диспепсический синдром.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синдром артериальной гипертензии.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выраженный болевой синдром.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 210,
+				"text": "Перечислите данные осмотра пациентов с циррозом печени.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "цианоз кожи.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "«печеночные ладони».",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гингивит.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отечность лица.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экзофтальм.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 211,
+				"text": "Какие показатели липидного обмена сравнительно часто исследуют в крови для диагностики функционального состояния печени?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "холестерин.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пребеталипопротеиды.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "β-липопротеиды.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "триглицериды.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 212,
+				"text": "По результатам белково-осадочных проб можно выявить .",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "холестаз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспаление гепатоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диспротеинемию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушение антитоксической функции печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушение выделительной функции печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 213,
+				"text": "При каких заболеваниях гепато-билиарной системы повышается в крови количество холестерина и липопротеидов?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при хроническом холецистите.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при желчнокаменной болезни (обтурации общего желчного протока).",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при первичном биллиарном циррозе печени.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при хроническом персистирующем гепатите.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при портальном циррозе печени.",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 126,
+				"text": "Из чего образуется стеркобилиноген?",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

@@ -1,0 +1,485 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "К заболеваниям печени и желчных путей, приводящих к нарушению гемостаза относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "механическая желтуха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронический гепатит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронический холецистит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемангиома печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аденома печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Назовитеантикоагулянтпрямогодействия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аспирин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фенилин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепарин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фибринолизин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дикумарин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Приостромтромбозепоказано:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переливаниекрови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "переливаниетромбоцитарноймассы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "переливаниеэритроцитарноймассы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "переливаниефибринолизина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "переливаниефиз.раствора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какиеанализыговорятонарушениисвертываемостикрови?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "общийанализкрови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "определениесахаракрови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коагулограмма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "определениебилирубина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "общийанализмочи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Тромбиновыйиндексвнормесоставляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "40-50 %",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "60-70 %",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "80-100 %",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "110-120%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "120-130%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Подвоздействием какого вещества фибриноген превращается в фибрин?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гепарина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фибринолизина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тромбина 2",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аспирина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дикумарина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Для уменьшения свертываемости крови назначают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антикоагулянты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хлористый кальций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "витамины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аминокапроновую кислоту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Приповышении уровня фибриногена крови показано назначение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антикоагулянтов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вливание физ. раствора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вливание фибринолизина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "переливание крови переливание гемодеза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Для улучшения реологических свойств крови назначают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "физ. раствор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "раствор новокаина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реополиглюкин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "раствор глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "викасол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Факторыспособствующиеобразованиютромба:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обморок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "триадаВирхова",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипертоническаяболезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "переливаниежидкостей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутримышечныеинъекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Какоеосложнениевозникаетприпониженииактивностисвертывающих факторов?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбообразование",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровотечение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "разрывсосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воспалениелегких",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атеросклерозсосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "У больноговыраженноеснижениеактивностисвертывающейсистемы,возможнокровотечение, чтонужноназначитьбольному?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переливаниедекстранов 3",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "назначениеспазмолитиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "переливаниеаминокапроновойкислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "переливаниефиз.раствора",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "переливаниегемодеза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "К какимосложнениямможетпривестипонижениесвертываемостивобласти раны?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расхождениешвов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нагноениераны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровотечение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "томбоэмболии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрывусосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Влияетлиоперационноевмешательствонасостояниегемокоагуляции?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не влияет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "усиливаетсвертываемостькрови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уменьшаетсвертываемостькрови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нормализует свертываемость крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "свертываемость приходит в норму через месяц",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Из какоговеществаобразуетсятромбин?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изгепарина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изфибриногена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изпротромбина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "изфибриногена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изантибиотиков",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

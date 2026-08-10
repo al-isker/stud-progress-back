@@ -1,4 +1,4 @@
-import { resolvePercentageMarker } from './detect-percentage-marker';
+import { percentageTextPrefixes, resolvePercentageMarker } from './detect-percentage-marker';
 import { RawOption, RawQuestion } from './segment';
 
 function option(text: string, sourcePrefix: string, structuralPrefix: string): RawOption {
@@ -14,31 +14,39 @@ function option(text: string, sourcePrefix: string, structuralPrefix: string): R
 const question = (options: RawOption[]): RawQuestion => ({ texts: ['Question'], options });
 
 describe('resolvePercentageMarker', () => {
+	test('does not treat a literal percent answer after the global equals prefix as a score', () => {
+		const result = resolvePercentageMarker(
+			question([option('%', '=%', '='), option('mm Hg', '=', '='), option('kPa', '=', '=')])
+		);
+
+		expect(result).toEqual({ recognized: false });
+	});
+
 	test('uses only the leading score and keeps percentages inside answer text', () => {
 		const result = resolvePercentageMarker(
 			question([
-				option('33.33333%0,9% раствор', '~%', '~%'),
-				option('-50%60–80% массы', '~%-', '~%'),
-				option('33.33333%обычный ответ', '~%', '~%'),
-				option('-50%ещё один ответ', '~%-', '~%'),
-				option('33.33333%100% содержания', '~%', '~%')
+				option('%33.33333%0,9% раствор', '~%', '~'),
+				option('%-50%60–80% массы', '~%-', '~'),
+				option('%33.33333%обычный ответ', '~%', '~'),
+				option('%-50%ещё один ответ', '~%-', '~'),
+				option('%33.33333%100% содержания', '~%', '~')
 			])
 		);
 
 		expect(result).toEqual({
 			recognized: true,
 			resolved: true,
-			marked: [false, true, false, true, false],
-			consumedTextPrefixes: ['33.33333%', '-50%', '33.33333%', '-50%', '33.33333%']
+			marked: [true, false, true, false, true],
+			consumedTextPrefixes: ['%33.33333%', '%-50%', '%33.33333%', '%-50%', '%33.33333%']
 		});
 	});
 
-	test('supports percentage syntax mixed with a shorter structural prefix', () => {
+	test('supports a space between the structural prefix and percentage score', () => {
 		const result = resolvePercentageMarker(
 			question([
-				option('%50% first', '~%', '~'),
-				option('%-33.33333% second', '~%-', '~'),
-				option('%50% third', '~%', '~')
+				option('%50% first', '~', '~'),
+				option('%-33.33333% second', '~', '~'),
+				option('%50% third', '~', '~')
 			])
 		);
 
@@ -47,6 +55,40 @@ describe('resolvePercentageMarker', () => {
 			resolved: true,
 			marked: [true, false, true],
 			consumedTextPrefixes: ['%50% ', '%-33.33333% ', '%50% ']
+		});
+	});
+
+	test('supports spaces around the score sign', () => {
+		const result = resolvePercentageMarker(
+			question([
+				option('% 50% first', '~%', '~'),
+				option('% - 100% second', '~%', '~'),
+				option('% 50% third', '~%', '~')
+			])
+		);
+
+		expect(result).toEqual({
+			recognized: true,
+			resolved: true,
+			marked: [true, false, true],
+			consumedTextPrefixes: ['% 50% ', '% - 100% ', '% 50% ']
+		});
+	});
+
+	test('restores a percent consumed by the inferred structural prefix', () => {
+		const result = resolvePercentageMarker(
+			question([
+				option('50% first', '~%', '~%'),
+				option('-33.33333% second', '~%-', '~%'),
+				option('50% third', '~%', '~%')
+			])
+		);
+
+		expect(result).toEqual({
+			recognized: true,
+			resolved: true,
+			marked: [true, false, true],
+			consumedTextPrefixes: ['50% ', '-33.33333% ', '50% ']
 		});
 	});
 
@@ -62,39 +104,116 @@ describe('resolvePercentageMarker', () => {
 		expect(result).toEqual({ recognized: false });
 	});
 
-	test('requires a service score on every option', () => {
-		const result = resolvePercentageMarker(
-			question([
-				option('%50% scored option', '~%', '~'),
-				option('ordinary option', '~', '~'),
-				option('correct ordinary option', '=', '=')
-			])
-		);
+	test('does not override an ordinary equals marker in a mixed question', () => {
+		const raw = question([
+			option('%50% scored option', '~%', '~'),
+			option('ordinary option', '~', '~'),
+			option('correct ordinary option', '=', '=')
+		]);
+		const result = resolvePercentageMarker(raw);
 
 		expect(result).toEqual({ recognized: false });
+		expect(percentageTextPrefixes(raw)).toEqual(['%50% ', null, null]);
 	});
 
-	test('recognizes but does not resolve a score with a unique maximum', () => {
+	test('does not resolve an empty or duplicated score', () => {
+		const empty = question([
+			option('%50% first', '~%', '~'),
+			option('%50%', '~%', '~'),
+			option('%-50% third', '~%-', '~')
+		]);
+		const duplicated = question([
+			option('%50%%50% first', '~%', '~'),
+			option('%50% second', '~%', '~'),
+			option('%-50% third', '~%-', '~')
+		]);
+
+		expect(resolvePercentageMarker(empty)).toEqual({ recognized: true, resolved: false });
+		expect(percentageTextPrefixes(empty)).toEqual(['%50% ', '%50%', '%-50% ']);
+		expect(resolvePercentageMarker(duplicated)).toEqual({
+			recognized: true,
+			resolved: false
+		});
+	});
+
+	test('uses zero for an unscored tilde option', () => {
 		const result = resolvePercentageMarker(
 			question([
-				option('25% first', '~%', '~%'),
-				option('-50% second', '~%-', '~%'),
-				option('25% third', '~%', '~%')
+				option('ordinary wrong option', '~', '~'),
+				option('%50% first correct', '~%', '~'),
+				option('another wrong option', '~', '~'),
+				option('%50% second correct', '~%', '~')
+			])
+		);
+
+		expect(result).toEqual({
+			recognized: true,
+			resolved: true,
+			marked: [false, true, false, true],
+			consumedTextPrefixes: [null, '%50% ', null, '%50% ']
+		});
+	});
+
+	test('resolves a score with a unique positive maximum as single', () => {
+		const result = resolvePercentageMarker(
+			question([
+				option('%50% first', '~%', '~'),
+				option('%25% second', '~%', '~'),
+				option('%25% third', '~%', '~')
+			])
+		);
+
+		expect(result).toEqual({
+			recognized: true,
+			resolved: true,
+			marked: [true, false, false],
+			consumedTextPrefixes: ['%50% ', '%25% ', '%25% ']
+		});
+	});
+
+	test('does not resolve a nested tilde option marker', () => {
+		const result = resolvePercentageMarker(
+			question([
+				option('%50%~first', '~%', '~'),
+				option('%50% second', '~%', '~'),
+				option('%-50% third', '~%-', '~')
 			])
 		);
 
 		expect(result).toEqual({ recognized: true, resolved: false });
 	});
 
-	test('does not resolve a score shared by every option', () => {
+	test('supports a space after the decimal separator', () => {
 		const result = resolvePercentageMarker(
 			question([
-				option('50% first', '~%', '~%'),
-				option('-50% second', '~%-', '~%'),
-				option('50% third', '~%', '~%')
+				option('%33, 33333% first', '~%', '~'),
+				option('%-50% second', '~%', '~'),
+				option('%33,33333% third', '~%', '~')
 			])
 		);
 
-		expect(result).toEqual({ recognized: true, resolved: false });
+		expect(result).toEqual({
+			recognized: true,
+			resolved: true,
+			marked: [true, false, true],
+			consumedTextPrefixes: ['%33, 33333% ', '%-50% ', '%33,33333% ']
+		});
+	});
+
+	test('marks every option when all share the same positive maximum', () => {
+		const result = resolvePercentageMarker(
+			question([
+				option('%50% first', '~%', '~'),
+				option('%50% second', '~%', '~'),
+				option('%50% third', '~%', '~')
+			])
+		);
+
+		expect(result).toEqual({
+			recognized: true,
+			resolved: true,
+			marked: [true, true, true],
+			consumedTextPrefixes: ['%50% ', '%50% ', '%50% ']
+		});
 	});
 });

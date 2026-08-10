@@ -1,0 +1,330 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Здоровье человека — это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "процесс сохранения и развития его психических и физических качеств;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "общенациональное богатство;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бесценный дар, который дает человеку природа;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "здоровый образ жизни;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все вышеперечисленное.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "На здоровье человека влияют следующие факторы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "психологические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "социально-демографические",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поведенческие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "культурные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ни один из перечисленных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Социально-демографическими факторами влияния на состояние здоровья являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отношение к своему возрасту",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продуктивная жизненная ориентация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "место проживания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "довольство собой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Представление о телесной природе человека отражено в следующих концепциях:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дуалистической",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "монистической",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "персоналистической",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "множественной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "двухфакторной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Монистическая теория телесности развивалась в трудах:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Демокрита",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Декарта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К. Маркса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Г.В.Лейбница",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ж.П. Сартра",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Образ тела – совокупность…",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ощущений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "восприятия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "представлений",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "передвижений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поведения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "К внутренним факторам формирования образа тела относят.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "темперамент",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "интеллект",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "характер",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мнение окружающих",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "профессию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "К неспецифическим физиологическим реакциям организма на воздействие экстремальных факторов относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "общий адаптационный синдромом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стресс",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дистресс",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аффект",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "переживание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "В развитии адаптационного синдрома различают следующие стадии:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фаза тревоги",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фаза адаптации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фаза истощения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фаза аккумуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фаза завершения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Функции эмоций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Функция оценки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Функция побуждения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Познавательная функция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Функция активации",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Суггестивная функция",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

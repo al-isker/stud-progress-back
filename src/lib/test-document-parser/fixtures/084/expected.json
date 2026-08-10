@@ -1,0 +1,5899 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "ПУТИ ЗАРАЖЕНИЯ МАКРООРГАНИЗМА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроскопический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биологический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "серологический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "алиментарный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аллергический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "ТОКСИНЫ МИКРООРГАНИЗМОВ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экзотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плазмокоагулаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиалуронидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эндотоксин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "ДЛИТЕЛЬНОЕ ПРЕБЫВАНИЕ ПАТОГЕННЫХ МИКРООРГАНИЗМОВ В МАКРООРГАНИЗМЕ ХАРАКТЕРНО ДЛЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острой инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "смешанной инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронической инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рецидива",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "суперинфекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "РЕЦИДИВ – ЭТО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфицирование организма до выздоровления тем же возбудителем",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфицирование после перенесенной инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возврат клинических проявлений болезни без повторного заражения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "суперинфекция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "реинфекция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "В ПЕРИОД РЕКОНВАЛЕСЦЕНЦИИ ПРОИСХОДИТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интенсивное размножение микроорганизмов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прекращение размножения и гибель микроорганизмов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "колонизация чувствительных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адгезия микроорганизмов на чувствительных клетках",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рецидив заболевания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "ГЕНОТИПИЧЕСКАЯ СПОСОБНОСТЬ ОПРЕДЕЛЕННЫХ ВИДОВ МИКРООРГАНИЗМОВ ВЫЗЫВАТЬ ИНФЕКЦИОННЫЙ ПРОЦЕСС,НАЗЫВАЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирулентностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "патогенностью 1",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "токсигенностью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инвазивностью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эндемией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "ПАТОГЕННОСТЬ ЯВЛЯЕТСЯ ПРИЗНАКОМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фенотипическим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "генотипическим",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микроскопическим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "биологическим",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "К ОСНОВНЫМ ФАКТОРАМ ВИРУЛЕНТНОСТИ МИКРОБОВ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизоцим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиалуронидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "комплемент",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пропердин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антиген",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "К ОСНОВНЫМ ФАКТОРАМ ВИРУЛЕНТНОСТИ МИКРОБОВ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизоцим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиалуронидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "комплемент",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пропердин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антиген",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "МИКРОБНЫЕ ЭКЗОТОКСИНЫ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "термолабильные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "имеют белковую природу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "оказывают неспецифическое действие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "термостабильные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ЛПС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "ПОВТОРНОЕ ЗАРАЖЕНИЕ ЕЩЕ НЕ ВЫЗДОРОВЕВШЕГО ОТ ПЕРВИЧНОЙ ИНФЕКЦИИ ОРГАНИЗМА ТЕМ ЖЕ МИКРОБОМ,НАЗЫВАЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реинфекцией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "суперинфекцией",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рецидивом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ремиссией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпидемией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "МИКРОБНЫЕ ЭКЗОТОКСИНЫ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "термолабильные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "имеют белковую природу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "оказывают неспецифическое действие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "термостабильные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ЛПС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "ПОВТОРНОЕ ЗАРАЖЕНИЕ ЕЩЕ НЕ ВЫЗДОРОВЕВШЕГО ОТ ПЕРВИЧНОЙ ИНФЕКЦИИ ОРГАНИЗМА ТЕМ ЖЕ МИКРОБОМ,НАЗЫВАЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реинфекцией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "суперинфекцией",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рецидивом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ремиссией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпидемией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "АНАТОКСИН ПРЕДСТАВЛЯЕТ СОБОЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обезвреженный экзотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ЛПС",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лейкоцидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "К ФЕРМЕНТАМ, ОБЕСПЕЧИВАЮЩИМ ПАТОГЕННОСТЬ БАКТЕРИЙ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизоцим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плазмокоагулаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "транскриптаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "каталаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протеаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "ПРИ СЕПСИСЕ ПРОИСХОДИТ РАЗМНОЖЕНИЕ ВОЗБУДИТЕЛЯ В:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "моче",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фекалиях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спинномозговой жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ликворе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "ИНФЕКЦИИ, ВОЗНИКАЮЩИЕ СРАЗУ ЖЕ ПОСЛЕИНКУБАЦИОННОГО ПЕРИОДА, НАЗЫВАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронические инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острые инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вторичные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "латентные инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ремиссия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "ПЕРИОД ИНФЕКЦИОННОГО ЗАБОЛЕВАНИЯ ОТ МОМЕНТА ЗАРАЖЕНИЯ ДО ПОЯВЛЕНИЯ ПЕРВЫХ ПРИЗНАКОВ НАЗЫВАЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продромальным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инкубационным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "разгара",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реконвалесценции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "манифестным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "МАССОВЫЕ ЗАБОЛЕВАНИЯ, РАСПРОСТРАНИВШИЕСЯ НАНЕСКОЛЬКО СТРАН И КОНТИНЕНТОВ, НАЗЫВАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпидемией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пандемией",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эндемией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спорадические заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ремиссией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "ЦЕНТРАЛЬНЫЕ ОРГАНЫ ИММУННОЙ СИСТЕМЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тимус",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кишечник",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "почки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "ЛИЗОЦИМ – ЭТО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазмакоагулаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ацетилмурамидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лецитиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кокарбоксилаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коллагеназа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "ПРЕДСТАВЛЯЮТ СОБОЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотоксины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "экзотоксины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анатоксины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антитела",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тейхоевые кислоты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "МЕТОДЫ МИКРОБИОЛОГИЧЕСКОЙ ДИАГНОСТИКИ ИНФЕКЦИОННЫХ ЗАБОЛЕВАНИЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериологический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "биохимический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клинический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рентгенологический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "морфологический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "АНАТОКСИН – ЭТО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ЛПС",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клеточная стенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обезвреженный экзотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "антитело",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "ФАГОЦИТОЗ УСИЛИВАЕТСЯ ПРИ УЧАСТИИ АНТИТЕЛ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютининов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опсонинов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лизинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "преципитинов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "комплемент связывающих антител",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "ОТ МАТЕРИ К ПЛОДУ ЧЕРЕЗ ПЛАЦЕНТУ ПЕРЕДАЮТСЯ ИММУНОГЛОБУЛИНЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "М",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "G",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "A",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "E",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "ОТНОСИТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "липаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гидролаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "каталаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиалуронидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "редуктаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "ПЕРИОДЫ ИНФЕКЦИОННОГО ЗАБОЛЕВАНИЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продромальный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "генерализованный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смешанный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "токсический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "ЭКЗОТОКСИН ПО ХИМИЧЕСКОЙ СТРУКТУРЕ – ЭТО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЛПС",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюцидолипид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вещество белковой природы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пигмент",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дисахарид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "БАКТЕРИЦИДНОЕ ДЕЙСТВИЕ КРОВИ ОБУСЛОВЛЕНО ПРИСУТСТВИЕМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микробов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комплемента",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Т-ЛИМФОЦИТЫ ЦИТОТОКСИЧЕСКИЕ (СУПРЕССОРЫ) ИМЕЮТ МАРКЕРЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "СД 19",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "СД 21",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "СД 4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "СД 8",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "СД 22",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "ИНТЕРФЕРОН ПРОДУЦИРУЕТСЯ КЛЕТКАМИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лейкоцитами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "моноцитами 6",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "РЕАКЦИЯ КУМБСА – ЭТО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реакция связывания комплемента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реакция лизиса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антиглобулиновый тест",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "реакция пассивной гемагглютинации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "РТГА",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "ДЛЯ ВЫЯВЛЕНИЯ НЕПОЛНЫХ АНТИТЕЛ ИСПОЛЬЗУЮТ РЕАКЦИЮ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Видаля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кумбса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Манту",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Бюрне",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пирке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "ПОЛНЫЕ АНТИТЕЛА - ЭТО АНТИТЕЛА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "моновалентные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бивалентные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "блокирующие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аллергические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антитоксические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "АНТИТЕЛА В СЫВОРОТКЕ КРОВИ ОПРЕДЕЛЯЮТ ПРИ ПОМОЩИ МЕТОДА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алергического",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериологического",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактериоскопического",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серологического",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "биологического",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "ФАГОЦИТОЗ УСИЛИВАЕТСЯ ПРИ УЧАСТИИ АНТИТЕЛ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютининов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опсонинов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лизинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "преципитинов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "комплемент связывающих антител",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "РЕАКЦИЯ ВИДАЛЯ - ЭТО РЕАКЦИЯ: 7",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютинации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "преципитации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "флоккуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизиса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейтрализации токсина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "ПАССИВНЫЙ ИММУНИТЕТ ФОРМИРУЕТСЯ В РЕЗУЛЬТАТЕ ВВЕДЕНИЯ В ОРГАНИЗМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзотоксинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "готовых антител",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вакцин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эндотоксинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "К ФЕРМЕНТАМ, ОБЕСПЕЧИВАЮЩИМ ПАТОГЕННОСТЬ МИКРООРГАНИЗМОВ ОТНОСИТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "липаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гидролаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "каталаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиалуронидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "редуктаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "ФАКТОРЫ ВИРУЛЕНТНОСТИ МИКРОБОВ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клетки крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изоантигены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "адгезины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антигены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "агглютинины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "ПРИ ВВЕДЕНИИ АНТИТОКСИЧЕСКОЙ СЫВОРОТКИ РАЗВИВАЕТСЯ ИММУНИТЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственные пассивный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "искусственный активный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "естественный активный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "естественный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "местный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "ПРИ ВВЕДЕНИИ ПРОФИЛАКТИЧЕСКОЙ ВАКЦИНЫ РАЗВИВАЕТСЯ ИММУНИТЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственный активный 8",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "искусственный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "естественный активный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "естественный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "местный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "ГИПЕРЧУВСТВИТЕЛЬНОСТЬ ЗАМЕДЛЕННОГО ТИПА ПО КЛАССИФИКАЦИИ ДЖЕЛЛА И КУМБСА - ЭТО АЛЛЕРГИЧЕСКИЕРЕАКЦИИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IV-го клеточного типа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "III -го типа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "II-го типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "I -го типа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "V типа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "ВАКЦИНА – ЭТО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "убитая или ослабленная культура микробов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "экзотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммунная сыворотка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антитоксическая сыворотка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антитела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "В МЕСТНОМ ИММУНИТЕТЕ ВАЖНУЮ РОЛЬ ИГРАЮТИММУНОГЛОБУЛИНЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "М",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "А",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "G",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "К СТАДИЯМ ФАГОЦИТОЗА ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адгезия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "колонизация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инвазия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токсинемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "СКРЫТЫЙ ПЕРИОД ИНФЕКЦИОННОГО ЗАБОЛЕВАНИЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инкубационный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "продромальный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разгар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реконвалесценции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "предвестников 9",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "ПОСЛЕ ПЕРЕНЕСЕННОГО ИНФЕКЦИОННОГО ЗАБОЛЕВАНИЯРАЗВИВАЕТСЯ ИММУНИТЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "искусственный активный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "естественный активный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "естественный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поствакцинальный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "К МИКРОФАГАМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемоглобин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "К АНТИГЕНАМ БАКТЕРИЙ ОТНОСЯТСЯ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "О-антиген",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "резус - антиген",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К-антиген",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "АВО антигены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антигены гистосовместимости МНС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "ЦЕНТРАЛЬНЫЕ ОРГАНЫ ИММУННОЙ СИСТЕМЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тимус",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "макрофаги",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "ДЛЯ ГУМОРАЛЬНОГО ИММУННОГО ОТВЕТА ХАРАКТЕРНА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выработка токсинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтез иммуноглобулинов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выработка Т-лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продукция антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "распознавание вирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "РАЗЛИЧАЮТ СЛЕДУЮЩИЕ ФОРМЫ ИММУННОГО ОТВЕТА: 10",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунологическая память",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антителообразование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "барьерная функция лимфоузлов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лихорадочная реакция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "В РАЗВИТИИ КЛЕТОЧНОЙ РЕАКЦИИ ИММУНОГО ВОСПАЛЕНИЯ УЧАСТВУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ммуноглобулины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токсины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "ИММУНОГЛОБУЛИНЫ ПО СВОЕМУ ХИМИЧЕСКОМУ СОСТАВУОТНОСЯТСЯ К:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полисахаридам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экзотоксинам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альфа-глобулинам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гамма-глобулинам",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "альбуминам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "В РЕАКЦИИ АГГЛЮТИНАЦИИ ВИДАЛЯ ОПРЕДЕЛЯЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютинины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "преципитины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лизины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антитоксины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "комплементсвязывающие антитела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "АНТИТЕЛА, УСИЛИВАЮЩИЕ ФАГОЦИТОЗ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютинины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опсонины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антитоксины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "преципитины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "К РЕАКЦИЯМ ГИПЕРЧУВСТВИТЕЛЬНОСТИ НЕМЕДЛЕННОГО ТИПА ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционная аллергия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атопии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гиперчувствительность замедленного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунологическая память 11",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммунологическая толерантность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "ГИПЕРЧУВСТВИТЕЛЬНОСТЬ ЗАМЕДЛЕННОГО ТИПА – ЭТО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактическая реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цитотоксическая реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Т-зависимая аллергическая реакция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "реакция иммунных комплексов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атопическая реакция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "АЛЛЕРГИЧЕСКАЯ РЕАКЦИЯ ЗАМЕДЛЕННОГО ТИПА РАЗВИВАЕТСЯ ПРИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхиальной астме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сывороточной болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анафилактическом шоке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулезе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сальмонеллезах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "МЕТОД ДЕСЕНСИБИЛИЗАЦИИ ПРИ ВВЕДЕНИИ ИММУННЫХ ЛЕЧЕБНО-ПРОФИЛАКТИЧЕСКИХ СЫВОРОТОК ПРЕДЛОЖИЛ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Видаль",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Райт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мечников И.И.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Безредка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Пфейффер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "ДРОБНОЕ ВВЕДЕНИЕ АНТИТОКСИЧЕСКОЙ СЫВОРОТКИ ПРЕДОТВРАЩАЕТ ОБРАЗОВАНИЕ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиалуронидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плазмокоагулазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "высоких концентраций гистамина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "ИММУНОГЛОБУЛИНЫ КЛАССА Е ИНАЧЕ НАЗЫВАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютининами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антитоксинами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реагинами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "преципитинами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тропинами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "КЛАССА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "М",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "G",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "АНТИТЕЛА ПРЕДСТАВЛЯЮТ СОБОЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изоантигены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аутоантигены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммуноглобулины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "макрофаги",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "НЕПОЛНОЦЕННЫЕ АНТИГЕНЫ ИНАЧЕ НАЗЫВАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аутоантигены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изоантигены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гаптены",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "анатоксины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "ИММУНОГЛОБУЛИНЫ КЛАССА М:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют высокую молекулярную массу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "способны проходить через плаценту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не обладают специфичностью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "являются мономерами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеют два активных центра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "К АНТРОПОНОЗНЫМ ИНФЕКЦИЯМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бруцеллез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чума",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туляремия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сифилис",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ящур",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "ИММУНОГЛОБУЛИНЫ КЛАССА М:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мономеры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладают крупной молекулярной массой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пентамеры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обеспечивают местный иммунитет 13",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проходят через плаценту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "СВОЙСТВА, ХАРАКТЕРНЫЕ ДЛЯ ИММУНОГЛОБУЛИНОВ КЛАССА Е:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пентамеры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участвуют в развитии гиперчувствительности I типа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "проходят через плаценту",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обеспечивают местный иммунитет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обладают высокой авидностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "К ГУМОРАЛЬНЫМ ФАКТОРАМ НЕСПЕЦИФИЧЕСКОЙ РЕЗИСТЕНТНОСТИ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фагоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комплемент",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лецитиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антитоксины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "БАКТЕРИАЛЬНЫЕ ЭКЗОТОКСИНЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вызывают образование антитоксинов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мало токсичны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прочно связаны с телом бактериальной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "под действием формалина и температуры обезвреживаются частично",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "представляют собой ЛПС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "ЭКЗОТОКСИНЫ ПРОДУЦИРУЮТ ВОЗБУДИТЕЛИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифтерии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бруцеллеза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туляремии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "ИММУНОФЕРМЕНТНЫЙ МЕТОД - СЕРОЛОГИЧЕСКАЯ РЕАКЦИЯ ПРИКОТОРОЙ ИНДИКАТОРНОЙ СИСТЕМОЙ ЯВЛЯЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "флюоресцирующие вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "радиоизотопы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фермент и его субстрат",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитическая система",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "ТОКСИГЕННОСТЬ КУЛЬТУРЫ INVITRO ОПРЕДЕЛЯЮТ МЕТОДОМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Видаля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Бюрне",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Манту",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Оухтерлони",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Пирке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "РЕАКЦИЯ ИММУНОФЛЮОРЕСЦЕНЦИИ, ЭТО СЕРОЛОГИЧЕСКАЯРЕАКЦИЯ, В КОТОРОЙ АНТИТЕЛА МЕЧЕНЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферментом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "радионуклеидом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "флюорохромом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ферментом и его субстратом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "радиоизотопом J125",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "К ФЕРМЕНТАМ ПАТОГЕННОСТИ БАКТЕРИЙ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сахароза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оксидоредуктаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиалуронидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "каталаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "амилаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "ПАТОГЕННОСТЬ – ЭТО:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "видовой признак, генотипический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "результат модификационной изменчивости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фенотипический признак",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "качественный признак",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "количественный признак",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "АНАТОКСИН ПОЛУЧАЮТ ИЗ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экзотоксина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антитоксической сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "взвеси микробов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "К МИКРОФАГАМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зернистые лейкоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфоциты 15",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полибласты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гистиоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "ЛИЗОЦИМ ПРЕДСТАВЛЯЕТ СОБОЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ацетилмурамидазу",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиалуронидазу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "ФАКТОРАМИ НЕСПЕЦИФИЧЕСКОЙ ЗАЩИТЫ ОРГАНИЗМАЯВЛЯЮТСЯ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "система комплемента",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "К- антиген",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лизоцим",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "специфические Ig M",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "специфическиеIg G",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "АНТИГЕНПРЕДСТАВЛЯЮЩИЕ КЛЕТКИ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дендритные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Т-киллеры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "К ИММУНОКОМПЕТЕНТНЫМ КЛЕТКАМ ОТНОСЯТСЯ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Т-хелперы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "ИММУНОГЛОБУЛИНЫ – ЭТО: 16",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антигены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антитела",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "экзотоксины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндотоксины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анатоксины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "ЭФФЕКТОРНУЮ ИММУНОКОМПЕТЕНТНУЮ ФУНКЦИЮОСУЩЕСТВЛЯЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Т-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "интерлейкины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритроциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "ЕСТЕСТВЕННЫЕ КИЛЛЕРЫ ИММУННОЙ СИСТЕМЫ ВЫЗЫВАЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фагоцитоз микроорганизмов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активацию нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лизис опухолевых клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лизис эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизис тромбоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "ИММУНИТЕТ ЕСТЕСТВЕННЫЙ ПАССИВНЫЙ ФОРМИРУЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "после вакцинации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "у плода, трансплацентарно",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "после введения иммуноглобулина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "после перенесенного заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "после антибиотикотерапии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "ПРЕПАРАТЫ, КОТОРЫЕ СОЗДАЮТ В ОРГАНИЗМЕ ИСКУССТВЕННЫЙ АКТИВНЫЙ ИММУНИТЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пробиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммуномодуляторы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вакцины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моноклональные антитела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "ЗАБОЛЕВАНИЯ, ПРИ КОТОРОМ ИММУНИТЕТ ОБУСЛОВЛЕН ПРЕИМУЩЕСТВЕННО ФАКТОРАМИ КЛЕТОЧНОГО ИММУНИТЕТА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифтерия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туберкулёз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "холера 17",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полиомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "корь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "КЛАСС ИММУНОГЛОБУЛИНОВ, ОБЛАДАЮЩИЙ НАИБОЛЬШЕЙАВИДНОСТЬЮ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IgG",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "IgE",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "IgM",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Ig A",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ig D",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "ИММУННЫЕ РЕАКЦИИ, ПРОТЕКАЮЩИЕ С УЧАСТИЕМКОМПЛЕМЕНТА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютинация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "преципитация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "РСК",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нейтрализация токсина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммунофлюоресценция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "АКТИВАЦИЮ КОМПЛЕМЕНТА ПО КЛАССИЧЕСКОМУ ПУТИВЫЗЫВАЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "липополисариды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пептидогликан",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зимозан",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунные комплексы IgM и IgG",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эритроциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "РЕАГИНАМИ НАЗЫВАЮТ КЛАСС ИММУНОГЛОБУЛИНОВ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ig A",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ig M",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ig G",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ig E",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Ig D",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "АНТИТЕЛА ОТНОСЯТСЯ К СЫВОРОТОЧНЫМ БЕЛКАМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфаглобулинам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бетализинам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гаммаглобулинам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "альбуминам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ферментам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "АНТИТЕЛ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "связывания комплемента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемолиза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "преципитации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кумбса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммунофлюоресцентная",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "ДЛЯ ВЫЯВЛЕНИЯ И ПОДСЧЕТА Т - И В - ЛИМФОЦИТОВ ИСПОЛЬЗУЮТ ПОВЕРХНОСТНЫЕ МАРКЕРЫ СИСТЕМЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "АВО",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "СД",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изоантигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аутоантигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "О - антигена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "В РАЗВИТИИ ГИПЕРЧУВСТВИТЕЛЬНОСТИ I ТИПА УЧАСТВУЮТ ИММУНОГЛОБУЛИНЫ КЛАССА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "М",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "G",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "ПРИ АНАФИЛАКТИЧЕСКОМ ШОКЕ БОЛЬНОМУ ВВОДЯТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "адреналин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гепарин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экзотоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "К РЕАКЦИИ ГИПЕРЧУВСТВИТЕЛЬНОСТИ IV ТИПА ОТНОСИТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционная аллергия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лекарственная аллергия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атопическая бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анафилактический шок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сывороточная болезнь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "К ГИПЕРЧУВСТВИТЕЛЬНОСТИ I ТИПА ОТНОСЯТСЯ РЕАКЦИИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "цитотоксические 19",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммунокомплексные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клеточные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "серологические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "В ЛИМФОЦИТЫ ОТВЕЧАЮТ ЗА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гуморальный иммунитет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клеточный иммунитет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "противоопухолевый иммунитет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трансплантационный иммунитет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ГЗТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "ФАКТОРЫ ВИРУЛЕНТНОСТИ БАКТЕРИЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазмолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плазмоптиз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "адгезины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лизис",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фагоцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "ЕСТЕСТВЕННЫЙ ПРИОБРЕТЕННЫЙ ИММУНИТЕТ ФОРМИРУЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "после перенесенного заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "после введения вакцин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "после введения вакцин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "путем передачи от матери к плоду",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "после введения иммуноглобулинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "ГУМОРАЛЬНЫЕ ФАКТОРЫ НЕСПЕЦИФИЧЕСКОЙ ЗАЩИТЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фагоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфоузлы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кожа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизоцим",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нормальная микрофлора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "КЛЕТОЧНЫЕ ФАКТОРЫ НЕСПЕЦИФИЧЕСКОЙ ЗАЩИТЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизоцим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "белки острой фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "естественные киллеры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пропердин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интерфероны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "БЕЛКИ ОСТРОЙ ФАЗЫ ИНФЕКЦИОННОГО ПРОЦЕССА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "С-реактивный белок",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изоантиген",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аутоантигены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммуноглобулины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аминокислоты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "ИНТЕРЛЕЙКИНЫ ПРОДУЦИРУЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эозинофилами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макрофагами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эритроцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тромбоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бактериями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "АЛЬФА - ИНТЕРФЕРОНЫ ПРОДУЦИРУЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкоцитами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "энтероцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экзотоксинами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндотоксинами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анатоксинами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "В-ЛИМФОЦИТЫ ОБЕСПЕЧИВАЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антителообразование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фагоцитоз~",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опредставление антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакцию ГЗТ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продукцию иммуноцитотоксинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "УРОВЕНЬ СЫВОРОТОЧНЫХ ИММУНОГЛОБУЛИНОВ ОТРАЖАЕТ ФУНКЦИОНАЛЬНОЕ СОСТОЯНИЕ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "ДЛЯ ВОЗНИКНОВЕНИЯ ИНФЕКЦИИ НЕОБХОДИМЫ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "патогенный микроорганизм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "восприимчивый макроорганизм",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "введение иммуноглобулинов 21",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроб-сапрофит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "устойчивый макроорганизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "ОЦЕНКА ГУМОРАЛЬНОГО ИММУНИТЕТА ПРОВОДИТСЯ ПУТЕМОПРЕДЕЛЕНИЯ КОЛИЧЕСТВА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В-лимфоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритроцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "АНТИТОКСИЧЕСКИЙ ИММУНИТЕТ ФОРМИРУЕТСЯ ПРИ ВВЕДЕНИИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "живой ослабленной вакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "убитой корпускулярной вакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анатоксина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аутовакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бактериофага",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "ЕСТЕСТВЕННЫЙ АКТИВНЫЙ ИММУНИТЕТ ФОРМИРУЕТСЯ ПОСЛЕ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "введения вакцин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "введения сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перенесенного заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "передается от матери при грудном вскармливании",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "введения интерферона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "ПАТОГЕННЫЕ ДИПЛОКОККИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гонококки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сарцины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микрококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "СЕЛЕКТИВНОЙ ДЛЯ СТАФИЛОКОККОВ ЯВЛЯЕТСЯ ПИТАТЕЛЬНАЯ СРЕДА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сахарный агар",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровяной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "среда Китта-Тароцци",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мясо-пептонный агар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желточно-солевой агар",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "К ГРАМПОЛОЖИТЕЛЬНЫМ БАКТЕРИЯМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гонококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "менингококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стафилококки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "брюшнотифозная палочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "К ШАРОВИДНЫМ ФОРМАМ БАКТЕРИЙ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вибрионы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спириллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стрептококки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бациллы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спирохеты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "ДЛЯ МОРФОЛОГИИ СТРЕПТОКОККОВ ХАРАКТЕРНО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спорообразование",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гроздевидное расположение в препарате-мазке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расположение в виде цепочки в препарате-мазке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие жгутиков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кислотоустойчивость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "ДЛЯ СТРЕПТОКОККОВ ХАРАКТЕРНО РАСПОЛОЖЕНИЕ В МАЗКЕ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в виде «гроздьев винограда»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в виде цепочки 23",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "по одному",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по четыре",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "под углом в виде латинской буквы V",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "ГОНОКОККИ В МАЗКЕ РАСПОЛАГАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по два",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в виде «гроздьев винограда»",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по одному",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "под углом в виде латинской буквы V",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в виде цепочки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "ГЕМОЛИТИЧЕСКИЕ СВОЙСТВА ВЫДЕЛЕННОЙ КУЛЬТУРЫ ИЗУЧАЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на сахарном агаре",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на среде Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на среде Леффлера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на кровяном агаре",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "на среде Гисса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "ДЛЯ СТРЕПТОКОККОВ ХАРАКТЕРНО РАСПОЛОЖЕНИЕ В МАЗКЕ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в виде «гроздьев винограда»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в виде цепочки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "по одному",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по четыре",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "под углом в виде латинской буквы V",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "ГОНОКОККИ В МАЗКЕ РАСПОЛАГАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по два",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в виде цепочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "единично",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скоплениями в виде «гроздьев винограда»",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по четыре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "ПРИЗНАКИ ПАТОГЕННОСТИ СТАФИЛОКОККОВ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продукция коагулазы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "продукция уреазы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образование гемагглютининов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "каталазная активность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование капсулы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "КАКИХ ЛАБОРАТОРНЫХ ЖИВОТНЫХ ИСПОЛЬЗУЮТ ДЛЯВЫДЕЛЕНИЯ ПНЕВМОКОККОВ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кролики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "морские свинки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крысы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мыши",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "куры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "ДЛЯ МИКРОБИОЛОГИЧЕСКОЙ ДИАГНОСТИКИ СТАФИЛОКОККОВОГО СЕПСИСА ПРИМЕНЯЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямая микроскопия крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "посев крови на МПА",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "посев крови на ЖСА",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "посев крови на сахарный бульон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "метод иммунофлюоресценции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "ДЛЯ КУЛЬТИВИРОВАНИЯ МЕНИНГОКОККОВ ПРИМЕНЯЮТ СРЕДЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1% пептонная вода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печеночный бульон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Раппопорта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сывороточный агар",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "желточный агар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "ОСНОВНЫЕ ФАКТОРЫ ПАТОГЕННОСТИ STREPTOCOCCUS PNEUMONIAE:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроворсинки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "капсула",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нейраминидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "субстанция С",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "каталаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "ДЛЯ СПЕЦИФИЧЕСКОЙ ПРОФИЛАКТИКИ МЕНИНГОКОККОВОЙИНФЕКЦИИ ПРИМЕНЯЮТ ХИМИЧЕСКУЮ ВАКЦИНУ ИЗ ПОЛИСАХАРИДНЫХ АНТИГЕНОВ СЕРОГРУПП: 25",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Х",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "СТРЕПТОКОККИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подвижны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "строгие анаэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "расположены цепочкой при микроскопии мазка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "ГОНОКОККИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамотрицательные кокки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "располагаются цепочкой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продуцируют экзотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анаэробы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "ПУТИ ПЕРЕДАЧИ ГОНОРЕИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воздушно-пылевой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алиментарный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "половой",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "ПРИ ЭПИДЕМИЧЕСКИХ ВСПЫШКАХ СТАФИЛОКОККОВЫХ ЗАБОЛЕВАНИЙ ДЛЯ УСТАНОВЛЕНИЯ ИСТОЧНИКОВ ИНФЕКЦИИИСПОЛЬЗУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реакцию агглютинации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реакцию преципитации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фаготипирование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "определение ферментативной активности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "РСК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "ДЛЯ МИКРОБИОЛОГИЧЕСКОЙ ДИАГНОСТИКИ МЕНИНГИТАИССЛЕДОВАНИЮ ПОДТВЕРГАЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мочу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "испражнения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мокроту 26",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спинномозговую жидкость",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "слюну",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "ЭРИТРОГЕННЫЙ ТОКСИН ОТМЕЧАЕТСЯ У ВОЗБУДИТЕЛЕЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скарлатины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гонореи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сифилиса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туляремии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "ДЛЯ МИКРОБИОЛОГИЧЕСКОЙ ДИАГНОСТИКИ ПНЕВМОКОККОВЫХ ЗАБОЛЕВАНИЙ ИСПОЛЬЗУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мочу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "испражнения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "раневое отделяемое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смывы с предметов внешней серы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мокроту",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "ОСНОВНОЙ МЕТОД МИКРОБИОЛОГИЧЕСКОЙ ДИАГНОСТИКИ ГНОЙНО-ВОСПАЛИТЕЛЬНОЙ СТАФИЛОККОКОВОЙ ИНФЕКЦИИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серологический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биологический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактериологический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аллергический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "люминисцентно-серологический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "СТРЕПТОКОККИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подвижны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамотрицательны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамположительны",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеют зерна волютина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "СТРЕПТОКОККИ МОГУТ ВЫЗЫВАТЬ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рожистое воспаление",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "скарлатину",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дифтерию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дизентерию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпидемический паротит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "ВОЗБУДИТЕЛЕМ СКАРЛАТИНЫ ЯВЛЯЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Staphylococcus aureus",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Streptococcus pyogenes",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Streptococcus mutans",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Streptococcus pnneumoniae",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Neisseria meningitides",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "К ФАКТОРАМ ВИРУЛЕНТНОСТИ ПНЕВМОКОККА ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "капсула",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лецитиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экзотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейроминидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиалуронидаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "ДЛЯ ПНЕВМОКОККА ХАРАКТЕРНО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грамотрицательная окраска",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образование спор во внешней среде",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образование капсул в организме человека",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "продуцирование экзотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "высокая устойчивость во внешней среде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "ДЛЯ МИКРОБИОЛОГИЧЕСКОЙ ДИАГНОСТИКИ МЕНИНГОКОККОВОГО НОСИТЕЛЬСТВА ИССЛЕДУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "испражнения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слизь из носоглотки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мочу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "МЕНИНГОКОККИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грамположительные диплококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамотрицательные диплококки 28",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кокки ланцетовидной формы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обладают подвижностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "ГОНОКОККИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образуют экзотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательные диплококки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грамположительные диплококки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "облигатные анаэробы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "ДЛЯ МИКРОБИОЛОГИЧЕСКОЙ ДИАГНОСТИКИ ОСТРОЙ ГОНОРЕИ ПРИМЕНЯЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реакцию Асколи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "РТГА",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакцию Видаля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроскопический метод",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "реакцию Вассермана",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "НАИБОЛЕЕ ЧАСТО ГНОЙНО - ВОСПАЛИТЕЛЬНЫЕ ПРОЦЕССЫ ВРАНАХ ВЫЗЫВАЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "энтеробактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стафилококки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микобактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейссерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коринебактерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "ИЗ ПЕРЕЧИСЛЕННЫХ ВИДОВ БАКТЕРИЙ ОТНОСЯТСЯ К КОАГУЛАЗОПОЛОЖИТЕЛЬНЫМ СТАФИЛОКОККАМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "S. epidermidis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "S. saprophyticus",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "S. aureus",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "S. haemolyticus",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "S.hominis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "ДЛЯ STAPHYLOCOCCUS AUREUS ХАРАКТЕРНО:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазмокоагулазная активность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лецитиназная активность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательная окраска",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образование жгутиков 29",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование спор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "ДЛЯ ВЫДЕЛЕНИЯ СТАФИЛОКОККОВ ШИРОКО ИСПОЛЬЗУЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "среда Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среда Левина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ЖСА (желточно-солевой агар)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "свернутая лошадиная сыворотка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среда Клауберга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "ДЛЯ ПНЕВМОКОККОВ ХАРАКТЕРНО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование капсулы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие жгутиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие включений из волютиновых гранул",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выраженный полиморфизм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование спор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "ДЛЯ ВЫДЕЛЕНИЯ ПНЕВМОКОККОВ ИСПОЛЬЗУЮТ СРЕДЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желточно-солевой агар",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желчный бульон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровяной агар",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Левина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "МОРФОЛОГИЯ ПНЕВМОКОККА ПРИ МИКРОСКОПИИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диплококки с ланцетовидными концами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тетракокки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мелкие кокки, расположенные в цепочку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кокки, расположенные по одному",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кокки, образующие скопления в виде «виноградных гроздьев»",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "О-СТРЕПТОЛИЗИН ПРОДУЦИРУЮТ СТРЕПТОКОККИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "S. pyogenes",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "S. pneumoniae",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "S. faecalis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "S. mutans",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "S. Mitis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "РОЖИСТОЕ ВОСПАЛЕНИЕ ВЫЗЫВАЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стерептококки 30",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сальмонеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эшерихии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клебсиеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коринебактерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "СТАФИЛОКОККИ ОТНОСЯТСЯ К:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аэробным грамположительным коккам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "факультативно-анаэробным грамположительным коккам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "облигатно-анаэробным грамположительным коккам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аэробным грамотрицательным коккам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "факультативно-анаэробным грамотрицательным коккам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "НЕПАТОГЕННЫЕ НЕЙССЕРИИ, ВЫДЕЛЯЕМЫЕ ИЗ НОСОГЛОТКИЗДОРОВОГО ЧЕЛОВЕКА:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "N. meningitidis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "N. gonorrhoeae",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "N. smegmatis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "N. flava",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "N.sicca",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "СТРЕПТОКОККИ ГРУППЫ А КУЛЬТИВИРУЮТСЯ НА СРЕДАХ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровяной агар",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "среда Плоскирева",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "среда Левенштейна - Йенсена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "среда Сабуро",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среда Эндо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "СПОРЫ РАСПОЛАГАЮТСЯ ЦЕНТРАЛЬНО У ВОЗБУДИТЕЛЕЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "газовой гангрены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сибирской язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ботулизма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дифтерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "СПОРЫ РАСПОЛАГАЮТСЯ ТЕРМИНАЛЬНО У ВОЗБУДИТЕЛЕЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ботулизма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "столбняка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "газовой гангрены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "листериоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "СПОРЫ РАСПОЛАГАЮТСЯ СУБТЕРМИНАЛЬНО У ВОЗБУДИТЕЛЕЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ботулизма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холеры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "ДЛЯ КЛЕТОЧНОЙ СТЕНКИ ГРАМПОЛОЖИТЕЛЬНЫХ БАКТЕРИЙ ХАРАКТЕРНО:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пептидогликан однослойный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие тейхоевых кислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сравнительно высокое содержание липидов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пептидогликан многослойный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие тейхоевых кислот",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "«ВЕРЕТЕНООБРАЗНУЮ» ФОРМУ ИМЕЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клостридии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бациллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактероиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтеробактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пептококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "К СПОРООБРАЗУЮЩИМ АНАЭРОБАМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клостридии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бактероиды 32",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "порфиромонады",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вейлонеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "превотеллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "ДЛЯ КУЛЬТИВИРОВАНИЯ АНАЭРОБОВ ИСПОЛЬЗУЮТ СПЕЦИАЛЬНУЮ СРЕДУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пептонная вода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среда Раппопорта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "среда Вильсон - Блера",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "среда Леффлера среда Эндо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "ПАТОГЕННЫЕ МИКРОБЫ, СПОСОБНЫЕ ДЛИТЕЛЬНО (ГОДАМИ)СОХРАНЯТЬСЯ В ПОЧВЕ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбудитель брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клостридии газовой гангрены",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулезная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стафилококк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "ИЗ НИЖЕПЕРЕЧИСЛЕННЫХ БАКТЕРИЙ ЯВЛЯЮТСЯ НЕСПОРОГЕННЫМИ АНАЭРОБАМИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гонококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактероиды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клостридии столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бруцеллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "МЕТОД ФОРТНЕРА ИСПОЛЬЗУЮТ ДЛЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выделения чистой культуры аэробов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выделения антибиотикорезистентных культур",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "создания анаэробных условий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "создания аэробных условий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определения микрофлоры воздуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "ОБЛИГАТНЫМИ АНАЭРОБАМИ ЯВЛЯЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бордетеллы коклюша",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кишечные палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "столбнячные палочки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клебсиеллы 33",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "ТОКСИЧЕСКОЕ ДЕЙСТВИЕ МОЛЕКУЛЯРНОГО КИСЛОРОДА НАОБЛИГАТНЫЕ АНАЭРОБЫ ОБУСЛОВЛЕНО НАКОПЛЕНИЕМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пирувата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "конечных продуктов брожения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перекиси водорода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "углекислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глицеральдегидрофосфата",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "ДЛЯ СПЕЦИФИЧЕСКОЙ ПРОФИЛАКТИКИ КОКЛЮША, ДИФТЕРИИ И СТОЛБНЯКА ПРИМЕНЯЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вакцина БЦЖ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцина СТИ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вакцина Смородинцева-Чумакова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "АКДС",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вакцина Сэбина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "ВОЗБУДИТЕЛИ АНАЭРОБНЫХ ИНФЕКЦИЙ КУЛЬТИВИРУЮТ НАСРЕДАХ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Китта-Тароцци",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "содержащих желчь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печеночном бульоне",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "среде Дьедоне",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "щелочном агаре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "КЛОСТРИДИИ СТОЛБНЯКА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуют экзотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кокковидной формы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образуют эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неустойчивы в окружающей среде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "КЛОСТРИДИИ СТОЛБНЯКА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуют эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образуют споры",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроаэрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грамотрицательны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "ДЛЯ ЭКСТРЕННОЙ ПРОФИЛАКТИКИ СТОЛБНЯКА ПРИМЕНЯЮТ: 34",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антитоксическую сыворотку и анатоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антимикробную сыворотку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "АКДС",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "убитую вакцину",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "ДЛЯ СПЕЦИФИЧЕСКОЙ ПРОФИЛАКТИКИ ГАЗОВОЙ АНАЭРОБНОЙИНФЕКЦИИ ПРИМЕНЯЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антимикробную сыворотку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поливалентную антитокическую сыворотку",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "убитую вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аутовакцину",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "ДЛЯ КЛОСТРИДИЙ БОТУЛИЗМА ХАРАКТЕРНО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "форма барабанных палочек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамнегативная окраска",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образование экзотоксина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аспорогенность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие серотипов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "ДЛЯ ЛЕЧЕНИЯ БОТУЛИЗМА ИСПОЛЬЗУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антимикробную сыворотку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поливалентную антитоксическую сыворотку",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аутовакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "убитую вакцину",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "ВОЗБУДИТЕЛЯМИ ГАЗОВОЙ АНАЭРОБНОЙ ИНФЕКЦИИ ЯВЛЯЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коринебактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клостридии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "менингококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "К НЕСПОРООБРАЗУЮЩИМ АНАЭРОБАМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактероиды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клостридии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хламидии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кампилобактерии 35",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микобактерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "ТЕРМИНАЛЬНОЕ РАСПОЛОЖЕНИЕ СПОР ХАРАКТЕРНО ДЛЯВОЗБУДИТЕЛЕЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ботулизма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "газовой гангрены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дифтерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "столбняка",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 128,
+				"text": "ЭЛЕКТИВНАЯ СРЕДА ДЛЯ ВЫДЕЛЕНИЯ СТАФИЛОКОККОВ:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

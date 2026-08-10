@@ -1,0 +1,5644 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Симптом «барабанных палочек» определяется с помощью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "осмотра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пальпации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перкуссии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аускультации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рентгенографии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Искривление позвоночника вперед называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кифоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лордоз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сколиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кифосколиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Выберите из перечисленных одну из нормальных форм грудной клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "астеническая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рахитическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паралитическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ладьевидная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воронкообразная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Выберите виды одышки при которых наблюдается дыхательная пауза (периодическое дыхание)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Генча",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Куссмауля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Чейна-Стокса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Курвуазье",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Штанге",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Спирали куршмана обнаруживаются у больных с заболеваниями легких при лабораторном исследовании",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желчи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желудочного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мокроты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "плеврального выпота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Выберите вид одышки при которых отсутствует дыхательная пауза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Биота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Куссмауля",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Чейна-Стокса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Грока",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Инспираторная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Какой из вариантов искривления позвоночника встречается чаще всего",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кифоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лордоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сколиоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все встречаются одинаково часто",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кифосколиоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Голосовое дрожание определяется с помощью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расспроса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "осмотра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пальпации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "перкуссии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аускультации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Ослабление голосового дрожания характерно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для бронхоэктазов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для экссудативного плеврита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для абсцесса легкого в стадии полости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для очаговой пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для крупозной пневмонии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Для крупозной пневмонии в разгар болезни характерен перкуторный звук",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "притупленный тимпанит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коробочный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимпанический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тупой",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "металлический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Перкуторный звук над гладкостенной полостью, больших размеров, имеющей свободное сообщение с бронхом, имеет следующий характер",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тимпанический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "металлический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "звука треснувшего горшка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коробочный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "легочной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Для определения размера очага поражения легкого наилучшим методом является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сравнительная перкуссия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "компьютерная томография",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "топографическая перкуссия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аускультация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Суммарная подвижность нижней границы правого легкого по средней подмышечной линии составляет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2-3 см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3-4 см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6-8 см",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1-2 см",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определить невозможно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Нижняя граница левого легкого по среднеключичной линии находится на уровне",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6 ребра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "7 ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "8 ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "9 ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Пикфлуометрия - наилучший и простой метод определения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердечной астмы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жизненной емкости легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пиковой скорости выдоха",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пиковой скорости вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Нижняя граница правого легкого по лопаточной линии находится на уровне",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6 ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "7 ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "8 ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "9 ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10 ребра",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Каким может быть перкуторный звук при приступе бронхиальной астмы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "металлическим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "притупленным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коробочным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амфорическим",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "притупленно тимпаническим",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Топографическую перкуссию грудной клетки начинают со следующей области",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "боковой поверхности грудной клетки от подмышечной впадины книзу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боковой поверхности от селезеночной или печеночной тупости кверху",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "передней поверхности со второго и третьего межреберья",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "задней поверхности от углов лопаток книзу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задней поверхности от надключичных областей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Чем отличается коробочный перкуторный звук от ясного легочного",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коробочный звук более высокий и продолжительный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коробочный звук более громкий и высокий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коробочный звук более низкий и продолжительный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коробочный звук отличается более громким звучанием",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "он более низкий, быстро затухающий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Сравнительная перкуссия начинается с перкуссии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "надлопаточных областей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "межлопаточного пространства",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхушек легких спереди",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ключиц",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подлопаточных областей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Усиление голосового дрожания типично",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для гидроторакса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для абсцесса легкого в стадии полости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для крупозного воспаления",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "для эмфиземы легких",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для бронхиальной астмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "К побочным дыхательным шумам не относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шум трения плевры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крепитация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амфорическое дыхание",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "влажные хрипы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сухие хрипы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "При эмфиземе легких дыхание",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "везикулярное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "везикулярное ослабленное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "везикулярное усиленное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхиальное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "саккадированное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Стенотическое дыхание относится к",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиленному бронхиальному дыханию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиленному амфорическому дыханию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ослабленному амфорическому дыханию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиленному металлическому дыханию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ослабленному металлическому дыханию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Звонкие влажные хрипы характерны",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для эмфиземы легких",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для абсцесса легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для крупозной пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для бронхиальной астмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для бронхопневмонии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Амфорическое дыхание наблюдается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при очаговой пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при бронхите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при бронхиальной астме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при абсцессе легкого с прорывом в бронх",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при эмфиземе легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Для какого заболевания характерно появление бронхо-везикулярного дыхания над легкими",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полость, соединяющаяся с бронхом (диаметром <5 см)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "начальная стадия воспаления доли легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "компрессионный ателектаз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крупозная пневмония",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сужение мелких бронхов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Каково течение крупозной и бронхопневмонии в настоящее время",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резко различается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стало сходным по многим параметрам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стало различным по клинике",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стало различным по этиологии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Диагностике осложнения пневмонии сухим плевритом помогают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникновения постоянных болей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возникновение болей, связанных с дыханием",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "резкое повышение температуры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появление резкого притупления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление высокого лейкоцитоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Как называется шум, формируемый разлипанием альвеол",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шум трения плевры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крепитация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мелкопузырчатые хрипы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сухие хрипы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шум плеска Гиппократа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Бронхофония определяется с помощью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расспроса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "осмотра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пальпации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перкуссии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аускультации",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Бронхиальное дыхание выслушивается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на вдохе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на выдохе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на вдохе и одной трети выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на протяжении всего вдоха и всего выдоха",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "на вдохе и первых двух третях выдоха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Крепитация выслушивается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в начале вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в конце вдоха",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в начале выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в конце выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в обеих фазах дыхания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Везикулярное дыхание, фаза вдоха которого состоит из отдельных коротких прерывистых вдохов, называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амфорическим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "саккадированным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пуэрильным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стенотическим",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "жестким",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "При абсцессе легкого мокрота имеет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "густую консистенцию из-за наличия гноя",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вязкую консистенцию из-за присутствия слизи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жидкую консистенцию, поскольку содержит пропотевшую в бронхи плазму крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ржавый цвет из-за примеси крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "твердый, запекшийся вид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Оцените результат исследования плеврального содержимого: относительная плотность - 1027, мутная жидкость, зеленовато-желтого цвета, белок - 60 г/л, проба ривальта +++, микроскопия осадка - нейтрофилы покрывают все поля зрения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "транссудат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойный экссудат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "геморрагический (раковый) экссудат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экссудат при туберкулезном плеврите",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экссудат при туберкулезном плеврите",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Зловонный запах свежевыделенной мокроты не отмечается при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гангрена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "распадающийся рак",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "абсцесс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхоэктатическая болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмонии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Проба ривальта выявляет наличие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "билирубина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липопротеидов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холестерина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "серозомуцина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Какой характер мокроты характерен для абсцесса легкого и бронхоэктатической болезни",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слизистая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слизисто-гнойная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гнойная, со зловонным запахом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слизисто-кровянистая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гнойно-слизистая, густая, трехслойная",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "В мокроте обнаружен плоский эпителий, это позволяет предположить наличие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхиальной астмы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "абсцесса легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронического бронхита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "митрального стеноза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одного из вышеперечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Плевральную пункцию делают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по верхнему краю ребра, по лопаточной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по нижнему краю ребра, по лопаточной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по верхнему краю ребра, по задней подмышечной линии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "по нижнему краю ребра, по задней подмышечной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "В мокроте обнаружены эозинофилы в большом количестве, это позволяет предположить наличие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхиальной астмы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "абсцесса легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронического бронхита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "митрального стеноза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одного из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Гнилостный, зловонный запах мокроты появляется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при гангрене легкого, при раке легкого, при абсцессе легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при раке легкого, при абсцессе легкого, при крупозной пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при абсцессе легкого, при крупозной пневмонии, при бронхоэктазах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при гангрене легкого, при абсцессе легкого, при бронхоэктазах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при раке легкого, при абсцессе легкого, при бронхоэктазах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Из перечисленных заболеваний слизисто-кровянистая мокрота характерна для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острого трахеобронхита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхопневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронического бронхита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулеза легкого",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "крупозной пневмонии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Обструктивный тип нарушения вентиляции легких обусловлен",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сужением просвета бронхов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшением подвижности диафрагмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "развитием спаек в плевральной щели",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ослаблением силы дыхательных мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушением перфузии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Жизненная емкость легких (ЖЕЛ) – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "максимальный объем воздуха, вентилируемый в течение 1 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "объем воздуха, остающегося в легких после спокойного выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "максимальный объем воздуха, выдыхаемого из легких после максимального вдоха",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "максимальный объем воздуха, который можно вдохнуть после спокойного выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одного из перечисленных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Дыхательный объем (ДО) – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "максимальный объем воздуха, вдыхаемого после окончания нормального вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "максимальный объем воздуха, выдыхаемого после окончания нормального выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "объем вдыхаемого или выдыхаемого воздуха",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "объем воздуха, остающегося в легких после максимального вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "объем воздуха, остающегося в легких после максимального выдоха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Остаточный объем (ОО) легких - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "максимальный объем воздуха, вентилируемый в течение 1 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "объем воздуха, остающегося в легких после максимального выдоха",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "максимальный объем воздуха, выдыхаемого из легких после максимального вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "максимальный объем воздуха, который можно вдохнуть после спокойного выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "максимальный объем воздуха, который можно вдохнуть после спокойного выдоха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Резервный объем (РО) вдоха – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "максимальный объем воздуха, вдыхаемого после окончания нормального вдоха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "максимальный объем воздуха, выдыхаемого после окончания нормального выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "объем вдыхаемого или выдыхаемого воздуха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "объем воздуха, остающегося в легких после максимального выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Какие легочные объемы составляют ЖЕЛ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ОО, РО вдоха, РО выдоха, ДО, ОЕЛ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "РО вдоха, РО выдоха, ДО",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ОО, РО вдоха, РО выдоха, ОЕЛ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ОО, РО вдоха, РО выдоха, ОФВ1",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ОО, РО выдоха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Выберите характеристику транссудата",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "относительная плотность ниже 1,015, содержание белка меньше 3%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "относительная плотность выше 1,015, содержание белка меньше 3%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "относительная плотность выше 1,025, содержание белка больше 3%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ни одно из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Насыщение крови кислородом в норме составляет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "22-36%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "68-69%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "72-85%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "96-98%",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "100%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "За 1 секунду форсированного выдоха (проба тифно-вотчала) здоровый человек выдыхает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20% ЖЕЛ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "40% ЖЕЛ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "60% ЖЕЛ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "80% ЖЕЛ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сделает весь выдох",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Минутный объем дыхания в среднем составляет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "500 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1500-2000 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5000 мл",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "10000 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "8000 мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Одышка с затруднением фазы выдоха называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "физиологической",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "субьективной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инспираторной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экспираторной",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Жизненная емкость легких зависит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от длины тела",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "от площади поверхности тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от массы тела",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от пола",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от всего перечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Резервный объем выдоха – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "максимальный объем воздуха, вдыхаемого после окончания нормального вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "максимальный объем воздуха, выдыхаемого после окончания нормального выдоха",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "объем вдыхаемого или выдыхаемого воздуха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "объем воздуха, остающегося в легких после максимального выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "объем воздуха, остающегося в легких после максимального выдоха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Максимальная вентиляция легких – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "максимальный объем воздуха, вдыхаемого после окончания нормального вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "максимальный объем воздуха, выдыхаемого после окончания нормального выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "объем вдыхаемого или выдыхаемого воздуха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "объем воздуха, остающегося в легких после максимального выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "максимальный объем воздуха, при максимально возможном глубоком дыхании в течение минуты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Бронхиальная обструкция выявляется с помощью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спирографии, пикфлуометрии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бронхоскопии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "исследования газов крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аускультации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перкуссии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Простейшим прибором для определения бронхиальной обструкции является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спирограф",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пикфлуометр",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плетизмограф",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "флуорограф",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "КТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Количественная степень обструкции воздухоносных путей выявляется при оценке",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интенсивности кашля и количества выделяемой мокроты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интенсивности дыхательных шумов над легкими и сухих хрипов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "данных спирографии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "интенсивности дыхательных шумов над легкими и сухих хрипов и с данными спирографии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "со всем перечисленным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Уменьшение жизненной емкости легких выявляется при всех перечисленных состояниях, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспалительных процессов в органах грудной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "беременности (вторая половина)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грыжи пищеводного отверстия диафрагмы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "асцита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмфиземы легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Наиболее эффективным методом выявления небольшого количества жидкости в плевральной полости является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгеноскопия (в обычном положении - ортопозиции)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгенография",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "томография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ЯМР",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "УЗИ легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Назовите наиболее вероятную причину боли в случае если резкая боль в правой половине грудной клетки, усиливающаяся при глубоком вдохе и одновременной фиксации грудной клетки руками. боль сопровождается сухим кашлем на высоте вдоха. при наклонах туловища с одновременной задержкой дыхания боль уменьшается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление трахеи (трахеит)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспаление плевры (сухой плеврит)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поражение межреберных мышц и нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перенапряжение дыхательных мышц (диафрагмы) при кашле, (мышечные боли).",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крупозная пневмония",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Назовите наиболее вероятную причину боли в случае если имеется:боль в левой половине грудной клетки, усиливается при наклонах туловища и одновременной задержке дыхания. при фиксации грудной клетки руками и одновременном вдохе боль не усиливается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление трахеи (трахеит)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспаление плевры (сухой плеврит)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поражение межреберных мышц и нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "перенапряжение дыхательных мышц (диафрагмы) при кашле, (мышечные боли).",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "опоясывающий лишай",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Назовите наиболее вероятную причину боли в случае если имеется чувство саднения (боль) за грудиной, кашель. боль усиливается при кашле, не изменяется при дыхании",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление трахеи (трахеит)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воспаление плевры (сухой плеврит)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поражение межреберных мышц и нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перенапряжение дыхательных мышц (диафрагмы) при кашле, (мышечные боли).",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перенапряжение дыхательных мышц (диафрагмы) при кашле, (мышечные боли).",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Назовите наиболее вероятную причину кашля: кашель со скудной мокротой слизистого и слизисто-гнойного характера",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ларингит.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трахеит, бронхит.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "абсцес легкого.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сухой плеврит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Назовите наиболее вероятную причину кашля: кашель с отделением жидкой зеленоватой мокроты с зловонным запахом. мокрота отхаркивается \"полным ртом\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ларингит.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трахеит, бронхит.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "абсцесс легкого.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сухой плеврит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Назовите наиболее вероятную причину кашля: кашель с трудно отделяемой стекловидной вязкой \"белой\" мокротой в небольшом количестве. сопровождается экспираторной одышкой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ларингит.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трахеит, бронхит.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "абсцесс легкого.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхиальная астма",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сухой плеврит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Дайте название одышки: больной жадно \"хватает\" воздух, имеется ощущение неполноты вдоха",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тахипное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инспираторная одышка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стридорозное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экспираторная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дыхание Чейн-Стокса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Дайте название одышки: ощущение нехватки воздуха, удлиненный выдох с участием мышц плечевого пояса",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тахипное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инспираторная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стридорозное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экспираторная одышка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дыхание Чейн-Стокса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Дайте название одышки: резко затруднен вдох и выдох, шейные мышцы напряжены, на вдохе и выдохе дыхание шумное, слышимое на расстоянии.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тахипное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инспираторная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стридорозное дыхание",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "экспираторная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дыхание Куссмауля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Дайте название одышки: имеется частое поверхностное дыхание, без затруднения вдоха и выдоха",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тахипное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инспираторная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стридорозное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экспираторная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дыхание Куссмауля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Дайте название одышки: глубокое редкое шумное дыхание у больного, находящегося в коме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экспираторная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инспираторная одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стридорозное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дыхание Чейн-Стокса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дыхание Куссмауля",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Перкуторно плевральный экссудат определяется при его объеме не менее",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "50 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "100 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "200 мл",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "500 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "500 мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Длительное кровохарканье при сухом кашле заставляет, прежде всего, подозревать",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рак бронха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кавернозный туберкулез легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бронхоэктатическую болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пневмокониоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сухой плеврит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Назовите наиболее частую причину дыхания куссмауля",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение чувствительности дыхательного центра, вследствие токсических воздействий на ЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стадия декомпенсации сахарного диабета, хроническая почечная недостаточность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "препятствие в верхних дыхательных путях (опухоль гортани, главного бронха, инородное тело)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спазм мелких бронхов и закупорка их вязкой мокротой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поражение альвеолярной ткани (уменьшение растяжимости легких, их дыхательной поверхности)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Укажите чем характеризуется септический тип лихорадки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "постоянной температурой 38-39оС",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колебаниями температура в пределах 1 оС",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колебаниями между утренней и вечерней 2 и более оС",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "колебаниями температуры от 37 до 38 оС",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одной из них",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Назовите наиболее частую причину диффузного цианоза кожи",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый бронхит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический бронхит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмосклероз и легочное сердце",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сердечная недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "брохиальная астма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Назовите причину периферического цианоза (стоп,голеней, кистей рук)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дыхательная недостаточность.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердечная недостаточность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "почечная недостаточность.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печеночная недостаточность.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "недостаточность надпочечников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Назовите причину центрального цианоза (лица, верхней части тела)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дыхательная недостаточность.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сердечная недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почечная недостаточность.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печеночная недостаточность.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одна из них",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "При каких бронхолегочных заболеваниях и поражаениях наблюдаются ослабление на пораженной стороне голосового дрожания и бронхофонии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс, экссудативный плеврит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острая пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обтурационный ателектаз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полость в легком, сообщающаяся с бронхом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмфизема легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "При каких поражениях дыхательной системы наблюдается абсолютно тупой (бедренный) перкуторный звук",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс, экссудативный плеврит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "закрытый пневмоторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмофиброз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обтурационный ателектаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Ниже перечислены основные медиаторы выходящие в кровь при специфической активации тучных клеток, исключите один лишний",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистамин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "норадреналин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "серотонин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепарин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ацетилхолин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "При каких заболеваниях и поражениях бронхолегочной системы наблюдается коробочный перкуторный звук",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "компрессионный ателектаз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закрытый пневмоторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмфизема легких",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полость в легком, сообщающаяся с бронхом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "При каких заболеваниях и поражениях бронхолегочной системы наблюдается амфорическое дыхание",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "компрессионный ателектаз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закрытый пневмоторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмфизема легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полость в легком, сообщающаяся с бронхом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Чем обусловлено появление крепитации",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спазм мелких бронхов и вязкая мокрота в них",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспаление листков плевры (сухой плеврит)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жидкая мокрота в мелких бронхах при сохраненной воздушности окружающей легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жидкая мокрота в мелких бронхах с воспалительным уплотнением окружающей легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие в альвеолах небольшого количества фибринозного экссудата или транссудата (пристеночно)",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Чем обусловлено появление сухих свистящих хрипов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спазм мелких бронхов и вязкая мокрота в них",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вязкая мокрота в крупных бронхах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жидкая мокрота в мелких бронхах при сохраненной воздушности окружающей легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жидкая мокрота в мелких бронхах с воспалительным уплотнением окружающей легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие в альвеолах небольшого количества фибринозного экссудата или транссудата (пристеночно)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Чем обусловлено появление сухих жужжащих (басовых) хрипов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спазм мелких бронхов и вязкая мокрота в них",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вязкая мокрота в крупных бронхах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "жидкая мокрота в мелких бронхах при сохраненной воздушности окружающей легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жидкая мокрота в мелких бронхах с воспалительным уплотнением окружающей легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие в альвеолах небольшого количества фибринозного экссудата или транссудата (пристеночно)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Чем обусловлено появление шума трения плевры",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спазм мелких бронхов и вязкая мокрота в них",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вязкая мокрота в крупных бронхах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жидкая мокрота в мелких бронхах при сохраненной воздушности окружающей легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жидкая мокрота в мелких бронхах с воспалительным уплотнением окружающей легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Какое заболевание имеется у больного справа ниже угла лопатки определяется усиление голосового дрожания и бронхофонии, притупление перкуторного звука, бронхиальное дыхание и шум трения плевры",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "компрессионный ателектаз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крупозная плевропневмония в стадии разгара",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "очаговая пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экссудативный плеврит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экссудативный плеврит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Какое заболевание имеется у больного в правой подлопаточной области определяется усиление голосового дрожания и бронхофонии, умеренное притупление перкуторного звука, бронховезикулярное дыхание и влажные мелкопузырчатые звонкие хрипы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "компрессионный ателектаз Крупозная пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очаговая пневмония (бронхопневмония)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полость в легком, сообщается с бронхом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полость в легком, сообщается с бронхом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Какое заболевание имеется у больного слева от середины лопатки и ниже, а также в левой подмышечной области - тупой (бедренный) перкуторный звук, нижние межреберья сглажены, голосовое дрожание не проводится, дыхание на уровне угла лопатки резко ослаблено, а ниже - не слышно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс (экссудативный плеврит)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "долевое воспалительное уплотнение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полость в легком, сообщается с бронхом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "компрессионный ателектаз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмфизема легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Какое заболевание имеется у больного: высокая температура, сухой кашель, боли в правой половине грудной клетки, ограничение подвижности легких там же",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "долевое воспалительное уплотнение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полость в легком, сообщается с бронхом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "компрессионный ателектаз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из перечисленных",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Можно ли по характеру мокроты провести дифференциацию крупозной пневмонии, очаговой пневмонии, абсцесса легкого и бронхоэктатической болезни.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нет, нельзя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не всегда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "можно",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не знаю",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "едва ли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "При острой пневмонии поражается все перечисленное, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупных бронхов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дыхательных бронхиол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альвеол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интерстиция легких",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плевры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Диагноз пневмонии устанавливается на основании",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клинических симптомов заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "данных физикального исследования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "результатов рентгенологического исследования легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "показателей лабораторных анализов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "всего перечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Возбудителем пневмонии чаще всего является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмококк",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стрептококк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стафилококк",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клебсиелла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Примерно на какой день от начала крупозной пневмонии выявляется crepitatio indux",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на первый-второй",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на третий- пятый",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на шестой-седьмой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на восьмой-десятый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на двенадцатый - тринадцатый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Примерно на какой день от начала крупозной пневмонии выявляется crepitatio redux",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на первый-второй",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на третий- пятый",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на шестой-седьмой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на восьмой-десятый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на двенадцатый - тринадцатый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Что выявляется в легком рентгенологически при крупозной пневмонии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "затемнение доли легкого",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиление легочного рисунка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "просветление ткани легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инфильтраты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Какие общие моменты играют большую роль в развитии острых пневмонии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переохлаждение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "все перечисленное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "курение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "травмы грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "застой в легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Какой тип аллергической реакции имеет наибольшее значение в развитии приступов бронхиальной астмы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первый",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "второй",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "третий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "четвертый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "первый и второй",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "\"Барабанные палочки\" это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "распространенные массивные отеки пальцев кисти",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окрашивание кожи пальцев кисти в желтый с зеленоватым оттенком цвет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "утолщение концевых фаланг пальцев кисти",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "покраснение кожи в области тенара и гипотенара",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни одно из вышеперечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Какие жалобы не характерны для больных с заболеванием лёгких",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кашель",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боль в грудной клетке, связанная с актом дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одышка, приступы удушья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровохарканье",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "частое болезненное мочеиспускание",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Какое утверждение в отношении шума трения плевры неверно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуется при трении изменённых плевральных листков друг о друга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выслушивается одинаково на вдохе и выдохе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не меняется при кашле",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "определяется при пальпации грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выслушивается только на выдохе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Что не служит признаками наличия выпота в плевральной полости",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резкое притупление перкуторного звука",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "влажные звучные хрипы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ослабление голосового дрожания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие дыхательных шумов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Над полостью вскрывшегося абсцесса аускультативно определяется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ослабленное везикулярное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амфорическое дыхание",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "жесткое дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стенотическое дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие дыхательных шумов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Для эмфиземы легких характерен следующий тип дыхания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхиальное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амфорическое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ослабленное везикулярное",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "саккадированное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стенотическое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Для больного с эмфиземой характерен следующий тип грудной клетки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "паралитический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рахитический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бочкообразный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ладьевидный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "астенический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Вовлечение в процесс плевры характеризует появление симптома",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиления везикулярного дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боли в грудной клетке при дыхании",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кровохарканья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "\"ржавой\" мокроты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инспираторной одышки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Для острого бронхита характерно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ослабление бронхофонии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "влажные звонкие хрипы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жесткое дыхание",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бочкообразная грудная клетка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крепитация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Для больных с бронхоэктатической болезнью характерен кашель",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лающий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "усиливающийся вечером",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ночной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "утренний с выделением большого количества мокроты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "с выделением \"ржавой\" мокротой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "У больного с бочкообразной грудной клеткой определяется следующий перкуторный звук",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тимпанический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "притупленный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "притупленно-тимпанический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коробочный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "металлический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "При выслушивании легких больного выявлены отрывистые звуки, появляющиеся на высоте вдоха и напоминающие треск волос при растирании вблизи уха. выявлено наличие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухих хрипов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "влажных незвонких хрипов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "влажных звонких хрипов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шума трения плевры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крепитации",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Для острого бронхита характерен следующий основной дыхательный шум",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жесткое дыхание",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бронхиальное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "везикулярное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амфорическое дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стенотическое дыхание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Транссудат в плевральной полости появляется при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулезе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердечной недостаточности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ревматизме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "раке легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крупозной пневмонии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Для стадии уплотнения крупозной пневмонии характерен следующий перкуторный звук",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тимпанический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ясный легочный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коробочный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тупой",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "притупленно-тимпанический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Окологрудинная линия проходит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по краям грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на средине расстояния между срединно-ключичной и грудинной линиями",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "по середине грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через средину ключицы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по грудинной линии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Горизонтальная линия, проведенная через углы лопаток, соответствует проекции … на грудную клетку.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "VII ребер",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "VI ребер",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "V ребер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "VIII ребер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "IV ребер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Ригидность грудной клетки бывает выраженной при … .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхиальной астме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эмфиземе легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экссудативном плеврите",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бронхите",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Какие свойства соответствуют ясному легочному перкуторному звуку?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "громкий и продолжительный.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тихий и короткий.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "низкий.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высокий.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Притупленный перкуторный звук при синдроме уплотнения легочной ткани может выявляться в случаях",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неполного уплотнения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полного отсутствия воздуха в очаге поражения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очага поражения в пределах дольки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "очага поражения в пределах доли и полного отсутствия воздуха в нем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "При синдроме уплотнения легочной ткани перкуторный звук может не изменяться в случае",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неполного уплотнения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полного отсутствия воздуха в очаге поражения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очага поражения в пределах дольки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "очага поражения в пределах доли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "очага поражения в прикорневой зоне",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Везикулярное дыхание ослабевает",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при бронхопневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при крупозной пневмонии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при бронхоэктатической болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при сухоом плеврите",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при экссудативном плеврите",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Каковы изменения показателей функции внешнего дыхания при приступе бронхиальной астмы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЖЕЛ увеличена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ФЖЕЛ уменьшена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "МВЛ увеличена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пикфлуометрия - пиковая скорость выдоха снижена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "МОД снижен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Назовите наиболее частые причины плеврита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулез",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ревматизм",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стрептококковая инфекция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рак легких",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пситаккоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Выберете признаки, наиболее характерные для центрального цианоза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "акроцианоз.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диффузный цианоз.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "\"теплый\" цианоз.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "\"холодный\" цианоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Выберете признаки, наиболее характерные для периферического цианоза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "акроцианоз.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "диффузный цианоз.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "\"теплый\" цианоз.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "\"холодный\" цианоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "периодический цианоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Назовите наиболее вероятные причины появления симптома \"барабанных палочек\" и \"часовых стекол\"",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронический бронхит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхоэктатическая болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эмфизема легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронический абсцесс легких",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "При каких бронхолегочных заболеваниях и поражениях наблюдается притупление (укорочение) перкуторного звука",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закрытый пневмоторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмофиброз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "обтурационный ателектаз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "При каких заболеваниях и поражениях бронхолегочной системы наблюдается патологическое бронхиальное дыхание",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ателектаз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "закрытый пневмоторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмфизема легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "полость в легком, сообщающаяся с бронхом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "При каких заболеваниях и поражениях бронхолегочной системы наблюдается ослабленное дыхание на стороне поражения",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс (экссудатвный плеврит)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "закрытый пневмоторакс",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пневмофиброз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ателектаз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "При каких заболеваниях и поражениях бронхолегочной системы наблюдается ослабление везикулярного дыхания с обеих сторон",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс (экссудативный плеврит)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закрытый пневмоторакс.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмофиброз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмфизема легких",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Бронхиальная обструкция при бронхиальной астме обусловлена",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхоспазмом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воспалительным отеком слизистой оболочки бронхов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "закрытием просвета бронхов вязким секретом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "спадением мелких бронхов на выдохе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "всем перечисленным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Выберите жалобы и проявления первых дней при крупозной пневмонии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рвота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "головная боль",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выделение слизисто гнойной мокроты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "озноб",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сухой кашель",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Выберите признаки крупозной пневмонии 3-4 дня",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ржавая мокрота",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "herpes nosalis et labialis",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "везикулярное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ясный легочный звук",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шум трения плевры",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Признаки патоморфоза крупозной пневмонии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие озноба",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "частое осложнение абсцессом или эмпиемой плевры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кратковременность лихорадочного периода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "более высокий, чем ранее лейкоцитоз яркая картина долевого поражения легких",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "более высокий, чем ранее лейкоцитоз яркая картина долевого поражения легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Какую часть легкого может захватывать воспалительный процесс при классическом течении крупозной пневмонии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "несколько долек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "несколько долей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "несколько сегментов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "долю легкого",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "легкое целиком",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Какая мокрота наблюдается при крупозной пневмонии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "скудная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "очень вязкая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "очень жидкая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гнойная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фибринозная",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Какие аускультативные явления могут наблюдаться при крупозной пневмонии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухие хрипы, жесткое дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "усиление бронхофонии, крепитация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ослабление бронхофонии, влажные хрипы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ослабление дыхания, шум трения плевры",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "везикулярное дыхание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Какие вы знаете названия крупозной пневмонии (синонимы)",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фибринозная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лобарная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бронхопневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сегментарная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "долевая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Какие вы знаете названия бронхопневмонии (синонимы)",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фибринозная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лобарная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очаговая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сегментарная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "долевая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Выберите основные этиологические факторы атопической формы бронхиальной астмы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "генетические дефекты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бытовые аллергены, лекарства Измененая реактивность бронхов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "иммуные процессы сенсибилизации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "психические факторы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "контакт с больными астмой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Назовите наиболее вероятные причины следующих изменений в грудной клетке: правая половина грудной клетки отстает в акте дыхания, там же отмечается ослабление бронхофонии и голосового дрожания",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидроторакс",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пневмоторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмофиброз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экссудативный плеврит",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Что позволяет выявить осмотр больного с патологией лёгких",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "герпес",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пальцы в виде \"барабанных палочек\", ногти в виде \"часовых стёкол\"",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "\"тёплый\" цианоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "узловатую эритему",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экзофтальм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Что позволяет определить пальпация грудной клетки",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхофонию",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резистентность грудной клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "болезненные места, треск, напоминающий крепитацию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "голосовое дрожание",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "влажные звонкие хрипы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "При каких состояниях возникает ослабление голосового дрожания",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сухом плеврите",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экссудативный плеврит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гидроторакс",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "у тяжёлых, ослабленных больных",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хронический бронхит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Тупой звук возникает при наличии в лёгких",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выпота",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выраженных утолщений плевры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "инфильтрации лёгочной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "увеличения содержания воздуха в лёгких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "При каких заболеваниях лёгких возможно появление кровохарканья",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмония",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бронхоэктатическая болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инфаркт легкого",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экссудативный плеврит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "К основным дыхательным шумам при аускультации лёгких у здорового человека относят",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "шум трения плевры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амфорическос дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "везикулярное дыхание",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бронхиальное дыхание над трахеей, гортанью, крупными бронхами",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "крепитация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Какие аускультативные феномены выступают свидетельством патологического процесса в лёгких",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "жёсткое дыхание",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пуэрильное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бронхиальное дыхание над долей лёгкого",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "везикулярное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "удлинённый выдох",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Сухие хрипы образуются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при разлипании стенок альвеол на высоте вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при набухании слизистой оболочки бронхов и сужении их просвета",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при спазме мелких бронхов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при прохождении воздуха через бронхи с жидким секретом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при прохождении воздуха через бронхи с вязкой мокротой",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Звонкие влажные хрипы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникают в бронхах при наличии в них жидкого экссудата",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выслушиваются при воспалении слизистой оболочки бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выслушиваются при застойных явлениях в малом круге кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выслушиваются при очаговой пневмонии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "изменяют характер или исчезают при покашливании",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Что характерно для крепитации",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "выслушивается в обе фазы дыхательного цикла",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выслушивается только на высоте вдоха",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "возникает в альвеолах при наличии в них небольшого количества экссудата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не изменяется после откашливания",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "усиливается при надавливании стетоскопом на грудную клетку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Назовите патологические формы грудной клетки.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмфизематозная.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперстеническая.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воронкообразная.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "астеническая.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "паралитическая.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Назовите нормальные формы грудной клетки.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмфизематозная.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертоническая.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нормостеническая.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "астеническая.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "атоническая.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Что соответствует астенической форме грудной клетки?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпигастральный угол меньше 90º.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "узкие межреберные промежутки.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грудной индекс меньше 0,65.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ребра в боковых отделах приобретают вертикальное направление.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хорошо выражен угол Людовика.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Что соответствует гиперстенической форме грудной клетки?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпигастральный угол больше 90º.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эпигастральный угол равен 90º.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грудной индекс больше 0,75.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "направление ребер приближается к горизонтальному.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эпигастральный угол меньше 90º.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Что соответствует гиперстенической форме грудной клетки?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпигастральный угол больше 90º.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "широкие межреберные промежутки.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грудной индекс 0,65-0,75.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ребра в боковых отделах приобретают вертикальное направление.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хорошо выражен угол Людовика.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Эмфизематозная грудная клетка",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "напоминает гиперстеническую",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "напоминает нормостеническую",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "межреберные промежутки узкие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "межреберные промежутки широкие",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "возникает у пациентов с эмфиземой легких",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "С помощью динамического осмотра грудной клетки определяют",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Тип дыхания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "расположение ключиц",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "симметричность участия половин грудной клетки в акте дыхания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "состояние диафрагмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "состояние межреберных промежутков",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Уменьшение объема одной из половин грудной клетки может быть обусловлено",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обтурацией центрального бронха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пневмотораксом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хирургическим удалением доли или всего легкого",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гидротораксом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Голосовое дрожание усилено при синдроме",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уплотнения легочной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышения воздушности легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скопления жидкости в полости плевры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образования в легком полости, сообщающейся с бронхом",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "скопления воздуха в полости плевры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Голосовое дрожание ослаблено при синдроме",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уплотнения легочной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышения воздушности легочной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "скопления жидкости в полости плевры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "скопления воздуха в полости плевры",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "воспаления бронхов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Для каких заболеваний характерно усиление голосового дрожания?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "для бронхиальной астмы.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для долевой пневмонии.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для эмфиземы легких.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для абсцесса легких после вскрытия.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "для острого бронхита.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Для каких заболеваний характерно ослабление голосового дрожания?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "для экссудативного плеврита.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для пневмоторакса.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для очаговой пневмонии.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Для абсцесса легких после вскрытия.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для бронхиальной астмы (во время приступа).",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Голосовое дрожание ослаблено при",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмфиземе легких",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пневмосклерозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "центральном раке легких (при полной обтурации бронха)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "экссудативном плеврите",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бронхоэктатической болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Метод перкуссии легких помогает определить.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эластичность грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "характер патологического синдрома",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "границы легких",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "максимальную дыхательную экскурсию нижнего легочного края",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "максимальную дыхательную экскурсию грудной клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Коробочный перкуторный звук может выявляться при .",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "очаговой пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхиальной астме",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "абсцессе легкого после вскрытия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эмфиземе легких",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "крупозной пневмонии в стадии разрешения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Тупой звук при синдроме уплотнения легочной ткани может выявляться в случаях.",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "неполного уплотнения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полного отсутствия воздуха в очаге поражения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "очага поражения в пределах дольки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "очага поражения в пределах доли",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "очага поражения в прикорневой зоне",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "При каких заболеваниях может выявляться тупой перкуторный звук?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при эмфиземе легких.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при бронхитах.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при сухом плеврите.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при экссудативном плеврите.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при крупозной пневмонии во 2 стадию заболевания.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Притупленный перкуторный звук может выявляться при",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмфиземе легких",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экссудативном плеврите",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пневмонии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хроническом бронхите",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бронхиальной астме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "При каких заболеваниях выявляется тимпанический звук?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при эмфиземе легких.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при бронхиальной астме.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при пневмотораксе.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при абсцессе легких во 2 стадию.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при остром бронхите.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Какие изменения в крови и в мокроте могут подтвердить диагноз бронхиальной астмы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в крови эозинофилия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в мокроте - много эозинофилов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в мокроте - мало эозинофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в мокроте - нет кристаллов Шарко-Лейдена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в мокроте - нет спиралей Куршмана",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Экспираторная одышка наиболее часто наблюдается",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сердечной астме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при банальном бронхите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при обструктивном бронхите",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при хронической сердечной недостаточности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при бронхиальной астме",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "При очаговой пневмонии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мокрота серозно гнойная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мокрота вязкая, коричневатая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мокроты много",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возбудитель проникает из бронхов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "возбудитель попадает в легкие через кровь",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

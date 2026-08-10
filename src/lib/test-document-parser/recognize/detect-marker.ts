@@ -1,4 +1,4 @@
-import { resolvePercentageMarker } from './detect-percentage-marker';
+import { percentageTextPrefixes, resolvePercentageMarker } from './detect-percentage-marker';
 import { hasMatchingMarkerPattern, isMatchingCandidate } from './matching';
 import { RawOption, RawQuestion } from './segment';
 
@@ -322,9 +322,7 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 	const percentageResults = questions.map(resolvePercentageMarker);
 	const matchingCandidates = questions.map(isMatchingCandidate);
 	const marked = questions.map(question => question.options.map(() => false));
-	const consumedTextPrefixes: (string | null)[][] = questions.map(question =>
-		question.options.map(() => null)
-	);
+	const consumedTextPrefixes: (string | null)[][] = questions.map(percentageTextPrefixes);
 	const ambiguous: number[] = [];
 	const resolved = questions.map(() => false);
 
@@ -352,7 +350,15 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 			const globalConsumedPrefixes = consumedSymbolPrefixes(globalQuestions, global.symbolPrefix);
 			globalIndices.forEach((questionIndex, localIndex) => {
 				marked[questionIndex] = global.marked[localIndex];
-				consumedTextPrefixes[questionIndex] = globalConsumedPrefixes[localIndex];
+				consumedTextPrefixes[questionIndex] = globalConsumedPrefixes[localIndex].map(
+					(prefix, optionIndex) => {
+						const percentagePrefix = consumedTextPrefixes[questionIndex][optionIndex];
+						if (!prefix) return percentagePrefix;
+						if (!percentagePrefix) return prefix;
+
+						return prefix.length >= percentagePrefix.length ? prefix : percentagePrefix;
+					}
+				);
 				resolved[questionIndex] = true;
 			});
 			ambiguous.push(...global.ambiguous.map(localIndex => globalIndices[localIndex]));

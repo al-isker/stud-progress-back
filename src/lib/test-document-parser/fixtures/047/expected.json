@@ -1,0 +1,4300 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Какой уровень организации молекулы белка лежит в основе формирования специфичности фермента:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "домены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В основе регуляции активности ферментов по принципу обратной связи лежит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллостерический эффект;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "конкурентное ингибирование;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рН;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменение первичной структуры фермента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "В основе аллостерического эффекта лежит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "конформационное изменение;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "разрыв пептидных связей;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "конкурентное ингибирование;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение концентрации субстрата",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Аллостерические эффекторы являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "специфическими ингибиторами или активаторами;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неспецифическими ингибиторами или активаторами;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "конкурентными ингибиторами;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "простетической группой фермента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Конформационные изменения, передающиеся с одной единицы фермента на другую, называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллостерическим эффектом;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "конкурентным ингибированием;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "константой Михаэлиса;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вандервальсовыми взаимодействиями",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Если ингибитор снижает скорость катализа, препятствуя присоединению субстрата к активному центру, то это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неконкурентный ингибитор;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неспецифический;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "конкурентный;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ретроингибирование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Если повышение концентрации субстрата не снижает ингибирование фермента, то речь идет о:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "конкурентном ингибиторе;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неконкурентном;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обратимом;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "необратимом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "При отравлениях синильной кислотой смерть наступает вследствие полного торможения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ДНКазы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сукцинатдегидрогеназы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дыхательных ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гексокиназы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цитохромоксидазы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Какие аминокислоты, входящие в активный центр фермента, меняют заряд при изменении рН среды?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глутамат;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лейцин;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фенилаланин;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизин;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "глицин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Если субстрат имеет положительный заряд, то для формирования фермент-субстратного комплекса необходимо наличие в активном центре аминокислот:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лиз; арг;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гли; сер;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "асп; глу;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фен; тир;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Оксидоредуктазы - это ферменты, участвующие в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидролитическом расщеплении вещества;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окислительно-восстановительных реакциях;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "внутримолекулярном переносе различных атомов, групп атомов, радикалов;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "межмолекулярном переносе различных атомов, групп атомов, радикалов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Для фермента характерны все перечисленные свойства, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "термолабильность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амфотерность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "способность к электрофорезу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "способность к диализу",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "способность к высаливанию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Изоферменты - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферменты, находящиеся в цитоплазме клеток;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "действующие в одинаковых условиях;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "катализирующие одну и ту же реакцию, но отличающиеся по своим физико-химическим свойствам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "продукты распада ферментов;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "белковая часть ферментов, которая называется апоферментом или специфическая часть фермента",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Изоферменты отличаются всем, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "функцией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "строением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аминокислотным составом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чувствительностью к ингибиторам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "электрофоретической подвижностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Проферменты - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "небелковая часть фермента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "белковая часть фермента",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продукт распада фермента",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "конечный продукт реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неактивная форма фермента",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Ретроингибирование - это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "денатурация фермента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "восстановление нативной структуры фермента",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение активности фермента, катализирующего первую реакцию, под действием конечного продукта цепи реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышение активности фермента, вызванное действием гормонов по принципу обратной связи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "регуляция активности ферментов по принципу обратной связи",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "При дефекте гликогенсинтетазы развиваются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мукополисахаридозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Базедова болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезнь Гирке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "агликогенозы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "На активность фермента влияют все перечисленные факторы, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "температура",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "концентрация субстрата",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "концентрация фермента",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ингибиторы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оптическая плотность",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Все перечисленное отличает биокатализ от катализа в неживой природе, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "организованность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поэтапность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "последовательность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сопряженность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "высокое атмосферное давление",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "При галактоземии нарушен метаболизм",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лактозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "галактозы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фруктозы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сахарозы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Малонат -- конкурентный ингибитор сукцинатдегидрогеназы, потому что малоновая кислота похожа на янтарную кислоту и может присоединяться к активному центру СДГ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- + +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "+++",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "- -+",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "++ -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- - -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "При дефекте гликогенфосфорилазы развиваются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мутации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мукополисахаридозы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гликогенозы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "липидозы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Неконкурентный ингибитор должен быть похож на субстрат, потому что неконкурентный ингибитор присоединяется в активном центре",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "- - -",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "+ + -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- + -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Неконкурентный ингибитор должен быть похож на субстрат, потому что неконкурентный ингибитор присоединяется в аллостерическом центре",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ + -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- + -",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "У грудных детей в желудке происходит расщепление:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "жиров, находящихся в эмульгированном состоянии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "липидов молока",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "углеводов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "витамина роста",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "При нарушении какого уровня структурной организации фермента может развиваться молекулярная (генетическая) болезнь:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "домены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Минорными нуклеозидами являются все, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аденозин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аденин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимидин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гуанозин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Какая из перечисленных аминокислот относится к серосодержащим?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аланин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лизин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пролин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Какая из перечисленных аминокислот относится к серосодержащим?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цистеин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тирозин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гистидин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "валин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Какая из перечисленных аминокислот относится к серосодержащим?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "триптофан",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метионин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Какая из перечисленных аминокислот относится к гидроксикислотам?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "треонин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пролин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аспартат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глутамат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аргинин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "?Какая из перечисленных аминокислот при рН=7 имеет отрицательный заряд?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аланин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аргинин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глутамат",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "валин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "?Какая из перечисленных аминокислот при рН=7 имеет положительный заряд?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тирозин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лизин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "серин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глицин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "?Какая из перечисленных аминокислот при рН=7 электронейтральна?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фенилаланин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аргинин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аспартат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глутамат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Все перечисленные вещества, кроме одного дают биуретовую реакцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминокислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пептиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "биурет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полипептиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "К незаменимым аминокислотам относятся все аминокислоты, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фенилаланин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "валин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тирозин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лейцин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "У какой аминокислоты имеется гидроксильная группа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тирозин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "валин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гистидин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пролин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глицин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "У всех перечисленных аминокислот содержится метильная группа, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аланин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "валин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аспартат",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Какие аминокислоты преобладают в белках ядер:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цистеин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аланин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аспартат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Для белков характерны все свойства, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амфотерность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "способность к диализу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "термолабильность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие способности кристализоваться",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оптическая активность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Что образуется при гидролизе простых белков:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глицерин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аминокислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "жирные кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нуклеиновые кислоты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Какие из перечисленных веществ содержат простетическую группу:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нуклеиновые кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "простые белки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "витамины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сложные белки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "холоферменты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Какая аминокислота придает основной характер протаминам и гистонам:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аргинин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тирозин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "валин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Какие белки содержат пигмент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "провитамины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гистоны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проламины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хромопротеины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гликопротеины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какие белки содержат углеводы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протамины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гистона",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проламины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хромопротеины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гликопротеины",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Соотношение каких белков называется белковым коэффициентом крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протамины/гистоны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альбумины/глобулины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глобулины/проламины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проламины/глютелины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альбумины/глютелины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Бетта-глобулины выполняют все функции, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "свертывание крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспорт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "процессы иммунитета",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "транспорт жирных кислот",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Какой белок называется \"главным антителом\" организма:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трансферрин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "церулоплазмин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "протромбин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммуноглобулин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ангиотензин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Какая простетическая группа входит в состав липопротеинов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углевод",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пигмент",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфорная кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жир",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ион металла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Какая простетическая группа входит в состав гликопротеинов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углевод",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пигмент",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфорная кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жир",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ион металла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Какая простетическая группа входит в состав фосфопротеинов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углевод",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пигмент",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфорная кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "жир",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ион металл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Какая простетическая группа входит в состав нуклеопротеинов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углевод",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фосфорная кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пигмент",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ДНК или РНК",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Какая простетическая группа входит в состав хромопротеинов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углевод",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фосфорная кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пигмент",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "жир",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ион металла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Какая простетическая группа входит в состав металлопротеинов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углевод",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пигмент",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфорная кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жир",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ион металла",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "В состав молекулы гемоглобина (Hb) входят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4гема и 1глобин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2гема и 2глобина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2гема и 1глобин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4гема и 2глобина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Белковая часть Hb взрослого человека состоит из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4альфа - и 4бетта - цепей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1альфа - и 1бетта - цепей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2альфа - и 2бетта - цепей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4альфа - цепей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "4бетта - цепей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Чем обусловлены видовые различия Hb:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "медью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глобином",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "железом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "магнием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "В геме есть все перечисленное, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метильные группы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "винильные группы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гидроксильныегруппы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "метиновые группы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "остатки пропионовой кислоты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Как соединяется Fe с азотом протопорфирина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "водородными связями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ионными связами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ковалентными связями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "двумя ковалентными и двумя координационными связями",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "донорно-акцепторными связями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Функция Hb:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гормональная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "защитная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "питательная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "транспортная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пластическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "При какой болезни нарушена структура какой-либо цепи Hb:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемоглобинопатия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "талассемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гликогеноз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "галактоземия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "При какой болезни нарушен синтез какой-либо цепи нормального Hb:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемоглобинопатия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "талассемия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гликогеноз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "галактоземия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Какая аминокислота заменяет глутамат в HbS:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аланин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "валин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лизин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аргинин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Какое производное Hb исследуется в судебно-медицинской практике для идентификации кровяных пятен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "оксиНb",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "карбоксиНb",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "карбНb",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемохромоген",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "метНb",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Какое производное Hb участвует в транспорте углекислого газа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "оксиНb",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "карбНb",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемохромоген",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метНb",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Какое производное Hb участвует в транспорте кислорода:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "оксиНb",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "карбоксиНb",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "карбНb",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемохромоген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метНb",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Какое производное Hb участвует в транспорте угарного газа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "оксиНb",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "карбоксиНb",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемохромоген",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метНb",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Как называется простетическая группа нуклеопротеинов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адениловая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гуаниловая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цитидиловая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уридиловая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нуклеиновая кислота",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "В составе РНК есть все азотистые основания, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аденин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гуанин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "урацил",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цитозин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "В составе ДНК есть все азотистые основания, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аденин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гуанин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "урацил",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "цитозин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Назовите простетическую группу гликопротеинов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нуклеиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гликозамингликаны",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "триацилглицерины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ферропротопорфирин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "флавиннуклеотиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Представителем гликозамингликанов является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиалуроновая кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стеариновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нуклеиновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адениловая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "никотиновая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Представителем какого класса белков является казеиноген молока:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликопротеины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хромопротеины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфопротеины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "липопротеины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "металлопротеины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Валентность железа в Hb",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Валентность железа в метНb:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "При серповидноклеточной анемии в крови можно обнаружить:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "HbA",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "HbF",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "HbU",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "HbS",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "HbM",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "При отравлении угарным газом образуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "оксиНb",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "карбоксиНb",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "метНb",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миоглобин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "В крови плода главным образом присутствует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "HbP",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "HbF",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "HbS",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "HbM",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "HbA",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "HbS по сравнению с HbA:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лучше растворим в воде",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хуже растворим в воде",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "содержит 3-х валентное железо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "содержит 4-х валентное железо",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "содержит альфа-цепи вместо бетта-цепей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Какие аминокислоты входят в состав белков животных и человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа-аминокислоты L-ряда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бета- аминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альфа-аминокислоты D-ряда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гамма-ряда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Какие аминокислоты имеют отрицательный заряженный радикал:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глутамат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тирозин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "серин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Какие аминокислоты имеют положительно заряженный радикал:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глутамат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тирозин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "серин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Какие из перечисленных аминокислот образуют в белках дисульфидные связи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "валин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серин лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистеин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Какие из перечисленных аминокислот относятся к незаменимым и серусодержащим?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метионин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "цистин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цистеин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Какие из перечисленных аминокислот образуют в белках эфирные связи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цистеин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Какие из перечисленных веществ преимущественно входят в состав белков человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все аминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альфа-аминокислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "оксиаминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аминокислоты с неполярными радикалами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полипептиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Какие из перечисленных веществ могут соединяться между собой гидрофобными связями",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа аминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полипептиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "все аминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оксиаминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аминокислоты с неполярными радикалами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "К вторичной структуре белков относятся",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа спираль",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бетта конформация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спираль коллагена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бетта структура",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Какие из перечисленных аминокислот являются серосодержащими и заменимыми",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тирозин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аланин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цистеин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Какие из перечисленных аминокислот являются оксиаминокислотами",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тирозин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аланин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пролин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Какие из перечисленных аминокислот являются диаминомонокарбоновыми",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тирозин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аланин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пролин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Какие из перечисленных аминокислот являются серосодержащими",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "серин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цистеин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гистидин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метионин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Какие из перечисленных аминокислот являются оксиаминокислотами",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тирозин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "серин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цистеин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гистидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Какие из перечисленных аминокислот являются циклическими",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тирозин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гистидин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цистеин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "валин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Какие из перечисленных аминокислот имеют гидроксильную группу",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "триптофан",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "треонин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "серин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Какие из перечисленных аминокислот являются оксиаминокислотами",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "треонин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Какие из перечисленных аминокислот являются циклическими",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "триптофан",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Какие из перечисленных аминокислот являются серосодержащими",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "цистин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аргинин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "валин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цистеин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Какие из перечисленных аминокислот являются диаминомонокарбоновыми",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глутамат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аргинин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "валин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цистеин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Какие из перечисленных аминокислот являются моноаминодикарбоновыми",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глутамат",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аргинин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "валин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цистеин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аспарагиновая кислота",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Незаменимые аминокислоты должны поступать с пищей, потому что незаменимые аминокислоты не синтезируются в организме человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "+ + -",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- + -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Незаменимые аминокислоты должны поступать с пищей, потому что в белках одну аминокислоту нельзя заменить другой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- + +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+ + -",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Заменимыми аминокислотами называются те аминокислоты, которые не обязательно должны содержаться в пище, потому что заменимые аминокислоты синтезируются в организме человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "+ - +",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Основой белковой молекулы является связь:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пептидная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гидрофобная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ионная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "водородная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "К незаменимым факторам питания относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "витамины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "незаменимые аминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "витамин F",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "минеральные вещества",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Ферментами, гидролизующими белки в желудке, являются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "трипсин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пепсин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ренин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "химотрипсин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Ферментами, гидролизующими белки в кишечнике, являются все, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "химотрипсин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дипептидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трипсин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "карбоксипептидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ренин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "НЭЖК - неэстерифицированные жирные кислоты - это комплекс жирных кислот",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с альбумином",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с глобулином",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с глюкозой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с транспортными липидами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "с глицерином",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Какая аминокислота придает основной характер протаминам и гистонам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аланин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аспартат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цистеин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Какие из перечисленных аминокислот чаще встречаются в протаминах и гистонах",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аргинин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аланин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Назовите Hb новорожденного",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Hb A1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Hb A2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Hb F",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Hb S",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Валентность железа в окси-Hb",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Потребность в белках в сутки составляет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "130-150 г",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "180-200 г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "100-120 г",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "150-170 г",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "80-90 г",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "При серповидноклеточной анемии могут образоваться тромбы в капилярах, потому что деформированные эритроциты (серовидные) могут цепляться друг за друга",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- + -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "HbS хуже растворим в воде, потому что в нем глутамат замещен валином",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+ + +",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "При образовании оксиHb валентность железа не меняется, потому что кислород присоединяется к железу координационной связью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+ + +",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Присоединение кислорода к Hb не является окислением, потому что в оксиHb валентность железа не меняется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- - +",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "К одной молекуле Hb может присоединиться:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1 атом кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1 молекула кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2 молекулы кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3 молекулы кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "4 молекулы кислорода",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Водородных связей образуется в белках много, потому что водородные связи самые слабые",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + -",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- - +",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Гидрофобные группы находятся в глубине глобулы, потому что в водной среде полярные участки взаимодействуют с водой, выталкивая гидрофобные группы в глубь глобулы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- - +",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Гидрофобные группы находятся в глубине глобулы, потому что глобулярные белки имеют форму шара",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "+ + -",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "В образовании 2-3-4 структуры белков не участвуют пептидные связи, потому что все пептидные связи реализуют в первичной структуре белка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+++",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "В образовании 2-3-4 структуре белков не участвуют пептидные связи, потому что аминокислоты соединяются пептидными связями друг с другом образуя пептидную цепь",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+ - +",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "В образовании 2-3-4 структуры белков не участвуют пептидные связи, потому что полипептидная цепь не ветвится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ + -",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- - -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "В образовании 2-3-4 структуры белков не участвуют пептидные связи, потому что пептидная связь является прочной, ковалентной",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + -",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "-++",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Белки гидрофильны, потому что в белках есть полярные группы, содержащие электроотрицательные атомы (азот, кислород, сера, фосфор)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- - +",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "?Белки гидрофильны, потому что белки - высокомолекулярные вещества",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "- + +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "++ -",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "?Белки гидрофильны, потому что белки образуют коллоидные растворы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "- + +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "+ - -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Белки гидрофильны, потому что белки с углеводами образуют гликопротеины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- + +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "+ + -",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "- - -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Белки неспособны к диализу, потому что белки обладают высокой молекулярной массой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+ - +",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Белки неспособны к диализу, потому что белки гидрофильны",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "+ + -",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "- + +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- + -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Белки неспособны к диализу, потому что белки образуют коллоидные растворы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + -",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- + +",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- + -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Белки можно разделить на фракции методом электрофореза, потому что молекула белка может иметь заряд",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+ + +",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Белки можно разделить на фракции методом электрофореза, потому что в белках много водородных связей",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "- + +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+ + -",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Белки можно разделить на фракции методом электрофореза, потому что в белках много гидрофобных связей",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "- + +",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ + -",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "- - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- + -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Липопротеиды различаются по количеству в их составе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аминокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "липопротеинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Белки гидрофильны, потому что белки могут соединяться с водой водородными связями с образованием гидратной оболочки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ + -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+ - +",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 125,
+				"text": "В образовании 2-3-4 структуры белков не участвуют пептидные связи, потому что белки построены только из альфа-аминокислот {",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 135,
+				"text": "Белки можно разделить на фракции методом электрофореза, потому что белки специфичны",
+				"reason": "NO_ANSWER_MARKER"
+			}
+		]
+	}
+}

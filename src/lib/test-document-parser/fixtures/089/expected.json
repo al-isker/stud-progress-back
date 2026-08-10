@@ -1,0 +1,5418 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "РАЗМЕРЫ ВИРУСОВ ОПРЕДЕЛЯЮТСЯ СЛЕДУЮЩИМИ СПОСОБАМИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "электронной микроскопией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "радиальной иммунодиффузией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "люминесцентным микроскопом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "световым микроскопом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "осаждением трихлоруксусной кислотой (ТХУ)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "НАИБОЛЕЕ КРУПНЫМ ВИРУСОМ ЯВЛЯЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирус натуральной оспы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вирус ящура",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирус гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирус кори",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "В СОСТАВ ВИРИОНА ВХОДИТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитоплазма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "капсид",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "липосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клеточная стенка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "МЕТОДЫ ЛАБОРАТОРНОЙ ДИАГНОСТИКИ ВИРУСНЫХ ИНФЕКЦИЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серологический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аллергический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактериологический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "паразитологический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "биохимический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "ДЛЯ ВИРУСОВ ХАРАКТЕРНО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие только одной нуклеиновой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "относительный паразитизм",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рост на искусственных питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "размножение путем поперечного деления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие РНК и ДНК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бешенства",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "паротита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ВИЧ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "ДЛЯ КУЛЬТИВИРОВАНИЯ ВИРУСА ПРИМЕНЯЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "культура перевиваемых клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "среда Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "среда Вильсона - Блера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "среда Китта - Тароцци",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среды Гисса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "МЕТОДЫ ИНДИКАЦИИ ВИРУСОВ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитопатогенное действие (ЦП5)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метод Вейнберга - Перетца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метод Цейслера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакция Вассермана (RW)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проба Манту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "СПОСОБЫ РАЗМНОЖЕНИЯ ВИРУСОВ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дисъюнктивная репродукция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "митоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почкование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спорообразование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "ТИП СИММЕТРИИ ВИРУСНОГО НУКЛЕОКАПСИДА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кубический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "шаровидный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кокковидный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "палочковидный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "веретенообразный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "ВИРУСЫ ХАРАКТЕРИЗУЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одним типом нуклеиновой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "абсолютным внутриклеточным паразитизмом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствием рибосом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дисъюнктивной репродукцией",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "верно все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "ВНУТРИЦИТОПЛАЗМАТИЧЕСКИЕ ВКЛЮЧЕНИЯ ОБРАЗУЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирус натуральной оспы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вирус полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ВИЧ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусы коксаки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "ПРИ ВИРУСНОЙ ИНФЕКЦИИ ЭЛЕМЕНТАРНЫЕ ТЕЛЬЦА ВНУТРИ КЛЕТКИ ПРЕДСТАВЛЮТ СОБОЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "собственно вирусные частицы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "включения жира",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гранулы волютина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фрагменты хромосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "РНК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "ВИРУСНОГЕНЕТИЧЕСКАЯ КОНЦЕПЦИЯ ОНКОГЕНЕЗА РАЗРАБОТАНА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Зильбером",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Ивановским",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Видалем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "БАКТЕРИОФАГ - ЭТО ВИРУС, ПОРАЖАЮЩИЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "животных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "насекомых",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "птиц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "человека",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "СПЕЦИФИЧЕСКАЯ ПРОФИЛАКТИКА БЕШЕНСТВА ПРОВОДИТСЯ ВАКЦИНОЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Солка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сэбина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "БЦЖ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антирабической",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Коха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "ВИРУСЫ ЦИТОМЕГАЛИИ ОТНОСЯТСЯ К СЕМЕЙСТВУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рабдовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пикорнавирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "герпесвирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аденовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ареновирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "ВИРУС БЕШЕНСТВА ИЗБИРАТЕЛЬНО ПОРАЖАЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серое вещество передних рогов спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клетки Пуркинье мозжечка и амоннова рога",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кожу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "органы дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спинной мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "АНТИРАБИЧЕСКАЯ ВАКЦИНА ВПЕРВЫЕ ПОЛУЧЕНА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Солком",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сэбином",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мечниковым",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пастером",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "ТЕЛЬЦА ГВАРНИЕРИ, КАК ВНУТРИКЛЕТОЧНЫЕ ВКЛЮЧЕНИЯ, ХАРАКТЕРНЫ ДЛЯ ВИРУСА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кори",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бешенства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "натуральной оспы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ветряной оспы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "ВИРУСЫ СПОСОБНЫ РАЗМНОЖАТЬСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на МПА",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на среде Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на среде Левенштейна-Йенсена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на яичных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в курином эмбрионе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "К ВИРУСНЫМ ИНФЕКЦИЯМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "холера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "корь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "брюшной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сыпной тиф",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "АРБОВИРУСНЫЕ ИНФЕКЦИИ ВЫЗЫВАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рабдовирусами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тогавирусами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пикорнавирусами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аденовирусами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поксвирусами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "ЗАРАЖЕНИЕ АРБОВИРУСАМИ ПРОИСХОДИТ СЛЕДУЮЩИМ ПУТЕМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "контаминационным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трансмиссивным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "алиментарным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трансплацентарным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воздушно-капельным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "ВИРУСНЫЙ ГЕПАТИТ А ОТНОСИТСЯ К ЗАБОЛЕВАНИЯМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антропонозным",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "зоонозным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антропозоонозным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "конвенционным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "ВИРУСЫ ВПЕРВЫЕ ОТКРЫТЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ивановским",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Мечниковым",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эрлихом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "ВОЗДУШНО-КАПЕЛЬНЫМ ПУТЕМ НЕ ПЕРЕДАЮТСЯ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гепатита В",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кори",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ветряной оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпидемического паротита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "ВНЕКЛЕТОЧНАЯ ФОРМА ВИРУСА НАЗЫВАЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирион",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бактериофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "профаг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "колицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "ВИРУСЫ ИМЕЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитоплазму",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нуклеиновую кислоту",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клеточную стенку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ЦПМ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "ВИРУСЫ, СОДЕРЖАЩИЕ ДНК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "герпесвирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пикорнавирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретровирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коронавирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "арбовирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "РАЗМЕРЫ ВИРУСОВ ИЗМЕРЯЮТСЯ В:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "капсомерах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нанометрах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "миллиметрах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дециметрах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сантиметрах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "ВИРУС ГРИППА СОДЕРЖИТ ФЕРМЕНТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коллагеназу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейраминидазу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гиалуронидазу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плазмокоагулазу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "каталазу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "ВИРИОН СЛОЖНОУСТРОЕННЫХ ВИРУСОВ СОСТОИТ ИЗ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нуклеиновой кислоты, суперкапсида",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аппарата Гольджи, нуклеоида",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зерен валютина, гликопротеида",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "митохондрий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ядра, капсулы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "ВИРУС НАТУРАЛЬНОЙ ОСПЫ ОТНОСИТСЯ К ВИРУСАМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейротропным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дермотропным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пневмотропным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтеротропным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммунотропным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "В СТРУКТУРЕ ВИРУСОВ ИМЕЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нуклеиновая кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "зерна волютина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зерна Муха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "споры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "ВИРУСЫ РАЗМНОЖАЮТСЯ ПУТЕМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поперечного деления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дисъюнктивной репродукции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "спорообразования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бинарного деления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "почкованием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "ВИРУСЫ МОГУТ РАЗМНОЖАТЬСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на искусственных питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в курином эмбрионе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на среде Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на среде Китта - Тароцци",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на среде Левина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "ПУТЬ ПЕРЕДАЧИ ГЕПАТИТА А:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "половой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "парентеральный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "ВНУТРИКЛЕТОЧНЫЕ ТЕЛЬЦА БАБЕША - НЕГРИ ХАРАКТЕРНЫ ДЛЯ ВИРУСА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бешенства",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "натуральной оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кори",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "СПИДа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "ОСНОВНОЙ ПУТЬ ПЕРЕДАЧИ АДЕНОВИРУСНОЙ ИНФЕКЦИИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "водный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "половой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воздушно-капельный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "К ГЕРПЕСВИРУСАМ ОТНОСЯТСЯ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитомегалии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "парагриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бешенства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "ВИРУСЫ СОСТАВЛЯЮТ ЦАРСТВО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эукариотов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прокариотов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вира",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мицетов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "простейших",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "ВИРИОН ПРЕДСТАВЛЯЕТ СОБОЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внеклеточную форму вируса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутриклеточную форму вируса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "профаг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изолированную клетку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клетку в стадии деления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "К ГЕРПЕСВИРУСАМ ОТНОСЯТСЯ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парагриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпидемического паротита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ветряной оспы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вирус гепатита В",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "СВОЙСТВА, ХАРАКТЕРНЫЕ ДЛЯ ВИРУСОВ ГЕРПЕСА:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "способность размножаться на простых питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие ДНК",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "длительная персистенция в организме",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "быстрое выведение из организма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "ОБРАТНАЯ ТРАНСКРИПЦИЯ ИНФОРМАЦИИ С РНК НА ДНК ХАРАКТЕРНА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пикорнавирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретровирусам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рабдовирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миксовирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ареновирусам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "ОБРАТНУЮ ТРАНСКРИПТАЗУ (РЕВЕРТАЗУ) ОБРАЗУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рабдовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретровирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "миксовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тогавирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поксвирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "ВИРОГЕНИЯ – ЭТО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "объединение вирусной нуклеиновой кислоты с хромосомой клетки хозяина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "объединение вирусной нуклеиновой кислоты с цитоплазмой клетки хозяина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "объединение вируса с ядром клетки хозяина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "объединение с жгутиками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "объединение с зернами волютина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "ПРОВИРУС - ЭТО ВИРУС:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интегрированный с клеточным геномом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "интегрированный в цитоплазму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интегрированный в капсулу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интегрированный в ядро",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интегрированный в клеточную стенку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "ДЛЯ ВИРУСОВ ХАРАКТЕРНО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие собственных энергообразующих систем",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие рибосом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клеточное строение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дисъюнктивная репродукция",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рост на искусственных питательных средах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "ДНК - СОДЕРЖАЩИЕ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поксвирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пикорнавирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретровирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ареновирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рабдовирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "ВИРУС ГРИППА ПРИНАДЛЕЖИТ К СЕМЕЙСТВУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "парамиксовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ортомиксовирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пикорнавирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аденовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рабдовирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "«БЕШЕНСТВО» В ЛАТИНСКОЙ ТЕРМИНОЛОГИИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Variola",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Rabies",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Anthrax",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Pestis",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Pertussis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "К АРБОВИРУСАМ ОТНОСЯТСЯ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус клещевого энцефалита",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вирус желтой лихорадки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вирус иммунодефицита человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ротавирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирус гриппа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "РЕЗЕРВУАР РАБДОВИРУСОВ В ПРИРОДЕ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "собаки, волки, шакалы, лисы, кошки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клещи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комары",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "человек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "птицы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "РАБДОВИРУС В ОРГАНИЗМ ЧЕЛОВЕКА ПОПАДАЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с фекалиями больных животных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с кровью больных животных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "со слюной больных животных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с водой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через укусы комаров",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "ДЛЯ СПЕЦИФИЧЕСКОЙ ПРОФИЛАКТИКИ БЕШЕНСТВА ПРИМЕНЯЕТСЯ ВАКЦИНА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "БЦЖ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "СТИ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вакцина антирабическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вакцина Солка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вакцина Сэбина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "ОСНОВНЫЕ ПУТИ ПЕРЕДАЧИ ВИЧ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "половой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "контактно - бытовой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вертикальный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "алиментарный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "КЛЕТОЧНЫЕ ПОПУЛЯЦИИ НАИБОЛЕЕ ЧУВСТВИТЕЛЬНЫЕ К ИНФИЦИРОВАНИЮ ВИЧ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "СД-4 лимфоциты (хелперы)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эндотелиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепатоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпителиальные клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "ИСТОЧНИКОМ И РЕЗЕРВУАРОМ ВИРУСА ПРОСТОГО ГЕРПЕСА ЯВЛЯЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "животные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пищевые продукты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирусоносители",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "птицы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грызуны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "ДЛЯ КУЛЬТИВИРОВАНИЯ ВИРУСОВ ИСПОЛЬЗУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "среды Эндо, Левина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "МПА, МПБ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "развивающийся куриный эмбрион",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "щелочные среды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среда Вильсон - Блера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "К ПЕРЕВИВАЕМЫМ КУЛЬТУРАМ ТКАНЕЙ ОПУХОЛЕВЫХ КЛЕТОК ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "HeIa",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Левина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "БЦЖ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "СТИ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "ДЛЯ СЕРОДИАГНОСТИКИ ВИЧ-ИНФЕКЦИИ ИСПОЛЬЗУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютинации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммуноферментный метод (ИФМ)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "преципитации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "РСК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "РТГА",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "ВИРИОН ХАРАКТЕРИЗУЕТСЯ НАЛИЧИЕМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нуклеокапсида",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хроматиновой субстанции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "митохондрий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жгутиков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутриклеточных включений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "ВИРИОН ПРЕДСТАВЛЯЕТ СОБОЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обособленную клетку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "скопление вирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "чистую культуру вирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отдельную вирусную частицу",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "внутриклеточные включения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "ИЗ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миколевой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нуклеиновой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полисахаридов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "липидов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "ВНУТРИКЛЕТОЧНЫЕ ВКЛЮЧЕНИЯ ИМЕЮТ ДИАГНОСТИЧЕСКОЕ ЗНАЧЕНИЕ ПРИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сыпном тифе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бешенстве",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сапе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гриппе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клещевом энцефалите",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "ВИРУСЫ РАЗМНОЖАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "делением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сегментированием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "репродукцией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "конъюгацией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "с помощью митоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "ПРИСУТСТВИЕ ВИРУСОВ В КУЛЬТУРЕ ТКАНИ ВЫЯВЛЯЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по цитопатогенному действию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "реакцией Борде - Жангу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакцией Асколи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакцией Шика",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "феноменом Исаева - Пфейффера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "ПИТАТЕЛЬНЫЕ СРЕДЫ ДЛЯ КУЛЬТУР КЛЕТОК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "среда 199",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "среда Леффлера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "среда Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желчный бульон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среда Сотона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "ВОЗДУШНО-КАПЕЛЬНЫМ ПУТЕМ ПЕРЕДАЮТСЯ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус гепатита В",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ВИЧ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирус кори",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вирус клещевого энцефалита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирус бешенства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "ДЛЯ ИНТЕРФЕРОНА ХАРАКТЕРНЫ СЛЕДУЮЩИЕ ПРИЗНАКИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтезируется эритроцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "блокирует синтез вирусной нуклеиновой кислоты в клетке",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "токсичен для клеток макроорганизма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "имеет узкий спектр антивирусного действия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продуцируется антителами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "ПРОЧНЫЙ (ПОЖИЗНЕННЫЙ) ПРОТИВОВИРУСНЫЙ ИММУНИТЕТ: ОСТАЕТСЯ ПОСЛЕ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кори",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "парагриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аденовирусных инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цитомегалии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "К РНК СОДЕРЖАЩИМ ВИРУСАМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поксвирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пикорнавирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "паповавирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "парвовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "герпесвирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "В СЕМЕЙСТВО ОРТОМИКСОВИРУСОВ ВХОДЯТ ВОЗБУДИТЕЛИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гриппа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ВИЧ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "натуральной оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бешенства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "МИКСОВИРУСЫ ХАРАКТЕРИЗУЮТСЯ СЛЕДУЮЩИМИ ПРИЗНАКАМИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поражают кожу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образуют внутриклеточные включения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обладают тропизмом к мукоидным тканям",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "содержат ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верно все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "ПРИЗНАК, ХАРАКТЕРНЫЙ ДЛЯ ВИРУСА ГРИППА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "размножается поперечным делением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "содержит митохондрии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "характеризуется изменчивостью антигенной структуры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "относится к пикорнавирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "культивируется на искусственных питательных средах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "ВИРУС БЕШЕНСТВА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "относится к дермотропным вирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поражает иммунную систему",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержит ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "содержит РНК",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "относится к группе пикорнавирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "УЛИЧНЫЙ ВИРУС БЕШЕНСТВА ХАРАКТЕРИЗУЕТСЯ СЛЕДУЮЩИМИ ПРИЗНАКАМИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "циркулирует в природе в организме диких животных",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не образует в клетках ЦНС тельца-включения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "патогенен только для кроликов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "неверно все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верно все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "ВИРУС ПОЛИОМИЕЛИТА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "относится к пикорнавирусам",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "относится к реовирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержит ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладает иммунотропным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "чувствителен к эфиру",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "ДНК - СОДЕРЖАЩИЕ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "арбовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миксовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пикорнавирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поксвирусы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "К ПИКОРНАВИРУСАМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус полиомиелита",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "арбовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ВИЧ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирус гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепаднавирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "«ФИКСИРОВАННЫЙ» ВИРУС БЕШЕНСТВА ИСПОЛЬЗУЮТ ДЛЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "приготовления вакцины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "диагностики бешенства",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "постановки серологических реакций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лечения бешенства",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "постановки аллергических проб",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "ВИРУС БЕШЕНСТВА В ОРГАНИЗМЕ КОНЦЕНТРИРУЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в клетках центральной нервной системы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в иммунокомпетентных клетках",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в паренхиматозных органах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "К СЕМЕЙСТВУ ГЕРПЕСВИРУСОВ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рабдовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поксвирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пикорновирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитомегаловирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аденовирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "ДЛЯ ЛЕЧЕНИЯ ВИРУСНЫХ ИНФЕКЦИЙ ИСПОЛЬЗУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антитоксическую сыворотку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интерферон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бактериофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "колибактерин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "ВИРУС ВЕТРЯНОЙ ОСПЫ ОТНОСИТСЯ К СЕМЕЙСТВУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "арбовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рабдовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пикорновирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "герпесвирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гепадновирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "ВИРУС ИММУНОДЕФИЦИТА ЧЕЛОВЕКА (ВИЧ) ОТНОСИТСЯ К СЕМЕЙСТВУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тогавирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парвовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миксовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аренавирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ретровирусов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "ВИРУС, ИНТЕГРИРОВАННЫЙ В КЛЕТОЧНЫЙ ГЕНОМ, НАЗЫВАЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рабдовирус",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пикорновирус",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "провирус",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аденовирус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "реовирус",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "ИНТЕГРАЦИЯ ВИРУСНОЙ НУКЛЕИНОВОЙ КИСЛОТЫ В ХРОМОСОМУ КЛЕТКИ ХОЗЯИНА НАЗЫВАЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериемией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирусемией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирогенией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "токсинемией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "септикопиемией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "ВИРУСЫ, КОТОРЫЕ МОГУТ ВЫЗЫВАТЬ РАЗВИТИЕ ОПУХОЛЕЙ У ЧЕЛОВЕКА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирус полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирус геморрагической лихорадки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирус папилломы человека",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вирус бешенства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "БАКТЕРИАЛЬНЫЕ КЛЕТКИ, СОДЕРЖАЩИЕ ПРОФАГ, НАЗЫВАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизогенными",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дефектными",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колициногенными",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фаголизабельными",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полирезистентными",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "ВИРУС ГЕПАТИТА В ОТНОСИТСЯ К СЕМЕЙСТВУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пикорнавирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рабдовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепаднавирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аденовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ортомиксовирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "АНТИТЕЛА ОПРЕДЕЛЯЕМЫЕ ПРИ РЕТРОСПЕКТИВНОЙ ДИАГНОСТИКЕ ПОЛИОМИЕЛИТА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютинины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "преципитины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вируснейтрализующие антитела",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антитоксины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "ДЛЯ ДИАГНОСТИКИ ИНФЕКЦИЙ, ВЫЗВАННЫХ ВИРУСАМИ КОКСАКИ ИСПОЛЬЗУЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергический метод",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "заражение чувствительных животных",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обнаружение вирусных антигенов в сыворотке крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакцию преципитации в геле",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "реакцию агглютинации Райта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "ДЛЯ АКТИВНОЙ СПЕЦИФИЧЕСКОЙ ПРОФИЛАКТИКИ КОРИ ПРИМЕНЯЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инактивированную вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "живую вакцину",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "химическую вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антитоксическую сыворотку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антибиотики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "К ОНКОГЕННЫМ ОТНОСЯТСЯ ВИРУСЫ СЕМЕЙСТВ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ортомиксовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рабдовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "парамиксовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "герпесвирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гепаднавирусов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "АФТОВИРУСЫ ОТНОСЯТСЯ К СЕМЕЙСТВУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретровирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пикорнавирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аденовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коронавирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "ДИФФЕРЕНЦИАЦИЯ СЕРОТИПОВ ВИРУСА ПОЛИОМИЕЛИТА ПРОИЗВОДИТСЯ В РЕАКЦИИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биологической нейтрализации вируса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "преципитации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "агглютинации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериолиза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейтрализации токсина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "ВИРУС КЛЕЩЕВОГО ЭНЦЕФАЛИТА ОТНОСИТСЯ К:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пикорнавирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рабдовирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретровирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тогавирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "флавивирусам",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "ДЛЯ РЕПРОДУКЦИИ ДЕФЕКТНОГО ВИРУСА ГЕПАТИТА D НЕОБХОДИМО УЧАСТИЕ ВИРУСА-ПОМОЩНИКА. ЕГО РОЛЬ ВЫПОЛНЯЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус гепатита А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирус гепатита В",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вирус гепатита С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирус гепатита Е",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирус гепатита F",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "ВИРУСЫ КОКСАКИ ОТНОСЯТСЯ К СЕМЕЙСТВУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рабдовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лентивирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "герпесвирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пикорнавирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "коронавирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "ЭНТЕРОВИРУСНЫХ ИНФЕКЦИЙ ЯВЛЯЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие антител в сыворотке крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обнаружение вирусов в носоглотке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обнаружение вирусов в моче",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обнаружение вирусов в смывах носоглотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарастание титра антител в парных сыворотках в 4 раза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "К ЭНТЕРОВИРУСАМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус Коксаки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аденовирус",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирус герпеса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирус гепатита В",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирус бешенства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "ВИРУС ИММУНОДЕФИЦИТА ЧЕЛОВЕКА БЫЛ ОТКРЫТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Л. Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Р. Галло, Л. Монтанье",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Р. Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кальметом и Гереном",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Д. Ивановским",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "НАЗОВИТЕ МАРКЕРЫ СУПЕРКАПСИДНОЙ ОБОЛОЧКИ ВИЧ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "р7",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "р9",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "gp 120",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "р 18",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "gp 24",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "ВИРУС ВЕЗИКУЛЯРНОГО СТОМАТИТА ОТНОСИТСЯ К СЕМЕЙСТВУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рабдовирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ортомиксовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "парамиксовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аденовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "флавивирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "К ВОЗБУДИТЕЛЯМ ЭНТЕРАЛЬНЫХ ГЕПАТИТОВ ОТНОСЯТСЯ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус гепатита В",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирус гепатита D",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирус гепатита С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирус гепатита А",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вирус гепатита Е",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "ВИРУС ЭПШТЕЙН-БАРР ПЕРЕДАЕТСЯ ПУТЕМ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "половым",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздушно-капельным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "через слюну",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вертикальным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "ГЕНИТАЛЬНЫЕ ПОРАЖЕНИЯ ЧАЩЕ ВЫЗЫВАЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ВПГ-1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ВПГ-2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ЦМВ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Вирус Эпштейн-Барр",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ВГЧ-6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "ВИРУС ЭПШТЕЙН-БАРР ВЫЗЫВАЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционный мононуклеоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфому Беркитта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "назофарингеальную карциному",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "неверно все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "ДЛЯ СПЕЦИФИЧЕСКОЙ ПРОФИЛАКТИКИ ЦМВ-ИНФЕКЦИИ ИСПОЛЬЗУЕТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вакцина Солка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "убитая вакцина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "живая вакцина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вакцина Сэбина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не разработана",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "К АЛЬФА-ГЕРПЕСВИРУСАМ ОТНОСИТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЦМВ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ВПГ-1",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Вирус Эпштейн-Барр",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ВГЧ-6",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ВГЧ-7",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "ВИРУС ОПОЯСЫВАЮЩЕГО ЛИШАЯ VARICELLA-ZOSTERVIRUS ВЫЗЫВАЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "натуральную оспу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ветряную оспу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желтую лихорадку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цетомегамию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полиомиелит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "ВИРУС ВЕТРЯНОЙ ОСПЫ ОТНОСИТСЯ К:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирусам герпеса человека 1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирусам герпеса человека 2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирусам герпеса человека 3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поксвирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "реовирусам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "ВИРУС ЭПШТЕЙН-БАРР ВЫЗЫВАЕТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "саркому Капоши",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цитомегалию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опоясывающий лищай",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфому Беркитта",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эпидемический паротит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "ДЛЯ АДЕНОВИРУСОВ ХАРАКТЕРНО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержание РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "размножение бинарным делением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спиральный тип симметрии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клеточное строение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "содержание ДНК",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "К ВОЗБУДИТЕЛЯМ ВИРУСНЫХ ГЕПАТИТОВ С ЭНТЕРАЛЬНЫМ МЕХАНИЗМОМ ПЕРЕДАЧИ ОТНОСЯТСЯ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "HAV",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "HBV",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "HCV",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "HDV",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "HEV",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "ДЖЕННЕР ВПЕРВЫЕ ПРОВЕЛ ЭФФЕКТИВНУЮ ИСКУССТВЕННУЮ ПРИВИВКУ (ВАКЦИНАЦИЮ) ПРОТИВ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кори",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "натуральной оспы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "ЧАСТИЦАМИ ДЕЙНА НАЗЫВАЮТ ВИРИОН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вируса гепатита А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вируса гепатита В",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вируса кори",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вируса паротита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вируса везикулярного стоматита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "АВСТРАЛИЙСКИМ НАЗЫВАЮТ СЛЕДУЮЩИЙ АНТИГЕН ВИРУСА ГЕПАТИТА В:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "HBS",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "НВс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "НВе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "НВх",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ни один из перечисленных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "ВИРУС ГЕПАТИТА А ПРИНАДЛЕЖИТ К:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поксвирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рабдовирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тогавирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепаднавирусам",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пикорнавирусам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "ВОЗБУДИТЕЛЬ БОЛЕЗНИ БОТКИНА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус Коксаки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирус гепатита А",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аденовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирус ЕСНО",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирус кори",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "ДЛЯ ПАССИВНОЙ ИММУНОПРОФИЛАКТИКИ ГЕПАТИТА А: ИСПОЛЬЗУЮТ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вакцину СТИ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцина Солка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вакцина Сэбина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммуноглобулин, полученный из смеси донорских сывороток",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "ВИРУС ГРИППА ТИПА В ОТНОСИТСЯ К СЕМЕЙСТВУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "парамиксовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аденовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ортомиксовирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "парвовирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "герпесвирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "HERPES ZOSTER – ВОЗБУДИТЕЛЬ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ветряной оспы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "натуральной оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпидемиологического паротита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кори",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "ДЛЯ СПЕЦИФИЧЕСКОЙ ПРОФИЛАКТИКИ ГРИППА ПРИМЕНЯЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "живую вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инактивированную вирионную вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инактивированную субъединичную вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "специфическая профилактика не разработана",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "К ВОЗБУДИТЕЛЯМ ЭНТЕРАЛЬНЫХ ВИРУСНЫХ ГЕПАТИТОВ ОТНОСЯТСЯ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "HBV",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "HCV",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "HДV",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "HAV",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "HEV",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "К СЕМЕЙСТВУ ПАРАМИКСОВИРУСОВ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирус паротита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вирус полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "риновирус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирус везикулярного стоматита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "ДЛЯ СПЕЦИФИЧЕСКОЙ АКТИВНОЙ ПРОФИЛАКТИКИ ПОЛИОМИЕЛИТА В НАШЕЙ СТРАНЕ ПРИМЕНЯЮТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммуноглобулин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интерферон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "химическую вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "живую вакцину",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "ВИРУС БЕШЕНСТВА ОТНОСИТСЯ К РОДУ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Vesiculovirus",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Morbilivirus",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Pneumovirus",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Lissavirus",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Paramyx",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "ВИРУСЫ РАЗМНОЖАЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почкованием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поперечным делением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "репродукцией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "спорообразованием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образованием микроколоний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "растут на питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "являются облигатными внутриклеточными паразитами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "имеют клеточные структуры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "размножаются почкованием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеют мицелий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "РНК-СОДЕРЖАЩИЕ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аденовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "паповавирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пикорнавирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "герпесвирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поксвирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "ДНК-СОДЕРЖАЩИЕ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "парамиксовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рабдовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепаднавирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "флавивирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ретровирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "СОЗДАНИЕ Э. ДЖЕННЕРОМ ВАКЦИНЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "позволило успешно бороться с бешенством",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "связано с вакцинацией против оспы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "относится к пастеровскому периоду в микробиологии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "явилось результатом химических экспериментов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "явилось результатом опытов на лабораторных животных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "ВАКЦИНА ПРОТИВ БЕШЕНСТВА ВПЕРВЫЕ БЫЛА СОЗДАНА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Р. Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Л.Пастером",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "И.Мечниковым",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "А.Флемингом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С.Н.Виноградским",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "ВИРУСЫ ОТКРЫЛ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Л.Пастер",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Р.Кох",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "И.Ивановский",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "И.И.Мечников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Д.К.Заболотный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "ВНЕКЛЕТОЧНАЯ ФОРМА СУЩЕСТВОВАНИЯ ВИРУСОВ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирион",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "капсид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "капсомер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "суперкапсид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "элементарные тельца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "ТЕЛЬЦА ГВАРНИЕРИ ОТМЕЧАЮТСЯ ПРИ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бешенстве",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трахоме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гриппе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "натуральной оспе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "герпесе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "К ПИКОРНАВИРУСАМ ОТНОСЯТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирус кори",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирус краснухи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирус клещевого энцефалита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирус гепатита А",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "ВИРУСЫ ПРЕДСТАВЛЯЮТ СОБОЙ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эукариоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внеклеточную форму жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "прокариоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прионы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "одноклеточные организмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "К ОРТОМИКСОВИРУСАМ ОТНОСЯТСЯ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бешенства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клещевого энцефалита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепатита А",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гриппа",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "К РЕТРОВИРУСАМ ОТНОСЯТСЯ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желтой лихорадки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунодефицита человека",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бешенства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кори",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ротавирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "К ГЕПАДНАВИРУСАМ ОТНОСЯТСЯ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "везикулярного стоматита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "краснухи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепатита В",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Коксаки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "болезни Ласса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "ПАЛОЧКОВИДНУЮ ФОРМУ ИМЕЕТ ВИРУС:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бешенства",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "табачной мозаики",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "осповакцины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "РАЗМНОЖЕНИЕ ВИРУСОВ ПРОИСХОДИТ ПУТЕМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бинарного деления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дисъюнктивной репродукции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "почкования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спорообразования",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "половым",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "ПУЛЕВИДНУЮ ФОРМУ МОГУТ ИМЕТЬ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кори",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "табачной мозаики",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бешенства",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ящура",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "ГОЛОВЧАТУЮ ФОРМУ ИМЕЮТ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "табачной мозаики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ротавирус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бактериофаг",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "НЕ СОДЕРЖАТ РНК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "герпесвирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "миксовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "риккетсии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "НЕ ИМЕЮТ СОБСТВЕННЫХ БЕЛОКСИНТЕЗИРУЮЩИХ СИСТЕМ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "риккетсии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спирохеты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "НЕ СОДЕРЖАТ ДНК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пикорнавирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "герпесвирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спирохеты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "риккетсии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "РАЗМНОЖЕНИЕ ДИСЪЮНКТИВНОЙ РЕПРОДУКЦИЕЙ ХАРАКТЕРНО ДЛЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грибов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спирохет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "простейших",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "АНТИГЕННАЯ ИЗМЕНЧИВОСТЬ ВИРУСА ГРИППА В ВИДЕ \"ДРЕЙВА\":",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "происходит редко",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "происходит постоянно",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "результат рекомбинаций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "результат мутаций",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "результат трансформации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "СПЕЦИФИЧЕСКАЯ ПРОФИЛАКТИКА КЛЕЩЕВОГО ЭНЦЕФАЛИТА (ОДИН ОТВЕТ):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "убитая вакцина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "живая вакцина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "субклеточная вакцина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инактивированная вакцина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "ВИРУСЫ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ОБЛИГАТНЫЕ ВНУТРИКЛЕТОЧНЫЕ ПАРАЗИТЫ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Имеют клеточное строение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержат один тип нуклеиновой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "размножаются бинарным делением",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "культивируются на сложных питательных средах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "К АРБОВИРУСАМ ОТНОСЯТСЯ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус бешенства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирусы клещевого энцефалита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вирусы полиомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирусы крымской геморрагической лихорадки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вирусы краснухи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "ЗАБОЛЕВАНИЯ, ВЫЗЫВАЕМЫЕ ВИРУСАМИ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "полиомиелит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коклюш",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возвратный тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клещевой энцефалит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ку-лихорадка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "ВОЗБУДИТЕЛИ ОРВИ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "герпесвирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирусы гриппа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вирус краснухи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коронавирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вирусы Коксаки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "ВИРУСЫ ГРИППА СОДЕРЖАТ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гиалуронидазу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ДНК –Ревертазу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Геммаглютинин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Нейраминидазу",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "трансферазу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "АНТИГЕННАЯ ИЗМЕНЧИВОСТЬ В ВИДЕ ШИФТА:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "происходит постоянно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "результат мутаций",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "происходит редко",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "результат рекомбинаций",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "результат трансдукции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "АНТИГЕНЫ суперкапсида ВИЧ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "gp41",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "gp120",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "p-24",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "HBS-антиген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "HBC-антиген",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "ДЛЯ ВИРУСА ГЕПАТИТА А ХАРАКТЕРНО:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеет мелкие размеры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "передается кровяным механизмом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "культивируют в куриных эмбрионах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладают высоким уровнем изменчивости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "содержит ДНК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "ИСТОЧНИК ВИРУСА ГЕПАТИТА B:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вода, пищевые продукты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клещи, комары",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирусоноситель",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "больной человек",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "животные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "ЭКСПРЕСС - ДИАГНОСТИКА ВИРУСНЫХ ИНФЕКЦИЙ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "выявление сенсибилизации с помощью кожных проб",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "индикация вируса в культуре клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определение сероконверсии в парных сыворотках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обнаружение генома вируса в исследуемом материале с помощью ПЦР",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "обнаружение антигенов вируса в исследуемом материале с помощью РИФ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "ФЕКАЛЬНО-ОРАЛЬНЫМ МЕХАНИЗМОМ ПЕРЕДАЮТСЯ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирусы герпеса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирусы гепатита А",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полиовирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирусы гепатита В",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ротавирусы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "АНТИГЕНЫ ВИРУСОВ ПАРЕНТЕРАЛЬНЫХ ГЕПАТИТОВ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "H1N1 антиген",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "H3N2 антиген",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "HBS антиген",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "HBc антиген",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "gp120 антиген",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "ЛАТЕНТНУЮ ИНФЕКЦИЮ В НЕЙРОНАХ ВЫЗЫВАЮТ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус простого герпеса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "цитомегаловирус",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирус опоясывающего лишая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вирус Эпштейн- Барр",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирус папиломы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "НАИБОЛЕЕ МЕЛКИЕ РАЗМЕРЫ ИМЕЮТ СЛЕДУЮЩИЕ ВИРУСЫ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирус полиомиелита",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вирус натуральной оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирус ящура",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирус осповакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рабдовирусы",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

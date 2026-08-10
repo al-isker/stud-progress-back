@@ -1,0 +1,2030 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "При ушибе в качестве средства первой помощи применяют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "согревающий компресс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пузырь со льдом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "горячий компресс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "влажное обертывание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Одним из показаний для применения согревающего компресса является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый аппендицит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ушибы в первые часы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инфильтрат на месте инъекций",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Одним из противопоказаний для применения грелки является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый аппендицит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не осложненная язвенная болезнь желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сухой плеврит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхиты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Пузырь со льдом местно следует применять при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "приступе почечной колики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "артритах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровотечении",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Температура воды для согревающего компресса составляет (в С)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "50-60",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "37-38",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "20-22",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "12-15",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Показания для постановки пиявок",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертония",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипотония",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышенная кровоточивость тканей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Противопоказанием к постановке пиявок является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артериальная гипертония;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоз сосудов головного мозга;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемофилия;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "венозный застой крови.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "При повышенной чувствительности кожи, для прокладки между кожей и горчичниками можно использовать",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "газету;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "компрессную бумагу;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "марлевую салфетку;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полотенце;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вату.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Длительное расширение кровеносных сосудов и притока крови к тканям вызывает процедура",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холодный компресс;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "согревающий компресс;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "горячий компресс;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лекарственный компресс;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "примочки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Четвёртым слоем согревающего компресса является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "восьмислойная марлевая салфетка;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вата;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "компрессная бумага или компрессная клеёнка;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бинт или лейкопластырь",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тёплая пелёнка.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Назовите, при каком состоянии необходимо применить грелку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровотечение;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ушибы в первые сутки;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острые воспалительные процессы в брюшной полости;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ушибы на вторые сутки;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "второй период лихорадки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Выберите, какое состояние является показанием для постановки пиявок",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипотония;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышенная кровоточивость тканей;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артериальная гипертония;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лечение антикоагулянтами.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Первым слоем согревающего компресса является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "восьмислойная марлевая салфетка;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вата;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "компрессная бумага или компрессная клеёнка;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бинт или лейкопластырь;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тёплая пелёнка.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "На какое время накладываются горчичники",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 — 40 минут;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20 — 30 минут;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "15 — 20 минут;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10 — 15 минут",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "2 — 3 минут.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Вещество, выделяемое медицинской пиявкой при укусе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гепарин;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсин;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиалит;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гирудин;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "адреналин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Для ускорения присасывания пиявок участок кожи пациента следует протереть раствором",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10% натрия хлорида;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "6% столового уксуса;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "40% глюкозы;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "3% перекиси водорода;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "70% спирт.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Пиявки на область копчика ставятся при заболеваниях",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стенокардия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбофлебит;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "артериальная гипертония;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "геморрой;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "венозный застой печени.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Пиявки на область сердца ставятся при заболеваниях",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артериальная гипертония;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбофлебит;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стенокардия;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "геморрой;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "венозный застой печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Назовите, при каком состоянии нельзя использовать грелку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематома на вторые сутки;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неврологические заболевания;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "первый и третий периоды лихорадки;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острые воспалительные процессы в брюшной полости;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дуоденальное зондирование.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Как подготовить пузырь со льдом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "налить воду, затем положить кусочки льда;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "положить кусочки льда, затем налить холодную воду;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "налить воду в пузырь и заморозить в холодильнике;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "положить только кусочки льда;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "смешать воду со льдом и залить в пузырь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Выберите правильное утверждение. Обернуть грелку полотенцем, прежде чем подать больному",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да, необходимо;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не имеет значения;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не нужно, можно положить грелку на одежду;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не нужно, можно положить грелку на одеяло;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "да, если чувствительная кожа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "К мягким повязкам относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипсовая повязка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "косыночная повязка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "шина Крамера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аппарат Илизарова",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "При ушибе плечевого сустава накладывают повязку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "черепашью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колосовидную",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "восьмиобразную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Дезо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Для транспортной иммобилизации используется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шина Кузьминского",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "шина Белера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шина Крамера",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "шина ЦИТО",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Вид повязки при растяжении связок в голеностопном суставе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спиральная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "восьмиобразная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "колосовидная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "черепашья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Лейкопластырные повязки относятся к",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "давящим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клеевым",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "твердым",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жидким",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Крестообразную повязку применяют при повреждении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плечевогосустава",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коленного сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лучезапястного сустава",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "III пальца кисти",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "При оказании помощи пострадавшему с травмой ключицы целесообразно использовать",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шину Крамера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повязку Дезо",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипсовую лонгету",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "колосовидную повязку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Окклюзионную повязку используют при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артериальном кровотечении",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "переломе ребер",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клапанном пневмотораксе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "открытом пневмотораксе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Вид повязки при венозном кровотечении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "давящая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "окклюзионная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спиральная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лейкопластырная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Повязка, применяемая при ранении пальцев кисти",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крестообразная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "\"перчатка\"",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "черепашья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "змеевидная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "При переломе нижней челюсти необходима повязка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возвращающаяся",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пращевидная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "восьмиобразная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крестообразная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Повязка, применяемая при носовом кровотечении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкопластырная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пращевидная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "\"уздечка\"",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "циркулярная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "При травме коленного сустава накладывают повязку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "черепашью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "змеевидную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спиральную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "колосовидную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "После вскрытия карбункула на задней поверхности шеи лучше использовать повязку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "\"чепец\"",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "крестообразную",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "\"уздечку\"",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возвращающуюся",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Повязку Дезо используют при переломе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "костей предплечья",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ключицы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ребер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "При ожоге кисти кипятком накладывают повязку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сходящуюся",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клеевую",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "\"варежка\"",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "\"перчатка\"",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Лейкопластырная черепицеобразная повязка накладывается при переломе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ребер",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ключицы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "позвоночника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "К твердым повязкам относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бинтовая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипсовая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клеевая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "давящая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "При вывихе плеча применяют повязку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "косыночную",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "спиральную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "восьмиобразную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "круговую",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "При открытых переломах накладывают гипсовую повязку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мостовидную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окончатую",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "створчатую",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лонгетную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "При переломе лодыжек накладывают гипсовую повязку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "U-образную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мостовидную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сапожок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "циркулярную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "После вправления вывиха плеча накладывают гипсовую повязку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дезо",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "колосовидную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крестообразную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Вельпо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Абсолютный признак перелома костей",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "деформация сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "деформация мягких тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "патологическая подвижность костных отломков",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Признак, характерный только для перелома",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровоподтек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "припухлость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крепитация костных отломков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушение функции конечности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Симптом, характерный только для вывиха",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "боль",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение функции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пружинящая фиксация",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Первая помощь при закрытом вывихе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наложение давящей повязки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тепло на место повреждения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "транспортная иммобилизация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "асептическая повязка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "При сохраненной целостности кожи определяется локальная боль, крепитация и деформация конечности, можно предположить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повреждение связочного аппарата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ушиб мягких тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вывих",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "закрытый перелом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Тепловые процедуры при ушибе мягких тканей назначают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 2-3 сутки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сразу после травмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через несколько часов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не назначают вообще",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Отличительный признак ожога II степени",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боль",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие пузырей или их остатков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отек тканей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "При переломе костей предплечья шина накладывается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от лучезапястного сустава до верхней трети плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "от лучезапястного до локтевого сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на место перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от кончиков пальцев до верхней трети плеча",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "В положении \"лягушки\" транспортируют пациентов с переломом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "костей таза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "позвоночника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бедра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "костей стоп",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Лежа на спине на щите транспортируют пациентов с",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переломом ребер",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ушибом грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "травмой органов брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "переломом грудного отдела позвоночника",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Для транспортной иммобилизации при черепно-мозговой травме применяют шину",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Белера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дитерихса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Еланского",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Виноградова",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "При повреждении шейного отдела позвоночника с целью транспортной иммобилизации используют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ватно-марлевые кольца Дельбе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ватно-марлевый воротник Шанца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "шину Дитерихса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крестообразную повязку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "К глубоким термическим ожогам относят ожоги степени тяжести",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "II",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "III В",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "III А",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "IV",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Причина ожогового шока",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спазм сосудов кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "психическая травма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "боль и плазмопотеря",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кровотечение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Степень отморожения можно определить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сразу после согревания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на 2-ой день",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в дореактивном периоде",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спустя несколько дней",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Характерный признак отморожения II степени",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некроз всей толщи кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образование пузырей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обратимая сосудистая реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мраморность кожи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Сотрясение головного мозга от ушиба мозга отличается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличием \"светлого промежутка\"",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствием очаговой симптоматики",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличием повышенного АД",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушением сна",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "У детей наблюдаются, как правило, переломы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "косые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по типу \"зеленой веточки\"",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "компрессионные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "При сдавлении грудной клетки пострадавшему нужно ввести обезболивающее и",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уложить на живот",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уложить на спину",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уложить на бок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "придать полусидячее положение",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Признаки гемоторакса",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одышка, на стороне поражения, дыхание не прослушивается, перкуторно коробочный звук",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "притупление перкуторного звука, дыхание при аускультации ослаблено, прогрессирующее падение АД",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "крепитация при надавливании на кожу грудной клетки, затрудненное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шум трения плевры, боль при дыхании",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Причина травматического шока",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интоксикация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болевой фактор",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "психическая травма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "При электротравме не наблюдается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение температуры тела",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышение АД",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паралич сфинктеров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "судорожное сокращение мышц",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Для лечения перелома ключицы не используют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кольца Дельбе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "металлоостеосинтез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипсовую повязку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "\"черепичную\" лейкопластырную повязку",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Вынужденное положение конечности и деформация в области плечевого сустава характерны для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ушиба",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "артрита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вывиха",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "опухоли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "При ушибах в первую очередь необходимо",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наложить согревающий компресс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "применить пузырь со льдом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сделать массаж",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "произвести пункцию сустава",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "При ушибе рекомендуется местно применить холод на",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 мин.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "6 час.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2 дня",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "7 дней",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "При переломах костей для создания импровизированной шины лучше всего использовать",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бинт",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резину",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плотную ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "доску",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Достоверным признаком шока является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "падение артериального систолического давления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "потеря сознания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бледность кожных покровов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Основное правило наложения шины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только на место перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с захватом сустава, расположенного выше места перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с захватом сустава, расположенного ниже места перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с захватом не менее 2-х суставов, расположенных выше и ниже места перелома",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 19,
+				"text": "Какие осложнения могут быть при гирудотерапии",
+				"reason": "NO_ANSWER_MARKER"
+			}
+		]
+	}
+}

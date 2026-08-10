@@ -1,0 +1,4200 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Кинины разрушаются при действии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "каллидин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "брадикинин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кининазы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кининогены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "калликреины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Функции крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "транспортная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "защитная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "регуляторная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Какие белки содержатся в плазме здоровых людей",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "интерферон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трансферрин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глобулины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "С-реактивный белок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какие белки содержатся в плазме при заболеваниях",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "интерферон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "трансферрин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С-реактивный белок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глобулины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Что характерно для альбуминов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Масса 150 тыс. дальтон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "масса 40-70 тыс. дальтон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "растворимость в дистиллированной воде",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "растворимость в слабых солевых растворах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие простетической группы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Что характерно для глобулинов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "масса 150 тыс. дальтон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "масса 40-70 тыс. дальтон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "растворимость в дистиллированной воде",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "растворимость в слабых солевых растворах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие простетической группы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Белком острой фазы является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "С-реактивный белок",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кинины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибриноген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гаптоглобин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Что характерно для криоглобулина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяется с гемоглобином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соединяется с железом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержит медь, является оксидазой аскорбиновой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связывает свободный гем",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выпадает в осадок при низких температурах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Что характерно для интерферона",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяется с гемоглобином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соединяется с железом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержит медь, является оксидазой аскорбиновой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связывает свободный гем",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетает размножение вирусов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Что характерно для церулоплазмина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяется с гемоглобином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соединяется с железом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержит медь, является оксидазой аскорбиновой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "связывает свободный гем",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетает размножение вирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Что характерно для гаптоглобина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяется с гемоглобином",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "соединяется с железом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержит медь, является оксидазой аскорбиновой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связывает свободный гем",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетает размножение вирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Что характерно для трансферрина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяется с гемоглобином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соединяется с железом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "содержит медь, является оксидазой аскорбиновой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связывает свободный гем",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетает размножение вирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Что характерно для гемопексина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяется с гемоглобином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соединяется с железом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержит медь, является оксидазой аскорбиновой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связывает свободный гем",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "угнетает размножение вирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Активность каких ферментов исследуется при остром инфаркте миокарда",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "АлАТ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ЛДГ-4,5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "АсАТ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ЛДГ-1",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Активность каких ферментов исследуется при вирусном гепатите",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "АлАТ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ЛДГ-4,5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ГДГ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альдолаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "У больного обнаружено мочевины 8,1 мМ/л это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "норма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперхолестеринемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипохолестеринемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипергликемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "азотемия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "У больного обнаружено билирубина 35 мкМ/л это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "норма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперхолестеринемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипохолестеринемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипергликемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипербилирубинемия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Содержание общего белка в норме равно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "50 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "70 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "90 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "80 г/л",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Содержание общего белка повышенное равно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "130 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "50 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "70 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "100 г/л",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Содержание общего белка пониженное равно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "50 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "70 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "90 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "100 г/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Что называется диспротеинемией",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "понижение общего белка плазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение общего белка плазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выявление в крови аномальных белков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение нормального соотношения фракций белков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "появление белка в моче",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Что называется парапротеинемией",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "понижение общего белка плазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение общего белка плазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выявление в крови аномальных белков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушение нормального соотношения фракций белков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление белка в моче",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Функции белков в плазме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поддержание постоянства онкотического давления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "имунная функция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в свертывании",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "транспортная функция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "При каких состояниях наблюдается гиперпротеинемия",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нефроз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диарея",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гепатит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "неукротимая рвота",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "квашиоркор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "При каких состояниях наблюдается гипопротеинемия",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ожирение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диарея",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепатит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "неукротимая рвота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "квашиоркор",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Функции крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дыхательная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "питательная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "защита от инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "транспорт метаболитов и гормонов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Предшественниками кининов являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "каллидин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "брадикинин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кининазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кининогены",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "К кининам относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "брадикинин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "карбоксикатепсин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кининогены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "калликреин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Снижение величины рН в крови ниже 6,8 сопровождается:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "развитием ацидоза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "развитием алкалоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "может вызвать смерть",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушается свертываемость крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "При какой желтухе в моче появляется уробилиноген:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "механическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "паренхиматозная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемолитическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "новорожденных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Выведение воды с мочой регулируется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вазопрессином",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "альдостероном",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ренином",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "окситоцином",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Выведение NaCl с мочой регулируется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вазопрессином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альдостероном",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ренином",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "окситоцином",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Билирубинурия наблюдается при желтухе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "механическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "паренхиматозная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемолитическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "новорожденных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "печеночная",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Глюкозурия наблюдается при:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "употребление с пищей большого количества рафинированных углеводов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сахарном диабете",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ожирении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "несахарном диабете",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Гематурия наблюдается при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желтухе новорожденных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лейкозах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подагре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "травмах мочевыводящих путей",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лихорадке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Кетонурия наблюдается:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при подагре",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ожирении",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "голодании",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сахарном диабете",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "несахарном диабете",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Что появляется в моче при гематурии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемоглобин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "креатин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гомогентизиновая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Что появляется в моче при гемоглобинурии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемоглобин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "креатин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гомогентизиновая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Что появляется в моче при алкаптонурии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемоглобин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "креатин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гомогентизиновая кислота",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Что появляется в моче при сахарном диабете:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемоглобин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкоза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "креатин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гомогентизиновая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Более интенсивное окрашивание мочи - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперхромурия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперурикурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипоурикурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипохромурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "У больного диурез 0,9 л удельная плотность 1,005. Это называется:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигурия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипостенурия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиперстенурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "У больного диурез 2,9 л удельная плотность 1,065. Это называется:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полиурия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипостенурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперстенурия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "У больных сахарным диабетом реакция мочи бывает кислая, потому что при сахарном диабете наблюдается кетонурия.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "- - -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Кетоновые тела меняют рН мочи в кислую сторону, потому что кетоновыми телами является ацетоуксусная кислота и бетта оксимаслянная кислота",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + -",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "+++",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "- + -",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "- - +",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- - -",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Какая реакция мочи у вегетарианцев?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтральная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "щелочная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кислая или нейтральная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резко кислая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Какая реакция мочи при употреблении смешанной пищи?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтральная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "щелочная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кислая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "резко кислая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко щелочная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Какая реакция мочи при инфекции в мочевыводящих путях?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтральная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "щелочная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кислая или щелочная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резко кислая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резко щелочная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Что содержится в осадке мочи, если он исчезает /растворяется/ при нагревании?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слизь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сахар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ураты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фосфаты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Что содержится в осадке мочи, если он исчезает /растворяется/ при подкислении?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слизь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сахар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ураты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фосфаты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Какие симптомы наблюдаются при сахарном диабете?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкозурия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гиперстенурия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипостенурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Какие симптомы наблюдаются при несахарном диабете?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "олигурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глюкозурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиперстенурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипостенурия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Какие симптомы являются общими для сахарного и несахарного диабета?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полиурия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "олигурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глюкозурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиперстенурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипостенурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Как называется повышенное содержание в моче мочевой кислоты?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кетонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "порфиринурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперурикурия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Как называется обнаружение глюкозы в моче?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кетонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "порфиринурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозурия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиперурикурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Как называется обнаружение в моче белка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кетонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "порфиринурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперурикурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Как называется обнаружение ацетоновых тел в моче?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кетонурия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "порфиринурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперурикурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Какие вещества являются нормальными компонентами мочи взрослого человека?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уробилиноген",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "креатин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "креатинин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стеркобилин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Какие вещества являются патологическими компонентами мочи взрослого человека?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ацетон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уробилиноген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Протеинурия наблюдается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при подагре",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "после тяжелой физической нагрузки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при катаракте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "употреблении большого количества белка с пищей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Наличие каких веществ в моче определяет кислую реакцию?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "однозамещенный фосфорно-кислый калий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ацетоуксусная кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бета-гидроксимасляная к-та",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "однозамещенный фосфорно-кислый натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Коллаген синтезируется в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макрофагах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тучных клетках",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плазмоцитах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибробластах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гепариноцитах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "К посттрансляционным изменениям коллагена относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дезаминирование",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гидроксилирование пролина и лизина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фосфорилирование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "декарбоксилирование пролина и лизина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Вторичная структура коллагена образуется за счет связей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пептидных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "водородных",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ионных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидрофобных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эфирных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Третичная структура коллагена образуется за счет связей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пептидных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "водородных",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ионных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидрофобных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эфирных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "При цинге нарушается синтез:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеогликанов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альбуминов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепарина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коллагена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тропоколлагена",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Соединительная ткань в общей сложности составляет от массы тела примерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "70%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "60%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "50%",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "30%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Коллагеновые волокна построены из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эластина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фибрилл",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "проколлагена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "липидов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эластина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Фермент, превращающий пролин в оксипролин, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дегидрогеназа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оксидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "редуктаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидроксилаза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "коллагеназа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "В состав протеогликанов входят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "протромбин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альбумин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хондроитинсульфаты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кератансульфаты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бета-липопротеиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "К мукополисахаридам относятся все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гепарин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиалуроновая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиппуровая кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кератансульфаты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дерматансульфаты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Гиалуроновая кислота построена из:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозаминосульфата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкуроновой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глюконовой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "N-ацетилглюкозамина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "N-ацетилгалактозамина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Протеогликановые субъединицы прикреплены к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углеводу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюконовой кислоте",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глюкуроновой кислоте",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиалуроновой кислоте",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "галактоновой кислоте",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Коллагенозы - это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гетерополисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сложные белки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезни, при которых повреждаются все структурные элементы соед. ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "болезни, при которых происходит дегенерация коллагеновых волокон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пример авитаминоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Мукополисахариды - это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликозаминогликаны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гликопротеиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гомополисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гетерополисахариды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Проницаемость соединительной ткани повышает фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "липаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гликозидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глюкокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиалуронидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "глутаминаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Содержание сиаловой кислоты в крови повышается при:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отеках",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нефрите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ревматизме",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "подагре",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коллагенозах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Протеогликаны состоят из:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "95% углеводов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5% углеводов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5% белка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "95% белка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10% воды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Где содержится рыхлая неоформленная соединительная ткань?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хрящи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подкожно-жировая клетчатка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фасции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Где содержится оформленная соединительная ткань?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хрящи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подкожно-жировая клетчатка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Что характерно для аминокислотного состава коллагена?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие десмозина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "33% глицина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "33% пролина и 4-гидроксипролина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "2% оксипролина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Что характерно для аминокислотного состава эластина?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие десмозина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "30% глицина и триптофана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "20% пролина и оксипролина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2% оксипролина и оксилизина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "В состав скелета человека входит кальция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "800 - 850 г",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "100 - 120 г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,5 - 2,0 кг",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2,0 - 2,5 кг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Аскорбиновая кислота является витамином для:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "всех животных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микробов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "человекообразных обезъян",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хищников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "человека",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Функции глюкозаминогликанов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "связывают воду",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "регулируют синтез каллагена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "транспортная функция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энергетическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "связывают катионы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Роль гиалуроновой кислоты :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование альфа-1,2 глюкозидной связи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "связывание воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижение свертываемости крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "регуляция проницаемости тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "повышение свертываемости крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "При старении в соединительной ткани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшается количество воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличивается количество воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшается количество ГАГ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уменьшается количество коллагена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Оксипролинурия наблюдается при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коллагенозах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "раке кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "остеомиэлитах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеопорозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Укажите последовательность аминокислот, типичную для полипептидной цепи коллагена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глицин-пролин-гидроксипролин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лизин-глутамат-валин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лейцин-пролин-гидроксипролин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глицин-пролин-гидроксилизин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пролин-лизин-гидроксилизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Как влияет на синтез коллагена и ГАГ глюкокортикоиды?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиливают синтез коллагена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "угнетают синтез коллагена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "усиливают пролиферацию фибробластов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиливают синтез ГАГ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетают синтез ГАГ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Как влияют на синтез коллагена и ГАГ минералокортикоиды?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиливают синтез коллагена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетают синтез коллагена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиливают синтез ГАГ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "угнетают синтез ГАГ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Главными элементами соединительной ткани являются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фибробласты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хондроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетки соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "основное вещество",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Потребность в воде у взрослого человека составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "40-50 мл на кг массы тела",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "300 мл на кг массы тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "500 мл в сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3 л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "При недостаточном поступлении йода в организм развивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндемический зоб",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "флюороз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Грейвса болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипертиреоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Базедова болезнь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Для профилактики эндемического зоба назначают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белковую диету",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соли йода",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тиреоидин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "АКТГ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Активная форма витамина Д3 называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эргостерин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "холекальциферол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,25 - диоксихолекальциферол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "7-дегидрохолестерин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Где образуется активная форма вит. Д3?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кишечник",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "костная ткань",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Функции воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "основная среда протекания реакций",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "универсальный растворитель",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "транспортная функция участие в теплорегуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Какое количество воды выделяется в сутки с мочой?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,3 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1 л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,5 л",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "2 - 2,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3 л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Какое количество воды выделяется в сутки с потом и при дыхании?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,3 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1 л",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1,5 л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3 л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Сколько образуется воды при окислении 100 гр жира?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "41 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "55 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "70 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "107 мл",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Сколько образуется воды при окислении 100 гр углеводов?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "41 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "55 мл",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "70 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "107 мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Сколько образуется воды при окислении 100 гр белков?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "41 мл",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "55 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "70 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "107 мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Какую функцию выполняет вазопрессин?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышает реабсорбцию NaCl",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышает реабсорбцию воды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличивает диурез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расширяет сосуды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "суживает сосуды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Функции альдостерона:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышает реабсорбцию хлора",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличивает диурез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расширяет сосуды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышает реабсорбцию натрия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Обильная рвота приводит к :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реабсорбции NaCl",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реабсорбции воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипохлоремии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипокалиемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Органические вещества мочи - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мочевина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "креатинин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мочевая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Какую функцию выполняет ангиотензин?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышает реабсорбцию KCl",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижает реабсорбцию воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличивает диурез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стимулирует образование альдостерона",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "суживает сосуды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Где резервируется вазопрессин?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кора надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "юкстагломерулярные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предсердие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "легкие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задняя доля гипофиза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Где вырабатывается альдостерон?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кора надпочечников",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "юкстагломерулярные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предсердие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "легкие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задняя доля гипофиза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Где вырабатывается Na-уретический гормон?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кора надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "юкстагломерулярные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предсердие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "легкие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задняя доля гипофиза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Где вырабатывается ренин?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кора надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "юкстагломерулярные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "предсердие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "легкие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задняя доля гипофиза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Где вырабатывается ангиотензин?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кора надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "юкстагломерулярные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предсердие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндотелий сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "задняя доля гипофиза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Что способстувует задержке воды в тканях?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "соли натрия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "соли калия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "растительная диета",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мясная пища",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кетонурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Что способствует выведению воды из организма?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "соли натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соли калия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "растительная диета",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мясная пища",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кетонурия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "К чему приводит обезвоживание?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "развивается гиперсолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышается осмотическое давление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вода уходит из клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличивается вязкость крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Функция минеральных веществ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участие в кроветворении",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "участие в тканевом дыхании",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "источник энергии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Что характерно для Na?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внеклеточная локализация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "участие в нервно-мышечном возбуждении",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "участие в мышечном сокращении",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участие в тканевом дыхании /переносе электронов/",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Что характерно для K?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриклеточная локализация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внеклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в нервно-мышечном возбуждении",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "участие в мышечном сокращении",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участие в тканевом дыхании /переносе электронов/",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Что характерно для Ca?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внеклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соединяется с кальмодулином",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "участие в свертывании крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Что характерно для P?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внеклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в нервно-мышечном возбуждении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участие в активации органических веществ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "входит в состав казеиногена",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Что характерно для I ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внеклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в нервно-мышечном возбуждении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участие в мышечном сокращении",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "входит в состав тироксина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Что характерно для Co?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "входит в состав витамина В12",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внеклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в нервно-мышечном возбуждении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участие в мышечном сокращении",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участие в синтезе глютатиона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Что характерно для Cu?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внеклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в нервно-мышечном возбуждении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "входит в состав церулоплазмина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Что характерно для Fe?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внеклеточная локализация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в нервно-мышечном возбуждении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участие в тканевом дыхании /переносе электронов/",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "участие в синтезе гема",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Гиперсекреция какого гормона вызывает гиперкальциемию?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "паратгормон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кальцитонин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "соматостатин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Гиперсекреция какого гормона вызывает гипокальциемию?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "паратгормон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кальцитонин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "соматостатин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "К чему приводит повышенное содержание фтора в воде?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеопороз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "флюороз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "акромегалия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кариес",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "алкаптонурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "К чему приводит пониженное содержание фтора в воде?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеопороз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "флюороз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "акромегалия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кариес",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "алкаптонурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Какие эффекты вызывает избыток паратгормона?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипокальциемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипофосфатемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижение остеолиза костей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ускорение образования диоксихолекальциферола",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперкальциемия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Какие эффекты вызывает избыток кальцитонина?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперкальциемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипокальциемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипофосфатемия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышение реабсорбции Са в канальцах почек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение остеолиза костей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Соли брома:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "оказывают тормозящее влияние на ЦНС",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиливают действие адреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "успокаивают ЦНС",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышают кровяное давление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижают свертываемость",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 17,
+				"text": "У больного обнаружено глюкозы 4,9 мМ/л это:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 63,
+				"text": "Наличие каких веществ в моче определяет щелочную реакцию?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 86,
+				"text": "В состав скелета человека входит фосфора:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

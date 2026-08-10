@@ -1,0 +1,2777 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Отметить противогрибковый антибиотик",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амфотерицин В",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миконазол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метронидазол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "декамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клотримазол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Какой препарат применяют при кандидомикозе, вызываемых условно патогенными грибами",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гризеофульвин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гризеофульвин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пиперазин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миконазол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "калия йодид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Что характерно для амфотерицина В",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладает низкой токсичностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладает высокой токсичностью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "назначается внутрь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проникают через гематоэнцефалический барьер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эффективен в отношении вирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Механизм действия амфотерицина В",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушает проницаемость клеточной мембраны грибов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетает синтез белков рибосомами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушает синтез РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушает синтез клеточной стенки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрушает ядерный аппарат клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Что характерно для нистатина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладает широким спектром действия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "назначается парентерально",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обладает высокой токсичностью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладает низкой токсичностью",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "используют для лечения системных микозов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Что характерно для миконазола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по спектру соответствует нистатину",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладает более широким спектром антигрибкового действия чем нистатин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "назначается только местно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "побочные эффекты минимальные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применяется для лечения кандидомикозов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Амфотерицин В назначают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутрь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутривенно",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ингаляционно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутримышечно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "местно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какими путями можно вводить нистатин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подкожно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутривенно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутримышечно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ингаляционно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "местно",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Побочное действие нистатина при приеме внутрь проявляется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диспептическими расстройствами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нарушением функции почек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейротоксическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепатотоксическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Направленность противовирусного действия мидантана и ремантадина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетает процесс высвобождения (депротеинизации) вирусного генома",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетает синтез нуклеиновых кислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетает \"сборку\" вирионов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетает синтез ранних вирусных белков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетает адсорбцию вируса на клетке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Указать механизм действия препаратов: ацикловир, зидовудин, видарабин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетают синтез нуклеиновых кислот, ингибируя ДНК-полимеразу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетают синтез \"ранних\" вирусных белков - ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетают \"сборку\" вирионов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетают синтез \"поздних\" вирусных белков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетают процесс высвобождения вирусного генома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Указать механизм действия метисазона",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетает \"сборку\" вирионов, угнетая синтез вирусного структурного белка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетает адсорбцию вируса на клетке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетает синтез \"ранних\" вирусных белков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетает синтез \"поздних\" вирусных белков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетает высвобождение вирусного генома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Какой из ниже перечисленных противовирусных средств является биологическим веществом, продуцируемым клетками макроогрганизма",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "саквинавир",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мидантан",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интерферон",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "арбидол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метисазон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Отметить противовирусное средство, производное пептидов, ингибитор протеаз ВИЧ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "саквинавир",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "арбидол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фоскарнет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мидантан",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метисазон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Отметить средство, используемое для профилактики гриппа типа А",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "арбидол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фоскарнет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ремантадин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "метисазон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ацикловир",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Отметить противовирусное средство (аналог нуклеозидов), обладающее противогерпетической активностью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зидовудин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мидантан",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ацикловир",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фоскарнет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метисазон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Указать основное применение осельтамивира",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лечение ВИЧ-инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лечение гриппа типа А",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "профилактика гриппа типа А и В",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лечение цитамегаловирусной инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лечение простого герпеса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Что характерно для арбидола",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладает интерферогенной активностью и применяется для лечения и профилактики гриппа типа А и Б",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "применяется для профилактики оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подавляет иммунитет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вызывает эйфорию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вводится парентерально",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Что характерно для оксолина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эффективен в отношении вируса оспы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эффективен при цитомегаловирусной инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вводится внутривенно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "применяется местно для профилактики гриппа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "высокотоксичен (подавляет лейкопоэз)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какими свойствами помимо противовирусной активности обладают интерфероны",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "противоаллергической активностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммуномодулирующей, противоопухолевой активностью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антигистаминным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антиоксидантным, антигипоксическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антирахитическим действием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Какой из перечисленных средств действует на вирус иммунодефицита человека (ВИЧ)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зидовудин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оксолин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ремантадин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интерферон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метисазон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Отметить синтетические противотуберкулезные средства",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "циклосерин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "канамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изониазид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "этамбутол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "леворин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Что характерно для синтетических противотуберкулезных препаратов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют широкий спектр антимикробного действия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оказывают бактерицидное действие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оказывают в основном бактериостатическое действие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "действует только на микобактерии туберкулеза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "влияют и на прочие микроорганизмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Отметить антибиотики, применяемые при лечении туберкулеза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "левомицитин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стрептомицина сульфат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рифампицин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тетрациклин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Основные принципы назначения противотуберкулезных препаратов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "комбинируют 2-3 препарата",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "назначают только 1 эффективный препарат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "химиотерапию назначают после результатов бактериологических исследований",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "химиотерапию назначают не дожидаясь результатов бактериологических исследований",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "назначают ударными дозами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Отметить побочные эффекты характерные для противотуберкулезных препаратов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гепатотоксичность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нефротоксичность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лекарственная зависимость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аритмии сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лекарственный паркинсонизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Что характерно для изониазида",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладает высокой активностью в отношении микобактерий туберкулеза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "действует только на внутриклеточное расположение микобактерий туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эффективен в лечении малярии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эффективен в отношении гонококков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эффективен в отношении пневмококков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Чем обусловлено, назначение одновременно с изониазидом, пиридоксина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пиридоксин усиливает противотуберкулезную активность изониазида",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в сочетании с пиридоксином изониазид хорошо всасывается в ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пиридоксин предупреждает развитие невритов, вызываемых изониазидом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тем, что пиридоксин является активным противотуберкулезным средством",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тем, что пиридоксин препятствует выведению изониазида из организма и тем самым способствует накоплению бактерицидных концентраций препарата",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Какой препарат из группы антибиотиков действует на микобактерии туберкулеза бактерицидно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ампициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цефаклор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изониазид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "этамбутол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рифампицин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Что характерно для стрептомицина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "является антибиотиком узкого спектра действия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "влияет преимущественно на грамм (+)флору",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активен в отношении микобактерий туберкулеза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хорошо всасывается из ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эффективен в отношении возбудителей туляремии и чумы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Какое осложнение может возникнуть при применения препаратов стрептомицина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемералопия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижение слуха и вестибулярные нарушения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетение кроветворения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экстрапирамидные нарушения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Что характерно для этионамида",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеет широкий спектр антимикробного действия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активен в отношении микобактерии туберкулеза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "активен в отношении возбудителя сифилиса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резистентность микобактерий к нему развивается медленно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плохо всасывается из ЖКТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Что характерно для канамицина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "является препаратом выбора при туберкулезе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "механизм действия связан с угнетением синтеза белка в бактериальной клетке",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "оказывает бактериостатическое и бактерицидное действие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "резистентность к нему бактерий развивается медленно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обладает противоспирохетозной активностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Отметить механизм действия ПАСК",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "конкурентный антагонизм с парааминобензойной кислотой, необходимой для роста и размножения микобактерий туберкулеза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетение синтеза белка рибосомами бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение проницаемости мембран клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетает синтез миколевых кислот, являющийся компонентом клеточной стенки микобактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушение синтеза РНК в ядерном аппарате бактериальной клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Какие из препаратов относятся к I группе (наиболее эффективных) противотуберкулезных средств",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "циклосерин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изониазид",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рифампицин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "канамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ПАСК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Отметить противотуберкулезные препараты II группы (средней эффективности)",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "изониазид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "этамбутол",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ПАСК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рифампицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "циклосерин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Механизм антимикробного действия рифампицина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушает синтез миколевых кислот, являющихся компонентом клеточной стенки микобактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушает проницаемость цитоплазматической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушает синтез РНК, за счет ингибирования РНК - полимеразы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "угнетает синтез белка в клетках микобактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "является конкурентным антагонистом ПАБК, необходимой для роста бактерий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Отметить синтетические противотуберкулезные средства III группы с умеренной эффективностью",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рифампицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изониазид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ПАСК",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тиоацетазон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "канамицин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "К антибактериальным средствам относятся следующие группы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибиотики",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сульфаниламиды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "противопаркинсонические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "противовирусные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "противогрибковые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Назвать группу антибиотиков, механизм антимикробного действия которой связан с нарушением проницаемости цитоплазматической мембраны",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тетрациклины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пенициллины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полимиксины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "макролиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Какое побочное действие наблюдается наиболее часто, при использовании препаратов бензилпенициллина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агранулоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аллергия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "снижение слуха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поражение почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "К группе тетрациклинов относятся все препараты, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "окситетрациклина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тетрациклина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метациклина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "доксициклина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метициллина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Что характерно для эритромицина и олеандомицина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по спектру действия соответствует бензилпенициллину",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "действует на те же микроорганизмы, что и бензилпенициллин, а так же риккетсии и хламидии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "устойчивость микроорганизмов к действию препаратов развивается медленно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "действует бактерицидно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хорошо и полностью всасывается в ЖКТ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Назвать препарат, одним из осложнений которого является угнетение функций VIII пары черепно-мозговых нервов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тетрациклин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "левомицетин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "олеандомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стрептомицин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Назвать группу антибиотиков, механизм антимикробного действия которых, в основном, связан с нарушением синтеза клеточной стенки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макролиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тетрациклины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цефалоспорины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "полимиксины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Назвать антибиотик, оказывающий преимущественно бактериостатическое действие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оксациллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гентамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритромицин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Отметить биосинтетический пенициллин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "карбенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бензилпенициллина натриевая соль",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "оксациллин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ампициллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Назвать препарат из группы пенициллинов, обладающий широким спектром действия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ампициллин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "оксациллин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бициллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Назвать антибиотик, образующий хелатные соединения с ионами магния, кальция",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "левомицетин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "олеандомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тетрациклин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "цефалоридин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Что характерно для левомицетина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "действует преимущественно на грамположительные бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "имеет широкий спектр действия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плохо всасывается из ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не связывается с белками плазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "действует преимущественно на грамотрицательные бактерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Назвать препарат из группы цефалоспоринов, активный в отношении синегнойной палочки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цефалотин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цефоперазон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цефатотоксим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цефалексин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цефаклор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Назвать антибиотик, оказывающий преимущественно бактерицидное действие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цефалоридин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эритромицин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "олеандомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тетрациклин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "левомицетин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Назвать препарат, устойчивый к действию пенициллиназы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ампициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оксациллин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "карбенициллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "К группе аминогликозидов относятся все препараты, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептомицина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неомицина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гентамицина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "канамицина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полимиксина М",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Какой из антибиотиков устойчив к кислой среде желудка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ампициллин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "метициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "карбенциллин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бициллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Назовите антибиотики, к которым развивается быстрая устойчивость микроорганизмов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "левомицетин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стрептомицин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рифампицин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "олеандомицин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Какие из побочных эффектов неаллергической природы характерны для пенициллина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление слизистой языка и ротовой полости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угнетение кроветворения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетение функций почек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "суперинфекция",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "угнетение функций VIII пары черепно-мозговых нервов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Какие из следующих пенициллинов являются плохо растворимыми солями и действуют длительно",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллина новокаиновая соль",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бициллины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бензилпенициллина натриевая соль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ампициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "феноксиметилпенициллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "К полусинтетическим пенициллинам, устойчивым к пенициллиназе относятся",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "оксациллина натриевая соль",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "феноксиметилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диклоксациллин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ампициллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Какие из цефалоспоринов предназначены только для энтерального применения",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "цефепим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цефотаксим",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цефаклор",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цефалотин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цефиксим",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "В чём заключается механизм действия эритромицина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение проницаемости цитоплазматической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушение синтеза РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение синтеза белка рибосомами микроорганизмов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушение синтеза клеточной стенки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрушение ядерного аппарата клетки микроорганизма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Отметить полусинтетические пенициллины",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллина натриевая соль",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бензилпенициллина новокаиновая соль",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оксациллин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ампициллин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бициллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Отметить основные свойства цефалоридина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеет широкий спектр действия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "действует бактерицидно",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "действует бактериостатически",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разрушается бета-лактамазой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применяется внутрь(per os)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Отметить инфекции, в отношении которых активны тетрациклины",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бациллярная дизентерия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "брюшной тиф",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "малярия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грипп",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кандидамикоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "С чем связан механизм действия тетрациклинов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрушением клеточной стенки микроорганизма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушением синтеза РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетением внутриклеточного синтеза белка рибосомами бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушением проницаемости цитоплазматической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрушением ядерного аппарата клетки микроорганизмов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Что характерно для левомицетина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеет широкий спектр действия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "действует бактерицидно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "действует бактериостатически",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "из ЖКТ всасывается плохо",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "устойчивость микроорганизмов развивается быстро",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Какие побочные эффекты характерны для левомицетина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетение кроветворения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поражение кожных покровов (сыпь, дерматит)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тромбоцитопеническая пурпура",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемералопия (куриная слепота)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ксерофтальмия (сухость роговицы)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Какие из нижеперечисленных антибиотиков относятся к группе аминогликозидов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тетрациклин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гентамицин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стрептомицин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "цефамизин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Какие из побочных эффектов наиболее характерны для стрептомицина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эктрапирамидные расстройства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поражение вестибулярной ветви VIII пары черепно-мозговых нервов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фотосенсибилизация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "психозы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Отметить механизм антимикробного действия полимиксина М сульфата",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повреждающее действие на цитоплазматическую мембрану",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нарушение синтеза белка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение синтеза клеточной стенки за счёт угнетения синтеза миколевых кислот",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение синтеза РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрушение ядерного аппарата бактерий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Отметить препараты сульфаниламидов, применяемые для резорбтивного действия",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фталазол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сульгин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "этазол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сульфадимезин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сульфазин серебряная соль",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Какой препарат из сульфаниламидов оказывает сверхдлительное действие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фталазол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сульфазин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сульфален",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уросульфан",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сульфацил-натрий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Укажите препарат сульфаниламидов только для местного применения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сульфапиридазин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "этазол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сульфацил - натрий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сульфален",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уросульфан",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Отметить механизмы антибактериального действия сульфаниламидов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушения синтеза клеточной стенки микроорганизмов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изменения проницаемости мембраны клеток микроорганизма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "конкурентный антагонизм с парааминобензойной кислотой в процессе синтеза фолиевой кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "угнетение синтеза белка рибосомами бактериальной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушения синтеза РНК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Чем объяснить, что фталазол применяется только для лечения кишечных инфекций (бактериальной дизентерии и энтероколитов)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "превосходит другие сульфаниламиды по активности в отношении кишечных инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладает только местным противовоспалительным эффектом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "препарат почти не всасывается в кровь, в связи с чем создаётся высокая концентрация его в ЖКТ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "быстро снижается его концентрация в плазме за короткий период",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "медленно достигается бактериостатическая концентрация в крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Почему уросульфан наиболее эффективен при инфекциях мочевыводящих путей",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "превосходит другие сульфаниламиды по активности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не всасывается в ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выделяется в неизменном виде, быстро через почки, в связи с чем, в моче создаются высокие концентрации препарата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "быстро биотрансформируется в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выделяется в неизменном виде через кишечник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Какие осложнения характерны для сульфаниламидов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение зрения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кристаллурия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "алопеция (облысение)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение слуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Отметить комбинированные препараты сульфаниламидов с триметопримом",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сульфадимезин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фталазол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бисептол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сульфатон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сульгин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Почему триметоприм усиливает антибактериальную активность сульфаниламидов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиливает способность сульфаниламидов конкурировать с парааминобензойной кислотой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разрушает цитоплазматическую проницаемость мембраны микробной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетает дегидрофолатредуктазу, блокируя тем самым переход дегидрофолиевой кислоты в тетрагидрофолевую",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушает синтез белка на уровне рибосом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрушает клеточную стенку бактерий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Какие препараты относятся к производным хинолона",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитроксалин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фуродонин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кислота налидиксовая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "энтеросептол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диоксидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Отметить препараты фторхинолонов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неграм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактрим",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "офлоксацин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "левомицетин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нистатин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Что характерно для фторхинолонов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеет узкий спектр антимикробногодействия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "высокая активность в отношении грамположительных бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высокая активность в отношении грамотрицательных бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "оказывает бактерицидное действие",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "оказывает бактериостатическое действие",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Какой из препаратов относится к производным 8-оксихинолина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фуразолидон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кислота налидиксовая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "этамбутол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нитроксолин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "офлоксацин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Отметить противосифилитические препараты",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензилпенициллин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фуразолидон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "невиграмон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нистатин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "амфотерицин В",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Что характерно для офлоксацина (таривид)",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "является антибиотиком узкого спектра действия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "является антибиотиком резерва",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обладает бактерицидным действием",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обладает бактериостатическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "механизм действия заключается в угнетении синтеза РНК",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Противовирусные средства",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Изониазид.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Рифампицин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Фурадонин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ремантадин.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Интерферон.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Фуразолидон.",
+						"isCorrect": false
+					},
+					{
+						"index": 7,
+						"text": "Кислота налидиксовая.",
+						"isCorrect": false
+					},
+					{
+						"index": 8,
+						"text": "Оксолиновая мазь.",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

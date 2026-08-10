@@ -1,0 +1,5429 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Кто ввел впервые понятие эвтаназия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ф. Бэкон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Аристотель",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Павлов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Сеченов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кант",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Кто впервые ввел понятие философия медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Р. Гоклениус",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Р. Вирхов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Г. Гегель",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "К. Маркс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гиппократ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "В каком году было использовано понятие философия медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1613 г",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1785 г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1865 г",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1960 г",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2001 г.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "В какой стране впервые в обиход науки вошло понятие философия медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в СССР",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в Германии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в Америке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в Греции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в Польше.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Философия медицины - это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дисциплина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Учение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Трактат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гипотеза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Наука",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Связь медицины и философии не проявляется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изучение человека, личность и влияние общества на личность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сходство целей и задач",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "единство методологии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в поиске первоначало",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в богопознании",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Задача философии медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правильно поставить диагноз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "систематизировать медицинские знания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "умения применять диалектику на практике",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эффективно влиять на пациента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "умение общаться с родственниками больного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какая проблема не относится к философским проблемам медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проблема субъекта и объекта в медицинском познании",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проблема жизни и смерти и их сущность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "философско-этические проблемы медицины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проблема понимания в медицине (мед. герменевтика)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проблема измерения экспрессии генов во времени",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Что не входит в задачу философии медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лечение и профилактика болезней",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "укрепление здоровья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продление жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "создание здоровья и оптимизацию психоэмоциональной сферы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выполнение койки дней",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "В чем заключается сходство философии и медицины по изучаемому предмету",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в том, что обе науки исследуют эволюцию антропогенеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в том, что они обе исследуют космические процессы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в том, что они обе исследуют проблему происхождения жизни и человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в том, что предметом их обеих является человек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в том, что они не могут определить параметры излечения больного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Кто определил впервые медицину как деятельность по преобразованию собственной природы человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Сеченов и Павлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Боткин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Пирогов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Бенедиктов и Плотников",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Мечников и Пирогов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Медицина в переводе означает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "благо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "здоровье",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "помощь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "исцеление",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "добро",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Тесная связь философии и медицины не проявляется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в ценностной ориентации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в решении одной и той же проблемы – выживания человека на Земле",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в единстве пути поиска истины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в решении проблемы самоопределения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в определении критерии истинности клинического диагноза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какой из указанных авторов сводит философия медицины к проблеме индивидуального взаимоотношение врача и больного",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Эдмунд Пеллегрино",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Гиппократ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Роберт Вирхов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Тристам Энгем Гард",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Уильям Стемпсей.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Когда возникла философия и медицина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на заре становления человеческой цивилизации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в периоде Нового времени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при становлении капитализма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при социализме",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в XX столетии нынешнего времени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Когда происходит становление философии и медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с появлением трудовой деятельности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с дифференциацией разных видов деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с развитием алхимии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с развитием промышленности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "со становлением капитализма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "К какому виду деятельности относится медицинская деятельность",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к преобразующей деятельности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к потребительской деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к производящей деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к экономической деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к меркантильной деятельности.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Согласно Гиппократу, врач философ подобен",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "герою",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мудрецу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "богу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "духовному наставнику",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "королю науки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Философская методология не помогает врачу",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в понимании сущности познания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в понимании принципов познания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в понимании методов познания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "научному решению теоретических и практических задач",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в определение прогнозов болезни",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Что не свойственно новейшему времени медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "специализация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "социальные новшества",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение числа больных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение числа врачей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способность прогнозировать болезнь",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Какие из указанных функций исторически не были связаны с философией медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "методологическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мировоззренческая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аксиологическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гносеологическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "социологическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какое из указанных противоречий главнее, является главным в философии медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "противоречия между физиологическим и патологическим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "противоречия между обновлением отдельных элементов и строение живой системы в целом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "противоречие между физическими изменениями и относительно морфологической неизменностью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "противоречие между здоровьем и болезнью",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "противоречие между генотипом и фенотипом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "«Философия – это спутница и молочная сестра религии», - это утверждение принадлежит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ал-Кинди",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ал-Фарабе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ибн-Сина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ибн-Рушду",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Ибн-Баджа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Из перечисленных, какая проблема не относятся к философии медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проблема субъекта и объекта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проблема жизни и смерти",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проблема причинности в медицине",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "философско-этическая проблема в медицине",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проблема производства и потребления",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "«Предмет философии состоит в том, чтобы узнать идею в ее истинной и всеобщей форме» - так полагал",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фихте",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Шеллинг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кант",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гегель",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Фейербах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Сама природа есть тот «внутренний врач», который с рождения присутствует в каждом человеке и поэтому сведущ в болезнях больше, нежели специалист, лишь нащупывающий симптомы извне. Это положение характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "античной медицины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "медицины эпохи Возрождения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медицины эпохи Средневековья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "медицины Нового времени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "романтической медицины (XIX в)",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Взаимосвязь медицины и философии предопределена чем? (укажите правильный ответ)",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ценностно-мировоззренческим элементом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "познавательно-методологическим элементом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "псевдонаучным элементом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "этико-эстетическими элементами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "социологическими элементами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Что является предметом изучения философии медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "здоровье и болезни человека",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мировоззрение человека",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бытие человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "этико-эстетическая природа человека",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гносеологическая (познавательные способности человека)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Взаимообогащение философского и медицинского знания не способствует к чему",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "духовному развитию врача",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышению качества мировоззренческой культуры врача",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эффективности врачевания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адекватному мироощущению",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экономическому обогащению",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Какое из перечисленных типов познания является наиболее важнейшим",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чувственно-предметный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "материально-производственный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "социально-преобразующый",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "научный эксперимент",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интуитивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Кто создает в организме клетки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "организм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "органы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "суставы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рибосомы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "В истории медицины соотношение целого и части решалось больше всего",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "механистически",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "диалектически",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "материалистически",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рационалистически",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмпирически",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Кто из немецких философов назвал медицину «родиной материализма»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Кант",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фихте",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Шеллинг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гегель",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фейербах.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Немецкий философ, который предложил следующую классификацию болезней 1) Внешние или инфекционные 2) Особенные, имеющие две формы – острую и хроническую 3) Психические",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фихте",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фейербах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Шеллинг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гегель",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Кант",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Гегель полагал, что психические заболевания имеют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "духовно-телесную природу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "телесную природу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "духовную природу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "беспричинные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "космическую природу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "В понятие философия медицины входит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "умственное познание теории здоровья и болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "теоретическая основа современной медицины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "правильная постановка диагноза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проведение медицинского эксперимента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "теория естествознания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Медицина относится к одному из следующих типов знания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "естественно научному",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гуманитарному",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "междисциплинарному",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фундаментальному",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "биологическому",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Фундаментальным основанием, формирующим медицинскую профессию, является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экономическое",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "познавательное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "морально-этическое",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "социально-бытовое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "природно-экологическое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Какой из форм познания в медицине, принадлежит решающая роль",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "суждению",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "умозаключению",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "понятию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "теории",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "факту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "В понятие философия медицины входит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "умственное познание теории здоровья и болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "теоретическая основа современной медицины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "правильная постановка диагноза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проведение медицинского эксперимента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "теории естествознания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "В результате изучения учебной дисциплины «Философские проблемы медицины», студент не должен знать, что",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "философские основания медицинских проблем",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Методы и приемы философского анализа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "универсальные законы диалектики, их место и значение для медицины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задачи философских проблем медицины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глобальные проблемы современности",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "По ходу изучения философских проблем медицины студент не должен владеть чем",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "навыками философской интерпретации научных проблем",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отстаивание самостоятельной точки зрения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "принципами медицинской этики и врачебной деонтологии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "навыками нравственной культуры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ораторским мастерством",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Какие из указанных функций исторически не были связаны с философией медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "методологическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мировоззренческая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аксиологическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гносеологическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "социологическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Кто из немецких философов назвал медицину «родиной материализма»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Кант",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фихте",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Шеллинг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гегель",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фейербах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какой из указанных авторов сводит философия медицины к проблеме индивидуального взаимоотношение врача и больного",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Эдмунд Пеллегрино",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Гиппократ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Роберт Вирхов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Тристам Энгем Гард",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Уильям Стемпсей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Тесная связь философии и медицины не проявляется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в ценностной ориентации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в решении одной и той же проблемы – выживания человека на Земле",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в единстве пути поиска истины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в решении проблемы самоопределения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в поиске первоначала",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Знание сущности закона взаимного перехода количества в качества в медицине способствует (укажите неправильный ответ)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "избегать механистический подход в лечебном процессе.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "правильному толкованию нормальных (физиологических) процессов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "адекватному представлению патологии в организме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "качественному отличию одно явление от другого",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "накоплению духовного и физического состояния",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Медицина есть восстановление согласия стихий, утративших взаимное равновесие болезнь есть нестроение стихий, соединенных в «живом организме» – такое определение дает выдающийся художник Возрождения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Микеланджело",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Леонардо да Винчи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Донателло",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гойя",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Рембрендт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "К какому виду деятельности относится медицинская деятельность",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к преобразующей деятельности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к потребительской деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к производящей деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к экономической деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к меркантильной деятельности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Какое онтологическое противоречие выражает медицинская категория «предболезнь»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "противоречие организма и среды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "противоречие бытия актуального и потенциального",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "противоречие субъективного и объективного",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "противоречие человека и природы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "противоречие фенотипа и генотипа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Что не свойственно новейшему времени медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "специализация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "социальные новшества",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение числа больных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение числа врачей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способность прогнозирования болезни",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Задача философии медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правильно поставить диагноз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "систематизировать медицинские знания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "умения применять диалектику на практике",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эффективно влиять на пациента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "умение общаться с родственниками больного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Кто создал впервые «пневматическую систему медицины»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Алкмеон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Гиппократ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Анаксиален",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эфрифон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Анаксимандр",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Кто автор высказывания ? «Философия должна быть внедрена в медицину и медицина в философию, ибо все свойства философии сохраняют свое значение в медицине»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Декарт",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гиппократ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гален",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Асклепиад Ибн-Сина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Кто автор высказывания «Медицина, не основанная на философии, не может быть надежной»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гиппократ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Бэкон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Декарт",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гален",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Асклепиад",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Выделите высшее понятие онтологии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "истина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бытие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "добро",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "красота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гармония",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Два основных направления в философии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скептицизм и стоицизм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "апологетика и патристика",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реализм и номинализм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "материализм и идеализм",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "позитивизм и неокантианство",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Система принципов и методов, выражающих место медицины в общем человеческом знании, ее цель и назначение в плане удовлетворения социальных потребностей и ориентации, взаимоотношение медицинской науки, морали, искусства, движущие силы и закономерности развития научной теории как социального явления",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мировоззренческие основания медицины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гносеологические основания медицины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "социологические основания медицинской науки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "методологические основания медицины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аксиологические основания медицины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Определение, относящееся к медицине",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Система научных знаний и практическая деятельность, направленные на сохранение и укрепление здоровья людей, и предупреждение болезней.+",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Система исследования поведения людей в процессе производства, распределения и потребления материальных благ и услуг.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Система научных знаний, изучающая численность, состав населения, его структуру, движение населения.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Система научных знаний о формировании индивидуального здоровья",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "система исцеления больного с помощью врача",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Согласно описанию Аюверды первейшей задачей врача является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "учить людей чистому, душевному образу жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лечить тело больного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лечить психику больного",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "требовать от пациента гигиену тела",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "консультирование больного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "В Ведической системе психическая конституция определяется по трем гуннам. Укажите их среди указанных",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Сатва",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Антаратма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Тамаса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Ригведа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Раджас",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Какое положение не относится медицинской системе Суш рута Аюверда",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все знания люди получают посредством органов чувств",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "все знания люди получают из откровения богов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезнь зависит от правильного или неправильного соотношения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в основе окружающего мира лежат 4 элемента (огонь, воздух, вода, земля)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "здоровье зависит от правильного или неправильного соотношения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Сущность метода Мокша состоит в прижигании на теле человека соответствующей точки, цель которого усилить движение начала «Инь»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лазерным лучом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "электрофиксатором",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пучками горящей травы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "электросветовым диодом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микроволновыми лучами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Благодаря акупунктуре китайские врачи не вскрывали что",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "абсцессы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экссудативные плевриты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "асциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кисты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "водянки (гидропс)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Древнекитайская медицина природу человека рассматривает как состоящую из",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "земли, воды, огня, дерева и воздуха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "огня, дерева, воды и пыли",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "земли, воды и воздуха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздуха, воды, огня и дерева",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дерева, воды, огня и земли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Древнекитайская медицина сущность патологии считалась нарушением пропорции между",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«инь» и «янь»",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "телом и душой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "здоровьем и болезнью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крови и желчи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфы и крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Аюверда считает причиной болезней",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "утомленность организма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "физическое несовершенства",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "забвение бога",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "непомерное питание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плохая социальная среда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Основатель современной анатомии, оставивший 7 томов «О строении человеческого тела»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Везалий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Парацельс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гарвей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Сервет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гиппократ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "В 17 веке В. Гарвей ввел практику научных исследований метод получивший название",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вивисекции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "индукции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дедукции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анализ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эксперимент",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Дамадан из Мегеба в своих медицинских справочниках использует трактаты",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Аль-Захрави",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ибн-Сины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ар-Рази",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ибн-Рушда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Аль-Газали",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Кто из указанных философов более склонен к медицине",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Анаксагор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Асклепиад",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Демокрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Анаксимандр",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гераклит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Древние римляне верили в существование богов каких болезней",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лихорадки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чесотки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "холеры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Врач – философ богу равный, ведь нет большой разницы между мудростью и медициной. Кому принадлежит это высказывание",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Платон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Асклепиад",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Алкмеон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гиппократ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Аристотель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Философия – это спутница и молочная сестра религии – это утверждение принадлежит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ал – Кинди",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ал – Фараби",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ибн – Сина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ибн – Рушд",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Ибн - Баджа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Сколько акупунктурных точек в Китайской медицине",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "250",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "388",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "500",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "150",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Кто является основателем рефлекторной теории",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гиппократ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Асклепиад",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ф.Бэкон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Р.Декарт",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Гален",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Кто впервые ввел понятие о рефлексе (ах)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "И.П. Павлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "И.М. Сеченов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "И. Прохазка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Р. Декарт",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Гиппократ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Кто является основоположником анатомии человека и экспериментальной физиологии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гиппократ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Асклепиад",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гален",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Алкмеон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Декарт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "В эпоху средневековья главным авторитетом в области медицины был",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пифагор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гиппократ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гален",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Декарт",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Аристотель.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Слава искусного врача пришла к нему в 17 лет, когда он вылечил Эмира Бухары. Это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ар-Рази",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ибн-Сина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ибн-Аттар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Захрави",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ибн-Рушд",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Медицинская система Сушруты-Аюверда тесно связано с какой философской системой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Миманса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Санкхья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Вайщещика",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Йога",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Чарвака",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Аювердическая медицина направлена",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на оказание благотворного влияния на всю жизнь человек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на лечение болезней",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "восстановление здоровья человек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "избегать коварных воздействий среды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "восстановление дефектов в организме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Кому из русских революционных демократов принадлежит утверждение «Философия без естествознания так же невозможна, как естествознание без философии»",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Герцен",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Огареву",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Чернышевскому",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Добролюбову",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Белинскому",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "В каком из четырех сборников излагаются самые ранние методы индийской медицины и фармакологии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ригведа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Самаведа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Атхарваведа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Яджурведа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нирвана",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Самый ранний источник мудрости Древней Индии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Веданта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Йога",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Веды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Аюверда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ригведа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Кто автор высказывания философия освобождает душу от страстей, а медицина избавляет тело от страданий.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гален",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гиппократ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Эмпедокл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Асклепиад",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Тео страт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "В каком из 4-х сборников излагается самые ранние методы лечения Индийской медицины и фармакологии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ригведа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Нирвана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Самоведа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ахтарведа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Яджурведа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "В средневековье внимание медицины было приковано",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проведению экспериментов на животных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изучению, обследованию человеческого тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заучиванию текстов и их комментированию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проведению лабораторных исследований",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выявлению истины патологии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Учение античной медицины о 4 соках получило интерпретацию арабо-мусульманских врачей в форме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мистицизма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "теории мизаджей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "учения о предопределении медицины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "суфизма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мутакалима",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Автором «Канона медицины» является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ар-Рази",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ибн-Рушд",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ибн-Сина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Парацельс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гарвей.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Философской основой солидарного направления в античной медицине является учение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Акслепиада",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Демокрита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Сократа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Галена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гиппократа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Философской основой гуморального направления в античной медицине является учение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Платона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фалеса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гераклита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Бэкона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гегеля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Гиппократ считал, что каждая болезнь имеет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "случайный характер",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "естественную причину",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сверхъестественную причину",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "космический характер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "необходимость в жизни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Гуморального направления в медицине придерживался",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гален",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гетте",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гиппократ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Гюйгенс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гегель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Гиппократ опирался на положение о существовании в организме человека",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трех соков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "четырех соков",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пяти соков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "только одного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только кровь и желчь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "В эпоху средневековья главным авторитетом в области медицины был",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гарвей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гален",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гиппократ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ибн-Рушд",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Платон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Духовный наставник в индуизме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Брахман",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Атман",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гуру",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Будда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Карма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Медицинская система Сушруты-Аюверда тесно связано с какой философской системой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Миманса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Санкхья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Вайщещика",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Йога",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Чарвака",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "К основным положениям медицинской системы Сушруты – Аюверда относятся (укажите правильные)",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Все знания люди получают не из откровения богов, как учат жрецы, а посредством органов чувств",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В основе окружающего мира лежат 4 элемента (огонь, воздух, вода и земля)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Болезнь или здоровье зависят от правильного или неправильного соотношения 4-х элементов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Болезнь или здоровье зависит от нарушения питания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Человек является причиной собственной судьбы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Последователь Конфуция Мен-цзы (372-289) считал от рождения человеку не присуще такое качества – какое",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чувство сострадания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чувство стыда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "чувство скромности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чувство умения различать истину от лжи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "чувство наглости",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Кто из указанных философов более склонен к медицине",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Анаксагор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Асклепиад",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Демокрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Анаксимандр",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гераклит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Аювердическая медицина направлена",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на оказание благотворного влияния на всю жизнь человека",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на лечение болезней",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "восстановление здоровья человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "избегать коварных воздействий среды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "восстановление дефектов в организме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Древние римляне верили в существование богов каких болезней",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лихорадки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чесотки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "холеры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Врач – философ богу равный, ведь нет большой разницы между мудростью и медициной. Кому принадлежит это высказывание",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Платон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Асклепиад",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Алкмеон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гиппократ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Аристотель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Кто из перечисленных ученых в молодости стал отличным врачом. Это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Аль-Фараби",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ибн-Сина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ибн Аттар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ибн Рушд",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ал-Газали",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Согласно Демокриту душа",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "смертна",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бессмертна",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не имеет существования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "космично",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эфироподобное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Античный мыслитель, который утверждал, что кровь образуется в печени и оттуда поступает к сердцу – источнику чувств, где согревается и по венам оттекает ко всем органам тела",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гиппократ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Парацельс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Аристотель",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "А.Визалий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гален",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Аюрведа в переводе от латинского означает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "смерть",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "здоровье",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жизнь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лечение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Согласно Аристотелю активным началом жизнедеятельности является энергия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "душа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "материя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "форма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эфир.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Для эмпиризма характерно признание основным источником знания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чувств",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опыта",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "разума",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интуиции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "практика.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Какое учение установило четыре священных истины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Индуизм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Доосизм",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Джайнизм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Санкьхя",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Буддизм.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Кто из указанных философов более склонен к медицине",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Анаксагор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Асклепиад",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Демокрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Анаксимандр",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гераклит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "О естественно нравственной причинности в индийской духовное мысли говорится где",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сансара",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "карма",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сатва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "йога",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миманса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Врач философ представитель стоицизма",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Эпиктет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сократ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Эпикур",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Аристотель",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эвдемон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Название класса людей, которые посвятили себя врачеванию",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зомби",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колдун",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шаман",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "берегиня",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "факир",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Согласно школе Ньяя существует четыре источника знания (указать ошибочный вариант)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ощущение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "восприятие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "умозаключение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "свидетельство",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анология",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Конечная цель человеческого существования по Буддизму – это достижение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нирвани",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Самадхи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Маета",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кармы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Дхармы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Содержание сознания людей зависит от форм их предметно-практической и социально-экономической жизнедеятельности. Эта идея принадлежит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Аристотелю",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Канту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Марксу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Гегелю",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Бэкону",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Творческое «озарение», интуиция относятся к сфере",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сознания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бессознательного",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эмоции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "чувства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Тезис «Сознание человека не только отражает объективный мир, но и творит его» принадлежит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "богослову Ф. Аквинскому",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "идеалисту Гегелю",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экзистенциалисту Ж.Сартру",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "материалисту Ленину",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сенсуалисту-Протагору",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Бессознательное с позиции современной философии -это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "явление и процессы в психике человека которые ими не осознаются, но влияют на его поведение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рефлекторные процессы в организме человека",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опыт, не поддающийся логическому анализу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нечто присущее отдельному человеку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "биологическое и социальное в личности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Что движет человеком к жизни согласно Ницше",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "злостный инстинкт",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чистая воля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воля к власти",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бытие таковое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "карьерный рост",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "В учение Фрейда К .Юнг ввел понятие, укажите какое",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коллективного бессознательного",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аффекта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интуиции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "установки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аффекта и интуиции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Психоанализ – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "врачебный метод исследования психики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "часть психотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "философско-психологическое учение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бессознательное состояние",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подсознание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Автором психофизиологического и философского трактата «Рефлексы головного мозга» является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "И. Павлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Н. Пирогов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С. Боткин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "И. Сеченов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "И. Мечников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Немецкий психиатр и философ К. Ясперс под феноменом «преступной государственности» понимает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Выраженные в законе права народа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "узаконенную свободу действия человека",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "принятие государством закона, противоречащего моральным нормам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аппарат, принуждающий человека к соблюдению норм права",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "абсолютная воля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Какие суждения могут принадлежать только материалисту",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мир существует вне сознания людей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бытие определяет сознание",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сознание есть свойство, продукт божества",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сознание первично, а материя вторично",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сознание продукт субъекта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Выделите в предложенных суждениях вульгарный материализм",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сознание есть свойство материи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сознание – это субъективная реальность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сознание – идеально",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сознание – это отражение материи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сознание – тождественно материи",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "По какому направлению не ведется исследование современная психосоматическая медицина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейрофармакология",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биохимия гормонов и медиаторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "энцефалитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "совершенствование методик психотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метапсихологической теории",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Высший из известных уровней отражения какой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "механическое",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "химическое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "физическое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "биологическое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "социальное отражение",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Что является итогом любой эмоциональной или мыслительной реакции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышечное движение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синоптическая связь нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "движение крови по сосудам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дыхательное движение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слово врача",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Что является простейшей формой биологического отражения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сокращение мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "раздражимость",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ощущение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чувствительность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмоции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Что является вегетативным компонентом эмоции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожные реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "двигательные реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "секреторные реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сосудистые реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нервные тики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "В каком суждении правильно выражено общественно-историческая сущность сознания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сознание не может отражать общественную жизнь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сознание является продуктом социальной среды",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сознание человека определяет общественную жизнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "источником сознания не является общество",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сознание присуще всему живому",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Основоположником психоанализа является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фрейд",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Ницце",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Адлер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Юнг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фром",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Сублимация, согласно психоанализу, это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имитация активной деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "преобразование подсознательных влечений в духовную деятельность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отказ от деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пассивно ожидание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бессознательная стадия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Тезис «Сознание является результатом эволюции и развития абсолютной идеи» выдвинул",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Монтень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кант",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гегель",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Маркс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Бердяев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Речь – это мышление, иначе, по мнению Фейербаха, величайшие болтуны должны были быть величайшими",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мыслителями",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ораторами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "политиками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мыслителями и ораторами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "учеными исследователями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Частицы материи наделены жизнью и даже некоторого рода мыслью, так утверждали",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмпиристы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сенсуалисты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "материалисты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гилозоисты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "махисты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Лейбниц признает психически деятельными субстанциями",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "частицы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "монады",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "молекулы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "космические тела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "«Живи сам и дай жить другим» - этот принцип",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рационализма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "авторитаризма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разумного эгоизма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гедонизма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "деспотизма.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Человек - существо (наиболее подходящий ответ)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биосоциальное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "социальное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "биологическое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "космического происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "божественное.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "К классическим концепциям сознания не относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "объективно-идеалистическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "субъективно-идеалистическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вульгарно-материалистическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "герменевтическая",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "психологическая.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Сознание рассматривается как свойство высокоорганизованной формы материи",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "объективный идеализм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "субъективный идеализм",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метафизический материализм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вульгарный материализм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диалектический материализм.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Что такое сознание",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Божественный дар",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "субъективная реальность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сфера чувственности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сфера мышления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "психическое вообще.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Положение, которого придерживался Маркс",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сознание – это продукт только мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сознание определяет бытие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сознание – это комплекс ощущения человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сознание – это осознанное бытие",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сознание – это дар Божий.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Для возникновения сознания необходимы предпосылки – какие?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "биологические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "химические",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "социальные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "физические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "космические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Что не относится к главным свойствам сознания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "идеальность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интенциональность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "идеаторность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "предмет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воспоминание",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Теория поэтапного развития интеллекта (сенсомоторная стадия, дооперациональная стадия, стадия конкретных операций, стадия формальных операций) принадлежит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Э. Эриксону",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Э. Фромму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "З. Фрейду",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "К. Юнгу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ж. Пиаже.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Теория морального развития человека в соответствии со стадиями 1)послушание ориентация наказание, 2)индивидуализм и обмен, 3)хорошие личностные отношения, 4)сохранение социального порядка, 5)социальный контракт и индивидуальные права, 6)универсальные принципы принадлежат",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Л. Кельбергу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Э. Фромму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "З. Фрейду",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "К. Юнгу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ж. Пиаже",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Предметное содержание сознания находится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вне сознания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в самом сознании",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "за пределами космоса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в Боге",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в духе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "С точки зрения диалектического материализма сознания не рассматривается в каких аспектах",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "онтологический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гносеологический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "субстратный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "генетический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "божественный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "О том, что сознание является особым проявлением материи, это точка зрения какого философского направления",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "умеренного материализма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вульгарного материализма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диалектического материализма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "метафизического материализма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "солипсизма.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Тезис «Сознание является результатом эволюции и развития абсолютной идеи» выдвинул",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Монтень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кант",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гегель",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Маркс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Бердяев.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Речь – это мышление, иначе, по мнению Фейербаха, величайшие болтуны должны были быть величайшими",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мыслителями",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ораторами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "политиками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мыслителями и ораторами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "учеными исследователями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Не правильным является суждение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "психические проявления всегда связаны с мозгом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мозг только орган психики, а не ее источник",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "психика каждого человека находит выражение в его речи и поступках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "источником психики является нервная система",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "источником психики является окружающая среда.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "По какому направлению не ведутся исследования современной психосоматической медицины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейрофармакология",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биохимия гормонов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "энкефалинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "совершенствование методик психотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "божественное влияние на человеческую жизнь",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Что является источником сознания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "объективная реальность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "свойство человеческого мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "человеческое мышление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "идеальная форма бытия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Выделите в предложенных суждениях, позиция вульгарный материализм",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сознание есть свойство материи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сознание – это субъективная реальность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сознание – идеально",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сознание – это отражение материи.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сознание – тождественно материи.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Какие суждения могут принадлежать только материалисту",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мир существует вне сознания людей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бытие определяет сознание",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сознание есть свойство, продукт божества",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сознание первично, а материя вторично",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продукт божества",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Что является итогом любой эмоциональной или мыслительной реакции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышечное движение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синоптическая связь нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "движение крови по сосудам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дыхательное движение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слово врача.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Интенциональность сознания, согласно современной философии (феноменологии) это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "способность сознания продуцировать идеи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "способность сознания отражать окружающий мир",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "направленность сознания на объекты и процессы в окружающем мире",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тождественность сознания с материей.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "направленность сознания во внутрь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Противниками выделения конкретных стадий в развитии человека выступали",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бихевиористы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Гештальпсихологи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Психоаналитика",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Когнитивисты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Психологи-гуманисты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Теорию научения посредством наблюдения разработал",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дж. Уотсон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Э. Фромм",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ф.Б. Скиннер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "А. Бандура",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "А. Фрейд",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Учение, одушевляющее все в природе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фатализм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тотемизм",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фетишизм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "индуизм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анимизм.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Элементарной формой психики является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чувствительность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эмоции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "раздражимость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейрон.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Психоанализ – это (наиболее правильный ответ)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "врачебный метод исследования психики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "часть психотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "философско-психологическое учение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бессознательное состояние",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "психосоматика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Что движет человеком к жизни согласно Ницше",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "злостный инстинкт",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чистая воля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воля к власти",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бытие таковое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "доброта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Идеальное это – (правильный ответ)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Есть не что иное, как материальное пересаженное в человеческую голову и преобразованное в ней",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "субъективная реальность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продукт абстрактного мышления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "объективный дух",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внепсихическая реальность",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 97,
+				"text": "Отсутствие страдания – это есть удовольствие основной тезис учения {",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 109,
+				"text": "Какие недостатки медицинских книг своих предшественников старался исправить Ибн-Сина в своем труде «Канон врачебной науки»",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 126,
+				"text": "Какую позицию характеризует следующее положение «наш мозг выделяет наши мысли», как печень выделяет желчь» {",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 144,
+				"text": "В истории философии предлагались различные варианты по вопросу о смысле человеческой жизни. Согласно одному из них удел человека – мужественно вести себя перед реальной угрозы беды, катастрофы, лишений, смерти. Подобной позиции придерживались {",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

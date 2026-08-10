@@ -1,0 +1,933 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Каким путем можно наиболее точно определить стадию опухолевого процесса при раке молочной железы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "путем маммографии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "путем гастроскопии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "путем лапароскопии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "путем лабораторных исследований",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "путем ларингоскопии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Как по международной классификации (TNM) обозначаются метастазы в регионарные лимфоузлы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "N0",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Nx",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "N1",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "N2",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "N3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Как по международной классификации (TNM) обозначить раковую опухоль толстой кишки циркулярно обтурирующую просвет и вызывающую кишечную непроходимость?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Т2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Т3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Т0",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Т0-1",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Одним из характерных признаков доброкачественной опухоли является: ~ инфильтрация окружающих тканей",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие капсулы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "быстрый рост",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "склонность к рецидивам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плохой аппетит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Для химиотерапии злокачественных опухолей применяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диоксидин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тиотеф",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемодез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепарин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аспирин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "В диагностике ранних форм рака молочной железы, эффективным исследованием является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обзорная R-графия грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "УЗИ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "маммография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анализ крови на глюкозу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анализ крови на билирубин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Одним из характерных признаков рака молочной железы III степени является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метастазы в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "распад опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие метастазов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метастазы в подмышечные лимфоузлы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "метастазы в подчелюстные лимфоузлы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Выполнение радикальной операции при раке невозможно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в I стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "во II стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в III стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в IV стадии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в V стадии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Лучевая терапия не применяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при раке молочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при раке желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при раке нижней губы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при раке матки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при раке гортани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Гормонотерапия применяется при раке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "молочной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ободочной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кожи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Какую операцию можно считать радикальной при раке желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гастроэнтеростомия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гастростомия 3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "илеотрансверзостомия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гастрэктомия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "резекция ⅓ желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Какая паллиативная операция показана при стенозе пищевода на почве рака IV стадии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гастростомия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "холецисто-гастростомия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колостомия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гастроэнтеростомия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холецистэктомия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Одним из признаков злокачественных опухолей является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медленный рост",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие капсулы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие нарушений обменных процессов в организме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "склонность к метастазированию",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отсутствие метастазов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Решающим в определении характера опухоли является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "общеклиническая симптоматика",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биопсия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рентгенологическое исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндоскопическая картина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "компьютерная томография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "В диагностике рака поджелудочной железы эффективным исследованием является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обзорная R-графия брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "УЗИ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гастроскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анализ крови на глюкозу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лапароцентез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Одним из характерных признаков рака желудка III стадии является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метастазы в печень 4",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перфорации опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие метастазов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "множественные метастазы в регионарные лимфоузлы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение размеров желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Что такое метастаз Крукенберга?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метастаз в поджелудочную железу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метастаз в лимфоузел под ключицей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метастаз в яичник",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "метастаз в селезенку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метастаз в печень",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Гормонотерапия применяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при раке желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при раке поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при раке молочной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при раке печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при раке толстой кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Какая паллиативная операция показана при стенозе привратника на почве рака желудка IV стадии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гастростомия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "холецисто-гастростомия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колостомия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гастроэнтеростомия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "спленэктомия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "К доброкачественным опухолям относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфосаркома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "меланома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хондрома",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "семинома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "карцинома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "К злокачественным опухолям относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "невринома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "липома 5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фиброма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "саркома",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тератома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Для злокачественных опухолей характерна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ограниченный рост",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие капсулы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прорастание в соседние ткани (органы) и метастазирование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "медленный рост",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "местный характер распространения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Что такое абластика?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "предупреждение попадания микроорганизмов в рану",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "предупреждение попадания опухолевых клеток в рану",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "применение противоопухолевых химиопрепаратов с целью уничтожения опухолевых клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щадящее отношение к опухолевой ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обработка раневой поверхности после удаления опухоли спиртом или йодом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Что такое антибластика?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "предупреждение попадания микробов в рану",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уничтожения опухолевых клеток в ране",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "предупреждение попадания клеток в рану",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щадящее отношение к опухолевой ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тщательное обкладывание операционного поля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Для доброкачественной опухоли характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "четкая граница",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "прорастание в окружающие ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метастазирование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "похудание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рецидивирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "К доброкачественной опухоли из гладкой мышечной ткани относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейомиома",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рабдомиома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "папиллома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тератома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фибромиома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "К доброкачественным опухолям из хрящевой ткани относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "саркома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфосаркома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хондрома",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "миома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "остеома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Комплексное лечение злокачественных опухолей включает методы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хирургический + лучевой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только хирургический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хирургический + лучевой + химиотерапия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "только лучевой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лучевой + химиотерапия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Какой метод не применяется при лечении злокачественных опухолей",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хирургический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лучевой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "химиотерапевтический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "физиотерапевтический",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "иммунологический",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

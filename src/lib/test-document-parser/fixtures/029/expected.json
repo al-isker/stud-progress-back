@@ -1,0 +1,6652 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Классификация профессиональных вредностей по природе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "физические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "биологические",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антропогенные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "естественные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Профессиональная болезнь:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "болезни, которые не могут возникнуть без проф- вредностей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "заболевание пожилого и старческого возраста",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезни, возникающие с возрастными изменениями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "болезни, развивающиеся при большом стаже работы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Профессиональные болезни развиваются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при воздействии проф- вредностей превышающих гигиенические нормативы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при наличии организме других заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при воздействии профессиональных экофакторов малой интенсивности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при воздействии факторов в пределах гигиенических нормативов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Опасность профессиональной болезни зависит от:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "интенсивности профессиональной вредности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "состояния организма",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "возраста",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ни отчего не зависит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Острые профессиональное отравление развиваются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при кратковременном воздействии высоких концентраций яда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при длительном воздействии токсикантов малой интенсивности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при кратковременном воздействии гигиенических нормативов токсиканта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при продолжительном воздействий высоких концентраций токсиканта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Сан- технические средства защиты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вентиляция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "респиратор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "противогаз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "периодические медицинские осмотры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Защита от профессиональных вредностей с помощью:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "совершенствования технологии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "робототехники",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "замены опасных элементов технологии на неопасные или менее опасные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "психотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "замены пластмассовых элементов технологии на металлические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Индивидуальные средства предназначены для защиты от профессиональных ядов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одного рабочего",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рабочих одного производственного участка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рабочих смежных участков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не могут защитить никого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Предварительные медицинские осмотры целью оценить здоровье рабочего:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поступлением на работу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перед увольнением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при стаже работы 10-12 месяцев",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перед очередным профсоюзным отпуском",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перед направлением в профилакторий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Площадь на основное стоматологическое кресло:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "14 м2",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "7м2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10м2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "15м2",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15м2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Периодические осмотры в условиях воздействия профессиональных вредностей имеют целью:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ранней диагностики общих неспецифических заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "диагностики профессиональной болезней",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "определение группы инвалидности по причине общей болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выбора санаторно - курортного лечения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диагностики профессиональных отравлений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Профессиональные экологические факторы влияют на эффективность фармакотерапии:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшают из-за нарушения фармакокинетики",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижают эффективность из-за иммунодепрессивного действия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышают эффективность из-за оптимизации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не могут влиять фармакокинетики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Патогенетическая профилактика профессиональных отравлений:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "элиминационная терапия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "профилактическая фармакотерапия болезней сердечно - сосудистой системы.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лечение заболеваний органов мочевой системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "симптоматическая терапия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Дополнительное питание при работе с профессиональными вредностями назначаются для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "компенсации энергетических затрат и уменьшения опасности проф - вредностей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение массы тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стимуляции функции желудочно -кишечного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оптимизации функции печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Специфические признаки профессиональных болезней:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "признаки присущие только конкретной профессиональной болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "общие признаки профессиональных и не профессиональных заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение функции эндокринной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушения, возникающие в скелете при дефиците фтора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Специфические изменения в периферической крови при отравлении свинцом:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение количества эритроцитов с базофильной зернистостью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "альбуминат свинца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличение количества эритроцитов и тромбоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ретикулоцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Высота стоматологических кабинетов не менее:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3 м",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "6 м 1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4 м",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "7 м",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3,9 м",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Световой коэффициент стоматологического кабинета:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1:4",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1:5",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1:8",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1:6",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1:10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Специфические клинические признаки отравления ртутью:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тремор пальцев рук, губ, языка, век",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тремор судороги пальцев ног",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изменение цвета кожи лица",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "потеря массы тела, сна",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эмоциональная лабильность",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Специфические признаки отравления хромом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перфорация носовой перегородки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшение количество эритроцитов и гемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "остеопороз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение плотности скелета",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Коэффициент естественной освещенности стоматологического кабинета:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,5%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,5%",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,5%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Основные методы диагностики пылевых заболеваний органов дыхания:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенологические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "функциональные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гематологические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунологические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "морфофункциональные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Дефицит микроэлемента меди в рационе питания вызывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "задержку дифференциации эритрона",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рост костей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезни кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение функции ЦНС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Профессиональные вредности химической природы и их влияние на эффективность фармакотерапии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не влияют",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышают эффективность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижают",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зависит от функции почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Механизм влияния химических токсикантов на фармакокинетику лекарственных препаратов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушают из-за роста свободно циркулирующего и выведения из организма части фармпрепарата",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не влияют",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оптимизируют через комплекс с транспортными белками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "влияние зависит от фармпрепарата",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Концентрация токсиканта в воздушной среде измеряется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в мг/ м 3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в мл / л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в см3 / л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в мг / л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в мг/м 2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Первичная профилактика это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устранение причины заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ранняя диагностика",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диагноз, подтвержденный лабораторно-инструментальными методами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "своевременная комплексное врачебное обследование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "устранение причины осложнения основного заболевания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Вторичная профилактика:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "перевод заболевания в ремиссию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ранняя диагностика и своевременное эффективное лечение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "профилактические мероприятия, следующие за первичной профилактикой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вторичной профилактики нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Вынужденное положение тела на работе может привести к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "профессиональной болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "утомлению",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "переутомлению",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не представляет опасности для здоровья",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не представляет опасности для здоровья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Опасность профессионального заболевания зависит от:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "состояния организма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "профвредности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "погодных условий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возраста",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пола",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Острые профессиональные отравления возникают при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кратковременном воздействии высоких концентрации ядов в воздухе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при длительном воздействии высоких концентраций ядов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при воздействии низких концентраций ядов в воздухе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при заболеваниях органов пищеварения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Хронические профессиональные отравления развиваются при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продолжительном воздействии малых концентрации ядов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "продолжительном воздействии на организм высоких концентраций ядов в воздухе рабочих мест",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронические профессиональные отравления не развиваются",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "развиваются только при сопутствующих заболеваниях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Профессиональные болезни могут развиться медицинских работников:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционистов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хирургов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "терапевтов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "окулистов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "акушер - гинекологов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Профессиональные отравления по степени тяжести делятся на:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тяжелую степень",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средней степени тяжести",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "без степени тяжести, просто диагноз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "промежуточную стадию 2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Неопределенные патофизиологические сдвиги при воздействии проф - вредностей могут быть пользованы при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "профилактике нозологий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выборе методов лечения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оценке эффективности лечения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прогнозировании исхода заболевания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Тропность промышленных ядов влияет на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "избирательное выведение накопление в органах и тканях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "равномерное распределение яда в организме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ускоренное выведение из организма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не оказывает заметного влияние на кинетику в организме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "На скорость выведение промышленных ядов из организме влияет:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "водорастворимость яда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "заболевание почек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "заболевание кожи и слизистых",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "жирорастворимость яда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "заболевание скелета",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Промышленные яды попадают в организм через:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "органы дыхания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поврежденную и не поврежденную кожу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "слизистые",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "желудочно-кишечный тракт",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Жирорастворимые промышленные яды поражают преимущественно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЦНС",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кожу и слизистые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "органы дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезенку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Промышленные яды могут вызвать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "заболевание (нозологию)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "врожденные пороки развития",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бесплодие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мутагенный эффект",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Наследственные болезни могут быть вызваны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "профессиональными вредностями",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изомерным питанием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ОРЗ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "климато- географическими условиями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Является ли предметом гигиены труда изучение состояния здоровья работающих и их заболеваемости?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Какое средство используется для профилактики судорожной болезни среди рабочих горячих цехов?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подсоленная газированная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "унитиол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дистиллированная вода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "карбоген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кислород",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Какие шумы относятся к среднечастотным?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "350-800 Гц",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "16-160 Гц",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "160-250 Гц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "260-800 Гц",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "800-1200 Гц",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какие средства защиты используются в целях профилактики неблагоприятного влияния вибрации?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "спецобувь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рукавицы с двойной прокладкой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "защитная краска",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "респиратор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмокостюм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "К какой группе пневмокониозов относится пневмокониоз электросварщиков?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от смешанной пыли",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "силикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "силикатозы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "карбокониозы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от органической пыли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Что называется аэрацией производственных помещений?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "естественная управляемая вентиляция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "приточная механическая вентиляция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вытяжная механическая вентиляция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "приточно-вытяжная механическая вентиляция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "естественная неорганизованная вентиляция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Какое количество часов рабочего времени в неделю выделяется цеховому врачу для проведения профилактической работы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "9 часов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "4 часа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "7 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "11 часов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Является ли физиология труда составной частью гигиены труда?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Какие заболевания могут возникнут у рабочих, подвергающихся действию инфракрасного излучения?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "катаракта",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тепловой удар",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "силикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "силикатоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "радиоволновая болезнь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Может ли шум интенсивностью в 100 дБ вызвать шумовую травму?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "да",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "да при отсутствии шлемофона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "да при отсутствии беруши",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет при низком атмосферном давлении",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Как называется явление совпадения частоты колебательных движений тканей человека с частотой внешней вибрации?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резонанс",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рефракция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реверберация 3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дифракция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интерференция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Какое питание используется специально в целях предупреждения профессиональных заболеваний?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лечебно- профилактическое",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лечебное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изомерное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сбалансированное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рациональное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "О чем свидетельствует узость зоны острого действия вещества при оценке его токсичности?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "большой возможности острых отравлений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "малой возможности острых отравлений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сильной выраженности компенсаторных реакций организма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выраженности кумулятивных свойств",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "абсолютной летучести",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Кем по специальности должен быть цеховой участковый врач медико-санитарной части?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гигиенист",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эпидемиолог",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хирург",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "невропатолог",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Верно ли, что одной из задач физиологии труда является разработка методов лечения утомления и переутомления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "да",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "да в возрасте до 15 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "да в возрасте до 15 лет для мальчиков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "да в возрасте до 17 лет для девочек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Какие из лучей способны проникать через черепную коробку и воздействовать на мозговые оболочки?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфракрасные короткие",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ультрафиолетовые короткие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфракрасные длинные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ультрафиолетовые средние",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ультрафиолетовые длинные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Укажите специфические изменения, происходящие в организме под влиянием шума?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "утомление слуха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тугоухость",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "головная боль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "головокружение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ослабление памяти",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Какое вещество может быть причиной возникновения литейной лихорадки у рабочих?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цинк",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "свинец",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фтор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оксид углерода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сернистый газ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Какое количество наружного воздуха на 1го работающего должна подавать система вентиляции в производственные помещения с объемом больше 20 3 на 1го человека?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не < 20 м 3 час",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не < 5 м 3 / час",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не < 10 м 3 / час",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не < 15 м 3 час",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не < 25 м 3 час",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Верно ли, что предметом гигиены труда является изучение трудовых процессов и вызываемых ими физиологических сдвигов в организме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Какой уровень интенсивности шума соответствует болевому порогу (порогу переносимости звуков)?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "140 дБ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "40 дБ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "70 дБ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "100 дБ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "170 дБ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Укажите главные факторы, от которых в решающей степени зависит распространение вибрации в тканях организма:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "частота колебаний",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "место приложения вибрации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "амплитуда колебаний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "температура тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "состояние организма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Какие заболевание могут быть следствием напряжения отдельных органов организма при работе?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "координаторные неврозы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эмфизема легких",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "силикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хронический колит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ботулизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "К какой группе пневмокониозов относится сидероз?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "металлокониозы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "силикатозы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "карбокониозы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пневмокониозы от смешанной пыли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмокониозы от смешанной пыли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Создание в производственных помещениях воздушной среды с заданными параметрами называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кондиционированием",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рециркуляцией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздушным душированием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аэрацией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инсоляцией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "По какому принципу осуществляется лечебно - профилактическое обслуживание промышленных рабочих медико - санитарными частями?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цеховой участковости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "краевой участковости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "республиканской участковости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "городской участковости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "районной участковости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Какие профессиональные вредности относятся к группе, обусловленных неправильной организацией трудового процесса?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "статистические перегрузки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "динамические перегрузки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вынужденное положение тела",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нервно- психические перегрузки 4",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Верно ли, что положение сидя при работе с гигиенической точки зрения менее благоприятно, чем положение стоя?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "да",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "да, если этот школьники начальных классов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "да, для учащихся старших классов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "да, для лиц преклонного возраста",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Подчеркните единицы измерения громкости звуков",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фоны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сонны",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "белы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "децибелы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "герцы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Как называется сочетание пневмокониоза с туберкулезом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кониотуберкулез",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ателектаз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмофиброз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "легочной гранулематоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулема",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Для марганцевого паркинсонизма наиболее характерны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "насильственный смех",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изменение походки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нарушение равновесия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "снижение остроты слуха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровотечения из носа и десен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Какие условия согласно ГОСТу 20445-75 необходимо выполнять для правильного измерения уровней шума на рабочих местах в помещениях промышленных предприятий?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "измерить шум не менее чем в трех точках",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микрофон шумомера направить в сторону источника шума",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микрофон шумомера расположить на высоте 1,5 м от пола",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отключить систему вентиляции помещения на время измерения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Врачебные здравпункты организуются на промышленных предприятиях с числом работающих не менее:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1000 человек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "500 человек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "700 человек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "800 человек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "900 человек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Какие заболевание могут быть следствием вынужденного положения тела при работе?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плоскостопие",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "варикозное расширение вен нижних конечностей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "геморрой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "писчий спазм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмфизема легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Верно ли, что кондукция - это теплопроведение путем соприкосновения тела человека с окружающим его воздухом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Укажите неспецифические изменения, происходящие в организме под влиянием шума",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение сна",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение внимания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изменение частоты пульса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "утомление слуха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тугоухость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Какие различают вибрации по способу передачи человеку?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "общие, местные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "горизонтальные, вертикальные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "постоянные, непостоянные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "периодические, апериодические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среднечастотные, высокочастотные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "ПДК оксида углерода в воздухе рабочей зоны?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20 мг/м 3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,07 мг/м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,1 мг/м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,2 мг/м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2 мг/м 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Как классифицируется производственная вентиляция по месту действия?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "местная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "общая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "приточная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вытяжная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "механическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Как часто цеховые участковые врачи МСЧ предприятий должны проводить анализ заболеваемости с ВУТ рабочих?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1 раз в месяц",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1 раз в два месяца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1 раз в квартал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1 раз в полугодие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1 раз в год",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Верно ли слуховой анализатор человека воспринимает звуковые колебания с частотой от 16 Гц до 20000 Гц?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Наибольшей фиброгенной активностью обладает пыль размерами",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "8-10 мкм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "больше 10 мкм",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6-7 мкм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,3-5 мкм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "меньше 0,25 мкм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Какой из рационов лечебно - профилактического питания способствует выделению из организма депонированного свинца?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рацион № 3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рацион № 1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рацион № 2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рацион № 4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рацион № 5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "О чем свидетельствует широкая зона хронического действия вещества при оценке его токсичности? 5",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "выраженной возможности хронических интоксикаций",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выраженности кумулятивных свойств",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выраженности компенсаторных реакций организма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слабой возможности хронических интоксикаций",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слабой выраженности кумулятивных свойств",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Как классифицируется производственная вентиляция по способу перемещения воздуха?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "естественная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "механическая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "приточная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вытяжная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "приточно - вытяжная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Специфическим проявлением влияния производственных вредностей являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "профессиональные заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эндокринные заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алиментарные заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндемические заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пищевые отравления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Верно ли, что при температуре внешней производственной сред выше температуры тела единственно возможный путь теплоотдачи - это теплоиспарение?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Укажите относительные единицы измерения интенсивности (силы) звука, шума",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бел",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "децибел",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "герц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Верно ли, что положительными электрическими зарядами характеризуется неметаллическая пыль и кислотные окислы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "В каких органах и тканях организма, как правило, депонируется свинец?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нервы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "почки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "печень",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Как классифицируется производственная вентиляция по назначению?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "приточно- вытяжная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вытяжная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "общая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "искусственная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "приточная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Верно ли, что в возникновении профессиональной тугоухости наибольшее значение имеют высокочастотные звуковые колебания по сравнению с низкочастотными?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Можно ли при механическом измельчении твердых веществ образовываться аэрозоль конденсации?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "да",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "да при высокой температуре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "да при работающей вытяжной вентиляции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "да при отсутствии вентиляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Форма пылевых частиц оказывает влияние на",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "скорость оседания пыли из воздуха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глубину проникновения пыли в дыхательные пути",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "электрозаряженность пыли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "растворимость пыли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дисперсность пыли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "ПДК марганца в воздухе рабочей зоны составляет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,3 мг/ м 3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,12 мг/ м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,2 мг/ м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,4 мг/ м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,5 мг/ м 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Что входит состав современной медико - санитарной части, обслуживающей промышленных рабочих?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поликлиника",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фельдшерский здравпункт",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стационар с отделениями различного профиля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "врачебный здравпункт",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "профилакторий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Может ли шум называться постоянным, если уровни его во времени измеряются от 5 до 10 дБ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "да",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "да если изменения наступают в течение 2 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "да если изменения наступают в течение 30 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "да если изменения наступают в течение 3 часов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Верно ли, что электрозаряженная пыль задерживается в дыхательных путях больше, чем нейтральная",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Как классифицируется пыль по механизму образования?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аэрозоль дезинтеграции, аэрозоль конденсации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "органическая, неорганическая, смешанная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "видимая, микроскопическая, ультрамикроскопическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "электрозаряженная, нейтральная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "растворимая, нерастворимая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Какие из мероприятий по предупреждению профессиональных отравлений относятся к лечебно - профилактическим?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "предварительные медосмотры рабочих",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "периодические медосмотры рабочих",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гигиеническое нормирование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "замена ядовитого вещества менее ядовитым",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вентиляция рабочих помещений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "ПДК свинца в воздухе рабочей зоны?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0, 01 мг/ м 3 6",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,1 мг/ м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,05 мг/ м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,5 мг/ м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,15 мг/ м 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Укажите приборы для отбора проб воздуха на запыленность?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эжекторный аспиратор",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "электрический аспиратор",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аспирационный психрометр",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "актинометр",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крыльчатый анемометр",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Какое количество наружного воздуха на одного работающего должна подавать система вентиляции в производственные помещения с объемом меньше 20 м 3 на одного человека?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не менее 30 м3 / час",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не менее 10 м3 / час",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не менее 15 м3 / час",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее 20 м3 / час",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее 25 м3 / час",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Верно ли, что пыль металлов и основных окислов заряжена электроотрицательно?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "ПДК паров металлической ртути в воздухе рабочей зоны составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,01 мг/ м 3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,05мг/ м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,1 мг/ м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,2 мг/ м 3",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,3 мг/ м 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Какие вещества могут вызвать прободение носовой перегородки у рабочих при длительном воздействии?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хром",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бензол",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "оксид углерода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ртуть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "никель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "При вибрационной болезни наиболее резко нарушается чувствительность",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вибрационная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "болевая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тактильная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "температурная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Наиболее выраженное воздействие на организм при одинаковых уровнях громкости оказывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокочастотный шум",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "низкочастотный шум",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "среднечастотный шум",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "низкочастотный постоянный шум",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среднечастотный переменный шум",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Какая организация составляет и выдает санитарно - гигиеническую характеристику условий труда работающего?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "центр государственного санэпиднадзора",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фельдшерский здравпункт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "врачебный здравпункт",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "медико- санитарная часть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "врачебно - трудовая экспертная комиссия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "В профилактике вибрационной патологии наибольшее значение имеют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "технические мероприятия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средства индивидуальной защиты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предварительные медицинские осмотры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рациональный режим труда и отдыха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "периодические медицинские осмотры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Укажите абсолютные единицы измерения интенсивности (силы) звука, шума",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "децибел",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "люкс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ватт/ см 2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Координаторные неврозы является следствием влияния:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перенапряжения отдельных органов и систем при работе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "шума",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ионизирующей радиации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "общей вибрации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неблагоприятного климата",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Может ли охлаждающий микроклимат привести к возникновению судорожной болезни у рабочих?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "да",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Назовите заболевания, относящиеся к силикатозам:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "талькоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "каолиноз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "асбестоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цементоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Какое количество лабораторных животных необходимо для изучения каждой испытуемой дозы вещества при определении средних смертельных доз?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не менее шести",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не менее четырех",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не менее пяти",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не менее семи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не менее десяти",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Утомление - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "физиологический процесс",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острое заболевание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хроническое заболевание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "патологическое состояние",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Биссиноз вызывает пыль:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлопка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "льна",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "табака",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "талька",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "каменного угля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Багассоз вызывает пыль:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сахарного тростника",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "талька",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цемента 7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "железа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кремния",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Постоянным называют шум, уровень которого измеряется во времени не более чем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5 дБ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2 дБ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3 дБ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "7дБ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10 дБ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Укажите эффекты комбинированного действия химических веществ на организм:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "антагонизм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синергизм",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кумуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адаптация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ассимиляция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Единицей измерения громкости звуков является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ватт / см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "герц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бел",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "джоуль",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Время, затраченное на угасания звука называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реверберацией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рефракцией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "резонансом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "конвергенцией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "амплитудой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Акустические колебания частотой свыше 20000Гц называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ультразвуком",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инфразвуком",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "резонансом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "порогом слышимости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "болевым порогом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Суммирование токсичного эффекта ядов, действующих на организм, называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аддитивным действием",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синергизмом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антагонизмом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "независимым действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "комплексным действием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Укажите причину судорожной болезни у рабочих горячих цехов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "большая потеря воды и соли с потом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "низкая температура окружающей среды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "низкая влажность окружающей среды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высокая скорость движение воздуха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронический дефицит белков и питании",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Максимальное отклонение тела от положения устойчивого равновесия называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амплитудой колебания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "частотой колебания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "периодом колебания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "временем колебания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атаксией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Весь диапазон громкостей, воспринимаемых человеком как звук укладывается в",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0-140 дБ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0-40 дБ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0-60 дБ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0-80 дБ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0-100 дБ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Как называются акустические колебания с частотой менее 16 Гц",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфразвук",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ультразвук",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шум",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "звук",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "болевой порог",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Эффект потенцирования токсичности одного вещества действием другого вещества называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синергизмом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "суммацией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антагонизмом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "независимым действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "комплексным действием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Какой рацион лечебно- профилактического питания применяются при работах с радионуклидами и источниками ионизирующих излучений",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рацион № 1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рацион № 2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рацион № 3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рацион № 4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рацион № 5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Какой рацион лечебно - профилактического питания применяется при работах с органическими и неорганическими соединениями свинца",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рацион № 3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рацион № 5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рацион № 2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рацион № 1",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рацион № 4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Изменение наследственных свойств организма под воздействием химических веществ, проявляющихся у его потомства, называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мутагенным действием",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "терратогенным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бластомогенным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "канцерогенным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмбриотоксическим действием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Одновременное или последовательное действие на организм нескольких ядов при одном и том же пути поступления называют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комбинированным действием",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сочетанным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комплексным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "комплексно - сочетанным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сочетано - комбинированным действием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "проводится диагностическое капилляроскопическое исследование:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "около ногтевое ложе 4-го пальца левой руки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глазное дно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ладонная поверхность 2-го пальца правой руки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тыльная поверхность 2-го пальца левой руки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "около ногтевое ложе 5-го пальца правой руки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Концентрация вещества, вызывающая гибель 50% животных при ингаляционном воздействии называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средней смертельной концентрацией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средней смертельной дозой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коэффициентом возможности ингаляционного отравления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зоной острого действия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зоной хронического действия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Пневмокониоз, возникающий от вдыхания пыли минералов, содержащих двуокись кремния в связанном состоянии, называют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "силикатозом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "силикозом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "багассозом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "биссинозом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "карбокониозом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Фиброз легких, вызванным вдыханием пыли свободной двуокиси кремния, называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "силикозом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "асбестозом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оливинозом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "силикатозом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сидерозом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Отдача тепла предметам, непосредственно соприкасающимися с поверхностью тела называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кондукцией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "конвекцией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "теплоиспарением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "теплоизлучением",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инверсией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Как классифицируют пыль по механизму образования?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аэрозоли дезинтеграции и конденсации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "органическая, неорганическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "естественная искусственная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроскопическая, видимая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эектрозаряженная, нейтральная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Какие свойства промышленных ядов определяют их способность проникать в организм через неповрежденную кожу?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "малая летучесть",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хорошая растворимость в жирах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "высокая летучесть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "низкая растворимость в жирах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "удельный вес",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Укажите характерные диагностические признаки меркуриализма",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тремор пальцев вытянутых рук",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синевато - фиолетовая кайма по краю десен",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лиловато - серая кайма по краю десен",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроциты с базофильной зернистостью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "маскообразность лица",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Укажите характерные диагностические признаки сатурнизма",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лиловато - серая кайма по краю десен",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эритроциты с базофильной зернистостью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синдром паркинсонизма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение болевой и тактильной чувствительности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синевато - фиолетовая кайма по краю десен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Как классифицируется шум по происхождению?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "механический, аэродинамический, гидродинамический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "низко - средне и высокочастотный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "широкополосный, непостоянный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "импульсный, прерывистый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Укажите источники общей вибрации",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "виброплатформы, вибростенды, прессы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рубильные и отбойные молотки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перфораторы и пневмотрамбовки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "электро - и бензомоторные пилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шлифовальные и сверлильные машины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Влияние хронических заболеваний верхних дыхательных путей на поведение аэрозолей в органах дыхания:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивается количество аэрозолей, задерживающих в органах дыхания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличивают опасность пылевых частиц любых размеров",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не влияет на кинетику аэрозолей в органах дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "влияют только на крупнодисперсные пылевые частицы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличивают опасность пылевых частиц только средних размеров",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Пылевые частицы делятся на:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "растворимые",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нерастворимые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "слаборастворимые",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет деления пылевых частиц по растворимости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Из перечисленных признаков в крови свинцовой интоксикации специфичны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "базофильная зернистость эритроцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "альбуминат свинца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гематопорфирины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лейкоцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Специфические признаки поступления свинца в организм по анализу мочи:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышенное количество уропорфирина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение количества свинца в моче",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рост количества лейкоцитов в моче",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроциты в моче",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Патогенетическая профилактика отравления свинцом, другими тяжелыми металлами и попавшими в организм радионуклидами:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "элиминационная терапия комплексонами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышенная энергетическая ценность рациона питания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обогащенный пектинами рацион питания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "2-х кратное повышение количества потребляемой воды 9",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Ранние признаки интоксикации ртутью:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тремор пальцев вытянутых рук",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тремор губ, век, языка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "расстройство ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "незаживающие язвы слизистых и кожи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Первичная профилактика:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устранение причины заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лечение на ранних стадиях заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лечение сопутствующих заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "использование современных лабораторно-инструментальных методов диагностики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Вторичная профилактика:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ранняя диагностика и адекватное лечение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эффективное лечение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "самолечение без консультации врача",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высока точность диагноза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Дисперсность аэрозолей измеряется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мг/ куб.см",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в мг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Концентрация проф. ядов в воздушной среде измеряется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мг./куб. метр",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мл/куб. метр.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "см. куб / куб. метр.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "см./куб. метр.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Из попавших в органы дыхания аэрозолей в легких здорового человека остается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "25,0%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "100%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "75,0%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "50,0%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10,0%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Для определения нагрузки проф. ядов на организм необходимо знать",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "концентрацию яда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "массу тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ЖЕЛ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нельзя определить",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "условия производственного микроклимата",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Через неповрежденную кожу в организм могут проникнуть яды",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жирорастворимые",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "водорастворимые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в виде тумана",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через неповрежденную кожу не могут попасть в организм никакие яды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Кинетика профессиональных ядов это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пути попадания, распределение и выведение из организма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "технология их (ядов) образования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "концентрация в воздушной среде",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "влияние на поведение ядов в организме возраста и пола",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование метаболитов токсикантов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Аддитивное действие экологических факторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "суммация биологического действия 2-х или нескольких экологических факторов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "патогенное действие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "укрепляющее здоровье действие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшение повреждающего действия одного из факторов при воздействии 2-х факторов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "суммация массы воздействующих факторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Комбинированное воздействие экологических факторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздействие факторов сходной природы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "одновременное воздействие нескольких факторов разной природы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздействие одного и того же фактора разными путями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздействие двух и больше факторов, уменьшающих патогенное действие друг друга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Сочетанное действие экологических факторов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздействие факторов разной природы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воздействие факторов одинаковой природы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздействие факторов через органы дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сочетанное действие факторов не существует в реальной жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "периодическое воздействие одинаковых факторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Потенцирование действия экологических факторов, в том числе и лекарственных препаратов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совместное действие нескольких факторов превосходит сумму эффектов каждого фактора",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение биологических эффектов при воздействии нескольких факторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повреждающие эффекты такие же, как при воздействии каждого фактора (лекарства) в отдельности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опасность для здоровья такая же, как при воздействии наиболее опасного из них",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие эффекта от воздействия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Ингибирующий эффект:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "один лекарственный препарат или проф. яд уменьшается эффект другого",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "биологический эффект, ниже, чем ожидаемый от раздельного воздействия факторов (лекарственных препаратов)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при одновременном воздействие нескольких факторов (лек.препаратов) усиливается биологический эффект одного из факторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ингибирующий эффект в промышленной токсикологии и фармакотерапии исключается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Поведение аэрозольных частиц в альвеолах:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мигрируют через межальвеолярные перегородки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фагоцитируются альвеолярными макрофагами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "удаляются через дыхательные пути",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "растворяются",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "накапливаются в альвеолах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Какие аэрозоли по химическому составу опаснее для здоровья?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержащие двуокись кремня в свободном виде",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "содержащие двуокись кремния в связанном виде",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "органические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смешанные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "металлсодержащие",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Органические аэрозоли вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "силикатозы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заболевания ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "заболевания периферических нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "заболевания печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Какой дисперсности бывают аэрозоли?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "10 мкм и больше",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5 - 10 мкм",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "меньше 5 мкм",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "30 мкм и больше",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "20 мкм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Основные свойства возбудителя ботулизма",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вырабатывает экзотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аэроб",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не образует споры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не вырабатывает токсин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Собственно пылью называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аэрозоли, в которой дисперсной средой является воздух, а дисперсной фазой твердые частицы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дисперсную систему, в которой дисперсной средой являются твердые частицы, а дисперсной фазой - воздух",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аэрозоли дезинтеграции с твердой и жидкой дисперсной фазой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аэрозоли конденсации и дезинтеграции с жидкой дисперсной фазой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Кварцевая пыль, содержащая свободную двуокись кремния до 90% оказывает действие",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фиброгенное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "канцерогенное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мутагенное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аллергенное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Эффективное средство борьбы с пылью при шлифовке:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "увлажнение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вентиляция вытяжная местная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вентиляция приточная местная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вентиляция общая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Мероприятия, являющиеся наиболее радикальными при борьбе пылью",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "технологические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лечебно - профилактические",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "средства индивидуальной защиты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "санитарно - технические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Содержание ПДК бензола в воздухе рабочей зоны (мг/м куб.)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5,0 мг/м куб.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,1 мг/м куб.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,0 мг/м куб.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "20 мг/м куб.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "ПДК аммиака в воздухе рабочей зоны (мг/м куб.)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20 мг/м куб.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,1 мг/м куб.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,0 мг/м куб.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5,0 мг/м куб.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "ПДК фенола в воздухе рабочей зоны (мг/м куб.)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,3 мг/м куб.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,1 мг/м куб.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,2 мг/м куб.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,4 мг/м куб.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,5 мг/м куб.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Естественная неорганизованная вентиляция осуществляется через:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не плотности внешних строительных ограждений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оконные проемы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "форточки и фрамуги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "специальные проемы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "Освещенность естественным светом нормируется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по коэффициенту естественного освещения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в ваттах м/с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в люксах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по величине освещенности в рабочем помещении",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "При нормировании искусственного освещения учитываются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все выше указанные варианты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "примененные системы освещения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "источники света",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "характеристика фона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "величина контраста объекта различия фона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "Вентиляционная система предназначена для удаления",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возможных сочетаний этих факторов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "избыточного тепла и влаги",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паров и газов химич. веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пыли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "Какая может быть производственная вентиляция в зависимости от способа организации воздухообмена:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "местная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "общеобменная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "механическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "приточно- вытяжная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Кондиционирование воздуха это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вентиляционная установка поддерживающая воздухообмен в помещении и микроклимат независимо от метео. условий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вентиляционная установка поддерживающая микроклимат помещении",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вентиляционная установка поддерживающая в помещении постоянный воздухообмен",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вентиляционная установка поддерживающая воздухообмен и микроклимат в зависимости от метео. условий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Создание оптимальных и допустимых параметров микроклимата производственных помещений достигается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комплексом указанных мероприятий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "технологическими мероприятиями",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "архитектурно строительными решениями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "системой вентиляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "Какой метод определения концентрации пыли является стандартным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "весовой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "счетный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "счетно-весовой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Фиброгенную активность пыли увеличивает от содержания в ней:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "свободной двуокиси кремния.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "асбеста",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угольной пыли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "талька",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "Какие виды промышленности являются источником образования производственной пыли?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "горнорудная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "угольная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "машиностроительная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "металлургическая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "Какие свойства пыли обуславливают ее вредное воздействие на организм?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дисперсность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "химический состав",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "электрический заряд",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "Как классифицируют производственную пыль по происхождению?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "органическая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неорганическая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "комбинированная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смешанная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "Как классифицируют производственную пыль по способу образования?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аэрозоли дезинтеграции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аэрозоли конденсации",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Как образуются аэрозоли дезинтеграции?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при механическом разрушении и дроблении твердых веществ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при механической обработке изделий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при термических процессах возгонки твердых веществ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Как образуются аэрозоли конденсации?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при термических процессах возгонки твердых веществ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при механическом разрушении и дроблении твердых веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при механической обработке изделий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "Как классифицируется производственная пыль в зависимости от дисперсности?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "видимая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микроскопическая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ультрамикроскопическая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "Какие группы заболеваний может вызывать промышленная пыль?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "специфические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неспецифические",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "Жирорастворимые промышленные яды поражают преимущественно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЦНС",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кожу и слизистые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "органы дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезенку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "Промышленные яды могут вызвать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "заболевание (нозологию)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "врожденные пороки развития",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бесплодие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мутагенный эффект",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "Наследственные болезни могут быть вызваны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "профессиональными вредностями",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изомерным питанием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ОРЗ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "климато- географическими условиями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "Сколько всего рационов лечебно- профилактического питания рабочих установлено в настоящее время?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пять",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "три",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "семь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шесть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "девять",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "По каким показателям производится оценка токсичности вещества в условиях острого воздействия?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "средняя смертельная концентрация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средняя смертельная доза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коэффициент возможности ингаляционного отравления",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "порог острого действия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "Для марганцевого паркинсонизма наиболее характерны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "насильственный смех",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изменение походки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нарушение равновесия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "снижение остроты слуха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровотечения из носа и десен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 200,
+				"text": "Какой из рационов лечебно - профилактического питания способствует выделению из организма депонированного свинца?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рацион № 3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рацион № 1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рацион № 2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рацион № 4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рацион № 5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 201,
+				"text": "О чем свидетельствует широкая зона хронического действия вещества при оценке его токсичности?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "выраженной возможности хронических интоксикаций",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выраженности кумулятивных свойств",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выраженности компенсаторных реакций организма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слабой возможности хронических интоксикаций",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слабой выраженности кумулятивных свойств",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 202,
+				"text": "Отдалённые последствия влияния химических веществ, используемых в промышленности?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмбриотоксическое",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "канцерогенноев",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мутагенно",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гепатотропное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ренотоксическое 12",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 203,
+				"text": "Пути выделения токсических веществ из организма?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лёгкие",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "почки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желудочно-кишечный тракт",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с грудным молоком",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кожа",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "Сколько классов опасности вредных химических веществ, согласно классификации, существует в России?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 205,
+				"text": "В каких органах накапливается свинец?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "почки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поджелудочная железа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кости",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "язык",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 206,
+				"text": "Классы опасности вредных химических веществ?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "чрезвычайно опасные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "высоко опасные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "умеренно опасные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "малоопасные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не опасные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 207,
+				"text": "Какие группы показателей опасности различают?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "показатели потенциальной опасности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "показатели реальной опасности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "показатели виртуальной опасности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 208,
+				"text": "Какие патологические процессы могут развиваться при воздействии промышленных ядов?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дистрофия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сенсибилизация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фиброз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "канцерогенный эффект",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 209,
+				"text": "Какие факторы окружающей среды способствуют увеличению токсического действия химических веществ, используемых в промышленности?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокая температура",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышенная влажность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изменение барометрического давления",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "понижение температуры",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отсутствие шума и вибрации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 210,
+				"text": "Показатели потенциальной опасности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "летучесть",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "растворимость в воде",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "растворимость в жирах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дисперсность",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 211,
+				"text": "Показатели реальной опасности?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсичность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "зона острого действия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "зона хронического действия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 212,
+				"text": "Какие вещества депонируются в костях?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "свинец",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бериллий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уран",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "никель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 213,
+				"text": "Какие вещества депонируются в паренхиматозных органах (печень, почки)?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ртуть",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кадмий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "марганец",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хром",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 214,
+				"text": "Промышленные яды могут вызвать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "заболевание (нозологию)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "врожденные пороки развития",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бесплодие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мутагенный эффект",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 215,
+				"text": "Наследственные болезни могут быть вызваны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "профессиональными вредностями",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изомерным питанием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 216,
+				"text": "Жирорастворимые промышленные яды поражают преимущественно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЦНС",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кожу и слизистые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "органы дыхания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 217,
+				"text": "Температуру и влажность воздуха на рабочем месте можно измерить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "психрометром Ассмана",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "актинометром",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "актинометром или радиометром",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 218,
+				"text": "У работающих в условиях нагревающего микроклимата отмечается",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение температуры открытых участков кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышение влагопотерь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "расширение сосудов кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "понижение температуры открытых участков кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "понижение влагопотерь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 219,
+				"text": "Допустимые параметры микроклимата рабочей зоны устанавливаются с учетом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "степени тяжести работы;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "степени напряженности работы;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "степени тяжести и напряженности работы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 220,
+				"text": "При нормировании микроклимата в соответствии с норматив¬ными документами выделяют категории работ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "легкой тяжести;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "малой тяжести;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 221,
+				"text": "Классы опасности вредных химических веществ?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "чрезвычайно опасные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "высоко опасные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "умеренно опасные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "малоопасные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не опасные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 222,
+				"text": "Классификация промышленных ядов по химическим классам соединений:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "органические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неорганические",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "элементоорганические",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синтетические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 223,
+				"text": "Специфическим проявлением влияния производственных вредностей являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "профессиональные заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эндокринные заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алиментарные заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндемические заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пищевые отравления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 224,
+				"text": "Аддитивное действие - феномен суммированных эффектов, при котором суммарный эффект",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "равен сумме эффектов действующих компонентов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "больше простой суммации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "меньше простой суммации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 225,
+				"text": "К отдаленным эффектам воздействия ядов на организм относятся",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гонадотропный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эмбриотропный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мутагенный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нефрогенный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 226,
+				"text": "Производственные яды по степени токсичности подразделяются на",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "чрезвычайно токсичные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "высокотоксичные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "умеренно токсичные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "малотоксичные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нетоксичные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 227,
+				"text": "Наследственные болезни могут быть вызваны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "профессиональными вредностями",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изомерным питанием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 228,
+				"text": "Жирорастворимые промышленные яды поражают преимущественно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЦНС",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кожу и слизистые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "органы дыхания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 229,
+				"text": "Температуру и влажность воздуха на рабочем месте можно измерить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "психрометром Ассмана",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "актинометром",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "актинометром или радиометром",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 230,
+				"text": "У работающих в условиях нагревающего микроклимата отмечается",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение температуры открытых участков кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышение влагопотерь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "расширение сосудов кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "понижение температуры открытых участков кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "понижение влагопотерь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 231,
+				"text": "Допустимые параметры микроклимата рабочей зоны устанавливаются с учетом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "степени тяжести работы;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "времени суток работы;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гендерных различий.",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

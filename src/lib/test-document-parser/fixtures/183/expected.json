@@ -1,0 +1,7364 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Иммунологическая память – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "способность к быстрому и эффективному ответу при повторном воздействии антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неадекватно высокая реакция на повторное воздействие антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "слабо выраженная реакция на повторное воздействие антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие реакции на повторное воздействие антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "формирование аутоиммунной реакции на повторное воздействие антигена.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В процессе формирования иммунологической памяти осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выработка аллергических антител класса Е",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выработка аутоиммунных антител",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дифференцировка Т- и В-лимфоцитов в клетки памяти",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "минимальная продукция антител",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "формирование иммунных комплексов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Лимфоциты памяти:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "могут начать иммунный ответ вне воспаления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "меньше нуждаются в медиаторах доиммунного воспаления",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "меньше нуждаются в костимулирующих сигналах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "имеют большие размеры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обнаруживаются только в центральных органах иммунной системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Антителообразование в процессе формирования иммунологической памяти включает следующие фазы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммуногенная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "патофизиологическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "логарифмическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "продромальная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отмирания.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Т-лимфоциты памяти:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечивают эффективный ответ на повторное введение антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "из тканей повторно мигрируют в тимус",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "длительно в организме не сохраняются",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обнаруживаются в центральных органах лимфоидной системы.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "являются гранулоцитами.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "В-лимфоциты памяти:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отличаются долголетием",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отличаются способностью быстро отвечать на повторное введение антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтезируют преимущественно антитела класса G",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не накапливаютя в периферических органах иммунной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неустойчивы к апоптозу.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Иммунный ответ развивается в следующих фазах:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммуногенная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "индуктивная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "логарифмическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стационарная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "иммунопатологическая.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Лимфоциты памяти:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сохраняют рецепторы к антигенам",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обладают «активным» геном, препятствующим апоптозу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "имеют хоминговые рецепторы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иммунный ответ начинают только при максимальных антигенных воздействиях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "недолгоживущие.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Иммунный статус человека – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "количественные и функциональные характеристики, определяющие иммунный ответ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "индивидуальная устойчивость к инфекционным заболеваниям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "динамика изменения конкретного показателя иммунитета в течение определённого времени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устойчивость к инфекционным заболеваниям, передающаяся по наследству",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "устойчивость к инфекционным заболеваниям после плановой вакцинации.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Причины развития первичных иммунодефицитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаточность питания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгеновское облучение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронические рецидивирующие инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "генетические нарушения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "профессиональные вредности.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Вторичные иммунодефициты клинически проявляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с первых дней жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с 4-6 месяца жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с двух лет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в пожилом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "независимо от возраста.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Иммунорегуляторный индекс – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соотношение Т-лимфоцитов и В-лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "абсолютное количество В-лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "абсолютное количество Т-лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "соотношение Т-хелперов и Т-киллеров",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "соотношение нейтрофилов и макрофагов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Вирус, вызывающий СПИД у человека относят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к РНК-содержащим ротавирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к РНК-содержащим пикорнавирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к РНК-содержащим лентивирусам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к ДНК-содержащим гепаднавирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к ДНК-содержащим вирусам герпетической группы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "ВИЧ передаётся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушно-капельным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "алиментарным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "парентеральным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трансмиссивным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бытовым.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Фермент ВИЧ, необходимый для встраивания в ДНК клетки-хозяина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "РНК-аза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ДНК-полимераза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиалуронидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интеграза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "протеаза ВИЧ-1.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Клетками-мишенями вируса иммунодефицита человека не являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стволовые кроветворные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритроциты.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Клинические проявления дефицита системы комплемента включают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфопролиферативный синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аутоиммунный синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфекционный синдром",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аллергический синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "геморрагический синдром.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Проявлениями I типа аллергических реакций в стоматологии являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "болезнь Бехчета",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синдром Шёгрена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анафилактический шок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отёк Квинке",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пародонтит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Индикаторной болезнью при ВИЧ-инфекции может быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактический шок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсоплазмоз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пневмоцистная пневмония",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "крапивница",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бронхиальная астма.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Для рецидивирующего афтозного стоматита характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "экспрессия Эн-антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "формирование иммунодефицита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очаги изъязвления слизистой оболочки полости рта",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хроническое течение",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "геморрагический синдром.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "К IV типу аллергических реакций относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "герпетическая полиморфная эритема",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лекарственный стоматит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синдром Шёгрена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рецидивирующий афтозный стоматит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отёк Квинке.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Вирус, вызывающий СПИД у человека относят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к ортомиксовирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к РНК-содержащим пикорнавирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к РНК-содержащим ретровирусам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к ДНК-содержащим поксвирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к РНК-содержащим флавивирусам.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "ВИЧ передаётся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "трансмиссивным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воздушно-капельным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алиментарным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перкутантным путём",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "половым.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Болезнь Бехчета характеризуется развитием:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "грибковых пневмоний",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фолликулитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мультисистемных васкулитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рекуррентных язвенных процессов в области гениталий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рекуррентных язвенных процессов в полости рта.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Фермент ВИЧ, необходимый для встраивания в ДНК клетки-хозяина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейраминидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аланинаминотрансфераза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ДНК-полимераза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интеграза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "протеаза ВИЧ-1.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Проявлениями ВИЧ-инфекции в полости рта яляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сиалоадениет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "афтозный стоматит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "генерализированный пародонтит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "опухоли десны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "геморрагический васкулит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Клинические проявления дефицита системы комплемента включают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аутоиммунный токсический зоб",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфекционный синдром",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синдром Шёгрена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "геморрагический синдром.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоцитопению.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Для синдрома Ди-Джорджи характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение количества лимфоцитов CD 4+",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышение количества В-лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение количества макрофагов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение количества эритроцитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вариабельное количество В-лимфоцитов..",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Клинические проявления болезни Бехчета:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "геморрагический синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пневмоцистные пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воспаление синовиальных оболочек",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фурункулёз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеит.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "СПИД у человека вызывается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "РНК-содержащим ретровирусом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вирусом Т-клеточного лейкоза человека типов 1,2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цитомегаловирусом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ротавирусом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусом Эпштейна-Барр.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Вирус иммунодефицита человека не передаётся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при парентеральном введении крови и её продуктов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при слизистых контактах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при трансплантации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при грудном вскармливании",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через неповреждённую кожу.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Клеточная латентность при инфицировании вирусом иммунодефицита человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие РНК вируса в клетке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие РНК вируса в клетке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие провирусной ДНК в цитоплазме клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интеграция провирусной ДНК в ДНК клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отсутствие провирусной ДНК в цитоплазме клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Динамическое исследование антител к вирусу иммунодефицита человека после возможного заражения проводят одновременно с определением маркёров заболеваний, передаваемых половым путем в течение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одного месяца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трёх месяцев",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шести месяцев",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в течение одного года",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в течение двух лет.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Проявлением вторичного иммунодефицита может быть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острые вирусные инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атопический дерматит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рецидивирующие инфекционные заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сердечно-сосудистые заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сывороточная болезнь.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Симптомами иммунодефицитного состояния у детей могут быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение развития лицевого черепа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "упорная молочница у детей старше одного года",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эпилептические припадки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "недоразвитие или отсутствие лимфоузлов, миндалин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "карликовый рост.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "При внутриутробной инфицированности плода отмечается преимущественный синтез:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ig A",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ig E",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ig M",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Ig G",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зависит от вида инфекции.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Проявлениями I типа аллергических реакций в стоматологии являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поллиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анафилактический шок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отёк Квинке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синдром Лайелла",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "синдром Стивена-Джонсона.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "ВИЧ-инфекция может сопровождаться развитием:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "саркомы Капоши",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "криптококкоза лёких",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ревматоидного артрита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пневмоцистной пневмонии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "атопического дерматита.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "К IV типу аллергических реакций относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поллиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ревматоидный артрит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "системная красная волчанка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контактный дерматит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отёк Квинке.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Ig-E-опосредованные реакции чаще развиваются на следующие препараты:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибиотики группы β-лактамов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "продукты крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "блокаторы нервно-мышечной передачи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кортикостероиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антигистаминные средства.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Толерантность иммунной системы беременной женщины к антигенам плода обусловлена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "позитивной селекцией лимфоцитов у плода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "негативной селекцией аутореактивных клонов лимфоцитов у плода",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствием у плода чужеродных антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижением активности Т-лимфоцитов у беременной женщины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "очень низкой концентрацией антигенов гистосовместимости на трофобласте.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Иммунорегуляторный индекс в период беременности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зависит от течения беременности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изменяется в разные сроки беременности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Адъюванты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют белковую природу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не активируют лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не вызывают аллергические реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "непосредственно активируют клетки доиммунного воспаления",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "оказывают литическое действие на бактерии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "При лечении агаммаглобулинемии Брутона целесообразно назначение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроцитарной массы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "препаратов тимуса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипериммунного гамма-глобулина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гамма-интерферона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кортикостероидных препаратов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "При лечении иммунодефицита с дефектом фагоцитоза возможно применение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гамма-глобулина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "препаратов тимуса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроцитарной массы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лейкоцитарной массы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "адаптогенов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Антигеном ВИЧ, вызывающим поликлональную активацию В-лимфоцитов, является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "gp-41",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "gp-24",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "p-7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "gp-120",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "h-6.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Высокий риск ВИЧ-инфицирования ребёнка возникает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при грудном вскармливании",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при тесном контакте",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при передаче вируса воздушно-капельным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через неповреждённую кожу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при укусах насекомых.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Клинические стадии инфицирования вирусом иммунодефицита человека классифицируют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "по манифестации индикаторных заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "по числу Т-лейкоцитов фенотипа CD-4+",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "по числу В-лимфоцитов и NK-клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по числу нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по результатам общего анализа крови.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Для синдрома Ди-Джорджи характерны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "экземы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пороки сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипоплазия тимуса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аномалии лицевого скелета",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "увеличение щитовидной железы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Первичные дефекты фагоцитоза проявляются после перенесённых:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирусных инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериальных инфекций",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "паразитарных инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грибковых инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глистных инвазий.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Болезнь Брутона обусловлена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-клеточной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "комбинированной Т и В-клеточной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дефектом системы фагоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В-клеточной недостаточностью",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дефектом системы комплемента.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Развитие синдрома Шёгрена может быть обусловлено",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "предшествующей травмой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "предшествующей вирусной инфекцией",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тромбоцитопенией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аллергической реакцией I типа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейтропенией.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Высокая восприимчивость к кандидозной инфекции полости рта отмечается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в молодом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "у подростков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "у грудных детей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "у пожилых",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от возраста не зависит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Синдром Ди-Джорджи обусловлен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В-клеточной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Т-клеточной недостаточностью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "комбинированной В и Т-клеточной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дефектом системы фагоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дефектом системы комплемента.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "В результате инфицирования вирусом клеток CD-4+ происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гибель клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латентная инфицированность клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "образование симпластов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пролиферация клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперпродукция цитокинов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Свойства антигенов вирус-индуцированных опухолей:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отличаются во всех опухолях и тканях в зависимости от их гистогенеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "могут быть внутриклеточными",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "могут экспрессироваться на мембранах клеток опухоли",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "идентичны во всех опухолях",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "изменяются в процессе роста опухоли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Раково-эмбриональными антигенами являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "простатспецифический антиген ( PSA )",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альфа –фетопротеин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бета-хорионический гонадотропин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "белок Р-53",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антиген HBS.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Проявлениями вторичных иммунодефицитов могут быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "острые вирусные инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опухолевые заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рецидивирующие инфекционные заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сердечно-сосудистые заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аутоиммунные заболевания.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Клинические проявления синдрома Ди-Джорджи:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тетрада Фалло",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аномалии лицевого скелета",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "судороги",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "желтушность кожи.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Для синдрома Шёгрена характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзема",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сухой кератоконъюнктивит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "прогрессирующий кариес зубов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфоцитарная инфильтрация слюнных желёз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тремор верхних конечностей.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Симптомами иммунодефицитного состояния у детей могут быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "боли в суставах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "упорная молочница у детей старше одного года",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "упорная геморрагическая диарея",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "острые вирусные инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диабет I типа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "При лечении агаммаглобулинемии Брутона целесообразно назначение:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкоцитарной массы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипериммунного гамма-глобулина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гамма-глобулина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "переливание цельной крови.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "При лечении иммунодефицита с дефектом фагоцитоза возможно применение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гамма-глобулина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "препаратов тимуса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроцитарной массы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лейкоцитарной массы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кортикостероидных препаратов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "При Х-сцепленных агаммаглобулинемиях типа Брутона развиваются заболевания:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндокринные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аутоиммунные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аллергические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериальные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лимфопролиферативные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Заболевания, развивающиеся при первичных Т-клеточных иммунодефицитах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирусные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "грибковые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "протозойные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериальные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глистные инвазии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Первичные дефекты фагоцитоза проявляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с первых дней жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с 4-6 месяца жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на втором году жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в подростковом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в зрелом возрасте.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Для синдрома Вискотта-Олдрича характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рецидивирующие инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитопении",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пороки сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аномалии развития конечностей.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Укажите заболевания, возможные в первой стадии инфицирования ВИЧ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфома мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грибковые поражения кожи и слизистых оболочек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфоаденопатия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "саркома Капоши",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экзема кожи.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "При Х-сцепленных агаммаглобулинемиях типа Брутона развиваются инфекционные заболевания:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с 1 – 2 месяца жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с 4 – 6 месяца жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на втором году жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в подростковом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в разное время.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Болезнь Брутона обусловлена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-клеточной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "комбинированной Т и В-клеточной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дефектом системы фагоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В-клеточной недостаточностью",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дефектом системы комплемента.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Синдром Ди-Джорджи обусловлен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В-клеточной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Т-клеточной недостаточностью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "комбинированной В и Т-клеточной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дефектом системы фагоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дефектом системы комплемента.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "В результате инфицирования вирусом клеток CD-4+ происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мутация ДНК клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латентная инфицированность клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "образование симпластов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пролиферация клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперпродукция цитокинов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Свойства антигенов вирус-индуцированных опухолей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отличаются во всех опухолях и тканях в зависимости от их гистогенеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "могут быть внутриклеточными",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не могут экспрессироваться на мембранах клеток опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "идентичны во всех опухолях",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "изменяются в процессе роста опухоли.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Раково-эмбриональными антигенами являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "простатспецифический антиген ( PSA )",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хорионический гонадотропин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "SCC",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "CA-125",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "СА-19-9.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Аутоиммунными заболеваниями чаще страдают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подростки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "женщины репродуктивного возраста",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мужчины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "новорождённые",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только лица преклонного возраста.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Феномен гиперчувствительности замедленного типа был описан:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Р.Портером",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "П.Эрлихом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К.Пирке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Р.Кохом",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "К.Ландштейнером.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Для синдрома Ди-Джорджи характерны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гломерулонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипоплазия тимуса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аномалии лицевого скелета",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аплазия паращитовидных желез.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "атопический дерматит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Сывороточная болезнь была впервые описана:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Р.Кумбсом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "К.Пирке",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ж.Борде",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Э.Берингом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ф.Бернетом.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Заболевания, развивающиеся по III типу аллергических реакций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "системная красная волчанка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поллиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тяжёлая миастения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анафилактический шок.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Существуют следующие виды нарушения работы иммунной системы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "избыточная, неадекватная реактивность иммунной системы (аллергия)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "иммунодефицит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аутоиммунные заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "инфекционные заболевания.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Вирус Эпштейна-Барр:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вызывает лимфому Бёркитта",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "продуцирует суперантигены",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кофактор тяжёлых реакций на лекарственные средства",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "участвует в анафилактических реакциях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участвует в реакциях иммунокомплексного типа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Отторжение трансплантатов происходит вследствие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "активации тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активации систем свёртывания крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антителозависимой клеточно-опосредованной цитотоксичности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антителонезависимой клеточно-опосредованной цитотоксичности",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "развития аллергических реакций.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Факторами, повышающими риск отторжения трансплантата, являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие предсуществующих антител после переливания крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие предсуществующих антител после многократной беременности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "иммунодефицит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "применение кортикостероидных препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применение антитоксической сыворотки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Синдром Шёгрена может сопровождаться развитием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "артралгий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экземы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхиальной астмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атрофии слюнных желёз.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Возрастные особенности иммунитета в стоматологии обусловлены:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "морфо-функциональными изменениями в иммунных органах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "беременностью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "менопаузой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "потерей зубов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аллергическими заболеваниями.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Заболевания, чаще развивающиеся при первичных Т-клеточных иммунодефицитах:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирусные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "грибковые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "протозойные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериальные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глистные инвазии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Риск отторжения трансплантата повышается в случае:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "применения иммунодепрессантов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "применения кортикостероидных препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пресенсибилизации реципиента к антигенам клеток эндотелия реципиента",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличии цитотоксических тепловых антител",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "снижении дозы иммуносупрессорных препаратов.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Для синдрома Вискотта-Олдрича характерны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рецидивирующие инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитопении",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "экзема",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пороки сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аномалии развития конечностей.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Укажите заболевания, возможные в первой стадии инфицирования ВИЧ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфома мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грибковые поражения кожи и слизистых оболочек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфоаденопатия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рецидивирующая пневмония ( более двух эпизодов за 12 месяцев)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "саркома Капоши.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "При Х-сцепленной агаммаглобулинемии Брутона развиваются инфекционные заболевания :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с 1 – 2 месяца жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с 4 – 6 месяца жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на втором году жизни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в подростковом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в разное время.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Заболевания, развивающиеся по III типу аллергических реакций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолитическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "системная красная волчанка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ревматоидный артрит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тяжёлая миастения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анафилактический шок.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Существуют следующие виды нарушения работы иммунной системы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "заболевания крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аллергические заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аутоиммунные заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "опухолевые заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфекционные заболевания.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Вирус-индуцированными опухолями являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рак почки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфома Бёркитта",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рак желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рак носоглотки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Т-клеточный лейкоз взрослых.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Вирусная теория происхождения злокачественного роста была предложена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Э.Берингом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Л.А.Зильбером",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Г.Снеллом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ш.Миллером",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С.Тонегава.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Антибластомные клеточные факторы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "CD-8+ клетки в комплексе с МНС-I",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "NK-клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нейтрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "активированные макрофаги.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "К источникам эпидермальных аллергенов относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "слюна кошки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "шерсть собаки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перхоть лошади",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клещи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слюна жалящих насекомых.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Заболевания, развивающиеся по II типу аллергических реакций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолитическая анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тяжёлая миастения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "атопический дерматит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поллиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "системная красная волчанка.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Участие Ig-M в патогенезе аллергических заболеваний:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "связывание с рецепторами тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "развитие аллергических реакций II типа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "индукция дегрануляции тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "формирование иммунных комплексов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "развитие аллергических реакций III типа.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Пломбировочные материалы, соединяясь с белком в пульпе зуба, могут вызвать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отёка Квинке",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "анафилактического шока",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стоматита",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поллиноза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синдрома Лайелла.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Кандидоз полости рта может быть следствием:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отёка Квинке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ангионевротического отёка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "первичного иммунодефицита",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ВИЧ-инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "местной анестезии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Наименее аллергенны протезы, изготовленные с применением:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "красителей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фарфора",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нитрита титана",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метакрилата",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "никеля.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Новокаин может вызвать перекрёстно-аллергическую реакцию:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "с бензокаином",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лидокаином",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тримекаином",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нитритом титана",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антибиотиками .",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "«Шоковые» органы-мишени аллергических реакций у человека:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронхи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кожа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "почки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Аутоиммунные заболевания преимущественно развиваются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у женщин репродуктивного возраста",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "у мужчин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "у детей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "у подростков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вне зависимости от возраста.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Синдром Рейтера характеризуется поражением:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "суставов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сердечно-сосудистой системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндокринной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочеполовой системы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "поражением глаз.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Факторы, способствующие росту опухоли:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "слабая иммуногенность опухолевых антигенов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "приобретённая резистентность к апоптозу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "экспрессия на поверхности опухолевых клеток рецепторов к ростовым факторам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "высокая иммуногенность опухолевых антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение синтеза ИЛ-6, ИЛ-10.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Опухоль-ассоциированные антигены:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обнаруживаются только в сыворотке крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экспрессируются на мембранах нормальных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "презентируются молекулами HLA-II",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "презентируются молекулами HLA-I",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "могут быть использованы для ранней диагностики.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Заболевания, развивающиеся по I типу аллергических реакций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолитическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "контактный дерматит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поллиноз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "узелковый периартериит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тяжёлая миастения.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Артюса – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергическая реакция I типа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аллергическая реакция III типа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мультисистемный васкулит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ангионевротический отёк слизистой оболочки полости рта",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "крапивница.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Ig-G опосредованные аллергические реакции наблюдаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сывороточной болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при анафилактическом шоке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при поллинозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхиальной астме",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "риноконъюнктивите.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Рассеянный множественный склероз:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наследуется по доминанатному типу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "характеризуется наличием аутореактивных Т-лимфоцитов, направленных против основного белка миелина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "может развиваться после предшествующих вирусных инфекций",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "чаще болеют мужчины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "чаще болеют женщины.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Отторжение трансплантатов происходит вследствие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "активации комплемента иммунными комплексами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активации тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атителозависимой клеточно-опосредованной цитотоксичности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антителонезависимой клеточно-опосредованной цитотоксичности",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выработки специфических антител к ткани трансплантата",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Антибластомные гуморальные факторы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "циркулирующие иммунные комплексы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фактор некроза опухолей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "интерфероны",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ИЛ-2",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "трансформирующий фактор роста.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Возможный вариант развития анафилактического шока:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рецидивирующий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интермиттирующий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "септический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "абортивный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "волноообразный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Среди перечисленных металлов аллергенами не являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "золото",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "серебро",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "олово",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "алюминий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хром.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Медиаторы, участвующие в развитии атопических дерматитов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистамин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лейкотриены",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "простагландины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дефензины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фибронектин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "В патогенезе развития сывороточной болезни принимают участие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ферменты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гетерологичные сыворотки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адаптогены.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Перекрёстно-аллергические реакции у больных опосредованы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличием единых региональных условий проживания больных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "генетическими предпосылками в рамках отдельных групп больных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствием эффекта аллергенспецифической терапии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличием общих эпитопов в структуре аллергена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "имеют случайный характер.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Иммунологическая толерантность – состояние иммунной системы, развивающееся вследствие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствия активации иммунных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тяжёлой комбинированной иммунной недостаточности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отрицательной селекции (делеции) клонов аутореактивных лимфоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "подавления состоявшегося иммунного ответа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "положительной селекции лимфоцитов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Иммунологическая толерантность может быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "врождённой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "искусственно индуцированной",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "результатом супрессии уже состоявшегося иммунного ответа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "симптомом СПИДа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "симптомом опухоли вилочковой железы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Аутотолерантность – это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "естественная толерантность к собственным тканям",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "толерантность, обусловленная естественной инволюцией тимуса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "толерантность, обусловленная отрицательной селекцией клонов аутореактивных лейкоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "толерантность, развивающаяся вследствие иммунодефицита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "толерантность, индуцированная положительной селекцией лимфоцитов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Антигены приобретают толерогенные свойства:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в случаях действия иммуносупрессорных факторов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при очень небольшой дозе («низкодозная толерантность»)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при очень большой дозе («высокодозная толерантность»)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при развитии вторичного иммунодефицита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "у больных первичными иммунодефицитами.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Феномен иммунологической толерантности был открыт:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ф.Бернетом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "П.Медаваром",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ш.Рише",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ж.Портье",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С.Снеллом.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Отторжение аллотрансплантата может быть вызвано:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "действием цитотоксических лимфоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "несовместимостью по антигенам МНС",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "окклюзией сосудов трансплантата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активацией тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применением антибиотиков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Профилактика отторжения аллотрансплантата:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "подбор методом генотипирования",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "введение иммунодепрессантов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "совместимость по антигенам МНС",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "введение антитоксической сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "введение иммуностимуляторов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Нарушение толерантности к собственным тканям приводит:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "к неустойчивости к инфекционным заболеваниям",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к развитию аутоиммунных заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "к нарушению репродуктивной функции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к развитию аллергических заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к развитию опухолевых заболеваний.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Свойствами толерогенов обладают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "малые дозы высокогомогенных антигенов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "суперантигены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высокие дозы концентрированных антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перекрёстно-реагирующие антигены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экзотоксины.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Диагностические критерии ревматоидного артрита:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поражение симметричных периферических суставов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миокардит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "симптом «утренней скованности»",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие ревматоидного фактора",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "уртикарные кожные высыпания.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Характерные клинические признаки геморрагического васкулита:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожные высыпания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полиартрит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "геморрагическая пневмония",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гломерулонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стоматит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "К системным аутоиммунным заболеваниям относят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "красную волчанку",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рассеянный склероз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "болезнь Хашимото",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ревматоидный полиартрит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "болезнь Грейвса.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Гиперчувствительность замедленного типа по классификации Джелла и Кумбса – это аллергическая реакция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I-го типа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "II-го типа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "III-го типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "IV-типа (клеточного)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "V-го типа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Анафилактогенная активность аллергена не проявляется при попадании в организм:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через раневую поверхность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ингаляционным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при внутрикожном введении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтеральным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в количестве, меньше разрешающей дозы.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Фазы аллергических реакций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммунологическая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "биохимическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "патохимическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цитотоксическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "патофизиологическая.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Гранулы тучных клеток человека содержат:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистамин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "триптазы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гепарин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бета-лизины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интерфероны.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Тучные клетки человека находятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в лимфе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в селезёнке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в лимфоузлах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в коже.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Тучные клетки человека могут выделять:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистамин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гепарин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перфорин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гранзимы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "N-ацетилмурамидазу.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Дегрануляция тучных клеток происходит в течение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20-30 секунд",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "одного часа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нескольких часов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в разные сроки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Ig G-опосредованные аллергические реакции наблюдаются при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поллинозе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атопическом дерматите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сывороточной болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отёке Квинке",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бронхиальной астме.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Болезнь Грейвса-Базедова:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обусловлена выработкой антител к мембранному рецептору тиреотропного гормона",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "относится к V типу аллергических реакций",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "характеризуется гиперпродукцией тироксина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аутоантигеном является тиреоглобулин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "характеризуется признаками гиротиреоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Активация системы комплемента при сывороточной болезни происходит вследствие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высвобождения ацетилхолина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образования иммунных комплексов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "прекращения контакта с аллергеном",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проведения аллерген-специфической иммунотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применения кортикостероидных гормонов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Первый тип аллергических реакций развивается при:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поллинозе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гемолитической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анафилактическом шоке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "атопическом дерматите",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сывороточной болезни.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Лекарственная аллергия проявляется развитием:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ревматического артрита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ангионевротического отёка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемолитической анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синдрома Лайелла",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "узелкового периартериита.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Ангионевротический отёк:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "развивается при дефиците системы комплемента",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сопровождается отёком подкожных и подслизистых тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "может сочетаться с крапивницей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "может сопровождаться атопическими реакциями",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "развивается при дефиците системы фагоцитоза.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Для синдрома Ди-Джорджи характерны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "атопические реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сочетается с синдромом Лайелла",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипоплазия тимуса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аномалии лицевого скелета",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аплазия паращитовидных желёз.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Свойства антигенов вирус-индуцированных опухолей:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отличаются во всех опухолях и тканях в зависимости от их гистогенеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "могут быть внутриклеточными",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "могут экспрессироваться на мембранах клеток опухоли",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "идентичны во всех опухолях",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "изменяются в процессе роста опухоли.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Раково-эмбриональными антигенами являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "простатспецифический антиген ( PSA )",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альфа –фетопротеин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бета-хорионический гонадотропин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "белок Р-53",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антиген HBS.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Аутоиммунными заболеваниями чаще страдают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подростки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "женщины репродуктивного возраста",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "зависит от расовой принадлежности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "новорождённые",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лица, страдающие иммунодефицитами.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Вирус-индуцированными опухолями являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рак предстательной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфома Беркитта",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рак молочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рак поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рак яичника.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Вирусная теория происхождения злокачественного роста была предложена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Э.Берингом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Л.Зильбером",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Г.Снеллом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ш.Миллером",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С.Тонегава.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Антибластомные клеточные факторы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "CD-8+ клетки в комплексе с МНС-I",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ИЛ- 2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ИЛ-6",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трансформирующий фактор роста",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "простагландины.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "К источникам эпидермальных аллергенов относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слюна кошки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "споры грибов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перхоть лошади",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клещи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слюна жалящих насекомых.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Заболевания, развивающиеся по II типу аллергических реакций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолитическая болезнь новорождённых",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сахарный диабет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крапивница",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поллиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "системная красная волчанка.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "«Шоковые» органы-мишени аллергических реакций у человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "селезёнка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфатические узлы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кожа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "почки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Аутоиммунные заболевания протекают в следующей форме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "органоспецифической",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "септикопиемической",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фульминантной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "септической.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Синдром Рейтера характеризуется поражением:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердечно-сосудистой системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндокринной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочеполовой системы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "поджелудочной железы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Факторы иммунорезистентности опухоли::",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "слабая иммуногенность опухолевых антигенов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "постоянная модификация антигенов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "появление на мембране Fas-L",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активация NK-клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фактор некроза опухоли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Опухоль-ассоциированные антигены:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обнаруживаются только в сыворотке крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экспрессируются на мембранах нормальных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "презентируются молекулами HLA-I класса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "презентируются молекулами HLA-II класса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обладают высокой иммуногенностью.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Заболевания, развивающиеся по I типу аллергических реакций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолитическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "контактный дерматит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поллиноз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "узелковый периартериит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тяжёлая миастения.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Феномен Артюса – это :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вторичное повреждение тканей ферментами лизосом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аллергическая реакция на пыльцу растений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гнойно-некротическое поражение подкожной клетчатки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ангионевротический отёк слизистой оболочки полости рта",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уртикарные высыпания в эпидермисе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Ig-G опосредованные аллергические реакции наблюдаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при системной красной волчанке",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при анафилактическом шоке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при отёке Квинке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при риноконъюнктивите",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при бронхиальной астме.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Диагностические признаки аутоиммунных заболеваний:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие специфических аутоантител",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образование комплексов IgM/IgG1-3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рецидивирующие гнойничковые заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышение количества аутореактивных лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анафилактические реакции.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Рассеянный множественный склероз:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "характеризуется прогредиентным течением",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "характеризуется наличием аутореактивных Т-лимфоцитов, направленных против основного белка миелина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "может развиваться против предшествующих вирусных инфекций",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "чаще дебютирует в пожилом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "является аллергической реакцией IV типа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Отторжение трансплантатов происходит вследствие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "применения антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активации систем свёртывания крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антителозависимой клеточно-опосредованной цитотоксичности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антителонезависимой клеточно-опосредованной цитотоксичности",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "назначения высоких доз иммунодепрессантов .",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Антибластомные гуморальные факторы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ИЛ-2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фактор некроза опухолей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "β-дефензины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ИЛ-6",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "N-ацетилмурамидаза.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "В развитии атопических дерматитов участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистамин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лизоцим",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комплемент",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перфорин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ig-M.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "В патогенезе сывороточной болезни принимают участие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ферменты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гетерологичные иммуноглобулины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интерфероны.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Перекрёстно-аллергические реакции у больных опосредованы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличием единых региональных условий проживания больных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "генетическими предпосылками в рамках отдельных групп больных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствием эффекта аллергенспецифической терапии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличием общих эпитопов в структуре аллергена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "имеют случайный характер.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Иммунологическая толерантность – состояние иммунной системы, развивающееся вследствие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствия активации антигенпредставляющих клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тяжёлой комбинированной иммунной недостаточности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отрицательной селекции (делеции) клонов аутореактивных лимфоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "применения адаптогенов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "положительной селекции лимфоцитов в тимусе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Иммунологическая толерантность может быть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "результатом применения вакцинных препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "искусственно индуцированной",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "результатом инволюции костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "симптомом СПИДа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "симптомом опухоли вилочковой железы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Аутотолерантность – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "естественная толерантность к собственным антигенам",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "толерантность, обусловленная естественной инволюцией тимуса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "толерантность, обусловленная положительной селекцией клонов лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "толерантность, развивающаяся вследствие иммунодефицита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "толерантность к антигенам, индуцированная цитостатиками.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Феномен иммунологической толерантности был открыт и изучен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ф.Бернетом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "П.Медаваром",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ш.Рише",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ж.Портье",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С.Снеллом.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Нарушение толерантности к собственным тканям приводит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к неустойчивости к инфекционным заболеваниям",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к развитию аутоиммунных заболеваний",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "к нарушению работы нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к развитию аллергических заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к развитию опухолевых заболеваний.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "К аутоиммунным заболеванияи относят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "синндром Чёрджа-Стокса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синдром Лайелла",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "узелковый периартериит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синдром Шёгрена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "синдром Стивена-Джонсона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Синдром Лайелла характеризуется:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лихорадочной реакцией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отслаиванием эпидермиса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поражением глаз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "развивается после назначения иммунодепрессантов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "развитием пневмонии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "Свойствами толерогенов обладают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "малые дозы высокогомогенных антигенов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "суперантигены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гетерогенные антигены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перекрёстно-реагирующие антигены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экзотоксины.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "Гиперчувствительность замедленного типа по классификации Джелла и Кумбса – это аллергическая реакция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I-го типа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "II-го типа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "III-го типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "IV-типа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "V- типа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Анафилактогенная активность аллергена не проявляется при попадании в организм:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в первый раз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ингаляционным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при внутрикожном введении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтеральным путём",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в количестве, меньше разрешающей дозы.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Фазы аллергических реакций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммуногенная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биохимическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "патохимическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цитотоксическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "патогенная.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "Тучные клетки человека находятся в большом количестве:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в лимфе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в аппендиксе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в лимфоузлах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в коже.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Гранулы тучных клеток человека могут выделять:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистамин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фибронектин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перфорин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "β-лизины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "N-ацетилмурамидазу.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "При I типе аллергических реакций осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активация антителозависимого цитолиза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выработка цитотоксических антител",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высвобождение вазоактивных аминов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активация Т-киллеров",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование иммунных комплексов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "Адоптивный перенос состояния иммунитета осуществляется с помощью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переливания цельной крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антител",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммуномодуляторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунокомпетентных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "моноклональных антител .",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "Дегрануляция тучных клеток происходит в течение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20-30 секунд",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "одного часа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нескольких часов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12 часов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в зависимости от дозы аллергена.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "Активация системы комплемента при сывороточной болезни происходит вследствие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высвобождения ацетилхолина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образования иммунных комплексов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "прекращения контакта с аллергеном",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проведения аллерген-специфической иммунотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применения антилимфоцитарной сыворотки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Уровень Ig E в сыворотке крови повышается при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "системной красной волчанке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атопическом дерматите",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемолитической болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миастении",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сывороточной болезни .",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Вакцина – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антитоксическая сыворотка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антитела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "убитая или ослабленная культура микроорганизмов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иммунная сыворотка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экзотоксин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "Инфекции способны инициировать аутоиммунный процесс вследствие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствия иммунопрофилактики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перекрёстных реакций с аутоантигенами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличия у возбудителя неполноценных антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "частого обострения инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствия антибиотикотерапии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "Отторжение аллотрансплантата может быть обусловлено:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "действием цитотоксических лимфоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "несовместимостью по антигенам МНС",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "окклюзией сосудов трансплантата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вирусной инфекцией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "формированием анафилактической реакции на лекарственные препараты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "Профилактика отторжения аллотрансплантата:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "использование адаптогенов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "использование иммунодепрессантов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "использование моноклональных антител",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "введение антиглобулиновой сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "введение иммуностимуляторов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "Внутрикожные аллергические пробы применяются для диагностики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сальмонеллёза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кампилобактериоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бруцеллёза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "краснухи.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "Лабораторные диагностические критерии ревматоидного артрита:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение уровня гемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижение иммунорегуляторного индекса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тромбоцитопения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие аутоантител к кератогиалиновым гранулам эпителия слизистой оболочки полости рта",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лимфоцитоз.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "Серотонин при атопических реакциях выделяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гранулы тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нейтрофильные лейкоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритроциты,",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "Кожные тесты с аллергенами проводят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на наружной поверхности предплечья",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на внутренней поверхности плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на внутренней поверхности предплечья",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на спине",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на боковой поверхности живота.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "При участии каких механизмов развиваются аллергические реакции III типа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комплемент-зависимого цитолиза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дегрануляции тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клеточно-опосредованной реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышении уровня Ig-E",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перекрёстно-аллергических реакций.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 200,
+				"text": "У человека наиболее богаты тучными клетками:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пищеварительный тракт",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "периферическая кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кожа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "паренхима печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нервная ткань.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 201,
+				"text": "В развитии клеточной реакции иммунного воспаления не участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стволовые",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тучные клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 202,
+				"text": "Роль наследственного фактора в аллергических заболеваниях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наследуется конкретное аллергическое заболевание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передаётся предрасположенность к аллергии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не играет никакой роли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наследуется по доминантному типу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неверно всё перечисленное.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 203,
+				"text": "Стимуляция специфически сенсибилизированной тучной клетки приводит к высвобождению:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ацетилхолина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитактивирующего фактора (ТАФ)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "адреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перфорина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизоцима.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "В развитии гиперчувствительности I типа участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ig-A",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ig-M",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ig-G",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ig-E",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Ig-D.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 205,
+				"text": "Перед постановкой проб с неинфекционными аллергенами кожа обрабатывается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "раствором эфира",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кипячёной водой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "раствором перекиси водорода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "70% спиртом",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "достаточно вымыть водой и мылом.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 206,
+				"text": "Свойства иммуноглобулинов класса Е:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пентамеры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участвуют в развитии реакций гиперчувствительности I типа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "проходят через плаценту",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обеспечивают местный иммунитет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обладают высокой авидностью.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 207,
+				"text": "Гистамин относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к азотистым основаниям",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к монокинам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к лейкотриенам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к простагландинам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к гранзимам.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 208,
+				"text": "Поздняя фаза аллергических реакций обусловлена активностью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "базофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "макрофагов.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 209,
+				"text": "Среди FceR различают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтральные по аффинности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "высокоаффинные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неспецифичные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с низкой аффинностью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ареактивные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 210,
+				"text": "К реакциям гиперчувствительности немедленного типа относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционная аллергия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунокомплексная реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атопии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цитолиз с участием комплемента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "феномен Артюса.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 211,
+				"text": "В синтезе Ig-E участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В-лимфоциты.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 212,
+				"text": "Рецепторы для Ig-Е экспрессируются на мембране:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клеток микроглии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тучных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Т- лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дендритных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "NK-клеток.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 213,
+				"text": "Для проверки реактивности кожи при аллергическом тестировании используют раствор гистамина следующей концентрации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,1%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,0001%",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,01%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2%.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 214,
+				"text": "Положительной считается внутрикожная проба:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при образовании волдыря диаметром 9-15 мм и гиперемии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при размере реакции, как в контроле",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при образовании волдыря диаметром 20 мм и гиперемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при появлении пузыря с серозным содержимым и гиперемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при появлении пузыря с геморрагическим содержимым и гиперемии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 215,
+				"text": "Гиперчувствительность замедленного типа – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анафилактическая реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цитотоксическая реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Т-зависимая аллергическая реакция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "реакция отложения иммунных комплексов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "псевдоаллергическая реакция.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 216,
+				"text": "К реакциям гиперчувствительности IV типа относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционная аллергия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "иммунокомплексные аллергические реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атопическая бронхиальная астма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анафилактический шок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сывороточная болезнь.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 217,
+				"text": "Патофизиологичесая стадия аллергических реакций I типа характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышением артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "формированием иммунных комплексов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышением образования вязкого секрета слизистых оболочек",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "появлением гнойного отделяемого",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появлением гемморрагических высыпаний на коже.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 218,
+				"text": "При развитии псевдоаллергической реакции отсутствует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "патохимическая фаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "патофизиологическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммунологическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иммуногенная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "патогенная.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 219,
+				"text": "Системные аллергические реакции на лекарственные средства включают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сенную лихорадку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ангионевротический отёк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синдром Шёгрена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синдром Лайелла",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "болезнь Бехчета.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 220,
+				"text": "К гиперчувствительности I типа относятся реакции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитотоксические",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунокомплексные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анафилактические",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клеточные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитические.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 221,
+				"text": "«Клетки-мишени» аллергических реакций имеющие высокоаффинные FceR:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тучные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дендритные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "купферовские клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "NK- клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейтрофилы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 222,
+				"text": "При каком поступлении аллергена в организм наиболее вероятно формирование поллиноза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутривенном",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ингаляционном",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подкожном",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтеральном",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутримышечном.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 223,
+				"text": "Основной морфологический элемент крапивницы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "папула",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "везикула",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "волдырь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "энантема",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "геморрагическая сыпь.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 224,
+				"text": "Наиболее аллергенна пыльца:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "растений, опыляемых насекомыми",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ветроопыляемых растений",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "искусственно опыляемых растений",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "комнатных растений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "злаковых растений.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 225,
+				"text": "Нарушения в дыхательной системе при анафилактическом шоке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхоспазм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кашель",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмония",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "застойные явления в малом круге кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лёгочное кровотечение.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 226,
+				"text": "Истинными аллергенами, вызывающими сезонный аллергический ринит являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пыльца растений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пневмококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "морепродукты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирусы гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пух перелётных птиц.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 227,
+				"text": "Лечение сывороточной болезни проводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибиотиками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сульфаниламидными препаратами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ферментами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антигистаминными препаратами",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дезрастворами (местное лечение).",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 228,
+				"text": "Развитие сывороточной болезни вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пищеварительные ферменты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "молочные продукты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сыры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "препараты крови.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 229,
+				"text": "В аллергических реакциях II типа участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ig-Е антитела",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ig-G антитела",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ig-A антитела",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "купферовские клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 230,
+				"text": "У больных поллинозом часто выявляется перекрёстная аллергия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к антибиотикам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к сыру",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к фитопрепаратам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к молоку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к морепродуктам.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 231,
+				"text": "Наиболее благоприятный вариант течения анафилактического шока :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "затяжной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "молниеносный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рецидивирующий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "абортивный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "неверно всё перечисленное.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 232,
+				"text": "Заболевания, для профилактики которых используют живую вакцину:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифтерия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "брюшной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "корь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "коклюш",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатит А.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 233,
+				"text": "К аллергенам не относят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "яд пчелы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метаболиты насекомых",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "споры плесневых грибов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пыльцу деревьев",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "золото.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 234,
+				"text": "Формирование ангионевротического отёка происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в эпидермисе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в нервной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в подслизистой ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только в слизистой ткани.",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 22,
+				"text": "Афтозный стоматит характеризуется:",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 26,
+				"text": "Иммунодефициты, имеющие проявления в стоматологии:",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 60,
+				"text": "Саркома Капоши:",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 103,
+				"text": "Клинические признаки аллергических реакций на пластмассы, используемые в стоматологии:",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 108,
+				"text": "Аутоиммунные заболевания протекают в следующей форме:",
+				"reason": "NO_ANSWER_MARKER"
+			}
+		]
+	}
+}

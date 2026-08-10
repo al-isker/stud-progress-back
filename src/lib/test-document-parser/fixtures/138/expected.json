@@ -1,0 +1,5840 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Укажите аномалию развития губ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "заячья губа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микростома",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "волчья пасть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диастема",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "макростома",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В преддверии рта открывается проток околоушной слюнной железы на уровне:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-го верхнего большого коренного зуба",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2-го нижнего большого коренного зуба",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2-го верхнего большого коренного зуба",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1-го нижнего большого коренного зуба",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "медиального верхнего резца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "К каким железам по характеру ветвления относится околоушная слюнная железа?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "простая трубчатая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "простая альвеолярная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сложная трубчатая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сложная альвеолярная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "смешанная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "В каком месте ротовой полости открывается проток поднижнечелюстной слюнной железы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уздечка языка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уздечка нижней губы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подъязычный сосочек",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "подъязычная складка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в преддверии рта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Укажите мышцы, суживающие зев:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышца, напрягающая небную занавеску",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "небно-язычная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "средний констриктор (сжиматель) глотки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "небно-глоточная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мышца поднимающая небную занавеску",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Какая мышца одновременно напрягают небную занавеску в поперечном направлении и расширяют просвет слуховой трубы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышца язычка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мышца, напрягающая небную занавеску",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мышца, поднимающая небную занавеску",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "небно-глоточная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шило-глоточная мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Укажите место локализации глоточной миндалины:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "на боковой стенке глотки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в области свода глотки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на передней стенке глотки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на месте перехода верхней стенки в заднюю",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в гортанной части глотки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Укажите место расположения небной миндалины:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в преддверии ротовой полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "позади небно-глоточной дужки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "между небно-глоточной и небно-язычной дужками",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "позади небно-язычной дужки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "впереди небно-язычной дужки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Укажите место расположения язычной миндалины:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кончик языка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тело языка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "боковая поверхность языка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "корень языка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нижняя поверхность языка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Укажите вкусовые сосочки языка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "грибовидные сосочки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желобовидные сосочки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "листовидные сосочки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нитевидные сосочки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "конические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Укажите мышцы, которые тянут язык вперед и вниз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подъязычно-язычная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подбородочно-язычная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхняя продольная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижняя продольная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечная мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Групповая формула для постоянных зубных рядов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2123",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2243",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2132",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1232",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Зубом «мудрости» называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первый премоляр",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "второй премоляр",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "третий моляр",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "второй моляр",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Групповая зубная формула для молочных зубов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2123",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2132",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2102",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "2120",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Срок прорезывания постоянного первого верхнего моляра:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6-7 лет",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "8-9 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "12-13 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "11-13 лет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "К разновидностям постоянного нормального прикуса относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "физиологическая прогнатия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перекрестный прикус",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закрытый прикус",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "физиологическая прогения",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Первыми прорезываются следующие молочные зубы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхние медиальные резцы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нижние первые моляры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхние латеральные резцы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижние медиальные резцы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Коронку зуба покрывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмаль",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эмаль и цемент",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дентин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пульпа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Малые коренные зубы верхней челюсти чаще всего могут иметь:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1 корень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2 корня",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1 или 2 корня",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1,2 или 3 корня",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Полость зуба заполнена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цементом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пульпой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эмалью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дентином",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Число постоянных зубов у человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "32",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "33",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "28",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "20",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Укажите как обозначается второй постоянный резец в верхнем зубном ряду справа в по международной зубной формуле:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "12",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "21",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "32",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "52",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Укажите, как обозначается молочный клык в верхнем зубном ряду справа по международной зубной формуле:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "13",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "31",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "33",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "53",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Укажите разновидности физиологического прикуса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ортогнатический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перекрестный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глубокий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "открытый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "щелеобразный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Укажите, как обозначается второй постоянный моляр в верхнем зубном ряду слева, по международной зубной формуле:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "17",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "27",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "37",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "57",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Назовите поверхности коронки зуба:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вестибулярная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "язычная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жевательная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контактная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Какие анатомические образования ограничивают заглоточное пространство:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя поверхность тел шейных позвонков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "предпозвоночные мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "задняя поверхность глотки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "предпозвоночная пластинка шейной фасции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "претрахеальная пластинка шейной фасции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Укажите место начала мышцы - нижнего констриктора глотки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "подъязычная кость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перстневидный хрящ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нижняя челюсть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клиновидная кость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "щитовидный хрящ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Укажите позвонок, на уровне которого глотка переходит в пищевод у взрослого человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижний край VI шейного позвонка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нижний край VII шейного позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхний край V шейного позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижний край IV шейный позвонок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на II грудном позвонке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Укажите анатомические образования, которые спереди прилежат к пищеводу:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дуга аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "трахея",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "непарная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тимус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грудной проток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Какие органы располагаются позади тела желудка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поперечная ободочная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "левая почка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поджелудочная железа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тонкая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Какую форму имеет желудок у новорожденного ребенка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "форму чулка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "форму рога",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "форму крючка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "форму цилиндра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "форму шара",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Укажите позвонки, на уровне которых находится вход в желудок:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IX грудной позвонок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Х грудной позвонок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "XII грудной позвонок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "I поясничный позвонок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "III поясничный позвонок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Укажите связки, берущие начало от большой кривизны желудка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудочно поджелудочная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печеночно-желудочная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желудочно-ободочная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "желудочно-селезеночная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "печеночно двенадцатиперстная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Укажите основные формы желудка, которые выделяют у взрослого человека:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "форма крючка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "форма подковы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "форма веретена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "форма чулка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Укажите форму желудка, характерную для людей брахиморфного типа телосложения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "форма крючка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "форма веретена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "форма чулка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "форма рога",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "форма шара",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Укажите форму желудка, характерную для людей мезоморфного типа телосложения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "форма рога",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "форма крючка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "форма чулка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "форма веретена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Какие анатомические образования различают на слизистой оболочке желудка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "крипты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудочные поля",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желудочные ямки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ворсины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "складки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Укажите части двенадцатиперстной кишки, расположенные на уровне XII-грудного - I-го поясничного позвонков:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "горизонтальная часть",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "верхняя часть",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нисходящая часть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "восходящая часть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "косая часть",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Укажите отдел двенадцатиперстной кишки, в который открываются общий желчный и панкреатические протоки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "восходящая часть",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нисходящая часть",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхняя часть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "горизонтальная часть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "косая часть",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Какая форма двенадцатиперстной кишки встречается наиболее часто:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "форма кольца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "форма петли",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "переходная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подковообразная форма",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "шаровидная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Укажите протоки, открывающиеся на большом сосочке двенадцатиперстной кишки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "главный проток поджелудочной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "добавочный проток поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "общий желчный проток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "общий печеночный проток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пузырный проток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Укажите часть двенадцатиперстной кишки, где располагается большой (фатеров) сосочек:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхняя часть",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "горизонтальная часть",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нисходящая часть",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "восходящая часть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верхний изгиб",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Укажите отделы кишки, имеющие в своих стенках лимфоидные бляшки (Пейеровы):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подвздошная кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тощая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сигмовидная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ободочная кишка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Укажите наиболее часто встречающееся положение червеобразного отростка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "восходящее",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "горизонтальное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медиальное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нисходящее",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ретроцекальное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Укажите части толстой кишки, имеющие брыжейку:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сигмовидная кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поперечная ободочная кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "восходящая ободочная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слепая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прямая кишка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Укажите места локализации сальниковых отростков толстой кишки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вдоль свободной ленты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вдоль сальниковой ленты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вдоль брыжеечной ленты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на стенках прямой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "у корня брыжейки 50",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "В стенке каких органов располагаются групповые лимфоидные узелки?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тощая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подвздошная кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "червеобразный отросток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нисходящая ободочная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Укажите анатомические образования, характерные для прямой кишки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поперечные складки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кишечные ворсинки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "групповые лимфоидные узелки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "столбы и пазухи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "круговые складки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Укажите желчные протоки, которые образуют общий желчный проток:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пузырный проток",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "правый печеночный проток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "левый печеночный проток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "общий печеночный проток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "добавочный проток поджелудочной железы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Укажите поверхности, которые имеет поджелудочная железа:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя поверхность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "задняя поверхность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "медиальная поверхность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхняя поверхность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижняя поверхность",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Укажите положение поджелудочной железы по отношению к брюшине:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интраперитонеальное положение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мезоперитонеальное положение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретроперитонеальное положение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "интраперитонеальное положение, при наличии брыжейки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экстраперитонеально",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "проток поджелудочной железы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхняя часть",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нисходящая часть",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "восходящая часть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "горизонтальная часть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "двенадцтиперстно-тощекишечный изгиб",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Укажите, с какими органами соприкасается головка поджелудочной железы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "брыжейка поперечной ободочной кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желудок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "правая почка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "двенадцатиперстная кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "правый мочеточник",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Укажите борозды, ограничивающие хвостатую долю печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "щель круглой связки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ямка желчного пузыря",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ворота печени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "щель венозной связки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "серповидная связка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Укажите вдавления, имеющиеся на висцеральной поверхности печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудочное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пищеводное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сигмовидная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезеночное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "почечное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Укажите борозды, ограничивающие квадратную долю печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "борозда нижней полой вены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серповидная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ямка желчного пузыря",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "щель круглой связки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "щель венозной связки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Укажите анатомические образования, которые входят в ворота печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "собственная печеночная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воротная вена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "общая печеночная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пупочная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижняя полая вена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Укажите, какие поверхности выделяют у печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя поверхность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "висцеральная поверхность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нижняя поверхность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диафрагмальная поверхность",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "латеральная поверхность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Укажите связки печени, расположенные на ее висцеральной поверхности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "серповидная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "круглая связка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "венечная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "левая треугольная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "венозная связка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Какие органы брюшной полости расположены мезоперитонеально:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поджелудочная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нисходящая ободочная кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сигмовидная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "восходящая ободочная кишка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Укажите, какие вдавления имеются на правой доле печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ободочно-кишечное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "почечное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пищеводное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желудочное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "надпочечниковое",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Укажите количество печеночных долек в печени человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "около 5000",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "около 500.000",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "около 5.000.000",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "около 50.000",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "около 10.000",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Укажите структуры, участвующие в образовании малого сальника:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "печеночно-почечная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печеночно-желудочная связка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желудочно-ободочная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печеночно-двенадцатиперстная связка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "желудочно- поджелудочная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Укажите структуры, от которых начинается большой сальник:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диафрагмально-селезеночная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудочно-ободочная связка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желудочно-диафрагмальная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печеночно - желудочная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "печеночно- двенадцатиперстная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Выделите производные среднего носового отростка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижняя губа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "щеки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фильтр верхней губы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "резцовая кость",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "небная кость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Какие структуры образуют мягкое небо:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хрящ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "апоневроз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мышцы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "диафрагма рта",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слизистая оболочка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Назовите части зуба:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "коронка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "верхушка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "корень",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тело",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шейка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Что образует твердую ткань зуба:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дентин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эмаль",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "альвеола",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "периодонт",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пульпа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Назовите зубы, которые могут иметь два корня:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "моляры верхней челюсти",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "премоляры верхней челюсти",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "моляры нижней челюсти",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "премоляры нижней челюсти",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клыки верхней челюсти",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Назовите части верхнего констриктора глотки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "языко- глоточная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "шило- глоточная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крыло- глоточная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рожково- глоточная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "щечно- глоточная",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Укажите, какова длина пищевода (см):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "43 - 45",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "23 - 25",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "25 - 30",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "30 - 35",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15 -25",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Укажите анатомические сужения пищевода:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фарингеальное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аортально-бифуркационное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кардиальное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхиальное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "диафрагмальное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Стенки желудка соединяются по:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "малой кривизне желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "большой кривизне",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пилорической пещере",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "своду",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пилорическому каналу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Какие связки фиксируют тонкую кишку:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "печеночно-дуоденальная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желудочно-диафрагмальная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подвешивающая двенадцатиперстную кишку",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "желудочно-ободочная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "венечная связка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Какие анатомические образования лежат в правой сагиттальной борозде печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчный пузырь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "круглая связка печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "венозная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижняя полая вена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "воротная вена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Какие анатомические структуры лежат в левой сагиттальной борозде печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчный пузырь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "венозная связка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "круглая связка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нижняя полая вена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воротная вена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Назовите связки печени, образованные париетальной брюшиной:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "серповидная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "печеночно-желудочная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "венечная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "квадратная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "печеночно- двенадцатиперстная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Какие структуры печени выделяют по Куино:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "балки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "секторы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дольки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сегменты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ацинусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Укажите границы верхнего этажа брюшной полости:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "диафрагма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "брыжейка поперечной ободочной кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "терминальная линия таза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочеполовая диафрагма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "корень брыжейки тонкой кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Укажите сумки верхнего этажа брюшной полости:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "преджелудочная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пищеводная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пупочная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сальниковая",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "околоободочная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Где начинается передняя пластинка большого сальника:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от поперечной ободочной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "от большой кривизны желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "от брыжейки тонкой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от малого сальника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от сигмовидной кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Укажите, как делит брюшинную полость корень брыжейки тонкой кишки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "правый брыжеечный синус",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "левый брыжеечный синус",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "правый боковой канал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "левый боковой канал",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дугласово пространство",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Укажите, какие из перечисленных образований сообщаются с нижним носовым ходом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средние ячейки решетчатой кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "носослезный канал",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхнечелюстная пазуха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задние ячейки решетчатой кости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лобная пазуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Укажите, какие придаточные пазухи сообщаются со средним носовым ходом:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лобная пазуха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "верхнечелюстная пазуха",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клиновидная пазуха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "передние ячейки решетчатой кости",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "задние ячейки решетчатой кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Укажите, какие придаточные пазухи сообщаются с верхним носовым ходом:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задние ячейки решетчатой кости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клиновидная пазуха",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхнечелюстная пазуха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лобная пазуха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "передние ячейки решетчатой кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Какие из перечисленных хрящей относятся к наружному носу:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "черпаловидный хрящ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латеральный хрящ носа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хрящ перегородки носа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сошниково-носовой хрящ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рожковидный хрящ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Полости каких анатомических образований непосредственно сообщаются с носовой частью глотки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полость рта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "барабанная полость",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гортанная часть глотки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трахея",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бронхи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Укажите анатомические образования, лежащие спереди от гортани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "претрахеальная пластинка шейной фасции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глубокая пластинка шейной фасции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лопаточно-подъязычная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "подъязычная кость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "двубрюшная мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Укажите мышцы гортани, которые при своем сокращении суживают вход в гортань:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "черпало-надгортанная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "латеральная перстне-черпаловидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "задняя перстне-черпаловидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "косые черпаловидные мышцы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "поперечная черпаловидная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Укажите места прикрепления эластического конуса гортани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышечные отростки черпаловидных хрящей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "голосовые отростки черпаловидных хрящей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "четырехугольная пластинка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задняя поверхность угла щитовидного хряща",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Укажите, какие из перечисленных анатомических образований прикрывают гортань спереди:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "двубрюшная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "претрахеальная пластинка шейной фасции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грудинно - щитовидная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "челюстно-подъязычная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Укажите, с какими анатомическими образованиями соприкасается гортань сзади:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подподъязычные мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грудной лимфатический проток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глотка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "предпозвоночная пластинка шейной фасции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "претрахеальная пластинка шейной фасции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Укажите, какие анатомические образования ограничивают вход в гортань:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "надгортанник",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "черпало-надгортанные складки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перстневидный хрящ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щитовидный хрящ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Укажите анатомические образования, ограничивающие вход в желудочки гортани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "складки преддверия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "голосовые складки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "черпало-надгортанные складки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "язычно-надгортанные складки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трубно-небная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Укажите парные хрящи гортани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "черпаловидный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перстневидный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "щитовидный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рожковидный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "надгортанник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Укажите анатомические образования, имеющиеся на щитовидном хряще:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пластинка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "верхние рога",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "голосовые отростки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "основание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижние рога",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Укажите анатомические образования, имеющиеся на перстневидном хряще:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дуга",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мышечный отросток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхушка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пластинка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "голосовой отросток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Укажите гиалиновые хрящи гортани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "клиновидный хрящ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "щитовидный хрящ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перстневидный хрящ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "голосовой отросток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "надгортанник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Укажите анатомические образования, между которыми натянуты голосовые связки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "голосовые отростки черпаловидных хрящей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мышечные отростки черпаловидных хрящей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхний край дуги перстневидного хряща",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задняя поверхность угла щитовидного хряща",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "боковые края надгортанника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Укажите структуры, между которыми находится межхрящевая часть голосовой щели:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "между складками преддверия гортани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "между голосовыми отростками черпаловидных хрящей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "между преддверной и голосовой складкой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "между клиновидными хрящами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "между верхушками черпаловидных хрщей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Укажите функции гортани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "голосообразовательная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дыхательная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глотание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "проведение пищевого комка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "газообмен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Укажите анатомические образования, располагающиеся в грудной полости впереди трахеи:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "щито-подъязычная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тимус",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грудной лимфатический проток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дуга аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "щито-шейный ствол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Укажите эпителий, выстилающий слизистую оболочку трахеи:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "однослойный, многорядный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "простой сквамозный (плоский)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реснитчатый",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цилиндрический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "многослойный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Укажите мышцы, расширяющие голосовую щель:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "щито-черпаловидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поперечная черпаловидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "латеральная перстне-черпаловидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задняя перстне-черпаловидная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "косая черпаловидная мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Укажите мышцы, прикрепляющиеся к косой линии щитовидного хряща:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "грудино-щитовидная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "щито-подъязычная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "щито-черпаловидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перстне-щитовидная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "щито-надгортанная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Укажите, на уровне какого позвонка находится начало трахеи у взрослого человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IV шейный позвонок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "VI шейный позвонок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "V шейный позвонок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "I-й грудной позвонок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "III-ий грудной позвонок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Укажите анатомическое образование, на уровне которого находится бифуркация трахеи у взрослого человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "угол грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "V грудной позвонок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "яремная вырезка грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхний край дуги аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "II грудной позвонок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Укажите анатомические образования, находящиеся позади трахеи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пищевод",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "блуждающий нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дуга аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тимус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плечеголовной ствол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Укажите, в каком порядке располагаются следующие образования в воротах правого легкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "легочная артерия, легочные вены, главный бронх",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "легочные вены, легочная артерия, главный бронх",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "главный бронх, легочные вены, легочная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "главный бронх, легочная артерия, легочные вены",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бронхиальные артерии и вены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Укажите, в каком порядке располагаются следующие образования в воротах левого легкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "легочная артерия, главный бронх, легочные вены",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "главный бронх, легочная артерия, легочные вены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "главный бронх, легочные вены, легочная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "легочные вены, легочная артерия, главный бронх",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бронхиальные артерии и вены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Укажите анатомические образования, располагающиеся над корнем левого легкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дуга аорты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "непарная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полунепарная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тимус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "добавочная полунепарная вена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Укажите анатомические образования, располагающиеся над правым главным бронхом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полунепарная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дуга грудного лимфатического протока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "непарная вена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бифуркация легочного ствола",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "добавочная полунепарная вена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Укажите место локализации горизонтальной щели на легких:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реберная поверхность правого легкого",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "реберная поверхность левого легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "средостенная поверхность левого легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диафрагмальная поверхность правого легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "позвоночная поверхность правого легкого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Укажите анатомические образования, ограничивающие сердечную вырезку левого легкого снизу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "язычок",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "косая щель",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ворота легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "горизонтальная щель",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижний край легкого",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Укажите анатомические образования, занимающие самое верхнее положение в воротах левого легкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "легочная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нервы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "главный бронх",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "легочные вены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфатические сосуды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Укажите анатомические образования, которые входят в ворота легкого:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "легочная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "легочная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "главный бронх",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфатические сосуды.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нервы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Укажите анатомические образования, занимающие самое верхнее положение в воротах правого легкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "легочная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "легочная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нервы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "главный бронх",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лимфатические сосуды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Укажите сегментарные бронхи, образующиеся при ветвлении правого верхнедолевого бронха:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "передний базальный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "верхушечный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "медиальный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "передний",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "задний",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Укажите сегментарные бронхи, образующиеся при ветвлении левого нижнедолевого бронха:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задний базальный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "латеральный базальный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нижний язычковый",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхний язычковый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "медиальный базальный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Укажите сегментарные бронхи, образующиеся при ветвлении правого среднедолевого бронха:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "медиальный базальный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передний базальный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "латеральный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "медиальный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "верхушечный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Укажите анатомические образования, расположенные в центре легочного сегмента:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "межсегментарная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сегментарная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сегментарный бронх",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "долевая вена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "легочная вена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Укажите проекцию верхушки правого легкого на поверхность тела:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "над ключицей на 3-4 см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на уровне 1 ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "над первым ребром на 3-4 см",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "над ключицей на 1-2 см",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "позади рукоятки грудины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Укажите, при ветвлении каких структур образуются дыхательные бронхиолы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сегментарные бронхи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дольковые бронхи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "концевые бронхиолы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "долевые бронхи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "главные бронхи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Укажите анатомические образования, которые располагаются в среднем отделе средостения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "трахея",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "главные бронхи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "легочные вены",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "внутренние грудные артерии и вены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пищевод",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Укажите структуры, ограничивающие реберно- диафрагмальный синус:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реберная и диафрагмальная плевра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "висцеральная и реберная плевра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реберная и медиастинальная плевра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диафрагмальная и медиастинальная плевра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "купол и медиастинальная плевра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Укажите место расположения верхнего межплеврального поля:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "позади перикарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "над грудиной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "позади рукоятки грудины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "впереди позвоночника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "позади мечевидного отростка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "На уровне какого ребра по среднеключичной линии проецируется нижняя граница правого легкого:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IX ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "VII ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "VIII ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "VI ребра",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "XI ребра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Укажите анатомические образования, которые находятся впереди купола плевры:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "головка 1-го ребра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "длинная мышца шеи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подключичная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "подключичная вена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "верхняя полая вена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Укажите анатомические образования, которые находятся позади купола плевры:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "длинная мышца шеи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "задняя лестничная мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "головка 1-го ребра",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "подключичная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плечеголовной ствол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Укажите области слизистой оболочки полости носа, имеющие пещеристые венозные сплетения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхняя носовая раковина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "носовая часть глотки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "средняя носовая раковина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижняя носовая раковина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наивысшая носовая раковина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Укажите кости лицевого черепа, образующие грушевидное отверстие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхняя челюсть",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "носовая кость",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "небная кость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слезная кость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сошник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Укажите отделы полости гортани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "шейный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "преддверие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "область голосовых складок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глоточный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подголосовой отдел",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Укажите складки, имеющиеся в полости гортани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "преддверные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "голосовые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "черпало-надгортанные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "язычно-надгортанные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трубно-небные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Укажите мышцы гортани, прикрепляющиеся к мышечному отростку черпаловидного хряща:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задняя перстне-черпаловидная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "боковая перстне-черпаловидная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "щито-персневидная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щито-черпаловидная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "черпалонадгортанная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Укажите структуры бронхиального дерева, не содержащие хрящевую ткань:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дыхательная бронхиола",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дольковый бронх",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "долевой бронх",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "терминальная бронхиола",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сегментарный бронх",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Укажите расположение почек относительно брюшины:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мезоперитонеально",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретроперитонеально",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "интраперитонеально",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эксраперитонеально",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Укажите ширину (см) почек у лиц зрелого возраста:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6-8",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "5-6",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3-4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "9-10",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10-12",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Укажите длину (см) почек у лиц зрелого возраста:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6-8",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "8-9",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "13-14",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10-12",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "5– 6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Укажите толщину (см) почек у лиц зрелого возраста:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6-8",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1-2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3-4",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "7-9",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10-12",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Укажите массу (г) почек у лиц зрелого возраста:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "220-240",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "110-120",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "120-200",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "60-90",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Укажите месторасположение ворот почек:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медиальный край",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "верхний полюс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижний полюс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "латеральный край",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Почечные столбы расположены :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "между пирамидами мозгового вещества",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в почечной пазухе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в почечных сосочках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в почечной лоханке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Укажите, к какому слою паренхимы почки относится почечная пирамида:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к корковому веществу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к мозговому веществу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "к лучистой части",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к свернутой части",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к почечному синусу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Укажите, из чего складываются почечные доли:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "из почечных столбов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "из мозгового вещества и почечных столбов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "из почечной пирамиды прилежащей части коркового вещества",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "из лучистой и свернутой части",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "из почечных сосочков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Укажите, куда продолжается полость капсулы клубочка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в петлю Генле",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в проксимальный каналец",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в собирательную трубочку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в сосочек пирамиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в дистальный каналец",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Укажите, в какой области слизистая оболочка мочевого пузыря не имеет складок:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в области задней стенки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в области тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в области верхушки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в области мочепузырного треугольника (Льето)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в области дна",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Назовите образования, прилежащие к верхней стенке мочевого пузыря у мужчин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слепая кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "петли тонкой кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ампула прямой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пупочная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "предстательная железа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Укажите уровень проекции верхнего полюса левой почки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижний край XI грудного позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "середина XI грудного позвонка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "верхний край XI грудного позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижний край XII грудного позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижний край I поясничного позвонка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Укажите анатомические образования, прилежащие к латеральному краю левой почки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "селезенка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поджелудочная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "левый изгиб ободочной кишки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "левый надпочечник",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задняя стенка желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Укажите анатомические образования, входящие в состав почечной ножки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "почечная пазуха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почечная вена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лимфатические сосуды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "капсула почки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "почечная артерия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Укажите органы, прилежащие к передней поверхности левой почки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тощая кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ободочная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сигмовидная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задняя стенка желудка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Укажите структуры, входящие в состав нефрона:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "капсула Шумлянского-Боумена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "петля Генле",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "собирательная трубочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сосочковый проток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "канальцы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Укажите органы, к которым прилежит задняя поверхность мочевого пузыря у мужчин:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямая кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "семенные пузырьки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "предстательная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слепая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мочеиспускательный канал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Укажите органы, к которым прилежит задняя поверхность мочевого пузыря у женщин:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мочеполовая диафрагма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шейка матки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "влагалище",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "маточные трубы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Укажите поверхностные мышцы мочеполовой диафрагмы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "луковично-губчатая мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "седалищно-пещеристая мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сфинктер мочеиспускательного канала",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глубокая поперечная мышца промежности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "копчиковая мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Укажите мышцы диафрагмы таза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "луковично-губчатая мышца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "верхняя близнецовая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мышца, поднимающая задний проход",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наружный сфинктер заднего прохода",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "внутренний сфинктер заднего прохода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Укажите длину (см) маточных труб у взрослых женщин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3-4",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "6-8",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "8-10",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10-12",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "15-20",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Укажите отношение матки к брюшине:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экстраперитонеально",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мезоперитонеально",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "интраперитонеально",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "латеропозиция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ретроперитонеально",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Укажите, какая связка соединяет яичник со стенкой таза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "собственная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подвешивающая связка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пристеночная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "брыжейка яичника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кардинальная связка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Укажите, в каком веществе яичника находятся фолликулы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в паренхиме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в мозговом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в корковом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "строме",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в белочной оболочке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Ответьте, что называется граафовым пузырьком:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "везикулярные привески",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "зрелые фолликулы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "первичные фолликулы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зрелые яйцеклетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атретические фолликулы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Укажите слои стенки матки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндометрий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миометрий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "параметрий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подслизистый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "периметрий",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Укажите, какое углубление называется \"дугласовым пространством\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пузырное - маточное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямокишечно - пузырное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прямокишечно - маточное",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "предпузырное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "седалищно-прямокишечная ямка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Укажите длину женской уретры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5,5-6,5 см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "9,5-10,5 см",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,5-3,5 см",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "15- 17см",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "7-8 см",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Укажите связки матки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пращевидная связка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "широкая связка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "круглая связка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "собственная связка яичника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кардинальные связки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Укажите части маточной трубы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "шеечная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "паховая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ампула",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воронка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "перешеек",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Укажите анатомические образования, расположенные позади влагалища:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сигмовидная кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямая кишка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "круглая связка матки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочеточник",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мочевой пузырь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Укажите, какие канальцы образуют сеть яичка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "извитые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выносящие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отклоненные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протоки придатка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Укажите, в каких канальцах яичка образуются сперматозоиды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в прямых семенных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в выносящих канальцах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в канальцах сети яичка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в извитых семенных канальцах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выносящих протоках придатка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Укажите части семявыносящего протока:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "яичковая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "канатиковая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паховая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тазовая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Укажите длину семявыносящего протока:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "50см",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "20см",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "около 15-17см",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6-8м",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Укажите, в какой части полового члена расположен мочеиспускательный канал:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в пещеристом теле",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в губчатом теле",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в перепончатой части",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в предстательной части",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Назовите части мужского мочеиспускательного канала:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "предстательная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пузырная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перепончатая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мышечная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "губчатая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Укажите, в какой оболочке мужской уретры залегают железы Литтре:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в белочной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в слизистой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в подслизистой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в мышечной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в адвентиции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Укажите место расположения в яичке извитых семенных канальцев:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "долька яичка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средостение яичка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белочная оболочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перегородки яичка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "придаток яичка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Укажите железы, которые являются одновременно железами внутренней и внешней секреции у мужчин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "яичко",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "предстательная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бульбоуретральные железы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "семенные пузырьки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "железы Литре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "Укажите место расположения семенного пузырька:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "позади и сбоку от мочевого пузыря",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "медиальнее ампулы семявыносящего протока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выше предстательной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "впереди мочевого пузыря",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Какие части выделяют в предстательной железе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхняя доля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нижняя доля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "средняя доля",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "передняя доля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "правая доля",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "Укажите органы, к которым прилежит предстательная железа:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дно мочевого пузыря",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "слепая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ампулы семявыносящих протоков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верхушка мочевого пузыря",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "Укажите место расположения предстательной железы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в задненижней части малого таза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в передненижней части малого таза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на мочеполовой диафрагме",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на диафрагме таза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "позади мочевого пузыря",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Укажите место расположения произвольного сфинктера мочеиспускательного канала у мужчин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у внутреннего отверстия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в перепончатой части",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вокруг губчатой части",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вокруг предстательной части",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "у наружного отверстия мочеиспускательного канала",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Укажите анатомические образования, которые входят в состав полового члена:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "одно пещеристое тело",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "два пещеристых тела",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "два губчатых тела",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "одно губчатое тело",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "луковично-губчатая мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "Укажите, какой из протоков прободает предстательную железу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "простатический проток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выделительный проток семенного пузырька",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бульбоуретральный проток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "семявыбрасывающий проток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "протоки семенных пузырьков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Какая часть паренхимы яичка является местом выработки мужского полового гормона:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интерстициальные клетки Лейдига",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эпителий извитых семенных канальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетки Сертоли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сеть яичка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выносящие протоки придатка",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

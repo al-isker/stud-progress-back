@@ -1,0 +1,2413 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Понижение чувствительности рецепторов к раздражителю называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "блокадой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сенсибилизацией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "десенсибилизацией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "возбудимостью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Повышение чувствительности рецептора к раздражителю называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "десенсибилизацией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возбудимостью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сенсибилизацией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "блокадой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Рецепторы, специализированные к восприятию нескольких видов раздражителей, называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "специфическими",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адекватными",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полимодальными",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мономодальными",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Сила раздражителя кодируется в нейроне:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амплитудой потенциалов действия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "частотой потенциалов действия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "длительностью потенциала действия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Переход энергии стимула в нервный процесс в рецепторе называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адаптацией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сенсибилизацией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "первичным кодированием",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "демобилизацией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Адаптация рецептора при длительном действии на него раздражителя заключается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в сенсибилизации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в увеличении возбудимости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в уменьшении возбудимости",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в мобилизации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Раздражитель, к действию которого рецептор приспособлен в процессе эволюции, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "физическим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биологическим",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "физиологическим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адекватным",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Избирательная чувствительность рецептора к действию определенного раздражителя называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адекватностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адаптацией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возбудимостью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "специфичностью",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Способность рецепторов приспосабливаться к длительному действию раздражителя называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кодированием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "модальностью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аккомодацией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адаптаций",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Свойство анализатора изменять число активных рецепторов называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "специфичностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интеграцией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "модальностью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "функциональной мобильностью",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "К рецепторам, которые практически не обладают адаптацией, относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тактильные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вкусовые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "температурные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вестибулярные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Частота возникновения импульсов в рецепторах в процессе их адаптации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшается",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарастает постепенно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Взаимодействие анализаторов на корковом уровне обеспечивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клетками ядра анализатора",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глиальными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рассеянными элементами центрального звена анализатора",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рецепторными клетками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Межанализаторное взаимодействие обеспечивается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мономодальными сенсорными нейронами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интернейронами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полимодальными сенсорными нейронами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проводящими путями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "При миопии главный фокус находится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "за сетчаткой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на сетчатке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перед сетчаткой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "исчезает",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "При пресбиопии главный фокус находится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на сетчатке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перед сетчаткой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "за сетчаткой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "исчезает",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "При миопии необходимо провести коррекцию рефракции глаза линзами:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двояковыпуклыми",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цилиндрическими",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двояковогнутыми",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "асферическими",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "При гиперметропии необходимо провести коррекцию рефракции глаза линзами:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цилиндрическими",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "двояковогнутыми",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двояковыпуклыми",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "асферическими",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Механизм аккомодации глаза состоит в изменении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диаметра зрачка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "числа активных рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кривизны хрусталика",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поля зрения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Желтое пятно сетчатки составляют клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "горизонтальные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колбочки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амакриновые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "На периферии сетчатки больше рецепторов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "колбочек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "палочек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "одинаковое количество",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Зрительный нерв образуют аксоны клеток сетчатки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амакриновых",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биполярных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ганглиозных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "палочек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "периферии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличивается",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "изменяется в зависимости от источника света",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Повышение чувствительности глаза в темноте связано:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с распадом родопсина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с распадом йодопсина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с синтезом родопсина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с синтезом йодопсина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Бинокулярное зрение обеспечивает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фокусировку лучей на сетчатке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фокусировку лучей за сетчаткой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фокусировку лучей перед сетчаткой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "объемное видение",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Пигментный слой сетчатки выполняет роль:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отражателя света",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стабилизатора светового потока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поглотителя света",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рассеивателя света",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Место выхода зрительного нерва из глазного яблока называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желтым пятном",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "конечным путем",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "центральной ямкой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слепым пятном",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Запись суммарной электрической активности фоторецепторов сетчатки называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плетизмограммой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "электрокоуголограммой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "электроэнцефалограммой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "электроретинограммой",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Совокупность рецепторов, раздражение которых вызывает возбуждение одной ганглиозной клетки сетчатки, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желтым пятном",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "центральной ямкой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рецептивным полем",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слепым пятном",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Пространство, видимое одним глазом при фиксации взгляда в одной точке, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остротой зрения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рецептивным полем",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пространственным порогом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полем зрения",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Центр зрительного анализатора локализован в области коры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соматосенсорной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "височной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "теменной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "затылочной",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Способность глаза настраиваться на четкое видение предметов в зависимости от их удаленности называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сенсибилизацией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мобилизацией фоторецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "остротой зрения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аккомодацией",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Ахроматическое поле зрения по сравнению с хроматическим:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "идентично",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "меньше",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "больше",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "они одинаковы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "падают на сетчатку под углом в одну минуту, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аккомодацией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сенсибилизацией фоторецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рефракцией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нормальной остротой зрения",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Нарушение зрения, связанное с потерей эластичности хрусталика в пожилом возрасте, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миопией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперметропией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "астигматизмом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пресбиопией",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Дейтеранопия - это аномалия цветового зрения, связанная с нарушением восприятия света:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синего",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фиолетового",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оранжевого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "темно-зеленого",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Протанопия - это аномалия цветового зрения, связанная с нарушением восприятия цвета:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синего",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фиолетового",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оранжевого",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "темно-красного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Аномалия цветового зрения, связанная с нарушением восприятия синего и фиолетового цветов называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дейтеранопией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "протанопией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ахромазией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тританопией",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Неодинаковое преломление лучей разными участками роговицы глаза называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миопией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аккомодацией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пресбиопией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "астигматизмом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Реакция зрачка на действие света, проявляющаяся в его сужении, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аккомодацией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "астигматизмом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рефракцией глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зрачковым рефлексом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Ахроматическое зрение обусловлено:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "колбочками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пигментными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "палочками",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "горизонтальными клетками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "К рецепторному отделу слухового анализатора относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совокупность образований внутреннего уха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "барабанная перепонка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полукружные каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "волосковые клетки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "К звукопроводящим образованиям среднего уха относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "евстахиева труба, преддверие улитки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кортиев орган, полукружные каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "преддверие и полукружные каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "барабанная перепонка, молоточек, наковальня, стремечко",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Слуховой анализатор человека воспринимает звуки в диапазоне частот:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6-2 000 гц",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10-2 000 гц",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6-10 000 гц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "16-20 000 гц",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Корковое представительство слухового анализатора находится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в затылочной области",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в теменных долях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в височной области",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "соматосенсорной зоне",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Благодаря бинауральному слуху человек может:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слышать низкие тона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слышать высокие тона",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "локализовать источник звука",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "различать низкие и высокие тона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "На боковых поверхностях языка располагаются вкусовые рецепторы, чувствительные в основном:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к горькому",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к сладкому",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к кислому",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к соленному",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "На корне языка располагаются вкусовые рецепторы, чувствительные в основном к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кислому",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соленому",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сладкому",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "горькому",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Первый нейрон вкусового анализатора локализуется в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ядре солитарного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "таламусе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коре больших полушарий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чувствительных ганглиях лицевого, верхне-гортанного нервов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Второй нейрон вкусового анализатора локализуется в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коре больших полушарий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "таламусе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "чувствительных ганглиях вкусовых нервных волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ядре солитарного тракта",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Третий нейрон вкусового анализатора локализуется в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ядресолитарного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коре больших полушарий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "чувствительных ганглиях вкусовых нервных волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "таламусе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Вкусовой чувствительностью не обладают рецепторы языка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "листовидные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желобовидные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грибовидные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нитевидные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Адаптация вкусовых сосочков языка после приема пищи выражается вих:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мобилизации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сенсибилизации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "демобилизации",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Число функционирующих вкусовых рецепторов у человека больше в состоянии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сна",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "насыщения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "голода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бодрствования",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Метод определения вкусовой чувствительности по порогу ощущения называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адаптометрией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ольфактометрией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эстезиометрией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "густометрией",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Рецепторы обонятельного анализатора относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к вторичночувствительным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к первичночувствительным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мономодальным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полимодальным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Корковое представительство обонятельного анализатора находится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в теменной области коры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в затылочной области коры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в гиппокампе, периформной коре",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в ядре солитарного тракта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Метод определения обонятельной чувствительности по порогу ощущения называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адаптометрией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "густометрией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эстезиометрией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ольфактометрией",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Корковое представительство температурного анализатора находится в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "височной области",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "затылочной области",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "теменной области",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "соматосенсорной зоне",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Максимальную площадь соматосенсорной коры занимает представительство участков тела:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спины, живота, шеи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спины, бедра, голени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "губ, лица, кистей рук",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "живота и бедра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "К медленно адаптирующимся тактильным рецепторам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тельца пачини",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фоторецепторы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диски меркеля",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "колбы краузе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "К быстро адаптирующимся тактильным рецепторам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ноцицепторы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диски меркеля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тельца пачини",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "колбы краузе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Минимальное расстояние между двумя точками, при одновременном раздражении которых возникает ощущение двух прикосновений, называется порогом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чувствительным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "раздражения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пространственным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Минимальным пространственным порогом обладает кожа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подошвы ног",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предплечья",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пальцев руки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "При снижении температуры воздуха активных холодовых рецепторов становится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "меньше",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "значительно меньше",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "больше",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "практически не изменяется количество",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Колбы Краузе воспринимают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тепло",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "давление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вибрацию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холод",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Тельца Руффини воспринимают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "давление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вибрацию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "холод",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тепло",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Болевыми рецепторами являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тельца Мейснера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колбы Краузе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тельца Руффини",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "свободные нервные окончания",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Высшим уровнем взаимодействия анализаторов является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рецепторный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "таламический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стволовой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кортикальный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Рецепторы, специализированные к восприятию раздражителей одного вида называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сенсорными",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полимодальными",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мономодальными",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бимодальными",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "В слуховом анализаторе вторые нейроны представлены клетками:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "таламуса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ганглиозными",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кохлеарных ядер",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ядер солитарного тракта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "В обонятельном анализаторе вторые нейроны представлены клетками:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ядра солитарного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиппокампа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обонятельных луковиц",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Рецепторы Гольджи локализуются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухожилиях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мышцах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фасциях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связках",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Рецепторами растяжения мышц являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тельца Мейснера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диски Меркеля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колбы Краузе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мышечные веретена",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Укажите правильное распределение слоев клеток сетчатки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фоторецепторы, пигментный слой, два слоя нейронов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пигментный слой, фоторецепторы, два слоя нейронов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "два слоя нейронов, пигментный слой, фоторецепторы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пигментный слой, два слоя нейронов, два слоя нейронов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "В соматовисцеральную сенсорную систему входят анализаторы, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кожного",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проприоцептивного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вестибулярного",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "висцерального",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Рецепторы слухового анализатора называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "волосковые клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тельца Руффини",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диски Меркеля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Возбуждение рецепторов в кортиевом органе возникает при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "деформации волосковых клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "деформации барабанной перепонки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колебания основной мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "колебания перилимфы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Ноцицепция - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тактильная чувствительность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "болевая чувствительность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "температурная чувствительность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "температурная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Под влиянием звуковых раздражителей в улитке возникают электрические явления, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "суммационного потенциала",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "потенциала действия слухового нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мембранного потенциала волосковых клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "микрофонного потенциала",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Уровнем окислительно - восстановительных реакций в эндолимфе улитки определяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мембранный потенциал волосковых клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндокохлеарный потенциал",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "потенциал действия слухового нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Отолитовый аппарат является рецепторной структурой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слухового анализатора",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вестибулярного анализатора",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "соматосенсорного анализатора",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тактильного анализатора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "В первично-чувствующих рецепторов импульсная активность возникает непосредственно в результате:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "взаимодействия раздражителя с мембраной рецептора",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возникновение рецепторного потенциала",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "генерация потенциала действия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "При формировании рецепторного потенциала в рецепторах зрительного анализатора мембрана находится в состоянии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "деполяризации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперполяризации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "статической поляризации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реполяризации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "При формировании рецепторного потенциала в рецепторах слухового анализатора мембрана находится в состоянии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "деполяризации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперполяризации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "статической поляризации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реполяризации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "При освещении фоторецепторов возникает гиперполяризация, потому что их мембрана на свету снижает проницаемость для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ионов калия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ионов натрия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ионов хлора",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ионов магния",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Биполярные нейроны сетчатки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "объединяют нейроны по горизонтали",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "осуществляют латеральное торможение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "связывают фоторецепторы с ганглиозными клетками",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "В зрительном анализаторе вторые нейроны представлены клетками:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "таламуса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ганглиозными",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "биполярными",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пигментными",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Корковое представительство вкусового анализатора находится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в теменной области коры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиппокампе, перифортной коре",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соматосенсорной зоне коры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "затылочной области коры",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

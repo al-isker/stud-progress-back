@@ -41,6 +41,41 @@ function choiceQuestion(question: Question): ChoiceQuestion {
 }
 
 describe('document-level option syntax', () => {
+	test('does not treat standalone hash question numbers as a two-prefix option family', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const questions = segment([
+			numberedLine('% section one', null),
+			numberedLine('#1', 30),
+			numberedLine('Question 1', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('#2', 30),
+			numberedLine('Question 2', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('% section two', 30),
+			numberedLine('#3', 30),
+			numberedLine('Question 3', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('#4', 30),
+			numberedLine('Question 4', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30)
+		]);
+
+		expect(questions).toHaveLength(4);
+		expect(questions.map(question => question.texts[0])).toEqual([
+			'Question 1',
+			'Question 2',
+			'Question 3',
+			'Question 4'
+		]);
+	});
+
 	test('preserves symbolic and signed answers after the inferred structural prefix', () => {
 		const questions = segment(
 			bracketQuestion('Question', [['= ordinary'], ['=%'], ['=/'], ['=/////'], ['=-5'], ['=+5']])
@@ -233,6 +268,44 @@ describe('document-level option syntax', () => {
 		]);
 	});
 
+	test('excludes percentage questions from global marker confirmation', () => {
+		const percentageQuestions = Array.from({ length: 7 }, (_, index) =>
+			bracketQuestion(`Percentage ${index + 1}`, [
+				['~%100% correct'],
+				['~%-50% wrong 1'],
+				['~%-50% wrong 2']
+			])
+		).flat();
+		const questions = segment([
+			...percentageQuestions,
+			...bracketQuestion('Global 1', [['=correct'], ['~wrong 1'], ['~wrong 2']]),
+			...bracketQuestion('Global 2', [['~wrong 1'], ['=correct'], ['~wrong 2']]),
+			...bracketQuestion('Global without answer', [['~wrong 1'], ['~wrong 2'], ['~wrong 3']])
+		]);
+		const marker = resolveAnswerMarker(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		const result = assembleTestDocument(
+			questions,
+			marker.marked,
+			new Set(marker.ambiguous),
+			marker.consumedTextPrefixes
+		);
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions).toHaveLength(9);
+		expect(
+			result.document.questions.slice(0, 7).every(question => question.type === 'single')
+		).toBe(true);
+		expect(result.issues.rejectedQuestions).toEqual([
+			{
+				index: 10,
+				text: 'Global without answer',
+				reason: QuestionRejectionReason.NO_ANSWER_MARKER
+			}
+		]);
+	});
+
 	test('marks a question with a premature closing brace as malformed', () => {
 		const questions = segment([
 			line('Question 1 {'),
@@ -284,6 +357,108 @@ describe('document-level option syntax', () => {
 		]);
 
 		expect(questions.map(question => question.options.length)).toEqual([2, 2, 1, 1, 1]);
+	});
+
+	test('removes percentage weights when an equals marker resolves the question', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct'], ['~wrong 1'], ['~wrong 2']]),
+			...bracketQuestion('Question 2', [['=correct'], ['~wrong 1'], ['~wrong 2']]),
+			...bracketQuestion('Question 3', [['=correct'], ['~wrong 1'], ['~wrong 2']]),
+			...bracketQuestion('Question 4', [
+				['=all of the above'],
+				['~%25% first partial answer'],
+				['~%25% second partial answer']
+			])
+		]);
+		const marker = resolveAnswerMarker(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		const result = assembleTestDocument(
+			questions,
+			marker.marked,
+			new Set(marker.ambiguous),
+			marker.consumedTextPrefixes
+		);
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+		const last = choiceQuestion(result.document.questions[3]);
+
+		expect(last.type).toBe('single');
+		expect(last.options.map(option => option.text)).toEqual([
+			'all of the above',
+			'first partial answer',
+			'second partial answer'
+		]);
+	});
+
+	test('keeps a rare equals option in a document dominated by tilde options', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['~wrong 1'], ['=correct'], ['~wrong 2']]),
+			...bracketQuestion('Question 2', [['~wrong 1'], ['~wrong 2'], ['~wrong 3']]),
+			...bracketQuestion('Question 3', [['~wrong 1'], ['~wrong 2'], ['~wrong 3']])
+		]);
+
+		expect(questions[0].options.map(option => option.sourcePrefix)).toEqual(['~', '=', '~']);
+		expect(questions[0].options.map(option => option.texts[0])).toEqual([
+			'wrong 1',
+			'correct',
+			'wrong 2'
+		]);
+	});
+
+	test('keeps percentage-scored options without a tilde prefix', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [
+				['~wrong 1'],
+				['%50%correct 1'],
+				['~wrong 2'],
+				['%50%correct 2']
+			]),
+			...bracketQuestion('Question 2', [['~wrong 1'], ['=correct'], ['~wrong 2']]),
+			...bracketQuestion('Question 3', [['~wrong 1'], ['=correct'], ['~wrong 2']])
+		]);
+
+		expect(questions[0].options.map(option => option.sourcePrefix)).toEqual(['~', '%', '~', '%']);
+		expect(questions[0].options.map(option => option.texts[0])).toEqual([
+			'wrong 1',
+			'50%correct 1',
+			'wrong 2',
+			'50%correct 2'
+		]);
+	});
+
+	test('recognizes a document-wide en dash option prefix', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct'], ['–wrong 1'], ['–wrong 2']]),
+			...bracketQuestion('Question 2', [['=correct'], ['~wrong 1'], ['~wrong 2']]),
+			...bracketQuestion('Question 3', [['=correct'], ['~wrong 1'], ['~wrong 2']])
+		]);
+
+		expect(questions[0].options.map(option => option.texts[0])).toEqual([
+			'correct',
+			'wrong 1',
+			'wrong 2'
+		]);
+	});
+
+	test('splits a decorated option appended to a two-prefix question', () => {
+		const questions = segment([
+			line('?Question 1'),
+			line('continued !+correct 1'),
+			line('!wrong 1'),
+			line('!wrong 2'),
+			line('?Question 2'),
+			line('!wrong 1'),
+			line('!+correct 2'),
+			line('!wrong 2')
+		]);
+
+		expect(questions[0].texts).toEqual(['Question 1', 'continued']);
+		expect(questions[0].options.map(option => option.texts[0])).toEqual([
+			'+correct 1',
+			'wrong 1',
+			'wrong 2'
+		]);
+		expect(questions[1].texts).toEqual(['Question 2']);
 	});
 
 	test('keeps visually compatible lines of a multiline question', () => {

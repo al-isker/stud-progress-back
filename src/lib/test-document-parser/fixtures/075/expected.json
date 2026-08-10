@@ -1,0 +1,4691 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Заболевание гепатит – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "болезнь, характеризующаяся дистрофией и некрозом гепатоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опухоль печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воспаление печени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гепатомегалия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мускатная печень",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Заболевание цирроз печени характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспалительной инфильтрацией стромы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только острым течением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сморщиванием печени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гладкой поверхностью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острой печеночной недостаточностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Со стороны гепатоцитов при остром гепатите наблюдается:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "перестройка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дистрофия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дисплазия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "некробиоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "воспалительная инфильтрация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Гепатит хронический может быть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "геморрагическим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серозным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гнойным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "катаральный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Хронический персистирующий гепатит характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выраженной клеточной инфильтрацией всей стромы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диффузной клеточной инфильтрацией портальных полей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "резкой дистрофией гепатоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холестазом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "некрозом гепатоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Гепатит первичный возникает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при брюшном тифе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при алкоголизме",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при туберкулезе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при тереотоксикозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при инфаркте миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Вирус гепатита типа В передается путем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трансмиссивным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фекально-оральным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "чрескожным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воздушно-капельным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Инкубационный период для вирусного гепатита типа А длится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5-10 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "15-45 дней",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1-2дня",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "25-180 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "около 6 часов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "К развитию цирроза печени обычно ведет вирусный гепатит типа:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Д",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Действие вируса гепатита типа В на гепатоциты обусловлено?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммунным цитолизом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "цитопатическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цитотоксическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильногоответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "При гепатите типа В некроз гепатоцитов бывает?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сливающимся",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тотальным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пятнистым",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "очаговым",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диффузным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Клинико-морфологические формы вирусного гепатита В?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойно интерстициальная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "холестатическая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желтушная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цирротическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холемическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Лимфогенными являются метастазы рака печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в легкие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в околопортальные лимфоузлы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в кости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по брюшине",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в паховые лимфоузлы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Рак желчного пузыря чаще всего развивается на фоне:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цирроза печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронического панкреатита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмпиемы желчного пузыря",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холелитиаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронического холецистита",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "К злокачественным опухолям печени относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печеночноклеточный рак",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "холангиокарцинома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистаденокарцинома желчных протоков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепатобластома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все вышеперечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Гастрит - это воспаление слизистой оболочки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желудка и двенадцатиперстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двенадцатиперстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тонкой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "толстой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Гастрит эндогенный возникает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сепсисе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при аллергии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при алкоголизме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при злоупотреблении лекарствами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при крупозной пневмонии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Морфологические формы острого гастрита?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "атрофический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "флегмонозный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипертрофический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "некротический (коррозийный)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиперпластический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Флегмона желудка возникает на фоне?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коррозивного гастрита",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полип желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гастрита Менетрие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острой дилятации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "катара желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Макроскопическая характеристика хронической язвы желудка вне обострения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расположена в любом отделе желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в дне - солянокислый гематин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "края плотные, омозолелые",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "края мягкие, ровные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Морфогенез хронической язвы желудка и 12-перстной кишки принципиально?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отличается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не отличается",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Дно хронической язвы желудка в период ремиссии представлено?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышечной тканью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серозной оболочкой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гнойно - некротическим экссудатом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рубцовой тканью, покрытой эпителием",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Стенки сосудов в дне хронической язвы желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержат массы амилоида",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "склерозированы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "истончены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Синоним перфорации?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пенетрация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прободение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малигнизация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "В результате рубцового стеноза привратника может развиться?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перфорация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "малигнизация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хлоргидропеническая уремия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Малигнизация хронической язвы – это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атрофия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "озлокачествление",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Предраковые изменения слизистой оболочки желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тяжелая дисплазия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гипертрофия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дистрофия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атрофия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Общие изменения при раке желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "избыток веса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бурая атрофия миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "печеночно - клеточная недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая сердечно - сосудистая недостаточность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Наиболее частая локализация рака в желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тело",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "малая кривизна",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "большая кривизна",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Тотальный рак - это поражение желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кардинального и пилорического отделов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пилорического отдела и тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "малой и большой кривизны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всех отделов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Наиболее частый гистологический вариант экзофитного рака желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недифференцированный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плоскоклеточный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аденокарцинома",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слизистый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Микроскопическая характеристика дна рака - язвы желудка ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "склероз стенок сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дисплазия эпителия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мышечные волокна",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рубцовая ткань",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Преимущественный путь метастазирования рака желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имплантационный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "периневральный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфогенный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гематогенный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Первые метастазы рака желудка выявляются в ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "легких",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "яичниках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "регионарных лимфатических узлах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Рак Крукенберга - это метастаз рака желудка в ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "яичники",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "параректальные лимфатические узлы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "В яичники рак желудка метастазирует путем ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ортоградным лимфогенным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ортоградным гематогенным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретроградным лимфогенным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "парадоксальным гематогенным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Гематогенным путем рак желудка чаще всего метастазирует?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "яичники",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надпочечники",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "регионарные лимфатические узлы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "При болезни менетрие слизистая оболочка желудка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атрофируется",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертрофируется",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Аппендицит – это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "брыжеечный лимфаденит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туберкулезное поражение аппендикса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острое воспаление правой маточной трубы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воспаление червеобразного отростка с характерным клиническим синдромом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "При флегмонозном аппендиците развивается воспаление?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифтерическое",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнилостное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крупозное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гнойное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Причина первичной гангрены аппендикса?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некроз мышечной оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изъзвление слизистой оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тромбоз аппендикулярной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фокусы гнойного воспаления в слизистой",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Осложнения острого аппендицита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "самоампутация отростка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "цистаденома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мукоцеле",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровотечение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Современная концепция патогенеза аппендицита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метаболическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммунологическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ангионевротическая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Острый вирусной гепатит характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемосидерозом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "липофусцинозом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жировой дистрофией гепатоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "баллонной дистрофией гепатоцитов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Исход острого вирусного гепатита А?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "постнекротический цирроз печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "формирование носительства",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "портальный цирроз печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выздоровление",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Клетки печени, принимающие участие в накоплении и метаболизме витамина А?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гепатоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "купферовские",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндотелиальные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "звездчатые (клетки Ито)",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Появление инфильтрата в ткани печени называется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "регенерация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гепатома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепатит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цирроз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Биопсия печени мужчины К., 65 лет, с желтухой выявила выраженный холестаз, пенистый вид цитоплазмы гепатоцитов и озера желчи. Заключение ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цирроз печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синдром Жильбера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обструкция желчных путей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вирусный гепатит С",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Мужчина Г., 50 лет, в течение 20 лет страдает алкогольным циррозом печени с развитием синдромов портальной гипертензии и печеночно – клеточной недостаточности. При анализе крови выявлено?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипоальбунемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипогаммаглобулинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличенный уровень тестостерона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Жировая дистрофия гепатоцитов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обратима",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "необратима",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Избирательная окраска на жир?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "толуидиновый синий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гематоксилин - эозин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альциановый синий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "судан III",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "патогенезе синдрома Бадда - Киари ведущую роль играет закупорка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воротной вены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печеночной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печеночных вен",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верхней полой вены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Метафорическое название печени при хронической сердечно-сосудистой недостаточности?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гусиная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мускатная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "большая пестрая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "большая сальная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Синоним вирусного гепатита А – болезнь?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Рустицкого - Калера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сокольского - Буйо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Вильсона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Боткина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Путь передачи инфекции при вирусном гепатите А?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "контактный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парентеральный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фекально - оральный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воздушно - капельный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Вирус гепатита В содержит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ДНК",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "РНК и ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Тельца Каунсильмена образуются в результате?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "колликвационного некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коагуляционного некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "казеозного некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "апоптоза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "При гидропической дистрофии цитоплазма?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "набуханию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сморщиванию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глыбчатому распаду нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "При длительном холестазе печень приобретает цвет?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серый",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "зеленый",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коричневый",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желтый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Непосредственными последствиями флегмонозного гастрита в брюшной полости являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "парааортальный абсцесс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перигастрит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "паранефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перитонит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пиелонефрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "В развитии хронического гастрита играют роль экзогенные факторы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушения режима питания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мутация генов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "злоупотребление алкоголем",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рефлюкс",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Аутоиммунный хронический гастрит по локализации бывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коррозивный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фундальный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "флегмонозный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "катаральный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эрозивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Хронический аутоиммунный гастрит характеризуется?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "значительным снижением секреции соляной кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усилением секреции мукопротеидов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствием гастринемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усилением секреции соляной кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "высоким уровнем гастринемии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "При хроническом гастрите в слизистой оболочке желудка имеют место:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "физиологическая регенерация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипертрофия мышечной пластинки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дистрофия эпителия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кровоизлияние",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Признаки \"энтеролизации\" эпителия желудка при хроническом атрофическом гастрите?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "слизистые клетки желез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "главные эпителиоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "париетальные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бокаловидные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фибробласты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "При обострении хронического гастрита возникают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ишемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полипы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперплазия эпителия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эрозия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "метаплазия эпителия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Стадиями морфогенеза язвенной болезни являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гастрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эрозии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "острые язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хронический гастрит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атрофический гастрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Острая язва переходит в хроническую чаще в области малой кривизны желудка по причине?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствия нервных рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обилия кровеносных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличия \"пищевой дорожки\"",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обилия нервных рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "низкой активности желудочного сока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "В связи с обострением язвенной болезни рубцовые изменения в желудке возникают из-за:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоза сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атеросклероза сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "созревания грануляционной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отложения солей извести",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атрофии мышечной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "К язвенно-деструктивным осложнениям язвенной болезни относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гастрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дуоденит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровотечение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "деформация желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перигастрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Язва желудка может пенетрировать?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в левую почку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в мочевой пузырь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в селезенку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в поджелудочную железу",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в правую почку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Наиболее частые сочетания (комбинации) осложнений язвенной болезни?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пенетрация и кровотечение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "репарация и перфорация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровотечение и малигнизация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перфорация и пенетрация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атрофия стенки желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "К предраковым изменениям для рака желудка относятся?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронический гиперацидный гастрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "флегмона",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронический атрофический гастрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кишечная метаплазия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Рак малой кривизны и пипорического отдела желудка может прорастать?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в селезенку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в мочевой пузырь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в яичники",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в ворота печени",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в яички",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Лимфогенные ортоградные метастазы рака желудка обнаруживают?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в левых надключичных лимфоузлах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в лимфоузлах малой кривизны",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в яичниках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в лимфоузлах большой кривизны желудка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в головном мозгу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Лимфогенные метастазы рака желудка могут возникнуть?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в костях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в надпочечниках",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в коже",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в яичниках",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Канкрозный перитонит возникает при метастазировании рака желудка путем?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематогенным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "периневральным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "имплантационным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфогенным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интраканаликулярным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "К изменениям, возникающим при дифтерии, в сердце относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фибринозный перикардит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойный миокардит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсический миокардит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "порок сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "возвратно-бородавочный эндокардит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Деструктивные формы острого аппендицита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "флегмонозный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поверхностный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "катаральный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серозный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "простой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Флегмонозный аппендицит обычно начинает развиваться?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 3 дня от начала болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через 7 суток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в первые часы болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к концу первых суток",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Гангренозный первичный аппендицит возникает в связи c:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "периаппендицитом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первичным тромбозом сосудов аппендикса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "туберкулезным поражением аппендикса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мезентериолитом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воспалительным тромбозом артерий аппендикса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Частыми и опасными являются осложнения острого аппендицита в виде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "парааортита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перфорации стенки аппендикса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эндометрита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оофорита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "орхита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Язвенная болезнь характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническим ациклическим течением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острой язвой желудка или двенадцатиперстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хроническим циклическим течением",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хронической эрозией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Патогенетическими факторами развития язвенной болезни являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прием некоторых лекарственных средств",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "курение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стресс",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "злоупотребление алкоголем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Первичная злокачественная опухоль пищевода чаще всего?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аденокарцинома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плоскоклеточный рак",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "недифференцированный рак",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "злокачественная меланома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лейомиосаркома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "К заболеваниям желудка, не являющимся предраком, относятся?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гастрит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронический гастрит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хроническая язва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аденоматозный полип желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Характерной локализацией ретроградных метастазов рака желудка являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "надключичные лимфоузлы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "околоушная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "матка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Наиболее частой локализацией рака толстой кишки является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слепая кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "восходящий отдел",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечно-ободочная часть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезеночный угол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ректо-сигмоидальный отдел",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Опухоль Крукенберга представляет собой?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тератобластому яичников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "двусторонний рак яичников солидного строения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метастаз рака желудка в яичник",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верно все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "В основе сморщивания почек у больных пиелонефритом лежит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "склероз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "амилоидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опхоль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гематома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "петрификация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Функции почек при пиелонефрите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышаются",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяются",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижаются",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "усиливаются",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сопровождаются гипотонией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Гломерулопатиями являются болезни?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "\"миеломная почка\"",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амилоидоз почек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "\"подагрическая почка\"",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пиелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поликистоз почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Приобретенными гломерулопатиями являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синдром Альпорта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "семейный нефропатический амилоидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гломерулонефрит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пиелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "печеночный гломерусклероз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Приобретенные тубулопатии это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некротический нефроз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "канальцевые ферментопатии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нефросклероз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нефротический синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "амилоидоз почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "При тубулопатиях страдают функции почек?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фильтрационная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "концентрационная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "реабсорбционная",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Для гломерулонефрита характерны?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойное воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только острое течение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "артериальная гипотония",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипертрофии правого желудочка сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипертрофия левого желудочка сердца",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Внепочечные симптомы гломерулонефрита это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертрофия левого желудочка сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "олигурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цилиндурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протеинодурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Болезни, после которых обычно развивается гломерулонефрит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скарлатина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "корь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дизентерия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "паротит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Характерные признаки вторично-сморщенных почек?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникают при гипертонической болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "размеры почек резко увеличены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поверхность почек мелкозернистая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "исходом является гематома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сопровождаются гипертрофией правого желудочка сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Нефротический синдром характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пиурией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отеками",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гематурией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резким повышением артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиполипидемией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Вторичный амилоидоз почек может возникнуть на фоне?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупозной пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ревматизма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туберкулеза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хронического гастрита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмфиземы легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Некротический нефроз – это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тубулопатия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гломерулопатия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опухоль почки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поликистоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "амилоидоз почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Некронефроз это анатомический субстрат почечной недостаточности?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронической",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подострой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "волчанки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Возможные причины развития некронефроза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соли тяжелых металлов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гемолитический стрептококк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "этанол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "йод",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммунопатология",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Инфекционные начала при пиелонефрите в почку могли попасть путем?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушно-капельным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гематогенным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "через кожу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трансплацентарным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фекально-оральным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Пиелонефрит - это заболевание почек?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "генетическое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диабетическое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунологическое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аутоиммунное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "При пиелонефрите в воспалительный процесс вовлекаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почечная лоханка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чашечки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "строма почки, лоханка и чашечки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клубочки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "канальцы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Формы хронического пиелонефрита характеризуются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некрозом слизистой оболочки чашечек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "катаром слизистой оболочки чашечек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "склерозом лоханок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фибринозным пиелитом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лейкоцитарная инфильтрация лоханки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Возможные осложнения пиелонефрита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желтуха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пионефроз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "поликистоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рак почки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипотония",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Нефролитиаз – это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "опухоль почки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гломерулопатия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почечно-каменная болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тубулопатия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поликистоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Возможные факторы развития нефролитиаза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "авитаминоз А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "преобладание в пище жиров",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "алкалоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипертония",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Гидронефроз может привести?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к пиелонефриту",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "некронефрозу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амилоидозу почек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к вторичному сморщиванию почки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гломерулонефриту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Возможные осложнения поликистоза почек?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперемия почек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пиелонефрит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гломерулонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "липоидный нефроз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "амилоидоз почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Морфологическая основа хронической почечной недостаточности?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уремия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нефросклероз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аутоинтоксикация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задержка шлаков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ацидоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Уремия является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "морфологической основой хронической почечной недостаточности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клиническим выражением хронической почечной недостаточности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "печеночной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ишемической болезнью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушением обмена сложных белков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Доброкачественной опухолью почек является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почечноклеточный рак",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нефробластома (опухоль Вильмса)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аденома",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мезобластическая нефрома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "у молодых мужчин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Под слизистой оболочкой матки расположены множественные шарообразные белесоватые узлы, четко ограниченные от окружающей ткани. Микроскопически - узлы построены из пучков, состоящих из гладкомышечных элементов со слабыми явлениями тканевого атипизма. Указанная картина характерна?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для субмукозной лейомиомы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для субмукозной лейомиосаркомы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для субмукозной нейрофибросаркомы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "При рентгенологическом исследовании грудной клетки мужчины 40 лет обнаружено расширение восходящего отдела аорты. При пальпации шеи за грудиной отмечается усиленная пульсация аорты. В аорте у данного больного имеется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дивертикул",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аневризма",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тромб",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эмболия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стеноз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "У больного Ш., 28 лет, в области кожи чуть латеральнее левого крыла носа отмечается конусообразное возвышение диаметром 0,6 см и высотой 0,5 см, багрово-красного цвета с желтоватым участком в области верхушки, болезненно, возникло 3 дня назад. Больной астеничен. Врач подумал?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "о карбункуле",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "о фурункуле",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "о флегмоне",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "о гангрене",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "о склерозе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "У больного Р., 46 лет, страдающего хроническим алкоголизмом с циррозом печени, развился асцит. Артерии брюшной полости при этом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сдавлены",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не изменены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тромбированы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "некротизированны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "У больной С., 35 лет, отмечается выраженный цианоз губ, слизистой оболочки рта, акроцианоз. В анамнезе - ревматизм. Данные симптомы связаны?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с тромбозом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с венозной гиперемией",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "с ишемией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гематомой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "патехией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Тучный мужчина 20 лет попал под автомашину. Имеют место распространенные переломы длинных трубчатых костей нижних конечностей. По дороге в больницу больной скончался. На вскрытии обнаружен врожденный порок сердца: дефект межжелудочковой перегородки. Указать форму эмболии, которая возникла у больного?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микробная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "газовая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бактериальная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Неопытный водолаз очень быстро вынырнул с большой глубины. У него отмечаются загрудинные боли, удушье, цианоз, коллапс. Через некоторое время он скончался. От какой болезни скончался больной?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кессонной",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Аддисоновой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ходжкина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Базедовой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "смерти, на вскрытии обнаружено: очень жидкая кровь, признаки повышенной кровоточивости, отек легких. Судя по всему больной умер от шока. Если это действительно шок, то он является у данного больного?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "травматическим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиповолемическим",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кардиогенным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "септическим",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперволемическим",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "смерти, на вскрытии обнаружено: очень жидкая кровь, признаки повышенной кровоточивости, отек легких. Судя по всему больной умер от шока. Боль за грудиной обусловлена?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только ишемией миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только инфарктом миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ишемией и инфарктом миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кардиосклерозом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аневризмой сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Чем характеризуется \"шоковое легкое\"?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмосклерозом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ателектазами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бронхопневмонией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крупозной пневмонией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемосидерозом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Ребенок 8 лет погиб во время автокатастрофы. По словам родителей, был здоров. При вскрытии: обнаружены очаги казеозного некроза в бронхопульмональных лимфатических узлах, единичные туберкулезные бугорки в печени и селезенке. Указанную клиническую картину в патологоанатомическом диагнозе следует обозначить как?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первичный туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туберкулезный бронхоаденит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рост первичного эффекта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гематогенную генерализацию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "У женщины 25 лет во время диспансеризации выявлена эрозия шейки матки. Проведена биопсия. При гистологическом исследовании обнаружена деструкция покровного эпителия, густая инфильтрация тканей матки лимфоидными и плазматическими клетками. Явление пролиферативного васкулита. В этом случае необходимо исключить?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "истинную эрозию",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сифилис",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "На вскрытии в веществе головного мозга обнаружено кровоизлияние с формирующейся кистой, наполненной желто-бурым содержимым. В данном очаге кровоизлияния можно обнаружить?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гематоидин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемосидерин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "и дающие положительную реакцию на фибрин. Метахромазия при окраске толуидиновым синим не выражена. На основании перечисленного в клапане имеет место?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дистрофическое обызвествление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ослизнение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ожирение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибриноидное набухание",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мукоидное набухание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "При микроскопическом исследовании створок митрального клапана, иссеченного при операции протезирования, у больного ревматическим митральным пороком сердца оказалось, что ткань обладает выраженной базофилией. При окраске толуидиновым синим она красится в сиренево-красный цвет. Этот процесс может быть охарактеризован как?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амилоидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиалиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фибриноидное набухание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мукоидное набухание",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "В скудной мокроте вязкой констистенции у больного К., 45 лет, встречаются прожилки буроватого цвета. Эти прожилки представляют собой?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зерна меланина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сидерофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "липофусцин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гематин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "В \"клетках сердечных пороков\" (больной в детстве перенес ревматический эндокардит) обнаруживается под микроскопом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "меланин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемосидерин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гемомеланин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "порфирин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гематоидин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "У ребенка 12 мес. обнаружено отставание роста, незаращение родничков, деформация грудной клетки, утолщение ребер на границе костной и хрящевой ткани. Это состояние характерно для нарушения обмена?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "меди",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фосфора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кальция и фосфора",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "железа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "У ребенка 12 мес. обнаружено отставание роста, незаращение родничков, деформация грудной клетки, утолщение ребер на границе костной и хрящевой ткани. Причиной нарушения минерального обмена у данного ребенка является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиповитаминоз А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиповитаминоз В",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипервитаминоз Д",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиповитаминоз С",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиповитаминоз Д",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "У ребенка 12 мес. обнаружено отставание роста, незаращение родничков, деформация грудной клетки, утолщение ребер на границе костной и хрящевой ткани. Ребенку следует поставить диагноз?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аддисоновой болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рахита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "флюороза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пеллагра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Гистологически: мономорфная картина, представленная клетками типа В-лимфоцитов. Эта клиническая картина наблюдается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при хроническом лимфолейкозе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при лимфогранулематозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при хроническом миелолейкозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при ретикулосаркоме",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при хроническом неспецифическом лимфадените",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Печень и селезенка увеличены. В костном мозге: пролиферация всех трех ростков, увеличение числа ядерных форм красного ряда, большое количество мегакариоцитов, почти полное исчезновение жировых клеток, очаговое рассасывание костных балок. Эта картина наблюдается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при малярии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при симптоматическом эритроцитозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при сепсисе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при миеломной болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при эритремии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Синоним болезни минимальных изменений –нефроз?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некротический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желтушный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липоидный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Интерпозиция мезангия при мембранопролиферативном гломерулонефрите приводит к?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к удвоению гломерулярных базальных мембран",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "склерозу и гиалинозу мезангиального матрикса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диффузному утолщению гломерулярных базальных мембран",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "К внепочечным изменениям при хроническом гломерулонефрите относят уремический?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гепатит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тиреодит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паранефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гастроэнтерит",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "При некрозе извитых канальцев смерть больного может наступить от почечной недостаточности?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подострой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронической",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Наиболее частый вариант амилоидоза почек?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первичный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "старческий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вторичный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "локальный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Элективная окраска для выявления масс амилоида?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "судан III",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фукселин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пикрофуксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Конго красный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "При синдроме Гудпасчера поражаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почки и печень",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почки и легкие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "почки и сердце",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почки и головной мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Нефрит при синдроме Альпорта сопровождается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рахитом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глухотой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хондродистрофией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "заболеванием глаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Острый некроз канальцев почки, связанный с действием пигментов, развивается при?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемохроматозе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемолитических кризах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "шоке различной этиологии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холере",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Токсический острый некроз канальцев почки не может быть связан с действием?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "солей канальцев",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "этиленгликоля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "четыреххлористого углерода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "солей ртути",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Стадии острого некроза канальцев почки не является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "основная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "начальная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выздоровления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нефротическая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Наиболее распространенной причиной пиелонефрита является инфекция?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "восходящая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гематогенная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Наиболее частые источники эмболий почечных артерий?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбы глубоких вен голеней",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбы в аневризмах грудного отдела аорты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пристеночные тромбы левого предсердия и желудочка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Макроскопическая характеристика инфаркта почки не характеризуется следующими признаками?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клиновидный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неправильной формы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "белый с геморрагическим венчиком",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "основание обращено к поверхности почки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Причины обструкции мочевыводящих путей на уровне лоханки?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стриктуры",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиперплазия ткани соседнего органа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Пиелонефрит характеризуется воспалением?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "канальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интерстиция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почечных лоханок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "При амилоидозе почек смерть больного может наступить от почечной недостаточности?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подострой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронической",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Амилоидоз почек - это повреждение?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обратимое",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "необратимое",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Причины обструкции мочевыводящих путей на уровне мочеточника не являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "камни",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стриктуры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "У мужчин уретрит часто сопровождается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "циститом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проктитом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "простатитом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "парапроктитом",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

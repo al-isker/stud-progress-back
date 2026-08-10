@@ -1,0 +1,746 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Выделите основных возбудителей анаэробной газовой гангрены:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Pnevmococc",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Sthreptococc",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Clostridium perfringes, hystolyticus, vibrion septicus,cl.ocdematiens",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "палочка Коха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Cl.tetani",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Длительность инкубационного периода при клостридиальной анаэробной инфекции составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3-4 дня",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "5-10 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "15-30 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1-2 дня",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "1-6 месяцев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Укажите специфический симптом клостридиальной анаэробной инфекции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "симптом «наждачки»",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "симптом «лигатуры»",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обильное раневое отделяемое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие болей в области повреждения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование пустул на кожных покровах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Чаще всего анаэробная инфекция локализуется на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "голове, шеи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "конечностях",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "промежности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туловище",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в легком",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Назовите наиболее частые причины, способствующие развитию анаэробной инфекции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шок, анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ожирение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "утомление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипотония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пожилой возраст",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Газовая гангрена чаще встречается после:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ожогов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резанных ран 2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "закрытых травм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "огнестрельных повреждений",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "операционных ран",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Профилактическая доза противогангренозной сыворотки составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1000 АЕ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2000 АЕ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3000 АЕ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "30000 АЕ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "40000 АЕ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Лечебная доза противогангренозной сыворотки составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5000 АЕ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "50000 АЕ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "100000 АЕ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "150000 АЕ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "200000 АЕ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Специфическое лечение газовой гангрены заключается в введении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "противодифтерийной сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гаммаглобулина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "противогангренозной сыворотки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вливании физиологического раствора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "По патологоанатомической классификации различают следующие формы газовой гангрены:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "молниеносная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "костная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эмфизематозная, отечная, флегмонозная, некротическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ЭПИ и субфасциальная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коматозная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "По клинической классификации различают следующие формы газовой гангрены:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острая молниеносная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клостридиальный миелонекроз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синхронная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "подострая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вялотекущая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Причины интоксикации при газовой гангрены следующие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение обмена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "всасывание продуктов некроза тканей и клостридиальных токсинов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нарушение микроциркуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровопотеря",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "жировая эмболия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Основными местными признаками газовой гангрены является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие воспалительной реакции в тканях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обильное раневое отделяемое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфангоит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подкожная эмфизема",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "При анаэробной инфекции для промывания раны наиболее целесообразно использовать:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "растворы солей тяжелых металлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "галоиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "препараты группы окислителей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "препараты из группы красителей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "При анаэробной инфекции применяют следующие оперативные методы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзоартикуляция пальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экономное рассечение тканей в области раны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дренирование ран",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лампасные разрезы с иссечением некротизированных мышц",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "минимальная ампутация конечности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Для промывания ран при газовой гангрене используется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "физиологический раствор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "новокаин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перекись водорода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "раствор глюкозы 4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дистиллированная вода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Гнилостная инфекция развивается при наличии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмококков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "палочки Леффлера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анаэробных бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "палочки Коха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гонококков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "При наличии каких бактерий развивается гнилостная инфекция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмококка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В.putrificans, protens, vulgaris, E.Coli",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "золотистого стафилококка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "палочки столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стрептококка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "У больных с анаэробной инфекцией возможны следующие осложнения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровотечения, вторичная анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кератит, инсульт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жировая, воздушная эмболия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амилоидоз внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рецидив анаэробной инфекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Противоэпидемические мероприятия при анаэробной инфекции заключаются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изоляции больных, выделении отдельного медперсонала",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выделении лишь отдельных предметов туалета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белье и халаты медперсонала подвергаются многократной стирке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белье и халаты замачивают в 0,5 растворе хлорамина на 1 час и списывают",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повторном использовании перевязочного материала после стирки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Местные изменения при гнилостной инфекции характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспалением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расплавлением тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфангоитом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствием отделяемого",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличием специфического запаха отделяемого",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Принципы общего лечения гнилостной инфекции заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кварцевании раневых поверхностей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "применении препаратов группы метронидазола, иммуностимуляции 5",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рентгенотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфостимуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антибактериальной терапии препаратами группы пенициллина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Для антибактериальной терапии при неклостридиальной гнилостной инфекции назначают следующие препараты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гентамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клион, метрогил, тиенам, клиндомицин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антисептики группы красителей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фурадонин, сульфадимизин",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

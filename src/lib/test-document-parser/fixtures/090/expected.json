@@ -1,0 +1,3465 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Микросфероциты - это эритроциты с диаметром",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "7 микрон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10 микрон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "меньше 8 микрон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "6 микрон и меньше",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "12 микрон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Если у больного имеется анемия, тромбоцитопения, бластоз в периферической крови, то следует думать о",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритремии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "апластической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "остром лейкозе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "В12-дефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миеломной болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "По какому признаку производится дифференциация острого миелобластного и лимфоблстного лейкозов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по клинике",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по картине периферической крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по количеству бластов в костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по пероксидазной реакции в цитоплазме бластов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "по увеличению печени и селезенки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Наличие какого заболевания отражает нахождение филадельфийской хромосомы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острого лейкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронического лимфолейкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронического миелолейкоза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "миелодиспластического синдрома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоцитопенической пурпуры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "По каким исследованиям дифференцируют острые лейкозы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по анализу периферической крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по составу миелокариоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по наличию в костном мозге мегакариоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по цитохимическим реакциям в цитоплазме миелокариоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "по геморрагическому синдрому",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Для геморрагического васкулита характерно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "геморрагическая точечная сыпь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "удлинение времени свертывания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение протромбинового индекса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоцитопения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Под термином лимфоаденопатия подразумевают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкозную инфильтрацию лимфатических узлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфоцитоз в периферической крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высокий лимфобластоз в стернальном пунктате",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение лимфоузлов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нагноение лимфоузлов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Для железодефицитной анемии характерно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипохромия, микроцитоз, сидеробласты в стернальном пунктате",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипохромия, микроцитоз, мишеиевидные эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипохромия, микроцитоз, повышение железосвязывающей способности сыворотки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипохромия, микроцитоз, понижение железосвязывающей способности сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипохромия, микроцитоз, положительная десфераловая проба",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Выберите признаки железодефицитной анемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЦП 0,9",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железо сыворотки крови 20 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пальпируется селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ногти уплощены",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "имеется желтуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "За сутки железа может всосаться не более",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0.5-1.0 мг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2.0-2.5 мг",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "4.0-4.5 мг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10.0-12.0 мг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10.0-12.0 мг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Причиной железодефицитной анемии у женщин может быть все перечисленное, за исключением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обильных и длительных менструальных кровопотерь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "болезни Рандю - Ослера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "геморроя",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опухоли желудочно-кишечного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронического гастрита с пониженной секреторной функцией",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Какой показатель является наиболее важным в определении наличия железодефицита и железодефицитной анемии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уровень гемоглобина в периферической крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "количество ретикулоцитов в периферической крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "количество микроцитов в периферической крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "количество фибриногена в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "количество ферритина в крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Среди гемолитических анемий различают",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наследственные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "приобретенные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "симптоматические",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленные",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "идиопатические",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Наследственные гемолитические анемии в дагестане распространены в основном",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в горной зоне",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в Ногайском районе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в Дербентском районе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в Бабаюртовском районе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не имею сведений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Верхней нормой содержания гемоглобина принято считать ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "242 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "186 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "124 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "167 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "130 г/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Чему равняется в норме гематокрит (плазма/форменные элементы)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "45:55",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "30:70",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "55:45",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "25:75",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "25:75",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Какое количество ретикулоцитов имеется в периферической крови в норме",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 1- 1,5 процента",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "до 15 про милле",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "до 20 процент",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "до 20 про милле",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "до 5 про милле",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Каковы минимальная и максимальная резистентность эритроцитов в норме (растворе nacl)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,52-0,38%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,38-0,68%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,68-0,48%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,1-0.8 %",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,1-0.8 %",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Встречаются ли в норме в составе периферической крови бластные элементы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "да",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "до 2 %",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "до 8%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "При каком количестве лейкоцитов в i мл3 периферической крови можно говорить о лейкопении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 8.I0 9/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "до б.10 9/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "менее 5.I0 9/л г",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "менее 2.10 9 /л- З.10 9/л",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "0 .10 9/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Какая кость обычно пунктируется для получения костного мозга",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бедренная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передняя подвздошная ость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "большеберцовая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грудина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "остистый отросток позвонка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Чему равняется в норме цветной показатель",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,0",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,8",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1,2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Какова норма лейкоцитов периферической крови",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от 5 до 8х10 9/л,",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "от 3 до 5х10 9/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от 2 до 4х10 9/л,",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от 2,5 до 4х10 9/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "8-10 х10 9/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Сколько лейкоцитов периферической крови нужно подсчитать для выведения лейкоцитарной формулы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100 (более точно - 500)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "250",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "450 и более",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "180 и более",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1000",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "При каком количестве миелокариоцитов можно думать о возможности гипопластического состояния костного мозга",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ниже 30 тыс. в 1 мм3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выше 100 тыс. в 1 мм3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ниже 40 тыс. в 1 мм3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ниже 200 тыс. в 1 мм3",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ниже 400 тыс. в 1 мм 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "При каких заболеваниях крови отмечается увеличение лейко-эритробластических ростков в костном мозге (например, 5:1, 6:1)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипопластическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемолитическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острый лейкоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миеломной болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "При каком заболевании наблюдается резкое удлинение времени свертываемости крови",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при гемофилии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при хроническом лейкозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при остром лейкозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "геморрагическлм васкулите",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Чему равняется длительность кровотечения по дуке в норме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2-4 мин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5-8 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4-7 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10-12 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "13 и выше",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Укажите норму содержания тромбоцитов в периферической крови",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "150-405х10 9/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "350-550х10 9/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "100-250х10 9/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "80-100 х 10 9 /л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "более 550 х10 9/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Какова норма фибриногена крови",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,0 -10 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3,0 -5,0 мкмоль/л",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "8-12 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1-4 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "12-14 мкмоль/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Каков процент оставшейся жидкой части крови при ретракции кровяного сгустка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "48-64%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "27-40%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "14-34%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "65-70%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "38-48 %",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Важным признаком какого заболевания является нарушение ретракции кровяного сгустка",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоцитопенической пурпуры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемофилии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острого лейкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронического лейкоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Каковы нижние границы содержания гемоглобина (по нормам воз) у взрослого здорового мужчины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "130 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "150 гл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "170 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "120 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "110 г/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Каковы нижние границы содержания гемоглобина (по нормам воз) у взрослой здоровой женщины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "120 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "140 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "160 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "110 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "100г/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Каковы нижние границы содержания гемоглобина (по нормам воз) у беременной женщины",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "110 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "130 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "120 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "100 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "90 г/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Какое количество миелокариоцитов принято считать нормой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от 10 до 40 тыс.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "от 200 до 500 тыс.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от 500 до 1 млн.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от 40 до 300 тыс.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "от 40 до 300 тыс.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "При каких заболеваниях наблюдается резкое удлинение времени кровотечения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "болезнь Верльгофа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ангиогемофилии (болезнь Виллебранда)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "острый лейкоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "После падения числа тромбоцитов ниже какого порога обычно начинается кровотечение у большинства людей",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "200х109/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "100х109/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10х109/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "30-40х109/л",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "5-100х10 9/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Снижение протромбинового индекса ниже какого числа грозит кровотечением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ниже 60",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ниже 10",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ниже 40",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ниже 80",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ниже 100",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Как называется болезнь, при котором эритроциты приобретают форму серпа",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "талассемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический лимфолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дрепаноцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микросфероцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Чему равняется в норме общая железосвязывающая способность",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "45 -50 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "33 - 48 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "55 -65 мкмоль/л",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "65 - 75 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "80-92 мкмоль/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Как называется увеличение количества лейкоцитов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лейкоцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лейкопения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфопения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моноцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Как назывется увеличение количества эритроцитов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритромиелоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эритропения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лейкопения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эритролейкоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Как называется увеличение количества тромбоцитов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоцитопения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лейкоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбастения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "При каких состояниях наблюдается значительное увеличение лимфоцитов в крови",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническом лимфолейкозе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипопластической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хронических инфекциях (туберкулез, сифилис)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фолиеводефицитной анемии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Каковы нормальные цифры соэ у мужчин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3 - 15 мм / час",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2-13 мм/час",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2 - 10 мм/час",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "5 - 14 мм/час",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2-5 мм/час",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Каковы нормальные цифры соэ у женщин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5-20 мм/ час",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "5 -15 мм/час",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "10-25 мм/час",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "8 - 20 мм/час",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2-5 мм/час",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Укажите 1 степень анемии по воз у мужчин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100 -90 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "90 г/л - 80 г/л мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "130 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "90 -120 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "70-80 г/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Чему равняется время свертываемости крови по моравицу",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5-10 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4-12 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "7-15 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3 - 7 мин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "12-15 мин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Когда наблюдается повышание осмотической резистентности эритроцитов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "талассемии;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стоматоцитозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "приобретенных гемолитических анемиях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остром лейкозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "железодефицитных анемиях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Может ли острый лейкоз протекать бессимптомно и обнаруживаться при случайном исследовании крови",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "всегда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иногда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "редко",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "часто",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Каково нормальное содержание эритроцитов в крови у мужчин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,5-4,8х10 /л;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3,8-4,6х10 /л;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6,5- 7,1х10 /л;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4,8-5,4х10 /л.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "8,1 - 9,2 х10 12/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Каково нормальное содержание эритроцитов в крови у женщин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3,2-3,8х10 /л;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3,8-4,0х10 /л;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4,2-4,8х10 /л;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "3,8-4,2х10 /л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6,0- 8,2х10 12/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Чему равняется средний диаметр эритроцита",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3,8 мкм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "7,8-мкм",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "4,8 мкм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "6,8 мкм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "8,0 -9,0 мкм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Резко выраженная спленомегалия характерна для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острой постгеморрагической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронического миелолейкоза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "В12-дефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфогранулематоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Извращение вкуса характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "язвы двенадцатиперстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цирроза печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В12-дефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "железодефицитной анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ахлазии кардии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Фуникулярный миелоз характерен для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "талассемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В12-дефицитной анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эритремии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Лимфолейкоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Больной жалуется на дисфагию и извращения вкуса. это характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В12- дефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железодефицитной анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "острого лейкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфогранулематоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитической анемии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Для хронического миелолейкоза наиболее характерно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение лимфатических узлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гепатоспленомегалия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кожный зуд",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жжение языка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "извращение аппетита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Деформация кистей в виде \"тюленьих ласт\" наблюдается при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ревматизме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ревматоидном артрите",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "деформирующем артрозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контрактуре Дюпюитрена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подагре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Для b12-дефицитной анемии характерно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анизоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цветовой показатель больше 1",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полихроматофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цветовой показатель меньше 1",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Увеличение лимфатических узлов наблюдается при всех заболеваниях крови, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфогранулематоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритремия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфосаркома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронический миелолейкоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Чувство жжения языка беспокоит при",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остром лейкозе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемолитической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "язвенной болезни двенадцатиперстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острой постгеморрагической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В12-дефицитной анемии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Появление функционального систолического шума характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В12-дефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "всех анемий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "постгеморрагических анемий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипохромных анемий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "При осмотре больных с железодефицитной анемией можно выявить все нижеперечисленное, кроме одного",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухость кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поперечная исчерченность ногтей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ложкообразные ногти",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ломкость и выпадение волос",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "точечные кровоизлияния на коже",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "У больной слабость, утомляемость, снижение аппетита и извращение вкуса (ест мел), сухость кожи, ломкость ногтей. в крови снижение гемоглобина, цветового показателя, микроцитоз.у больной заподозрена",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острая постгеморрагическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железодефицитная анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "В12-дефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хронический лимфолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронический миелолейкоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "У больного фебрильная температура,боль в горле, резкая слабость, бледность кожи с петехиями; в кровигиперлейкоцитоз, недифференцированные клетки, лейкемический провал. у больного",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронический миелолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический лимфолейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В12-дефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острый лейкоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Волнообразная лихорадка, кожный зуд,выраженное ускорение соэ, лимфоаденопатия, наличие клеток березовского-штернберга характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острого лимфобластного лейкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронического лимфолейкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфома Ходжкина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пернициозной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бруцеллеза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Для лейкозов характерно все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "язвенно-некротическая ангина и стоматит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спленомегалия;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "илмфоузлы безболезненные, никогда не спаяны с кожей;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфоузлы образуют свищи.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "При наличии какого признака диагноз острого лейкоза становится очевидным?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "язвенно-некротические поражения;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение лимфоузлов;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие бластных клеток в периферической крови;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "геморрагии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Основной функцией эритроцитов является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "транспорт углеводов;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участие в буферных реакциях крови;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в процессах пищеварения;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "транспорт кислорода и СО2?",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Лейкоциты осуществляют следующие функции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "транспорт СО2 и О2;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспорт гормонов;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поддержание онкотического давления плазмы крови;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунные реакции.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Какие положения, касающиеся острого лейкоза, неверны?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в пунктате костного мозга 80-90 % клеток составляют лейкозные бластные клетки;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прогноз крайне неблагоприятный;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в большинстве случаев начало острое или подострое;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "значительное увеличение живота за счет асцита.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Снижение количества ретикулоцитов отмечается при всех заболеваниях, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническая железодефицитная анемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лейкоз;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "апластическая анемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острая постгеморрагическая анемия.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Что отражает цветовой показатель?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отношение числа эритроцитов к гемоглобину;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "процент насыщения гемоглобина кислородом;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соотношение юных и зрелых нейтрофилов;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "степень насыщения эритроцитов гемоглобином.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Какой признак не характерен для В12-дефицитной анемии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение цветового показателя;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ускорение СОЭ;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макроцитоз;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение количества эритроцитов;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цветовой показатель не изменяется.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "При каких заболеваниях не повышается скорость оседания эритроцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмония;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сепсис;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфаркт миокарда;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полицитемия.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "К симптомам анемии относятся все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одышка;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бледность;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сердцебиение;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "петехии;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиперчувствительность к холоду.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Повышение уровня ретикулоцитов в крови характерно для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронической кровопотери;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острой кровопотери;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "апластической анемии.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемолитической анемии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Для дефицита железа не характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выпадение волос;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ломкость ногтей;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иктеричность;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "койлонихии;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "извращение вкуса.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Под термином лимфоаденопатия подразумевают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкозную инфильтрацию лимфатических узлов;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфоцитоз в периферической крови;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высокий лимфобластоз в стернальном пунктате;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение лимфоузлов.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Увеличение лимфатических узлов не характерно для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфогранулематоза;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронического миелолейкоза;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хронического лимфолейкоза;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острого лимфобластного лейкоза.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Внутренний фактор Касла:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуется в фундальной части желудка и связывается с витамином В12;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в 12-перстной кишке;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "связывается с витамином В6.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связывается с закисным железом?",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Какой фактор необходим для всасывания витамина В12? соляная кислота;",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гастрин;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гастромукопротеин;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пепсин;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фолиевая кислота.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Повышение уровня ретикулоцитов в крови характерно для",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронической кровопотери",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острой кровопотери",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "апластической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемолитической анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "железодефицитной анемии вне лечения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Гипохромная анемия",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникает при дефиците железа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возникает при нарушении синтеза цепей глобина (гемоглобинопатиях)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "может быть при фолиево-дефицитных анемиях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "может быть при гемолитических анемиях анемии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "В дагестане встречаются следующие формы гемолитических анемий",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "приобретенная гемолитическая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "В 12 дефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемоглобинозы S",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мембранодефективные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Хронический миелолейкоз",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникает у больных с острым миелобластным лейкозом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "относится к самостоятельным миелопролиферативным заболеваниям",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "характеризуется панцитопенией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "может сопровождаться тромбоцитозом",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "характерно увеличение печени и селезенки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Для диагностики гемофилии наиболее важными показателями являются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "определение времени свертываемости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "определение времени кровотечения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определение количества тромбоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "определение плазминогена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пол пациента",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Если у больного имеется значительная эозинофилия, то можно думать о",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "паразитарной инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "узелковом периартрите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эозинофильном лейкозе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бронхиальной астме",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "узловатой эритеме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Острый миелобластный лейкоз",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "характеризуется наличием цитопенетического синдрома, появлением бластов в периферической крови,низким содержанием переходных форм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в стернальном пунктате имеется более 5% лимфобластов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "характерно наличие гингивитов и некротической ангины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "характерен гиперлейкоцитоз, тромбоцитоз, значительное увеличение печени и селезенки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "значительным гепато-лиенальным синдромом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Хронический лимфолейкоз",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "встречается только в детском и молодом возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "всегда характеризуется доброкачественным течением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "никогда не требуется цитостатическая терапия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "характеризуется лейкоцитозом с лимфоцитозом в периферической крови",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в стернальном пунктате наблюдается лимфоцитоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Увеличение лимфатических узлов наиболее часто встречается при",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфогранулематозе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хроническом миелолейкозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хроническом лимфолейкозе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эритремии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулезе лимфоузлов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Самой частой причиной железодефицитной анемии у мужчин является",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровопотеря из желудочно-кишечного тракта",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "опухоли",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "алкогольный гепатит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гематурическая форма гломерулонефрита",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цирроз печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Причиной анемии у беременной женщины может быть",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "имевшийся ранее латентный дефицит железа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "многоплодная беременность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "несовместимость с мужем по системе АВО",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дефицит выработки эритропоэтина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дефицит поступления фолиевой кислоты вследствие плохого питания",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Укажите показатели, наиболее важные для достоверного распознавания витаминов-12 дефицитной анемии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "макроцитоз в периферической крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мегалоцитоз в периферической крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мегалобласты в костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полисегментированные нейтрофилы в периферической крови",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все вышеперечисленные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "гемолитический криз, являются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретикулоцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение гематокрита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "положительный тест осмотической резистентности эритроцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "снижение уровня сывороточного железа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение уровня непрямого билирубина в крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Перечислите основные болезни, при которых наблюдается тромбоцитопения",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при тромбопенической пурпуре",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "апластических анемиях",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "остром лейкозе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ЖДА",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ДВС синдроме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Ярко-красный язык нередко наблюдается",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при амилоидозе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при тромбоцитопении",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при мегалобластной анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при болезни Гоше",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при хронических заболеваниях печени",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "О каких тяжелых гематологических заболеваниях может говорить лейкопения",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкозах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "анемиях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипо-апластических состояниях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гемоглобинопатии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолиз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "При каких состояниях возникает увеличение гематокрита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при уменьшении объема плазмы крови (повторные рвота, понос, другие ситуации спотерей жидкости)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эритроцитозах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лейкозах с высоким лейкоцитозом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитических анемиях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "При каких состояниях возникает уменьшение гематокрита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при острой кровопотере",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эритроцитозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тромбоцитопенической пурпуре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при массивной инфузионной терапии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тяжелых анемиях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Перечислите основные болезни при которых наблюдается тромбоцитоз",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "истинной полицитемии (эритремия)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "злокачественных опухолях;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "апластическая анемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ДВС- синдром.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ряд хронических лейкозов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "При каких патологических состояниях наблюдается увеличение количества эритроцитов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "полицитемии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипопластической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритремии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "симптоматических эритроцитозах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Когда наблюдается снижение осмотической резистентности эритроцитов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микросфероцитозе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в-12 дефицитной анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остром лейкозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "приобретенных гемолитических анемиях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Какие из перечисленных изменений крови характерны для больных острым лейкозом",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретикулоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лейкопения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бластоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "При каких заболеваниях увеличивается средний диаметр эритроцита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "талассемии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вит В-12 дефицитной анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фолиево-дефицитной анемии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "апластической анемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "железодефицитной анемии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "О каких заболеваниях должен думать врач если у больного имеется высокая температура, геморрагии, боли в горле, адинамия",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "грипп",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аденовирусная инфекция",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лейкоз острый",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лейкоз хронический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "апластическая анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "О каком заболевании должен думатьврач, если у больного низкий гемоглобин и легкая желтушность кожных покровов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "железодефицитная анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "апластическая анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В12-фолиеводефицитная анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "приобретенная гемолитическая анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наследственная гемолитическая анемия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Какие изменения в мазке периферической крови характерны для вит. в-12 дефицитной анемии",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипохромия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макроциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анизоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кольца Кэбота",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиперсегментация нейтрофилов",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

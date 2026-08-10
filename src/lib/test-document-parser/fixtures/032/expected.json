@@ -1,0 +1,2982 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Средства для ингаляционного наркоза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Эфир.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Гексенал.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Пропанидид.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Фторотан.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Кетамин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Механизм действия средств для ингаляционного наркоза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нарушают синаптическую передачу.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Адсорбируются на пре- и постсинаптической мембране.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Проникают в митохондрии, разобщают процессы окислительного фосфорилирования.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Связываются с белками мембран, нарушая выделение медиатора в синаптическую щель.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Нарушают образование макроэргических связей.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Характерно для ингаляционного наркоза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Наркоз легко управляем.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Выражена стадийность наркоза.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Взрывоопасность.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Не требуется специальной аппаратуры.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Используется в качестве базиса для основного наркоза.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Средство для наркоза повышает чувствительность β-адренорецепторов сердца к катехоламинам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Закись азота.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Пропанидид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Фторотан",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Оксибутират натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Тиопентал-натрий.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Средства для неингаляционного наркоза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Эфир.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гексенал.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Пропанидид.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Фторотан.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кетамин.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Производные барбитуровой кислоты, использующиеся в качестве средств для неингаляционного наркоза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фторотан.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фенобарбитал.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гексенал.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Тиопентал натрия.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Этаминал натрия.",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "Пропанидид.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Механизм действия средств для неингаляционного наркоза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нарушают синаптическую передачу.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Адсорбируются на пре- и постсинаптической мембране.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Проникают в митохондрии, разобщают процессы окислительного фосфорилирования.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Связываются с белками мембран, нарушая выделение медиатора в синаптическую щель.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нарушают образование макроэргических связей.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Свойства этилового спирта использующиеся в практической медицине",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Угнетение ЦНС.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Мочегонное действие.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Противошоковое действие.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Влияние на терморегуляцию.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Дубящее действие.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Противомикробное действие.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Фармакологические эффекты морфина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Уменьшает болевую чувствительность.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Увеличивает секрецию желез.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Вызывает мидриаз.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Способствует возникновению обстипации.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Урежает дыхание.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Вызывает брадикардию.",
+						"isCorrect": true
+					},
+					{
+						"index": 7,
+						"text": "Вызывает диарею.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Влияние морфина на ЦНС",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Угнетает таламические центры болевой чувствительности.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Возбуждает дыхательный центр.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Угнетает дыхательный центр.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Возбуждает центры блуждающих нервов.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Стимулирует центр положительных эмоций.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Уменьшает образование медиаторов боли.",
+						"isCorrect": false
+					},
+					{
+						"index": 7,
+						"text": "Понижает температуру тела.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Показания к применению морфина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Травматические боли.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Мышечные боли.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Зубная боль.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Головная боль.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Боли при злокачественных опухолях.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Боли при инфаркте миокарда.",
+						"isCorrect": true
+					},
+					{
+						"index": 7,
+						"text": "Для премедикации.",
+						"isCorrect": true
+					},
+					{
+						"index": 8,
+						"text": "Суставные и невралгические боли.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Фармакологические эффекты, характерные для промедола",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Оказывает анальгетическое действие.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Угнетает дыхание сильнее морфина.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Усиливает сократимость миометрия.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Плохо всасывается из ЖКТ.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Понижает тонус бронхов, мочеточников.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Основные свойства пентазоцина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Обладает анальгетическим действием.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Редко вызывает лекарственную зависимость.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Хорошо всасывается из ЖКТ.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Слабо угнетает дыхательный центр.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Вызывает брадикардию.",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "Понижает артериальное давление.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Препарат, являющийся специфическим антагонистом морфина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Налоксон.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Диазепам.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Флумазенил.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Трамадол.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кофеин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Противоэпилептические средства, применяемые при больших судорожных припадках",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фенобарбитал.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Циклодол.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Дифенин.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Пентазоцин.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Карбамазепин.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Леводопа.",
+						"isCorrect": false
+					},
+					{
+						"index": 7,
+						"text": "Карбидопа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Основные фармакологические эффекты дифенина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Стимуляция ЦНС.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Угнетение передачи возбуждения с пирамидных путей на мотонейроны спинного мозга.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Способен купировать судороги.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Вследствие раздражающего действия может вызывать тошноту и рвоту.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Способствует накоплению в мозге ГАМК.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Может кумулировать.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Препарат, применяемый при эпилептическом статусе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Вальпроат натрия.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Диазепам.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Карбамазепин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Этосуксимид.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Типичные нейролептики",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Галоперидол.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Дроперидол.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Клозапин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Хлозепид.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Сульпирид.",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "Трифтазин.",
+						"isCorrect": true
+					},
+					{
+						"index": 7,
+						"text": "Левомепромазин.",
+						"isCorrect": true
+					},
+					{
+						"index": 8,
+						"text": "Аминазин.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Нетипичные нейролептики",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Галоперидол.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дроперидол.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Клозапин.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Хлозепид.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Сульпирид.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Трифтазин.",
+						"isCorrect": false
+					},
+					{
+						"index": 7,
+						"text": "Левомепромазин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Фармакологические эффекты, характерные для действия нейролептиков",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Антипсихотический.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Седативный.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Увеличение двигательной активности.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Противорвотное действие.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Противокашлевое действие.",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "Потенцирование действия наркозных средств.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Показания к применению нейролептиков",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Психозы.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Паркинсонизм.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Психомоторное возбуждение.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Рвота центрального происхождения.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Нейролептанальгезия.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Передозировка наркозных средств.",
+						"isCorrect": false
+					},
+					{
+						"index": 7,
+						"text": "Анафилактический шок.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Нейролептик, использующийся для нейролептанальгезии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Трифтазин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Левомепромазин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Дроперидол.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Сульпирид.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Хлозепид.",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "Клозапин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Побочные явления, возникающие при использовании нейролептиков",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Лекарственная зависимость.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Психическая депрессия.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Двигательные нарушения.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Лекарственный паркинсонизм.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Гипертензия.",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "Бронхоспазм.",
+						"isCorrect": false
+					},
+					{
+						"index": 7,
+						"text": "Аллергические реакции.",
+						"isCorrect": true
+					},
+					{
+						"index": 8,
+						"text": "Каталепсия.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Побочные явления при использовании анксиолитиков",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ослабление мышечного тонуса.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Психоз.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Экстрапирамидные нарушения.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Лекарственная зависимость.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Сонливость и слабость.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Препарат, используемый для отмены эффектов бензодиазепинов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Налоксон.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Налтрексон.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Диазепам.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Флумазенил.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Леводопа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Психомоторные стимуляторы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Аминалон.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Амитриптилин.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кофеин.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Пирацетам.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фенамин.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Сиднокарб.",
+						"isCorrect": true
+					},
+					{
+						"index": 7,
+						"text": "Элеутерококк.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Эффекты, характерные для пирацетама",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышение артериального давления.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Улучшение регионарного кровотока в ишемизированных участках мозга.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Улучшение умственной работоспособности, восстановление внимания, речи.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Возбуждение дыхательного и сосудодвигательного центров.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Повышение устойчивости к гипоксии.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Явления, наблюдающиеся при длительном применении психостимулирующих средств?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Толерантность.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Кумуляция.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Привыкание.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Повышение чувствительности к психостимулирующим средствам.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Лекарственная зависимость.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Механизм действия ноотропных средств",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Стимуляция дофаминовых рецепторов головного мозга.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Прямое возбуждающее влияние на клетки коры головного мозга.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Влияние на энергетические процессы, связанные с метаболическими эффектами ГАМК.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Активация норадренергических систем мозга.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Вмешательство в обмен цАМФ и антагонизм с аденозином.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Показания к применению психостимуляторов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "При психических нарушениях, сопровождающихся бредом, галлюцинациями.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "При нарколепсии.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "При астении.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Для временного повышения умственной и физической работоспособности.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Показания к применению ноотропных средств",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Для устранения умственной недостаточности, связанной с нарушением мозгового кровообращения.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Для временной стимуляции работоспособности.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Для лечения детей с умственной отсталостью.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Для повышения физической работоспособности.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Антидепрессивные препараты",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Кофеин.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Амитриптилин.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Сиднокарб.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пирацетам.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Пиразидол.",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "Имипрамин.",
+						"isCorrect": true
+					},
+					{
+						"index": 7,
+						"text": "Аминалон.",
+						"isCorrect": false
+					},
+					{
+						"index": 8,
+						"text": "Ниаламид.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "К \"дневным ананксиолитикам\" относятся",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диазепам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "феназепам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "флумазенил",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мезапам",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мидазолам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Какими свойствами, в отличие от всей группы бензодиазепиновых производных, обладают \"дневные анксиолитики\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладают более выраженным снотворным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладают выраженным анксиолитическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обладают минимальным седативно-гипнотическим действием",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обладают выраженнойпротивосудорожной активностью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способны подавлять кашлевой рефлекс",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Все утверждения, касающиеся побочных эффектов анксиолитиков бензодиазепинового ряда, правильны, за исключением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушают координацию движения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вызывают сонливость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижают тонус скелетной мускулатуры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вызывают лекарственную зависимость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вызывают экстрапирамидные расстройства",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Отметить механизм действия флумазенила – специфического антогониста бензодиазепинов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ограничивает всасывание бензодиазепинов в кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "индуцирует синтез микросомальных ферментов печени, ускоряя биотрансформацию бензодиазепинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ускоряет выведение метаболитов и конъюгатов почками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "блокирует бензодиазепиновые рецепторы и устраняет центральные эффекты бензодиазепиновых анксиолитиков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "связывает бензодиазепины, образуя с ними комплексы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Для буспирона характерны все нижеперечисленные эффекты, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладает выраженной анксиолитической активностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эффект развивается медленно (1-2недели)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обладает кратковременным действием",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лишен седативного, противосудорожного, мышечно-расслабляющего действия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "почти не вызывает привыкания и лекарственную зависимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "К седативным средствам относятся",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "препараты валерианы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "препараты пустырника",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "препараты белладонны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "препараты танина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "препараты кофеина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Причиной бромизма – хронического отравления бромидами является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медленное выведение препаратов из организма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "медленное всасывание препаратов в кишечнике",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "накопление препаратов в костной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение процессов метаболической трансформации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "накопление препаратов в ЦНС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Укажите снотворное средство из группы производных барбитуровой кислоты",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитразепам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "золпидем",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зопиклон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хлоралгидрат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фенобарбитал",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какое снотворное средство существенно изменяет \"структуру\" сна",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитразепам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "феназепам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фенобарбитал",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хлоралгидрат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зопиклон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Укажите препарат, не влияющий на \"быстрый\" сон",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хлоралгидрат",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "диазепам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "этаминал-натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нитразепам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фенобарбитал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Основная направленность действия снотворных средств бензодиазепинового ряда связана c",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "влиянием на кору головного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "влиянием на лимбическую систему",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "влиянием на ядра гипоталамуса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "влиянием на ретикулярную формацию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "влиянием на ядра экстрапирамидной системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Отметить побочные эффекты, ограничивающие применение золпидема и зопиклона",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердечные аритмии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тремор и ригидность мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бронхоспазм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение внутриглазного давления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "привыкание и лекарственная зависимость",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Для зопиклона (имован) характерны все нижеперечисленные побочные эффекты, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллергические реакции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушение аккомодации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экстрапирамидные расстройства",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "металлический горький вкус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "психические и поведенческие расстройства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Укажите снотворное средство, не относящееся к бензодиазепинам, но обладающее сродством к бензодиазепиновым рецепторам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитразепам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "зопиклон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фенобарбитал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хлоралгидрат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "этаминал - натрий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Какие из перечисленных ниже препаратов вызывают клинически значимую индукцию микросомальных ферментов печени",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фенобарбитал",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сибазон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "морфин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аминазин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фтороторан",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Какой из перечисленных ниже снотворных средств, наиболее часто вызывает явление последействия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "этаминал - натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фенобарбитал",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нитразепам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хлоралгидрат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зопиклон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Какое действие вызывают барбитураты при их повторном применении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "материальную кумуляцию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "идиосинкразию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ортостатическую гипотензию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ригидность мышц и тремор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тахифилаксию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Фенобарбитал обладает всеми ниже перечисленными эффектами, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антипсихотическим",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "седативным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снотворным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "противосудорожным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "индуцирует синтез микросомальных ферментов печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Для острого отравления барбитуратами характерны все ниже перечисленные признаки, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбуждение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коматозное состояние",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетение дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "понижение рефлекторной активности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение артериального давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Какой из аналептиков используется при легких формах отравления барбитуратами",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кордиамин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "камфора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бемегрид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "этимизол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кофеин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Все ниже перечисленные средства используют для ингаляционного наркоза, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эфир для наркоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фторотан",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кетамин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "энфлуран",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "азота закись",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Указать наркозное средство, выделяющееся легкими в неизмененном виде",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эфир для наркоза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фторотан",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кетамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тиопентал натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "натрия оксибутират",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Рефлекторное урежение дыхания и ритма сердечных сокращений, гиперсекреция бронхиальных и слюнных желез при использовании эфира предупреждается введением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дитилина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дроперидола",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гигрония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атропина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Указать наркозное средство, опасное в пожарном отношении",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фторотан",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закись азота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "энфлуран",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эфир для наркоза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "изофлуран",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Какое прессорное средство следует ввести при снижении артериального давления на фоне фторотана",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "норадреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эфедрин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мезатон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дофамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Какое наркозное средство может быть использовано при инфаркте миокарда в качестве болеутоляющего средства",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эфир для наркоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "азота закись",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фторотан",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пропанидид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гексенал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Какое средство для неингаляционного наркоза обладает ультракоротким действием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пропанидид",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гексенал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тиопентал натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "натрия оксибутират",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кетамин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Какое из перечисленных ниже наркозных средств дает \"диссоциативную\" анестезию",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кетамин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фторотан",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дроперидол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тиопентал натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пропанидид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Указать причину кратковременности наркотического эффекта тиопентала натрия",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "быстрая инактивация вещества ферментами печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "быстрое выведение вещества из организма почками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "быстрое снижение концентрации тиопентала натрия в мозговой ткани и в крови за счет депонирования вещества в жировой ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дезаминирование под влиянием моноаминоксидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "декарбоксилирование под влиянием дофа-декарбоксилазы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Для натрия оксибутирата характерны все нижеперечисленные свойства, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "седативное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снотворное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наркотическое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антипсихотическое",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "антигипоксическое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Указать наркозное средство, эффективное при приеме внутрь",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "натрия оксибутират",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гексенал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кетамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тиопентал натрий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пропанидид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Какие средства применяют для подготовки больного к операции (премедикации)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холиномиметические средства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атропин и атропиноподобные средства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "адреномиметические средства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кардиотонические средства",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "психостимулирующие средства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Указать причину, не позволяющую использовать спирт этиловый в качестве средства для наркоза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "раздражающее действие препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ультракороткое действие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "недостаточное расслабление скелетной мускулатуры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение артериального давления вовремя наркоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "малая наркотическая широта",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "С чем связывают мочегонное действие спирта этилового",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямым влиянием на мочеобразование впочках",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижением продукции антидиуретического гормона",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "угнетением синтеза альдостерона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устранением влияния альдостерона на почечные канальцы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышением осмотического давления в просвете почечных канальцев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Указать препарат, используемый для лечения алкоголизма",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тетурам",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бемегрид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трилон Б",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "унитиол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изонитрозин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Отметить парциальные (частичные) агонисты опиоидных рецепторов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анальгин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "морфин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "налоксон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "налбуфин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "буторфанол",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Отметить универсальный антагонист наркотических анальгетиков, превосходящий по активности налоксон",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пентазоцин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анальгин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бупрепорфин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "налтрексон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "буторфанол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "По какому диагностическому признаку можно отличить кокаиниста от морфиниста, если оба находятся в коматозном состоянии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по величине артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по частоте пульса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по размеру зрачков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "по частоте дыхательных движений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по тонусу скелетной мускулатуры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Отметить причины обстипации (запора), возникающей при введение морфина",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "угнетение секреции поджелудочной железы и выделение желчи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "расслабление гладкой мускулатуры кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение тонуса сфинктеров желудочно-кишечного тракта",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "усиление перистальтики кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задерживает абсорбцию электролитов и воды в кишечнике",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Каков механизм возникновения рвоты при введении морфина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "раздражение рецепторов слизистой оболочки желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "прямое возбуждение нейронов рвотного центра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "раздражение вестибулярного аппарата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возбуждение хеморецепторов \"пусковой зоны\" рвотного центра",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "возникновение неприятных обонятельных и вкусовых ощущений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Применение каких наркотических анальгетиков показано при болях спастического характера (кишечные, печеночные, почечные колики)",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "промедол",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "морфин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "омнопон",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фентанил",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "налоксон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Наркотические анальгетики противопоказаны",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при язвенной болезни желудка и двенадцатиперстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "детям до 3 лет и в старческом возрасте",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при инфаркте миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при сильном кашле",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при одышке, связанной с недостаточностью левого желудочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "С какими препаратами целесообразно сочетать промедол или омпонон при болях спастического характера",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дроперидол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атропин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сибазон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "папаверин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "налоксон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Отметить анальгетик со смешанным механизмом действия (опиоидным + неопиоидным)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "промедол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трамадол",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фентанил",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "буторфанол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бупренорфин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "К нейролептикам относятся все препараты, за исключением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминазина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трифтазина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "галоперидола",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диазепама",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клозапина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Основным отличием \"атипичных\"антипсихотических средств от \"типичных\" является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие седативного действия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие антидепрессивной активности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение функций экстрапирамидной системы выражено в меньшей степени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слабая антипсихотическая активность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "развитие лекарственной зависимости (физической)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Укажите эффекты аминазина, связанные с его влиянием на центральную нервную систему",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "антипсихотический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "психостимулирующий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антигистаминный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "противорвотный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все ответы правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Какими из перечисленных ниже свойств обладает производное замещенных бензамидов – сульпирид",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладает антипсихотической активностью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обладает выраженным седативнымдействием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вызывает незначительный седативныйэффект",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наиболее часто вызывает нарушение со стороны экстрапирамидной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оказывает прямое стимулирующее влияние на миокард",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Отметить побочный эффект клозапина, ограничивающий его широкое использование",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экстрапирамидные расстройства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "привыкание и лекарственная зависимость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ортостатический коллапс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лейкопения и агранулоцитоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бронхоспазм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Укажите основной механизм стимуляции моноаминергических процессов в ЦНС под влиянием трициклических антидепрессантов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "блокирование дофаминовых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стимуляция дофаминовых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокирование серотониновых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетение нейронального захвата моноаминов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "угнетение активности МАО",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Укажите основной механизм стимуляции моноаминергических процессов в ЦНС под влиянием ниаламида",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "блокирование дофаминовых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стимуляция дофаминовых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блокирование серотониновых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетение нейронального захвата моноаминов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угнетение активности МАО",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "К антидепрессантам, угнетающим нейрональный захват моноаминов (неизбирательного действия) относятся",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "имизин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ниаламид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амитриптилин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аминазин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дроперидол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "К антидепрессантам, избирательно блокирующим нейрональный захват серотонина, относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имизин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амитриптилин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "флуоксетин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ниаламид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дроперидол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "К антидепрессантам, избирательно блокирующим нейрональный захват норадреналина, относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имизин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мапротилин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ниаламид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амитриптилин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аминазин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "В каких случаях применяют соли лития",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для лечения психозов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для лечения паркинсонизма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для лечения и профилактики маний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "для купирования психомоторного возбуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для лечения неврозов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Для солей лития характерны все нижеперечисленные свойства, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медленное развитие эффекта (2-3 недели)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вводятся энтерально",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обладают малой терапевтической широтой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладают избирательным действием в отношении маний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вводятся только парентерально",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 12,
+				"text": "Основные симптомы острого отравления морфином",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 25,
+				"text": "Анксиолитики - производные бензодиазепина",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 27,
+				"text": "Показания для применения анксиолитиков",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 36,
+				"text": "Показания к применению аналептиков",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

@@ -1,0 +1,778 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Хрусталик образован:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителиальными клетками",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коллагеновыми волокнами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эластическими волокнами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аморфным веществом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гладкомышечными клетками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Питание роговицы осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "из собственных кровеносных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "за счет диффузии из жидкости передней камеры глаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "за счет диффузии из жидкости задней камеры глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "из лимфатических сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "из слезной жидкости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Гладкие мышцы радужки и ресничного тела относятся к гистогенетическому типу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мезенхимному",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпидермальному",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейральному",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "целомическому",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "соматическому",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Источником развития сетчатки и зрительного нерва являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эктодерма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энтодерма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нервная трубка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мезодерма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мезенхима",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Барабанная перепонка состоит из всех элементов, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "многослойного плоского эпителия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "однослойного плоского эпителия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коллагеновых и эластических волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибробластов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хрящевых клеток",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Улитковый канал перепончатого лабиринта выстлан эпителием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "однослойным плоским",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "многослойным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "многорядным мерцательным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мезотелием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "однослойным каёмчатым",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Отток водянистой влаги из передней камеры глаза происходит в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вены радужки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вены роговицы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "венозный синус склеры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стекловидное тело",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вены ресничного тела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "В радужной оболочке мышцы, суживающие и расширяющие зрачок, располагаются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переднем эпителии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наружном пограничном слое",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сосудистом слое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутреннем пограничном слое",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пигментном эпителии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Отолитова мембрана с кристаллами карбоната кальция покрывает поверхность:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ампулярного гребешка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спирального органа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сосочков языка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рецепторного пятна",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вестибулярной мембраны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Афферентное нервное волокно вкусовой почки заканчивается на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поддерживающих эпителиоцитах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "базальных эпителиоцитах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сенсорных эпителиоцитах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "базальной мембране",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вкусовой ямке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Назовите эмбриональный источник хрусталика:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотерма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мезодерма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эктодерма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мезенхима",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прехордальная пластинка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Склера не прозрачна, потому что:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержит много воды и большое количество коллагеновых фибрилл",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "содержит много кератинсульфатов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержит гиалуроновую кислоту",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "содержит гепарин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "содержит большое количество коллагеновых волокон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Сенсоэпительные клетки вкусовых почек получают афферентную иннервацию от нервов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лицевого",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "языкоглоточного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блуждающего",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всех перечисленных",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Рецепторные вкусовые клетки на своей поверхности имеют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реснички",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микроворсинки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стереоцилии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "киноцилии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "несколько стереоцилий и одну киноцилию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Клетки спирального ганглия являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мультиполярными звездчатыми",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биополярными",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "псевдоуниполярными",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "униполярными",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мультиполярными пирамидными",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Источником развития вкусовых почек являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мезенхима",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мезодерма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нервная трубка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтодерма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эктодерма",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Сосочки языка, не содержащие вкусовые луковицы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грибовидные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нитевидные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желобоватые",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "листовидные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Эпителий сосудистой полоски перепончатого канала улитки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "однослойный кубический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "многорядный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "многослойный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "переходный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "однослойный плоский",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Прозрачность собственного вещества роговицы обеспечивается наличием в нем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликогена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гликопротеидов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гликозаминогликанов (кератинсульфаты)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "коллагеновых волокон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Обонятельные рецепторные клетки регенерируют за счет клеток:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поддерживающих эпителиоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "базальных эпителиоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "миоэпителиальных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейросекреторных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сенсоэпителиальных клеток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Известно, что длительное применение антибиотика стрептомицина приводит к развитию у больного тугоухости. С изменением каких структур кортиева органа это может быть связано?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "волосковых клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поддерживающих клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутренних столбовых клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наружных столбовых клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Пациент испытывает постоянно головокружение и чувство тошноты. При исследовании установлено нарушение способности дифференцировать угловые ускорения. Назовите клетки органа равновесия, воспринимающие данный вид ускорения.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "волосковые клетки макулы утрикулюса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поддерживающие эпителиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "волосковые клетки ампул полукружных каналов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "биополярные нейроны спирального ганглия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все вышеперечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Недостаток в организме витамина А приводит к нарушению у человека сумеречного зрения (куриная слепота). Назовите гистофункциональное обоснование этого явления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в состав дисков палочконесущей клетки входит родопсин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "витамин А входит в состав родопсина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "недостаток витамина А снижает ресинтез родопсина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "У ребенка вследствие ожога языка наблюдалось полное отсутствие вкусовой рецепции. Через некоторое время вкусовое восприятие восстановилось. Назовите источник этого восстановления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "базальные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сенсоэпителиальные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поддерживающие клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бокаловидные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все вышеперечисленное",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

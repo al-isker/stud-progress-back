@@ -1,0 +1,5274 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "При туберкулезе ставят аллергическую пробу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Шика",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дика",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Манту",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Бюрне",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Френкеля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Для выявления специфической сенсибилизации при туберкулезе ставят кожную аллергическую пробу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Митсуда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Бюрне",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Манту",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Френкеля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Шика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "К противотуберкулезным антибиотикам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тетрациклин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пенициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нистатин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рифампицин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фурациллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Возбудитель туберкулеза красится по методу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Грама",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Нейссера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Циля - Нильсена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Ожешко",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Романовского – Гимзе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Для выделения туберкулезных микобактерий применяют среды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агар Мак-Конки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "КУА",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Борде - Жангу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Левенштейна - Йенсена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Клауберга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Кислотоустойчивость возбудителя туберкулеза обеспечивают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липиды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "белковые компоненты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "жгутики",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Для аллергической диагностики туберкулеза применяют пробу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Шика",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дика",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Бюрне",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Манту",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Френкеля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Ускоренные методы бактериологической диагностики туберкулеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гомогенизации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "флотации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактериоскопический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микрокультур по Прайсу",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аллергический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Микобактерии туберкулеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "споровые грам (-) палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окрашиваются по цилю - нильсену в красный цвет",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "имеют жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "имеют зерна волютина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образуют капсулу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Микобактерии туберкулеза на плотных средах дают рост:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 16-18 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через неделю",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через 2-4 недели",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "через 6 месяцев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Для бактериоскопической диагностики туберкулеза применяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроскопию препаратов, окрашенных по цилю-нильсену",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микроскопию препаратов, окрашенных по граму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метод висячей капли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фазово-контрастную микроскопию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микроскопию в «темном поле»",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Иммунитет при туберкулезе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кратковременный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нестерильный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выявляется в реакции шика",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антивирусный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антитоксический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Вакцинацию против туберкулеза проводят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анатоксином",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антитоксической сывороткой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бцж",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бруцеллином",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Факторы вирулентности возбудителей туберкулеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кордфактор",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экзотоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Иммунитет при туберкулезе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кратковременный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нестерильный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выявляется в реакции Шика",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антивирусный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антитоксический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Микобактериозы вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "M.tuberculosis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "M. bovis",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "M. kansasi",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "M.leprae",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "M. Africanum",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Вакцинацию против туберкулеза проводят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анатоксином",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антитоксической сывороткой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "БЦЖ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бруцеллином",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Для палочки проказы характерны следующие признаки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие зерен волютина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расположение в мазке в виде «пачки сигар»",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рост на обычных питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "окраска обычными анилиновыми красителями",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование спор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Микобактерии относятся к бактериям:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фототрофным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анаэробным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кислотоустойчивым",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "литотрофным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спорогенным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Дифтерийный токсин представляет собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "липополисахарид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "липид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полисахарид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фосфолипид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "белок",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Факторы вирулентности дифтерийной палочки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экзотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "уреаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Коклюшная палочка является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мелкой неподвижной палочкой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мелкой подвижной палочкой, монотрихом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мелкой подвижной палочкой, амфитрихом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мелкой подвижной палочкой, лофотрихом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мелкой подвижной палочкой , перитрихом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Наличие антитоксического иммунитета при дифтерии выявляют с помощью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пробы Манту",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пробы Бюрне",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пробы Шика",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пробыДика",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пробы Пирке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Возбудитель дифтерии образует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиалуронидазу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ревертазу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Для специфической профилактики коклюша, дифтерии и столбняка применяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вакцина БЦЖ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцина СТИ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вакцина Смородинцева-Чумакова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "АКДС",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вакцина Сэбина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Туберкулезные палочки (таксономическая принадлежность):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Enterobacteraceae",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Mycobacterіum",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Mіcrococcus",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Vіbrіo",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Spіrіllaceae",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Для туберкулезных палочек характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "грамположительные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кислотоустойчивые",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неподвижность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трудное восприятие анилиновых красителей",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "образование капсулы в организме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Биологические свойства туберкулезной палочки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержат большое количество железа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для роста необходимо повышенная концентрация углекислого газа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "температурные границы роста 30-38 градусов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "характерно высокое содержание липидов (восков, фосфатидов)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не растут на средах с глицерином",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Что относится к методу флотации при туберкулезе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "является методом обогащения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мазок готовят из осадка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "добавляют ксилол или бензин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "готовят мазки из поверхностного сливкообразного слоя",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "встряхивают",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Для выделения туберкулезных палочек используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "МПА",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кровяной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Среду Тинсдаля",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Среду Левенштейна-Иенсена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Желточно-солевой агар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Колонии туберкулезной палочки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выпуклые, влажные колонии с ровными краями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нежные, полупрозрачные блестящие колонии средних размеров",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "колонии мелкие, бесцветные, выпуклые с перламутровым блеском",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "морщинистые, суховатые с неровными краями",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "круглые, полупрозрачные колонии с зернистой поверхностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Ускоренный МЕТОД ДИАГНОСТИКИ ТУБЕРКУЛЕЗА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Метод Ермольевой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Определение корд-фактора",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Микроскопия в темном поле",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Реакция Асколи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": ") РПГА",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Проба манту может быть поставлена с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Живой вирулентной культурой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Вакциной БЦЖ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Бруцеллином",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Милетином",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Туберкулином Коха",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Проба Манту ставится для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Выявления инфицированных лиц микобактериями туберкулеза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Лечения туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ускоренной диагностики туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Диагностики туберкулезного процесса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Профилактики туберкулеза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Поражение тканей туберкулезной палочкой связано с:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "липидами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "туберкулином",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "экзотоксином",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "корд-фактором",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "разрушением митохондрий клеток инфицированного организма",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Специфическая профилактика туберкулеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Противопоказания отсутствуют",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Предложена Кальметом и Гереном",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Проводится убитой вакциной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Привела к ликвидации туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Создает гуморальную защиту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Вакцина БЦЖ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Состоит из живых бактерий ослабленных при пассировании на животных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Аттенуирована при длительных пассажах на картофельно-глицериновой среде с желчью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Создает пожизненный иммунитет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Вводят при вакцинации туберкулезно-позитивным детям",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Вводится внутривенно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Специфическая профилактика туберкулеза предложена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Солк-Сэбин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кальметом и Гереном",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Чумаков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Мечников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Воробьев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Туберкулин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Получают из микробов и токсинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Получен из фильтрата бульонной культуры микобактерий путем обработки химическими веществами, осаждающих белок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Применяется для лечения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Состоит из живых бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Приводит к выработке антитоксического иммунитета",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Коринебактерии характеризуются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Капсулообразованием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Расположение в мазке в виде римских цифр V, Х",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Грамотрицательной окраской",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кислотоустойчивостью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Наличием зерен волютина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Зерна Бабеша-Эрнста выявляются при окраске по методу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Грама",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ожешко",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Нейссера",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Романовского-Гимзе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гисса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "К элективным средам для коринебактерий относятся среды:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Клауберга",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Тинсдаля",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Вильсон-Блера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ру",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Бучина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Рост дифтерийной палочки биовара gravіs на среде клауберга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серовато-черные колонии с радиальной исчерченностью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "круглые, выпуклые колонии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прозрачные колонии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ярко-желтые колонии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перламутровые колонии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Цистиназа у коринебактерий определяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В реакции Перке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Пробой Пизу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "В реакции Манту",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пробой Закса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В реакции Хеддельсона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Материалом для бактериологического исследования при дифтерии зева служит:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Спинномозговая жидкость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Испражнения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Слизь из зева, гортани",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Фибринозная пленка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Токсигенность коринебактерий определяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В реакции агглютинации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Иммуноферментным анализом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Методом Оухтерлони",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "РСК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В реакции Райта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Иммунитет при дифтерии:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Кратковременный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Антитоксический",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Нестерильный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Естественный пассивный в раннем возрасте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Выявляется в реакции Шика",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Для специфической профилактики дифтерии не используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "АКДС",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "АДС",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "АС",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "АД",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "АДС-М",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Для возбудителя коклюша характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют капсулу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "строгие аэробы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мелкие коккобактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "палочки средних размеров с закругленными краями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Среды для выращивания возбудителей коклюша:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "МПА",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Среда Борде-Жангу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "КУА",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Среда Леффлера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Сывороточный агар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Специфическая профилактика коклюша осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Антибиотиками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Бактериофагом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Анатоксином",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "АКДС",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Живой вакциной из ослабленных возбудителей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Слизь из носоглотки при коклюше берут:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Петлей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Трубкой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Методом \"кашлевых пластинок\"",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Пинцетом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С помощью носоглоточного тампона",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Какой штамм микобактерий был использован для приготовления вакцины BCG:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "M. avіum",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "M. afrіcanum",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "M. bovіs",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "M. tuberculosіs",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "M. Іnttracellulare",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "При каком заболевании диагностическое значение имеет обнаружение включений при микроскопии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коклюш",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лепра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туберкулез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дифтерия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ботуллизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "По типу дыхания mycobacterіum tuberculosіs:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "облигатный аэроб",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "облигатный анаэроб",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "факультативный анаэроб",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроаэрофилл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аэротолерантный анаэроб",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Свойства Bordetella pertusіs:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Грамотрицательные мелкие коккобактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Грамположительные мелкие коккобактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Грамположительные крупные спорообразующие палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Грамположительные кокки, расположенные в виде цепочек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Грамотрицательные бобовидные диплококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Bordetella pertusіs вызывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чуму",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коклюш",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гонорею",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дифтерию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скарлатину",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Механизм заражения коклюшем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трансплацентраный фекально-оральный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фекально-оральный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "контактный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздушно-капельный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Возбудитель коклюша (Bordetella pertusіs) передается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушно-капельным путем",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "контактно-бытовым путем",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алиментарным путем",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через плаценту",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансмиссивным путем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Профилактика коклюша проводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анатоксином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "живой ослабленной вакциной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "живой вакциной, входящей в акдс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "убитой вакциной, входящей в состав комплексной вакцины акдс",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "специфическим коклюшным бактериофагом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Лабораторная диагностика коклюша:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериологическое исследование мокроты больного",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микроскопия клинического материала, окрашенного метиленовой синькой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "постановка кожно-аллергической пробы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериологическое исследование крови и мочи больного",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экспериментальной воспроизведение инфекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Морфологические и тинкториальные свойства Corіnebacterіum dіphterіae:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грамположительные крупные, ветвящиеся, спорообразующие Палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамположительные мелкие коккобактерии, образующие капсулу, имеющие жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамположительные палочки, расположенные под углом друг к другу с включениями на полюсах - зернами волютина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грамположительные кокки, расположенные в виде цепочек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грамотрицательные бобовидные диплококки, имеют нежную капсулу, непо движны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "основной фактор патогенности дифтерийной палочки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейротоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гистотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "энтеротоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способность предохраняться от фагоцитоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Для выделения corіnebacterіum dіphterіae используют среду:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ру",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Мясо-пептонный агар",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Леффлера",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Щелочной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Висмут-сульфит агар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Профилактика дифтерии проводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "живой ослабленной вакциной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "убитой цельноклеточной вакциной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дифтерийным анатоксином",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антибиотиками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дифтерийным бактериофагом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Неравномерность прокрашивания C. dіphterіae анилиновыми красителями обусловлено:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спорообразованием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образованием капсулы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличием жгутиков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высоким содержанием липидов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличием зерен волютина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Материалом для бактериологического исследования при дифтерии является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мазок из зева",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фекалии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моча",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Материалом для бактериологического исследования при коклюше являются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фекалии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "промывные воды желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "носоглоточная слизь, мокрота",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Бактерии, которые характеризуются кислото-, алкоголь- и щелочеустойчивостью относятся к роду:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Corіnebacterіum",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Mycobacterіum",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Bordetella",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Streptococcus",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Staphylococcus",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Для выявления микобактерий туберкулеза используют микроскопию препарата, окрашенного по методу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Циля-Нильсена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Грама",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Романовского-Гимзе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Бурри-Гинса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ожешко",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Специальная среда для культивирования микобактерий туберкулеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Желточно-солевой агар",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Щелочной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Среда Левенштейна-Иенсена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Желчный бульон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Среда Эндо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Кожно-аллергическая проба, выявляющая сенсибилизацию к туберкулезному антигену называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пизу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Манту",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Бюрне",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "BCG",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Коха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Один из основных факторов патогенности туберкулезной палочки является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Выработка гистотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Выработка нейротоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Образование гиалуронидазы и плазмокоагулазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Токсический гликолипид - корф-фактор",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Наличие жгутиков и пилей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Туберкулин применяется для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лечения туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "профилактики туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "постановки кожно-аллергической пробы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "постановки реакции связывания комплемента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "постанови реакции агглютинации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "По типу дыхания Mycobacterіum tuberculosіs:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Облигатный аэроб",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Облигатный анаэроб",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Факультативный анаэроб",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Микроаэрофилл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Аэротолерантный анаэроб",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Возбудитель дифтерии содержит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зерна волютина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "зерна Муха",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тельца Гварниери",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тельца Бабеша - Негри",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зерна крахмала",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Коринебактерии дифтерии характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грам(-) окраской",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличием зерен волютина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличием спор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кислотоустойчивостью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "капсулообразованием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Иммунитет после перенесенной дифтерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кратковременный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антитоксический",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нестерильный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выявляется в реакции дика",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "естественный пассивный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Биовары возбудителя дифтерии:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "classic",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "mitis",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "intermedius",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "xerosis",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ulcerans",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Биовары возбудителя дифтерии:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "xerosis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "gravis",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ovis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "canis",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "mitis",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Для специфической профилактики коклюша, дифтерии и столбняка применяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вакцина БЦЖ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцина СТИ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вакцина Смородинцева-Чумакова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "АКДС",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вакцина Сэбина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Для культивирования возбудителя коклюша используют среды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Борде - Жангу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Левина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Мюллера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желчный бульон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Для специфической профилактики коклюша применяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцина АКДС",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вакцина АДС",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вакцина Эберта - Гайского",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вакцина СТИ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Коклюшная палочка является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мелкой неподвижной палочкой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мелкой подвижной палочкой, монотрихом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мелкой подвижной палочкой, амфитрихом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мелкой подвижной палочкой, лофотрихом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мелкой подвижной палочкой , перитрихом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Для специфической профилактики коклюша применяется вакцина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "БЦЖ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ферми",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Солка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "АКДС",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Сэбина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Бактерия туберкулеза названа по имени автора, открывшего возбудителя в 1882 г.:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Левенгук;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Пастер;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кох;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Геккель;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кох",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Всегда присутствующий симптом при туберкулезе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одышка;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кашель;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кровохарканье;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение температуры;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "насморк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Вакцины БЦЖ представляет собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "токсины микобактерий туберкулеза;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "живые, ослабленные бактерий бычьего вида;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "убитые микобактерий человеческого и бычьего вида;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "живые микобактерий птичьего и мышиного вида;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ослабленные микобактерии птичьего вида",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Что не является причиной лекарственной устойчивости микобактерий туберкулеза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "короткие курсы лечения;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "монотерапия;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неправильная комбинация препаратов;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "несвоевременное лечение;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "длительные курсы лечения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Является перспективным препаратом в лечении туберкулеза у беременных. В первые три месяца беременности не рекомендуются, из-за возможности повышения тонуса матки и угрозы выкидыша:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Изониазид;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Стрептомицин;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Этамбутол;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Рифабутин;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Тубазид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Первичную вакцинацию осуществляют здоровым доношенным новорожденным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в 1-2 день жизни;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1-4 день жизни;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1-6 день жизни;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через месяц;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через 3 месяца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Что является наиболее важным в постановке диагноза туберкулеза у взрослых:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "исследование мокроты на микобактерии туберкулеза;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "биохимический анализ крови;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проба Манту;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "общий анализ крови и мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проба Бюрне",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Самая частая форма первичного туберкулеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туб интоксикация;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфильтративный туберкулез;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "первичный туберкулезный комплекс;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулез внутригрудных лимфатических узлов;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "туберкулез костей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "M. tuberculosis открыт:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Л. Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "А. Кальметом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Р. Кохом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "К. Пирке",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "И.И. Мечниковым",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Возбудители туберкулеза относятся к домену:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "грибы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "растения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "животные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "археи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Основным возбудителем туберкулеза человека является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "M. avium",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "M. tuberculosis",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "M. bovis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "M. africanum",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "M. microti",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Отличительной особенностью микобактерий является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие оформленного ядра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проникновение через неповрежденную кожу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высокое содержание в клеточной стенке липидов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "образование экзотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтез ферментов патогенности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Особенностями микобактерий являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокая кислотоустойчивость",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "способность к спорообразованию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "способность к синтезу эндотоксинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутриклеточное выживание",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "способность синтезировать токсин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "ОСОБЕННОСТЯМИ МИКОБАКТЕРИЙ ЯВЛЯЮТСЯ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подвижность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "устойчивость во внешней среде",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "требовательность к питательным средам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щелочеустойчивость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проникновение в организм половым путем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Для окраски микобактерий используют метод:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бурри-Гинса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Романовского-Гимзы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Нейссера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Циля-Нильсена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Леффлера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Для культивирования микобактерий применяют среды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "МПА",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "МПБ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Плоскирева",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Левенштейна-Йенсена",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "На среде Левенштейна-Йенсена микобактерии туберкулеза образуют колонии в виде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "битого стекла",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кружевных платочков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цветной капусты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "маргариток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ромашек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Факторами патогенности микобактерий являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эндотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экзотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липиды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ЛПС",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плазмокоагулаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Источником инфекции при туберкулезе являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактерионосители",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "больной человек – бактериовыделитель",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "больное животное",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "предметы обихода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Пути передачи туберкулеза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "контактный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воздушно-капельный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "алиментарный",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "половой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "У человека туберкулезом поражается чаще всего:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудочно-кишечный тракт",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мочеполовая система",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "органы дыхания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "органы кроветворения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "опорно-двигательный аппарат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Особенность иммунитета при туберкулезе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "врожденный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трансплацентарный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нестерильный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антитоксический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стерильный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Самым чувствительным методом обнаружения микобактерий туберкулеза в мокроте является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериоскопия с окраской по Цилю-Нильсену",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "люминесцентная микроскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "электронная микроскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "посев на среду Левенштейна-Йенсена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "серологический метод",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Минимальное количество микобактерий туберкулеза в 1 мл мокроты, выявляемое прямой микроскопией:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не менее 106",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не менее 105",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "5000-10000",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "20-100",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1-10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Минимальное количество микобактерий туберкулеза в 1 мл обогащенной мокроты, выявляемое при микроскопии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не менее 106",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не менее 105",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5000-10000",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "20-100",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1-10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Минимальное количество микобактерий туберкулеза в 1 мл обогащенной мокроты, выявляемое при бактериологическом исследовании:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не менее 106",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не менее 105",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5000-10000",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "20-100",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "1-10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Результаты бактериологического исследования при диагностике туберкулеза получают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 4 день",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на 7 день",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 2 недели",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через месяц",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "через 3-4 месяца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Методы специфической профилактики туберкулеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экстренная профилактика антибиотиками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцинация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "введение сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "использование иммуноглобулина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "флюорография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Для профилактики туберкулеза используют вакцину:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ТАВТ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "СТИ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гайского",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "БЦЖ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ВА№19",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Вакцина БЦЖ получена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пирке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кальметтом и Гереном",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Манту",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кохом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Вакцина БЦЖ представляет собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инактивированную вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтетическую вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "генно-инженерную вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "живую аттенуированную вакцину",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "химическую вакцину",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Вакцина БЦЖ включает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инактивированные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "живые клетки микобактерий бычьего типа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "живые клетки микобактерий человеческого типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продукты жизнедеятельности микобактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "живые микобактерии птичьего типа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Проба Манту используется для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "определения эффективности терапии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "определения необходимости ревакцинации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "определения чувствительности к антибиотикам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "идентификации микобактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определения титра специфических антител",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "PPD содержит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "убитые микобактерии бычьего типа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "живые микобактерии бычьего типа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смесь фильтратов убитых нагреванием культур микобактерий человеческого и бычьего типов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лиофилизированные микобактерии человеческого типа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "убитые микобактерии человеческого типа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Терапия туберкулеза предусматривает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "проведение кратковременных курсов монотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "длительное применение одного препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одновременное применение нескольких препаратов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "длительное применение нескольких препаратов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "периодическое определение чувствительности выделяемых культур к Антибиотикам.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Заболевание дифтерией вызывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Corynebacterium diphtheriae нетоксигенный штамм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Corynebacterium diphtheriae токсигенный штамм",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Corynebacterium xerosis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Corynebacterium minutissimum",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Mycobacterium bovis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Решающим для заключения о выделении возбудителя дифтерии является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "морфология клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ферментативная активность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подтверждение токсигенности в реакции преципитации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проба Пизу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проба Закса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Определение токсигенности коринебактерии проводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по внешнему виду подозрительных колоний",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по биохимическим свойствам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по результатам пробы Пизу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по результатам реакции преципитации в геле",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "по результатам пробы Закса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Морфологические особенности коринебактерий позволяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "установить видовую принадлежность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "предположить род",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "определить биовар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оценить токсигенность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подтвердить диагноз «дифтерия»",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Заключение по результатам бактериологического исследования на дифтерию отрицательное, если выделен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атоксигенный штамм C. diphtheriae биовар mitis",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "токсигенный штамм C. diphtheriae биовар mitis",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсигенный штамм C. diphtheriae биовар gravis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "токсигенный штамм C. diphtheriae биовар intermedius",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токсигенный штамм C. diphtheriae",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Заключение по результатам бактериологического исследования на дифтерию положительное, если выделен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атоксигенный штамм C. diphtheriae тип gravis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсигенный штамм C. diphtheriae тип mitis",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "атоксигенный штамм С. ulcerans",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атоксигенный штамм C. diphtheriae биовар mitis",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атоксигенный штамм C. diphtheriae биовар intermedius",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Температура хранения музейных культур коринебактерий (градусов Цельсия):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+4...+10",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "-10",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+20…+25",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "-5",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "+10…+20",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Какой тест является решающим в бактериологическом исследовании на дифтерию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферментация глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расщепление крахмала",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определение токсигенности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уреазная активность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кожная проба",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Обязательными условиями при заборе материала на дифтерию являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "своевременность взятия материала",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отдельные тампоны для зева и носа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трехкратное исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "взятие до начала антибиотикотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Какой из представителей рода Corynebacterium ферментирует цистин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "C. ulcerans",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "C. diphtheriae",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "C. xerosis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "C. minutissimum",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "C. hoffmanii",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "В отличие от возбудителя дифтерии дифтероиды могут давать положительный тест на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферментацию глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цистиназу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уреазу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "токсигенность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ферментацию крахмала",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "В мазках возбудитель дифтерии имеет вид:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коккобактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биполярных овоидных палочек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метахроматических полиморфных палочек",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стрептобацилл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изогнутых палочек правильной формы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "К какой группе по типу дыхания принадлежит возбудитель дифтерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "облигатный анаэроб",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "факультативный анаэроб",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микроаэрофил",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "облигатный аэроб",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оксигенный фототроф",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "При отсутствии роста колоний на средах первичного посева при подозрении на дифтерию отрицательный ответ выдают через:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "24 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "48 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "72 ч",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "12 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "7 суток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Кратность обследования больных с острыми воспалительными явлениями в носоглотке на дифтерию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "однократно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "двукратно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трехкратно",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "четырехкратно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по желанию лечащего врача",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Контингент лиц, обследуемых на дифтерию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больные с воспалениями носоглотки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "больные лакунарной ангиной с налётом на миндалинах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "больные инфекционным мононуклеозом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "больные некротической ангиной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "всё перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Для взятия материала на дифтерию используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухие тампоны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тампоны, смоченные физ. Раствором",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тампоны, смоченные пептонной водой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шпатель",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Забор материала на дифтерию производится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "натощак",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "после еды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 10 мин после еды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через 30 мин после еды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "независимо от приёма пищи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Забор материала при заболевании дифтерией производится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "из носовых ходов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с миндалин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с конъюнктивы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "из уха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Средой для культивирования коринебактерий дифтерии является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровяной теллуритовый агар",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кровяной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "среда чистовича",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "среда эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среда ресселя",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Для возбудителя дифтерии характерно все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грамположительные палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "располагаются, в основном, под углом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержат зерна волютина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "располагаются, в основном, частоколом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Какая питательная среда применяется для культивирования бордетелл:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровяной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "казеиново-угольный агар",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "желточно-солевой агар",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровяной теллуритовый агар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "молочно-солевой агар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Какое заболевание вызывает Bordetella pertussis:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "паракоклюш",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коклюш",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тонзиллит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дифтерия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бронхит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Морфология возбудителя коклюша:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грамположительные палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамотрицательные овоидные палочки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательные кокки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грамположительные кокки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стрептобациллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Какое заболевание вызывает Bordetella parapertussis:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ангина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коклюш",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паракоклюш",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дифтерия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмония",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "В микропрепарате клетки коринебактерий располагаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гроздьями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "параллельно друг другу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "под углом друг к другу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цепочками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пучками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Дифтерийный токсин блокирует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дыхательный центр",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтез белка в клетке",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "передачу нервных импульсов в синапсах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "транспорт воды и ионов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холинэстеразу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Для коринебактерий дифтерии характерна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продукция экзотоксина всеми штаммами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продукция экзотоксина некоторыми штаммами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "продукция эндотоксина всеми штаммами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продукция эндотоксина некоторыми штаммами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продукция экзотоксина и эндотоксина одновременно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Для возбудителя дифтерии не характерно морфологическое свойство:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полиморфизм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "однородная морфология",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "взаиморасположение под углом друг к другу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "биполярное окрашивание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метахромазия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Возбудитель дифтерии не обладает следующим свойством:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биполярное окрашивание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метахромазия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "продукция цистиназы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продукция уреазы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "продукция экзотоксина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Для дифтерийных палочек характерно наличие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "капсул",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жгутиков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зёрен волютина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хламидоспор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Для определения токсигенности возбудителя дифтерии используется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "РНГА",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "РСК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакция преципитации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "реакция агглютинации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "реакция гемадсорбции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Наиболее часто наблюдается клиническая форма дифтерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифтерия носа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифтерия зева",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дифтерия кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дифтерия раны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дифтерия половых органов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Основной метод окраски микобактерий туберкулеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по Граму",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по Цилю-Нильсену",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "по Романовскому-Гимзе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по Нейссеру",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фуксином",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Методы микробиологической диагностики туберкулеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериоскопический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериологический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аллергический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "генодиагностика (ПЦР)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Требования к забору материала при диагностике дифтерии (верно все, кроме):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "забор одним тампоном из зева и носа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "доставка в лабораторию не позднее 3-х часов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "забор двумя тампонами из зева и носа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "взятие до еды или через 2 часа после еды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "взятие до начала лечения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "(верно все, кроме):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "быстрота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "определение лекарственной устойчивости возбудителя",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "доступность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "низкая стоимость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпидемиологическая значимость (положительный результат свидетельствует об открытой форме, опасной для окружающих)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Определение токсигенных свойств культуры при бактериологическом исследовании на дифтерию проводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в первые сутки роста подозрительных колоний на чашках первичного посева материала",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "после определения ферментативной активности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в зависимости от биовара",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с помощью реакции агглютинации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только при диагностике носительства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Назовите методы взятия материала от больного коклюшем для бактериологического исследования:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "метод “кашлевых пластинок”",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "двумя сухими заднеглоточными тампонами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двумя сухими и одним увлажненным тампонами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "двумя тампонами, увлажненными забуференным физиологическим раствором",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "двумя заднеглоточными тампонами – сухим и увлажненным.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Во время приступа кашля в спазматическом периоде коклюша отмечаются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "репризы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "апноэ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "токсикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипертермия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Давление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "Основные периоды коклюша:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "катаральный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инкубационный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "реконвалесценции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "спазматический",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "крупозного кашля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Осложнениями коклюша являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмония",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миокардит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ателектаз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "субарахноидальное кровоизлияние",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пиодермия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Показателями тяжести коклюша являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "частая рвота во время приступов кашля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "частота приступов кашля",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "апноэ во время кашля",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нейротоксикоз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "количество репризов во время приступа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Особенностями коклюша у детей первого года жизни являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "укорочение инкубационного и катарального периодов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отсутствие репризов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "усиление проявлений интоксикации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чаще возникают апноэ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "чаще возникают осложнения",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 90,
+				"text": "Для туберкулезной интоксикации характерна выраженная:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 143,
+				"text": "Метод, являющийся «Золотым стандартом» микробиологической диагностики дифтерии:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 161,
+				"text": "Особенностями коклюша у детей первого года жизни являются",
+				"reason": "NO_ANSWER_MARKER"
+			}
+		]
+	}
+}

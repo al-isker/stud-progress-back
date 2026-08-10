@@ -1,0 +1,4498 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Назовите основной этиологический фактор острого гломерулонефрита",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стафилококк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клебсиелла",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бета-гемолитический стрептококк группы А",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синегнойная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмококк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Какая возрастная группа наиболее подвержена заболеванию острым гломерулонефритом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 2 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с 2-летнего возраста и до 40 лет",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "климактерический период",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "период менопаузы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пубертатный период",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Боли в области поясницы при остром гломерулонефрите могут быть связаны с наличием конкрементов в мочевыводящей системе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с остро развившейся отечностью почечной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с апостематозными изменениями паренхимы почек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с нарушениями уродинамики",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с ишемическим инфарктом почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Что является наиболее важной причиной гипопротеииемии при нефротическом синдроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "потеря белков с мочой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиленный синтез бета-глобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перемещение белков из плазмы во внеклеточную жидкость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "потеря белка через отечную слизистую оболочку кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "усиленный катаболизм глобулинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "При болезни берже частым симптомом является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гематурия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличение Т-хелперов и снижение Т-суппрессоров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение IgA",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гипопротеинемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Наиболее важный фактор повреждающего воздействия на канальцы и интерстиций при гломерулонефрите",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эритроцитурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трансферринурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ухудшение кровоснабжения канальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бактериурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Отметьте современные формы гломерулонефритов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мезангио-пролиферативный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "все верно",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "IgA нефропатия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мембранозный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мембранозно-пролиферативный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какая проба позволяет выявить снижение клубочковой фильтрации при хпн",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проба по Нечипоренко",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проба Зимницкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проба Реберга",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проба Аддиса-Каковского .",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проба Нечипоренко",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Наиболее важный показатель для отличия нефротического варианта гломерулонефрита от сердечных отеков (застойные почки)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие заболеваний сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "локализация отеков на нижних конечностях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличение печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высокая протеинурия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие акроцианоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Наиболее характерные признаки хпн",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тошноты, рвоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оглушенность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "боли в животе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "громкое дыхание Куссмауля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "При каком заболевании в моче могут определяться активные лейкоциты",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гломурелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пиэлонефрит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "миеломная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амилоидоз почек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфаркт почки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Самым достоверным признаком хпн является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артериальная гипертензия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение уровня кеатинина в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "олигурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лейкоцитурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Каковы нормальные показатели креатинина у женщин",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "44-97 мкмоль/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "40- 180мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "50-150 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "38 -120 мкмоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "38 -120 мкмоль/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Основные жалобы больных с заболеваниями почек",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отеки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "все перечисленное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "боль в поясничной области",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "головная боль",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "учащенное мочеиспускание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Чем наиболее часто обусловлена головная боль при заболеваниях почек",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышением артериального давления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "падением артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "накоплением азотистых шлаков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отеком тканей мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интоксикацией продуктами обмена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Каково отношение дневного диуреза к ночному в норме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3:1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5:1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1:1",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4:1",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1:2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Наиболее важные признаки, позволяющие исключить наличие пиелонефрита при дифференциации гломеруло- и пиелонефрита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "протеинурия выше 1 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отеки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цилиндры гиалиновые",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "температура",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "При излечении в течение какого срока гломерулонефрит считается острым",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трех месяцев",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "года",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "шести месяцев",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "двух лет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нескольких лет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Лейкоцитурией называется увеличение числа лейкоцитов в моче свыше",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10 в поле зрения, или 4000 в 1 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3-4 в поле зрения, или 2000 в 1мл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "15 -20 в поле зрения, или > 4000 в 1 мл",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "15 -20 в поле зрения, или > 4000 в 1 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15 -20 в поле зрения, или > 4000 в 1 мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Лекоцитурия может встречаться",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при пиелонефрите",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при гломерулонефрите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при амлоидозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при всех перечисленных заболеваниях",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "при всех перечисленных заболеваниях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Максимальная суточная протеинурия в норме составляет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "50 мг",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "100 мг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "150 мг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "300 мг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "500 мг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Изостенурия это состояние при котором",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плотность мочи равна 1010 или плотности плазмы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "плотность мочи ниже 1018",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плотность мочи 1015",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плотность мочи 1013",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плотность мочи 1030",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Появление мочи цвета \"мясных помоев\" характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острого пиелонефрита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острого гломерулонефрита",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рака почки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нефротического синдрома",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронического пиелонефрита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Болевой синдром при остром гломерулонефрите обусловлен",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушением оттока мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспалительным отеком мочеточника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "растяжением почечной лоханки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спастическим сокращением мочеточника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "растяжением почечной капсулы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Наличие у больной острой односторонней боли в поясничной области с иррадиацией паховую область после тряской езды характерно для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "паранефрита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острого пиелонефрита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острого гломерулонефрита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочекаменной болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хронического гломерулонефрита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "характерна для",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфаркта почки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опущения почки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мочекаменной болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перегиба мочеточника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острого гломерулонефрита",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Причиной острой односторонней боли в поясничной области с иррадиацией в паховую область,возникшей после чрезмерной физической нагрузки является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "паранефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острый пиелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острый гломерулонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочекаменная болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нефроптоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Учащенное мочеиспускание называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Поллакиурией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Никтурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Олигурией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Странгурией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Отеки почечного происхождения чаще всего сопровождает следующая окраска кожных покровов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Цианотичная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Красная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Бледная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Желтушная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Обычная, бледно-розовая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Для хронического гломерулонефрита характерно все нижеперечисленное за единственным исключением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Отеки лица по утрам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повышение АД",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Никтурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Повышение относительной плотности мочи",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Преобладание ночного диуреза над дневным называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Олигурией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Анурией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Никтурией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Поллакиурией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Странгурией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "У больного резкая слабость, головная боль, повышение ад, ухудшение зрения, отечность лица, уменьшение выделения мочи и красноватый ее цвет. заболел остро. можно заподозрить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Острый пиелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Острый пиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Острый гломерулонефрит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Нефротический синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Уремия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Выявляемые пробой по зимницкому никтурия, гипостенурия и полиурия свидетельствуют о",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердечная недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сахарный диабет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронической почечной недостаточности (ХПН)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нефротический синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острый гломерулонефрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Что такое гематурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление в моче белка;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появление в моче эритроцитов;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "появление в моче лейкоцитов;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появление в моче цилиндров.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "При каком заболевании как правило развивается уремия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый пиелонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический гломерулонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "острый гломерулонефрит.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ХПН",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "МКБ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Относительные противопоказания для проведения пробы Зимницкого?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "значительная глюкозурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пороки сердца;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прием мочегонных препаратов;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "высокое артериальное давление.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ХПН",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Какую функцию почек отражает проба Зимницкого?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "участие в концентрации мочи;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "участие в гемопоэзе;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участие в обмене электролитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участие в обмене углеводов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участие в обмене белков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Для пациентов с острым пиелонефритом основными жалобами являются все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отеки;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дизурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение температуры;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "боли в поясничной области?",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "боли в животе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Каковы особенности почечных отеков?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "начинаются с нижних конечностей;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появляются к вечеру;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "начинаются с лица;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сопровождаются цианозом.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сопровождается желтушностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Что такое никтурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "задержка выделения мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "преобладание ночного диуреза над дневным;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижение удельного веса мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "монотонно сниженный удельный вес мочи.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "болезненное мочеиспускание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Что такое изостенурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одинаковый объем разных порций мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижение удельного веса мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "монотонно сниженный удельный вес мочи;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышение удельного веса мочи.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "без изменений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Для нефротического синдрома характерно все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемии;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "значительная протеинурии;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперхолестеринемии;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипопротеинемии;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отеков.",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "дислипидемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "При каком заболевании бывает часто положительный симптом Пастернацкого?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пиелонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "язвенная болезнь желудка;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желчнокаменная болезнь.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гастрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Что такое гипостенурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение частоты мочеиспускания;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение количества мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение удельного веса мочи;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "одинаковый объем разных порций мочи.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение удельного веса мочи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Для какого заболевания характерна моча цвета «мясных помоев»?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолитическая желтуха;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острый гломерулонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "острый пиелонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сахарный диабет.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Что такое пиурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление в моче белка;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появление в моче эритроцитов;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "появление в моче гноя;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "появление в моче цилиндров.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление белка и гноя",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Функциональные пробы при заболеваниях почек?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проба Аддиса-Каковского;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проба Нечипоренко;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проба Зимницкого;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проба Квика-Пытеля.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "волдырная проба",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "При каком заболевании встречается пиурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рак почки;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пиелонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хронический гломерулонефрит.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ХПН",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Как изменяется выделительная способность почек в терминальной стадии ХПН?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не изменяется;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижается;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышается.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "умеренно снижена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Что такое анурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выделение за сутки менее 100 мл мочи;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выделение за сутки менее 500 мл мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выделение за сутки менее 200 мл мочи.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выделение за сутки более 1000 мл мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выделение за сутки менее 1000",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Для какого заболевания не характерна гематурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цистит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пиелонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гломерулонефрит.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "МКБ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ХПН",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Трехстаканная проба Томпсона проводится для выявления патологического процесса в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчном пузыре и желчевыводящих путях;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мочевыводящих путях;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бронхах и легких;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желудочно-кишечном тракте?",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в легочной системе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "С какой целью проводится анализ мочи по Нечипоренко?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для выявления белка в моче;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для выявления соотношения лейкоцитов и эритроцитов в 1 мл мочи;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для выявления глюкозы и кетоновых тел в моче.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для выявления мочевины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для выявления креатинина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "С помощью какого исследования можно установить локализацию патологического процесса в органах мочевыделительной системы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "посев мочи на флору;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "общий анализ мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трехстаканная проба Томпсона.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проба Нечипоренко",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проба Адисса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Особенности почечной артериальной гипертензии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "большое пульсовое давление;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышено больше диастолическое давление;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышено только систолическое АД.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышено систолическое и диастолическое давление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пониженное систолическое давление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Бактериологическое исследование мочи необходимо при следующих заболеваниях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пиелонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острый гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронический гломерулонефрит?",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ХПН",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "МКБ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Для какого заболевания характерна поллакиурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистит;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амилоидоз почек.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ХПН",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Высокий удельный вес мочи характерен для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острого пиелонефрита;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронического гломерулонефрита;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сахарного диабета.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ХПН",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "МКБ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "рН мочи (реакция мочи) в норме находится в пределах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,0-4,5;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "5,0-7,0;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "6,5-9,5;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2,0-3,5.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3.0-5.0",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Кислая реакция мочи бывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при преобладании в пище животных белков;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при преобладании растительной пищи;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при приеме большого количества жидкости;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при употреблении большого количества фруктов.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при употреблении большого количества жиров",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Большое количество кристаллов мочевой кислоты в моче характерно для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острого пиелонефрита;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острого гломерулонефрита;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сахарного диабета;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочекаменной болезни.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ХПН",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Нормативы клубочковой фильтрации?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "40-60 мл/мин;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "80-120 мл/мин;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "160-180 мл/мин.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "180-190 мл/мин.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "70-80 мл/мин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Выделительную функцию почек можно определить при помощи следующих исследований:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анализа мочи по Нечипоренко;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "общего анализа мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анализа мочи по Зимницкому;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пробы Квика-Пытеля.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проба Адисса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Концентрационную функцию почек оценивают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по трехстаканной пробе Томпсона;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по анализу по Нечипоренко;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по пробе Зимницкого;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "по пробе Квика-Пытеля.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "проба Адисса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Кожный зуд при заболеваниях почек обусловлен избыточным содержанием в крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "билирубина;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мочевины;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сахара?",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "креатинина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Для какого клинического варианта хронического гломерулонефрита характерно повышение артериального давления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нефротического;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "смешанного;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "латентного.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гематурического",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мезангиокапилярного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Глюкозурия характерна для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острого пиелонефрита;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острого гломерулонефрита;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сахарного диабета;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мочекаменной болезни.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ХПН",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Появление тонических и клонических судорог характерно для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почечной колики;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уремии;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почечной эклампсии?",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ХПН",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "МКБ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Бактериологическое исследование мочи показано при следующих заболеваниях?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пиелонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хронический гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амилоидоз почек.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "МКБ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Для нефротического синдрома характерно все, кроме: Отеки;",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "массивная протеинурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипопротеинемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперкалиемия;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гиперхолестеринемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Изменения чашечно-лоханочной системы почек характерны для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронического пиелонефрита;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронического гломерулонефрита;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цистита;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амилоидоза почек.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ХПН",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Для какого заболевания характерна бактериурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пиелонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "амилоидоз почек.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ХПН",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "МКБ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "К развитию хронической почечной недостаточности приводят следующие заболевания?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый пиелонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острый гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронический гломерулонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цистит.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хронический пиелонефрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Какой симптом не характерен для хронической почечной недостаточности?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухость во рту;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тошнота, рвота;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кожный зуд;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровохарканье;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "жажда;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Для терминальной стадии хронической почечной недостаточности характерны следующие показатели клубочковой фильтрации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "80-120 мл/мин;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "50-60 мл/мин;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30-40 мл/мин;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "менее 20 мл/мин.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "80-120 мл/мин;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Количество цилиндров в пробе по Нечипоренко не должно превышать?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "250;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1000;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2000.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5000",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Какое количество мочи свидетельствует о полиурии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "800 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1500 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2500 мл;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1000 мл.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1500",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Для какого заболевания характерна кетонурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пиелонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с диабет;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочекаменная болезнь.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ХПН",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Для какого заболевания характерна оксалатурия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пиелонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поликистоз почек;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочекаменная болезнь.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ХПН",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Выделение за сутки менее 50 мл мочи свидетельствует об:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигоурии;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анурии;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полиурии;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поллакурии.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изостенурии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Назовите основной этиологический фактор острого гломерулонефрита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стафилококк;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клебсиелла;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ß-гемолитический стрептококк группы А;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синегнойная палочка;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмококк.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "В какой срок после перенесенной инфекции развивается острый гломерулонефрит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10-12 дней;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1-2 дня;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3 недели;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "месяц.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "год",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Какие из перечисленных факторов вызывают развитие острого гломерулонефрита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сывороточный;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцинный;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "яд насекомых;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лекарственные вещества;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Какими причинами обусловлены гемодинамические нарушения при остром гломерулонефрите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперволемией,",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "задержкой натрия и воды;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижением общего периферического сопротивления сосудов;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиперволемией.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Что включает в себя классическая триада симптомов острого гломерулонефрита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отеки, одышка, гематурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отеки, гипертония, гематурия;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отеки, гипертония, сердцебиение.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Клиническими проявлениями facies nefritica являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отеки лица, бледность кожи;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отеки лица, акрцианоз;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отеки лица, геморрагическая сыпь на лице.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отеки ног",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отеки всего тела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Что относится к характерным гемодинамическим расстройствам при остром гломерулонефрите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширение полостей сердца;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "низкое диастолическое давление;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "низкое систолическое давление.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "низкое и систолическое и диастолическое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "низкое пульсовое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Какому фактору придается ведущее значение в патогенезе гипертензии при остром гломерулонефрите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение ОЦК и ударного объема сердца;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сужение почечных артерий;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличение уровня кортизола в крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение сахара в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение белка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "С чем могут быть связаны боли в области поясницы при остром гломерулонефрите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "c наличием конкрементов в мочевыводящей системе;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "c набуханием почек;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "c апостематозными изменениями паренхимы почек;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "c ишемическим инфарктом почек.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличием белка в моче",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Какой признак является характерным для острого гломерулонефрита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изогипостенурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение плотности мочи;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижение плотности мочи;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение микробного числа мочи.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличением креатинина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Что не относится к осложнениям острого гломерулонефрита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигоанурия в острой фазе заболевания с развитием ОПН;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эклампсия;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тромбоэмболический синдром;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "острая левожелудочковая недостаточность.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острая правожелудочковая недостаточность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Какой показатель не относится к диагностическим критериям «нефротического синдрома»?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия более 3,5 г/л;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипоальбуминемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперпротеинемия;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гиперхолестеринемия.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глюкозурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "При каких заболеваниях может возникнуть нефротический синдром?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сахарный диабет;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миеломная болезнь;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амилоидоз;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опухоли внелегочной локализации;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при всех перечисленных заболеваниях;",
+						"isCorrect": true
+					},
+					{
+						"index": 6,
+						"text": "ни при одном из вышеперечисленных заболеваний.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Главным признаком нефротического синдрома является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Лейкоцитурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выраженная протеинурия;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гематурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цилиндрурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бактериурия?",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Причиной гипопротеинемии при нефротическом синдроме является все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "потеря белков с мочой;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "усиленный синтез ß-глобулинов;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перемещение белков из плазмы во внеклеточную жидкость;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "потеря белка через отечную слизистую оболочку кишечника?",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "потеря жидкости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Какой из клинических вариантов хронического гломерулонефрита является самым частым?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематурический;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "латентный;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нефротический;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипертоничсекий;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "смешанный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Какие признаки характерны для мочевого синдрома при хроническом гломерулонефрите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие протеинурии;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лейкоцитурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гематурия;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие в моче клеток Штернгеймера-Мальбина.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие бактерий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Какой признак характерен для гипертонического варианта хронического гломерулонефрита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выраженный мочевой синдром;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертонический синдром;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отечный синдром.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "астенический синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Какой признак не характерен для нефротического варианта хронического гломерулонефрита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "суточная потеря более 3 г/л;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отеки;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрогематурия.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "микрогематурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бледность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Какая проба позволяет выявить снижение клубочковой фильтрации при ХГН?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "проба по Нечипоренко;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проба Зимницкого;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проба Реберга;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "проба Аддиса-Каковского.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "волдырная проба",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Какой признак позволяет отличить хронический гломерулонефрит от острого?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие дизурических расстройств;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выраженная гипертрофия левого желудочка;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выраженная лейкоцитурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "величина протеинурии.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выраженная гематурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Какой характерный признак хронического гломерулонефрита позволяет отличить его от эссенциальной артериальной гипертензии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Опережающее мочевой синдром повышение АД;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Мочевой синдром, предшествующий повышению АД;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Частое развитие сосудистых осложнений (инсульт, инфаркт);",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Выраженные изменения глазного дна.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Какой признак помогает отличить нефротический вариант гломерулонефрита от сердечных отеков (застойные почки)?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "локализация отеков на нижних конечностях и крестце;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение печени;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "суточная протеинурия более 3 г/л.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "суточная протеинурия менее 3 г/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение селезенки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Какие изменения биохимических показателей наблюдаются при терминальной ХПН?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипербилирубинемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперкреатининемия;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уробилирубинурия.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипергликемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глюкозурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Назовите признак, характерный для уремического перикардита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение температуры тела;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боли в области сердца;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "шум трения перикарда;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "накопление геморрагической жидкости в полости перикарда.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "накопление жидкости в легких",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "От чего зависит темная и желтоватая окраска кожи при ХПН?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение прямого билирубина;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "овышение непрямого билирубина;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анрушение выделения урохромов;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушение секреции билирубина.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушение углеводного обмена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "При каком заболевании в моче могут определяться клетки Штенгеймера-Мальбина?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пиелонефрит;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "амилоидоз почек;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инфаркт почки.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфаркт миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Самым достоверным признаком ХПН является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артериальная гипертензия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперкалиемия;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышение уровня креатинина крови;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "олигурия;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемия?",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Причины ХПН следующие, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хронический гломерулонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический пиелонефрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "острый внутрисосудистый гемолиз;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амилоидоз;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подагра?",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Для нефротического синдрома характерны все признаки, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипоальбуминемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "суточная потеря белка более 3 г/л;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изостенурия;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гиперлипидемия;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отеки?",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Определение какого из показателей наиболее информативно для выявления нефротического синдрома?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "величины протеинурии;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клубочковой фильтрации;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "креатинина сыворотки;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холестерина сыворотки.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сахара в крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "При амилоидозе наиболее часто поражаются органы, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почки;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердце;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "селезенка;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печень?",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "легкие",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Причинами анемии при хронической почечной недостаточности могут быть все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолиз;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дефицит фолиевой кислоты;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дефицит железа;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "недостаток эритропоэтина?",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "недостаток железа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "При хронической почечной недостаточности анемия является результатом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровотечения их верхних отделов желудочно-кишечного тракта;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижения эритропоэтической функции почек;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздействия уремических токсинов на костный мозг;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутрисосудистого гемолиза;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "всех вышеперечисленных причин?",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Для определения степени тяжести ХПН имеют значение все показатели, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уровень креатинина крови;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "величина клубочковой фильтрации;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выраженность отечного синдрома;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "выраженность анемии?",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выраженность желтухи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "При остром гломерулонефрите справедливы утверждения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в начальном периоде артериальная гипертензия развивается у всех пациентов;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наиболее частой формой болезни является нефротическая;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "все перечисленное верно;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное неверно?",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Каковы гомеостатические функции почек, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поддержание водноэлектролитного обмена;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поддержание кислотно-щелочного гомеостаза;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экскреция конечных продуктов азотистого обмена;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поддержание артериального давления?",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Что является структурной и функциональной единицей почек?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дочечное тельце;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "долька;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фолликул;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нефрон.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Клиническими проявлениями facies nefritica являются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отеки лица",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "акроцианоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "геморрагическая сыпь на лице",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бледность кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сужение глазных щелей.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Характерные гемодинамические расстройства при остром гломерулонефрите",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение артериального давления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "акцент II тона над аортой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "низкое диастолическое давление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "низкое пульсовое давление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шум Грехема-Стилла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Ведущее значение в патогенезе гипертонии при остром гломерулонефрите придается",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "задержке натрия и воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличению ОЦК и ударного объема сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ренин-ангиотензиновый механизм",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гиперкатехоламинемии и увеличению катехоламинов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличению уровня кортизола в крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Какие два из перечисленных ниже признаков являются характерными для острого гломерулонефрита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "изостенурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение плотности мочи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гематурия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличение нейтрофилов в моче",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличение лимфоцитов в моче",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Укажите осложнения острого гломерулонефрита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигоанурия в острой фазе заболевания с развитием ОПН",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "массивное почечное кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эклампсия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тромбэмболический синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острая левожелудочковая недостаточность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Критериями \"нефротического синдрома\" являются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия более 3,5 г/сутки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гипопротеинемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипергаммаглобулинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиперхолестеринемия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиперхолестеринемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Нефротический синдром наиболее часто встречается при",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "одном из вариантов хронического гломерулонефрита",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "амилоидозе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "туберкулезе легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тромбозе почечных вен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "липоидном нефрозе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Главными признаками нефротического синдрома являются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкоцитурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "протеинурия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гематурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цилиндрурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отеки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Назовите заболевания, наиболее часто сопровождающиеся развитием амилоидоза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфома Ходжкина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туберкулез",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неспецифический язвенный колит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ревматоидный артрит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хронические нагноительные процессы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Обострение хронического гломерулонефрита от острого можно распознать по следующим признакам",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникает в первые дни после инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "имеет цикличное течение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "имеет место гипертрофия левого желудочка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "имеется гипокомплементемия выявляется нарушение концентрационной функции почек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеется гипокомплементемия выявляется нарушение концентрационной функции почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Какие признаки характерны для мочевого синдрома при хгн",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "низкая протеинурия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лейкоцитурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гематурия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цилиндрурия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие в моче клеток Штернгеймера-Мальбина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Какие признаки характерны для нефротического варианта хгн",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперпротеинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "суточная протеинурия более 3 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отеки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гиполипидемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "макрогематурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Какие признаки являются типичными для нефритического синдрома",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "острое начало, нарастание отеков, протеинурии, гематурии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гипотония",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лихорадка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "олигурия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Какие признаки позволяют отличить хгн от острого пиелонефрита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гипокомплементемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выраженная гипертрофия левого желудочка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уменьшение размеров почек",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "выраженная лейкоцитурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение артериального давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Какие признаки позволяют отличить хгн от хронического пиелонефрита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лихорадка с ознобом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "асимметрия поражения почек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие асимметрии поражения почек",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "высокая протеинурия в сочетании с гематурией и цилиндрурией",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "высокая лейкоцитурия, бактериурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Какие характерные признаки хгн позволяют отличить его от гипертонической болезни",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение АД, опережающее мочевой синдром",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мочевой синдром, предшествующий повышению АД",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "частое развитие сосудистых осложнений (инсульт, инфаркт)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "редкость гипертонических кризов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выраженные изменения глазного дна",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Какие из признаков несут информацию о функциональных способностях почки",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержание белка в моче",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "содержание эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение клубочковой фильтрации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышение мочевины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "повышение креатинина в плазме",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "По какому показателю мы судим о концентрационной функции почек",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уровень белка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "количество эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "относительная плотность мочи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "суточный диурез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "креатинин крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Какие показатели характерны для хпн",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "протеинурия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гематурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цилиндрурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "креатинемия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "повышение уровня мочевины крови",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "При каких заболеваниях почек может наблюдаться боль в поясничной области",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "амилоидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пиелонефрит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "паранефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почечно-каменная болезнь",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "опухоли почек",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Наиболее важные признаки, позволяющие исключить наличие пиелонефрита при дифференциации гломеруло- и пиелонефрита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "протеинурия выше 1 г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отеки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цилиндры гиалиновые",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "температура",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Для внешнего вида больного с нефротическим синдромом характерно",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "цвет кожи \"кофе с молоком\"",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бронзовый оттенок кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цианоз губ, мочек ушей, пальцев рук",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выраженная отечность лица",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выраженная отечность нижних конечностей",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Ведущими механизмами отеков при остром нефротнческом синдроме является",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение проницаемости стенки капилляров",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уменьшение онкотического давления плазмы крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "задержка в крови и тканях ионов натрия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "острая задерка выделения мочи почками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение гидростатического давления в капиллярах",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 72,
+				"text": "Ведущее место в этиологии пиелонефрита отводят? =кишечной палочке, протею;",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 120,
+				"text": "Значение уровня определения креатинина в моче заключается в том, что:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 121,
+				"text": "Что включает в себя классическая триада симптомов острого гломерулонефрита",
+				"reason": "NO_ANSWER_MARKER"
+			}
+		]
+	}
+}

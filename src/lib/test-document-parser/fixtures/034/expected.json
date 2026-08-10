@@ -1,0 +1,458 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Что отличает экстракт жидкий от настойки",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "концентрация сырья 1:1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "концентрация сырья 1:5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "концентрация сырья 1:10",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "экстрагентом является спирт",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "готовят методом перколяции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Какая из перечисленных жидких лекарственных форм применяется в инъекциях",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "настой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отвар",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "новогаленовый препарат",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "линимент",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экстракт густой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "В каком соотношении готовят настои и отвары для наружного применения",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1:100",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1:30",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1:400",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1:20",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1:10",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какая часть растения используется для приготовления только отваров",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "листья",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "травы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цветы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кора",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "семена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Какая пропись используется при выписывании микстур",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "развернутая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "развернутая и полусокращенная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сокращенная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полусокращенная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дозированная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Какая пропись принята при выписывании настоев",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сокращенная в процентах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "развернутая пропись",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "официнальная пропись",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сокращенная в виде отношения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сокращенная в массо-объемном соотношении",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Что является основным действующим началом в растениях, обладающих кардиотоническим действием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сапонины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "алкалоиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гликозиды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "флавоноиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "D-дигитоксоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какие лекарственные формы относятся к галеновым препаратам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "настойки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эмульсии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "суспензии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микстуры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "настои",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Дать определение неогаленовымпрепаратам",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жидкая лекарственная форма, получаемая путем растворения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "очищенные препараты, практически не содержащие балластных веществ и пригодные для парентерального введения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "жидкие лекарственные формы, получаемые путем смешивания масла, эмульгатора и воды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жидкие лекарственные формы, представляющие собой водные извлечения из растительного сырья",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "концентрированные вытяжки, получаемые из лекарственного растительного сырья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Сборы лекарственные представляют собой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "смеси нескольких видов измельченного или цельного растительного лекарственного сырья",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "жидкие, прозрачные окрашенные спиртовые извлечения из растительного сырья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высокомолекулярные соединения, представляющие собой вязкие, клейкие жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смеси нескольких жидких лекарственных форм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "официнальные концентрированные вытяжки из растительного сырья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Терапевтический эффект лекарственных растений обусловлен наличием",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "смеси алкалоидов, гликозидов, сапонинов, флавоноидов и др.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "простагландинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антиметаболитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитокинов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ферментов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Дайте определение гликозидов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "азотсодержащие органические соединения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биологически активные вещества с различным химическим строением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "безазотистые горькие вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "органические соединения, содержащие гликон и агликон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "смеси летучих безазотистых веществ с ароматным запахом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Что характерно для настоев и отваров",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "официнальная лекарственная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "назначают внутрь каплями",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "применяют для парентерального введения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "концентрированные спиртовые, эфирные или водные извлечения из растений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "водные извлечения (при нагревании) из растительного лекарственного сырья",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Для экстрактов характерно все, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "концентрированные спиртовые, эфирные или водные извлечения из растений",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "официнальная лекарственная форма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "водные извлечения (при нагревании)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "назначают для приема внутрь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выписывают сокращенно с обязательным указанием консистенции",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

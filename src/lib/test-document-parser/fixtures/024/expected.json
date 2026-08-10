@@ -1,0 +1,2641 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Системы застройки больниц:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "павильонная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "централизованная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "смешанная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "блочная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "комбинированная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Оптимальное отопление в палатах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лучисто-панельное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воздушное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "водяное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "смешанное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Типы ЛПУ:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "больницы и амбулаторно-поликлинические учреждения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "учреждения охраны материнства и детства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "санаторно-курортные и диспансерные учреждения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лечебные учреждения скорой помощи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "санитарно-противоэпидемические учреждения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Внутренняя планировка больниц:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "однокоридорные отделения с односторонней или двухсторонней застройкой коридора",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "частичная двухсторонняя застройка коридоров с устройством светового разрыва",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "двухкоридорные палатные отделения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "компактная двухкоридорная застройка отделения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "садово-парковая зона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Требования к планировке приемного отделения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечение раздельных потоков выписывающихся и поступающих больных",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие помещения для оказания экстренной медицинской помощи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие палаты для больных до уточнения диагноза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обеспечение рециркуляции воздуха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "линейная форма расположения палат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Палатная секция включает помещения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "для пребывания больных",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лечебно-вспомогательные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хозяйственные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "санитарный узел",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ожидальню",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "На территории современной больницы выделяют зоны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лечебных корпусов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не лечебных корпусов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "помещение для санобработки больных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поликлиники",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "патологоанатомического отделения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Приемное отделение включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "смотровую комнату и кабинет врача",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "регистратуру со справочной",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "помещение для выписки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "коридор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "садово-парковая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Искусственное освещение помещений больниц должно быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "достаточным",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "постоянным",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "соответствовать по спектру солнечному свету",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "неравномерным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слепящим",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Наиболее распространенное отопление в палатах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "водяное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "печное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздушное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "панельно-лучистое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "паровое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Отопление помещений больниц должно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "создавать оптимальную температуру",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "удалять грязный воздух",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не загрязнять помещение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обеспечивать равномерное нагревание",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "подавать чистый воздух",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Вентиляция помещений больниц должна:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "удалять грязный воздух",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подавать чистый воздух",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "быть бесшумной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "создавать оптимальную температуруssdasd",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обеспечивать равномерное нагревание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Санитарными показателями чистоты воздуха в палатах являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие запаха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "содержание углекислого газа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "общая обсемененность воздуха",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "окисляемость воздуха",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отсутствие легких ионов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Поликлиническое отделение больницы включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "врачебные кабинеты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "регистратуру",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "приемный покой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ожидальню",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лечебно-диагностические помещения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "В операционном блоке выделяют зоны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "стерильную",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ограниченного режима",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "строгого режима",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "особо чистую",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грязную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Лечебное питание – это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "питание людей с обострением хронических болезней",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "питание людей с острыми заболеваниями",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "питание людей с хроническими заболеваниями вне обострения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиленное питание больных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "питание рабочих",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Диетическое питание – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "питание людей с хроническими заболеваниями вне обострения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиленное питание больных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "питание рабочих",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "питание людей с обострением хронических болезней",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "питание людей с острыми заболеваниями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Мероприятия по улучшению условий труда хирургов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "оборудование эффективной вентиляции и отопления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обеспечение централизованной подводки кислорода",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие специальной обуви",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "профотбор",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "диспансеризация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Гигиенические требования к условиям труда и быта персонала больниц:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "оптимальный микроклимат",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие санитарно-бытовых помещений",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "содержание вредных веществ в воздухе ниже ПДК",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышенное питание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие условий для сна",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Источники внутрибольничных инфекций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекционные больные со смешанной инфекцией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "соматические больные в инкубационном периоде",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бактерионосители из числа персонала и больных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "посетители",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "инфекционные больные с моноинфекцией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Группы внутрибольничных инфекций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "амбулаторная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "госпитальная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вследствие профилактических мероприятий и действий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хирургическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "акушерская",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Мероприятия по неспецифической профилактике внутрибольничных инфекций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "санитарно-технические",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "санитарно-противоэпидемические",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дезинфекционно-стерилизационные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "технологические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "архитектурно-планировочные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Мероприятия по специфической профилактике внутрибольничных инфекций:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плановая иммунизация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "экстренная иммунизация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пастеризация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стерилизация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дезинфекция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Бокс инфекционного отделения включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "входной тамбур",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "санузел с ванной",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "палату",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "шлюз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "буфетную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Операционный блок хирургического отделения включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "операционную",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "предоперационную",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "помещение для персонала",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наркозную",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "санпропускник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Акушерское отделение включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "предродовую",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "родовой блок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "послеродовую",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "палаты для новорожденных",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "боксы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Профессиональные вредности врача хирурга:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вынужденная рабочая поза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вредные химические вещества",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "напряжение отдельных органов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "микроорганизмы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пыль",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Помещения, входящие в состав детских инфекционных отделений:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "одно-, двухкоечные палаты со шлюзом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полубоксы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "многокоечные палаты со шлюзом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "однокоечные палаты без шлюза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "палаты интенсивной терапии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Оптимальная температура, относительная влажность, скорость движения воздуха в терапевтических палатах для взрослых в холодный период",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "19-21 градусов, 40-60%, 0,15м/сек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "24-25 градусов, 30-40%, 0,1м/сек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "17-18 градусов, 60-75%, 0,25м/сек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "23-24 градуса, 80-85%, 0,3м/сек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "16-17 градусов, 25-35%, 0,2м/сек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Гигиеническая оценка генерального плана больницы включает определение:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "площади и конфигурации земельного участка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "зонирования территории",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "величины санитарных разрывов между зданиями",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "плотности застройки и процента озеленения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличия санитарно-защитной зоны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Пищеблоки больниц бывают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "централизованные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "децентрализованные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "смешанные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "специализированные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "служебные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "На продовольственные базы, снабжающие больницы, допускается к приемке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мясо при наличии клейма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мясо с ветеринарным свидетельством без клейма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мясо третьей категории",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "утиные и гусиные яйца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "водоплавающая птица в непотрошеном виде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Общесоматические больницы в населенных пунктах проектируют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в отдалении от источников шума",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в центре города",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на окраине города",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на крупных магистралях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вблизи зеленых массивов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "На окраине населенного пункта целесообразно располагать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупные многопрофильные больницы (более 800 коек)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "крупные детские больницы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "психиатрические больницы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "онкологические центры",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клинические больницы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Участок под строительство больницы по отношению к промышленному предприятию проектируется:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "с наветренной стороны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "за пределами санитарно-защитной зоны",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в непосредственной близости от предприятия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с подветренной стороны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в пределах санитарно-защитной зоны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Больничные отделения, которые целесообразно размещать в отдельных корпусах при смешанной системе строительства:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "родильное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "детское",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инфекционное",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хирургическое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гинекологическое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Рекомендуемая плотность застройки участка больницы, %:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "15",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "20",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "25",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "30",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Рекомендуемый процент озеленения участка больницы, не менее:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "60",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "20",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "25",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "30",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "40",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Площадь земельного участка больницы зависит от:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "количество коек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "системы строительства больницы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "удаленности от населенного пункта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "территориальных размеров населенного пункта",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "процента озеленения площади участка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Гигиена больничных организаций изучает::",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "размещение больниц",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "планировку больниц",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сантехблагоустройство",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "экономику больниц",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "функциональные обязанности персонала",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Расстояние от мусоросборников до лечебных корпусов, м:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "25",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "20",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "15",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Допустимое количество коек в многоместной палате:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "6",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "7",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "На территории больницы предусматриваются раздельные въезды для:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лечебных инфекционных корпусов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лечебных неинфекционных корпусов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "патологоанатомического корпуса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хозяйственной зоны",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "административного корпуса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Расстояние между корпусами с окнами палат должно быть:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2,5 высоты противостоящего здания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в пределах 1 высоты наиболее высокого противостоящего здания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,5 высоты противостоящего здания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2,0 высоты противостоящего здания",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3,0 высоты противостоящего здания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Операционные с естественным освещением ориентируют на:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "северо-запад",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "север",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "северо-восток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "юго-восток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "юг, юго-запад",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Расстояние между световыми карманами (холлами) в коридорах не должно превышать, м:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "24",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "15",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "20",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "30",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Световой коэффициент в палатах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1/5-1/6",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1/3-1/4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1/7-1/8",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1/9-1/10",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1/11-1/12",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Минимальный коэффициент естественного освещения в палатах, %:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,0",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,75",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1,5",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2,0",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Минимальный угол падения в палатах, градусов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "27",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "15",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "20",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "25",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "30",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Минимальный угол отверстия в палатах, градусов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Искусственная освещенность при люминесцентных лампах в больнице в кабинете врача, лк:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "500",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "150",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "200",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "300",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "400",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Допустимое содержание диоксида углерода в палате, ‰:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,7-1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,5-0,6",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "0,3-0,4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,2",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1,2-1,5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Допустимое содержание микроорганизмов в палате:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3000-4000",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1000-2000",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5000-6000",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "7000-8000",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "9000",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Допустимая окисляемость воздуха в палате, мг/м3:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "5-6",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1-2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3-4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "7-8",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "9-10",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Совмещение помещения приема и выписки больных акушерского отделения с аналогичными помещениями других отделений:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не допускается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "допускается с любым неинфекционным отделением больницы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "допускается с терапевтическим отделением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "допускается с гинекологическим отделением",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "допускается с хирургическим отделением",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Помещения для приема и осмотра детей, поступающих в детское отделение больницы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "приемно-смотровые боксы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "общая смотровая приемного отделения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кабинет дежурного врача",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ординаторская",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "манипуляционная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Площадь на 1 койку в 4-х коечной палате детского соматического отделения, м2:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "8",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "9",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "В состав отделения анестезиологии и реанимации входят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "реанимационная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "предреанимационная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "палаты интенсивной терапии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "помещения для диагностической и лечебной аппаратуры",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "операционная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Производственные вредности рентгенолога:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дискомфортный микроклимат",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "недостаточная освещенность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вынужденная рабочая поза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "радиоактивный фактор",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пониженное барометрическое давление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Производственные вредности анестезиолога:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нагревающий микроклимат",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нерациональный режим труда",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "влияние наркотических веществ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "колебания освещенности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пониженное барометрическое давление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Производственные вредности терапевта:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "неблагоприятные условия окружающей среды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "риск заражения инфекционными болезнями",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нерациональный режим труда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воздействие ультразвука",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "влияние озона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Мероприятия по улучшению труда анестезиологов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кондиционирование воздуха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "централизованная подводка кислорода",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рационализация режима труда и отдыха",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "автоматизация.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дистанционное управление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Специфика труда врачей:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "суточные и ночные дежурства",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нервно-эмоциональное напряжение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отсутствие фиксированных обеденных перерывов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "большая загруженность рабочего дня",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "охлаждающий микроклимат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Производственные вредности акушера-гинеколога:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "напряжение внимания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "риск заражения инфекционными болезнями",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нерациональный режим труда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "неблагоприятные условия окружающей среды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воздействие инфразвука",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Что такое централизованная система больничного строительства? :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при этой системе большинство отделений больницы располагаются в одном корпусе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при этой системе из главного корпуса выносятся инфекционное, детское и родильное отделения, которые располагаются в отдельных зданиях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при этой системе отдельные здания соединяются переходом между собой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при этой системе все отделения располагаются в отдельных малоэтажных зданиях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Что такое децентрализованная система больничного строительства? :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при этой системе все отделения располагаются в отдельных малоэтажных зданиях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при этой системе из главного корпуса выносятся инфекционное, детское и родильное отделения, которые располагаются в отдельных зданиях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при этой системе отдельные здания соединяются переходом между собой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при этой системе большинство отделений больницы располагаются в одном корпусе, а отдельно выносятся пищеблок и хозяйственный корпус",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "На какие зоны по функциональному принципу делится участок больницы?:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хозяйственную, садово-парковую, зону лечебных корпусов и зону поликлиники",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "зону патологоанатомического отделения и морга",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лечебных корпусов, садово-парковую и хозяйственную зону",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лечебных корпусов и садово-парковую",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зону поликлиники",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Перечислите системы больничного строительства.:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "смешанная, децентрализованная и блочная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "централизованная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "смешанная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "централизованная и блочная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "комбинированная, центрально-блочная и смешанная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Что такое централизованная система больничного строительства?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при этой системе большинство отделений больницы располагаются в одном корпусе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при этой системе из главного корпуса выносятся инфекционное, детское и родильное отделения, которые располагаются в отдельных зданиях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при этой системе отдельные здания соединяются переходом между собой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при этой системе все отделения располагаются в отдельных малоэтажных зданиях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Что такое децентрализованная система больничного строительства?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при этой системе все отделения располагаются в отдельных малоэтажных зданиях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при этой системе из главного корпуса выносятся инфекционное, детское и родильное отделения, которые располагаются в отдельных зданиях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при этой системе отдельные здания соединяются переходом между собой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при этой системе большинство отделений больницы располагаются в одном корпусе, а отдельно выносятся пищеблок и хозяйственный корпус",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Что такое смешанная система больничного строительства? :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при этой системе из главного корпуса выносятся инфекционное, детское и родильное отделения, которые располагаются в отдельных зданиях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при этой системе все отделения располагаются в отдельных малоэтажных зданиях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при этой системе отдельные здания соединяются переходом между собой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при этой системе большинство отделений больницы располагаются в одном корпусе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Что такое палатная секция?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "это изолированный комплекс, предназначенный для больных с однородными заболеваниями и состоящий из четырех групп помещений различного назначения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "это основная функционально-структурная ячейка больницы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "это изолированный комплекс, предназначенный для больных с однородными заболеваниями и состоящий из палат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "это набор помещений, предназначенный для лечения и пребывания больных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Как следует располагать больничный участок по отношению к промышленный предприятиям? :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вдали от них с наветренной стороны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "расстояние будет зависеть от класса опасности предприятия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "санитарные разрывы между предприятием и больницей должны быть засажены деревьями и кустарниками",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с подветренной стороны на расстоянии 25-30 м",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "расстояние указывает санитарная служба",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "На какое количество коек рассчитана палатная секция?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "а 25-30 коек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на 15-20 коек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на 20 коек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на 24 койки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на 30-40 коек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "При какой планировке обеспечивается хорошая естественная вентиляция и освещенность палатной секции?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "однокоридорная односторонняя",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "однокоридорная двусторонняя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двукоридорная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Что такое полный больничный бокс?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "представляет собой одно- или двухкоечную палату со шлюзом и санузлом и тамбуром",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "это специальное помещение для особо опасных больных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "представляет собой одно- или двухкоечную палату со шлюзом и умывальником",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "это специальное помещение для инфекционных больных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Какова должна быть площадь четырехкоечной палаты в хирургическом отделении?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "28 м2",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "24 м2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "16 м2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "36 м2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Помещения, предназначенные для приема инфекционных больных использовать для выписки больных :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нельзя",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "можно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "можно в малокоечных больницах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Какой должна быть вентиляция в инфекционных отделениях? :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "приточно-вытяжная с преобладанием вытяжки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "механическая приточная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "приточно-вытяжная с преобладанием притока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Размещение операционного блока рационально: :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изолированно, в виде самостоятельного блока",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на первом этаже приемного корпуса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на одном из этажей палатного отделения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в отдельном корпусе больницы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Инфекционное отделение многокоечной больницы следует размещать: :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в самостоятельном корпусе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в главном корпусе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на верхних этажах лечебного корпуса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в отдельном крыле лечебного корпуса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Укажите универсальный санитарный показатель антропогенного загрязнения воздуха больничных палат.:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диоксид углерода",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аммиак",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фенол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "окисляемость воздуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Назовите предельно допустимое содержание диоксида углерода в воздухе больничной палаты: :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,7%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "0,3%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Перечислите вредные профессиональные факторы, связанные с особенностями труда медицинского персонала:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "перенапряжение отдельных органов и систем",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "длительное вынужденное положение тела",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неудобная рабочая поза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нервно-эмоциональное напряжение",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вертикальное положение тела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "С чем связаны профессиональные вредные факторы в работе медицинского персонала? :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "с особенностями технологии лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с особенностями трудовых процессов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "с нарушением режима труда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с недостаточным набором помещений для медперсонала",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 74,
+				"text": "Перечислите основные функциональные зоны территории больничного участка:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

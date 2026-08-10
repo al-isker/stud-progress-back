@@ -1,0 +1,970 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "В каком возрасте чаще развивается острый гематогенный остеомиелит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-10 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "11-20 лет",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "21-30 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "31-40 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "41-50 лет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Какие кости чаще поражаются при гематогенном остеомиелите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бедренная кость",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "седалищная кость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "позвонки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малоберцовая кость",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ключица",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Характерным признаком, какого вида остеомиелита является секвестрация кости?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "абсцесса Броди",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "посттравматического остеомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "остеомиелита Оллье",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеомиелита Гарре",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гематогенного остеомиелита",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Отличительные признаки абсцесса Броди:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "многосимптомный анамнез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полость в кости без секвестров",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "слизистый экссудат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гнойный экссудат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диффузный остеосклероз трубчатой кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Отличительным признаком остеомиелита Гарре является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полость в метафазе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выраженный остеопороз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие крупных секвестров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выраженный остеосклероз облитерацией костномозгового канала",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "остеолизис",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Когда появляются первые рентгенологические признаки острого гематогенного остеомиелита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 3 дня",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через 3 мес. 2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 10-15 дней",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "через 20-30 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через 30-40 дней",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Наиболее характерным признаком хронического остеомиелита является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сильные распирающие боли в конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие секвестра и гнойного свища",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "потрясающие ознобы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высокая лихорадка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "резкая гиперемия и отек тканей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какие из перечисленных микроорганизмов могут стать этиологическим фактором возникновения остеомиелита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стафилококк",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "палочка столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дифтерийная палочка Леффлера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Каков наиболее рациональный объем операции при хроническом остеомиелите?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иссечение свищей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "остеоперфорация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "секвестрэктомия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вскрытие флегмоны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пластика костной полости воском",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Какие методы наиболее эффективны при санации костной полости после радикальной секвестрэктомии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пломбировка гипсом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миопластика",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "длительное проточное промывание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тампонирование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пластика коллагеновой губкой с антисептиками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Наиболее частым осложнением при длительно текущем хроническом остеомиелите является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цирроз печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "амилоидоз почек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эндокардит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дистрофия миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хроническая анемия 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Остеомиелит это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспаление сосудов питающих кость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воспаление костного мозга, всех частей кости, надкостницы и окружающих тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воспаление мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воспаление жировой клетчатки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Укажите теории патогенеза острого гематогенного остеомиелита:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейро-вегетативная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "врожденная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфекционная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сосудистая, аллергическая",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "асептическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "При остром гематогенном остемиолите чаще поражаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плоские кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "длинные трубчатые кости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "позвоночник",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тазовые кости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "опорные кости стопы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Периостит это воспаление:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "компактной части кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надкостницы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хрящей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "связок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Раневой - травматический остеомиелит возникает на фоне:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вывиха",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "растяжении связок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разрыва мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "открытого перелома",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "асептических ран мягких тканей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Назовите ранние рентгенологические признаки острого гематогенного остеомиелита:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеосклероз 4",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие секвестров и секвестральной полости вокруг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паталогический перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеофиброз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "утолщение надкостницы (периостит)",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Эмболическую теорию возникновения остеомиелита предложил:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Генке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дерижанов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Лексер",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Леффлер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Абрикосов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Теорию сенсибилизации в возникновении остеомиелита предложил:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Давыдовский",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Абрикосов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Дерижанов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Лексер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Генке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "При остеомиелите, воспалительный процесс начинается с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышц",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "костного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "связок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кожи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Для уточнения диагноза при подозрении на острый остеомиелит необходимо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "произвести визуальную ревизию кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выполнить диагностическую пункцию кости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выполнить томографию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выполнить остеотомию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выполнить допплерографию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Укажите основные методы диагностики хронический остемелита:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "радиография",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плетизмография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фистулография",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "реовазография",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сцинтография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "К первично-хроническому остеомиелиту относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фиброзный остеомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфогенный остеомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альбуминозный остеомиелит Оллье",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "туберкулез костей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ятрогенный остеомиелит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Укажите основные симптомы хронического остеомиелита:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "короткий анамнез заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бессимптомное течение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие секвестра и гнойного свища",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "остеопороз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие флегмоны мягких тканей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Лучшие результаты лечения отмечаются при пломбировке секвестральной полости следующим материалом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пластмассой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эмбрианальной тканью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мышечным лоскутом на ножке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гетеротканью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "брюшиной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Как называется острое воспаление коленного сустава:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коксит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бурсит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гонит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "омартрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Назовите способ лечения острого гнойного артрита:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пункция сустава с промыванием антисептиками",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "резекция сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "артротомия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ампутация конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экзартикуляция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Бурсит это –:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вывих сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воспаление околосуставной слизистой сумки 6",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воспаление синовиальной оболочки сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воспаление околосуставных мягких тканей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Гнойный артрит это–:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление синовиальных оболочек сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспаление синовиальных оболочек и суставных поверхностей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "воспаление слизистых сумок сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воспаление костных структур сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воспаление мягких тканей в области сустава",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Какого характера экссудат не наблюдается при остром гнойном артрите:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серозный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнилостный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гнойный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фибринозный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гангренозный",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

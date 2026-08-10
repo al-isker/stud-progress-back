@@ -1,0 +1,781 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Что такое асептика:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Комплекс мероприятий, направленных на уничтожение микроорганизмов в ране и в организме в целом.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уничтожение болезнетворных микроорганизмов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уничтожение всего живого (бактерии, споры, вирусы)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "комплекс мероприятий, предупреждающий попадание микроорганизмов в рану",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Что такое антисептика это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комплекс мероприятий, направленных на уничтожение микроорганизмов в ране и в организме в целом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уничтожение болезнетворных микроорганизмов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уничтожение всего живого (бактерии, споры, вирусы)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "комплекс мероприятий, предупреждающий попадание микроорганизмов в рану",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Что такое стерилизация это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комплекс мероприятий, направленных на уничтожение микроорганизмов в ране и в организме в целом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уничтожение болезнетворных микроорганизмов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уничтожение всего живого (бактерии, споры, вирусы)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "комплекс мероприятий, предупреждающий попадание микроорганизмов в рану",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Что такое дезинфекция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комплекс мероприятий, направленных на уничтожение микроорганизмов в ране и в организме в целом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уничтожение болезнетворных микроорганизмов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "умерщвление микроорганизмов всех видов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "комплекс мероприятий, предупреждающий попадание микроорганизмов в рану",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Укажите какой пункт в последовательных этапах предстерилизационной обработки хирургических инструментов после чистой операции является ошибкой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "промывание под проточной водой сразу после операции и полоскание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "замачивание в моющем растворе при температуре 500С на 15 мин. Состав моющего раствора: 17мл.пергидроля, 5г.мс (Прогресс, Астра, Айна, Лотос), 978 мл. воды, или 5г.мс «Биолот» на 995мл.питьевой воды.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мытье в этом же растворе в течение 0,5 мин 2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ополаскивание под проточной и дистиллированной водой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сушка инструментов горячим воздухом в сушильном шкафу при температуре 80-850С",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "ополаскивание под проточной водой в течение 0,5 мин.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "В течение 1 мин. обрабатывают руки перед операцией в растворе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гибитана",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первомура (С-4)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нашатырного спирта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "йодоната",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Основоположником антисептического метода в хирургии является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гиппократ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Л.Пастер",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Д.Листер",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Н.И.Пирогов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Основоположником асептики является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Бергман",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Д.Листер",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Дьяконов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Л.Пастер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "С целью дезинфекции инструментов не применяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "автоклавирование",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кипячение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "помещение в пароформалиновую камеру",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "помещение в сухожаровой шкаф",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "К физическому методу стерилизации относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "автоклавирование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "погружение в 70% этиловый спирт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "погружение в 6% раствор перекиси водорода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздействие парами формалина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Биологическому методу антисептики относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "применение 5% спиртового раствора йода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "применение препаратов крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "первичная хирургическая обработка раны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "применение 10% раствора натрия хлорида 3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Химическому методу антисептики относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прием сульфаниламидных препаратов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "применение 10% раствора натрия хлорида",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "первичная хирургическая обработка раны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "применение сыворотки и вакцины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Физическому методу антисептики относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "применение антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "применение 10% раствора натрия хлорида",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "переливание цельной крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "применение 96% этилового спирта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Механическому методу антисептики относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первичная хирургическая обработка раны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "применение 1% раствора бриллиантового зеленого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "применение 96% этилового спирта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "применение бактериофагов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "При 2 атм в автоклаве стерилизуют все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шприцев с отметкой «2000С»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "резиновых перчаток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перевязочного материала",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хирургических инструментов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Что стерилизуют в автоклаве при 1,1 атм:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шприцы с отметкой «2000С»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перевязочный материал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "операционное белье",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резиновые перчатки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Что стерилизуют в сухожаровом шкафу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все шприцы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "шприцы с отметкой «2000С»",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "одноразовые системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "операционное белье",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Какая температура в автоклаве при 2 атм:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1100С",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1200С 4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1320С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "1500С",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Какая температура в сухожаровом шкафу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1100С",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1200С",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1320С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1500С",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1800С",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какая температура в автоклаве при 1,1 атм:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1100С",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1200С",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1320С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1500С",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Какое вещество используется для контроля стерильности в автоклаве при 2 атм:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мочевина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сахароза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фенацетин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какое вещество используется для контроля стерильности в сухожаровом шкафу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензойная кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мочевина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фенацетин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тиомочевина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Качество предстерилизационной обработки инструментов определяется с помощью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бензидиновой пробы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "азопирамовой пробы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бензойной пробы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "никотинамидовой пробы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "инструментарий для эндохирургии стерилизуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в автоклаве",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в сухожаровом шкафу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "холодным способом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кипячением 5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Самый достоверный метод контроля стерильности белья:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериологический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "технический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "физический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "химический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Профилактику воздушной инфекции осуществляют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дезинфекцией инструментов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "влажной уборкой, ношением масок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стерилизацией инструментов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ношением бахил",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "При использовании физического метода антисептики возможны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фотодерматозы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дисбактериозы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интоксикация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кандидозы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "К группе галоидов относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перекись водорода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "йодонат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бриллиантовый зеленый",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фурацилин",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

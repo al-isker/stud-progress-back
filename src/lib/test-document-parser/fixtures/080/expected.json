@@ -1,0 +1,1637 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Деонтология это учение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "о долге одного человека перед другим;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "о долге человека перед обществом;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "о долге врача перед пациентом;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "о долге пациента перед врачом.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Биомедицинская этика - это понятие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "равноценное понятию биоэтика;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "более широкое, чем биоэтика;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "часть биоэтики;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верно все",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "В вопросах биомедицинского вмешательства:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "права индивидуума выше прав общества;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "права общества выше прав индивидуума;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "права равноценны;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "могут быть компромиссы.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Выберите рекомендуемые ныне модели взаимоотношений врача и больного:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "патерналистская;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коллегиальная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инженерная;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контрактная.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Патерналистская модель взаимоотношений врача и больного:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одна из лучших моделей;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "устарела и требует незамедлительной замены;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "еще долго сохранится в практике врачевания;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уйдет в историю в ближайшее время.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Сообщение больному правды о возможном трагическом исходе - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "благо для него;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "несет в себе угрозу нанесения тяжкой психической травмы;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "высокоморально;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ответ неоднозначен.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Ятрогения - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полноценное врачевание;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неполноценное врачевание;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заболевание, связанное с дефектами врачевания;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "врачебная ошибка.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Ятрогении могут быть обусловлены действиями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "врача;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среднего медработника;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "младшего медицинского персонала;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "студентов;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "всех вышеуказанных лиц.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Врачебная тайна - это получение врачом сведений:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "о диагнозе болезни;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "о жизни больного;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "о результатах обследования больного;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "о состоянии больного;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "о прогнозе болезни;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Врач обязан соблюдать тайну сведений о больном:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "во всех случаях без исключения;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лишь в отдельных случаях;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "во всех случаях, но имеются исключения.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не во всех случаях.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Соблюдение врачебной тайны - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инициатива врача;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рекомендация Всемирной медицинской ассоциации;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рекомендация присяги врача РФ;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "требование статей закона РФ;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рекомендации ВОЗ.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Сведения, составляющие врачебную тайну:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "могут быть разглашены врачом без каких-либо условий;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не могут быть разглашены;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "могут быть разглашены врачом при определенных обстоятельствах;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "правильно все",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Конфиденциальность по отношению к больному обязаны соблюдать:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только врачи;~и средний медперсонал;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "и младший медперсонал;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "работники медучреждений любого уровня, имеющие доступ к сведениям о больном;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верно все вышеуказанное.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Эйтаназия - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внезапная смерть;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "длительная, мучительная смерть;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смерть в результате отказа больного от лечения;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "легкая смерть, связанная с действиями врача или самого больного.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Активная эйтаназия - это оказание:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "максимально возможной помощи для излечения безнадежного больного;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "минимальной помощи безнадежному больному;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "помощи в уходе из жизни безнадежного больного врачом по собственной инициативе;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "помощи врачом в уходе из жизни безнадежного больного по просьбе последнего.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Пассивная эйтаназия - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ускорение смерти из-за отказа от активных мер продления жизни;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ускорение смерти в результате отказа оказания помощи больному;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ускорение смерти из-за отказа больного от лечения;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ускорение смерти из-за отказа больного от лечения;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Эйтаназия - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "милосердное действие;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аморальное действие, разрушающее институт морали общества;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "действие, отражающее право выбора больного между достойной и недостойной жизнью;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "деяние, нуждающееся в компромиссном решении, в зависимости от обстоятельств.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "В России разрешены следующие репродуктивные технологии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экстракорпоральное оплодотворение;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "суррогатное материнство;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "и то, и другое;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ни то, ни другое.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Клонирование человека в мире:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "запрещено во всех странах на вечные времена;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наложен временный мораторий:",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "разрешено в отдельных странах;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вопрос изучается.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Трансплантация: органов несет в себе этические проблемы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "моральную проблему очередности из-за дефицита органов;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "моральные проблемы платности пересадок;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проблемы «регионального эгоизма»;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все вышесказанные проблемы.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "При проведении медицинского эксперимента с участием больного необходимо:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "получение добровольного информированного согласия от больного;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "получение такого же согласия от его родственников;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эксперимент может быть проведен без согласия родственников.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эксперимент может быть проведен без согласия больного.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "При проведении лечения и научного исследования с привлечением больного:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интересы больного должны быть поставлены выше интересов общества;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "интересы общества и науки выше интересов больного;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "необходимо индивидуальное решение в каждом отдельном случае.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "необходимо коллегиальное решение в каждом отдельном случае.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Информированное согласие должно быть получено:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устно;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "письменно;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в присутствии нотариуса;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в присутствии родственников.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Информированное согласие при проведении медицинского эксперимента необходимо для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устранения опасности для здоровья больного;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "профессиональной защиты врача;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "государства;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "юристов;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "общественности.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Наиболее полно вопросы морального обеспечения медицинского эксперимента представлены в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«основах законодательство РФ об охране здоровья граждан»;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "решениях ВОЗ;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хельсинкской декларации Всемирной медицинской ассоциации 2000 г.;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "конвенции Совета Европы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Кома характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "частичной утратой сознания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "утратой только речи при сохранении слуха",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полной утратой сознания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "утратой только зрения при сохранении слуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Индекс Кетле определяет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "особенности костного скелета",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "особенности костно-мышечной системы человека",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соотношение массы тела (в кг) к квадрату роста (в м2)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "особенности соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "особенности костной и соединительной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Нормальная масса тела наблюдается при индексе массы тела (Кетле):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "менее 18,5 кг/м2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "от 18,5 до 24,9 кг/м2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "от 25 до 29,9 кг/м2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от 30 до 34,9 кг/м2",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от 40 до 45 кг/м2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Избыточная масса тела наблюдается при индексе массы тела (Кетле):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "менее 18,5 кг/м2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "от 18,5 до 24,9 кг/м2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "от 25 до 29,9 кг/м2",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "от 30 до 34,9 кг/м2",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от 40 до 45 кг/м2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Нормальная окружность талии у мужчин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 60 см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "до 94 см",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "до 120 см",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "до 100 см",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Нормальная окружность талии у женщин:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 60 см",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "до 70",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "до 80",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "до 100",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "По происхождению отеки бывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "генетическими",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "общими",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смешанными",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "местными",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "К местным отекам относят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспалительные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сердечные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почечные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ангионевротические",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при местном сдавлении вены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Температура тела у здорового человека колеблется в пределах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "35° – 36 °С",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "36° - 36,9 °С",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "35° – 36,5 °С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "36° – 38 °С",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Субфебрильная температура тела – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "36° – 36,9 °С",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "38,1° - 39 °С",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "37° – 38 °С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "39,1° – 40 °С",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Умеренно повышенная температура тела – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "36° – 36,9 °С",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "37° - 38 °С",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "38,1° – 39 °С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "39,1° – 40 °С",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Конституция человека – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совокупность только морфологических особенностей человека",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "совокупность морфологических и функциональных особенностей человека",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "совокупность только функциональных особенностей человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "совокупность функциональных и психологических особенностей человека",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Цианоз обусловлен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "большим содержанием в тканях окисленного гемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "большим содержанием в тканях жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "большим содержанием в тканях восстановленного гемоглобина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "большим содержанием микроэлементов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Местный цианоз обусловлен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушением оксигенации крови в легких",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердечной недостаточностью",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "местным застоем крови в венах и затруднением ее оттока",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушением оксигенации в легких из-за левожелудочковой сердечной недостаточности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Витилиго это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "покраснение кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пожелтение кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "депигментация участков кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цианоз участков кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бледность кожи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Волдырная сыпь бывает при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемофилии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дефиците витамина С",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аллергии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при поражении кожи вирусом герпеса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмонии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Тургор кожи зависит от:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержания жидкости в организме",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "содержания гемоглобина в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержания восстановленного гемоглобина в сосудах кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "содержания микроэлементов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Содержания витаминов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Гирсутизм – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рост волос у мужчин по женскому типу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выпадение волос",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рост волос у женщин по мужскому типу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "избыточное оволосение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обеднение оволосение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Различают эйтаназию:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "активную;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пассивную;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "законную;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "незаконную.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "незаконную.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Суррогатное материнство - это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "милосердное деяние, разрешающее ряд проблем бесплодия;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "явление, могущее повлиять на общественный институт брака;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "явление, могущее повлиять на общество в целом;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "явление, затрагивающее религиозные догмы;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "явление, ведущее к моральным проблемам для суррогатной матери.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Медицинский эксперимент - это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "опыты над животными;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обычное обследование больного;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обычное лечение больного",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обследование больного в целях науки;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "испытание на больном различных лекарственных средств.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "В состоянии сопора пациент:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "с ошибками может сообщить свое имя и фамилию",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "речевой контакт невозможен",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "команды выполняет простые и не сразу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "команды не выполняет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для установления контакта нужно разбудить",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Выделяют следующие виды положения пациента:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пассивно-вынужденное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активное",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "активное за столом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вынужденное",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пассивное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Диагностика отеков осуществляется при помощи:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "осмотра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "однократного взвешивания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пальпации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "однократном измерении окружности конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "измерении окружности конечностей в динамике",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "По характеру суточных колебаний температуры тела различают следующие типы лихорадки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "субфебрильная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "умеренно повышенная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "постоянная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "послабляющая",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "волнообразная",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "По характеру суточных колебаний температуры тела различают следующие типы лихорадки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "истощающая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неправильная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "высокая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чрезмерно высокая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперпиретическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "По форме температурной кривой выделяют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "послабляющую",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перемежающую",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "волнообразную",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гектическую",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "возвратную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Пальцы в виде «барабанных палочек» бывают при:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "врожденных пороках сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронических заболеваниях желудка и кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронических заболеваниях легких",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хронических заболеваниях эндокринной системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Общий цианоз чаще наблюдается при:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дыхательной недостаточности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "печеночной недостаточности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заболеваний желудочно-кишечного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сердечной недостаточности",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "По характеру суточных колебаний температуры тела различают следующие типы лихорадки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "истощающая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неправильная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "высокая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чрезмерно высокая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперпиретическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Выделяют следующие типы конституции человека:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кахексическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "астеническая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "паралитическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нормостеничечская",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиперстеническая",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

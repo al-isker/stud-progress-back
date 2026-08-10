@@ -1,0 +1,1642 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Какие основные части включаются в каждый анализатор:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пахионовы грануляции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нервные центры в коре большого мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нисходящий проводящий путь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "восходящий проводящий путь",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Укажите оболочки, которые входят в состав глазного яблока:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "серозная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фиброзная оболочка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сетчатка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слизистая оболочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подслизистая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Укажите анатомические образования, которые входят в состав сосудистой оболочки глаза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стекловидное тело",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "радужно-роговичный угол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ресничное тело",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "зрачок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сетчатая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Укажите части ресничного тела:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ресничная мышца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ресничный кружок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "радужная оболочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зрачок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "передняя камера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Укажите края радужки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "зрачковый",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ресничный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "задний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зубчатый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "передний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Укажите, какое пространство называют передней камерой глаза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "между роговицей и радужкой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "между радужкой и хрусталиком",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "между роговицей и склерой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "между хрусталиком и стекловидным телом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "между сетчатой и сосудистой оболочками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Укажите, какое пространство называют задней камерой глаза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "между роговицей и радужкой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "между радужкой и хрусталиком",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "между роговицей и склерой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "между хрусталиком и стекловидным телом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "между сетчатой и сосудистой оболочками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Укажите, пути оттока влаги камер из радужно-роговичного угла:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "шлеммов канал",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "петитов канал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фонтановы пространства",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "носослезный канал",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стекловидная камера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Укажите места расположения ресничного пояска (цинновой связки):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "между ресничным телом и склерой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "между радужкой и роговицей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "впереди радужки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "между хрусталиком и ресничным телом",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "между стекловидным телом и сетчаткой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Между какими анатомическими образованиями находится эписклеральное пространство",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "между фиброзной и сосудистой оболочками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "между ресничным телом и сетчаткой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "между глазным яблоком и его влагалищем",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "между влагалищем глазного яблока и надкостницей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "между стекловидным телом и сетчаткой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Где вырабатывается влага, заполняющая камеры глаза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плоский эпителий роговицы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителий радужной оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пигментный эпителий сетчатки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ресничные отростки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "радужная оболочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Куда происходит отток водянистой влаги из передней камеры глаза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в венозный синус склеры",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в вены радужки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в эписклеральное пространство",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в слезный мешок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в стекловидную камеру",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Какие анатомические образования проходят через общее сухожильное кольцо в глазнице:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глазной нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глазная артерия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "зрительный нерв",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нижняя глазная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глазные вены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Укажите, какая мышца поворачивает глазное яблоко вверх и латерально:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижняя косая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "латеральная прямая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхняя косая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхняя прямая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Укажите пути оттока слезной жидкости:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "слезный ручеек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "слезный мешок",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подглазничный канал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крыловидный канал",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верхний носовой ход",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Укажите отделы головного мозга, относящиеся к зрительному анализатору:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "латеральное коленчатое тело",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "медиальное коленчатое тело",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "затылочная доля головного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наружная капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нижние холмики среднего мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Какую часть барабанной перепонки занимает ее натянутая часть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижнюю",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "переднюю",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "латеральную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхнюю",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "медиальную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Укажите стенки барабанной полости:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сонная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лабиринтная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "чешуйчатая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ампулярная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Укажите, какую стенку барабанной полости называют сосцевидной:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "заднюю",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "переднюю",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхнюю",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нижнюю",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "латеральную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Укажите, чем закрыто окно улитки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вторичная барабанная перепонка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "геликотрема",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "основанием стремени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "телом наковальни",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стременной мышцей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Укажите части наковальни:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "длинная ножка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тело",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "головка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рукоятка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шейка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Укажите части молоточка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тело",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "головка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рукоятка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "длинная ножка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "основание",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Укажите, какие мембраны находятся в улитковом ходе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вестибулярная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "базальная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "барабанная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "геликотрема",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вторичная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Укажите анатомические образования, имеющиеся на медиальной стенке (лабиринтной) барабанной полости:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мыс",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выступ лицевого канала",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пирамидное возвышение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выступ медиального полукружного канала",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Укажите латеральную и заднюю стенки барабанной полости:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сосцевидная стенка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лабиринтная стенка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перепончатая стенка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сонная стенка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "яремная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Укажите ориентиры переднего полукружного канала лабиринта:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "параллельно верхней поверхности пирамиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "параллельно задней поверхности пирамиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перпендикулярно продольной оси пирамиды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "перпендикулярно поперечной оси пирамиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "параллельно нижней поверхности пирамиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Какие отверстия открываются в эллиптический мешочек:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяющий проток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передний полукружный проток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "задний полукружный проток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "верхний полукружный проток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Укажите пути возможного оттока перилимфы из перилимфатического пространства лабиринта:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в эндолимфатический мешок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в подпаутинное пространство",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в полость перепончатого лабиринта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в эллиптический мешочек",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Укажите отделы головного мозга, относящиеся к слуховому анализатору:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "медиальное коленчатое тело",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "латеральное коленчатое тело",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "затылочная доля мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "извилины Гешля",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лобная доля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Укажите нервы, осуществляющие вкусовую иннервацию слизистой оболочки языка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "большой каменистый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "барабанная струна",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ветви языкоглоточного нерва",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ветви подьязычного нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "малый каменистый нерв",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Укажите сосочки языка, которые не содержат вкусовых почек:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "листовидные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желобовидные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нитевидные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грибовидные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подъязычный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Укажите сосуды и нервы органа зрения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "центральная артерия сетчатки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "верхнечелюстная артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "преддверно-улитковый нерв",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ветви глазного нерва",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "надгазничная артерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Укажите сосуды и нервы наружного и среднего уха:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ветви верхней щитовидной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вены, впадающие в наружную яремную вену",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лицевая артерия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ветви блуждающего нерва",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Где располагается венозный синус склеры (шлеммов канал):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в толще переднего отдела склеры на границе с роговицей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в толще роговицы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в толще ресничного тела",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в толще радужной оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в сетчатой оболочке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Укажите части сетчатой оболочки глаза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "зрительная часть",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пограничная пластинка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ресничный кружок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слепая часть",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ресничная мышца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Назовите слои слепой части сетчатки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пигментный слой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "слой мультиполярных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зернистый слой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эпителиальный слой",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "биполярных нейронов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Назовите оптические среды глаза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "зрачок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "роговица",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "радужка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хрусталик",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сетчатка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Какова длина внутренней оси глазного яблока (мм):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "24",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "23,6",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "21,75",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "22,1",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "25-30",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Где расположен кортиев орган:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на базальной мембране",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на покровной мембране",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на преддверной мембране",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на вторичной барабанной мембране",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "барабанной перепонке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Где берут начало мышцы глазного яблока:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "на медиальной стенке глазницы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на сухожильном кольце",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "от блоковой ямки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от переднего слезного гребня",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "на латеральной стенке глазницы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Назовите камеры глазного яблока:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "передняя",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "медиальная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стекловидная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "латеральная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верхняя",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Где расположен центр суживающий зрачок:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в боковых рогах сегментов спинного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в добавочном ядре глазодвигательного нерва",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в области шпорной борозды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в латеральных коленчатых телах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в продолговатом мозге",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Укажите слои чувствительной части сетчатки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "зернистый слой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слой биполярных нейронов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сосудистый слой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слой ганглиозных нейронов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Какие анатомические образования видны при исследовании глазного дна:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "диск зрительного нерва",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ресничный кружок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желтое пятно",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ямка стекловидного тела",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все правильно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Укажите этажи барабанной полости:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпитимпаникус",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ретротимпаникус",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипотимпаникус",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сосцевидная пещера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мезотимпаникус",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Укажите части перепончатого преддверия лабиринта внутреннего уха:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "маточка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мешочек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "геликотрема",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полукружные каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спиральная пластинка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Укажите место расположения рецепторов органа равновесия:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в маточке",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в ампулах полукружных каналов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в барабанной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в улитке",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в эндолимфатическом мешке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "В каком отделе мозга расположен второй нейрон анализатора равновесия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продолговатый мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "средний мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мост",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мозжечок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "промежуточный мозг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Укажите место расположения спирального узла улитки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "основание спиральной пластинки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "базальная мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полукружные каналы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндолимфатический мешок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эндолимфатический проток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Укажите отверстия, через которое проходит преддверно-улитковый нерв:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "круглое",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "овальное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сосцевидное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутренний слуховой проход",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "остистое отверстие",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Укажите начало и прикрепление стременной мышцы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "головка стремени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ножка стремени",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пирамидальное возвышение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мыс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выступ лицевого канала",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

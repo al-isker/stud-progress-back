@@ -1,0 +1,522 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Наиболее распространенными пищевыми аллергенами являются все перечисленные пищевые продукты, за исключением",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "картофеля",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коровьего молока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "куриных яиц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рыбы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цитрусовых",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Лекарственная аллергия в форме острой аллергической крапивницы и отека квинке",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "встречаются наиболее часто",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "встречаются редко",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не встречаются совсем",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не встречаются совсем",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не встречаются совсем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Приобретенный первичный иммунодефицит – это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ВИЧ-инфекция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Т-клеточный лейкоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грипп",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "корь",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "частые острые респираторные инфекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Причиной поллинозов является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пыльца растений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "споры плесневых грибов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пищевые продукты растительного происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Что такое \"оппортунистические инфекции\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфекции, вызванные патогенными микробами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфекции вызванные вирусами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфекции вызванные нормальной микрофлорой при ВИЧ-инфекции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "инфекции, вызванные простейшими",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфекции, вызванные грибами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Вич относится к семейству",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретровирусов (Retroviridae), к типу ротавирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "парамиксовирусов (Рагаmухоviridае), к роду РС-вирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретровирусов (Retroviridae), подсемейству онковирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ретровирусов, подсемейству лентивирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ретровирусов, подсемейству лентивирусов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Наиболее важным медиатором патогенеза анафилактического шока является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистамин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ацетилхолин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "серотонин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ФАТ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "медленно действующее вещество анафилаксии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Иммуноглобулины - это сывороточные белки, относящиеся к классу",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа-глобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бета-глобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гамма-глобулннов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "липопротеидам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гликопротеидам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Роль иммуноглобулина е в развитии аллергических реакций",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "формирует немедленные аллергические реакции .",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "участвует в формировании иммунокомплексных аллергических реакций",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участвует в формировании реакций гиперчувствительности замедленного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участвует в цитотоксических иммунных реакциях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участвует в цитотоксических иммунных реакциях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Патофизиологическая стадия аллергической реакции при бронхиальной астме - это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стадия образования медиаторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стадия изменений в иммунной системе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стадия клинических проявлений",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стадия выброса медиаторов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стадия разрущения медиаторов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Через сколько времени развивается молниеносная форма анафилактического шока",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сразу после контакта с аллергеном",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "через 1-2 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 2-3 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через час",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через 15-20 минут",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Через сколько времени развивается тяжелая форма шока",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 3-4 мин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "через 5-7 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 7-10 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через 10-12 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "через 10-12 мин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Объем форсированного выдоха за первую секунду (офв1) снижен",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при бронхиальной астме",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при бронхите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при эмфиземе легких",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при бронхоэктатической болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при очаговой пневмонии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Выберите современную классификацию бронхиальной астмы",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Аллергическая, не аллергическая, смешанная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Атопическая, инфекционно-зависимая, смешанная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Экзогенная, эндогенная, аспириновая, атопическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эндогенная, экзогенная, аспириновая, астма физической нагрузки, профессиональная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Атопическая, инфекционно-обусловленная (зависимая), смешанная",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Чаще всего анафилактический шок вызывает",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ужаление перепончатокрылыми",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "укусы комаров",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "укусы клопов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лекарственные средства",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пищевые аллергены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Для бронхиальной астмы, вызванной физическим усилием, характерны все перечисленные симптомы, за исключением",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшения бронхоспазма при повторяющихся нагрузках",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "влияния факторов окружающей среды (температура воздуха, влажность и др.)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "высокой встречаемости среди больных бронхиальной астмой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возникновения приступа в начале физической нагрузи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "возникновения приступа в конце физической нагрузки",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

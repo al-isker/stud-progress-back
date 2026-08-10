@@ -1,0 +1,3705 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Зоонозы - заболевания, при которых источник инфекции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больные животные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "больной человек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реконвалесцент",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактерионоситель",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рептилии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Бактерии, образующие капсулу только в организме Человека или животных:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "палочка сибирской язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клебсиелла",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шигелла",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сальмонелла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Возбудитель сибирской язвы по морфологическим Свойствам представляет собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептобациллы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микобактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "монококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "К зоонозам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сифилис",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифтерия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "брюшной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скарлатина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туляремия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Гиперчувствительность замедленного типа при Бруцеллезе выявляется с помощью пробы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "манту",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пирке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бюрне",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "шика",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Для обнаружения сибиреязвенного антигена Применяется реакция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "видаля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "райта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хеддльсона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "асколи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кумбса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Для специфической профилактики сибирской язвы Применяется вакцина:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "акдс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бцж",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "солка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сэбина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сти",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Возбудитель чумы морфологически представляет собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биполярно окрашенные грамотрицательные, неподвижные, мелкие палочки Округлой формы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "грамположительные кокки, расположенные в виде цепочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамположительные палочки с закругленными концами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грамотрицательные подвижные палочки, не образующие спор и капсул",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грамположительные палочки, не образующие спор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Бруцеллез у человека вызывают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "b.melitensis",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "b.neotomae",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "b.suis",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "b. Ovis",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "b. Canis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Для серодиагностики бруцеллеза применяется реакция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "асколи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "видаля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "райта",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вассермана",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "термопреципитации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Источником туляремии являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больные в инкубационном периоде",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "больные в периоде разгара болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактерионосители",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реконвалесценты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "больные животные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Возбудители туляремииотносятся к роду:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "jersinia",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "neisseria",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "bacillus",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "corynebacterium",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "francisella",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Человек является биологическим тупиком (не является Источником инфекции для окружающих людей):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чума",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коклюш",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бруцеллез",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полиомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "возвратный тиф",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Для создания невосприимчивости к чуме применяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "убитую корпускулярную вакцину",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "живую аттенуированную (штамм ev) вакцину",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бцж",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антитоксическую сыворотку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Кожно-аллергический метод используют для Диагностики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стафилококковой инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "холеры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сифилиса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туляремии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Среди возбудителей особоопасных зоонозных инфекций Грамположительными палочками являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бруцеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бациллы сибирской язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "чумные палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактерии туляремии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холерные вибрионы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Из перечисленных возбудителей особоопасных Инфекций к образованию спор способны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бациллы сибирской язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "палочки чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактерии туляремии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бруцеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холерный вибрион",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Источник инфекции при туляремии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больной человек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактерионоситель",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полевые мыши",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "крупный рогатый скот",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "медицинский персонал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Реакция асколи применяется для обнаружения антигена При:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сибирской язве",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "чуме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туляремии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бруцеллезе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "брюшном тифе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Реакция агглютинации райта применяется для Диагностики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бруцеллеза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туляремии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дизентерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Бруцеллез у человека могут вызывать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "brucella canis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "brucella abortus",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "brucella ovis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "brucella neotomae",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "brucellamelitensis",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "В реакции райта при бруцеллезе выявляют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антитоксины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лизины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комплемент - связывающие антитела",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "агглютинины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "преципитины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Возбудитель сибирской язвы характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "извитой формой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличием жгутиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образованием спор",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "образованием экзотоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грамотрицательной окраской",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Бруцеллы характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "извитой формой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спорообразованием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательной окраской",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грамположительной окраской",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спорообразованием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Для серологической диагностики бруцеллеза применяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реакцию агглютинации видаля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реакцию вассермана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "реакцию асколи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакцию хеддльсона",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "реакцию манту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Для аллергической диагностики бруцеллеза применяют Пробу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "манту",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пирке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бюрне",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "френкеля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Клиническая форма сибирской язвы, которая дает более Благоприятный исход:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "легочная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кожная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "септическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "менингоэнцефалит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Чумные бактерии характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шаровидной формой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образованием спор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "биполярной окраской",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грамположительной окраской",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подвижностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Чума относится к заболеваниям:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "особоопасным",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "протозойным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "карантинным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "грибковым",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Для ускоренной диагностики чумы используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реакцию агглютинации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "посев по способу шукевича",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "биологическую пробу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прямой иммунофлюоресцентный метод",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "непрямой иммунофлюоресцентный метод",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Возбудитель туляремии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "крупные грамположительные палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамотрицательные кокки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамотрицательные коккобактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "спорообразующие бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вибрионы с выраженной подвижностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Внутрикожная проба бюрне применяется для Аллергодиагностики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туляремии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бруцеллеза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулеза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Вакцину сти применяют для специфической Профилактики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бруцеллеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сибирской язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "туляремии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холеры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Кожно-аллергический метод используется для диагностики:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бруцеллеза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туляремии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ботулизма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холеры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Для культивирования bac.anthracis используются среды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мпа, мпб",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плоскирева",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "левина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "левенштейна-йенсена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Основные пути заражения при бруцеллезе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "половой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алиментарный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "воздушно-капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воздушно-пылевой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Возбудитель чумы относится к роду:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "francisella",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "bordetella",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "salmonella",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "yersinia",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "shigella",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Разрешающей способности светового микроскопа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "y. Pestis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "f. Tularensis",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "bac. Anthracis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "e. Coli",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "m. Tuberculosis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "В бактериологических лабораториях обычного режима для диагностики туляремии испоьзуют метод:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериоскопический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериологический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "биологический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серологический",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аллергический",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "При остром бруцеллезе чаще всего удается выделить Возбудителя из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мокроты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ликвора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крови",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гноя",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пунктата костного мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Реакция агглютинации райта применяется для Диагностики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туляремии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бруцеллеза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холеры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Кожно-аллергическая реакция для диагностики бруцеллеза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "манту",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реакция пирке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цуверкалова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "митсуда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бюрне",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Реакция хеддльсона применяется для диагностики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бруцеллеза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "туляремии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чумы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холеры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "К карантинным (конвенционным) заболеваниям относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чума",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бруцеллез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "брюшной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дифтерия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дизентерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Бруцеллы наиболее вирулентные для человека:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "br. Abortus",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "br. Melitensis",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "br. Ovis",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "br. Neotomae",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "br. Canis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Возбудителями особоопасных инфекций являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "iersinia pestis",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "mycobacterium tuberculosis",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "staphylococcus aureus",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "clostridium tetani",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "salmonella typhi",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Споры располагаются центрально у возбудителей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "газовой гангрены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сибирской язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ботулизма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дифтерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "К риккетсиозам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сыпной тиф",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "брюшной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "возвратный тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "паратиф а",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "паратиф в",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Риккетсии провачека образуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "споры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "капсулу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анатоксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Возбудителями эпидемического сыпного тифа являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гонококк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стафилококк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "риккетсии провачека",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "риккетсии музера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "риккетсии бернетта",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Риккетсии окрашиваются по:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бурри - гинсу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бурри",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "простым методом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейссеру",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "романовскому – гимзе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Механизмы передачи инфекции при сыпной тифе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровяной",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фекально-оральный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аэрогенный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контактный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вертикальный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Переносчиками эпидемического сыпного тифа являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вши",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "комары",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мухи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клещи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "собаки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Сыпной тиф относится к инфекциям передающимся путем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трансмиссивным",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "алиментарным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздушно-капельным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воздушно-пылевой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вертикальным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Переносчиками эндемического сыпного тифа являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комары",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грызуны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клещи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "больные животные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "больной человек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Риккетсии бернета вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпидемический сыпной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндемический сыпной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ку - лихорадку",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "марсельскую лихорадку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желтушную лихорадку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Специфическая профилактика сыпного тифа проводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анатоксином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антитоксической сывороткой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "живой вакциной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антирабической вакциной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интерфероном",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Риккетсии относятся к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериям",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "спирохетам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "актиномицетам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хламидиям",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "простейшим",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больные животные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "больной человек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бактерионоситель",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирусоноситель",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "комары",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Для культивирования риккетсий бернета используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственные питательные среды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мпа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "куриные эмбрионы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "среду эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "среду сабуро",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Риккетсии бернета проявляют тропизм к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "центральной нервной системе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунной системе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "легочной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "желудочно - кишечному тракту",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфатическим сосудам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Возбудитель эндемического сыпного тифа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "r. Prowazekii",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "r. Typhi",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "r. Conorii",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "r. Sibirica",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "r. Burneti",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Болезнь брилля - цинссера является результатом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повторного инфицирования риккетсиями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндогенного рецидива эпидемического сыпного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "суперинфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рецидива эндемического сыпного тифа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рецидива ку-лихорадки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Возбудитель ку-лихорадки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сальмонеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "риккетсия провачека",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "риккетсия музера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "риккетсия бернета",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "риккетсия конори",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Рецидив эпидемического сыпного тифа называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ку-лихорадка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндемический сыпной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезнь брилля - цинссера",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лихорадка цуцугамуши",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желтая лихорадка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "К патогенным спирохетам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сальмонелла",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бледная трепонема",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пневмококки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "актиномицеты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Возбудитель сифилиса относится к роду:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "treponema",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "staphylococcus",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "streptococcus",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "escherichia",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "salmonella",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Трепонемы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подвижны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не подвижны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "растут на простых питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образуют капсулу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Treponema pallidum по романовскому - гимзе Окрашивается в цвет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "голубой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бледно - розовый",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "красный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зеленый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Источником инфекции при сифилисе являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больной человек",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вирусоноситель",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактерионоситель",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "животные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "насекомые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Основной путь заражения сифилисом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "алиментарный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воздушно - капельный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "половой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трансмиссивный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "водный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Иммунитет при сифилисе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стерильный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нестерильный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антитоксический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "врожденный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антипаразитарный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Для диагностики сифилиса применяется реакция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "борде - жангу",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "видаля",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "асколи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вассермана",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дика",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Возбудитель возвратного тифа относится к роду:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трепонема",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боррелия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лептоспира",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сальмонелла",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эшерихия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Материалом микробиологического исследования при Возвратном тифе является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мокрота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "испражнения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Эпидемический возвратный тиф передается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клопами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вшами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клещами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "комарами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блохами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Материал исследования при первичном сифилисе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержимое твердого шанкра",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "содержимое мягкого шанкра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "испражнения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Возбудитель эпидемического возвратного тифа был открыт:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обермейером",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ивановским",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мечниковым",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Боррелии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуют экзотоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образуют эндотоксин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неподвижны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образуют капсулу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Специфическая профилактика сифилиса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разработана",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не разработана",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вакцина живая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бцж",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "специфическая иммунная сыворотка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Лечение возвратного тифа проводят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анатоксином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антитоксической сывороткой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вакциной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антибиотиками",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бактериофагом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Для лечения сифилиса используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антибиотики",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лечебную сыворотку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммуноглобулин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вакцину",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Эндемический возвратный тиф:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "природно - очаговая инфекция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кишечная инфекция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "особоопасная инфекция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "протозойная инфекция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусная инфекция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Лептоспиры относятся к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спирохетам",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бактериям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грибам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирусам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "актиномицетам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Основной источник инфекции при лептоспирозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больной человек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "животные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клещи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вши",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "блохи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Для специфической профилактики лептоспироза Применяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гаммаглобулин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "убитую вакцину",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бактериофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "специфические сыворотки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Лептоспиры вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возвратный тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сыпной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфекционную желтуху (болезнь васильева - вейля)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "актиномикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кандидоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "К боррелиозам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сифилис",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сыпной тиф",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезнь лайма",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фрамбезия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лептоспироз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Риккетсии являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутриклеточными паразитами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сапрофитами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аутотрофами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гетеротрофами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вирусами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Риккетсии размножаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на искусственных питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на среде эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутриклеточно, поперечным делением",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на мпа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на среде левина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Риккетсии являются возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифтерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дизентерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сыпного тифа",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Риккетсии культивируют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в курином эмбрионе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на простых питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на дифференциально-диагностических питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в анаэростатах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в среде 199",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Внеклеточная форма хламидий называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зерна волютина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "зерна муха",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липидные включения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "элементарные тельца",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "l - форма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Хламидии являются возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сыпного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трахомы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гонореи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сифилиса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лептоспироза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Хламидии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хорошо растут на питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "являются внутриклеточными паразитами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грамположительные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не имеют клеточной стенки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Микоплазмы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамположительные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не растут на искусственных питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не имеют клеточной стенки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "имеют капсулу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Микоплазмы могут быть возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кори",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмонии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ку-лихорадки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дифтерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Спирохеты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют спиралевидную форму",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не подвижны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамположительные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "относятся к эукариотам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образуют споры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Спирохеты окрашиваются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по цилю - нильсену",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по здродовскому",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по нейссеру",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по романовскому - гимзе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "по гинсу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Спирохеты вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хламидиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсоплазмоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лептоспироз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "орнитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "актиномикоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Возбудитель сифилиса имеет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "редкие глубокие завитки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "равномерные мелкие завитки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "форму наподобие буквы s",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мицелий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "споры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Спирохеты являются возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фурункулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лептоспироза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кандидоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токсоплазмоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Риккетсии характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "постоянством формы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "положительной окраской по граму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутриклеточным паразитизмом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отсутствием днк",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличием спор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Для окраски риккетсий применяют метод:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ожешки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "циля-нильсена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "здродовского",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бурри",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейссера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Извитые формы бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спириллы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эшерихии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клостридии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Методы микробиологической диагностики микоплазмозов / уреаплазмозов все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "генодиагностики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серологического",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактериологического",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аллергического",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "микроскопического",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "лецитиназная активность",
+						"isCorrect": false
+					},
+					{
+						"index": 7,
+						"text": "положительная биопроба на животных",
+						"isCorrect": false
+					},
+					{
+						"index": 8,
+						"text": "гемолитическая активность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Для биологии микоплазм / уреаплазм характерно все кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "размножение бинарным делением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "специфический жизненный цикл",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "потребность в стероидах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие клеточной стенки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мембранный паразитизм.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Возбудители микоплазмозов / уреаплазмозов все,кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "m.hominis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "m.pneumoniae",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "m.urealyticum",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "m.fermentans",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "m.tuberculosis",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Исследуемый материал при урогенетальном хламидиозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "моча",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мазок из уретры, цервикального канала",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "соскоб из уретры, цервикального канала",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мокрота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Для риккетсий и хламидий характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "абсолютный внутриклеточный паразитизм",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наличие днк или рнк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "размножение в соответствии с генетической информацией клетки-хозяина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие клеточной организации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неспособность к формированию лекарственной устойчивости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "профилактика трахомы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плановая вакцинация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцинация по эпид. Показаниям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "своевременное выявление и лечение больных и соблюдение правил личной гигиены при контакте с ними",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полноценное питание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "использование контрацептивов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "chlamydophila pneumoniae:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбудитель атипичной пневмонии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "частая причина бесплодия, внематочной беременности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хорошо культивируется in vitro",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "патогенна для человека и животных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "индуцирует напряженный иммунитет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Для специфической профилактики риккетсиозов используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммуноглобулины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "борьбу с педикулезом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дератизацию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вакцины",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Материал для выделения риккетсиозов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержимое элементов сыпи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спинномозговая жидкость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сыворотка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "испражнения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Твердый шанкр представляет собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "место локализации входных ворот инфекции;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "место первичного размножения трепонем;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "проявление генерализованной инфекции;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "результат действия бактериальных токсинов;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "очаг неспецифического гранулематозного воспаления",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

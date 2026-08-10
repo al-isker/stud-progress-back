@@ -1,0 +1,3544 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Как называлась сеть-прародитель современного Интернета?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ARPANET",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "INTRANET",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "DARPANET",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "WORLDNET",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "При таком взаимодействии вся линия (канал) во время разговора двух абонентов заняты и никто другой в эту линию «вклиниться» не может. Как называется такой принцип передачи данных?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коммутация каналов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "коммутация пакетов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коммутация файлов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коммутация папок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Данные здесь делятся на небольшие порции и передаются по сети. В заголовке каждой такой порции четко прописан адрес узла-получателя. Как называется такой принцип передачи данных?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коммутация каналов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коммутация пакетов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коммутация файлов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коммутация папок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какие из представленным ниже технологий компьютерных сетей относятся к классификации по технологии передачи?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "широковещательная передача",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "передача от узла к узлу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "одноранговые",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с выделенным сервером",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Какие из представленным ниже технологий компьютерных сетей относятся к классификации по иерархической организации?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "широковещательная передача",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передача от узла к узлу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одноранговые",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с выделенным сервером",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Какие из представленным ниже технологий компьютерных сетей относятся к классификации по среде передачи данных?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "широковещательная передача",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передача от узла к узлу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проводные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "беспроводные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Расположите компьютерные сети по территориальному охвату по возрастанию их масштаба: 1) кампусная; 2) локальная; 3) широкомасштабная; 4) городская; 5) Интернет",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,2,3,4,5",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2,1,4,3,5",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "2,3,1,4,5",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1,4,3,2,5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Локальная компьютерная сеть..",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выполняет функцию хранения информации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "объединяет компьютеры и позволяет пользователям совместно использовать ресурсы документов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "предоставляет возможность искать в Интернете документы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все вышеперечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Общая схема соединения компьютеров в локальной сети называется …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тупологией сети",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "топологией сети",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "кэш историей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "системой тропологии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Топология, в которой из одного центрального сетевого устройства к каждому компьютеру подходит отдельный кабель...",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "звезда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "куб",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "квадрат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Топология, в которой используется один кабель, именуемый магистралью или сегментом, вдоль которого подключены все компьютеры сети.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "звезда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кольцо",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "квадрат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "общая шина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Топология, в которой подразумевается подключение каждого компьютера через отдельный кабель ко всем остальным компьютерам, находящимся в сети.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "звезда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кольцо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полносвязная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ячеистая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Топология, в которой каждая рабочая станция сети соединяется с несколькими другими рабочими станциями этой же сети с возможным принятием на себя функций коммутатора для других рабочих станций.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "звезда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кольцо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полносвязная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ячеистая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Что должен иметь каждый компьютер, который подключен к сети?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "специальную плату",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сетевой адаптер",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дополнительный жесткий диск",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обслуживающую программу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "операционную систему",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Каждый компьютер, подключенный к Интернету, имеет свой...",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IP адрес",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "жёсткий диск",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "адрес процессора",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "процессор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Укажите, что в адресе электронной почты magomedov.maga@yandex.ru является псевдонимом пользователя?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "yandex",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "magomedov",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "magomedov.maga",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ru",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "maga",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Укажите, что в адресе электронной почты magomedov.maga@yandex.ru является именем почтового сервера?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "yandex",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "magomedov",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "magomedov.maga",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ru",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "maga",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "В адресе электронной почты magomedov.maga@yandex.ru часть ru является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "доменом верхнего уровня",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сетевым псевдонимом пользователя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "именем почтового сервера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "паролем к почтовому ящику",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Какие из приведенных ниже цепочек символов могут быть правильным электронным адресом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "abc@abc.org",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "//abc@abc.org",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "@abc.net",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "org.abc@abc",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какие из приведенных ниже цепочек символов могут быть правильным электронным адресом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "abc+def@klm.ru",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "!tom@xyz.gb",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "abc.ru@Ivan",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "bill@lmn.net",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Какие из приведенных ниже цепочек символов могут быть правильным электронным адресом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "abc@def@klm.ru",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "linda@xyz.com",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "abc/ru/@Ivan",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "bill??@lmn.net",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Что из перечисленного ниже является правильным IP-адресом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2.2.2.2",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "22.22.22.22.22",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "192.168.257.24",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Что из перечисленного ниже является неправильным IP-адресом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "224.0.0.2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "11.12.22.32",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "172.16.24.264",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Что из перечисленного ниже является неправильным IP-адресом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "169,0Д2,2",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1.12.23.34",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "172.16.124.24",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все правильные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Восстановите из отдельных частей URL: 1) : 2) ftp. 3) http 4) //narod. 5) ru 6) /",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,1,5,6,7,2,3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,3,1,5,6,7,4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3,2,1,5,7,6,4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4,1,6,5,7,2,3",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Восстановите из отдельных частей URL: 1) raspisaniye 2) ftp: 3) / 4) //my_files.docs. 5) .docx 6) ru",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2,4,6,3,1,5",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,3,6,4,5,1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4,3,5,6,2,1",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3,4,2,1,5,6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Восстановите из отдельных частей URL: 1) catalog/ 2) www 3) midi. 4) ru/ 5) mazurka 6) .mid 7) .",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2,7,3,4,1,5,6",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,3,4,5,1,6,7",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4,3,2,1,5,6,7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2,5,6,1,3,4,7",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Восстановите из отдельных частей URL: 1) http 2) .microsoft 3) ww 4) /log 5) in.php 6) .com 7) ://w",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1,7,3,2,6,4,5",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1,7,4,3,2,5,6",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,3,1,4,5,7,6",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "7,6,4,5,3,1,2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Восстановите из отдельных частей URL: 1) //my_first_site. 2) nar 3) /raz 4) htt 5) noye/ 6) txt 7) р: 8) od.ru 9) document.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,7,1,2,8,3,5,9,6",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "4,5,6,7,9,8,1,2,3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3,4,5,6,2,1,7,8,9",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4,2,1,3,6,7,8,9,5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "http:/ 7) or",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6,3,5,7,1,4,2",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "6,7,5,4,3,2,1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,3,1,4,5,6,7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3,4,5,2,1,7,6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Восстановите из отдельных частей URL: 1) films/kin 2) ftp: 3) .org 4) //my_ftp 5) /downloads/ 6) zaza.avi",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2,4,3,5,1,6",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,4,5,6,1,3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,4,1,6,5,3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3,2,4,5,1,6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Восстановите из отдельных частей URL: 1) od.ru/ 2) chive 3) /page. 4) www 5) php 6) .my site.nar 7) news/ar",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,6,1,7,2,3,5",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "4,5,2,1,3,6,7",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,1,3,4,6,7,5",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1,2,4,7,6,3,5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Восстановите IP-адрес: 1) .64 2) 3.13 3) 3.133 4) 20",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,2,3,1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,3,1,4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,2,3,4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3,1,2,4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Укажите число, которое не может быть использовано в IP адресе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "155",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "271",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "205",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Укажите число, которое не может быть использовано в IP адресе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "231",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "217",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "282",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Укажите число, которое не может быть использовано в IP адресе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "256",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Доступ к файлу http.txt, находящемуся на сервере mail.com, осуществляется по протоколу ftp. Адреса файла закодированы от 1 до 7. Запишите последовательность этих цифр, кодирующую адрес указанного файла в сети Интернет. 1) / 2) .com 3) ftp 4) mail 5) .txt 6) http 7) ://",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3,7,4,2,1,6,5",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "7,3,2,1,6,5,4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3,4,2,1,5,7,6",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2,3,5,6,7,1,4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Доступ к файлу ftp.net, находящемуся на сервере txt.org осуществляется по протоколу http. Адреса файла закодированы от 1 до 7. Запишите последовательность этих цифр, кодирующую адрес указанного файла в сети Интернет. 1) .net 2) .ftp 3) :// 4) http 5) / 6) .org 7) txt",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,3,7,6,5,2,1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "4,3,7,5,6,1,2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,1,3,5,4,6,7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3,5,6,7,4,1,2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Доступ к файлу www.txt, находящемуся на сервере ftp.net, осуществляется по протоколу http. Адреса файла закодированы от 1 до 7. Запишите последовательность этих цифр, кодирующую адрес указанного файла в сети Интернет. 1) .txt 2) http 3) / 4) :// 5) .net 6) www 7) ftp",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2,4,7,5,3,6,1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1,2,7,3,4,6,5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,3,4,5,7,6,1",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1,2,3,4,6,5,7",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Запишите последовательность чисел, кодирующую адрес сайта факультета информационных технологий и управления ДГМУ. 1) //dgmu 2) fakultet/ 3) https: 4) mediko- 5) .ru/ 6) profilakticheskiy/",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3,1,5,2,4,6",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3,1,2,6,5,4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,3,1,5,4,6",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "6,4,3,2,1,5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Какая польза от использования компьютерных сетей?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совместное использование дорогостоящих устройств и каналов связи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличение качества подготовки электронных документов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение расходов на обучение сотрудников компьютерной грамотности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ускорение работы компьютеров пользователей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Какая польза от использования компьютерных сетей?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "быстрое освоение новых программ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возможность создания общих баз данных отдела, предприятия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глубокая компьютеризация организационных процессов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дешевая обработка больших массивов данных и документов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "По масштабу сети классифицируются как…",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кабельные, беспроводные, спутниковые",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "локальные, одноранговые, городские, всемирные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "локальные, региональные, глобальные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Локальные сети обычно охватывают?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комнату, здание или группу сооружений",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "микрорайон города",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "город, область",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "страны и континенты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Кампусные сети обычно охватывают?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комнату, несколько этажей или здание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "до нескольких десятков зданий в одном районе города",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "город, область",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "страны и континенты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Региональные сети обычно охватывают?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комнату, здание или группу сооружений",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микрорайон города",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "несколько городов, областей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "страны и континенты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Глобальные сети обычно связывают компьютеры, находящиеся?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в соседних комнатах, зданиях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в одном микрорайоне города",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в соседних городах, областях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в разных странах и/или на разных континентах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Достоинства сетей с коммутацией каналов?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сохраняется порядок передаваемых данных",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "высокая скорость установления соединения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эффективное использование каналов связи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высокая надежность при авариях на линии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Недостатки сетей с коммутацией каналов?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сохраняется порядок передаваемых данных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неэффективное использование каналов связи,",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сильная зависимость времени передачи от загрузки сети",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высокая стоимость создания сетей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Достоинства сетей с коммутацией пакетов?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокая скорость установления соединения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сохраняется порядок передаваемых данных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сильная зависимость времени передачи от загрузки сети",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "огромный опыт создания и хорошо развитая инфраструктура",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Недостатки сетей с коммутацией пакетов?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сохраняется порядок передаваемых данных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сильная зависимость времени передачи от загрузки сети",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неэффективное использование каналов связи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "медленное установление соединения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "В каналах точка-точка?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все узлы сети используют единый канал передачи данных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "канал соединяет только два узла сети",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "используется коммутация каналов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "В каналах с множественным доступом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все узлы сети используют единый канал передачи данных",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "канал соединяет только два узла сети",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "используется коммутация каналов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет верного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "В сетях с каналами точка-точка основная задача настройки сети?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "безопасность и защита данных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выбор правильной топологии сети",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "маршрутизация передаваемых пакетов/сообщений",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "разделение канала связи между разными узлами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Сервер — это компьютер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеющий выход в интернет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "использующий ресурсы других компьютеров",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предоставляющий свои ресурсы другим компьютерам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "соединяющий нескольких узлов локальной компьютерной сети",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Клиент – это компьютер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеющий выход в интернет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "использующий ресурсы других компьютеров",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "предоставляющий свои ресурсы другим компьютерам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "соединяющий нескольких узлов локальной компьютерной сети",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "По конфигурации сети различают 2 типа сетей?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кабельные и беспроводные,",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коммутируемые и не коммутируемые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одноранговые и сети на основе сервера",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с коммутацией каналов, с коммутацией пакетов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "локальные, региональные, всемирные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Одноранговые сети удобны когда?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "количество компьютеров в сети невелико",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в ближайшее время расширение сети (предприятия) не ожидается рабочие места находятся недалеко",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пользователи могут сами настраивать сеть и обеспечивать защиту информации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "К недостаткам одноранговых сетей относится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трудности использования большого числа рабочих станций",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слабая защита информации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сложность управления сетью и обновления программного обеспечения рабочих станций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "В одноранговых сетях обычно?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "всегда есть выход в интернет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "все компьютеры работают слишком медленно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "есть компьютер, который функционирует только как сервер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "каждый компьютер является клиентом и может также быть сервером",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "В сети на основе сервера?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "всегда есть выход в интернет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "все программы выполняются только на сервере",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "есть один или несколько компьютеров, которые функционируют только как серверы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "каждый компьютер является клиентом и может также быть сервером",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Сети на основе сервера удобны когда?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в сети много (более 20-30) компьютеров (рабочих мест)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "необходима надежная защита информации и обеспечения секретности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "требуется централизованное хранение и/или обработка данных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "К недостаткам сетей на основе сервера относится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сложнее обновлять используемое программное обеспечение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сбой работы сервера приводит к невозможности работы всей сети",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сложность управления сетью и обновления программного обеспечения рабочих станций",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Сервер может выполнять такие функции?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечивать связь с другими сетями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хранить файлы, которые доступны всем рабочим станциям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хранить и обрабатывать данные в общей базе данных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Файл-сервер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечивает связь с другими сетями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хранит файлы, которые доступны всем рабочим станциям",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хранит и обрабатывает данные в общей базе данных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Коммуникационный сервер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечивает связь с другими сетями",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хранит файлы, которые доступны всем рабочим станциям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хранит и обрабатывает данные в общей базе данных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Почтовый сервер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечивает связь с другими сетями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хранит файлы, которые доступны всем рабочим станциям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "позволяет создавать e-mail адреса и обмениваться сообщениями",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Сервер баз данных …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечивает связь с другими сетями",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хранит файлы, которые доступны всем рабочим станциям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хранит и обрабатывает данные в общей базе данных",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Сетевой коммутатор (switch) …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяет нескольких узлов сети в пределах одного сегмента",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "управляет пересылкой пакетов данных между разными сегментами сети",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "связывает сети, использующие разные протоколы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фильтрует сетевые пакеты по заданным правилами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Маршрутизатор (router) …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяет нескольких узлов сети в пределах одного сегмента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "управляет пересылкой пакетов данных между разными сегментами сети",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "связывает сети, использующие разные протоколы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фильтрует сетевые пакеты по заданным правилами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Сетевой шлюз (gateway) …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соединяет нескольких узлов сети в пределах одного сегмента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "управляет пересылкой пакетов данных между разными сегментами сети",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "связывает сети, использующие разные протоколы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фильтрует сетевые пакеты по заданным правилами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Какие виды адресов узлов используются в компьютерных сетях?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аппаратные (MAC) адреса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "числовые (IP) адреса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "символьные (DNS) адреса (имена)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "MAC-адрес …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "присваивается изготовителем каждому сетевому устройству",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "задается администратором компьютерной сети",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "настраивается на DNS-серверах интернет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "IP-адрес …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "присваивается изготовителем каждому сетевому устройству",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "задается администратором компьютерной сети",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "настраивается на DNS-серверах интернет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Имя сайта (домена) …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "присваивается изготовителем каждому сетевому устройству",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "задается администратором компьютерной сети",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "настраивается на DNS-серверах интернет",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Для запоминания человеком наиболее удобны …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аппаратные (MAC) адреса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "числовые (IP) адреса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "символьные (DNS) адреса сайтов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "IP-адрес …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "это уникальный сетевой адрес узла в компьютерной сети",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "имеет длину 4 байта или 16 байт",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "состоит из двух частей: номера сети и номера узла",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "IP-адрес (IPv4) записывается в виде …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "четырёх чисел значением от 0 до 255, разделённых точками, например, 19216811",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "128-бит чисел, разделённых двоеточиями",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6 октетов - уникальный идентификатор организации и номер экземпляра устройства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полного доменного имени (где поддомены разделены точками)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "IP-адрес называют статическим если он …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "используется в течение неограниченного времени и не может быть присвоен другому устройству",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "назначается автоматически при подключении к сети и используется до завершения сеанса подключения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "является внутренним адресом локальной сети и недоступен за ее пределами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "IP-адрес называют динамическим, если он …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "используется в течение неограниченного времени и не может быть присвоен другому устройству",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "назначается автоматически при подключении к сети и используется до завершения сеанса подключения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "является внутренним адресом локальной сети и недоступен за ее пределами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "IP-адрес называют виртуальным, если он …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "используется в течение неограниченного времени и не может быть присвоен другому устройству",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "назначается автоматически при подключении к сети и используется до завершения сеанса подключения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "является внутренним адресом локальной сети и недоступен за ее пределами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Использование виртуальных IP-адресов позволяет …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сэкономить IP-адреса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "предотвратить или ограничить обращение снаружи ко внутренним узлам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скрыть некоторые сервисы внутренних серверов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Уникальный IP-адрес в сети получает …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "каждый отдельный компьютер",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "каждое подключенное сетевое устройство (сетевая карта)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "каждая локальная компьютерная сеть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Чтобы узнать IP-адрес компьютера, нужно в командной строке дать команду?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ipconfig",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "netsat",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ping",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "route",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "tracert",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Команда ping позволяет узнать?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ip- адрес вашего компьютера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через какие узлы ваш компьютер связан с указанным узлом в сети",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "есть ли соединение с указанным узлом сети",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "скорость работы сети",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Что такое FTP – сервер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "компьютер, на котором содержатся видео файлы, предназначенные для администратора сети",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "компьютер, на котором содержится вся информация для организации работы телеконференций",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "корпоративный сервер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "компьютер, на котором содержатся файлы, предназначенные для открытого доступа",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "В каком году и где появился Интернет?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в Германии в 1969 г",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в США в 1990 г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в США в 1969 г",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "возник стихийно в 1946 с появлением компьютеров",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Правильно утверждение – линии связи в локальных вычислительных сетях (ЛВС) обычно…",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не превышают 300 м",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не превышают 1000 м",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "имеют любую длину",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реализуются через телефонные линии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не меньше 5 км",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Какие сети называются одноранговыми?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сети с небольшим количеством персональных компьютеров, каждый из которых может общаться друг с другом на равноправных условиях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сети с небольшим количеством персональных компьютеров, соединенные «звездочкой» между собой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сети с небольшим количеством персональных компьютеров, работающих под управлением одной и той же операционной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сети с небольшим количеством персональных компьютеров, работающих с одинаковыми протоколами передачи данных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сети с небольшим количеством персональных компьютеров, содержащих высокопроизводительный компьютер для совместного использования участниками сети",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Что собой представляет маршрутизатор?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устройство, соединяющее сети разного типа, но использующие одну операционную систему",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "устройство, соединяющее две сети, использующие одинаковые методы передачи информации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "устройство, соединяющее сети одинакового типа, но использующие разные операционные сети",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устройство, соединяющее сети одинакового типа, но использующие разные операционные системы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "устройство, соединяющее две одноранговые сети между собой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Что собой представляют шлюзы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устройства, позволяющие организовать обмен данными между двумя сетями, использующими различные протоколы взаимодействия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "устройства, соединяющие сети разного типа, но использующие одну операционную систему",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "устройство, соединяющее сети одинакового типа, но использующие разные операционные системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устройство, соединяющее две сети, использующие одинаковые методы передачи информации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Что собой представляет коммутационный сервер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "компьютер, выполняющий только функции объединения ЛВС",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "компьютер для совместного использования всеми участниками сети",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "компьютер для преобразования между различными протоколами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "компьютер для соединения локальных вычислительных сетей, работающих по разным протоколам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "компьютер для соединения локальных вычислительных сетей, работающих по одинаковым протоколам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Правильно утверждение – при соединении сетей, расположенных на отдаленных территориях, используются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "каналы связи и модемы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "каналы связи и мосты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мосты и маршрутизаторы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мосты и шлюзы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Что собой представляет модем?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устройство, выполняющее модуляцию информационных сигналов при вводе в ПК из канала связи и демодуляцию при передаче их из ПК в канал связи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "устройство, соединяющее сети разного типа, но использующие одну операционную систему",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "устройство, соединяющее две сети, использующие одинаковые методы передачи информации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устройство, соединяющее сети одинакового типа, но использующие разные операционные системы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "On-line — это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "режим реального времени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "информационная сеть",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "команда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "утилита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Of-line – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "режим информационного пакетного обмена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "команда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "телекоммуникационная сеть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "операционная система",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Мировая система телеконференций:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Usenet",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Eunet",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Fidonet",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Relcom",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Какими протоколами поддерживаются сети входящие в Интернет?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "TCP/IP",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "FTP",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "HTML",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "HTTP",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "HTTP/FTP",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Каким протоколом определяется процесс передачи информации в Интернете?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "FTP",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "HTML",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "HTTP",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "IP",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ТСР",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Какой протокол определяет адрес передачи информации в Интернете?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "IP",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "FTP",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "HTML",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "HTTP",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Куда подключается сетевой адаптер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в свободный слот материнской платы персонального компьютера",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к контроллеру жестких дисков материнской платы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к стандартному последовательному порту",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к стандартному параллельному порту",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к видеоадаптеру",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Что собой представляет канал связи?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокоскоростная линия связи, связывающая всех абонентов, для передачи информации в цифровом виде",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "высокоскоростная линия связи, связывающая всех абонентов для передачи информации в аналоговом виде",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высокоскоростная телефонная линия связи, связывающая всех абонентов, для передачи информации в цифровом виде",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "высокоскоростная линия связи, связывающая всех абонентов для передачи информации в любом виде",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "высокоскоростная линия связи, связывающая всех абонентов для передачи информации в аналоговом виде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Правильно утверждение – проводные каналы связи представлены тремя типами кабелей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "витая пара проводов, коаксиальный кабель, оптоволоконный кабель",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "витая пара проводов, телефонная линия, радиорелейная линия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "витая пара проводов, коаксиальный кабель, спутниковая связь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "витая пара проводов, радиорелейная линия, оптоволоконный кабель",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "витая пара проводов, оптоволоконный кабель, телефонная линия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Правильно утверждение – волоконно-оптический кабель передает информацию в виде…",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "световых импульсов по стеклянному волокну",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "электрических импульсов по стеклянному волокну",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "электромагнитных импульсов по стеклянному волокну",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аналоговых импульсов по стеклянному волокну",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "световых и электрических импульсов по стеклянному волокну",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Техническая структура E-mail – это …",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "совокупность узловых станций, связывающихся друг с другом для обмена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "совокупность компьютеров локальной сети",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "компьютеры, хранящие и кодирующие информацию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "компьютеры, пересылающие информацию по запросам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Для поддержки E-mail в Internet разработан протокол:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "SMTP",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "SSTP",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "SCTP",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "SSTP",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "WWW – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "распределенная информационная система мультимедиа, основанная на гипертексте",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "электронная книга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "протокол размещения информации в Internet",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "информационная среда обмена файлами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Гипертекст – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "информация в виде документов, имеющих ссылки на другие документы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "информационная оболочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "текст, содержащий иллюстрацию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "информационное хранилище",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Какие программы не являются браузерами?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Microsoft Outlook Express",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Mosaic",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Microsoft Internet Explorer",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Netscape Navigator",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "HTML – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "язык разметки гипертекстов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "программа просмотра документов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прикладная программа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "протокол взаимодействия клиент-сервер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "HTML-документы представляют собой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "текст, содержащий в себе связи с другими текстами, графической, видео- или звуковой информацией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "текстовые файлы, в которые встроены специальные команды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сочетание алфавитно-цифровой информации в различных форматах и стилях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "текст, содержащий графическую информацию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Вид интернет-мошенничества, с помощью электронной почты, цель которого получить идентификационные данные пользователей.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фишинг",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вишинг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смишинг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фарминг",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Массовая рассылка коммерческой и иной рекламы или подобных коммерческих видов сообщений лицам, не выражавшим желания их получать.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спам",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "спрам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фишинг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фейк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Выберите основные методы защиты информации:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ограничение доступа к информации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "распределение доступа к информации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "криптографическое преобразование информации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "законодательные меры по защите информации",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Электронное устройство, имеющее память, с записанной в ней аутентификационной информацией, с возможностью считывания этой информации неким идентифицирующим / аутентифицирующим устройством.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "электронный ключ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "криптографические средства",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "электронная цифровая подпись",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "программа-ловушка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Специальные математические и алгоритмические средства защиты информации, передаваемой по системам и сетям связи, хранимой и обрабатываемой на ЭВМ с использованием разнообразных методов шифрования.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "электронный ключ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "криптографические средства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "электронная цифровая подпись",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "программа-ловушка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Выберите виды вирусов, которые классифицируются по разрушительным возможностям:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "неопасные вирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "опасные вирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "очень опасные вирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сетевые вирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Выберите виды вирусов, которые классифицируются по способу заражения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "резидентные вирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нерезидентные вирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "файловые вирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сетевые вирусы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Выберите виды вирусов, которые классифицируются по среде обитания:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "файловые вирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "загрузочные вирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "файлово-загрузочные вирусы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сетевые вирусы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Выберите виды вирусов, которые классифицируются по особенностям алгоритма:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "черви",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "паразиты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "троянские",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мутанты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Выберите антивирусные программы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Kaspersky Internet Security",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ESET NOD32 Internet Security",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Dr.Web Security Space",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Internet explorer",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Выберите антивирусные программы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Avast Premium Security",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "McAfee Internet Security",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "AVG Internet Security",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Internet browser",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Что используются для защиты вирусов и лечения зараженного компьютера?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антивирусные блокировщики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антивирусные программы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полифаги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Что может быть признаком заражения компьютера вредоносной программой?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "замедление работы компьютера",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "появление новых файлов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рекламные окна",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "спам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сбои при запуске программ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Что могут заразить компьютерные вирусы?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "программы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "текстовые файлы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "веб-страницы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рисунки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "видео",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "В каком случае компьютер будет заражен вирусом?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "зараженная программа скопирована на диск",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "зараженная программа запущена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "выполнена загрузка с зараженной «флэшки»",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в браузере открыта заражённая веб-страница",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "«флэшка» с зараженным файлом вставлена в порт компьютера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Что такое компьютерный вирус?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прикладная программа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "системная программа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "программа, выполняющая на компьютере несанкционированные действия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "база данных",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

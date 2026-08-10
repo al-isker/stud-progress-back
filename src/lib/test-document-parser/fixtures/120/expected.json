@@ -1,0 +1,1270 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Что такое гемоперитонеум?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скопление крови в полости сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "скопление крови в плевральной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скопление крови в брюшной полости",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "скопление крови в тканях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скопление крови в забрюшинном пространстве",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Характерным признаком артериального кровотечении является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "истечение крови постоянной струей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "истечение крови алой пульсирующей струей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "медленное (каплями) истечение крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровоточивость всей раневой поверхности",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "периодическое истечение крови из сосуда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Причиной ранних вторичных кровотечений является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "раневая инфекция",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойная аррозия сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "прекращение спазма сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "распад опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушение реологии крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какие лабораторные анализы позволят Вам предположить наличие кровотечения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биохимический анализ крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "общий анализ мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "общий анализ крови",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кислотно-щелочное состояние крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "исследование крови на билирубин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Признак правильности наложения жгута:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синюшность кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение температуры кожи ниже жгута",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие чувствительности ниже жгута",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "исчезновение периферического пульса",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бледность кожи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Развитие внутричерепной гематомы сопровождается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "геморрагическим шоком",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "травматическим шоком",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "очаговыми нарушениями функций мозга на стороне гематомы 2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "очаговыми нарушениями функций мозга на противоположной стороне",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нарушением функции внутренних органов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Что такое гемоторакс?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скопление крови в полости сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "скопление крови в плевральной полости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "скопление крови в брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скопление крови в тканях грудной стенки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скопление крови в забрюшинном пространстве",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Характерный признак венозного кровотечения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "истечение крови постоянной темной струей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "истечение крови пульсирующей струей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "медленное (по каплям) истечение крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровоточит вся раневая поверхность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прерывистое истечение крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Наличие гемоперитонеума является показанием к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "динамическому наблюдению",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемодиализу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экстренной операции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гемостатической терапии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "КТ органов брюшной полости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "В чем измеряется гемоглобин крови ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в процентах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в литрах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Г/л",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Ммоль/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в мм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "ЧТО такое гематома?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скопление крови в полости сустава 3",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "скопление крови в плевральной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скопление крови в тканях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "скопление крови в брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скопление крови в перикарде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Характерный признак паренхиматозного кровотечения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "медленное (по каплям) истечение крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "истечение крови пульсирующей струей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кровоточит вся раневая поверхность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "истечение крови постоянной (не пульсирующей) струей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие сгустков крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Какой метод диагностики может подтвердить наличие гемоторакса?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пункция плевральной полости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пункция брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бронхоскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лапароскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пункция сустава",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какие эндоскопические методы исследования могут уточнить диагноз внутрибрюшного кровотечения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхоскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лапароскопия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эзофагогастродуоденоскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ректороманоскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "колоноскопия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Какой метод диагностики может объективно подтвердить наличие гемоперитонеума?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "R-скопия брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лапароскопия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "торакоскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "радиоизотопное исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гастроскопия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Использование какого рентгенологического исследования может подтвердить диагноз гемоторакса?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "R-скопия брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "R -скопия грудной клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "контрастная рентгенография желудочно-кишечного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутривенная холангиография 4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "контрастная урография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Максимальное время нахождения жгута на конечности летом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "15 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "30 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "60 минут",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "90 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "120 минут",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Причина поздних вторичных кровотечений:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интоксикация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойная аррозия сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "прекращение спазма сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тромбоз сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прорастание сосудов опухолью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "При повреждении подколенной артерии для остановки кровотечения показано:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перевязка артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "электрокоагуляций",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наложение сосудистого шва",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тампонада",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лазерная коагуляция сосуда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Первая помощь при ранении бёдра, осложнённом артериальным кровотечением, заключается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наложение давящей повязки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пальцевом прижатии бедренной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пальцевом прижатии подкаленной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тампонаде раны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наложение жгута",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Шоковым индексом Альговера является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отношение пульса к систолическому артериальному давлению",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отношение систолического артериального давления к пульсу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отношение пульса к диастолическому артериальному давлению",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отношение диастолического артериального давления к пульсу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "При IV степени кровопотери дефицит ОЦК составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "до 10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10-20% 5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "20-30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "свыше 30%",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Гемартроз – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Кровоизлияние в паренхиматозные органы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "скопление крови в полости сустава",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пропитывание кровью мягких тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скопление крови в плевральной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скопление крови в брюшной полости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Гемоперикард – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровоизлияние в паренхиматозные органы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "скопление крови в полости сустава",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "скопление крови в брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скопление крови в плевральной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скопление крови в околосердечной сумке",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "К наиболее характерным признакам кровотечения из пищевода относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рвота цвета «кофейной гущи»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рвота неизмененной кровью со сгустками",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дегтеобразный стул",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стул темно-вишневого цвета",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выделение алой крови из заднего прохода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Наиболее характерным признаком кровотечения из 12-перстной кишки является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рвота цвета «кофейной гущи»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рвота неизменной кровью со сгутсками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дегтеобразный стул",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стул темно-вишневого цвета",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выделение алой крови из заднего прохода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Пенистая кровь наблюдается при кровотечении из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "носа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пищевода",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "легких",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кишечника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Кровотечение из 12-перстный кишки относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутреннему",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наружному 6",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смешанному",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полостному",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Укажите причину возникновения диапедезного кровотечения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрыв сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аррозивный процесс",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение проницаемости мелких сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "изъявление стенки сосуда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушения химического состава крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Если кровь из плевральной полости не свертывается, это указывает на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повреждение сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "остановку кровотечения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "продолжающееся кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повреждение легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "открытый пневмоторакс",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Укажите максимальное время наложения жгута на нижнюю конечность:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1 час",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1,5 час",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 часа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "2,5 часа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Точкой прижатия височной артерии при ее повреждении является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по верхнему краю ушной раковины к височной кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "позади ушной раковины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ниже ушной раковины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ниже и спереди от ушной раковины к нижней челюсти",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выше и спереди от ушной раковины к скуловой кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "В каком ответе наиболее полно перечислены способы окончательной остановки кровотечения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "механический, биологический, этиологический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "физический, химический, биологический, смешанный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "механический, физический, химический, биологический, комбинированный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "механический, физический, патологический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Оптимальным способом остановки кровотечения из варикозных вен нижней конечности является: 7",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наложение жгута",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наложение давящей повязки и возвышенное положение нижней конечности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "применение химических веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сосудистый шов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "электрокоагуляция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Оптимальным способом остановки паренхиматозного кровотечения является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "давящая повязка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тампонада",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наложения сосудистого шва",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лигирование кровоточащих сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оставление постоянного зажима на кровоточащем сосуде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Сосудистый шов накладывается в следующих случаях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при повреждении капилляров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при повреждении артериол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при повреждении венул",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при повреждении любых сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при повреждении магистральных сосудов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Гематокритное число – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разница между систолическим и диастолическим давлением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разница между показателями гемоглобина больного и в норме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соотношение между количеством эритроцитов и лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "соотношение объема плазмы и объему форменных элементов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "соотношения объема форменных элементов к объему плазмы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "На начальном этапе лечения острой кровопотери начинают с переливания:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроцитной массы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кристаллоидных растворов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коллоидных растворов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "свежезамороженной плазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "свежецитратной крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Таблица Барашкова используется для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "определения вязкости крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "определения количества потерянной крови по методу Ван Слайка - Филлипсса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "определения ОЦК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "определения удельного веса крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определения гематокрита 8",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Наиболее информативным методом определения кровопотери является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "определения шокового индекса Альговера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "определение гематокрита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "определения ОЦК",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "определения количества эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метод Ван Слайка – Филлипса",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

@@ -1,0 +1,970 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Западение языка при наркозе наблюдается в стадии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анальгезии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возбуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наркотического сна",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пробуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в любой стадии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "При рефлекторной остановке дыхания во время наркоза достаточно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличить концентрацию наркотического вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проводить искусственное дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличить концентрацию кислорода во вдыхаемой смеси",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прекратить дачу наркотической смеси",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вводить препараты, возбуждающие дыхательный центр",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "При возникновении рвоты во время наркоза следует начинать лечебные действия с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ускоренного углубления наркоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшения дозы наркотического вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличения концентрации кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прекращения подачи наркотического вещества",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "введения средств, угнетающий рвотный центр",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Второй уровень третьей стадии эфирного наркоза характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "частым пульсом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "понижением артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сохранением реакции зрачков на свет",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бледностью кожных покровов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышением мышечного тонуса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Для внутривенного наркоза применяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фторотан",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хлорэтил",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тиопентал натрия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "циклопропан",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "закись азота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Какой концентрации должен быть стандартный раствор новокаина для выполнения инфильтрационной анестезии по А.В.Вишневскому?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,5% 2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,25%",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "2%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "При каком обезболивании в анестетик добавляют адреналин?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инфильтрационной анестезии по Вишневскому",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "спинномозговой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стволовой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эпидуральный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аппликационной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "В какой стадии эфирного наркоза выполняется хирургическая операция?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анальгезия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наркозного сна",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "возбуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пробуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в любой стадии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "При непрямом массаже сердца давление осуществляют на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "верхнюю треть грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среднюю часть грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижнюю треть грудины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "левую половину грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не имеет значения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Особенностью газового наркоза является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "быстрый сон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "длительный период возбуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полное расслабление скелетной мускулатуры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "позднее пробуждение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "высокая токсичность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Отрицательной стороной наркоза закисью азота является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипоксия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиление свертываемости крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рекураризация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "длительный период возбуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "релаксация мышц",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Гексоний относится к: 3",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наркотикам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анальгетикам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антигистаминным препаратам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ганглиоблокаторам",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нейролептикам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Какое оптимальное соотношение смеси кислорода и закиси азота применяется для наркоза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1 : 2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2 : 1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1 : 4",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4 : 1",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5 : 1",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какие препараты являются основными при создании состояния гибернации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наркотики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анальгетики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мышечные релаксанты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейролептики",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ганглиоблокаторы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Оптимальной концентрацией раствора тиопентала натрия для внутривенного наркоза является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,5%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2,5%",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "15%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Искусственная гипотермия применяется для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глубокого обезболивания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "потенцированного наркоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "искусственного снижения артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижения потребности тканей в кислороде",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "предупреждения шока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Потенцированный наркоз можно осуществить применением смеси: 4",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диуретиков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гармонов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "местных анестетиков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейролептиков, ганглиоблокаторов и анальгетиков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тримекаина, лидокаина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Симптомом гипоксии является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бледность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тахикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "урежение дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "брадикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышение артериального давления",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Признаком нормального протекающего эфирного сна является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "частое дыхание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие карнеального рефлекса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сужение зрачков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "учащение пульса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "понижение артериального",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Лечение отека легких проводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переливанием крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутривенным введением гипертонического раствора хлористого натрия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нейролептиками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антигистаминными препаратами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анальгетиками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Методы искусственного дыхания:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«рот в рот», «рот в нос»",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Макинтоша",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Пирогова",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кравкова",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Анрепа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "При реанимации больного врач производит следующие действия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственное дыхание",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "углубляет наркоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вводят релаксанты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутриартериальное переливание кровезаменителей и фуросемида давления 5",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутрисердечное введение атропина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Искусственное дыхание проводится с целью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возбуждения дыхательной мускулатуры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возбуждения сердечной деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "раздувания легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возбуждения дыхательного центра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "предупреждения гипоксии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Гипоксемия - это недостаточное содержание кислорода в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вдыхаемом воздухе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выдыхаемом воздухе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "легочных альвеолах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крови",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клетках тканей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Рвота исчезает в стадии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анальгезии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возбуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в первом уровне третьей стадии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в третьем уровне третьей стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пробуждения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Искуственное дыхание при эндотрахеальном наркозе производится методом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«рот в рот»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сильвестра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Лаборда",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Шуллера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наркозным аппаратом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "При механической асфиксии лечебная помощь начинается с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "введения сердечных препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "искусственного дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "введения препаратов, возбуждающих дыхательный центр",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "освобождения дыхательных путей",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "подачи чистого кислорода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Правильная позиция эндотрахеальной трубки в трахее означает: 6",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трубка введена в глубину до отказа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "манжетка на уровне голосовой щели",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "манжетка на уровне черпаловидного хряща",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "манжетка на уровне подсвязочного пространства",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "верхний срез трубки у края зубов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "При каком обезболивании применяются релаксанты?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перидуральной анестезии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хлорэтиловом наркозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спинномозговой анестезии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндотрахеальном наркозе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "инфильтрационной анестезии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Мышечные релаксанты действуют на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ганглии вегетативной нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейромышечные синапсы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сердечную мышцу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дыхательный центр",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задние рога спинного мозга",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

@@ -1,0 +1,3813 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Функция глюкозы в организме человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пластическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "защитная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "энергетическая",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "каталитическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "терморегуляторная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "НАД является акцептором водорода во всех реакциях, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфакетоглутарат---- сукцинил СоА",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сукцинат---- фумарат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "малат---- ЩУК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "В каких реакциях ФАД является акцептором водорода:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "изоцитрат---- альфакетоглутарат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альфакетоглутарат---- сукцинил СоА",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сукцинат---- фумарат",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "малат---- ЩУК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Сколько АТФ образуется при окислительном декарбоксилировании пировиногр. кислоты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Аэробный распад глюкозы включает все стадии, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цикла трикарбоновых кислот",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окислительное декарбоксилирование прировиноградной кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окислительное декарбоксилирование альфа-кетоглутарата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "распад глюкозы до лактата",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечиленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Где локализуется первая стадия аэробного распада глюкозы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитоплазма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рибосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "митохондрии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микросомы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизосомы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Где локализуется вторая стадия аэробного распада глюкозы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитоплазма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "митохондрии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "микросомы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизосомы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Где локализуется третья стадия аэробного распада глюкозы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитоплазма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рибосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "митохондрии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "микросомы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лизосомы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Сколько АТФ образуется в цикле трикарбоновых кислот при окислительном фосфорилировании:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "11",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Сколько АТФ образуется в цикле трикарбоновых кислот при субстратном фосфорилировании:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "11",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Сколько АТФ образуется при реакции \"сукцинилКоа ----сукцинат\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Сколько АТФ образуется при реакции \"сукцинат ----фумарат\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Сколько АТФ образуется при реакции \"альфакетоглутарат----сукцинилКоа\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Сколько АТФ образуется при реакции \"малат----ЩУК\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Сколько АТФ образуется при реакции \"изоцитат----альфакетоглутарат\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Какой витамин участвует в реакции \"изоцитрат----альфа-кетоглутарат\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "РР",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "В6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Какие витамины участвуют в реакции \"альфа-кетоглутарат----сукцинилКоА\"",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "В1",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "РР",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Какой витамин участвует в реакции \"сукцинат----фумарат\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "РР",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Какой витамин участвует в реакции \"малат---ЩУК\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "РР",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "В6",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какие реакции цикла Кребса будут нарушены при дефиците витамина РР",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "изоцитрат----альфа-кетоглутарат",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "альфа-кетоглутарат----сукцинилКоА",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сукцинат----фумарат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малат---ЩУК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изоцитрат----цисаконитат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Какие реакции цикла Кребса будут нарушены при дефиците витамина В1:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изоцитрат----альфа-кетоглутарат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альфа-кетоглутарат----сукцинилКоА",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сукцинат----фумарат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малат---ЩУК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изоцитрат----цисаконитат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какие реакции цикла Кребса будут нарушены при дефиците витамина В2:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "изоцитрат----альфа-кетоглутарат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альфа-кетоглутарат----сукцинилКоА",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сукцинат----фумарат",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "малат---ЩУК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "изоцитрат----цисаконитат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Какие витамины участвуют в окислительном декарбоксилировании пировиноградной кислоты:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "В1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В2",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "РР",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "С",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "D",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Все витамины участвуют в окислительном декарбоксилировании альфа-кетоглутарата, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "РР",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "С",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "липоат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Сколько АТФ образуется при окислительном декарбоксилировании альфа-кетоглутарата:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Какие акцепторы водорода участвуют в окислительном декарбоксилировании альфа-кетоглутарата:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "НАД",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "НАДФ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ФАД",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ФМН",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "липоат",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Сколько АТФ образуется при окислении пирувата до углекислого газа и воды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Сколько АТФ образуется при окислении пирувата до ацетил-КоА:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Сколько АТФ образуется при окислении сукцината до фумарата:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Сколько АТФ образуется при окислении альфа-кетоглутарата до сукцината:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Сколько АТФ образуется при окислении изоцитрата до альфа-кетоглутарата:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Сколько АТФ образуется при окислении малата до ЩУК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "15",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Глюконеогенез может осуществляться из:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейцин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пируват",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "альфа-кетоглутарат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аспартат",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Какие вещества в цикле Кребса декарбоксилируются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитрат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изоцитрат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "альфа-кетоглутарат",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сукцинилКоА",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ЩУК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Пировиноградная кислота в аэробных условиях превращается в ацетилКоА, потому что водород от цитоплазматического НАНД2 уходит в дыхательную цепь.",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+ + +",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "+ - +",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "+ - -",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "- - +",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Мозг больного сахарным диабетом значительную часть энергии получает при окислении",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ацетоуксусной кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аминоянтарной кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жирных кислот",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ацетона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Гликозамингликаны выполняют все функции, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "участвуют в синтезе основного вещества соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участвуют в синтезе компонентов свертывающей системы крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участвуют в синтезе белков, определяющих группы крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "входят в состав рецепторов эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "энергетическая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Функции гликогена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "резервная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "иммунная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "каталитическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "защитная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "В ЖКТ человека перевариваются все углеводы, кроме:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "крахмал",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сахароза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "целлюлоза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лактоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клетчатка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Субстратами для действия амилазы являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "крахмал",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сахароза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гликоген",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "целлюлоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиалуроновая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "При гидролизе сахарозы образуются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкоза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "манноза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фруктоза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "галактоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "манноза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "В каком отделе ЖКТ переваривается сахароза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ротовая полость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тонкий кишечник",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "толстый кишечник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "В каком отделе ЖКТ переваривается мальтоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ротовая полость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "12-п.кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тонкий кишечник",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "толстый кишечник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "В каком отделе ЖКТ переваривается лактоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ротовая полость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "12-п.кишка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тонкий кишечник",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "толстый кишечник",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какую связь разрывает амилаза поджелудочной железы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа-1-4 гликозидную",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бетта-1-4-гликозидную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альфа-1-6-гликозидную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бетта-1-6-гликозидную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альфа-1-2-гликозидную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Какую связь разрывает амилаза слюны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа-1-4-гликозидную",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бетта-1-4-гликозидную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альфа-1-6-гликозидную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бетта-1-6-гликозидную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альфа-1-2-гликозидную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Какую связь разрывает мальтаза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альа-1-2-гликозидную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бетта-1-2-гликозидную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альфа-1-4-гликозидную",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бетта-1-4-гликозидную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альфа-1-6-гликозидную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "При галактоземии галактоза связывается с .... хрусталика глаза и нарушается зрение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "липопротеидами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гликопротеидами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липидами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белками",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Какой фермент переваривает углеводы в ротовой полости:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сахараза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мальтаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лактаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амилаза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фосфорилаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Какие ферменты переваривают дисахариды в кишечнике:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сахараза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мальтаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лактаза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амилаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фосфорилаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Какие ферменты вырабатываются в поджелудочной железе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амилаза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сахараза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альфа-1-6-гликозидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мальтаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лактаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Какой фермент расщепляет крахмал в ЖКТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амилаза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сахараза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альфа-1-6-гликозидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малтаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лактаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Какие связи в гликогене:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа-1-4-гликозидные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бетта-1-4-гликозидные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альфа-1-6-гликозидные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бетта-1-6-гликозидные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альфа-1-2-гликозидные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Какие связи в клетчатке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альфа-1-4-гликозидные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бета-1-4-гликозидные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "альфа-1-6-гликозидные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бета-1-2-гликозидные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Назовите субстрат, на котором расходятся молочнокислое и спиртовое брожение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3-Ф-глицерат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2-Ф-глицерат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фруктозо-6-диФ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пируват",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лактат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Конечный продукт анаэробного гликолиза",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликоген",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пируват",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лактат",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "углекислый газ и вода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ацетил СоА",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Какие из перечисленных реакций гликолиза необратимы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гексокиназная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гексозоизомеразная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфофруктокиназная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "альдолазная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "триозофосфатизомеразная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "В каких реакциях гликолиза выделяется энергия:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фосфоглицераткиназная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лактатдегидрогеназная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пируваткиназная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гексокиназная реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альдолазная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Какие субстраты гликолиза подвергаются фосфорилированию:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фруктоза-1,6-дифосфат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фруктозо-6-Ф",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глюкозо-6-Ф",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкоза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "3-Ф-глицерат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Какой субстрат гликолиза окисляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фосфодиоксиацетон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глицеральдегид-3фосфат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "2-Ф-глицерат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пируват",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глюкозо-6-фосфат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Необратимыми реакциями при гликолизе являются все перечисленные, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гексокиназная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альдолазная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фруктокиназная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пируваткиназная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "При гликолизе образуется продукт, накопление которого приводит к ацидозу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пируват",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ацетил СоА",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мочевина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мочевая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "молочная кислота",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "При гликолизе образуется АТФ за счет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фосфорилирования гексоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "медиаторного фосфорилирования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "субстратного фосфорилирования",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фосфорилирования глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фосфорилирования фруктозы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Конечным продуктом гликогенолиза является:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пируват",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "молочная кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ацетил СоА",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лактат",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "этанол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "При анаэробном гликолизе акцептором водорода является",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3-Ф-глицеральдегид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лактат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пируват",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цитрат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2-Ф-глицерат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "В гликолитической оксидоредукции участвуют ферменты:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЛДГ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пируваткиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ДГ-3-Ф-глицеральдегида",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "альдолаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гексокиназа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Какие субстраты участвуют в гликолитической оксидоредукции:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3-Ф-глицеральдегид",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цитрат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пируват",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фруктозо-1-6-диФ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Какое превращение происходит при гликолизе с пируватом при дефиците кислорода",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "восстановление",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "окисление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "декарбоксилирование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидратация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "окислительное декарбоксилирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Какая реация происходит с пируватом при спиртовом брожении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "восстановление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окисление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "декарбоксилирование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гидратация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "окислительное декарбоксилирование",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Какое вещество является акцептором водорода при спиртовом брожении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лактат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пируват",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ацетальдегид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "этанол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ЩУК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "При окислении одной молекулы глюкозы при анаэробном гликолизе образуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2 мол. лактата+2АТФ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2 мол.лактата+2 НАД +6АТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2 мол. лактата+2НАДФН-два+2АТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 мол.пирувата+2НАДН-два+2АТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2 мол. пирувата+2АТФ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Аэробный распад глюкозы включает стадии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цикла трикарбоновых кислот",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окислительное декарбоксилирование пировин. кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окислительное декарбоксилирование альфа-кетоглутарата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "распад глюкозы до пировиноградной кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленные.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Какие ферменты переваривают полисахариды в ЖКТ человека:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амилаза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мальтаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сахараза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лактаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Какие ферменты переваривают дисахариды в ЖКТ человека:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "амилаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мальтаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альфа-1-6-гликозидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лактаза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Что образуется в ЖКТ при гидролизе лактозы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкоза+глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкоза+фруктоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глюкоза+галактоза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фруктоза+фруктоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фруктоза+галактоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Что образуется в ЖКТ при гидролизе мальтозы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкоза+глюкоза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глюкоза+фруктоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глюкоза+галактоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фруктоза+фруктоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фруктоза+галактоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Что образует ЖКТ при гидролизе сахарозы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкоза+глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкоза+фруктоза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глюкоза+галактоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фруктоза+фруктоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фруктоза+галактоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Какой из нижеперечисленных функций будет соответствовать глюкозе",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "структурная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энергетическая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "усиливает перистальтику кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резервная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Какой из нижеперечисленных функций будет соответствовать гиалуроновой кислоте",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "структурная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "энергетическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усиливает перистальтику кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резервная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммунная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Какой из нижеперечисленных функций будет соответствовать гликогену",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "структурная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энергетическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усиливает перистальтику кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резервная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Какой из нижеперечисленных функций будет соответствовать клетчатке",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "структурная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энергетическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усиливает перистальтику кишечника",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "резервная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Подберите к реакции синтеза гликогена \"глюкоза+АТФ = глюкозо-6-Ф\" соответствующий фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликогенсинтетаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гексокиназа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фосфоглюкомутаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозо-1-Ф-уридилтрансфераза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "триозофосфатизомераза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Подберите к реакции синтеза гликогена \"глюкозо-6-Ф = глюкозо-1-Ф\" соответствующий фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликогенсинтетаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гексокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфоглюкомутаза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глюкозо-1-Ф-уридилтрансфераза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "триозофосфатизомераза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Подберите к реакции синтеза гликогена \"глюкозо-1-Ф+УТФ = УДФ-глюкоза + пирофосфат\" соответствующий фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликогенсинтетаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гексокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфоглюкомутаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозо-1-Ф-уридилтрансфераза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "триозофосфатизомераза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Подберите к реакции синтеза глюкогена \"затравочный гликоген + УДФ-глюкоза = гликоген+1 + УДФ\" соответствующий фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликогенсинтетаза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гексокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфоглюкомутаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозо-1-Ф-уридилтрансфераза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "триозофосфатизомераза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Что характерно для гликолиза",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "протекает с участием кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "локализован в цитоплазме",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "образуется 2 АТФ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "локализован в митохондриях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образуется 38 АТФ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "В пентозном цикле окисляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозо-6-фосфат",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "УДФ-глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1-Ф-глюконовая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фруктозо-6-Ф",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "галактоза-6-фосфат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "В окислительных реакциях пентозного цикла участвует кофермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ФМН",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ФАД",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "НАД",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "НАДФ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "КоА",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "В окислительных реакциях пентозного цикла участвуют ферменты:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сукцинат ДГ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкозо-6-Ф-ДГ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "малат ДГ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глицеральдегид ДГ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6-Ф-глюконат ДГ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Укажите концентрацию глюкозы в крови в норме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2мМ/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3,0",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4,5",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "6",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "8 мМ/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Гипергликемию вызывают все гормоны, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кортизол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инсулин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "АКТГ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Укажите гипогликемический гормон:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инсулин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кортизол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "На каком субстрате расходятся пентозный цикл и гликолиз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пируват",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3-Ф-глицеральдегид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозо-6-Ф",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фосфодиоксиацетон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "На каком субстрате расходятся гликолиз и аэробное окисление глюкозы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозо-6-Ф",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пируват",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3-Ф-глицеральдегид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фосфодиоксиацетон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ацетил КоА",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "На каком субстрате расходятся молочно-кислое и спиртовое брожение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пируват",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уксусный альдегид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3-Ф-глицеральдегид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозо-6-ф",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фруктозо-1, 6-дифосфат",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "При галактоземии отсутствует фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гексокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "УДФ-глюкозо-пирофосфорилаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гексозо-1-Ф-уридилтрансфераза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фосфорилаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "УДФ-глюкозоэпимераза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Почечный порог для глюкозы в мМ/л:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "2-3 мМ/л",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4-5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "6-7",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "8-9",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Какова судьба водорода, отщепляемого в реакциях пентозного цикла:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поступает в дыхательную цепь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "взаимодействует с пируватом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "используется для различных синтезов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поступает в митохондрии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "При агликогенозе отсутствует фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликогенсинтетаза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гликогенфосфорилаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глюкозо-6-Фосфатаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гексокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Пентозо-фосфатный путь также называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дихотомический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "апотомический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глюкозо-аланиновый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цикл Кори",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Промежуточные продукты пентозофосфатного пути - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидрокортизон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эритрозо-4-фосфат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкозо-6-фосфат",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Общие продукты ПФП и гликолиза - это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фруктозо-6-фосфат",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эритрозо-4-фосфат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рибозо-5-фосфат",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глицеринальдегид-3-фосфат",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Связующим звеном между ПФП и гликолизом является образование:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эритрозо-4-фосфата",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фруктозо-6-фосфата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фруктозо-1,6-дифосфата",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Какой гормон, регулирующий концентрацию глюкозы в крови, вырабатывается бетта-клетками островков Лангерганса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инсулин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кортизол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альдостерон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Какой гормон, регулирующий концентрацию глюкозы в крови, вырабатывается альфа-клетками островков Лангерганса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкагон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кортизол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альдостерон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Какой гормон, регулирующий концентрацию глюкозы в крови, вырабатывается мозговым веществом надпочечников:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адреналин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кортизол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альдостерон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Какой гормон, регулирующий концентрацию глюкозы в крови, вырабатывается корковым веществом надпочечников:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кортизол",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "альдостерон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Какой гормон повышает содержание глюкозы в крови:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкагон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кортизол",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Какой гормон понижает содержание глюкозы в крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инсулин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кортизол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Какой гормон не изменяет содержание глюкозы в крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкагон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альдостерон",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кортизол",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Какой фермент катализирует реакцию \" глюкоза + АТФ = глюкозо-6-Ф + АДФ\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозо-6-Ф-ДГ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лактоназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пентозофосфатизомераза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гексокиназа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "6-Ф-глюконатДГ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Какой фермент катализирует реакцию \" глюкозо-6-Ф +НАДФ = НАДФНдва + 6-Ф-глюколактон\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозо-6-Ф-ДГ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лактоназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пентозофосфатизомераза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гексокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6-Ф-глюконатДГ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Какой фермент катализирует реакцию \"6-Ф-глюконовая кислота + НАДФ = НАДФ2 + рибулозо-5-Ф\"",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозо-6-Ф-ДГ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лактоназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пентозофосфатизомераза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гексокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6-Ф-глюконатДГ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Какой фермент катализирует реакцию \"рибулозо-5-Ф = рибоза-5-Ф\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозо-6-Ф-ДГ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лактоназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пентозофосфатизомераза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гексокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "6-Ф-глюконатДГ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Укажите тип регуляции активности фермента протеинкиназы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аллостерический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "присоединение и отщепление белка-ингибитора",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ограниченный протеолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фосфорилирование-дефосфорилирование",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "У больного гипергликемия, какому показателю уровня глюкозы в крови это соответствует",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "6,5 мМ/л глюкозы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,4 мМ/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4,5 мМ/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "80мг%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "24,5 мг%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "У больного нормальное содержание глюкозы в крови, это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "3,5 мМ/л глюкозы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2,4 мМ/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4,5 мМ/л",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "3,0 мМ/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "24,5 мг%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "У больного гипогликемия, какому показателю уровня глюкозы в крови это соответствует",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "6,5 мМ/л глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2,4 мМ/л",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3,7 мМ/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "80мг%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "3,0 мМ/л",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Главные функции углеводов",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "запасные питательные вещества",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "наследственная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "терморегуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энергетическая",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "биокаталитическая",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

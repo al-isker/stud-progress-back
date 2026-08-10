@@ -1,0 +1,1674 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "В составе скелетных мышц имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "пучки гладкомышечных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поперечно-полосатые мышечные волокна",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "плотная неоформленная соединительная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рыхлая соединительная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "жировая ткань",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В составе сарколеммы поперечнополосатого мышечного волокна имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "слой гладкомышечных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слой эпителиальных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "базальная мембрана",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пограничная мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плазмолемма",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Поперечную исчерченность миофибрилл обуславливает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вставочные пластинки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поперечно-ориентированные митохондрии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "складки сарколеммы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диски А и И",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "складки базальной мембраны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "В составе миофибрилл различают протофибриллы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "шероховатые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тонкие",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "промежуточные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "толстые",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Толстые протофибриллы в составе миофибрилл располагаются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дисках А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дисках И",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полосках Z",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "промежутках между дисками А и И",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "промежутках между полосками Z и дисками А",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Тонкие протофибриллы в составе миофибрилл располагаются в:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дисках А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дисках И",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полосках Z",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зонах перекрытия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "зонах И",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Z-полоски миофибрилл располагаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В зоне И",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на периферии дисков А",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "между дисками А и И",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в средней части дисков А",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в средней части дисков И",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Зоны-Н миофибрилл образуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только толстые протофибриллы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "только тонкие протофибриллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "толстые и тонкие протофибриллы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "части толстых и тонких протофибрилл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тонкие протофибриллы и полоски Z",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "В периферических участков дисков А располагаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только толстые протофибриллы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только тонкие протофибриллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "толстые и тонкие протофибриллы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "промежуточные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тонкие и промежуточные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Концы тонких протофибрилл прикреплены:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "к толстым протофибриллам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к зоне Н",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к полоске Z",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "располагаются в промежутках между толстыми",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "располагаются в промежутках между зонами Н",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Источником регенерации поперечно-полосатых мышечных волокон являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перициты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клетки сателлиты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стволовые клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вставочные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клетки базального слоя",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Клетки-сателлиты поперечно-полосатых мышечных волокон располагаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "между плазмолеммой и базальной мембраной",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "между базальной мембраной и слоем волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "между плазмолеммой и слоем волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "между двумя листками базальной мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "между двумя листками плазмолеммы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Атипичные сердечные мышечные клетки имеют особенности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "много миофибрилл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мало миофибрилл",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "много гранул гликогена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мало гранул гликогена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мало митохондриев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Гладкая мышечная ткань отличается от поперечнополосатой скелетной мышечной ткани по всем признакам, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иннервации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличия нексусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличия приклепительных и плотных телец",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличия сократительных миофиламентов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Сердечная мышечная ткань проявляет сходство со скелетной мышечной тканью по всем признакам, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие прослоек РСТ между пучками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обильной васкуляризации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечнополосатой исчерченности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клеточного строения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "оксифилии саркоплазмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Саркомером называют участок миофибрилла между:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мезофрагмами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Н-полосками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Z-полосками",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "И-дисками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "А-дисками",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Скелетная мышечная ткань развивается из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "висцерального листка мезодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миотомов сомитов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мезенхимы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейроглии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эктодермы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Гладкая мышечная ткань внутренних органов развиваются из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "висцерального листка мезодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миотомов сомитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мезенхимы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нейроглии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эктодермы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Сердечная мышечная ткань развивается из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "висцерального листка мезодермы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миотомов сомитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мезенхимы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейроглии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эктодермы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Миоэпителиальные клетки некоторых желез развиваются из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "висцерального листка мезодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миотомов сомитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мезенхимы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейроглии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эктодермы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Гладкие мышечные клетки радужки развиваются из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "висцерального листка мезодермы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миотомов сомитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мезенхимы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейроэктодермы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эктодермы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Движения изменение размера зрачка осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкими миоцитами мезенхимного происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гладкими миоцитами нейрального происхождения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поперечнополосатыми мышечными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечнополосатыми мышечными волокнами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Движения сокращения сердца осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкими миоцитами мезенхимного происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гладкими миоцитами нейрального происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечнополосатыми мышечными клетками",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "поперечнополосатыми мышечгыми волокнами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Движения слюноотделение осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкими миоцитами мезенхимного происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальными клетками",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гладкими миоцитами нейрального происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечнополосатыми мышечными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечнополосатыми мышечгыми волокнами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Движения сокращения матки осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкими миоцитами мезенхимного происхождения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гладкими миоцитами нейрального происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечнополосатыми мышечными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечнополосатыми мышечными волокнами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Движения перистальтика кишечника осуществляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкими миоцитами мезенхимного происхождения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечнополосатыми мышечными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечнополосатыми мышечными волокнами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гладкими миоцитами эктодермального происхождения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Движения изменение просвета сосудов осуществляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкими миоцитами мезенхимного происхождения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечнополосатыми мышечными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечнополосатыми мышечными волокнами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гладкими миоцитами эктодермального происхождения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Движения изменение просвета бронхов осуществляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкими миоцитами мезенхимного происхождения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечнополосатыми мышечными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечнополосатыми мышечными волокнами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гладкими миоцитами эктодермального происхождения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Движения тела осуществляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкими миоцитами мезенхимного происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гладкими миоцитами эктодермального происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечнополосатыми мышечными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечнополосатыми мышечными волокнами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Движения лактации осуществляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкими миоцитами мезенхимного происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальными клетками",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гладкими миоцитами эктодермального происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечнополосатыми мышечными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечнополосатыми мышечными волокнам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Клетки исчерченные миоциты локализуются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скелетной мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердечной мышечной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мышечной ткани внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эктодермальных железах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мышцах радужной оболочки глаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Клетки миоциты нейрального происхождения локализуются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скелетной мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердечной мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мышечной ткани внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эктодермальных железах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мышцах радужной оболочки глаза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Клетки миоэпителиальные локализуются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скелетной мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердечной мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мышечной ткани внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эктодермальных железах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мышцах радужной оболочки глаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Клетки мышечное волокно локализуются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скелетной мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердечной мышечной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мышечной ткани внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эктодермальных железах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мышцах радужной оболочки глаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Основным морфофункциональным свойством гладкой мышечной ткани является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разнообразие клеточных форм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хорошо развитое межклеточное вещество",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "способность к длительному (тоническому) сокращению",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие клеток-сателлитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способность осуществлять обменные реакции и поддерживать гомеостаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Сердечная мышечная ткань проявляет сходство со скелетной мышечной тканью по всем признакам, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличия соединительнотканных прослоек между пучками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обильной васкуляризации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поперечнополосатой исчерченности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клеточного строения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "оксифилии саркоплазмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Для поперечнополосатой скелетной мышечной ткани характерны все признаки, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клеточного строения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "происхождения из клеток миотомов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличия специальных органелл – миофибрилл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличия в миосимпласте значительного количества ядер",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличия клеток саттелитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Между мышечными волокнами находятся прослойки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плотной волокнистой соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировой ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретикулярной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рыхлой волокнистой соединительной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "плотной неоформленной соединительной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Миоэпителиальные клетки участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в регенерации мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в выделении секрета из секреторных отделов железа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в формировании миофибрилл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в деполяризации плазматической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в депонировании ионов кальция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "В состав миофибрилл не входят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активные миофиламенты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миозиновые миофиламенты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Z-линии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вставочные диски",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "М-линии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Основным структурным элементом скелетной мышечной ткани является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мышечное волокно",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миофибрилла",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гладкий миоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миосателлитоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "саркомер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Сарколемма мышечного волокна образована:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "базальной мембраной, ретикулярными и коллагеновыми волокнами, плазмолеммой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "миосателлитоцитами и пламолемой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миофибриллами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "втавочными дисками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "телофрагмами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Прослойки рыхлой соединительной ткани между отдельными мышечными волокнами называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпимизий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перимизий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндомизий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эндотоний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эндоневрий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "В состав саркомера входят :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вставочные диски",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "триады",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "один А диск и две половины I диска",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "две актиновые и одна миозиновая нить",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "телофрагма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Миофибриллы построены из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "упорядоченно расположенных нитей актина и миозина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Т-трубочек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вставочных дисков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "телофрагм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "терминальных цистерн гладкой ЭПС",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Клетки в средней оболочке сосуда, имеющие веретеновидную форму с расположенным в центре ядром, называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кардиомиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миосателлитоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гладкие миоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "миоэпителиальные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миосимпласт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Клетка звездчатой формы с отростками, охватывающими концевой отдел железы, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миосателлитоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мократительный сердечный миоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миосимпласт",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миоэпителиальная клетка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гладкий миоцит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Волокна, имеющие мало миофибрилл, много саркоплазмы и миоглобина, с высокой активностью окислительных ферментов, называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "красные мышечные волокна скелетной мышечной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "белые мышечные волокна скелетной мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "промежуточные мышечные волокна скелетной мышечной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гладкие миоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кардиомиоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "В состав стенки желудка, кишки, мочевого пузыря входит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поперечнополосатая скелетная мышечная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поперечнополосатая сердечная мышечная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гладкая мышечная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "миосателлитоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "миоэпителиальные клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "При повреждении скелетной мышечной ткани ее регенерация будет осуществляться за счет деяния:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладких миоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миобластов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миоэпителилаьных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "миосателлитоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мышечных трубочек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Для кардиомиоцита верно все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цилиндрической формы клетка с разветвленными концами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие одного или двух центрально расположенных ядер",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие мифоибрилл ив них толстых и тонких нитей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие вставочных дисков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие многочисленных ядер",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "В процессе сокращения мышечного волокна происходит все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "деполяризации мембраны мышечного волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "связывания Са тропонином С",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разблокирования миозинсвязывающих участков актиновой нити, с последующим прикреплением к ней головок миозина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скольжения тонких нитей, вызывающих смещение Z-линий, с последующим сокращением саркомера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "регенерации мышечного волокна",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

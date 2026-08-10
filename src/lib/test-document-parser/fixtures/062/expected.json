@@ -1,0 +1,1634 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Блок схема современных компьютеров функционально включает следующие части:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устройство ввода и вывода, память, процессор;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "память, процессор, устройство ввода и вывода, устройство управления;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "арифметико-логическое устройство, устройство ввода и вывода, процессор;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "устройство управления, монитор, устройство ввода и вывода, процессор.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Память современных ЭВМ подразделяется на самостоятельные блоки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутренняя (основная) память, внешняя память;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полупроводниковая электронная память, оптическая память;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оптическая память, магнитная память;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оперативная память, внутренняя память.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Из каких основных частей состоит процессор?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "арифметико-логическое устройство, устройство управления;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "устройство управления, устройство отображения информации, память;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "арифметико-логическое устройство, устройство отображения информации;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "генератор разрядности и устройство управления.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Устройство, обрабатывающее информацию - это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "процессор;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оперативная память;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внешняя память;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "монитор.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Дисковод - это устройство:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для чтения и записи информации;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для обработки информации;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для долговременного хранения информации;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "только для чтения информации.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Подключение дисплея к системному блоку осуществляется через:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "видео плату;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "материнскую плату;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интерфейсную плату;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "системную плату.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Минимально необходимый набор аппаратных средств ПК обязательно включает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "монитор;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дигитайзер;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стример;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "модем.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Минимально необходимый набор аппаратных средств ПК состоит из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "монитора, системного блока, клавиатуры;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "винчестера, «мыши», процессора;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "принтера, клавиатуры, дисководов, ОЗУ;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "монитора, процессора, клавиатуры.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Куда подключаются ZIP накопители внутреннего исполнения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к контроллеру жестких дисков материнской платы;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к стандартному последовательному порту;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к стандартному параллельному порту;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к свободному слоту материнской платы;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к видеоадаптеру.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Куда подключаются ZIP накопители внешнего исполнения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к стандартному параллельному порту;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к контроллеру жестких дисков материнской платы;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к стандартному последовательному порту;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к свободному слоту материнской платы;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к видеоадаптеру.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "К устройствам ввода текстовой информации относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клавиатура;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "текстовый редактор;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экран дисплея;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дискета;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "жесткий магнитный диск.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Устройство для ввода с листа бумаги документов называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сканер;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "драйвер;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стример;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плоттер.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Устройство для вывода на бумагу чертежей и рисунков называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плоттером.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "принтером;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сканером;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стримером;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какую клавишу надо нажать, чтобы завершить ввод команды?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Enter;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Esc;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ctrl;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Caps Lock;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Home.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Какие клавиши следует нажать, чтобы перезагрузить компьютер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ctrl-Alt-Del;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Alt-Del-Shift.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "F1;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ctrl-z;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Alt;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Для чего используется клавиша Page Up?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для перемещения курсора на страницу вверх;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для перемещения курсора на страницу вниз;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для перемещения курсора на строку вниз;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для перемещения курсора на строку вверх.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Для чего используется клавиша Caps Lock?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фиксирует режим прописных букв;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "переключает латинский регистр на русский и наоборот;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "осуществляет переход между панелями Norton Commander;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "используется при редактировании текста;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Назначение клавиши ТАВ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "установка курсора на определенную позицию;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "удаление символа слева от курсора;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перемещение курсора влево на одну позицию;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перемещение курсора вверх или вниз на одну позицию.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Для чего используется клавиша Backspace?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "удаление символа слева от курсора;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "удаление символа справа от курсора;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "удаление текущего символа;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет нужного ответа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какая клавиша используется для отмены текущего действия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Esc;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "trl;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Caps Lock;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Alt.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Как вывести содержимое экрана на принтер?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Shift-Print Screen.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Ctrl-C;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Esc;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Print Screen;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Для чего используется клавиша Page Down?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для перемещения курсора на страницу вниз;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для перемещения курсора на позицию влево;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для перемещения курсора на позицию вправо;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для перемещения курсора на страницу вверх.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Для чего используется клавиша Shift?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для перехода на заглавные буквы или набор символов, находящихся в верхней части клавиш",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для переключения режима Вставка-Замена;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для включения вспомогательной клавиатуры;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для распечатки на принтере изображения, находящегося в данный момент на экране монитора.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Для чего используется клавиша Insert?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для переключения режима Вставка-Замена;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для перехода на заглавные буквы или набор символов, находящихся в верхней части клавиш;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для включения вспомогательной клавиатуры;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для распечатки на принтере изображения, находящегося в данный момент на экране монитора.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Для чего используется клавиша NumLock?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для включения вспомогательной клавиатуры;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для перехода на заглавные буквы или набор символов, находящихся в верхней части клавиш;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для переключения режима Вставка-Замена;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для распечатки на принтере изображения, находящегося в данный момент на экране монитора.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Для чего используется комбинация клавиш Shift-Print Screen?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для распечатки на принтере изображения, находящегося в данный момент на экране монитора.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для перехода на заглавные буквы или набор символов, находящихся в верхней части клавиш;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для переключения режима Вставка-Замена;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для включения вспомогательной клавиатуры;",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Для чего используется клавиша Page Up?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для перемещения курсора на страницу вверх.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для перемещения курсора на позицию влево;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для перемещения курсора на позицию вправо;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для перемещения курсора на страницу вниз.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "3-мерный (3D) сканер предназначен для?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "автоматической цифровой фотосьемки объекта с разных ракурсов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "быстрого сканирования большого количества печатных текстов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "создания 3-мерных объектов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "создания цифровой пространственной модели объекта",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Веб-камера содержит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "видеопамять, сетевой адаптер, блок питания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "манипулятор, универсальный последовательный интерфейс,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "объектив, фотоматрицу, микросхему компрессии изображения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сенсоры, фотоумножитель, электродвигатель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Интерфейс USB (Universal Serial Bus) используется для?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обмена данными между компьютером и периферийными устройствами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подключения сменных носителей информации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подачи напряжения +5В на подключаемые устройства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Как называется устройство для трансляции в компьютер видеосигнала?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Веб-камера",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Графический планшет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Сканер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ТВ-тюнер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Как называется устройство для ввода в компьютер рисунка от руки?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Веб-камера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Графический планшет",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Сканер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ТВ-тюнер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Что делает процессор (CPU)?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Получает данные из памяти",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Выполняет операции с данными",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Записывает результаты в память",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Жесткий диск (HDD)?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Хранит файлы с данными или программами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Сохраняет данные только когда компьютер включен",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Выполняет операции с данными",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Формирует видеосигнал для монитора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Что делает видеокарта (графическая плата, videocard)?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Формирует видеосигнал для монитора",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Выполняет дополнительную обработку изображения на встроенном процессоре",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Хранит изображение, созданное и изменяемое графическим процессором",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Материнская плата (motherboard)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Содержит набор микросхем (chipset)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "На ней закрепляется процессор и оперативная память",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Содержит разъёмы (слоты) для подключения других плат (устройств)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Материнская плата (motherboard)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Позволяет подключить компьютер к локальной сети",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Содержит разъёмы (слоты) для подключения других плат (устройств)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Обрабатывает звуковой сигнал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Преобразует изображение из памяти в видеосигнал для монитора",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Сетевая карта (LAN adapter)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Позволяет подключить компьютер к локальной сети",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Содержит разъёмы (слоты) для подключения дополнительных плат (устройств)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Обрабатывает звуковой сигнал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Преобразует изображение из памяти в видеосигнал для монитора",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Звуковая плата (аудиокарта, sound card)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Позволяет подключить компьютер к локальной сети",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Содержит разъёмы (слоты) для подключения дополнительных плат (устройств)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Обрабатывает звуковой сигнал",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Преобразует изображение из памяти в видеосигнал для монитора",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Звуковая плата (аудиокарта, sound card)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Записывает звуковой сигнал с микрофона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Обрабатывает звуковой сигнал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Выводит звуковой сигнал на колонки или наушники",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Системная шина (computer bus)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Передаёт данные между блоками компьютера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Позволяет подключить несколько устройств с помощью одного набора проводов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Имеет заданные разъёмы (коннекторs) для подключения блоков компьютера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Сетевая карта (LAN adapter)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Хранит файлы с данными или программами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Передаёт данные между блоками компьютера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Позволяет подключить компьютер к локальной сети",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Позволяет подключить компьютер к телефонной линии (проводной или сотовой)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Какое устройство хранит файлы с данными или программами?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Видеокарта (графическая плата, videocard)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Жесткий диск (HDD)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Оперативная память (RAM)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Процессор (CPU)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Современный процессор (CPU) содержит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Несколько процессорных ядер в одном корпусе (на одном или нескольких кристаллах).",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дополнительную быстродействующую память (кэш)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Большое число контактов для соединения с материнской платой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "К важнейшим характеристикам процессора (CPU) относится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Количество процессорных ядер",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Количество кеш-памяти",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Тактовая частота работы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Разъем (сокет, слот) для установки на материнскую плату",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Материнская плата может содержать",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Интегрированные устройства (видео, аудио, сеть)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Загерметизированную зону для защиты от пыли",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Несколько магнитных головок для записи и чтения данных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Нет верного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "К важнейшим характеристикам материнской платы (motherboard) относится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Набор микросхем (chipset) который в ней использован",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Наличие интегрированных устройств (видео, аудио, сеть)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Какие процессоры можно установить на нее",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Жесткий диск (HDD) содержит",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Вращающиеся пластины, которые можно намагничивать",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Кеш-память для ускорения работы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Загерметизированную зону для защиты от пыли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Несколько магнитных головок для записи и чтения данных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "К важнейшим характеристикам жесткого диска (HDD) относится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Типы поддерживаемых процессоров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Частота работы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Количество разрядов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Емкость (в Гига или Терабайтах)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Сетевые карты (LAN adapter) содержат?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Разъём для подключения к локальной сети",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Набор микросхем (chipset)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кеш-память для ускорения работы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Загерметизированную зону для защиты от пыли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "К важнейшим характеристикам сетевой карты (LAN adapter) относится?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Скорость передачи данных",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Технологический процесс производства, определяющий масштаб полупроводниковых элементов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Типы поддерживаемых процессоров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Емкость (количество) памяти (в Мега или Гигабайтах)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "В какой части компьютера обычно нет движущихся частей?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Блок питания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Жесткий диск",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Оперативная память",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Система охлаждения процессора",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Какая часть компьютера обычно нуждается в охлаждении?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Процессор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Блок питания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Видеокарта с мощным графическим процессором",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Какая часть компьютера обычно не нуждается в охлаждении?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Оптический привод",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Звуковая карта",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Сетевая карта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Жесткий диск",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Что влияет на производительность (скорость работы) компьютера?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Частота и разрядность системной шины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Частота и количество ядер процессора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Количество и частота оперативной памяти",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Все ответы верны",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Размер экрана монитор измеряется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В дюймах по вертикали и горизонтали",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В пикселях по вертикали и горизонтали",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В дюймах по диагонали",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "В пикселях по диагонали",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В градусах и килогерцах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Разрешение экрана монитора измеряется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В дюймах по вертикали и горизонтали",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В пикселях по вертикали и горизонтали",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "В дюймах по диагонали",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В пикселях по диагонали",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В градусах и килогерцах",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

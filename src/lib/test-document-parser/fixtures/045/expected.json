@@ -1,0 +1,2850 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Ингибиторы синтеза белка все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "актиномицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стрептомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритромицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инсулин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тетрациклины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Регулируют синтез белка все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ген-регулятор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оператор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "репрессор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "структурные гены",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "промотор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Аминокислотный обмен нарушен при всех заболеваниях, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фенилкетонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альбинизм",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "алкаптонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "галактоземия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тирозинемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Образование полипептидной цепи проходит все стадии, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "элонгация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инициация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "транскрипция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "терминация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Элонгация включает в себя стадии:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "связывание мРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспептидация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "транслокация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "транскрипция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "терминация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Углеводный обмен нарушен при всех перечисленных заболеваниях, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "болезнь Гирке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "болезнь Помпе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альбинизм",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "болезнь Мак-Ардля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "болезнь Херса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Аминокислоту \"узнает\" фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "РНК-зависимая-ДНК-полимераза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ДНК-зависимая-РНК-полимераза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аминоацил-тРНК-синтетаза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "топоизомераза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хеликаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Свободные аминокислоты активируют фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "РНК-полимераза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндонуклеаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ДНК-лигаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аминоацил-тРНК-синтетаза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "топоизомераза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "К посттрансляционным изменениям белков относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "полный протеолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образование функционально активных белков",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ограниченный протеолиз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "белки синтезируются в виде предшественников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "формирование первичной структуры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Матрица, на которой синтезируются специфические белки-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибосома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иРНК",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ДНК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Репарацию ДНК осуществляет фермент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "топоизомераза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ДНК-зависимая-РНК-полимераза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ДНК-хеликаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ДНК-лигаза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Транскрипцию гена блокируют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "индуктор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ген-регулятор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оператор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белок-репрессор",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "промотор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "С промотором соединяется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ДНК-полимераза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гираза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "РНК-полимераза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хеликаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ревертаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "С белком-репрессором соединяется и делает его неактивным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ген-оператор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "промотор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "регулятор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "индуктор",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Белок-репрессор блокирует транскрипцию, соединяясь с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "промотором",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "геном-оператором",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "регулятором",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "индуктором",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "структурным геном",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "В образовании инициаторного комплекса участвуют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ГТФ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "формилметионил-тРНК",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ген-регулятор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "индуктор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "структурный ген",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Адапторную функцию выполняет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тРНК",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "иРНК синтезируется с помощью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "топоизомеразы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "РНК-зависимой-ДНК-полимеразы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ДНК-полимеразы-Ш",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ДНК-зависимой-РНК-полимеразы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "аминоацил-тРНК-синтетаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Генетический код состоит из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одного нуклеотида",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "двух нуклеотидов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трех нуклеотидов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "четырех нуклеотидов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пяти нуклеотидов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Образование полирибосом способствует:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "замедлению синтеза белка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "понижению эффективности использования мРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ингибирование трансляции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ускорению синтеза белка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "активирование трансляции",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Транскрипцию ингибируют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гексокиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "актиномицин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ген-оператор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Трансляцию ингибируют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дезоксиаденозин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эритромицин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дезоксиурацил",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инсулин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Процессинг мРНК ингибирует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритромицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "олифомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3-дезоксиаденозин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тетрациклин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Кодон-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "последовательность двух азотистых оснований в нукл.кислоте",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "последовательность трех азотистых оснований в нукл.кислоте",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "последовательность четырех азотистых оснований в нукл.кислоте",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "одно азотистое основание в нуклеиновой кислоте",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Трансляция - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез РНК на матрице ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтез ДНК на ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синтез ДНК на матрице РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синтез белка на матрице иРНК",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Транскрипция-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез белка по матрице иРНК в рибосоме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтез ДНК на матрице РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синтез РНК на матрице ДНК",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синтез ДНК на матрице ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Вырожденность кода-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соответствие линейной последовательности кодонов мРНК и аминокислот в белке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отдельные аминокислоты имеют несколько кодонов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "каждой аминокислоте соответствует тройка нуклеотидов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "каждый из триплетов генетического текста независим друг от друга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "каждой аминокислоте соответствует только определенный кодон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Трансляция включает в себя:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "инициация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "транскрипция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "репликация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "терминация",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Скопления рибосом на мРНК - это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "полипептиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полисомы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пептиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полирибосомы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "промотор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Триплетность кода-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соответствие линейной последовательности кодонов мРНК и аминокислот в белке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отдельные аминокислоты имеют несколько кодонов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "каждой аминокислоте соответствует тройка нуклеотидов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "каждый из триплетов генетического текста независим друг от друга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "каждой аминокислоте соответствует только определенный кодон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Сегменту ДНК дТ-А-Г-Ц-Ц-А-Г-Т комплементарна следующая последовательность:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дА-Т-Ц-Г-Г-Т-Ц-А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дЦ-А-Г-Т-Т-А-Г-Ц",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дЦ-Г-А-Т-Т-Г-А-Ц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дГ-Ц-Т-А-А-Ц-Т-Г дГ-Ц-Т-А-А-Ц-Т-Г",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Синтез белка усиливают все вещества, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анаболические стероиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стрептомицин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "инозин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оротат калия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Синтез белка происходит в направлении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "СООН - - - - - - - NH2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "3'- - - - - - 3'",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "NH2 - - - - - - - COOH",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "3' - - - - - - - 5'",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Минорными называются все перечисленные азотистые основания /необычные, содержащиеся в небольших количествах в тРНК/, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метилцитозин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "оксиметилцитозин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дигидроурацил",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "псевдоуридин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "урацил",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Главными пуриновыми и пиримидиновыми азотистыми основаниями являются все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аденин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "урацил",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гаунин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дигидроурацил",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "цитозин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "В биосинтезе ДНК участвуют все ферменты, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ДНК-полимераза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "праймаза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ДНК-лигаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндонуклеаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пептидилгидролаза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Предшественниками при биосинтезе ДНК являются все нуклеозидтрифосфаты, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дГТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дАТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дТТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дУТФ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дЦТФ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Предшественниками при биосинтезе РНК являются все нуклеозидтрифосфаты, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "АТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ГТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ТТФ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "УТФ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ЦТФ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Репликация ДНК включает в себя все перечисленные этапы, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "элонгация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инициация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трансляция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "терминация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полимеризация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Что является структурной единицей нуклеиновых кислот:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нуклеозид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полинуклеотид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мононуклеотид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "азотистое основание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фосфорная к-та",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Адапторную роль при трансляции выполняет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тРНК",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Основное место локализации ДНК в клетке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цитоплазма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ядро",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эндоплазматическая сеть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "митохондрии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Функции нуклеиновых кислот:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "являются структурными компонентами клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участвуют в биосинтезе белка регуляторная функция",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обеспечивают хранение и передачу наследственной информации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "являются кофакторами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Какой фермент катализирует биосинтез ДНК на матрице РНК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ДНК-зависимаяРНКполимераза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ДНКполимераза 1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ДНКполимераза III",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "топоизомераза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обратная транскриптаза",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Синтез белка ингибируют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пуромицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "все перечисленные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "актиномицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тетрациклин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритромицин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "\"Считывание\" генетического кода, т.е. формирование иРНК, начинается с :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гена-оператора",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гена-регулятора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участка ДНК, являющегося точкой инициации для синтеза иРНК",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "промотора",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "белка репрессора",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Какой фермент является основным при репликации ДНК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ДНКполимераза II",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ДНКполимераза 1",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ДНК зависимая ДНК полимераза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ДНКлигаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ДНКтопоизомераза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Как называется биосинтез РНК на матрице ДНК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "репликация РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "репликация ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "транскрипция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обратная транскрипция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансляция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Оперон - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "все неверно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хромосомная ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "координированный одним оператором одиночный ген или группа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "структурных генов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "координированный одним оператором одиночный цистрон",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "промотор и олигорибонуклеотид",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Назовите способ репликации ДНК в живых организмах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дисперсный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "консервативный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полуконсервативный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полудисперсный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Антикодон тРНК комплементарен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кодону рРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кодону ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кодону иРНК",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пептиду",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "про-РНК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Праймер - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мононуклеотид",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тринуклеотид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "динуклеотид",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "олигорибонуклеотид",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Созревание иРНК - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "транскрипция",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трансляция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "репликация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "процессинг",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Репликация - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез ДНК на матрице РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтез ДНК на матрице ДНК",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтез белка на матрице РНК в рибосоме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синтез РНК на матрице ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Репарация - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ограниченная репликация РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "исправление поврежденных участков РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поврежденные участки ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ограниченная репликация ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "исправление поврежденных участков одной из цепей ДНК",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Экзоны - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некодирующие участки про-иРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "некодирующие участки ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кодирующие участки тРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кодирующие участки про-иРНК",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Интроны - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некодирующие участки про-иРНК",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "некодирующие участки тРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кодирующие участки ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кодирующие участки про-иРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Мутация - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изменение генетической программы нуклеиновых кислот",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изменение генетической программы РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изменение структуры тРНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменение генетической программы ДНК",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Если сегмент ДНК имеет структуру дЦ-А-Г-Т-Т-А-Г-Ц, какая из перечисленных последовательностей ему комплементарна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дГ-Т-Ц-А-А-Т-Ц-Г",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дГ-Ц-А-Т-Г-Ц-Т-Г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дЦ-Г-А-Т-Т-Г-А-Ц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дТ-А-Г-Ц-Ц-А-Г-Т",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дЦ-А-Г-Т-Т-А-Г-Ц",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Предвестниками диабетической комы являются",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "кетоацидоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аминоацидурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кетонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дегидратация тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "полиурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "В состав ДНК входят все перечисленные азотистые основания, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аденин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гуанин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитозин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "урацил",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "В состав РНК входят все перечисленные азотистые основания, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аденин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гуанин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "цитозин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "урацил",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Первичная структура нуклеиновых кислот стабилизиравана связями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "водородная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пептидная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3/,5/-фосфодиэфирная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дисульфидная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гликозидная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Вторичная структура нуклеиновых кислот стабилизирована связями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "водородная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пептидная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3,5-фосфодиэфирная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5,3-фосфодиэфирная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гликозидная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "В каком направлении идет синтез новых цепей ДНК",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3' - - - - - 5'",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "5' - - - - - 3'",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "NH2 - - - - - - COOH",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "COOH - - - - - - NH2 ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Если в одной цепи последовательность нуклеотидов имеет структуру А-Г-Т- Ц -А, то в другой цепи соответственно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т– Ц – А - Г - Т",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Г-Ц-А-Т-Г-Ц-Т-Г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ц-Г-А-Т-Т-Г-А-Ц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Т-А-Г-Ц-Ц-А-Г-Т",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ц-А-Г-Т-Т-А-Г-Ц",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Что входит в состав и имеет отношение к структуре ДНК ~%50%азотистые основания",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фосфорная кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Что входит в состав структуры РНК",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибоза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дезоксирибоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фосфорная кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Если содержание цитозина в двойной спирали ДНК составляет 20%, то аденина должно содержаться:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Если содержание цитозина в двойной спирали ДНК составляет 10%, то аденина должно содержаться:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Если содержание цитозина в двойной спирали ДНК составляет 30%, то аденина должно содержаться:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Если содержание цитозина в двойной спирали ДНК составляет 40%, то аденина должно содержаться:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Если содержание аденина в двойной спирали ДНК составляет 10%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Если содержание аденина в двойной спирали ДНК составляет 20%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Если содержание аденина в двойной спирали ДНК составляет 30%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Если содержание аденина в двойной спирали ДНК составляет 40%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Если содержание аденина в двойной спирали ДНК составляет 50%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Если содержание гуанина в двойной спирали ДНК составляет 10%, то сколько будет тимина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Если содержание гуанина в двойной спирали ДНК составляет 20%, то сколько будет тимина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Если содержание гуанина в двойной спирали ДНК составляет 30%, то сколько будет тимина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Если содержание гуанина в двойной спирали ДНК составляет 40%, то сколько будет тимина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Если содержание гуанина в двойной спирали ДНК составляет 50%, то сколько будет тимина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Если содержание тимина в двойной спирали ДНК составляет 10%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Если содержание тимина в двойной спирали ДНК составляет 20%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Если содержание тимина в двойной спирали ДНК составляет 30%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Если содержание тимина в двойной спирали ДНК составляет 40%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Если содержание тимина в двойной спирали ДНК составляет 50%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Если содержание тимина в двойной спирали ДНК составляет 50%, то сколько будет аденина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Если содержание гуанина в двойной спирали ДНК составляет 50%, то сколько будет цитозина",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "30%",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "40%",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "50%",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Что с собой представляет праймаза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "фермент",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ингибитор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синтезирует олигорибонуклеотид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активатор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все неверно",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

@@ -1,0 +1,1655 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Укажите нормальную частоту пульса взрослого пациента за одну минуту",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "40 - 50;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "60 - 80;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "70 - 90;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "50 - 70;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "90 – 100",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Если пульс у тяжелобольного не определяется на лучевой артерии, то медсестра обязана попробовать определить его на артерии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тыла стопы;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подколенной;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сонной;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "височной;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "локтевой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Какими пальцами пальпируют пульсирующую лучевую артерию при исследовании пульса?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первым пальцем;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первым и вторым;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вторым и третьим;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вторым, третьим, четвертым;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вторым, третьим, четвертым и пятым",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Пульс ритмичный у взрослого пациента определяют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "за одну минуту;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "за 30 секунд, умножая результат на два;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "за 15 секунд, умножая результат на четыре;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "за 10 секунд, умножая результат на шесть;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "за 6 секунд, умножая результат на десять",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Пульс аритмичный у взрослого пациента определяют",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "за одну минуту;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "за 30 секунд, умножая результат на два;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "за 15 секунд, умножая результат на четыре;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "за 10 секунд, умножая результат на шесть;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "за 6 секунд, умножая результат на десять",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Места определения пульса все, кроме",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сонной артерии;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "височной артерии;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лучевой артерии;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "брюшной аорты;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "артерии тыла стопы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Какое условие обязательно должно быть соблюдено перед стандартным измерением артериального давления",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 1-2 часа после еды;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через 1 час после курения;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 1 час после приема кофе;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через 2 часа после водных процедур;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все выше перечисленные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Стандартное измерение артериального давления проводят",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через 1-2 часа после еды;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через 1 час после курения;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 1 час после приема кофе;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "после 10 минутного отдыха;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "всё перечисленное верно",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Какое оборудование используют для измерения артериального давления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тонометр;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "термометр;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "динамометр;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спирометр;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фонендоскоп",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Каким прибором выслушиваются тоны на плечевой артерии при измерении артериального давления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пальпируются пальцами;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фонендоскопом;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тонометром;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пикфлоуметром;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "термометром",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Выберите правильное утверждение. Манжету прибора для измерения артериального давления необходимо закреплять",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чтобы между манжеткой и плечом не проходило ни одного пальца;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чтобы между манжеткой и плечом проходило 2 пальца;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "чтобы между манжеткой и плечом проходил 1 палец;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "манжетка туго должна обхватывать плечо;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не имеет значения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Каково правильное положение руки больного при измерении артериального давления",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "согнута в локтевом суставе, ладонью вверх;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "согнута в локтевом суставе, ладонью вниз;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разогнута в локтевом суставе ладонью вниз;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разогнута в локтевом суставе ладонью вверх;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рука опущена вниз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Выберите правильное утверждение. Манжету прибора для измерения артериального давления необходимо закреплять",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чтобы между манжеткой и плечом не проходило ни одного пальца;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чтобы между манжеткой и плечом проходило 2 пальца;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "чтобы между манжеткой и плечом проходил 1 палец;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "манжетка туго должна обхватывать плечо;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не имеет значения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Каково правильное положение руки больного при измерении артериального давления",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "согнута в локтевом суставе, ладонью вверх;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "согнута в локтевом суставе, ладонью вниз;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разогнута в локтевом суставе ладонью вниз;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разогнута в локтевом суставе ладонью вверх;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рука опущена вниз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Нормальные цифры систолического артериального давления по классификации ВОЗ (мм.рт. ст.)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "120 - 130;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "120 - 129;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "100 - 110;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "70 - 80;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "40 – 50",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Физиологическая температура тела пациента чаще бывает ниже",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "утром",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в обед",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вечером",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ночью",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не изменяется в течение суток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Выберите время измерения температуры в подмышечной впадине ртутным термометром",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10 минут",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "7 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "15 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "20 минут",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Перед измерением температуры тела подмышечную впадину следует",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "осмотреть и насухо вытереть",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обмыть водой и вытереть",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "протереть спиртом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "только осмотреть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протереть любым кожным антисептиком",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "При подсчёте частоты дыхательных движений учитывается только количество",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вдохов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выдохов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "задержки на вдохе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задержки на выдохе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "При измерении артериального давления медсестра услышала появление тонов Короткова (систолическое давление), а диастолическое определить не смогла. В чём причина?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слишком мало воздуха в манжете",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слишком плотно прижата головка фонендоскопа к плечевой артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "слишком много воздуха в манжете",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слишком быстро выпущен воздух из манжеты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "несоответствие размера манжеты и окружности плеча",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какими пальцами пальпируют пульсирующую лучевую артерию при исследовании пульса?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "первым пальцем",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "первым и вторым",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вторым и третьим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вторым, третьим, четвертым",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вторым, третьим, четвертым и пятым",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Для проведения регистрации электрокардиограммы следует попросить пациента",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "оголить предплечья и голени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полностью раздеться",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "освободить от одежды вернюю часть туловища ( до пояса) , нижнююю часть голеней и предплечий",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Грудной электрод V1 или C1 следует устанавливать",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4 межреберье слева от грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2 межреберье справа от грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5 межреберье по передней подмышечной линии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4 межреберье справа от грудины",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Электрокардиография это",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Метод исследования морфологических и функциональных изменений сердца и его клапанного аппарата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Метод исследования циркуляции крови в кровянном русле",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Метод исследования сердечно- сосудистой системы , при котором происходит регистрация электрической активности сердца",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "При записи ЭКГ на правую руку накладывают электрод",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зеленый",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желтый",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "красный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "черный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Место установки грудного электрода при записи отведения V4",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "межреберье справа от грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "4 межреберье слева от грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5 межреберье слева от грудины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5 межреберье по левой среднеключичной линии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "При записи ЭКГ на правую ногу накладывается электрод:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зеленого цвета",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желтого цвета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "черного цвета",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "красного цвета",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "При записи ЭКГ грудной V3 электрод располагается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у левого края грудины в IV межреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "между электродами V2 и V4",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "по левой срединно- ключичной линии в V межреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по левой передней подмышечной линии на уровне электрода V4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "При записи ЭКГ грудной V4 электрод располагается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "у левого края грудины в IV межреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "у правого края грудины в IV межреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по левой срединно- ключичной линии в V межреберье",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "по передней подмышечной линии в VI межреберье",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "При записи ЭКГ грудной V5 электрод располагается по левой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "срединно-ключичной линии в V межреберье",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передней подмышечной линии на уровне электрода V4",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "средней подмышечной линии на уровне электрода V4",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задней подмышечной линии на уровне электрода V4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Диастолическим давлением называется",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "давление, поддерживаемое в артериях благодаря их тонусу во время расслабления желудочков сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "артериальное давление, возникающее в момент максимального подъема пульсовой волны после сокращения желудочков сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разница между систолическим и диастолическим давлением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сумма систолического и диастолического давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Выберете одно из свойств пульса",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "напряжение;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гипотония;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тахипноэ;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атония;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дистония.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "О каком показателе артериального давления мы можем судить при исчезновении тонов Короткова над плечевой артерией?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пульсовое давление;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диастолическое давление;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "систолическое давление;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артериальное давление;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рабочее давление.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "К параметрам, определяющим величину артериального давления, относят",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сила сокращений сердца;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "частота сокращений сердца;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тонус стенки артерий;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "от физической нагрузки;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "возраст пациента.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Основные мероприятия при выведении из клинической смерти",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дать понюхать нашатырный спирт",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проведение искусственной вентиляции легких (ИВЛ)",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "проведение закрытого массажа сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "одновременное проведение ИВЛ и закрытого массажа сердца",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "При проведении непрямого массажа сердца компрессию на грудину взрослого человека производят",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "всей ладонью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проксимальной частью ладони",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тремя пальцами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "одним пальцем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Соотношение дыханий и компрессий на грудину при проведении реанимации взрослому человеку одним лицом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 1 вдох - 5 компрессий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на 2 вдоха - 4 компрессии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на 3 вдоха - 6 компрессий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на 2 вдоха - 30 компрессий",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "При остановке сердца применяется сочетание препаратов",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атропин, мезатон, гидрокарбонат натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эуфиллин, калия хлорид, гидрокарбонат натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "адреналин, атропин, гидрокарбонат натрия, кальция хлорид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кальция хлорид, лидокаин, мезатон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "При проведении закрытого массажа сердца поверхность, на которой лежит пациент, обязательно должна быть",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жесткой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мягкой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наклонной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "неровной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "«Тройной» прием для обеспечения свободной проходимости дыхательных путей включает",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положение на спине, голова повернута на бок, нижняя челюсть выдвинута вперед",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "под лопатки подложен валик, голова отогнута кзади, нижняя челюсть выдвинута вперед",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "положение на спине, голова согнута кпереди, нижняя челюсть прижата к верхней",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "положение на спине, под лопатки подложен валик, нижняя челюсть прижата к верхней",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Признак эффективности реанимационных мероприятий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие экскурсий грудной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "зрачки широкие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие пульсовой волны на сонной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появление пульсовой волны на сонной артерии, сужение зрачков",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Соотношение дыханий и компрессий на грудину при проведении реанимации взрослому человеку двумя лицами",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 1 вдох - 2 компрессии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на 1 вдох - 10 компрессий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на 1 вдох - 5 компрессий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на 2 вдоха - 15 компрессий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "ИВЛ новорожденному желательно проводить",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "методом «изо рта в рот»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с помощью маски наркозного аппарата",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "методом «изо рта в нос»",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндотрахеальным способом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Продолжительность проведения аппаратной ИВЛ при реанимации, если не появляется спонтанное дыхание",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "15 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "решается коллегиально, через несколько дней",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Для предупреждения западения корня языка при проведении реанимации голова пострадавшего должна быть",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повернута на бок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "запрокинута назад",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "согнута вперед",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в исходном положении",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Продолжительность клинической смерти в условиях нормотермии",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-2 минуты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "5-7 минут",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "25-30 минут",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "8-10 минут",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Число дыханий в 1 минуту при проведении ИВЛ взрослому человеку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "8-10 в 1 минуту",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "30-32 в 1 минуту",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "12-20 в 1 минуту",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "20-24 в 1 минуту",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Признаки клинической смерти",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "потеря сознания и отсутствие пульса на сонных артериях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "спутанность сознания и возбуждение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нитевидный пульс на сонных артериях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дыхание не нарушено",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Основное осложнение, возникающее при проведении закрытого массажа сердца",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перелом ключицы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перелом ребер",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повреждение трахеи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перелом позвоночника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Достоверные признаки клинической смерти",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие дыхания, отсутствие сердцебиения, отсутствие сознания, расширенные зрачки без реакции на свет;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поверхностное и учащенное дыхание, узкие зрачки без реакции на свет, нитевидный пульс;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "судороги, холодные конечности, тахипноэ, гипотензия; ~ фибрилляция желудочков, пульс малого наполнения, диспноэ, цианоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Достоверный признак остановки сердца",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "апноэ;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие пульса на сонной артерии;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отсутствие сознания;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "широкий зрачок без реакции на свет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "К терминальным состояниям относится",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "биологическая смерть;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "период агонии;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "постреанимационная болезнь;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продромальный период",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Основные признаки клинической смерти",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нитевидный пульс на сонной артерии;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие пульса на лучевой артерии;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие пульса на сонной артерии;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расширение зрачков.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Реанимация – это процесс",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "замещения функции дыхания;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "защиты пациента от операционной травмы;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лечения терминальных состояний;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "оживления организма.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Соотношение компрессий на грудину и дыханий при проведении реанимации взрослому человеку",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 15 компрессий – 2 вдоха;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на 30 компрессий – 2 вдоха;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "на 4 компрессии – 2 вдох;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на 5 компрессий – 1 вдох.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Показания для применения приема Геймлиха",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аспирация;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инородное тело в верхних дыхательных путях;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инородное тело в пищеводе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушение дыхания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Осложнения при проведении СЛР",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "перелом грудины;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перелом позвоночника;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перелом носа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ребер",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 9,
+				"text": "Измерение артериального давления проводится",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

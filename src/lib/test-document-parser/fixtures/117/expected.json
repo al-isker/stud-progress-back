@@ -1,0 +1,4332 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Какой вид желтухи сопровождается гемолитической анемией :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подпеченочная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "энзимопатическая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печеночно-клеточная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "надпеченочная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "никакая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "При какой желтухе в крови увеличивается непрямая и прямая функция билирубина :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолитической",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "паренхиматозной",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "механической",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энзимопатической",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Почему при гепатитах нарушается сумеречное зрение :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаточность витамина Е",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "недостаточность витамина К",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "недостаточность витамина А",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "недостаточность витамина D",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Гемолитическая болезнь новорожденных объясняется :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммунным конфликтом Т клеток с антигенами ребенка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неполноценным плацентарным кровообращением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроциты плода содержат Rh+ фактор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "накоплением в крови антител против Rh+ фактора",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Почему при печеночной патологии наблюдается лейкопения :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "задерживается созревание лейкоцитов в костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "задерживается лейкопоэз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "недостаточность витамина В12",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "развивается гиперспленизм",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Для какой желтухи характерно появление в крови печеночных АЛТ и АСТ :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "надпеченочной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подпеченочной",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печеночно-клеточной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Какие из указаных соединений оказывают выраженное токсическое действие на организм :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "непрямой билирубин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "прямой билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уробилиноген",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стеркобилиноген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какие из указаных соединений оказывают выраженное токсическое действие на организм :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желчные кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "билирубин прямой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уробилиноген",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стеркобилиноген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Почему при печеночной недостаточности нарушается антимикробная функция :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижается активность Купферовских клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиливается транспорт иммуноглобулинов в желчь",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшается гамма-глобулиновая фракция крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сочетание (усиливается транспорт иммуноглобулинов в желчь), (уменьшается гамма-глобулиновая фракция крови)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "из-за холестаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Назовите внепеченочные причины печеночной недостаточности :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "паразитарные поражения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "холестаз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндокринопатии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наследственная недостаточность глюкоронилтрансферазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Гепатозы являются результатом действия :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эхинокока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гельминтов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антибиотиков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Т-клеточных реакций",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Вирусные гепатиты А и Е передаются :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "парентеральным способом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "половым контактом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "энтеральным способом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "трансфузией крови и ее препаратов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Укажите причину, имеющую наибольшее патогенное значение при печеночной коме :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нарушение процессов окисления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушение переаминирования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение дезинтоксикации",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "образование парных соединений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холестаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Характерными признаками выраженной надпеченочной желтухи являются :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение содержания прямого билирубина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение непрямого билирубина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "холемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение содержания холестерина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшается содержания стеркобилиногена в кале",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Назовите ведущий механизм образования пигментных камней в желчных путях :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "коагуляция белков, поступивших в желч из поврежденных клеток слизистой пузыря",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышении концентрации холестерина в желчи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изменение холато-холестеринового коэффициента",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "процессы гемолиза связанные с застоем",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "воспаление желчного пузыря",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Важным следствием патологии белкового обмена при ОПН является :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение аммиака в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение аммиака в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижение гамма-глобулинов крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение бетта-глобулинов крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "С чем связан синдром Жильбера при развитии паренхиматозной желтухи - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с дефицитом глюкоронилтрансферазы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с нарушением активности ферментов, обеспечивающие экскрецию прямого билирубина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с нарушением захвата непрямого билирубина из крови гепатоцитами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с нарушением оттока желчи в 12-перстную кишку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "с холангитом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Почему при механической желтухе возникает брадикардия :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышается активность симпатической системы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижается активность парасимпатической системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышается тонус ядер блуждающего нерва",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "усиливается активность нерва Павлова",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стимулируется сосудодвигательный центр",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Чем проявляется ахолический синдром :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стеатореей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "запорами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "избыточной моторикой кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рвотой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышением кислотности в желудке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "При какой желтухе в крови увеличивается прямой билирубин :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "надпочечной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печеночной в поздней стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подпеченочной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "энзимопатической",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "надпочечной и энзимопатической",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "При какой желтухе увеличивается непрямой билирубин в крови :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "паренхиматозной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "надпеченочной",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подпеченочной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энзимопатической",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленнное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Укажите причины усиления выделительной функции желудка :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперсекреция желудочного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ахилия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почечная недостаточность (уремия)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полифагия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Укажите причины усиления всасывательной функции желудка :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "застой пищи, гастриты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "язвенная болезнь 12-перстной кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "язвенная болезнь желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дуодениты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатиты различной этиологии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Укажите проявления панкреатического коллапса :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внезапное падение А/Д",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внезапное повышение А/Д",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внезапная потеря сознания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аритмия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тахикардия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Чем характеризуется парорексия :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникновением неутолимого голода",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижением аппетита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "склонностью к употреблению непищевых веществ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "полным отказом от пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сочетание (снижением аппетита), (полным отказом от пищи)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Назовите вероятную причину нейродинамической анорексии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "торможение пищевого центра при болевых синдромах (почечная колика)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сознательный отказ от пищи в связи с психическим заболеванием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "она обусловлена нарушением функции рецепторов пищеварительного тракта",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отрицательные эмоции, сильное возбуждение коры головного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение активности пищевого центра (инфекции и интоксикации)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Укажите последствия патологического усиления всасывания в тонком кишечнике :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аутоинтоксикация, сенсибилизация, булемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипотонический синдром, анорексия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипопротеинемия, аллергия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ипервитаминозы, высыпания на коже",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аутосенсибилизация, аллергия, интоксикация",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "К чему приводит гипо- и ахолия :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "замедляется моторика кишечника, развивается метеоризм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушается переваривание и всасывание жиров и витамина В12",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ускоряется моторика кишечника, возникает диарея",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нарушает всасывание углеводов и витаминов группы В",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "приводит к атонии, нарушению переваривания и всасывания жиров, холестерина и витаминов Д, Е, А, К.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Назовите основные причины поражения органов пищеварения вторичного характера :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пищевые отравления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертрофические гастриты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атрофические гастриты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уринозный гастроэнтерит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "белковокалорийная недостаточность (несбалансированность диеты).",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Булемия это :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "понижение аппетита",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отказ от пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "избыточное потребление пищи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тошнота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "При какой патологии наблюдается гипосаливация :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сиалоаденитах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при пульпите",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при периодонтите",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при преобладании тонуса парасимпатической системы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Назовите центральные механизмы рвоты :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неукротимая рвота беременных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "переполнение желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при повышении внутричерепного давления",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "недоброкачественная пища",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "К чему может привести длительная, неукротимая рвота :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "развивается компенсированный ацидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "развивается декомпенсированный ацидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "развивается ахлоридная кома с явлением алкалоза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "метаболическому алкалозу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Eructatio - это :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рвота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "икота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изжога",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отрыжка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тошнота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Pyrosis – это :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рвота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "икота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отрыжка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изжога",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тошнота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Singultus – это :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рвота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "икота",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отрыжка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изжога",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тошнота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Почему нарушается дуоденальное пищеварение при ахлоргидрии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижается секреция панкреатического сока",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "увеличивается секреция секретина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличивается секреция гастрина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличивается холецистокинин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "увеличивается мотилин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Какие нарушения приводят к панкреатической ахилии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение активности блужающего нерва",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижение тонуса симпатической системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "употребление большого количества углеводной пищи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хронический панкреатит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Что такое стеаторея :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пониженное содержание в кале жира и жирных кислот",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышенное содержание в кале жира и жирных кислот",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышенное содержание в кале слизи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышенное содержание в кале белков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Гастроэзофагальная рефлюксная болезнь является результатом :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличия дивертикулов в пищеводе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышенного тонуса кардиальной части пищевода",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расслабления нижнего пищеводного сфинктера",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поражения мышц глотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дисфагии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Почему при демпинг - синдроме нередки обморок или понижение А/Д :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение объема жидкости в кишечнике стимулирует образование адреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение объема жидкости в кишечнике стимулирует образование серотонина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ускорение васывающей глюкозы с гипергликемией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижением выработки инсулина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Рвота центрального генеза наблюдается :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при интоксикациях (экзогенных)",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при лучевой болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при гипертонических кризах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при интоксикациях (эндогенных)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Какие ферменты поджелудочной железы расщепляют белки на олигопептиды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "липаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фосфолипаза А2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амилаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трипсин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Какие факторы приводят к спастическим запорам :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "свинцовые отравления, стресс",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обширные полостные операции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перитониты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипо- и ахолия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Укажите причину динамическкой непроходимости кишечника :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение тонуса парасимпатическких нервов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разлитое гнойное воспаление брюшины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гастроэнтероколиты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поступление в кишечник непереваренных пищевых масс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперсекреция желез кишечника",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "пептических язв желудка :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижению парасимпатических влияний на слизистую желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижению симпатических влияний на слизистую желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "усилению синтеза простагландинов клетками слизистой оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "действию Helicobbacter pyroli на защитный слой слизистой оболочки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Как меняется моторно-эвакуаторная функция желудка при гиперсаливации :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "моторная замедляется, а эвакуаторная ускоряется",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ускоряются обе функции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ускоряется моторная, а эвакуаторная замедляется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "замедляются обе функции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моторно-эвакуаторная функция не Меняется",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Как меняется моторно-эвакуаторная функция желудка при гастрите с повышенной кислотностью :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "моторная замедляется, а эвакуаторная ускоряется",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "замедляются обе функции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ускоряется моторная, а эвакуаторная замедляется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моторно-эвакуаторная функция не меняется",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "повышаются и моторная, и эвакуаторная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Укажите основные особенности мембранного пищеварения :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "происходит с участием кишечной микрофлоры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "происходит практически в стерильных условиях",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обеспечивается начальный гидролиз пищевых инградиентов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "осуществляется преимущественно ферментами поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Отличительная особенность мембранного пищеварения от полостного состоит :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "происходит с участием кишечной микрофлоры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в высокой сопряженности переваривания и всасывания пищевых субстратов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обеспечивается начальный гидролиз пищевых ингридиентов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "осуществляется преимущественно ферментами поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Отличительная особенность мембранного пищеварения от полостного состоит :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в обязательном участии кишечной микрофлоры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "осуществляется ферментами, фиксированными на мембране щеточной каймы кишечника",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обеспечивает начальный гидролиз пищевых ингридиентов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "осуществляется преимущественно ферментами поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Укажите возможные причины развития желудочной гипосекреции :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "избыточная секреция соматостатина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "активная стимуляция парасимпатической системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение выработки и выделения гастрина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличение активности гистаминазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "избыточное выделение адреналина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Укажите возможные причины развития желудочной гиперсекреции :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "избыточная секреция соматостатина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение выработки и выделения гастрина",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижение выработки и выделения гастрина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение активности гистаминазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "избыточное выделение адреналина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Назовите наиболее частую причину кишечной аутоинтоксикации :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение секреции желудочного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение моторики кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ослабление эвакуаторной функции кишечника",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гиперсекреция панкреатического сока",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипертрофия микроворсинок тонкой кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Назовите наиболее частую причину аутоинтоксикации :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение секреции желудочного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение моторики кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ахолия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипертрофия микроворсинок тонкой кишки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперсекреция панкреатического сока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Как влияет психическая травма на секрецию желудочного сока и его кислотность :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышает секрецию и снижает кислотность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышает секрецию и повышает кислотность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "угнетает секрецию и повышает кислотность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "угнетает секрецию и снижает кислотность",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Ахилия желудка сопровождается :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствием соляной кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствием ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствием соляной кислоты, наличием ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствием соляной кислоты и ферментов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличием соляной кислоты и отсутствием ферментов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Назовите причины ослабления желудочной перистальтики :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение активности парасимпатической системы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "понижение активности парасимпатической системы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сужение пилорического отверстия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение в крови инсулина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "введение гистамина или ацетилхолина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Дивертикул пищевода является результатом :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появления выпячивания в стенке из-за ахалазии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появления выпячивания в стенке из-за халазии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "врожденной недостаточности соединительной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "склеродермии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сдавления извне аневризмой аорты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Чем характеризуется врожденное заболевание – целиакия :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "непереносимостью продуктов, богатых жиром",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "непереносимостью продуктов, богатых белком",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "непереносимостью продуктов из злаков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "непереносимостью углеводов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "непереносимостьютью сбалансированной пищи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "?Назовите основные причины дисбактериоза кишечника :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ожоговая болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "авитаминоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лучевое воздействие",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "осложнения после терапии антибиотиками",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Чем может осложняться диарея :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "развитием газового алкалоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "развитием выделительного алкалоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "развитием метаболического ацидоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "развитием выделительного ацидоза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Укажите одну из причин снижения секреторной активности поджелудочной железы :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение выработки и выделения холецистокинина",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиление парасимпатической стимуляции железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение и выделение холецистокинина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышение выработки и выделения секретина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Укажите симптомы нарушения переваривания углеводов :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "боли в животе (коликообразные), метеоризм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диарея, рвота",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рвота, изжога",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "запоры и метеоризм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метеоризм, боли, диарея",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Укажите заболевания, приводящие к нарушению полостного пищеварения :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дуодениты, хронические панкреатиты, механическая желтуха",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "язвенная болезнь желудка, болезнь Боткина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемолитическая желтуха и гастриты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гельминтозы и резекция желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сахарный диабет, дизентерия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Укажите заболевания, которые могут привести к нарушению мембранного пищеварения :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферментопатии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронический панкреатит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "механическая желтуха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гастриты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитическая желтуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Ятрогенные \"стероидные\" язвы вызываются :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инсулином",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адреналином",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "минералокортикоидами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкокортикоидами",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "половыми гормонами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Чем характеризуется инертный тип желудочной секреции :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "замедленным нарастанием секреции и увеличением объема желудочного сока в нейрохимическую фазу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полным отсутствием желудочного сока, как в рефлекторной, так и в нейрохимической фазе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интенсивным нарастанием секреции в рефлекторной и нейрохимической фазе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интенсивным началом в рефлекторной и медленным прекращением в нейрохимической стадии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хаотической секрецией независимо от механического или химического раздражения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Какой тип желудочной секреции характеризуется резким уменьшением объема желудочного сока :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тормозной",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "возбудимый",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нормальный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хаотический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Какой тип желудочной секреции характеризуется избыточным увеличением объема желудочного сока :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тормозной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "возбудимый",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нормальный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "астенический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инертный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Чем характеризуется возбудимый тип желудочной секреции :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствием закономерной динамики и объемов секреции на механическое и химическое раздражение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "замедленным нарастанием на механическое и химическое раздражение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интенсивным нарастанием секреции на механическое и химическое раздражение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "интенсивным началом и быстрым снижением на химическое раздражение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адекватной секрецией и на механическое, и на химическое раздражение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Чем характеризуется тормозной тип желудочной секреции :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствием закономерной динамики и объемов секреции на механическое и химическое раздражение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "замедленным нарастанием на механическое и медленным его прекращением на химическое раздражение",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "интенсивным нарастанием секреции на механическое и химическое раздражение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интенсивным началом и быстрым снижением на химическое раздражение",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адекватной секрецией и на механическое, и на химическое раздражение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Чем характеризуется астенический тип желудочной секреции :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличенным латентным периодом, замедленным нарастанием секреции, увеличенным объемом желудочного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "укороченным латентным периодом, интенсивным началом и быстрым снижением секреции, малым объемом желудочного сока",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отсутствием какой-либо закономерностей динамики и объемов секреции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "укороченным латентным периодом начала секреции и интенсивным нарастанием, повышенным объемом желудочного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствием желудочного сока на механическое и химическое раздражение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Укажите постренальные причины нарушений функции почек:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нервно-психические расстройства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нарушение оттока мочи при аденоме простаты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушение системного кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при уретрите",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "При повреждении проксимальных канальцев нарушается реабсорбция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Na",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "K",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "H2O",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "При повреждении проксимальных канальцев нарушается реабсорбция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминокислот",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Na",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "K",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "H2O",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "При поврежении дистальных отделов канальцев нарушается реабсорбция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аминокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бикарбонатов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Na и К",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Укажите последствия почечнокаменной болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нефроз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гидронефроз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тубулопатия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Что такое гиперстенурия :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение относительной плотности мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышение относительной плотности мочи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "монотонный диурез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "появление в моче солей мочевой кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Укажите ренальные причины нарушений функций почек:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нервно-психические расстройства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соли тяжелых металлов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нарушение общего кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сужение почечной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушение оттока мочи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Какие нарушения характерны для олигоанурической стадии ОПН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "метаболический алкалоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение остаточного азота в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гиповолемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипокалиемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипернатрийемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "При нефротическом синдроме количество белка в крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличивается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "незначительно уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "значительно снижается",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "незначительно увеличивается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Укажите вероятные механизмы, способствующие реальной гипертензии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активация ренин-ангиотензиновой системы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение синтеза ренина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активация калликреин-кининовой системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "задержка К в организме",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "снижение образования альдостерона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "При каких заболеваниях почек наблюдается гематурия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при пиелите",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при поликистозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при нефрозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при пиелонефрите",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Укажите патологические компоненты мочи ренального происхождения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "непрямой билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стеркобилин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уробилин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цилиндры",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "желчные кислоты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Недостаток каких гормонов может вызвать полиурию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соматотропина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окситоцина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альдостерона",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Какие изменения в моче характерны для нефритического синдрома:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кетонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ацетонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микрогематурия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "макрогематурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Какие изменения в моче характерны для нефритического синдрома",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кетонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цилиндрурия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ацетонурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "макрогематурия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Чем объясняется гипертензия при хроническом диффузном: гломерулонефрите",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижением выработки почками простагландинов Е",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышением выработки почками простагландинов Е",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышением выработки почками кининов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижением выработки почками кининов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Назовите признаки, свидетельствующие о нарушениях ультрафильтрации в почках:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминоацидурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глюкозурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уробилинурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "протеинурия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Олигурия – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение количества мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение диуреза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "болезненное мочеиспускание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "преобладание ночного диуреза над дневным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсуствие мочи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Укажите механизмы глюкозурии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышение фильтрационного давления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "блокирование гексокиназы в канальцах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повреждение клубочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "падение гидростатического давления",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ацидоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Полиурия возникает при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усилении клубочковой фильтрации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повышении реабсорбии в канальцах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижении клубочковой фильтрации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усилении канальцевой реабсорбции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Какие заболевания почек относятся к группе иммунных нефропатий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гломерулонефрит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поликистоз почек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мочекаменная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пиелонефрит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Укажите механизмы снижения клубочковой фильтрации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение артериального гидростатического давления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиление канальцевой реабсорбции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышение артериального давления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "понижение коллоидно - осмотического давления плазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Какие вещества накапливаются в крови при снижении скорости клубочковой фильтрации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "креатинин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стеркобилин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "молочная кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Каков диурез при вторичном гиперальдостеронизме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличен",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшен",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неизменен",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "незначительно увеличен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "незначительно уменьшен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Укажите вероятные причины олигурии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипергликемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперадреналинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипопротеинемия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Укажите вероятный механизм поражения клубочков при гломерулонефрите:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лекарственный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушение коркового кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поражение базальной мембраны иммунными комплексами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нарушение оттока мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сужение почечной артерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Как влияет повышение онкотического давления крови на клубочковую фильтрацию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивает",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "снижает",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не снижает",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слегка увеличивает",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слегка снижает",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Снижение онкотического давления крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивает фильтрацию",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижает фильтрацию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не изменяет фильтрацию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "незначительно увеличивает фильтрацию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "незначительно снижает фильтрацию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Как изменяется фильтрация в клубочках при повышении давления в капсуле Боумена-Шумлянского:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "понижается",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "незначительно повышается",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "незначительно понижантся",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Назовите эндогенные факторы, способствующие нефролитиазу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипофункция околощитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиперфункция околощитовидной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повышение количества тиреокальцитонина в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение в крови тироксина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Укажите причины тубулопатии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поражение канальцев",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "почечный несахарный диабет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "поражение клубочков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воспаление мочеточников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цистит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Какие грозные осложнения возникают на фоне олиго- и анурии в организме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "застой в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "асцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отек легких",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "внутричерепное давление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Укажите наиболее частую причину смерти больных при ХПН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уремический гастрит, энтерит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нарушение свертывающей функции крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паралич дыхания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расстройства функций сердечно-сосудистой системы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Укажите причины развития анемии при заболеваниях почек:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолиз эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровопотери",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение синтеза эритропоэтинов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "потеря аминокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "недостаток Fe, Cu, Ni",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Какие причины приводят к ренальной ОПН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острая сосудистая недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сепсис",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обструкция мочевыводящих путей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острый гломерулонефрит",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гиперволемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Какие причины приводят к ренальной ОПН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соли тяжелых металлов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "острая сосудистая недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сепсис",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиперволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обструкция мочевыводящих путей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Какие причины приводят преренальной ОПН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соли тяжелых металлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эмболия почечной артерии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мочекаменная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обструкция мочевыводящих путей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сепсис",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "При внепочечной гематурии эритроциты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выщелоченные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "свежие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "секвестированные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поврежденные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Что является ведущим признаком нефроза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкоцитурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гематурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "протеинурия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипертония",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипотония",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Для нефротического синдрома характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокая протеинурия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "низкая протеинурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперальбуминемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие отеков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиполипидемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Гиповолемия может привести:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к усилению фильтрации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к уменьшению фильтрации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фильтрация не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к увеличению реабсорбции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Боль приводит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к увеличению диуреза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диурез не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к снижению диуреза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к снижению реабсорбции",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "к повышению реабсорбции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "В начальную стадию ОПН диурез:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшен",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменен",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличен",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "незначительно уменьшен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Третья стадия ОПН характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "олигурией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анурией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полиурией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не изменены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "никтурией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Никтурия – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление в моче эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "частое мочеиспускание в дневное время",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезненное мочеиспускание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "преобладание диуреза в ночное время",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "редкое мочеиспускание в дневное время",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Укажите вероятные механизмы, способствующие ренальной гипертензии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активация ренин - ангиотензиновой системы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "снижение синтеза ренина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активация калликреин-кининовой системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение образования альдостерона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "задержка К в организме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Укажите патологические компотенты мочи ренального происхождения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "непрямой билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стеркобилин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уробилин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белок в большом количестве",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "желчные кислоты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Поллакурия – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление в моче эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "частое болезненное мочеиспускание",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "редкое болезненное мочеиспускание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "усиление диуреза в ночное время",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшение диуреза в дневное время",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Олакизурия-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление в моче эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "частое болезненное мочеиспускание",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "редкое болезненное мочеиспускание",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "появление в моче зернистых цилиндров",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "появление в моче гемоглобиновых цилиндров",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Недостаток каких гормонов может вызвать полиурию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соматотропина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адреналина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окситацина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альдостерона",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сочетание 1, 2.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Олигурия – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение количества мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение диуреза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "болезненное мочеиспускание",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "преобладание ночного диуреза над дневным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие мочи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Полиурия возникает при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижении гидростатического давления в клубочках",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышении реабсорбции в канальцах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижении клубочковой реабсорбции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уменьшении канальцевой реабсорбции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "повышении выделения АДГ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Какие изменения в моче характерны для нефритического синдрома:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "глюкозурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "протеинурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гематурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сочетание 1, 2.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сочетание 2, 3.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Какие факторы могут вызвать анурию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лихорадка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "боль",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "денервация почки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипертонический криз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пиелонефрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Что такое уремический синдром:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появление составных частей мочи в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "увеличение билирубина в моче",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение холестерина в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшение билирубина в моче",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Сколько образуется первичной мочи за сутки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20-130 л.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "130-140 л.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "150-170 л.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "больше 120 л.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Об анурии говорят в том случае, когда суточный диурез у больного не превышает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1. 100мл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2. 50мл.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "3. 150 мл.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4. 200 мл.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5. 90 мл.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "К неиммунным нефропатиям относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ревматизм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "системная красная волчанка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "узелковый периартрит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метаболический (подагра)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гломерулонефрит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Каковы клинические проявления стадии олигурии при ОПН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Отёк головного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лихорадка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коллапс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диарея",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кома",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Какие причины приводят к преренальной ОПН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соли тяжелых металлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острая сосудистая недостаточность",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мочекаменная болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обструкция мочевыводящих путей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сепсис",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Укажите причины постренальной ОПН:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Соли тяжелых металлов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "острая сосудистая недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обезвоживания",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обструкция мочевыводящих путей",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сепсис",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Назовите основные причины никтурии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ангиоспазм почечной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нефроз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уретрит или цистит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сочетание 1, 2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Изостенурия - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение удельного веса мочи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "появление в моче эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "монотонный малый удельный вес",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сочетание 1, 3, 4.",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

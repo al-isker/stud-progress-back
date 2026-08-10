@@ -1,0 +1,2957 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Укажите факторы, обуславливающие боль при воспалении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Простагландины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повышение температуры ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Н+- гипериония",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Действие адреналина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Какие признаки могут свидетельствовать о наличии воспалительного процесса в организме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гипопротеинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ацидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Лихорадка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Расширение сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эритроцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Какая из указанных клеток относится к \"клеткам хронического воспаления»:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Тучные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Нейтрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эозинофилы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Какие факторы способствуют развитию отека в очаге воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышение онкотического давления крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Снижение онкотического давления межклеточной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Снижение осмотического давления межклеточной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Повышение онкотического давления межклеточной жидкости",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Алкалоз.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Какие признаки могут свидетельствовать о наличии воспалительного процесса в организме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Эритроцитоз.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Лихорадка.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гипопротеинемия.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ишемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Стаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Какие физико-химические изменения наблюдаются в очаге острого асептического воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ацидоз.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Алкалоз.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гипоосмия.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гипоонкия.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гипокалемия.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Какие из перечисленных веществ принято относить к медиаторам воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Na+",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Н+",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К+",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Нуклеиновые кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Лимфокины.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Хроническое воспаление характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Образованием воспалительных гранулем",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Снижение проницаемости сосудистой стенки.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Повышением проницаемости стенки сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Накопление в очаге воспаления нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эозинофилией.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Каковы возможные причины развития асептического воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ишемия.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ожоги.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Травмы.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Некроз ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Поступление биологических агентов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Запуск острого воспаления происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "С территории соединительной ткани.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "\"От сосудов\".",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С территории эпителиальной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "С территории нервной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С территории костно-мозговой ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Что является цитотоксигенами для нейтрофилов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Компоненты комплемента (С3а, С5а).",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Микробный фактор.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Денатурированные белки.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Казеин.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Плазмин.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "В каких органах развивается экссудативное воспаление:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В паренхиматозных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В плотной соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В нервной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В бессосудистых органах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В органах богатых сосудами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Причины повышения венозного давления в поздние сроки воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Усиление притока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сужение просвета сосудов.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Нарушение оттока",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Расширение просвета сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ускорение притока и оттока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Причины болезненности при воспалении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышение чувствительности болевых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Раздражение рецепторов кислыми продуктами и сдавливание их отечной жидкостью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Повышенная возбудимость ЦНС.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Парабиотические изменения в рецепторах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Возбуждение чувствительных корешков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Экссудат, содержащий много эритроцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Серозный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гнилостный.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Фибринозный.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Геморрагический.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Гнойный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Причины повышения кровяного давления в зоне артериальной гиперемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Усиленный приток крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Застой крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Возбуждение сосудодвигательного центра.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Спазм сосудов.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Потеря эластичности стенки сосуда.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Какие белки выходят в первую очередь из сосудов при экссудации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Альбумины.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Глобулины.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Фибриноген.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "С-реактивный белок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Как называется жидкость, вышедшая из сосудов при воспалении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Отечная жидкость.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Геморрагическая жидкость",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Серозная жидкость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Экссудат.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Транссудат.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Чем характеризуется альтеративное воспаление:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Преимущественными явлениями экссудации и инфильтрации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Преимущественно явлениями дистрофии, некробиоза и некроза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Преимущественно пролиферативными явлениями.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Выраженной сосудистой реакцией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Выраженными дистрофическими и пролиферативными явлениями",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Чем характеризуется гиперергическое воспаление:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Слабыми проявлениями, не соответствующими силе действующего агента.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Адекватностью проявлений силе раздражителя.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Отсутствием реакций на действие агента.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Чрезмерно сильной реакцией организма.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Что приводит к припухлости (отеку):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Застой крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Набухание ткани.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Замедление лимфооттока",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Выход жидкости из сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Пролиферация клеточных элементов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Какие процессы наиболее интенсивно выражены при хроническом воспалении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Альтеративные.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Альтеративные и пролиферативные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Экссудативные.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пролиферативные.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Альтеративные и экссудативные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Какие лейкоциты эмигрируют из сосудов в ранний период воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Лимфоциты.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Моноциты.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Эозинофилы.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Базофилы.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нейтрофилы.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Течение воспалительной реакции в сенсибилизированном организме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нормергическое.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гипоергическое (положительная реакция).",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гиперергическое.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Гипоергическое (отрицательная реакция).",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Что такое экссудация:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Выпотевание жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Выход жидкой части крови при воспалении",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Выход крови из сосудов.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Накопление серозной жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Выход лимфы в воспалительную ткань.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "При каком виде воспаления проницаемость сосудов выражена больше:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Серозном.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гнойном.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Геморрагическом.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Фибринозном.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Экссудат, содержащий мало белка и клеточных элементов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гнойный.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Серозный.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Геморрагический.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Фибринозный.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гнилостный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "При каком виде воспаления в экссудате много фибриногена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Серозном.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Геморрагическом.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гнойном.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Фибринозном.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Вид экссудата, содержащий большое количество лейкоцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Серозный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фибринозный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Геморрагический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гнойный.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Что такое эмиграция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Выход жидкости из сосудов.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Выход эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Выход лейкоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Выход белков плазмы.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Выход тромбоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Причины местного повышения температуры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Артериальная гиперемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Усиление обмена веществ и притока артериальной крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Образование гноя",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Увеличение потребления О2.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Чем отличается экссудат от транссудата:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Большим содержание белка в транссудате.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Отсутствием форменных элементов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Большим удельным весом транссудата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Большим содержанием белка и форменных элементов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Какой вид белка в экссудате указывает на резкое нарушение проницаемости сосудов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Альбумины.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альфа - глобулины.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бетта - глобулины.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Фибриноген",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Воспалительные реакции в состоянии зимней спячки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Протекает также, как и в норме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Протекает медленно",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Приобретает гиперэргический характер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Какова причина вторичной альтерации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Действие лизосомальных ферментов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Действие медиаторов воспаления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Действие модуляторов воспаления.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Действие цитокинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Укажите последовательность эмиграции лейкоцитов в очаг острого воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Моноциты, лимфоциты, нейтрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Нейтрофилы, лимфоциты, моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Лимфоциты, нейтрофилы, моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Моноциты, нейтрофилы, лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нейтрофилы, моноциты, лимфоциты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Укажите факторы, обуславливающие боль при воспалении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Действие катионных белков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Механическое раздражение нервных окончаний экссудатом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гиперонкия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Простагландины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Повышение температуры тела",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Какие признаки могут свидетельствовать о наличии воспалительного процесса в организме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гипопротеинемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ацидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Лихорадка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Расширение сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эритроцитоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Какие из перечисленных клеток являются источниками медиаторов острого воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Тучные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гистиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Мерцательный эпителий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Какие факторы способствуют развитию отека в очаге воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышение онкотического давления крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Снижение онкотического давления межклеточной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Снижение осмотического давления межклеточной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Повышение онкотического давления межклеточной жидкости",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Алкалоз.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Какие признаки могут свидетельствовать о наличии воспалительного процесса в организме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Эритроцитоз.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Лихорадка.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Гипопротеинемия.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ишемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Стаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Какие из перечисленных веществ принято относить к медиаторам воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Na+",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Н+",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К+",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Нуклеиновые кислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Лимфокины",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Острое воспаление характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Образованием гранулемы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Эмиграцией в очаг эозинофилов.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Эмиграцией в очаг нейтрофилов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Инфильтрацией очага мононуклеарными лейкоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эмиграцией лимфоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Хроническое воспаление характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Образованием воспалительных гранулем",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Снижение проницаемости сосудистой стенки.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Повышением проницаемости стенки сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Накопление в очаге воспаления нейтрофилов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эозинофилией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какие процессы преобладают при хроническом воспалении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пролиферативные.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Альтеративные.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Сосудистые.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Сосудисто-экссудативные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Экссудативные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Запуск острого воспаления происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "С территории соединительной ткани.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "\"От сосудов\"",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С территории эпителиальной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "С территории нервной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С территории костно-мозговой ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Какая клетка является ведущей в развитии острого воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Активный макрофаг.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Нейтрофил.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Тучная.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Лимфоцит.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эозинофил.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Как изменяется скорость кровотока в очаге воспаления в начальный период:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Развивается стаз.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Временно уменьшается",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Замедляется.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Усиливается.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Не изменяется.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "В каких органах развивается экссудативное воспаление:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В паренхиматозных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В плотной соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В нервной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В бессосудистых органах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В органах богатых сосудами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Причины повышения венозного давления в поздние сроки воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Усиление притока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сужение просвета сосудов.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Нарушение оттока",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Расширение просвета сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ускорение притока и оттока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Причины боли при воспалении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Понижение чувствительности болевых рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Раздражение рецепторов кислыми продуктами и сдавливание их отечной жидкостью",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Повышенная возбудимость ЦНС.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Парабиотические изменения в рецепторах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Какая теория в патогенезе воспаления отводит основную роль явлениям фагоцитоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Конгейма.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Вирхова.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Шаде.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Мечникова.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Риккера.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Экссудат, содержащий много эритроцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Серозный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гнилостный.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Фибринозный.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Геморрагический.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Гнойный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Чем характеризуется нормергическое воспаление:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Соответствием проявлений воспаления силе раздражителя.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Преобладанием проявлений воспаления над силой агента.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Слабыми, не соответствующими силе действия агента, проявлениями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Отсутствием реакции на действие агента.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Какой из перечисленных процессов относится к гиперергическому воспалению:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Воспаление легких у людей среднего возраста.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Воспаление легких в детском возрасте.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Феномен Артюса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Реакция на внутрикожное введение дифтерийного токсина в иммунном организме.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фурункул в нормальном организме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Причины повышения кровяного давления в зоне артериальной гиперемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Усиленный приток крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Застой крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Возбуждение сосудодвигательного центра.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Спазм сосудов.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Потеря эластичности стенки сосуда.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Укажите ранние признаки, характеризующие артериальную гиперемию :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Покраснение органа или ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Цианоз ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Выраженный отёк ткани.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Понижение температуры поверхностно расположенных тканей.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Снижение пульсации.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Какой вид артериальной гиперемии возникает при наложении медицинских банок :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нейротоническая.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Постанемическая.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Вакатная.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Перераспределительная.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Какие изменения микроциркуляции характерны для артериальной гиперемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение количества функционирующих капилляров.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Уменьшение внутрикапиллярного давления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Уменьшение фильтрации жидкости из сосудов в ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ослабление лимфотока из ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Назовите фактор, который может привести к развитию артериальной гиперемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Закрытие просвета артерии тромбом.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Действие горчичников на кожу",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Компрессия приносящих сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Повышение тонуса сосудосуживающих нервов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Чем обусловлена алая окраска органа при артериальной гиперемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличением содержания оксигемоглобина в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Уменьшением содержания оксигемоглобина в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Увеличением артериовенозной разницы по кислороду",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Уменьшением объемной скорости кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Увеличением содержания восстановленного гемоглобина в крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Повышение температуры органа или ткани в области артериальной гиперемии обусловлено :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Усилением окислительных процессов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Усилением лимфообразования",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Увеличением артериовенозной разницы по кислороду",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Усилением лимфотока из ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Повышением линейной скорости кровотока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "При каких состояниях может развиться венозная гиперемия :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличении минутного выброса крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Сердечной недостаточности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Компрессии приносящих сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ангиоспазме.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Атеросклеротических изменениях сосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Укажите возможные последствия артериальной гиперемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Разрастание соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ослабление функции органа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Кровоизлияние.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Дистрофия тканей.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Назовите изменения микроциркуляции, характерные для венозной гиперемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Усиление лимфотока из ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Замедление кровотока в мелких артериях и венах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ламинарный кровоток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Увеличение артерио-венозной разницы давлений",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Укажите признаки венозной гиперемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение количества функционирующих капилляров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Цианоз органа или ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Понижение тургора тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Понижение температуры внутренних органов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Укажите признаки, характерные для ишемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Цианоз органа.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Побледнение органа или ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Повышение температуры поверхностных тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Боль и побледнение органа или ткани",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Какие изменения микроциркуляции характерны для ишемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышение артериовенозной разницы давлений",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повышение внутрисосудистого давления",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Повышение линейной скорости кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Уменьшение числа функционирующих капилляров",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Назовите фактор, который может привести к развитию ишемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Сдавление вен рубцующейся тканью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ангиоспазм.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Перерезка периферических нервов.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снятие эластического жгута с конечностей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Механическое раздражение ткани или органа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Укажите эмболы эндогенного происхождения :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Капельки жира при переломах трубчатых костей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Скопление паразитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Пузырьки воздуха.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Внутримышечные инъекции масляных растворов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Термин \"ретроградная эмболия применяется при :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Переходе эмбола из одного круга кровообращения в другой, минуя капиллярное русло",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Движение эмбола против тока крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Движение эмбола через артериовенозные шунты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Движение эмбола через незаращенную межпредсердную перегородку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Движение эмбола через незаращенный Боталлов проток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Какая причина может вызвать возникновение воздушной эмболии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Быстрый подъем на высоту",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повреждение крупных вен шеи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Разгерметизация кабины летательного аппарата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Перепад атмосферного давления от повышенного к нормальному у водолазов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Быстрое повышение барометрического давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Какая причина может вызвать возникновение жировой эмболии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Перелом позвоночника и ребер",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Внутримышечные инъекции масляных растворов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Перелом трубчатых костей и костей таза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Перепад атмосферного давления от повышенного к нормальному",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Каковы возможные последствия артериальной гиперемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Тромбоз сосудов гиперемированного участка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Микро- и макрокровоизлияния в окружающие ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Стаз в капиллярах гиперемированного участка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снижение оксигенации тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Торможение обменных процессов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Назовите первую стадию ДВС-синдрома :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Коагулопатия потребления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гиперкоагуляция",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Дефибриногенация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Восстановление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Назовите вторую стадию ДВС-синдрома :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Коагулопатия потребления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Гиперкоагуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Дефибриногенация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Восстановление",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Какой вид местных расстройств кровообращения возникает вследствие затруднения оттока крови :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Артериальная гиперемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Венозная гиперемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ишемия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Стаз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Геморрагия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Что может вызвать ишемию :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нарушение венозного кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Тромбоз вен",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Спазм артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Стаз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Падение кровяного давления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Причина местного повышения температуры при артериальной гиперемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Остановка кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Усиление обмена веществ и притока теплой артериальной крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Образование гноя",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Увеличение потребления О2",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Увеличение образования СО2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Какой из приведенных видов эмболии является экзогенным :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Жировая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Тканевая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Тромботическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Воздушная",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Как называется выделение крови из матки :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Haemaptoe",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Haematuria",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ме1aena",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Metrorrhagia",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Haematomesis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Как называется кровотечение из легких :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ме1aena",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Haemaptoe",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Haematuria",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Metrorrhagia",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Haematomesis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Каков механизм кровотечения при травматическом повреждении :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Per rhexin",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Per diapedesin",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Per diabrosin",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ме1aena",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Haemaptoe",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Как называется выделение крови из желудка :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Melaena",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Haemaptoe",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Haematuria",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Metrorrhagia",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Haematomesis",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "При каком виде местных расстройств кровообращения наблюдается побледнение тканей :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Артериальной гиперемии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Венозной гиперемии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Стазе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ишемии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Геморрагии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Какие изменения могут вызвать ишемию :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Стаз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Тромбоз артерий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Тромбоз вен",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Нарушение венозного кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Истинный стаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Для венозной гиперемии характерно :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Уменьшение кровенаполнения органа или ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Увеличение количества протекающей через орган или ткань крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Затруднение оттока крови по венам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Побледнение ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Для ишемии характерно :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нарушение оттока крови по венам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Увеличение объемной скорости кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Побледнение ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Расширение артериальных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Укажите возможные причины ишемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Эмболия вены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Облитерация артерии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Сердечно-сосудистая недостаточность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Компрессия венулы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все врено",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Как необходимо проводить пункцию брюшной полости для выведения асцитической жидкости :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Медленно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Медленно, с небольшими перерывами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Быстро",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Быстро, с перерывами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Слишком быстро",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "К первичному стазу относится :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ишемический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Застойный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Истинный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Каковы последствия венозной гиперемии :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гипертрофия и гиперплазия структурных элементов тканей и органов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повышение специфических функций органов или тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Повышение неспецифических функций органов и тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Склероз или цирроз в органах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Какие последовательные изменения происходят в капиллярах при венозном стазе :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фрагментация, агрегация, феномен сладжа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Агрегация, фрагментация, феномен сладжа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Феномен сладжа, агрегация, фрагментация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Агрегация, феномен сладжа, фрагментация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Фрагментация, феномен сладжа, агрегация.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Как называется первый период в течении болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Продромальный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Период выраженных проявлений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Завершающий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Латентный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Как называется первый период в течении инфекционных заболеваний?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Продромальный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Период выраженных проявлений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Завершающий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Инкубационный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Клиническая смерть характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Необратимыми изменениями в организме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Полным прекращением дыхания и кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Продолжением на минимальном уровне обмена веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Полным прекращением дыхания, кровообращения и продолжением на минимальном уровне обмена веществ",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

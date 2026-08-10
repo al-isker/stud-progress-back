@@ -1,0 +1,1514 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Источниками развития передней доли гипофиза являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эктодерма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нейроэктодерма",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мезодерма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спланхнотомы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "энтодерма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В передней доле гипофиза имеются клетки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "хромаффинные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "норадреноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хромофильные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тиреоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хромофобные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Для базофильных клеток передней доли гипофиза характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цилиндрическая форма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гранулы окрашиваются кислыми красителями",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гранулы окрашиваются кислыми и основными красителями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отсутствие гранул",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гранулы окрашиваются основными красителями",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Для ацидофильных клеток передней доли гипофиза характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цилиндрическая форма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие большого количества микроворсинок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие гранул окрашенных основными красителями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие гранул окрашенных кислыми красителями",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "отсутствие гранул",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Для хромофобных клеток гипофиза характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие ацидофильных гранул",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие базофильных гранул",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствие окрашенных гранул",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие контакта с капиллярами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствие контакта с капиллярами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Ацидофильные клетки передней доли гипофиза вырабатывают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликокортикоиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "минералокортикоиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гормон роста",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лактогенный гормон",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Базофильные клетки передней доли гипофиза вырабатывают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тиротропный гормон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лактотропный гормон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соматотропный гормон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адренокортикотропный гормон",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "минералокортикоиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Адренокортикотропный гормон гипофиза выполняет функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стимулирует функцию фолликулярных клеток яичника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стимулирует функцию фолликулярных тироцитов щитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стимулирует функцию эпителиальных клеток паращитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стимулирует функцию эпителиальных клеток коры надпочечников",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "стимулируют функцию поддерживающих клеток семенников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Соматотропный гормон гипофиза выполняет функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стимулирует функцию фолликулярных тироцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стимулирует функцию эпителиальных клеток коры надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стимулирует функцию паратироцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тормозит размножение остеогенных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стимулирует размножение хрящевых эпифизарных пластинок",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Клетками-мишенями гормона роста гипофиза являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеогенные клетки диафиза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "остеоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хондроциты эпифизарных хрящевых пластинок роста",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кардиомиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпителиальные клетки яйцеводов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Клетками-мишенями лактогенного гормона гипофиза являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкомышечные клетки стенки матки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гладкомышечные клетки выводных протоков печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпителиальные клетки эндометрия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эпителиальные клетки слизистой оболочки яйцеводов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпителиальные клетки молочных желез",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Клетками-мишенями тиротропного гормона гипофиза являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителиальные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "паращитовидная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпителиальные клетки надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "парафолликулярные клетки щитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фолликулярные тироциты щитовидной железы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Клетками-мишенями гонадотропных гормонов гипофиза являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкомышечные клетки миометрия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миоэпителиальные клетки молочных желез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фолликулярные клетки яичников",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поддерживающие клетки семенников",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эпителиальные клетки яйцеводов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "В задней доле гипофиза накапливаются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "соматотропин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окситоцин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тиреотропин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вазопресин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гонадотропин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Клетками - мишенями вазопрессина являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гладкомышечные клетки семявыносящих путей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителиальные клетки слизистой оболочки яйцеводов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпителиальные клетки желчных протоков печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эпителиальные клетки канальцев почек",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кардиомиоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Структурной единицей щитовидной железы являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трабекулы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителиальные тяжи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фолликулы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "скопление эпителиальных клеток кубической формы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпителиальные островки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "В стенке фолликулов щитовидной железы имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "интерфолликулярные тироциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кардиомиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фиброциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "парафолликулярные тироциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фолликулярные тироциты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Фолликулярные клетки щитовидной железы вырабатывают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "тиреотропный гормон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тиреокальцитонин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "паратгормон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тироксин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "трииодтиронин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Парафолликулярные клетки щитовидной железы вырабатывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тиреотропин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тиреокальцитонин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "паратгормон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трииодтиронин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Действия тироксина:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "способствует сокращению мускулатуры матки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "регулирует функцию надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "регулирует основной обмен",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "регулирует обмен холестерина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стимулирует нервную систему",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Для клубочковой зоны надпочечника характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителиальные клетки полигональной формы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителиальные клетки цилиндрической формы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эпителиальные клетки кубической формы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эпителиальные тяжи располагаются параллельными рядами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпителиальные тяжи дугообразно извиваются",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Для пучковой зоны надпочечника характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителиальные клетки цилиндрической формы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителиальные тяжи располагаются параллельными рядами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эпителиальные тяжи дугообразно изгибаются",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в цитоплазме много липидных капелек",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в цитоплазме мало липидных капелек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Для сетчатой зоны надпочечника характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителиальные клетки полигональной формы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эпителиальные клетки цилиндрической формы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпителиальные тяжи располагаются параллельными рядами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эпителиальные тяжи дугообразно изгибаются",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпителиальные тяжи располагаются без определенного порядка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Действия глюкокортикоидов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижают сопротивляемость организма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повышают уровень глюкозы в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подавляют воспалительную реакцию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "усиливают воспалительную реакцию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "усиливают аллергическую реакцию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Клетками-мишенями альдостерона являются эпителий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "семявыносящих путей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проксимальных канальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "петли Генли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дистальных канальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "собирательных трубок",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "В мозговом веществе надпочечника образуются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фолликулин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "норадреналин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гидрокортизон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адреналин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Для одиночных гормонпродуцирующих клеток характерно всё, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреции олигопептидных гормонов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "высокой пролиферативной активности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличия плотных секреторных гранул",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "способности окрашиваться солями тяжёлых металлов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образования нейроаминов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "К крупноклеточным нейросекреторным ядрам гипоталамуса относится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вентромедиальное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аркуатное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "супраоптическое",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дорзомедиальное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перивентрикулярное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "В аденогипофизе локализованы все клетки, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соматотропоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тиротропоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лактотропоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адреноцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гонадотропоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Специфичность действия гормонов зависит от:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "химического состава",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "концентрации в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "связывания с белком-носителем",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "скорости метаболизирования в тканях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличия рецепторов на клетках-мишенях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "При недостатке в организме йода нарушается образование гормонов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпифиза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аденогипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щитовидной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "околощитовидных желёз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "В передней доле гипофиза имеются все клетки, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тиротропоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гонадотропоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пинеалоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "соматотропоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лактотропоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Йодосодержащие гормоны вырабатываются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в мозговой части надпочечника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в эпифизе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в щитовидной железе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в задней доле гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в корковой части надпочечников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Действие гормонов осуществляется при условии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличия рецептора в клетках-мишенях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "активизации комплекса ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "приведения клетки-мишени в состояние функционального возбуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всего комплекса процессов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Гормон, повышающий уровень калия в крови, вырабатывается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в щитовидной железе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в передней доле гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в эпифизе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в задней доле гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в мозговом веществе надпочечников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Базофильные клетки гипофиза вырабатывают все гормоны, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лютеинизирующего гормона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тиротропного гормона",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лактотропного гормона",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фолликулостимулирующего гормона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адренокорикотропного гормона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Секреторные нейроны, совмещающие свойства нервных и эндокринных клеток, находятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в надпочечниках",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в эпифизе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в передней доле гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в гипоталамусе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в задней доле гипофиза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "В передней доле гипофиза имеются разновидности хромофильных клеток:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гонадотропоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тиротропоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соматотропоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лактотропоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все указанные клетки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Гормон, понижающий содержание кальция в крови, синтезируется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в щитовидной железе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в надпочечниках",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в околощитовидной железе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в передней доле гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в эпифизе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Накопительные тельца Херринга находятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в передней доле гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в средней доле гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в туберальной части гипофиза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в задней доле гипофиза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в мозговом веществе надпочечников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "При гибели базофильных клеток передней доли гипофиза нарушается функция желез:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "щитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коры надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "яичников",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "всех указанных желез",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "При удалении передней доли гипофиза у экспериментального животного нарушается функция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "околоушной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мозгового вещества надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "щитовидной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "островков поджелудочной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клубочковой зоны коры надпочечников",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Внутривенное введение радиоактивного йода используется для исследования:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "щитовидной железы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эпифиза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "околощитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "передней доли гипофиза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "При обработке гистологического среза надпочечников солями хрома выявляются клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клетки мозгового вещества",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "клетки клубочковой зоны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетки пучковой зоны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клетки соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клетки сетчатой зоны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Задержка роста может быть связана с нарушением синтетической активности клеток гипофиза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кортикотропных",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хромофобных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соматотропоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "питуицитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лактотропоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "При импергнации серебром среза щитовидной железы в стенке фолликулов и между ними обнаруживаются клетки с аргирофильной зернистостью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "соматотропоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пинеалоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тироциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "паратироциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "парафолликулярные клетки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "В цитоплазме клеток железы, синтезирующей стероидные гормоны, хорошо развиты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "центросома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гранулярная эндоплазматическая сеть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аппарат Гольджи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "агранулярная эндоплазматическая сеть",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

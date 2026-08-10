@@ -90,6 +90,43 @@ describe('assembleTestDocument', () => {
 		]);
 	});
 
+	test('rejects a question containing machine metadata', () => {
+		const raw: RawQuestion[] = [
+			{
+				texts: ['Question'],
+				options: [option('Correct'), option('Wrong', '@MDID{C8824D48-FD8E-11E6-BA26-50E549E7BDDC}')]
+			}
+		];
+
+		const result = assembleTestDocument(raw, [[true, false]], new Set());
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions).toEqual([]);
+		expect(result.issues.rejectedQuestions).toEqual([
+			{ index: 1, text: 'Question', reason: QuestionRejectionReason.MALFORMED_STRUCTURE }
+		]);
+	});
+
+	test('rejects duplicated two-prefix syntax left inside content', () => {
+		const raw: RawQuestion[] = [
+			{
+				texts: ['?Question'],
+				options: [
+					{ ...option('!correct'), sourcePrefix: '!+', structuralPrefix: '!' },
+					{ ...option('!wrong'), sourcePrefix: '!', structuralPrefix: '!' }
+				]
+			}
+		];
+
+		const result = assembleTestDocument(raw, [[true, false]], new Set());
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions).toEqual([]);
+		expect(result.issues.rejectedQuestions).toEqual([
+			{ index: 1, text: '?Question', reason: QuestionRejectionReason.MALFORMED_STRUCTURE }
+		]);
+	});
+
 	test('возвращает единый массив отклонённых вопросов с причинами', () => {
 		const raw: RawQuestion[] = [
 			{ texts: [''], options: [option('Первый'), option('Второй')] },

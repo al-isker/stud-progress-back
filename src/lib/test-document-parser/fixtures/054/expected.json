@@ -1,0 +1,1472 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Укажите документ, который оформляет старшая медицинская сестра на получение лекарственных форм из аптеки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "квитанцию",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рецептурный бланк",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "требование-накладную",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "экстренное извещение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В журнале учета наркотических средств необходимо указывать:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "путь введения препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цель введения препарата",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диагноз пациента",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ф. И. О. пациента, № истории, количество средства",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Стерильные растворы во флаконах, изготовленные в аптеке, должны иметь этикетку с полосой соответствующего цвета",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белого",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желтого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "голубого",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "розового",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Ответственность за лекарственное обеспечение пациентов в отделении несет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "процедурная медсестра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "заведующий отделением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лечащий врач",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "старшая медсестра",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Наркотические препараты необходимо хранить:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в шкафу на отдельной полке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в сейфе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в холодильнике",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в ящике стола",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Наркотические средства вводятся пациенту в присутствии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "главной медицинской сестры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "родственников",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "врача",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "старшей медицинской сестры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пациентов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Выберите требования к журналу учета наркотических средств:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "листы пронумерованы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "листы прошнурованы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "свободные концы шнура заклеены на последнем листе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на последнем листе указано количество страниц",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеется подпись руководителя и печать",
+						"isCorrect": false
+					},
+					{
+						"index": 6,
+						"text": "все ответы правильные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Пустые ампулы от наркотических средств уничтожаются в присутствии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "процедурной медицинской сестры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "главной медицинской сестры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "заведующего отделением",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "специальной комиссии, утвержденной руководителем ЛПУ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Препараты, назначенные \"натощак\", принимаются пациентом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "за 30 мин. до еды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "за 15-20 мин. до еды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "за 10 мин. до еды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "непосредственно перед едой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "К ингаляционному способу относится введение лекарственных средств",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в дыхательные пути",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "под язык",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на слизистые оболочки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "К наружному способу относится введение лекарственных средств",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "закапывание в глаза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подкожно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в переднюю брюшную стенку",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через прямую кишку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Сублингвальный путь введения лекарственных веществ - это введение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в прямую кишку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в дыхательные пути",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "под язык",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на кожу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Прием снотворных лекарственных средств осуществляется пациентом до сна за (в мин):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "15",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "30",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "45",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "60",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Прием лекарственных средств осуществляется пациентом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "самостоятельно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в присутствии родственников",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в присутствии медицинской сестры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в присутствии пациентов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Чаще всего ректально вводят лекарственные формы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мази",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "присыпки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "суппозитории",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "таблетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Вместимость десертной ложки (в мл)",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "30",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "15",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "10",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "5",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Энтеральный путь введения лекарственных средств",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через ЖКТ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "через дыхательные пути",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутрикожно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на кожу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Пилюли, капсулы применяются внутрь",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в разжеванном виде",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "содержимое высыпается под язык",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в неизменном виде",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "содержимое высыпать, растворить в воде, выпить",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Преимуществом парентерального пути введения является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "быстрота действия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не требует специальной подготовки персонала",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не требует соблюдения стерильности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "простота и доступность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Выберите парентеральный способ введения лекарственных препаратов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пероральный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наружный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инъекционный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ректальный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Знание \"цены\" деления на шприце медицинской сестре необходимо для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "набора в шприц необходимого количества лекарственного вещества",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "медленного введения лекарственного вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "быстрого введения лекарственного вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "определения цифр на цилиндре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Выберите шприц, на котором указаны \"единицы действия\":",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Жане",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инсулиновый",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "шприц-тюбик",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Ампулу с масляным раствором предварительно подогревают на водяной бане до температуры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "18°С",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "22°С",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "38°С",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "50°С",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Выберите количество лекарственного средства, которое вводится внутрикожно с диагностической целью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,01 - 1мл",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1 - 1,5 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1 - 2 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 - 5мл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Анатомической областью для внутрикожной пробы является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средняя треть передней поверхности плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "средняя треть передней поверхности предплечья",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "средняя треть наружной поверхности плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "средняя треть наружной поверхности бедра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Игла, при выполнении внутрикожной пробы, вводится на глубину:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "одну треть иглы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2 см",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "среза иглы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "две трети иглы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "В 1 мл простого инсулина содержится (ЕД):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "40",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "80",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Наиболее частым осложнением при выполнении подкожной инъекции является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "абсцесс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воздушная эмболия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тромбофлебит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инфильтрат",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Анатомическими областями, для выполнения подкожной инъекции являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средняя треть наружной поверхности плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "передняя поверхность предплечья",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "подлопаточная область",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "передняя брюшная стенка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "верхне- наружный квадрант ягодицы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Укажите, какой раствор не применяется для разведения антибиотиков:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,9% р-р натрия хлорида",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,5% р-р новокаина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5% р-р глюкозы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стерильная вода для инъекций",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Выберите стандартное разведение антибиотиков:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 100000 ЕД - 1мл. растворителя",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на 500000 ЕД - 3 мл. растворителя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на 250000 ЕД - 5 мл. растворителя",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "на 1000000 ЕД - 2,5 мл. растворителя",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Длина иглы для выполнения внутримышечной инъекции должна быть не менее:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "15 мм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "40 мм",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "60 мм",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "20 мм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Кажите, в какую мышцу не выполняется внутримышечная инъекция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дельтовидную мышцу плеча",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среднюю и малую ягодичные мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "широкую латеральную мышцу бедра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прямую мышцу живота",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "При выполнении внутримышечной инъекции, иглу вводят под углом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "15°",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "45°",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "60°",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "90°",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Выберите максимальное количество лекарственного вещества, вводимого внутримышечно (в мл):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1-2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2-5",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5-10",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "20-40",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Выберите возможное место для венепункции при внутривенной инъекции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "средняя треть плеча;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "верхний наружный квадрант ягодицы;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вены локтевого сгиба;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "латеральная поверхность бедра;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "передняя брюшная стенка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Какие лекарственные средства нельзя вводить внутривенно",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антибактериальные препараты;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "масляные растворы;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "изотонический раствор натрия хлорида;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкокортикоиды;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инсулин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Выберите правильное положение рук медицинской сестры на шприце при выполнении внутривенной инъекции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "указательным пальцем фиксировать канюлю иглы, расположенную срезом вверх, а остальные пальцы обхватывают цилиндр шприца;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "указательным пальцем фиксировать канюлю иглы, расположенную срезом вниз, а остальные пальцы обхватывают цилиндр;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "все пальцы обхватывают цилиндр шприца, игла расположена срезом вверх;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все пальцы обхватывают цилиндр шприца, игла расположена срезом вниз;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "как держать шприц медицинская сестра определяет в зависимости от места инъекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Выберите порядок действий при наборе лекарственного препарата из флакона, закрытого алюминиевой крышкой",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отогнуть нестерильным пинцетом часть алюминиевой крышки флакона, протереть резиновую пробку ватным шариком, смоченным антисептическим средством;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отогнуть стерильным пинцетом часть алюминиевой крышки флакона, протереть резиновую пробку ватным шариком, смоченным антисептическим средством;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "протереть алюминиевую крышку ватным шариком, смоченным антисептическим средством, отогнуть нестерильным пинцетом часть крышки флакона;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "протереть алюминиевую крышку ватным шариком, смоченным антисептическим средством, отогнуть стерильным пинцетом часть крышки флакона;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отогнуть стерильным пинцетом часть алюминиевой крышки флакона, необязательно протирать резиновую пробку ватным шариком, смоченным антисептическим средством",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "К парентеральному пути введения относится способ введения лекарственных средств",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "через дыхательные пути;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "через прямую кишку;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутривенно;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сублингвально;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на кожу и слизистые",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "При пунктировании вены при заборе крови из периферической вены на анализ срез иглы располагается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вниз;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "влево;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вправо;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вверх;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не имеет значения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Игла относительно кожи при выполнении внутримышечной инъекции располагается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "под углом 15°;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "под углом 30°;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "под углом 45°;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "под углом 75°;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "под углом 90",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Для внутрикожной инъекции используется шприц объёмом",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "20 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "10 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1 мл.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Укажите место для введения инсулина, где происходит быстрое всасывание лекарственного препарата",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подкожно — жировой слой боковых сторон живота не более 2,5 см от пупка, наружная боковая поверхность средней трети плеча",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "всасывание происходит везде одинаково;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надлопаточная область;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "верхненаружный квадрант ягодицы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какой длины иглы, применяются при заборе крови из периферических вен на анализ",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "60 мм;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "40 мм;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "20 мм;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "15 мм; ` 10 мм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "При попадании воздуха в сосуд развивается осложнение",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воздушная эмболия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тромбофлебит;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "некроз;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инфильтрат;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "жировая эмболия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Какой объём лекарственного препарата можно ввести при внутрикожной инъекции",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "5 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "3 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "0,1 — 1 мл.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "При подкожной инъекции можно ввести объём лекарственного препарата",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "0,1 — 0,2 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "0,1 — 5 мл;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "0,1 — 7 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "0,1 — 2 мл;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "до 10 мл.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Игла относительно кожи при выполнении подкожной инъекции располагается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "под углом 15°;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "параллельно коже;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "под углом 30°;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "под углом 45°;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "под углом 75°.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Длина иглы, применяемой для подкожных инъекций",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "60 мм;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "40 мм;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "25 мм;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "15 мм;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "10 мм.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Выберите правильный порядок действий при вскрытии ампулы",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "надпилить ампулу, сухим стерильным ватным шариком протереть место надпила и обломить конец ампулы;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обработать ампулу ватным шариком, смоченным спиртом, надпилить и обломить конец ампулы;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надпилить ампулу и обломить конец ампулы, не обрабатывая;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "надпилить ампулу, обработать ватным шариком, смоченным спиртом, и обломить конец ампулы;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "порядок действий не имеет особого значения.",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

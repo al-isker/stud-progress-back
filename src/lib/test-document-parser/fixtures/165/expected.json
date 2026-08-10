@@ -1,0 +1,714 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Клетками эпидермиса кожи являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "адреноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тиреоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кератиноциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "плазмоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "меланоциты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Клетки базального слоя эпидермиса имеют особенности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "форма кубическая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цилиндрическая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в цитоплазме агранулярная эндоплазматическая сеть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в цитоплазме гранулярная эндоплазматическая сеть",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мало рибосом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Клетки шиповатого слоя эпидермиса имеют особенности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в цитоплазме много тонофибрилл",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в цитоплазме пластинчатые тельца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие щелевых контактов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие десмосом",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "на поверхности микроворсинки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Клетки зернистого слоя эпидермиса кожи имеют особенности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ромбовидная форма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в цитоплазме зерна элеидина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в цитоплазме много тонофибрилл",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в цитоплазме зерна кератогиалина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хорошо развита агранулярная эндоплазматическая сеть",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Клетки блестящего слоя имеют особенности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "органеллы хорошо очерчены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "органеллы хорошо не контурируются",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в цитоплазме белок керотогиалин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в цитоплазме белок кератин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в цитоплазме белок элеидин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Клетки Лагерганса эпидермиса кожи выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреторную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рецепторную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фагоцитарную",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эндокринную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экскреторную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Клетки Меркеля эпидермиса кожи выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреторную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рецепторную",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фагоцитарную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндокринную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "экскреторную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Меланоциты кожи располагаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "среди клеток шиповатого слоя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среди клеток зернистого слоя",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тела клеток в шиповатом слое, а отростки в зернистом слое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тела клеток в шиповатом слое, а отростки в базальном слое",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тела клеток в базальном слое, а отростки в шиповатом",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Эпидермис тонкой кожи имеет особенности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "зернистый слой выраженный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "зернистый слой имеет единичные клетки, содержащие кератогиалин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "блестящий слой выраженный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "блестящий слой слабо выраженный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет блестящего слоя",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "В составе сосочкового слоя дермы кожи имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плотная неоформленная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "РСТ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ретикуляторная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибробласты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ретикулоциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "В составе сетчатого слоя кожи имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плотная неоформленная соединительная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "РСТ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ретикуляторная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "густая сеть ретикулиновых волокон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "густая сеть эластических волокон",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Для сальных желез характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреция апокриновая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мерокриновая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в концевых отделах имеются малодифференцированные базальные клетки.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "имеются миоэпителиальные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеются клетки на разных стадиях жировых дегенераций",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Для потовых желез характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреторные клетки концевых отделов плоские",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полигональной формы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цилиндрические",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "имеются миоэпителиальные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нет миоэпителиальных клеток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Сальные железы кожи выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "защитная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выделительная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экскреторная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жировая смазка для кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "участие в терморегуляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Корковое вещество волоса состоит из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полигональных клеток с зёрнами пигмента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плоских роговых чешуй с зёрнами пигмента",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аморфного вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "клеток росткового слоя эпидермиса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отмирающих меланоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Эпидермис представлен всеми дифферонами клеток, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кератиноцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "меланоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутриэпидермальных макрофагов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутриэпидермальных фибробластов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "осязательных клеток Меркеля",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Рост волоса происходит за счёт деления клеток:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мозгового вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "коркового вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "волосяного сосочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "волосяной луковицы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "волосяного фолликула",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Основной тканью сетчатого слоя дермы кожи является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рыхлая соединительная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плотная оформленная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плотная неоформленная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гладкая мышечная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечнополосатая мышечная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Размножение клеток волосяной луковицы (матрицы) приводит к образованию всех следующих компонентов волоса, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутреннего эпителиального влагалища",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наружного эпителиального влагалища",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мозгового вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коркового вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кутикулы волоса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Кератолинины синтезируются клетками слоёв эпидермиса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "базального",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "шиповатого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "блестящего",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зернистого",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "рогового",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Рост ногтевой пластинки происходит за счёт деления клеток:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "её корня",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "её тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ногтевой матрицы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эпидермиса ногтевых валиков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "надногтевой пластинки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Центром пролиферативной единицы эпидермиса считается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кератиноцит базального слоя в интерфазе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кератиноцит базального слоя в митозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пигментная клетка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутриэпидермальный макрофаг",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клетка Меркеля",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

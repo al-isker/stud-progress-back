@@ -1,0 +1,7327 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Центральная задача иммунитета:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечение генетической целостности организма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обеспечение противоинфекционной защиты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отторжение пересаженных клеток, тканей и органов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реализац ия запрограммированной клеточной смерти (апоптоза)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обеспечение состояния толерантности к «своему».",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Приобретённый иммунитет характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "неспецифичностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не требует антигенной активации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "формированием иммунологической памяти",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активацией эндокринной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритропоэзом.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "К фагоцитам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Th-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В-лимфоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "К бактерицидным факторам крови относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альбумины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "С-реактивный белок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комплемент",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фибриноген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Лимфопоэз осуществляется:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в селезёнке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в лимфатических узлах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в пейеровых бляшках кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тимусе.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Основные функции специфического иммунного ответа:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование антител",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синтез С-реактивного белка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пиноцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фагоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "формирование иммунологической памяти .",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Клеточная теория иммунитета обоснована:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Р. Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "И. Мечниковым",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Л. Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "П.Медаваром",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Э. Берингом.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Особенности врождённого иммунитета:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реализуется только лимфоидными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реализуется миелоидными клетками",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "активируется только при воздействии антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активируется только при попадании антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "формирует клетки иммунологической памяти.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Toll-подобные рецепторы распознают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только аминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только антигенные эпитопы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммунные комплексы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "углеводные группы на поверхности бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "суперантигены.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Кожа, как периферический отдел иммунной системы содержит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "купферовские клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тучные клетки.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Назовите клетки, которые не образуются в костном мозге:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дендритные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "базофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейроны.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "В активации клеток врождённого иммунитета участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рецепторы- «мусорщики»",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "только белки острой фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только компоненты комплемента.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Комплемент был открыт",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Л. Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ж. Борде",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "К. Ландштейнером",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "С. Тонегава",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ж. Миллером.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Назовите органы и ткани, в которых присутствуют лимфоидные фолликулы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "селезёнка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пейеровы бляшки кишечника",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глоточные миндалины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "печень.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Иммунокомпетентными клетками являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дендритные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стволовые",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Т-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тучные клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Отметьте клетки, которые обладают фагоцитарной активностью:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нейтрофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Основная роль макрофагов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "презентация антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "секреция гистамина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "секреция иммуноглобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поглощение бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "синтез гранзимов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "«Профессиональные» АПК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-киллеры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дендритные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "М-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тимоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Основные функции макрофага:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез иммуноглобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "презентация антигена Т-хелперам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтез перфоринов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участие в аллергических реакциях немедленного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтез белков острой фазы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "К бактерицидным факторам крови относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комплемент",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фибриноген",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ig-E",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альбумины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ig-M.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Лимфопоэз осуществляется:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в щитовидной железе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в тимусе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в пейеровых бляшках кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в лёгких.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Функции специфического иммунного ответа:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование антител",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "накопление сенсибилизированных лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "формирование иммунологической памяти",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "индукция апоптоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "активация эндокринной системы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "NK-клетки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствуют в лимфе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не формируют иммунологической памяти",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтезируют лизоцим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "осуществляют иммунный фагоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтезируют белки острой фазы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Лимфоциты с γ-δ цепями:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют неограниченное разнообразие TCR",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не требуют предварительного процессинга и представления антигена АПК",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "находятся преимущественно в эпидермисе и слизистой ЖКТ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "находятся преимущественно в лимфоузлах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "формируют клетки иммунологической памяти.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "NK-клетки распознают антиген:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "только после предварительного процессинга",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только после связывания с антигенами МНС",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "независимо от связывания с антигенами МНС",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обладают спонтанной цитотоксичностью",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "формируют иммунологическую память.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "В-лимфоциты:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "могут выполнять функцию АПК",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синтезируют антитела",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтезируют гистамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реализуют клеточный иммунный ответ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтезируют β-лизины.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Лимфоидная ткань слизистых оболочек (MALT) включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоидную ткань кишечника (GALT)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лимфоидную ткань бронхов и бронхиол (BALT)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лимфоидную ткань конъюнктивы (CALT)",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфоидную ткань носоглотки (NALT)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "лимфоидную ткань щитовидной железы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Периферические органы иммунной системы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пейеровы бляшки кишечника",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вилочковая железа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "почки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поджелудочная железа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Центральные органы иммунной системы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "надпочечники",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимус",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "селезёнка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аппендикс.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Назовите органы и ткани, в которых присутствуют лимфоидные фолликулы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфатические узлы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кожа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тимус",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "печень.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Иммунокомпетентными клетками являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофильные лейкоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тучные клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Фагоцитарной активностью обладают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "натуральные киллеры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейтрофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Т-лимфоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Тимус служит источником:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "макрофагов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тимических гуморальных факторов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "субпопуляций регуляторных В-лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "субпопуляций эффекторных Т-лимфоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "субпопуляций регуляторных Т-лимфоцитов.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Клетки врождённого иммунитета активируются при участии рецепторов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рецепторов-«мусорщиков»",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Toll-подобных (TLR)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "иммуноглобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "TCR",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "маннозо-фукозных",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Фунция макрофагов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреция С-реактивного белка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "секреция гистамина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "секреция иммуноглобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поглощение и деструкция бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "активация комплемента",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "«Профессиональные» АПК:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-киллеры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дендритные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тучные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эозинофилы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "В реализации функций адаптивного иммунитета принимают участие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты-хелперы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "%фибронектин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белки острой фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пропердин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Т-лимфоциты киллеры.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Комплемент:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "активируется каскадом реакций протеолиза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "имеется только у человека",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "относится к белкам сыворотки крови",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "специфичен по отношению к антигену",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "относится к цитокинам.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Комплемент активируется по классическому пути:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с участием интерферонов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с участием комплекса антиген/антитело",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "после распознавания маннозосвязывающего лектина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "только с участиемIg-G",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только с с участием Ig-E.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Проявлению цитотоксических свойств Т-лимфоцитов способствуют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "С-реактивный белк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гранзимы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гранулизины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ИЛ-2",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Ig-E.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "В-лимфоциты памяти обнаруживаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в тимусе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в лимфе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в периферических лимфоидных органах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в печени.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Активация комплемента по классическому пути связана:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с выработкой интерлейкина-2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интерферонов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участием комплекса антиген/антитело",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активацией Toll-подобных рецепторов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "верно всё перечисленное.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Активация системы комплемента по лектиновому пути связана с действием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитокинов NK-клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перфоринов NK-клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гистамина тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связывающего маннозу лектина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "IgM.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Дендритные клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуются в тимусе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образуются в вилочковой железе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выполняют антиген-презентирующую функцию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "экспрессируют антигены гистосовместимости I класса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтезируют антитела.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Слизистые оболочки секретируют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перфорин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ig A",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "серотонин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бета-лизин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "комплемент.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Естественный иммунитет новорождённых формируется в результате:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вакцинации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "введения иммунных сывороток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "передачи антител от матери плоду",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антибиотикотерапии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применения бактериофага.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "После введения антитоксической лечебно-профилактической сыворотки формируется иммунитет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активный поствакцинальный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пассивный искусственный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "местный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "естественный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "врождённый пассивный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Приобретённый активный иммунитет возникает после введения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аттенуированной вакцины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пробиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "моноклональных антител",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антитоксической сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антибиотиков.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Отметьте признаки, характерные для системы комплемента:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "относится к белкам сыворотки крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "индуцирует синтез перфоринов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "имеется только у человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "неспецифичность по отношению к антигену",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "относится к γ-глобулинам.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Активации комплемента по классическому пути осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с участием комплекса антиген-антитело",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с участием белка пропердина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с действием антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с распознаванием маннозо-связывающего лектина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "с участием ИЛ-10.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Назовите гуморальные факторы неспецифического иммунитета:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перфорин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемоглобин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альбумины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизоцим",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "иммуноглобулины.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "К макрофагам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тучные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "купферовские клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Т-лимфоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Согласно современной номенклатуре комплемент обозначается символом (буквой):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "C",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "CD",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "АВО",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "М",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Функции скавенджер-рецепторов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "связывают молекулы маннозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "связывают молекулы липидов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "связывают суперантигены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "связывают гаптены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "связывают комплемент",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Искусственный пассивный иммунитет развивается после:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перенесённого инфекционного заболевания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "введения сыворотки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вакцинации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "введения анатоксина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применения кортикостероидов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "N-ацетилмурамидаза – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизоцим",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пропердин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комплемент",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интерферон",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фактор вирулентности бактерий.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Функция естественных клеток-киллеров ( NK-клеток):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обеспечение Т-зависимой цитотоксичности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обеспечение «спонтанной» цитотоксичности",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "обеспечение антителозависимого опосредованного клетками лимфолизиса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синтез антител",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "презентация антигена.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Отметьте функциональное действие естественных киллеров:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемолиз эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уничтожение опухолевых клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синтез антител",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "активация комплемента.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Клеточные реакции приобретённого иммунитета осуществляют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "купферовские клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тучные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Т-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клетки Сертоли.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Итогом специфического иммунного ответа является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспаление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аллергическая реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антителообразование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активация комплемента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лихорадочная реакция.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Адаптивный иммунитет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наследуется",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "реализуется только миелоидными клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "функционирует только после пубертатного периода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "формирует клетки иммунологической памяти",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "функционирует независимо от наличия антигена.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Клетками Лангерганса называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тучные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дендритные клетки кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В-лимфоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Лактоферрин:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержится в слюне",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "содержится в грудном молоке",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтезируется NK-клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладает синергизмом действия с Ig A-антителами",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "синтезируется гепатоцитами.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "К антиген-представляющим клеткам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазматические клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тучные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цитотоксические Т-лимфоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Т-зонами лимфоидных органов являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фолликулы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "паракортикальные зоны",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "маргинальные зоны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "медуллярные шнуры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мозговое вещество.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Дендритные клетки выполняют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антителообразование",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антиген-представляющую функцию",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "разрушение клеток трансплантата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизис бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрушение вирус-инфицированных клеток.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "В реализации цитотоксической активности Т-киллеров участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "молекулы МНС II класса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гистамин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пропердин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сериновые протеазы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "компоненты комплемента.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Центральными органами иммунной системы являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "шишковидная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пейеровы бляшки кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "селезёнка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тимус",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "печень.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "После введения вакцины формируется иммунитет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "искусственный активный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "естественный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "естественный активный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "местный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Для процесса фагоцитоза характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютинация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хемотаксис",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дегрануляция тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "секреция перфориновых /гранзимовых молекул",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтез интерферонов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Лимфопоэз В-лимфоцитов происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в тимусе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в лимфатических узлах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в селезёнке.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Иммунитет – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "функция защиты организма исключительно от вирусных инфекций",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "функция защиты организма от агентов, несущих чужеродную генетическую информацию",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "функция защиты организма исключительно от простудных заболеваний",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "функция психологической защиты организма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "функция защиты организма исключительно от онкологических заболеваний.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "В реализации реакций врождённого иммунитета участвуют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноциты/макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нейтрофилы.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Кожа, как периферический отдел иммунной системы, содержит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гепатоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плазмоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фолликулы с герминативными центрами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тучные клетки.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Лимфопоэз – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез Т-лимфоцитами перфоринов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "созревание лимфоцитов в центральных органах иммунной системы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтез В-лимфоцитами иммуноглобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образование лимфы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "циркуляция периферической лимфы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Бактерицидное действие крови обусловлено наличием в ней:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "интерферона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "комплемента",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "микробных токсинов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоцитов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Перфорины индуцируют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дегрануляцию тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лизис эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разрушение опухолевых клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эндоцитоз фагоцитированных бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрушение вирус-инфицированных клеток .",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Иммунный механизм, предотвращающий повторное воздействие антигена, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперчувствительность немедленного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "иммунологическая толерантность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антителонезависимая клеточно-опосредованная цитотоксичность",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунологическая память",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "антителозависимая клеточно-опосредованная цитотоксичность.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Клетки Лангерганса преимущественно находятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в слизистой ЖКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в селезёнке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в лимфе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в коже",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "В адаптивном (приобретённом) иммунитете участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "астроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гепатоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Лизоцим был выделен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Р.Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Л.Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "А.Флемингом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Ж.Борде",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "М.Гашеком.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Основной принцип функционирования системы иммунитета:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "органный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миграционный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "циркуляторный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "органно-миграционный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "органно-циркуляторный.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "После введения сыворотки развивается иммунитет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственный активный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "искусственный пассивный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "естественный активный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "естественный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "местный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Врождённый иммунитет это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммунитет, обеспечивающий защиту организма только в постнатальном периоде",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "составляющая часть полноценного иммунного ответа на протяжении жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "иммунитет, формирующий иммунологическую память",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунитет, функционирующий только при воздействии антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммунитет, обеспечивающий только защиту от инфекций.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Приобретённый (адаптивный) иммунитет:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "формирует клетки иммунологической памяти",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "реализуется без участия клеток миелоидного ряда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не наследуется генетически",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "обеспечивает исключительно защиту от инфекционных болезней",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "функционирует независимо от наличия в организме антигена.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Функции дендритных клеток:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрушение вирус-инфицированных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "презентация антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтез гранзимов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синтез антител",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "разрушение опухолевых клеток.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Эффекторную функцию осуществляют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазматические клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тучные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Т-киллеры.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Механизм активации системы комплемента по альтернативному пути связан:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с участием комплекса антиген/антитело",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "с участием гистамина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с участием белка пропердина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с действием цитокинов естественных киллеров",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "с действием интерферонов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Лимфоциты с гамма-дельта цепями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют неограниченное разнообразие TCR",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не имеют TCR",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "находятся преимущественно в слизистой ЖКТ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "находятся преимущественно в лимфоузлах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "формируют клетки иммунологической памяти.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Распознавание антигена NK-клетками происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "без ограничения по МНС",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с ограничением по МНС",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "после активации скавенджер-рецепторами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "после активации клетками иммунологической памяти",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "после активации тучных клеток.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Клеточный состав ткани тимуса:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гистиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпителий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "стволовые клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стволовые клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тимоциты.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "В пейеровой бляшке осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреция гистамина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифференцировка В-лимфоцитов в плазмоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фагоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "секреция интерферонов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "секреция С-реактивного белка.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "М-клетки входят в состав ткани:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "селезёнки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пейеровой бляшки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфатических узлов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тимуса.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Лимфа грудного лимфатического протока называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "промежуточной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "центральной",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "периферической",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лёгочной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неиммунной.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Функции В-лимфоцитов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "осуществление фагоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтез антител",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "высвобождение гистамина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синтез перфорина",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "презентация антигена.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Фибронектин синтезируется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофагами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эозинофилами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатоцитами.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "В зародышевых центрах фолликулов лимфатических узлов : преимущественно содержатся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дендритные клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "После введения сывороточных препаратов формируется иммунитет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "искусственный активный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "искусственный пассивный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "приобретённый активный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "естественный пассивный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адоптивный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Образование NK-клеток происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в пейеровых бляшках кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в тимусе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в лимфатических узлах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в селезёнке.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Факторы иммуносупрессии при нормальной беременности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "подавление функции натуральных киллеров",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "отсутствие на трофобласте антигенов HLA-I",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сорбция плацентой HLA-антител",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дисбаланс соотношения эстрогены/гестагены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "развитие воспалительных реакций с активацией Th-I.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Следующие факторы стимулируют фагоцитоз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "амилазы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гаптены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опсонины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гепарин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "перфорин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Клеточные факторы неспецифической резистентности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "зернистые лейкоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": ".эритроциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Гуморальные факторы неспецифической резистентности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сывороточные иммуноглобулины класса А.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пропердин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "белки острой фазы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "альбумины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аминокислоты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Фагоцитирующие клетки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "моноциты/макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "нейтрофилы.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гепатоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "NK-клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Система комплемента:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "относится к интерлейкинам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "относится к белкам сыворотки крови, активируемым каскадом реакций протеолиза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "имется только у человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "относится к протеазам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеется только у животных.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Гуморальные факторы неспецифической резистентности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "белки острой фазы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гистамин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аминокислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "альбумины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лактоферрин.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "«Профессиональные» фагоцитирующие клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейтрофильные лейкоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дендритные клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Клеточные факторы неспецифической резистентности:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейтрофильные лейкоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "естественные киллеры",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Т-лимфоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Механизм активации комплемента по классическому пути связан:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с комплексом антиген/антитело",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "с интерферонами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с интерлейкином-2",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "с дегрануляцией тучных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "с активностью нейтрофилов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Клетки системы мононуклеарных фагоцитов - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепатоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Т-лимфоциты участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в функционировании неспецифического иммунитета",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в клеточном иммунном ответе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в гуморальном иммунном ответе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "только в реакциях отторжения трансплантата",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только в уничтожении опухолевых клеток.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "К периферическим органам иммунной системы относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфатические узлы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "селезёнка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тимус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "печень.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Естественный активный иммунитет формируется после:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "введения сыворотки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перенесённого инфекционного заболевания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вакцинации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "введения готовых антител",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "применения бактериофага.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Антитоксический иммунитет формируется после применения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аутовакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "живой ослабленной вакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анатоксина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "живой корпускулярной вакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антибиотиков.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Компоненты комплемента, которые являются анафилотоксинами:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "С 3а",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "С 1д",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "С 5а",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "С 2 в",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С 4 в.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Лизоцим – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазмокоагулаза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "N-ацетилмурамидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лецитиназа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кокарбоксилаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коллагеназа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "К микрофагам относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эозинофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "базофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Естественные киллеры вызывают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемолиз эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разрушение клеток трансплантата",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "агглютинацию эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "продукцию сериновых протеаз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "разрушение клеток, инфицированных вирусом.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Клетки, ответственные за восстановление иммунной системы после пересадки костного мозга:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кроветворные стволовые клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "макрофаги.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Состояние иммунитета в основном определяется функциями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "центральной нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндокринной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кроветворной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфоидной системы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сердечно-сосудистой системы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "В состав лимфоидной системы входят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поджелудочная железа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аппендикс",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "миндалины глоточного кольца",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "щитовидная железа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Антитоксический иммунитет формируется после введения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аутовакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "живой ослабленной вакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "анатоксина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "генно-инженерной вакцины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моноклональныхантител.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Пассивный иммунитет формируется после введения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анатоксинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вакцин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "готовых антител",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эндотоксинов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антибиотиков.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Дендритные клетки образуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в пейеровых бляшках кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в тимусе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в лимфатических узлах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в селезёнке.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "В норме лимфоидные фолликулы отсутствуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в селезёнке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в лимфоузлах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в пейеровых бляшках кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в миндалинах глоточного кольца.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "К стадиям фагоцитоза относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование фагосомы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "образование фаголизосомы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "% хемотаксис",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дегрануляция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "преципитация.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Toll-подобные рецепторы (TLR) распознают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирусные антигены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цитокины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липополисахариды бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "иммунные комплексы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "маннозосвязывающий лектин.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Отметьте препараты, которые создают в организме активный иммунитет:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "анатоксины",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вакцины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "пробиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "адаптогены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "моноклональные антитела.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Дифференцировка Т-лимфоцитов происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в пейеровых бляшках кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в тимусе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в лимфатических узлах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в селезёнке.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Маркёр цитотоксичности Т-клеток:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "CD-2+",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "CD-8+",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "CD-28+",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "CD-3+",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "CD-19+.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Гуморальными факторами неспецифической резистентности являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "комплемент",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лактопероксидаза",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "β-лизины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "триптаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "щелочная фосфатаза.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Фагоцитарной активностью не обладают :",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "дендритные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нейтрофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "натуральные киллеры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Т-лимфоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Гуморальная теория фагоцитоза была научно обоснована:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "П.Эрлихом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Ф.Бернетом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Р.Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Л.Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ж.Доссе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Основные функции макрофага:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "процессинг антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "формирование иммунологической памяти",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "секреция гранзимов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "секреция цитокинов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "презентация иммунодоминантных пептидов Т-хелперам",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Белками острой фазы инфекционного процесса являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "С-реактивный белок",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "альфа-глобулины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альбумины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиалуронидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейраминидаза.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "К бактерицидным факторам крови относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комплемент",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перфорин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трансаминазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "токсины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интерфероны.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "К микрофагам относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейтрофильные лейкоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "базофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гепатоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Тучные клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "являются мононуклеарными фагоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладают цитотоксическим противовирусным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "являются базофильными гранулоцитами",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "экспрессируют высокоаффинные рецепторы для Ig M",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "являются нейтрофильными гранулоцитами.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "«Профессиональные» антиген-презентирующие клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плазматические клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дендритные клетки.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Тимус служит источником:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макрофагов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "натуральных киллеров",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В -лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Т-лимфоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эпителиоцитов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Клетки врождённого иммунитета активируются при участии рецепторов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Toll-подобных (TLR)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "иммуноглобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "TCR",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "BCR",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тучных клеток.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Центральные клетки адаптивного иммунитета:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепатоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "моноциты крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейтрофилы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Клетки и медиаторы, принимающие участие в формировании Т-I хелперов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ИЛ-12",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гамма-интерферон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активированный макрофаг",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тучная клетка.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Реакции клеточного специфического иммунного ответа осуществляют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плазматические клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейтрофильные лейкоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Иммунокомпетентными клетками являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нейтрофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "моноциты крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эозинофилы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Т-хелперы- I продуцируют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "γ-интерферон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "α-ОНФ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ИЛ-2",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ИЛ-6",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ИЛ-4",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Стволовая кроветворная клетка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладает фагоцитарной активностью",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "является предшественницей клеток лимфоидного ряда",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтезирует интерфероны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "регулирует взаимодействие иммунокомпетентных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтезирует иммуноглобулины.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Эффекторную функцию гуморального специфического иммунного ответа осуществляют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дендритные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плазматические клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "перфорины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "NK-клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Клетками, реализующими функции врождённого иммунитета являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эозинофильные лейкоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейтрофильные лейкоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Т-хелперы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Т-киллеры.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Функции Th-II:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "продуцируют ИЛ-4",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "участвуют в синтезе Ig-E",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "индуцируют развитие гуморального иммунного ответа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "индуцируют развитие клеточного иммунного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "продуцируют ИЛ-2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "Стволовая кроветворная клетка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мигрирует с током лимфы в тимус",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "является предшественницей клеток лимфоидного и миелоидного ряда",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтезирует гранзимы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синтезирует гормоны тимуса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "коммитируется.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Т-хелперы способны синтезировать:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бета-лизины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трансаминазы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интерлейкины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гранулизин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "С-реактивный белок.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Функции, характерные для В-лимфоцитов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эффекторы реакций противоопухолевого иммунитета",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эффекторы реакций трансплантационного иммунитета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предшественники клеток-продуцентов антител",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активируют комплемент",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "активируют NK-клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Лимфопоэз В-лимфоцитов происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в селезёнке",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в костном мозге",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в лимфоидной ткани слизистых оболочек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в тимусе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в лимфатических узлах.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "В процессе дифференцировки В-лимфоцита на его мембране первыми появляются рецепторы иммуноглобулинов класса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "М",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "D",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "G",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Е.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Плазматические клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обладают разнообразием мембранных рецепторов для антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не имеют мембранных рецепторов для антигенов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "способны выполнять функцию АПК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "являются долгоживущими клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обладают цитотоксическим действием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Процесс дифференцировки Т-лимфоцитов начинается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в субкапсуллярной зоне коркового слоя тимуса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в периферических органах лимфоидной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в мозговом слое тимуса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в лимфатических узлах.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Результатом негативной селекции Т-лимфоцитов является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отторжение аллотрансплантата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "формирование иммунологической толерантности к аутоантигенам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "подавление иммунного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "формирование первичных иммунодефицитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нарушение толерантности к аутоантигенам.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "В-лимфоциты памяти больше всего накапливаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в лимфе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "периферических лимфоидных органах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в слизистых оболочках",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "К гуморальным факторам противовирусной неспецифической резистентности относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "комплемент",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пропердин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лизоцим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "С-реактивный белок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интерфероны.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "В активации клеток врождённого иммунитета участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Fcε-R",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Toll-подобные рецепторы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "TCR",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "BCR",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Fas-лиганды..",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Лимфа не содержит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибриноген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фибринолизин.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Участие системы комплемента в иммунных реакциях:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "связывает Ig M",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "участвует в анафилактических реакциях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разрушает иммунные комплексы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выводит иммунные комплексы в кровоток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "связывает Ig-G.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "Лимфоидные фолликулы не присутствуют в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пейеровых бляшках кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфатических узлах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "глоточных миндалинах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезёнке",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в костном мозге.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "В активации клеток врождённого иммунитета участвуют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "TCR",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "скавенджер- рецепторы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "маннозо-фукозные рецепторы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гормоны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "BCR.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Пропердин:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "является сывороточным белком крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "активируется в присутствии ионов Mg++",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "является проферментом системы комплемента",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активирует комплемент классическим путём",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подавляет иммунный ответ.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Интерфероны I типа:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтезируются лейкоцитами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оказывают непосредственное противовирусное действие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инициируют репликацию вирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инициируют нарушение репликации вирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "%являются белками с высокой молекулярной массой.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Фагоцитоз усиливается при участии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютининов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "опсонинов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гистамина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "каталаз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гаптенов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "С участием Т-киллеров реализуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антигенная презентация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аллергические реакции немедленного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отторжение трансплантатов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "антитоксический иммунитет",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтез иммуноглобулинов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Опсонизирующим действием обладают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ig-G",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Ig-M",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ферменты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "триптазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интерлейкины.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Свойства Т-лимфоцитов-киллеров:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эффекторы реакций против клеток, заражённых вирусами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "усиление фагоцитоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "предшественники клеток-продуцентов антител",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активация комплемента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антиген-представляющая функция.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Разрушение клеток-мишеней при помощи перфорин/гранзимовых механизмов осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тучными клеткми",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "NK-клетками",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "моноцитами/макрофагами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эозинофилами.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "В реализации функций Т-киллеров и NK-клеток участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лизоцим",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перфорины",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ig M",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лактопероксидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пропердин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Участники альтернативного пути активации комплемента:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "липополисахариды клеточной стенки бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Ig-G",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гранзимы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интерфероны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансаминазы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "Высокоаффинные FceR представлены на поверхности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "моноцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дендритных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гепатоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тучных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нейтрофилов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "Гуморальный иммунный ответ реализуется с участием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "CD8+лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоцитов купферовских клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "NK-клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Функции, свойственные кроветворным стволовым клеткам:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "процессинг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миграция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "презентация антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "комиттирование",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фагоцитарная активность.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Т-клеточный рецептор распознаёт:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "свободный белок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пептид, связанный с молекулами главного комплекса гистосовместимости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "свободные пептиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "углеводные молекулы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отдельные аминокислоты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "Гуморальный иммунный ответ – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез иммуноглобулинов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "активация комплемента по альтернативному пути",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "активация CD 8+ -лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "активация NK-клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "только синтез интерферонов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Гамма-интерферон:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продуцируется плазматическими клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обладает противоаллергическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обладает противоопухолевым действием",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "продуцируется эозинофилами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обладает антибактериальным действием.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "NK-клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствуют в лимфе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "формируют иммунологическую память",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "связываются с MHC-I",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "осуществляют синтез антител",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "осуществляют презентацию антигена.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "Лимфоидная ткань включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоидную ткань кишечника (GALT)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лимфоидную ткань бронхов и бронхиол (BALT)",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "лимфоидную ткань носоглотки (NALT)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лимфоидную ткань надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфоидную ткань почек.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "В-лимфоциты памяти:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "являются короткоживущими клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "имеют рецепторы для антигенов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "осуществляют процессинг антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "накапливаются в периферических органах лимфоидной системы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не обладают специфичностью.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "Реализации цитотоксических свойств Т-лимфоцитов способствуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "перфорин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бета-лизины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лизоцим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибринолизин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гистамин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Лактоферрин:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтезируется гранулоцитами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "является фактором врождённого иммунитета",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ингибирует процессы образования бактериальных биоплёнок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "активирует NK-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участвует в анафилактических реакциях.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Формы иммунного ответа:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активация комплемента",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образование антител",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "процессинг антигена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфогенез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лимфопоэз.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "Плазматические клетки обеспечивают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрализацию токсинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лизис опухолевых клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антителообразование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отторжение трансплантатов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтез белков острой фазы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "Эффекторные клетки гуморального иммунного ответа называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-хелперами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Т-киллерами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плазматическими клетками",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "моноцитами/макрофагами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дендритными клетками.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "Гранзимы – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "антитоксины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аллергены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вазоактивные амины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сериновые протеазы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эндогенные пептиды-антибиотики.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "К гуморальным факторам неспецифической резистентности относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анатоксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гепарин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нейраминидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммуноглобулины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дефензины.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "Клетки Сертоли находятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в лимфатических узлах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в извитых канальцах семенников",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в пейеровых бляшках",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в коже.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "В активации клеток врождённого иммунитета участвуют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рецепторы для маннозы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Toll-подобные рецепторы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "скавенджер-рецепторы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "TCR",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Fcε-рецепторы.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "Лимфа не содержит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибриноген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гепарин.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "Клетки Сертоли осуществляют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цитотоксическое действие на опухолевын клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтез иммуноглобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синтез перфоринов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "защиту зародыша от атаки иммунной системы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "синтез гистамина.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 200,
+				"text": "Купферовские клетки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поглощают антигены,находящиеся в портальной крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обладают противовирусным действием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синтезируют гепарин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладают цитотоксическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "содержат большое количество лизосом..",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 201,
+				"text": "Перфорины выделяются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоцитами-киллерами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эпителиоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В-лимфоцитами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эозинофилами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "купферовскими клетками.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 202,
+				"text": "Пейеровы бляшки не включают клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "М-клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "плазматические клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сертолиевы.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 203,
+				"text": "Лимфатические узлы не включают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стволовые клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "«наивные» Т-хелперы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Т-киллеры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плазматические клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "Эффекторными клетками клеточного иммунного ответа являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плазматические клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Т-хелперы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитотоксические лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дендритные клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 205,
+				"text": "Лимфа в норме не содержит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "моноциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эритроциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фибриноген.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 206,
+				"text": "Опсонизирующей способностью обладают:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактериофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ig M",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Ig G",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "липополисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "интерфероны.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 207,
+				"text": "Процессинг антигена осуществляют:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазматические клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дендритные клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эозинофилы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тучные клетки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 208,
+				"text": "Кожа содержит:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "купферовские клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетки Гринстейна",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фолликулы с герминативными центрами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тучные клетки.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 209,
+				"text": "Участие системы комплемента в иммунных реакциях:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "участвует в развитии воспаления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "участвует в активации натуральных киллеров",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "участвует в синтезе антител",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участвует в развитии аллергических реакций II типа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "участвует в процессах дифференцировки лимфоцитов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 210,
+				"text": "Лактопероксидаза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "стимулирует макрофаги к уничтожению вирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "вырабатывается слюнными железами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "функционирует совместно с перекисью водорода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ингибирует перексиь водорода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вырабатывается в печени.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 211,
+				"text": "Функции стволовых кроветворных клеток:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рециркуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пролиферация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антигенная презентация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синтез интерферонов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фагоцитоз.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 212,
+				"text": "Ткань тимуса не включают клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стволовые",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "тимоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дендритные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпителиальные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 213,
+				"text": "Молозивные тельца женского молока – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "свободные частицы жира",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "агрегаты иммуноглобулинов класса А",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "агрегаты клеток эпителия и аминокислот",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "макрофаги, содержащие частицы жира",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "комочки свернувшегося молозива.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 214,
+				"text": "В костном мозге не образуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейроны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дендритные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тромбоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гранулоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 215,
+				"text": "В активации клеток тимуса не участвуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ИЛ-2",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "интерфероны",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ИЛ-3",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ФНО-α",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "LIF.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 216,
+				"text": "Лимфоциты с γ-δ цепями:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "не отличаются специфичностью",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "требуют презентации Т-хелперам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "преимущественно находятся в эпидермисе и слизистой ЖКТ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "формируют иммунологическую память",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеют неограниченное количество TCR.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 217,
+				"text": "В-лимфоциты памяти:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "не являются долгоживущими клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтезируют в высоких титрах Ig-М",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "способны быстро отвечать на повторное воздействие антигена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "выполняют функцию первичного иммунного ответа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеют хоминговые рецепторы.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 218,
+				"text": "Иммунными факторами женского молока являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреторный иммуноглобулин класса А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "нейтрофильные лейкоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "триптазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фибринолизин.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 219,
+				"text": "Фагоцитирующие ДНК-«ловушки» выбрасывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макрофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тромбоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эозинофил",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нейтрофил",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дендритная клетка.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 220,
+				"text": "В результате антиген-независимой дифференцировки образуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стволовые клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плазмоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "«наивные» Т- и В-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пре-Т- и В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эффекторные Т-лимфоциты.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 221,
+				"text": "Сиалин:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "является тетрапептидом слюны",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обладает противокариозным действием",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "синтезируется купферовскими клетками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "обладает цитотоксическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "является аллергеном.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 222,
+				"text": "CDB-5-лимфоциты:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют ограниченное количество BCR",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синтезируют антитела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "имеют ограниченную специфичность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отвечают в основном на полисахаридные антигены бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "формируют иммунологическую память",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 223,
+				"text": "Основные функции макрофагов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поглощение и деструкция бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синтез сериновых протеаз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антигенная презентация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "секреция белков комплемента",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участие в аллергических реакциях I типа.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 224,
+				"text": "Клетки Гринстейна содержатся в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лимфатических узлах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коже",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тимусе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "костном мозге.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 225,
+				"text": "В реализации функций адаптивного иммунитета принимают участие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "клетки иммунологической памяти",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "плазматические клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "С-реактивный белок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Toll- подобные рецепторы.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "антиген-представляющие клетки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 226,
+				"text": "Коммитирование – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез цитокинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "направление дифференцировки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "селекция лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитотоксическое действие на клетки-мишени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пролиферация.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 227,
+				"text": "Иммунная функция печени:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез С-реактивного белка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "синтез иммуноглобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "синтез белков системы комплемента",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синтез перфоринов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтез гистамина.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 228,
+				"text": "Иммунокомпетентные клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гепатоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эритроциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеобласты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клетки Ито.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 229,
+				"text": "Естественная инволюция тимуса наступает в возрасте:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "14-16 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "30-40 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "50-60 лет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "20-25 лет",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "зависит от состояния здоровья каждого человека.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 230,
+				"text": "Факторами, обеспечивающими защиту полости рта, являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "иммуноглобулины класса А",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "муцин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "перфорин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гистамин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фракции С3 системы комплемента.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 231,
+				"text": "Женское молоко содержит:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "лактозу",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ненасыщенные жирные кислоты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микроорганизмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трансаминазы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "макрофаги.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 232,
+				"text": "Клеточный состав женского молока:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Т-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "В-лимфоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дендритные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клетки Гринстейна.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 233,
+				"text": "Отметьте стадии фагоцитоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "процессинг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "агглютинация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хемотаксис",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "преципитация",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 20,
+				"text": "К фагоцитирующим клеткам относятся:",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 43,
+				"text": "Клетки врождённого иммунитета активируются с участием:",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 51,
+				"text": "Возможные пути активации комплемента:",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 104,
+				"text": "Отмена супрессорного влияния Т-клеток:",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 129,
+				"text": "В-лимфоциты участвуют:",
+				"reason": "NO_ANSWER_MARKER"
+			}
+		]
+	}
+}

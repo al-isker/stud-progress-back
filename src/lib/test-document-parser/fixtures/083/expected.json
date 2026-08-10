@@ -1,0 +1,5450 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Извитые формы бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спириллы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эшерихии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клостридии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Капсула бактерий выявляется методом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нейссера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ожешки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Грама",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Бурри - гинса",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Циля - Нильсена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Патогенные диплококки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гонококки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сарцины",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микрококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Палочковидные микроорганизмы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спириллы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диплококки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сарцины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "К грамположительным бактериям относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гонококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "менингококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стафилококки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "брюшнотифозная палочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "К кислотоустойчивым бактериям относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифтерийная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "туберкулезная палочка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гонококки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "менингококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "К шаровидным формам бактерий относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вибрионы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спириллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стрептококки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бациллы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спирохеты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Грамотрицательными бактериями являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гонококки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "пневмококки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сарцины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Вирусы размножаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почкованием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "поперечным делением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "репродукцией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "спорообразованием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образованием микроколоний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Вирусы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "растут на питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "являются облигатными внутриклеточными паразитами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "имеют клеточные структуры",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "размножаются почкованием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "имеют мицелий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Для окраски риккетсий применяют метод:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ожешки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Циля-Нильсена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Здродовского",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Бурри",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нейссера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Бактерии, образующие капсулу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифтерийная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сибиреязвенная палочка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "брюшнотифозная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дизентерийная палочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Подвижность бактерий определяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "окраской по Граму",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окраской по Нейссеру",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "методом «раздавленной капли»",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "окраской по Ожешко",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "окраской по Романовского-Гимзе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Для морфологии стрептококков характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спорообразование",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гроздевидное расположение в препарате-мазке",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расположение в виде цепочки в препарате-мазке",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие жгутиков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кислотоустойчивость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Спорообразование обеспечивает бациллам:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "размножение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "накопление резервных питательных веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сохранение вида в неблагоприятных условиях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "защитную реакцию при попадании в макроорганизм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "окислительно-восстановительную функцию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Оболочку микробной клетки выявляют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "методом Грама",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "методом Нейссера",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "методом плазмолиза клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при изучении в живом виде",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "реакцией Фельгена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Кислотоустойчивость бактерий обусловлена наличием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нуклеиновых кислот",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "высоким содержанием липидов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "капсул",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рибосом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цитоплазматической мембраны",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Зерна волютина выявляют окраской по методу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Грама",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Циля - Нильсена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ожешко",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Бурри - Гинса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нейссера",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Спорообразующие микроорганизмы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вибрионы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клостридии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сальмонеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гонококки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "менингококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "При окраске по Нейссеру используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "генцианвиолет",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метиленовый красный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "везувин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "спирт",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фуксин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Риккетсии характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "постоянством формы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "положительной окраской по Граму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутриклеточным паразитизмом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отсутствием ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличием спор",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Споры образуют возбудители:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифтерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "столбняка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холеры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сифилиса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Спирохеты являются возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фурункулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лептоспироза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кандидоза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токсоплазмоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "К аспорогенным бактериям относятся возбудители:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "газовой гангрены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ботулизма",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дизентерии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "К подвижным бактериям относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дизентерийная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "туберкулезная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "брюшнотифозная палочка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стрептококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Жгутики бактерий выявляют методом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нейссера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Грама",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Леффлера",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Бурри - Гинса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "простой окраски",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Бактерии, полностью лишенные клеточной стенки называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протопласты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "спирохеты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грибы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "актиномицеты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стафилококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Создание Э. Дженнером вакцины:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "позволило успешно бороться с бешенством",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "связано с вакцинацией против оспы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "относится к пастеровскому периоду в микробиологии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "явилось результатом химических экспериментов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "явилось результатом опытов на лабораторных животных",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Морфологию бактерий изучают с помощью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухой системы микроскопа с малым увеличением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сухой системы микроскопа с большым увеличением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "иммерсионной микроскопии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лабораторных животных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "центрифугирования",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "К прокариотам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грибы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "простейшие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прионы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Роберт Кох:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изобрел микроскоп",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "открыл природу брожения и гниения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "получил вакцину против бешенства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "открыл возбудителя туберкулеза",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "получил вакцину против сибирской язвы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Луи Пастер:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "создал вакцину против бешенства",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ввел в лабораторную практику твердые питательные среды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "открыл холерный вибрион",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "открыл возбудителя туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "создал фагоцитарную теорию иммунитета",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Риккетсии являются возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дифтерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дизентерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сыпного тифа",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Риккетсии культивируют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в курином эмбрионе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "на простых питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на дифференциально-диагностических питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в анаэростатах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в среде 199",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Внеклеточная форма хламидий называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "зерна волютина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "зерна муха",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липидные включения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "элементарные тельца",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "L- форма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Хламидии являются возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сыпного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трахомы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гонореи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сифилиса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "лептоспироза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Хламидии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хорошо растут на питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "являются внутриклеточными паразитами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "грамположительные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не имеют клеточной стенки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Микоплазмы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамположительные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не растут на искусственных питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не имеют клеточной стенки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "имеют капсулу",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Микоплазмы могут быть возбудителями:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кори",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гриппа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмонии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ку-лихорадки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дифтерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Спирохеты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют спиралевидную форму",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не подвижны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "грамположительные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "относятся к эукариотам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образуют споры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Спирохеты вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хламидиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "токсоплазмоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лептоспироз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "орнитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "актиномикоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Зерна волютина (Бабеша-Эрнста характерны для возбудителей):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "туберкулеза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "листериоза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хламидиоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "дифтерии",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "бруцеллеза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Для прокариотической клетки характерно наличие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рибосом 8os",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ядрышка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пептидогликана",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "митохондрий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диплоидного набора генов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Нитчатый гриб, образующий эндоспоры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аспергилл",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пеницилл",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дрожжи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мукор",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "кандида",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "К дрожжеподобным грибам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дрожжи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мукор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кандида",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аспергилл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пеницилл",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Дрожжеподобные грибы Candida:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "многоклеточные микроорганизмы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "размножаются экзоспорами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "размножаются почкованием",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не имеют оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не имеют ядра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "К перитрихам относятся бактерии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечная палочка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дифтерийная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дизентерийная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "холерный вибрион",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулезная палочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "К монотрихам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "спириллы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "холерный вибрион",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "брюшнотифозная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дизентерийная палочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Окраска по Граму применяется для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дифференциации бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "обнаружения капсул",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выявления включений в клетке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "выявления спор",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обнаружения кислотоустойчивых бактерий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Бактерии, образующие капсулу только в организме человека или животных:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кишечная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "палочка сибирской язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клебсиелла",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "шигелла",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сальмонелла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Микробы, образующие капсулу в организме человека и на питательной среде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пневмококк",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "палочка сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клебсиеллы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дизентерийная палочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулезная палочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Какие структуры обязательны для L-форм бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клеточная стенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитоплазматическая мембрана",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "волютиновые зерна",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Бактерии, частично лишенные клеточной стенки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протопласты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сферопласты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грибы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спирохеты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "L - формы бактерий имеют форму:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "веретенообразную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "палочковидную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "извитую",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сферическую",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "спиралевидную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Внеклеточная форма существования вирусов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вирион",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "капсид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "капсомер",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "суперкапсид",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "элементарные тельца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Тельца Гварниери отмечаются при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бешенстве",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трахоме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гриппе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "натуральной оспе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "герпесе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Вирусы представляют собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эукариоты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внеклеточную форму жизни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "прокариоты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прионы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "одноклеточные организмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "К эукариотам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "простейшие",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хламидии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "спирохеты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Капсула бактерий образована:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фосфолипидами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полисахаридами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "липопротеинами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гликопротеинами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нуклеиновыми кислотами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Цитоплазматическая мембрана содержит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фосфолипиды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "холестерин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липополисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пептидогликан",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нуклеиновые кислоты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Основу клеточной стенки составляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углекислота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цитоплазматическая мембрана",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ДНК",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пептидогликан",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "витамины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Нуклеоид прокариот:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеет ядрышко",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "содержит плазмиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лишен ядерной мембраны",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "содержит белки-гистоны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не содержит ДНК",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Внехромосомные факторы наследственности бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мезосомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "споры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "зерна волютина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гликоген",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плазмиды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Споры располагаются центрально у возбудителей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "газовой гангрены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сибирской язвы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ботулизма",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дифтерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Споры располагаются терминально у возбудителей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ботулизма",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "столбняка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "газовой гангрены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "листериоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Споры располагаются субтерминально у возбудителей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ботулизма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "брюшного тифа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сибирской язвы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "холеры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "После окраски мазка по Граму в сине-фиолетовый цвет красятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грампозитивные бактерии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "грамнегативные бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лактозопозитивные бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лактозонегативные бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кислотоустойчивые бактерии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "«Веретенообразную» форму имеют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клостридии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бациллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактероиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "энтеробактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пептококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "К спорообразующим анаэробам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клостридии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бактероиды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "порфиромонады",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вейлонеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "превотеллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Актиномицеты относятся к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грибам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактериям",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "простейшим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спирохетам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хламидиям",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Для стрептококков характерно расположение в мазке:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в виде «гроздьев винограда»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в виде цепочки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "по одному",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по четыре",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "под углом в виде латинской буквы V",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Возбудитель сибирской язвы по морфологическим свойствам представляет собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептобациллы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микобактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "монококки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Какие структуры являются обязательными для бактериальной клетки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спора",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цитоплазматическая мембрана",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "митохондрии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Какие структуры обязательны для L - форм бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "капсула",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "цитоплазматическая мембрана",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клеточная стенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "споры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Микроорганизмы лишенные клеточной стенки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хламидии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "микоплазмы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бруцеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трепонемы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "риккетсии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Эукариотическое строение ядра имеют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "микоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "простейшие",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "спирохеты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Прокариоты характеризуются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствием клеточной стенки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствием цитоплазматической мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отсутствием ядерной мембраны",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отсутствием рибосом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отсутствием мезосом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Тинкториальные свойства бактерий – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "устойчивость к действию химических факторов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "принадлежность к определенной токсономической единице",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "чувствительность к бактериофагам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отношение к красителям",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "способность вырабатывать токсин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Отсутствие клеточной стенки детерминировано генетически у:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "протопластов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сферопластов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хламидии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микоплазм",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "риккетсий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Муреин клеточной стенки иначе называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЛПС",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пептидогликан",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "n-ацетилглюкозамин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мурамовая кислота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тейхоевая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Для обнаружения капсул у бактерий используют метод окраски:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "простой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по Граму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по Бурри-гинсу",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "по Ожешке",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по Леффлеру",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Мицелий грибов представляет собой:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "скопление хламидоспор",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "скопления гиф",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "конидии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "спорангии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скопление ядер",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Микроворсинки (пили) характерны для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "грамположительных бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамотрицательных бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микоплазм",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "L-форм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кислотоустойчивых бактерий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Риккетсии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "имеют жгутики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "образуют споры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "образуют капсулу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутриклеточные паразиты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "круглые микроорганизмы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Образование цист характерно для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "простейших",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "риккетсий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грибов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Спорами размножаются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "простейшие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирусы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грибы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хламидии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Для окраски простейших используют способ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Циля - Нильсена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ожешко",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Романовского - Гимзе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Нейссера",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гинса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Простейшие:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "относятся к прокариотам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "имеют нуклеоид",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "относятся к эукариотам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не имеют ядерную мембрану",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не имеют клеточного строения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Для получения плотной консистенции питательных сред используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углеводы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "белки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "агар - агар",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ферменты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аминокислоты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Культуральные свойства бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "форма, строение, структура клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тип и характер роста на питательных средах",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "способность вызвать инфекцию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "способность окрашиваться",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способность разлагать белки и углеводы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Для микроскопического изучения колоний используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "объектив х 8",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "иммерсионный объектив",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "темнопольную микроскопию",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "люминесцентную микроскопию",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "приготовление препарата - мазка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Лизогенная конверсия - это изменение свойств бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "под действием химических веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "физических факторов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вирулентного бактериофага",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "умеренного бактериофага",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Для стерилизации перевязочного материала используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кипячение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дробную стерилизацию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "автоклавирование",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "химический способ",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "прокаливание на огне",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Размножение бактерий происходит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поперечным делением",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "амитотически",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спорами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кариокинетически",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дизъюнктивной репродукцией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Для биохимической идентификации бактерий изучают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "чувствительность к антибиотикам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антигенное строение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "морфрологические свойства",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сахаролитические и протеолитические свойства",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тинкториальные свойства",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Элективными называют питательные среды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "применяемые для выращивания многих бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для избирательного выделения и накопления микроорганизмов определенного вида",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "применяемые для разграничения отдельных видов (или групп) микроорганизмов:",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жидкие среды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плотные среды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Селективной для стафилококков является питательная среда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сахарный агар",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кровяной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "среда Китта-Тароцци",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мясо-пептонный агар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желточно-солевой агар",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Для культивирования аэробов используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анаэростат",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эксикатор",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печь Пастера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "термостат",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "автоклав",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Из нижеперечисленных бактерий являются неспорогенными анаэробами:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гонококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стрептококки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактероиды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клостридии столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бруцеллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "К жидким питательным средам относится среда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Леффлера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "МПБ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Борде - Жангу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Левенштейна - Йенсена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Явление бактериофагии было открыто:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пастером",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Д.Эреллем",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Кохом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Ивановским",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Мечниковым",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Бактерии по типу дыхания различают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "автотрофы, гетеротрофы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "литотрофы, органотрофы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "прототрофы, ауксотрофы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аэробы, анаэробы",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сапрофиты, паразиты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "Бактерии способные расти в присутствии кислорода и без него:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анаэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "строгие аэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "строгие анаэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "факультативные анаэробы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Индуцибельными ферментами называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферменты, расщепляющие углеводы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ферменты, расщепляющие белки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ферменты, концентрация которых резко возрастает от наличия соответствующего субстрата",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ферменты, которые постоянно синтезируются в микробных клетках в определенных концентрациях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ферменты, имеющие значение для идентификации бактерий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Процесс генетических рекомбинаций, в котором участвует бактериофаг:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "конъюгация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трансформация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трансдукция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "репарация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "модификация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Чувствительность бактерий к антибиотикам определяют методом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мембранных фильтров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серийных разведений",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "разведений по Вейнбергу",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "титрования по грациа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "седиментационным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Фенотипическая изменчивость бактерий обусловлена:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мутацией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трансформацией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трансдукцией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "конъюгацией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "модификацией",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Стеклянную лабораторную посуду стерилизуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ультрафиолетовыми лучами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кипячением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "текучим паром",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сухим жаром",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сухим жаром",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Дифференциация свойств бактерий на среде Эндо основана на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расщеплении глюкозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расщеплении лактозы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "расщеплении сахарозы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разложении пептона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образовании индола",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "В качестве дифференциально-диагностической среды для семейства энтеробактерий используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сахарный агар",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "среду Эндо",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "МПБ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "асцит - агар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "желчный бульон",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Сахаролитические ферменты можно определить на средах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Китта - Тароцци",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гисса",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Вильсона - Блера",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ЖСА",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на пептонной воде",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "«Штамм» - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "популяция бактерий, выращенная на питательной среде",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изолированное скопление бактерий одного вида, образующееся в результате размножения одной бактериальной клетки на плотной питательной среде",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "культура микробов одного вида, выделенная из различных источников или в разное время из одного и того же источника",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "культура бактерий выросшая из одной зиготы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "культура бактерий, выделенная из патологического материала",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Культуральные свойства бактерий изучают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "приготовлением мазка и микроскопированием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "окраской по Граму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "методом мембранных фильтров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по характеру роста на плотных и жидких питательных средах",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "по методу Вейнберга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Для идентификации вида микроба по биохимическим свойствам изучают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферментативную активность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "чувствительность к антибиотикам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коли - титр",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внутрикожную аллергическую пробу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "чувствительность к дезинфектантам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Чистую культуру аэробов выделяют по методу:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Цейсслера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Вейнберга - Перетца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Шукевича",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Кастеллани",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Дригальского",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Микробиоценоз – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "территориально ограниченный экологически однородный участок обитания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сообщество бактерий, обитающих в определенном биотопе;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "совокупность особей одного вида, обитающих в пределах определенного биотопа;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "совокупность всех биологических организмов, обитающих в определенном биотопе;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "подавление жизнедеятельности одной популяции другой.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Протеолитические ферменты определяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микроскопированием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "по изменению цвета на средах Гисса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "по образованию пузырьков газа на среде Китта - Тароцци",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при посеве уколом в высокий столбик сахарного агара",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по образованию индола, аммиака, сероводорода",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Факультативными анаэробами являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "менингококки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "вейлонеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клостридии столбняка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактероиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "брюшнотифозные палочки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "К универсальным (простым) питательным средам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "МПА",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "среда Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желчный бульон",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровяной агар",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шоколадный агар",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Время генерации бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение массы бактериальной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продолжительность жизни бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "период в течение которого осуществляется деление клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "период адаптации бактерий к питательной среде",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "период прорастания споры в вегетативную клетку",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Для санитарно-бактериологического исследования воды используется метод:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бумажных дисков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серийных разведений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "седиментационный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аспирационный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мембранных фильтров",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Фитонциды – это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "продукты метаболизма бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "антибиотики животного происхождения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вирусы бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "антибиотики растительного происхождения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "вирусы растений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Культура бактерий называется лизогенной если:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержит размножающиеся бактерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "способствует переходу умеренных фагов в литические формы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "содержит геномы фагов, встроенных в хромосому клетки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не содержит фагов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обладает устойчивостью к многим антибиотикам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Методом тиндализации стерилизуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стеклянная посуда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "перевязочный материал, белье",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздух в боксах, операционных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сыворотка крови, витамины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "хирургические инструменты, предметные и покровные стекла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Механическую стерилизацию проводят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокой температурой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "УФ - лучами",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "химическими соединениями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прокаливанием в пламени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мембранными фильтрами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Питательные сахаросодержащие среды стерилизуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прокаливанием в пламени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сухим жаром",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ультрафиолетовыми лучами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пастеризацией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "текучим паром",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Все микроорганизмы по способности усваивать источники углерода делятся на:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аутотрофы и гетеротрофы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "фототрофы и хемотрофы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аэробы и анаэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прототрофы и ауксотрофы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сапрофиты и паразиты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "В зависимости от источников энергии и природы доноров электронов микроорганизмы подразделяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аутотрофы и гетеротрофы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фототрофы и хемотрофы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "хемолитотрофы и хемоорганотрофы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прототрофы и ауксотрофы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сапрофиты и паразиты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Бактерии, для питания которых необходимы органические источники углерода, называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аутотрофы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гетеротрофы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "анаэробы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "литотрофы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "К конститутивным ферментам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферменты, расщепляющие углеводы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ферменты, расщепляющие белки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ферменты, концентрация которых резко возрастет от наличия соответствующего субстрата",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ферменты, имеющие значение для идентификации бактерий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ферменты, которые постоянно синтезируются в микробных клетках в определенных концентрациях.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Мезофильные бактерии, к которым относится, большинство патогенных для человека бактерий, лучше растут при температуре:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "50-60˚ с",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "20-40˚ с",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "от 0 до 10˚ с",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от 10 до 20˚ с",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от 0 до -10˚ с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Чистой культурой называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "популяция бактерий выращенная на питательной среде",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "культура бактерий выросшая из одной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "популяция бактерий одного вида, выращенная на питательной среде",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "изолированное скопление бактерий одного вида, образующееся в результате размножения одной бактериальной клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "культура бактерий, выделенная из патологического материала",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Седиментационный метод используют для изучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "санитарно - микробиологического состояния воды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "санитарно - микробиологического состояния воздуха закрытых помещений",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "санитарно - микробиологического состояния почвы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микробной загрязненности пищевых продуктов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "микробной загрязненности лекарственного сырья",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Метод мембранных фильтров используют для изучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для санитарно - микробиологического исследования воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "санитарно - микробиологического состояния воздуха закрытых помещений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "санитарно - микробиологического состояния почвы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микробной загрязненности пищевых продуктов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "для определения чувствительности к антибиотикам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Серовары - это варианты бактерий внутри данного вида различающиеся по :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "морфологическим свойствам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биохимическим свойствам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антигенным свойствам",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "чувствительности к фагу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "чувствительности к антибиотикам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Фаговары - это варианты внутри данного вида, различающиеся по:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тому или иному биологическому признаку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биохимическим свойствам",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антигенным свойствам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чувствительности к фагам",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "чувствительности к антибиотикам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Хемовар - это варианты внутри данного вида различающиеся по:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тому или иному (одному) признаку",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биохимическим свойствам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "антигенным свойствам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "чувствительности к фагу",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "чувствительности к антибиотикам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Метод Фортнера используют для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выделения чистой культуры аэробов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выделения антибиотикорезистентных культур",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "создания анаэробных условий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "создания аэробных условий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "определения микрофлоры воздуха",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Для определения протеолитических ферментов производят посев культуры бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в среды Гисса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в среду Китта - Тароцци",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на среду Эндо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в среду Раппопорта",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в МПБ с индикаторами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Для бактериофагов характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "размножение бинарным делением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рост и размножение на питательных средах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "патогенность для человека",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "размножение в клетках бактерий",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "анаэробный тип дыхания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Облигатными аэробами являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "палочка коклюша",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кишечные палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактероиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "клебсиеллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Облигатными анаэробами являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бордетеллы коклюша",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "кишечные палочки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стафилококки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "столбнячные палочки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "клебсиеллы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "Токсическое действие молекулярного кислорода на облигатные анаэробы обусловлено накоплением:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пирувата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "конечных продуктов брожения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перекиси водорода",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "углекислоты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "глицеральдегидрофосфата",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Синтез клеточной стенки подавляют антибиотики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полимиксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полиеновые антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цефалоспорины",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "группа тетрациклинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Для лечения грибковых инфекций используют антибиотики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "беталактамные антибиотики",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тетрациклины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рифамицины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полиеновые антибиотики",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "макролиды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "Ферменты, постоянно присутствующие в клетке и обеспечивающие ее существование называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "индуцибельные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "конституитивные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бета - лактамазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бета - галактозидаза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "галактозидацетилтрансферазы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Аминокислота характерная только для бактерий:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цистин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метионин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "триптофан",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лизин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "диаминопимелиновая кислота (дап)",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Нарушение функций цитоплазматической мембраны мицетов отмечается под действием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "цефалоспорин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "нистатин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "циклосерин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "макролиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "левомицитин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Антибиотики, действующие на синтез нуклеиновых кислот:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритромицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "олеандомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рифампицин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "линкомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "доксициклин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Чувствительность к антибиотикам определяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "методом мембранных фильтров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "методом бумажных дисков",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "двухфазным бродильным методом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "седиментационным методом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аспирационным методом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Антибиотик пенициллин впервые был открыт:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "З. Ваксманом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "З.В.Ермольевой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "А. Флемингом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Г. Флори и Э. Чейн",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "П. Эрлихом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "К антибиотикам бактериального происхождения относят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стрептомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тетрациклин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фитонциды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "левомицитин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "грамицидин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "К антибиотикам грибкового происхождения относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полимиксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "грамицидин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритрин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цефалоспорины",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фитонциды",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Антибиотики животного происхождения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аминогликозиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "циклосерин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экмолин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "леворин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оксациллин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "К беталактамным антибиотикам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мономицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "канамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неомицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тетрациклин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пенициллин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "К макролидам относятся антибиотики:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эритромицин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оксациллин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "левомицитин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ампициллин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "цефалоспорин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Устойчивость бактерий к антибиотикам связана с:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "f-плазмидами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "r-плазмидами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "col-плазмидами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ent-плазмидами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "токсичностью",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "В состав пенициллина входят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бета-лактамное кольцо",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "макролактоновое кольцо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "углеводные остатки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пептиды",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аминосахара",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Антибиотики – макролиды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "канамицин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "олеандомицин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мономицин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "левомицетин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "циклосерин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Устойчивость бактерий к лекарственным препаратам обеспечивают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "f-плазмиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плазмиды патогенности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бактериоцины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "r-плазмиды",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "плазмиды биодеградации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "К генетическим рекомбинациям относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазмиды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "транспозоны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "s-последовательности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "модификации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансдукция",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "Процесс восстановления клеточного генома (ДНК) называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "репарацией",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мутацией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "модификацией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "диссоциацией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "трансдукцией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "К модификационной изменчивости относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "трансформация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трансдукция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "конъюгация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фенотипические изменения признаков микроорганизма",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "мутация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "В организме человека в норме стерильны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полость рта",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "толстый кишечник",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "верхние дыхательные пути",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желудок",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кровь",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "При коньюгации происходит передача:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "колицинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пестицинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вибриоцинов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "f-плазмид",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "стафилоцинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "Трансдукция - это перенос генетического материала из клетки-донора в клетку –реципиента:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с помощью умеренного фага",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при их скрещивании",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с помощью антибиотиков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при их диссоциации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при их облучении",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Трансформация - это перенос генетического материала из клетки -донора в клетку-реципиента:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "с помощью фага",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при их скрещивании",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "с помощью ДНК донора",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при их облучении",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при их диссоциации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "r-плазмида определяет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез структурных белков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синтез белка репрессора",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лекарственную устойчивость",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "продукцию конституитивных ферментов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синтез колицинов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "r-плазмиды контролируют образование:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "колицинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пестицинов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бета-лактамаз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вибриоцинов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "l-форм бактерий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Для выделения аэробов производят посев:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на поверхность мясо-пептонного агара",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уколом в высокий столбик сахарного агара",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на среду Китта-Тароцци",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по методу Веньяля-Вейона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "по методу Фортнера",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

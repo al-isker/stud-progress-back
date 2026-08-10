@@ -1,0 +1,1474 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Какие существуют воинские лагеря?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Спортивно-оздоровительные.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Тренировочные.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Учебные.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Временные и стационарные.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Квартирно-бивачные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Из каких моментов складывается выбор территории для лагерного размещения войск?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Из санитарно-эпидемиологической характеристики выбранной территории.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Использование особенностей рельефа местности и здоровая почва.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Относительная удаленность от населенных пунктов.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Обязательное наличие открытого водоема на территории.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Наличие хороших подъездных путей и дорог.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "На сколько полос планируется полевой лагерь?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "На три",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "На две",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "На четыре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "На пять",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "На шесть",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Сколько существует типов фортификационных сооружений в РА?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Семь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Два",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Четыре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пять",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Шесть",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Какова предельно допустимая концентрация углекислого газа в объектах боевой техники и герметизированных фортификационных сооружениях в экстремальной ситуации?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3 %",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "1 %",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2 %",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "4 %",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "5 %",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Какие параметры микроклимата и химического состава воздуха измеряются и контролируются в оборонительных герметизированных сооружениях?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Содержание углекислого газа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Измерение температуры",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Измерение влажности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Содержание кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Определение количества озона",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Из чего состоит обеспечение доброкачественной водой личного состава в полевых условиях и боевой обстановке?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Выбор водоисточника",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Разведка на воду",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Добыча воды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Обработка воды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Из чего состоит обеспечение доброкачественной водой личного состава в полевых условиях и боевой обстановке?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Выбор водоисточника",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Разведка на воду",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Добыча воды",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Обработка воды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Что из перечисленного ниже относится к табельным средствам добычи воды в Российской Армии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "АБВ, МТК, ГШК, КШК.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ТУФ, МТК, УНФ.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "АФС, МАФС, ПОУ, ТУФ.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ВМС, КШК, МТК.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "РДВ, РЕ, АВЦ.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Что из перечисленного ниже относится к табельным средствам обработки воды в полевых условиях и боевой обстановке?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ТУФ, МАФС, ВФС, УНФ,ПОУ.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ТУФ, МТК, УНФ.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "АБВ, МТК, ГТК, ГШК, КШК.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ВФС, КШК, МТК.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "РДВ, РЕ, АВЦ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Что из перечисленного ниже относится к табельным средствам хранения и транспортировки воды в полевых условиях и боевой обстановке?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "РДВ, РЕ, АВЦ.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ТУФ, МТК, УНФ.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "АБВ, МТК, ГШК, КШК.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "МАФС, ВФС, УНФ, ПОУ.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ВФС, КШК, МТК.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Какой из перечисленных способов относится к системе дезактивации воды в полевых условиях и боевой обстановке?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фильтрация через ионообменные фильтры.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Обеззараживание с последующей коагуляцией.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Использование ТУФ и УНФ.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Использование МТК, КШК.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Использование РДВ, РЕ, БТР.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Какая минимальная доза хлора используется для обеззараживания воды в полевых условиях и боевой обстановке?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100 мг/л",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "50 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "500 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1000 мг/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какая доза активного хлора используется для обеззараживания воды при оповещении о возможном наличии споров ООИ в воде?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "500 мг/л,",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "10 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "50 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "100 мг/л",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "1000 мг/л",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Какие исследования воды проводятся при экспресс-анализе в полевых условиях и боевой обстановке?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Определение прозрачности и цветности",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Определение окисляемости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Определение азотистого спектра",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Определение количества хлоридов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "От каких факторов зависит водопотребление в полевых условиях и боевой обстановке?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "От водообеспеченности данного региона",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "От климатических условий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "От степени тяжести солдатского труда",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "От потоотделения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "От вида боя (обороны или наступления)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "От каких факторов зависит количество воды, приходящиеся на одного солдата, сержанта и старшину в полевых условиях и боевой обстановке?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "От климатических условий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "От водообеспеченности данного региона.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "От вида боя (обороны или наступления)",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "От степени тяжести труда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "От потоотделения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Какое минимальное количество воды приходится на солдата в умеренных климатических условиях?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,5 литра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2 литра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,5 литра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3 литра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "4 литра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Какое минимальное количество воды приходится на солдата в жарких климатических условиях?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4,5литра",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "2 литра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "2,5 литра",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "3 литра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "4 литра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Какое максимальное количество воды приходится на одного солдата в умеренных климатических условиях?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "10 литров",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "5 литров",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "15 литров",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "20 литров",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Чему равняется калорийность общевойскового пайка российской Армии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4196 ккал",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3890 ккал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "4265 ккал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "5250 ккал",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "4650 ккал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Чему равняется калорийность \"рационов выживания\" для солдат блока НАТО?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1000 ккал",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "990 ккал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1192 ккал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1273 ккал",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "2000 ккал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Чему равняется калорийность аварийного пайка солдат Российской Армии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1092 ккал",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "990 ккал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "1000 ккал",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "1273 ккал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Что из перечисленного относится к новым видам продуктов, используемых в Российской Армии?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Сублимированные продукты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Консервы в жестяной упаковке",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Крупы быстрого разваривания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Продукты, обогащенные пектинами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Продукты обогащенные витаминами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Какие витамины строго контролируются в рационе солдат?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Витамины \"А\"",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Витамин \"С\"",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Витамины \"Д\"",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Витамины \"В-группы\"",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Витамин \"Е\"",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Какова норма витамина \"С\" для солдата?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100 мг/сутки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "50 мг/сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "150 мг/сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "200 мг/сутки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "250 мг/сутки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Что из перечисленного является симптомами \"С\"- витаминной недостаточности у солдат?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение заболеваемости острыми респираторными заболеваниями",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Снижение боеспособности личного состава",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Появление точечных кровоизлияний на коже",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Увеличение заболеваемости острыми кишечными заболеваниями",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Развитие гемералопии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Какие из перечисленных продуктов являются основными источниками витамина \"С\" в солдатском рационе Российской Армии?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Картофель",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Капуста",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Цитрусовые",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Яблоки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Лук",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Почему в российской Армии контролируется количество витамина \"А\" в солдатском рационе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Приведет к снижению боеспособности личного состава",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Недостаток может привести к острым респираторным заболеваниям",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Недостаток приведет к острым кишечным заболеваниям",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Увеличение потертостей и заболеваний кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Приведет к развитию гемералопии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Какие продукты являются основными в обеспечении солдат витамином \"А\"?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Рыба и рыбные продукты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Молоко и молочные продукты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Куриное яйцо",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Мясо и печень животных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Томат и бурак",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "С какими продуктами солдаты получают основную массу провитамина \"А\" каротина?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Тома-паста и бурак",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Молоко и молочные продукты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Мясо и печень животных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Рыба и рыбные продукты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Куриное яйцо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Что входит в санитарные исследования консервов в жестяной упаковке?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Определение наличия бомбажа",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Определение количества свинца в посуде",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Определение степени ржавчины",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Определение на герметичность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Определение микробной загрязненности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "С какого воинского медицинского подразделения в РА будут использоваться лечебные диеты?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Армия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Фронт",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Полк",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Корпус",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Дивизия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Сколько лечебных диет будет задействовано в РА",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Восемь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Четыре",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Пять",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Шесть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Семь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Сколько существует степеней ржавчины консервных банок?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Три",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Две",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Четыре",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пять",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Шесть",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "При какой степени ржавчины обязательна проверка консервных банок на герметичность?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Третьей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Второй",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Четвертой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пятой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Шестой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Какие новые пленочные материалы будут использованы для предотвращения загрязнения продуктов ОМП?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Целлофан",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Эскаплен",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ПХВ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Полиэтилен",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Клеенка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Какие из ниже перечисленных являются прямыми способами контроля за состоянием питания личного состава РА?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Определение полноты вложения в котел путем взвешивания",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Контроль за динамикой веса солдат",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Лабораторное определение калорийности суточного рациона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Определение калорийности по меню-раскладке табличным способом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Определение достаточности питания по остаткам пищи в котлах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Какие из ниже перечисленных являются косвенными способами контроля за состоянием питания личного состава РА?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Контроль за динамикой веса солдат",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Определение калорийности по меню-раскладке табличным способом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Проведение органолептических исследований",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Лабораторное определение калорийности суточного рациона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Определение полноты вложения в котел путем взвешивания",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Какова максимальная степень радиоактивного излучения, при которой допускается приготовление и прием пищи в полевых условиях?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "1 рентген/час",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "3 рентгена/час",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5 рентген/час",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Вообще не допускается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Какие из перечисленных неблагоприятных факторов характерны для личного состава ракетных войск?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Действие КРТ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Действие ионизирующих излучений",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Высокая нервно-психическая нагрузка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Действие шума и вибрации",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Действие ГСМ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Какие из перечисленных неблагоприятных факторов характерны для личного состава ракетных войск?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дефицит времени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Действие сильных и сверхсильных шумов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Действие выхлопных и пороховых газов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Неблагоприятные микроклиматические условия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Какие неблагоприятные факторы действуют на танкистов при использовании ИДА?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Затруднен выдох и вдох",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Затруднен вдох",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Затруднен вдох, облегчен выдох",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Затруднен выдох, облегчен вдох",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Облегчен выдох и вдох",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Какие из перечисленных неблагоприятных факторов характерны для личного состава автобронетанковых войск?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Малые габариты рабочего места",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Неблагоприятный микроклимат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Малая освещенность приборов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Вероятность воспламенения одежды",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Какие типы ракетных топлив существуют?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Жидкие однокомпонентные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Жидкие двухкомпонентные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Твердые однокомпонентные",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Жидкие трехкомпонентные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Твердые двухкомпонентные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Что из перечисленного является составляющими твердых ракетных топлив?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пироксилин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Пластификаторы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Стабилизаторы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Нейтрализаторы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Окислители",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Что из перечисленного является компонентами жидких ракетных топлив?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Окислители",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Горючее",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Пластификаторы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Стабилизаторы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Нейтрализаторы",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

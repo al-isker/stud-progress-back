@@ -1,0 +1,4107 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Что лежит в основе остеопороза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение количества костного вещества в единице обьёма костей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение количества костного вещества в единице объема кости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "косо-идущие в кости полосы просветления",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечно-идущие в кости полосы просветления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Что лежит в основе гипостоза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрушение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение объема кости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "недостаточное образование костной ткани во время развития скелета",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение объема кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Что лежит в основе остеонекроза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение размеров кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "омертвение костной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уменьшение объема кости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение объема кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Как на рентгенограмме выглядит секвестр?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "участок уплотнения кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участок разрушения кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дефект кости с нечеткими контурами",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "участок уплотнения на фоне дефекта",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Деструкция-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "утолщение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разрушение костной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "разрежение костной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уплотнение костной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Атрофия-это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение количества костных балок в единицу объема кости;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разрушение костной ткани;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение костного вещества вместе с уменьшением объема кости;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уплотнение костной ткани",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Назовите виды периостальной реакции воспалительного генеза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отслоенный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бахромчатый",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "игольчатый",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "козырьковый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Назовите виды периостальной реакции опухолевого генеза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бахромчатый",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "игольчатый",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отслоенный",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "козырьковый",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Гиперостоз- это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "утолщение кости с уменьшением костного вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "утолщение кости с периостальной козырьковой реакцией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "утолщение кости со склерозом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличение количества костных балок в единицу объема кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Остеосцинтиграфия при злокачественных новообразованиях дает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«горячий» очаг",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "«холодный» очаг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неравномерное накопление РФП",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "накопление в зонах роста",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Назовите количественные способы определения минерализации скелета:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "однофотонная абсорбциометрия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "двухфотонная рентгеновская абсорбциометрия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "резонансная томография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеосцинтиграфия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рентгеновская остеоденситометрия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Радионуклидное исследование (сцинтиграфия) при остеомиелите дает =горячий очаг; ~холодный очаг; ~равномерное распределение РФП ~накопление РФМ в печени В течение какого времени появляются рентген-признаки после начала остеомиелита?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к концу 4-ой недели",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "к концу 20-ой недели",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "через 3 месяца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "через 2 месяца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Назовите ранние рентгенологические признаки остеомиелита:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "локальный остеопороз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "секвестр",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мелкие деструктивные очаги",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "крупные деструктивные очаги",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какая периостальная реакция при остеомиелите:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "бахромчатый периостит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "козырьковый периостит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "спикулообразный периостит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "линейный",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Назовите рентгенологические признаки остеомиелита в фазе разгара болезни:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "деструкция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "секвестрация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "периостальные наслоения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеосклероз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Назовите рентгенологические признаки остеомиелита в стадии затихания болезни:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеопороз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "остеосклероз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "деструкция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиперостоз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Какой отдел кости поражается при туберкулезе:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпифиз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "метафиз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диафиз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "апофиз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Какой метод радионуклидной диагностики применяют для визуализации скелета:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "радиометрия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "радиография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сцинтиграфия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "радионкурентный микроанализ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Какой отдел трубчатых костей участвует в образовании сустава?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диафиз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эпифиз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "метафиз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "апофиз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Назовите контрастные методы исследования костей и суставов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "томография",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фистулография",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ангиография",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "33,33333%артрография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "=равномерно с относительным накоплением в зонах роста ~светлая полоска эпиметафизарного хряща ~неравномерно В чем преимущество КТ костей ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выявляется изображение только мягких тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изображение костей, суставов и сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изображение костей и суставов в аксиальной проекции",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "изображение костей и суставов в сагиттальный проекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "УЗИ костной системы применяется для исследования?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "опухолей костей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "разрывов сухожилий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "абсцессов и гематом мягких тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "переломов костей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Какие РФП используются для радионуклидной визуализации скелета:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "131 йод",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "99мТс- пирофосфат",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "99мТс- дифосфонат",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Назовите основные рентгенологические признаки дистрофического поражения сустава:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширение суставной щели",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сужение рентгеновской суставной щели",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уплотнение замыкательной пластинки эпифизов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "субхондральный склероз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Радионуклидное исследование (остеосцинтиграфия) при болезни Пертеса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«холодный очаг»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "«горячий очаг»",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неравномерное накопление РФП",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "накопление РФП в печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Назовите рентгенологические признаки доброкачественных опухолей костей:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "правильная форма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "четкие контуры",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "деструктивные очаги",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "узкое основание",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Назовите рентген признаки остеолитической остеогенной саркомы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "деструкция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "периостальные козырьки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "секвестр",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "отслоенный периостит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Назовите основной рентген-признак саркомы «Юинга»:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "деструкция преимущественно в эпифизе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "деструкция преимущественно диафиза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бахромчатый периостит",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слоистый периостит",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "К какому году завершается процесс окостенение скелета?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к 18 годам",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к 25 годам",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "к 35 годам",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "к 50 годам",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Как выглядит на рентгенограмме у новорожденных рентгеновская суставная щель?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не прослеживается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "смещена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сужена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расширена",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Назовите основной метод рентгенологического исследования костей и суставов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгеноскопия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгенография",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "фистулография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артрография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Изображение на рентгенограмме дают следующие структуры кости:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "костные балки и трабекулы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "надкостница",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хрящ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Какие отделы кости состоят преимущественно из губчатого вещества?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "диафиз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "костномозговой канал",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метафиз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эпифиз",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Апофиз - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "межмыщелковые возвышения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгеновская суставная щель",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выступ кости вблизи эпифиза, имеющий самостоятельное ядро окостенения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "преимущественно в диафизах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Назовите основные рентгенологические признаки переломов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие линии перелома",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "смещение отломков",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "периостальная реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие линии затемнения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Как на сцинтиграмме определяется перелом?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холодный очаг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неравномерное скопление РФП",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "горячий очаг",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "равномерное распределение РФП",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Назовите стадии образования костной мозоли:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеоидная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "перепончатая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соединительно-тканная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "костная",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Назовите первую стадию образования костной мозоли:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеоидная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соединительно-тканная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "костная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "перепончатая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "За какой срок происходит полное образование первичной костной мозоли?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "за один год;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "за 2-5 месяцев;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "за один месяц",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "за 6 месяцев",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Назовите рентгенологические признаки развития ложного сустава:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие костной мозоли",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "заращение костномозгового канала на концах отломков и образование по их краю замыкающей костной пластинки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие костной мозоли",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие линии просветления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Назовите основные рентгенологические признаки вывихов:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие головки в суставной впадине",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полное несоответствие суставных концов костей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие клиновидной формы рентгеновской суставной щели",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие линии просветления",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Перечислите рентгенологические признаки заболеваний с уменьшением костной ткани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "атрофия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "остеопороз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "деструкция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "остеонекроз",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "остеосклероз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Перечислите изменения надкостницы при воспалительных заболеваниях:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "отслоенный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "бахромчатый",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "козырьковый",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сникулообразный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слоистый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Перечислите рентгенологические признаки заболеваний с увеличением костной ткани:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертрофия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "остеосклероз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "периостоз",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "остеопороз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Что определяют с помощью ультразвуковой биолокации?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие деструктивных очагов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "количественное измерение минерализации скелета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "периостальную реакцию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наличие перелома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "В каких случаях наиболее информативна МРТ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сложных переломах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при некрозах и инфарктах костного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при абсцессах мягких тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при смещениях костных отломков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Назовите основные формы остеопороза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "местный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "регионарный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "распространенный",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "идиопатический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "В каких случаях возникают лоозеровские зоны перестройки?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "когда кость подвергается чрезмерной нагрузке,",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при воспалительных заболеваниях костей,",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при опухолях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при абсцессах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Эпифизеолиз - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "внутрисуставной перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "травматическое отделение эпифиза кости от метафиза,",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "патологический перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смещение отломков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Какой признак является специфичным при газовой гангрене:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "появление газовых пузырьков и расслоение мышечных волокон",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "периостит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "деструктивные очаги в костях",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеосклероз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Перечислите методы лучевого исследования применяемые при травме костно-суставной системы:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "КТ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "рентгенография",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "электрорентгенография",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "УЗИ костей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "В каких случаях и с какой целью при травме костно-суставной системы используют КТ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в дифференциальной диагностике травматического и патологического компрессионного перелома позвоночника",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для выявления линий перелома при травме трубчатой кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для определения смещений обломков трубчатых костей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для определения костной мозоли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Перечислите правила рентгенографии костно-суставной системы при травме:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенография всей повреждённой области",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "рентгенография в прямой проекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рентгенография в двух взаимно перпендикулярных проекциях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рентгенография в боковой проекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Перечислите признаки костного компрессионного перелома позвонка:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижение высоты позвонка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "изменение формы позвонка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "33,33333%клиновидная деформация позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "линия перелома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Перечислите этапы проведения рентгенографии при неосложнённом переломе кости:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "каждые 12 часов после репозиции обломков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при поступлении в травм пункт",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "после репозиции обломков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "после смены гипсовой повязки",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "после 32 - 35 -го дня нефиксированных обломков",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Перечислите признаки, характерные только для огнестрельного перелома трубчатой кости:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие линии перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие большого количества осколков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смещение обломков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие инородных металлических тел в кости и окружающих тканях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Наиболее характерный признак костного анкилоза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие суставной щели",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "костные балки переходят с одного суставного конца на другой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие остеосклероза в суставных концах костей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличие остеопороза в суставных концах костей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "периостоз в суставных концах костей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Основной дифференциально - диагностический признак ложного сустава:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сохранение линии перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие костной мозоли",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расположение обломков под углом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "формирование замыкательных пластинок на концах костных обломков",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "наличие зоны перестройки в обломках кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Статическую сцинтиграфию целесообразно использовать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "для определения перелома косно-суставной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для выявления метастазов злокачественных опухолей в кости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для оценки распространенности метастатического процесса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "для оценки активности воспалительного процесса в суставах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "При заболеваниях позвоночника КТ целесообразно использовать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "для выявления метастазов опухоли в тела позвонков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для дифференцировки травматического и патологического компрессионного перелома тела позвонка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "для определения сколиоза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для выявления костных экзофитов, суживающих костно-мозговой канал",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Ангиографию костно-суставной системы целесообразно использовать:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для выявления секвестров",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "выявления острого гематогенного остеомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для выявления хронического гематогенного остеомиелита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при остеогенной опухоли для определения степени вовлечения в процессе мягких тканей",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "УЗИ при заболеваниях костей и суставов используют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для установления злокачественного характера опухоли кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для оценки состояния межпозвоночных хрящей при остеохондрозе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для оценки состояния суставной щели при костном анкилозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для оценки состояния параоссальных тканей при остеомиелите",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Остеопороз - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрежение кости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уплотнение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рассасывание кости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разрушение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "утолщение кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Остеосклероз - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрежение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уплотнение кости",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "рассасывание кости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разрушение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "утолщение кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Гиперостоз - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрежение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уплотнение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рассасывание кости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разрушение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "утолщение кости",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Деструкция кости - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрежение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уплотнение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рассасывание кости",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разрушение кости",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "утолщение кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Остеолизис - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разрежение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уплотнение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рассасывание кости",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "разрушение кости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "утолщение кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Рентгенография: вырост на ножке, отсутствие изменений структуры кости Сцинтиграфия с 99 м ТС пирофосфатом: накопление РФП не повышено:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гематогенный остеомиелит:",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический гематогенный остеомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "доброкачественная опухоль",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "злокачественная опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дегенеративно-дистрофическое поражение суставов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Рентгенография: остеосклероз, периостальные наслоения, деструкция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гематогенный остеомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический гематогенный остеомиелит",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "доброкачественная опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "злокачественная опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дегенеративно-дистрофическое поражение суставов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Рентгенография: отслоенный периостит, деструкция в метафизе кости, экссудат в периоссальных тканях:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гематогенный остеомиелит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "хронический гематогенный остеомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "доброкачественная опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "злокачественная опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дегенеративно-дистрофическое поражение суставов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Рентгенография: деструкция костной ткани, разрушение коркового слоя, слоистые обызвествления надкостницы, игольчатый периостоз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гематогенный остеомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический гематогенный остеомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "доброкачественная опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "злокачественная опухоль",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дегенеративно-дистрофическое поражение суставов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Рентгенография: сужение суставной щели, костные разрастания по краям суставных поверхностей, деформация суставных поверхностей, субхондральный склероз и кистовидные образования суставных концов костей:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "острый гематогенный остеомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронический гематогенный остеомиелит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "доброкачественная опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "злокачественная опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дегенеративно-дистрофическое поражение суставов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Соединения между рёбрами и грудиной - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синдесмозы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "синхондрозы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "суставы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "синостозы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "У первого шейного позвонка отсутствуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тело",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "дуга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "боковые массы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поперечные отростки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Наиболее убедительными симптомами при распознавании переломов костей является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уплотнение костной структуры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "деформация кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перерыв коркового слоя",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "линия затемнения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Для переломов шейки бедренной кости не характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "смешение по длине с захождением отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ротация наружу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ротация внутрь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "смешение по углам открытым внутрь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Для оскольчатого разрывного перелома поясничных позвонков не характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "клиновидная деформация тела",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "разрыв обеих замыкающих пластинок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение высоты прилежащего межпозвоночного диска",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "остеосклероз замыкающих пластинок",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Рентгенологическими симптомами травматического повреждения межпозвоночного диска являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расширение межпозвоночного пространства",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сужение межпозвоночного пространства",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смещение вышележащего позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "снижение высоты тела позвонка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Наиболее ранними проявлениями костной мозоли при диафизарных переломах является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "облаковидная параоссальная тень",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сглаженность краев отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уплотнение краев отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смещение отломков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Наиболее убедительно свидетельствует о несрастающимся переломе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствие параоссальной мозоли",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "длительно прослеживающаяся линия перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "склеротическое отграничение краев отломков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "снижение плотности костных отломков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Для ложного сустава не характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сглаженность и закругленность концах отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "склероз по краям отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "длительно прослеживающаяся щель между отломками",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зазубренность концов отломков",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Отсутствие рентгенологических изменений со стороны костно- суставного аппарата в первые 2-3 недели с последующей быстрой динамической рентгенологической картиной характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для острых неспецифических процессов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для туберкулёзных поражений",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для сифилиса",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для переломов детского возраста",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Изменение кости и недкостницы при гематогенной остеомилите у взрослых появляются в сроки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "7-10 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2-3 недели",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1-1,5 месяца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 месяца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Гиперостоз характерен:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для туберкулёза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для подострой стадии остеомилита",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для хронической стадии остеомилита",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "для болезни Пертеса",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Костной секвестр рентгенологически характеризуется: =повышением интенсивности тени ~уменьшением интенсивности тени ~частичном отграничением от окружающей костной ткани Туберкулёзный остит чаще возникает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в эпифизе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в метафизе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в диафизе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в апофизе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Для туберкулеза наиболее характерны секвестры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "губчатые",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кортикальные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тотальные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кортикальные и тотальные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Чаще всего поражаются сифилисом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "позвонки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бедренные кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "большеберцовые кости",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тазовые кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Злокачественным опухолям костей преимущественно поражающие лиц старше 50 лет относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеогенная саркома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хондросаркома",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ратикуло саркома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "саркома Юинга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Слоистые периостальные реакции наиболее характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для остеогенной саркомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для хондросаркомы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для саркомы Юинга",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "остеомиелита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Для лучевой диагностики перелома кости целесообразно применить: ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгеновское исследование",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ультразвуковое исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "радиоизотопное исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "магнитно-резонансную томографию",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "В каких случаях при травме костно-суставной системы используют МРТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для выявления линии перелома в трубчатой кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для дифференциальной диагностики патологического перелома позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при переломе тела и дуги позвонка для выявления с давления обломками спинного мозга и его корешков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "для определения костной мозоли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "В каких случаях при травме костно-суставной системы не используют электрорентгенографию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при массовых травматических повреждениях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для оценки произведённой репозиции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для контроля мозолеобразования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для выявления посттравматических осложнений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "При повреждении мениска и круглой связки в коленом суставе наиболее информативны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продольная томография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "компьютерная томография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "магнитно-резонансная томография",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Наиболее ранним рентгенологическим признаком гематогенного остеомиелита являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мелкоочаговая деструкция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "остеосклероз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "деструкция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "периостальная реакция",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Наиболее частым осложнением гематогенного остеомиелита является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпифизеолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойный артрит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "озлокачествление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "свищ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "Для доброкачественных опухолей и внутрикостной локализации наиболее типичны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нечёткие очертания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чёткие очертания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "склеротический ободок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "широкий склеротический вал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Для хронического остеомиелита характерны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеосклероз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "секвестры",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "деструкции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменения в мягких тканях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Для злокачественной опухоли кости наиболее характерной является периостальная реакция, проявляющаяся в виде:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "линейной тени",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слоистого периостального наслоения:",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "периостального козырька",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бахромчатого периостита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Опухолевое костеобразование имеет место при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеогенной саркоме",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "саркоме Юинга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миеломе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "туберкулёзном поражении",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "На злокачественное поражение кости указывает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "периостальный козырёк в виде спикул",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пластинчатая периостальная реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "беспорядочная оссификация в мягких тканях в виде пятнистых и хлопьевидных теней",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уплотнение костной структуры",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Раннее выявление метастатического поражение костей возможно с помощью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обычной рентгенографии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "томографии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сцинтиграфия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рентгенографии с прямым увеличением изображения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Рентгеновская оценка суставов у детей раннего возраста затруднена, так как:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ребёнок имеет малые размеры тела",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ребёнок имеет малую массу тела",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неоссифицированые эпифизы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ребенок двигается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "На этапах лечения перелома рентгенологический контроль проводится для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подтверждения наличия перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обнаружения вторичного смещения отломков и оценки костной мозоли",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вживления компрессии нервных стволов гематомы в зоне перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по желанию родителей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Эхографически можно визуализировать:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ушибы подкожной клетчатки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "повреждения сухожилий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повреждений мягких тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "переломы костей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Косвенные эхо признаки остеомиелита появляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ранее рентгенологически",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "позже рентгенологически",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одновременно с рентгенологически",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возможен любой вариант",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "При патологических изменениях тазобедренного сустава эхографически определяется:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "33,33333%уплощение костной части вертлужной впадины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "внутрисуставной перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расширение хрящевой крыши сустава",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "смещение головки бедра латеральном и краниальном направлении",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Назовите рентгенологические признаки начальной стадии болезни «Пертеса»:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеопороз головки бедра кости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "уплощение головки",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие свирепого хода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расширение суставной щели",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Что такое эпифизиолиз:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вывих в суставе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отделение эпифиза по ростковой зоне",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "неполный перелом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поднадкостный перелом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "Какая методика наиболее информативна при повреждении менисков:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенограмма в 2 проекциях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "УЗИ исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сцинтиграфия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "МРТ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Лучевой контроль состояние кости при остеомиелите проводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенологически",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "УЗИ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "КТ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не проводится",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "Рентгенологическое повышение воздушности лёгочной ткани с обеднением лёгочного рисунка может наблюдаться:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "при врождённой долевой эмфиземе",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "при вирусной пневмонии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при бронхиальной астме",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при инородных телах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "При отёке лёгких имеет место рентгенологический симптом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«голова акулы»",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "«мишени»",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "«крыльев бабочки»",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "«слоёного пирога»",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "Линия «Демуазо» наблюдается при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экссудативном плеврите",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "раке лёгкого",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "саркоидозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пневмонии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Застойные явления в лёгких рентгенологически проявляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сгущением и деформацией бронхососудистого рисунка:",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "инфильтрацией верхних отделов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пневмотораксом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ателектазом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "Для исследования позвоночника стандартными проекциями при рентгенографии являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямая и боковая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "прямая и косая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "боковая и косая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "прямая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "Какое количество физиологических сгибов определяется на боковой рентгенограмме позвоночника:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Какой метод ультразвуковой диагностики применяют для измерения и визуализации скорости направления и характера движения крови в сосудах и камерах сердца:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эхография",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сонография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "допплерографию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ангиография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Остеоденситометрию применяют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для изменения минеральной плотности кости",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для измерения морфологической плотности кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для измерения минеральной плотности мягких тканей окружающих кость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для измерения объема мягких тканей окружающих кость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "К методам костной остеоденситометрии относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгеновская абсорбционная и ультразвуковая денситометрия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "количественная магнитно-резонансная томография, и количественная компьютерная томография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "радионуклидная остеосцинтиграфия и сканирование",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "термография",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Лучевая нагрузка отсутствует при проведении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгеновской абсорбциометрии скелета",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "количественной компьютерной томографии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "количественной магнитно-резонансной томографической денситометрии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "радионуклидной остеосцинтиграфии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Нормальная головка бедренной кости имеет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "правильную круглую форму",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "неправильную круглую форму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "овальную форму",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "грибовидную форму",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Межпозвоночные отверстия шейного отдела позвоночника лучше всего выявляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в прямой проекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в боковой проекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в проекции с поворотом 15 гр",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в проекции с поворотом 45 гр",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Наиболее убедительным симптомом при распознавании переломов костей является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уплотнение костной структуры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "деформация кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "перерыв коркового слоя",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "линия затемнения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "Из перечисленных соотношений между отломками проявляются уплотнением в области перелома:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вклинения отломков",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "проекционная суперпозиция отломков при их захождении",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "смешение отломков под углом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "расхождение отломков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Для переломов шейки бедренной кости не характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "смещение по длине с захождением отломков",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ротация наружу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ротация внутрь",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "смешение по углам открытым внутрь",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Изменение кости и надкостницы при гематогенной остеомиелите у взрослых появляются в сроки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "7-10 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "2-3 недели",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "1-1,5 месяца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2 месяца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Чаще всего поражаются сифилисом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "позвонки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бедренные кости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "большеберцовой кости",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "тазовые кости",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Злокачественным опухолям костей преимущественно поражающие лиц старше 50 лет относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеогенная саркома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хондросаркома",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ратикулосаркома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "саркома Юнга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "Слоистые периостальные реакции наиболее характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для остеогенной саркомы",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для хондросаркомы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для саркомы Юинга",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "для фибросаркомы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Рентгенографию костей и суставов необходимо проводить в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямой проекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "косой проекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двух взаимно перпендикулярных проекциях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "боковой проекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "На рентгенограммах неизменённой кости определяется надкостница:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в эпифизе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в метафизе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "не определяется",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в диафизе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "В каких случаях при травме костно-суставной системы используют МРТ:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "для выявления линии перелома в трубчатой кости",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "для дифференциальной диагностики патологического перелома позвонка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при переломе тела и дуги позвонка для выявления с давления обломками спинного мозга и его корешков",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "для определения костной мозоли",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "В каких случаях при травме костно-суставной системы не используют электрорентгенографию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при массовых травматических повреждениях",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "для оценки произведённой репозиции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "для контроля мозолеобразования",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "для выявления посттравматических осложнений",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "При повреждении мениска и круглой связки в коленом суставе наиболее информативны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенография",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "продольная томография",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "компьютерная томография",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "магнитно-резонансная томография",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "Наиболее ранним рентгенологическим признаком гематогенного остеомиелита являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "мелкоочаговая деструкция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "остеосклероз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "периостальная реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменения в прилежащих мягких тканях",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Наиболее частым осложнением гематогенного остеомиелита является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпифизеолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойный артрит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "озлокачествление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "свищ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Для доброкачественных опухолей и опухолевидных образований внутрикостной локализации наиболее типичны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нечёткие очертания",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "чёткие очертания",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "склеротический ободок",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "широкий склеротический вал",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Для хронического остеомиелита характерны:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеосклероз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "секвестры",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "деструкции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "изменения в мягких тканях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Для злокачественной опухоли кости не характерны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "дефект костной ткани с нечёткими контурами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "деструкция с чёткими контурами",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "периостит в виде спикул",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "периостит в виде козырька",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Опухолевое костеобразование имеет место при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "остеогенной саркоме",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "саркоме Юинга",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "миеломе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метастазах рака предстательной железы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Раннее выявление метастатического поражение костей возможно с помощью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обычной рентгенографии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "томографии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сцинтиграфии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рентгенографии с прямым увеличением изображения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "На этапах лечения перелома рентгенологический контроль проводится для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подтверждения наличия перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обнаружения вторичного смещения отломков и оценки костной мозоли",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вживления компрессии нервных стволов гематомы в зоне перелома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "по желанию родителей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Косвенные эхо признаки остеомиелита появляются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ранее рентгенологических",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "позже рентгенологических",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одновременно с рентгенологическими",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "возможен любой вариант",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Какая методика наиболее информативна при повреждении менисков:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенограмма в 2 проекциях",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "УЗИ исследование",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сцинтиграфия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "МРТ",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Лучевой контроль состояние кости при остеомиелите проводится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рентгенологически",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "УЗИ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "КТ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не проводится",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Для исследования позвоночника стандартным проекции при рентгенографии являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямая и боковая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "прямая и косая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "боковая и косая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "боковая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Какое количество физиологических изгибов определяется на боковой рентгенограмме позвоночника:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "3",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "4",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "5",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "2",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Для исследования межпозвоночных дисков позвоночника «золотым стандартом» считают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "МСКТ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "МРТ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "КТ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сцинтиграфию",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 29,
+				"text": "В каких случаях применяется магнитно-резонансная томография?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 37,
+				"text": "Какие переломы наблюдаются в детском возрасте?",
+				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 93,
+				"text": "=двух взаимно перпендикулярных проекциях ~в боковой проекции На рентгенограммах неизменённой кости определяется надкостница:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 143,
+				"text": "Для злокачественной опухоли кости наиболее характерной является периостальная реакция, проявляющаяся в виде:",
+				"reason": "NO_ANSWER_MARKER"
+			}
+		]
+	}
+}

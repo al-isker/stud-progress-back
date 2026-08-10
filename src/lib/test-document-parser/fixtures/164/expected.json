@@ -1,0 +1,1552 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "В стенке носовой полости имеются оболочки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слизистая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "подслизистая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "волокнисто-хрящевая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "мышечная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адвентициальная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В слизистой оболочке носовой полости имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эпителий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "жировая ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плотная неоформленная соединительная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рыхлая соединительная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "слой гладкомышечных клеток",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Орган обоняния имеет клетки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Меркеля",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "базальные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "столбчатые",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "секреторные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рецепторные",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Для обонятельных рецепторных клеток характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие микроворсинок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие ресничек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "имеет один отросток",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "имеет два отростка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "не имеет отростков",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Базальные клетки органа обоняния выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреторная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экскреторная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "опорная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трофическая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "участие в регенерации",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "В стенке трахеи имеются оболочки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "серозная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "слизистая",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мышечная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "волокнистая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "волокнисто-хрящевая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "В составе эпителия трахеи имеются клетки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "опорные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бокаловидные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "каемчатые",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реснитчатые",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "альвеолярные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Щеточные клетки эпителия воздухоносных путей выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секреторную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экскреторную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хеморецепторную",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "выделительную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "защитную",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "В составе собственной пластинке трахеи имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плотная не оформленная соединительная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировая ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рыхлая соединительная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "скопление лимфоидной ткани",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "В составе подслизистой оболочке трахеи имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "многорядный эпителий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ретикулярная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рыхлая соединительная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "плотная соединительная ткань",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "В составе волокнисто-хрящевой оболочке трахеи имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "многорядный эпителий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рыхлая соединительная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиалиновый хрящ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "плотная неоформленная соединительная ткань",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "В составе адвентициальной оболочке трахеи имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "сосуды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эластические мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ретикулярная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "рыхлая соединительная ткань",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Источниками развития клеточных элементов стенки альвеол являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "энтодерма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "мезодерма",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мезенхима",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сомиты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сегментные ножки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "В стенке альвеол имеются клетки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазмоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В-лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "макрофаги",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "щеточные клетки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пневмоциты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Для пневмоцитов первого порядка характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "поверхность клеток ровная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на поверхности единичные реснички",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на поверхности микроворсинки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хорошо развитая гранулярная эндоплазматическая сеть",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в цитоплазме имеются микропузырьки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Для пневмоцитов второго порядка характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "в цитоплазме хорошо развитая агранулярная эндоплазматическая сеть",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в цитоплазме хорошо развита гранулярная эндоплазматическая сеть",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гранулярная эндоплазматическая сеть развита слабо",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в цитоплазме много микропузырьков",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в цитоплазме пластинчатые тельца",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Пневмоциты 1-порядка выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "защитную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "секреторную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "экскреторную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эндокринную",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "газообмена",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Пневмоциты второго порядка выполняют функцию:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "защитную",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "секреторную",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндокринную",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "секреции сурфактанта",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "газообмена",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Сурфактант выполняет функции:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "препятствует расправлению альвеол",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "способствует расправлению альвеол",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уменьшает силу поверхностного натяжения стенки альвеол",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличивает силу поверхностного натяжения альвеол",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "способствует усилению кровотока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "В межальвеолярных промежутках имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "синусоидные капилляры",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "густая сеть эластических волокон",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "густая сеть капилляров",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "эластические мембраны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "концевые отделы желез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Для главных бронхов характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие эластического хряща",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие хрящевых полуколец",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие хрящевых колец",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отсутствие подслизистой оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие мышечной пластинки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Для крупных бронхов характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие хрящевых колец",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие хрящевых островков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличие хрящевых пластинок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отсутствие мышечной пластинки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличие мышечной пластинки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Для средних бронхов характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие хрящевых полуколец",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие хрящевых островков",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "отсутствие хряща в волокнистой хрящевой оболочке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слабо выраженная мышечная пластинка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хорошо выраженная мышечная пластинка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "В составе слизистой оболочки среднего бронха имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "многорядный цилиндрический каемчатый эпителий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "многорядный цилиндрический мерцательный эпителий",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ретикулярная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "РСТ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "железы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "В составе волокнистой хрящевой оболочки среднего бронха имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "многорядный цилиндрический эпителий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "РСТ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плотная неоформленная соединительная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "железы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "хрящевые островки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "В составе подслизистой оболочки среднего бронха имеются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "многорядный цилиндрический эпителий",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ретикулярная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плотная неоформленная соединительная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "РСТ",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "железы",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Для малых бронхов характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие хрящевых пластинок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствие мышечной пластинки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хорошо выраженная мышечная оболочка",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "слабо выраженная подслизистая оболочка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет подслизистой оболочки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Для терминальных бронхиол характерно:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие многорядного мерцательного эпителия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наличие однослойного кубического реснитчатого эпителия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие однослойного цилиндрического эпителия без ресничек",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хорошо развитая мышечная пластинка",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слабо развитая мышечная пластинка",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "В составе многорядного призматического эпителия трахеи имеются все клетки, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "реснитчатых",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "бокаловидных",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эндокринных",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "базальных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "апикально-зернистых",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Легкие выполняют ряд нереспираторных функций, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "депонирования крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инактивация вазоактивных веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "выделения из организма летучих веществ",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "регуляции углеводного обмена",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "участия в регуляции свертывания крови",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Слизистая оболочка надгортанника выстлана эпителием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "однослойным плоским",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "многослойным плоским",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "многорядным реснитчатым",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "многорядным со стороны гортани и многослойным со стороны глотки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "переходным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "В трахее, крупных и средних бронхах различают все оболочки, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слизистой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подслизистой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мышечной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фиброзно-хрящевой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "адвентициальной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Основной тканью сетчатого слоя дермы кожи является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рыхлая соединительная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плотная оформленная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плотная неоформленная",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гладкая мышечная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "поперечнополосатая мышечная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Эпидермис представлен всеми дифферонами клеток, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кератиноцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "меланоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутриэпидермальных фибробластов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "осязательных клеток Меркеля",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "внутриэпидермальных макрофагов (клетки Лангенгарса)",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Околоносовые пазухи выстланы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "адвентициальной оболочкой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "надкостницей",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "слизистой оболочкой с многослойным плоским эпителием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "слизистой с многорядным реснитчатым эпителием",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "серозной оболочкой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Слизисто-белковые и белково-слизистые железы имеются во всех отделах, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "носовой полости и гортани",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "трахеи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "крупных бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "средних бронхов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мелких бронхов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "В препарате легкого курильщика видны клетки, содержащие большое количество частичек дыма и пыли. Что это за клетки?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тучные клетки межальвеолярных перегородок",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "макрофаги альвеол",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эпителиоциты сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "ресничатые эпителиоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бокаловидные клетки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "В воздухоносных путях происходит все, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "голосообразования",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "проведения воздуха к респираторному отделу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "газообмена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "очистки воздуха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "обоняния",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Конечные (терминальные) бронхиолы легко растяжимы при вдохе и легко возращаются в исходное положение при выдохе. Какие морфологические структуры ответственны за это?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эластические волокна",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гладкие миоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "эпителиоциты I типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "макрофаги",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эпителиоциты II типа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Железы, секретирующие слизь в стенке воздухоносных путей, отсутствуют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в трахее",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в носовой полости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в гортани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в крупных и средних бронхах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в мелких бронхах",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Слизистая оболочка гортани выстлана эпителием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "многорядным реснитчатым",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "однослойным кубическим",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "переходным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "многослойным плоским неороговевающим",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "однослойным каемчатым",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Внешнее дыхание, т.е. поглощение из вдыхаемого воздуха О2 и снабжение им крови, а также удаление из организма СО2, является основной функцией дыхательной системы. Где осуществляется эта функция?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в трахее",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в гортани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "во внелегочных бронхах",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в ацинусе",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в легочных бронхах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Пищевые комки, проходящие по пищеводу, расположенному непосредственно позади трахеи, не встречают препятствия со стороны стенки трахеи. Какие структуры стенки трахеи ответственны за это?:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слизистая оболочка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "подслизистая основа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "собственная пластинка слизистой оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "волокнисто-хрящевая оболочка",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "адвентициальная оболочка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Газообмен в легких осуществляется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в трахее",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в бронхах малого калибра",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в ацинусах",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в терминальных бронхиолах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в бронхах среднего калибра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Терминальные бронхиолы выстланы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "многорядным реснитчатым эпителием",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "переходным эпителием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "однослойным плоским эпителием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "однослойным кубическим реснитчатым эпителием",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "двухрядным реснитчатым эпителием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Стенка малого бронха выстлана:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "двухрядным реснитчатым эпителием",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "однослойным кубическим реснитчатым эпителием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "многорядным реснитчатым эпителием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "однослойным плоским эпителием",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "многослойным плоским неороговевающим эпителием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "В препарате виден бронх, в стенке которого различают слизистую оболочку и в ней – собственную и мышечную пластинки слизистой оболочки; подслизистую основу с железами, расположенными группами, фибро-хрящевую оболочку в виде гиалиновых пластин и адвентициальную оболочку. Назовите этот бронх:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "малый",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "главный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "средний",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "терминальный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "респираторный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Эпителиоциты 1-го типа выстилают стенку:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бронхов малого калибра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "терминальных бронхиол",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "респираторных бронхиол",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бронхов среднего калибра",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "альвеол",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 30,
+				"text": "В состав аэрогематического барьера входят все элементы, кроме:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

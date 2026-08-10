@@ -1,0 +1,1500 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "В переднем отделе гипоталамуса находится центр:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "химической терморегуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жажды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сна и пробуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "физической терморегуляции",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "В заднем отделе гипоталамуса находится центр:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жажды",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "физической терморегуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "насыщения и голода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "химической терморегуляции",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Зоной комфорта называется температура окружающей среды:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "16-18с",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "22-24с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "18-20с",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "26-28c",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Теплообразование в мыщцах при тяжелой мышечной работе повышается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "на 10%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "на 50-80%",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "на 400-500%",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "на 1-2%",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Суточная температура тела у человека в норме колеблется в пределах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "35.6-36.6с",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "36.4-37.5с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "36.5-36.9с",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "35.9-36с",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Тепловой удар может возникнуть при температуре тела:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "37-38с",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "38-39с",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "40-41с",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "35-38c",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Наибольшее количество тепла образуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в легких",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в почках",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в работающей скелетной мышце",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Отдача тепла при температуре комфорта идет интенсивнее путем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "конвекции",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "испарения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "излучения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "теплопроведения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "При понижении температуры окружающей среды сосуды внутренних органов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сужаются",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяют просвета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расширяются",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не участвуют в процессе терморегуляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "При повышении температуры окружающей среды кожные капилляры:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сужаются",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяют просвета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "расширяются",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не участвуют в процессе терморегуляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Самая низкая температура тела человека наблюдается в области кожи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "щек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "спины",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пальцев ног и рук",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "волосистой части головы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Наиболее высокая температура тела человека наблюдается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в 7 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в 13 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в 19 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в18 - 20 ч",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "в15ч",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Наиболее низкая температура тела здорового человека наблюдается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в 7 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в 13 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в 19 ч",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в 4- 6 ч",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Под влиянием тироксина температура тела:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "понижается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышается",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышается утренние часы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Изотермия свойственна животным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "пойкилотермным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гетеротермным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гомойотермным",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "свойственно новорожденным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Наиболее высокую температуру в организме имеет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "головной мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "желудок",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печень",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "кожа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Отдача тепла у человека, находящегося в воде, идет путем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "испарения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "излучения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "теплопроведения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "конвекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Основные центры терморегуляции расположены:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в таламусе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в коре больших полушарий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в гипоталамусе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в продолговатом мозге",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Постоянство температуры тела называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертермией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипотермией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изотермией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гомеостазом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Процессы образования тепла в организме объединяют понятием:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "термостабилизация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "теплоотдача",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "теплопродукция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "теплопроведения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Наибольшая доля тепла в организме образуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в сердце, почках",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в соединительной ткани, мышцах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в костной ткани, печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в мышцах, печени, почках",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "В условиях холода теплообразование в мышцах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возрастает постепенно",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижается",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "резко возрастает",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Процессы отдачи тепла организмом объединяют понятием терморегуляции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "химической",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "метаболической",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "физической",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "мышечной дрожю",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Отдача тепла организмом осуществляется путем:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "повышения тонуса мышц и дрожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "мышечной деятельности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изменения основного обмена",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "теплоизлучения, конвекции, теплопроведения, испарения",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Повышение температуры тела выше 37с называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипотеримей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "изотермией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипертермией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "конвекцией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Охлаждение организма до 35 с называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гетеротермией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипертермией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "изотермией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипотермией",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Наибольшее количество центральных терморецепторов находится:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в продолговатом мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в спинном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в гипоталамусе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в коре больших полушарий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Отдача тепла организмом путем контакта с потоками воздуха или жидкости называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "теплоизлучением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "испарением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "конвекцией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "теплопроведением",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "теплоизлучением",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "испарением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "конвекцией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "теплопроведением",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Отдача тепла испарением при 100% относительной влажности:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "низкая",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полностью отсутствует",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не значительно снижается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Наиболее интенсивный путь теплоотдачи при температуре комфорта:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "конвекция",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "теплопроведение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "излучение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "испарение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "В терморегуляции преимущественно участвуют гормоны желез внутренней секреции:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поджелудочной железы, надпочечников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипофиза, щитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "околощитовидной железы, половых желез",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "щитовидной железы, надпочечников",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Под влиянием тироксина и адреналина теплообразование:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличивается",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "уменьшается и увеличивается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "При снижении температуры внешней среды количество тироксина и адреналина в крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышается",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "повышается незначительно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Суточная потребность человека среднего возраста в углеводах равна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "70-100 г",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "150-200 г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "400-450 г",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "более 450г",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Суточная потребность человека среднего возраста в белках равна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "150-200 г",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "400-450 г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "80-120 г",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "менее 80г",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Суточная потребность человека среднего возраста в жирах равна:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "100-150 г",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "400-450 г",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "70-100 г",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "более 450г",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Преимущественное действие на углеводный обмен оказывает гормон:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тироксин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "альдостерон",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антидиуретический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "глюкагон",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Преимущественное действие на белковый обмен оказывает гормон:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "инсулин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "антидиуретический",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тироксин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Усиливают распад белков в тканях гормоны:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вазопрессин, соматотропин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адреналин, норадреналин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "инсулин, соматостатин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "АДГ и окситоцин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Стимулирует синтез белка в тканях гормон:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гидрокортизон",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "адреналин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соматотропин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вазопресин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "К жирорастворимым относятся витамины:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "группы В",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "С, Р",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "А, Е, Д",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Е, К, Р",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "При отсутствии в потребляемой пище незаменимых аминокислот наблюдается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "положительный азотистый баланс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "азотистое равновесие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отрицательный азотистый баланс",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не влияет на азотистый баланс",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "К водорастворимым относятся витамины:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "А, Д, Е",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Е, К, Р",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В, С, Р",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "группы В и А",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Образование сложных органических соединений из простых с затратой энергии называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "основным обменом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диссимиляцией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ассимиляцией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "биосинтез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Распад сложных органических соединений до простых с выделением энергии называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ассимиляцией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "основным обменом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диссимиляцией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "метаболизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Соотношение количества азота, поступившего в организм с пищей и его количества, выведенного из организма, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ретенцией (задержкой) азота",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "белковым минимумом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "азотистым балансом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отрицательным азотистым балансом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Единство организма и среды проявляется в непрерывном:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обмене энергией между организмом и средой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "обмене веществ между организмом и средой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обмене веществами, энергией, информацией между организмом и средой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "поступлении в организм веществ и выделении токсических веществ",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Энергозатраты организма можно определить путем измерения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ЧСС и АД",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уровня глюкозы и свободных жирных кислот в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "количества выделяемого тепла",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ЧСС и ПД",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Затраты энергии на выполнение мышечной нагрузки:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "основной обмен энергии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "валовый обмен энергии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "рабочий обмен энергии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "рабочий и основной обмен энергии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Зная объем поглощенного кислорода, можно определить величину основного обмена методом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямой калориметрии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "полного газоанализа",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "неполного газоанализа",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "не прямой калориметрии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Отношение объема выделенного углекислого газа к объему поглощенного кислорода называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "калорической ценностью питательных вещества",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "калорическим эквивалентом кислорода",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дыхательным коэффициентом",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "калорическим эквивалентом кислорода и дыхательным коэфицентом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Общий обмен после приема белковой пищи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшается на 15%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличиваетсяна30 %",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличивается на 18 %",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Общий обмен после приема углеводной пищи:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшается на 15%",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "увеличивается на 15%",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "увеличивается на 30 %",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Состояние, при котором количество выведенного азота меньше количества азота, поступившего в организм, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отрицательным азотистым балансом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "азотистым балансом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "азотистым равновесием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "положительным азотистым балансом",
+						"isCorrect": true
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

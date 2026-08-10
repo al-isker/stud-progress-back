@@ -1,0 +1,1424 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Предметом психологии является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поступки и поведение человека;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "деятельность человеческого мозга;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "внутренние психические явления и поведение человека;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "условия и предпосылки развития сознания в антропогенезе;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "индивидуальное развитие человека в филогенезе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Бихевиоризм - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "поведение человека;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "направление в американской психологии;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наука о человеческом сознании;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наука о бессознательном;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "психология личности.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "К эмпирическим методам психологической науки относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "психика, сознание, бессознательное и поведение;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "наблюдение, эксперимент, тестирование, беседа, социометрия;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "мышление, способности, внимание и память;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "психотренинг, психокоррекция, психодиагностика, психоконсультирование;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "психодрама, арттерапия, суггестия.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Родоначальником (основателем) психоанализа является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В. Вундт;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Д. Уотсон;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "З. Фрейд;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "А. Адлер;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ж. Пиаже.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Как самостоятельная наука психология была основана:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в 1927 г.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в 1908 г.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в 50-е годы ХХ века;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в 1756 г.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в 1879 г.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "К основным методам психологической практики относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "психологическое консультирование, психотерапия, психокоррекция, психотренинг;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "психическое состояние, психический процесс, психическое свойство;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наблюдение, эксперимент, тестирование, социометрия;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "анализ продуктов деятельности, контент-анализ, биографический метод;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "детерминизм, объективизм, катарсис, инсайт.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "До середины XIX века психология развивалась в рамках:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "истории;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "биологии;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "философии;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "физиологии;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "педагогики.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Первый психологический труд - трактат «О душе» написал:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Р. Декарт;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Демокрит;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "З. Фрейд;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Аристотель;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Сократ.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Основателем психологии как самостоятельной науки считается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "В. Вундт;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "З. Фрейд;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Г. Эббингауз;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "У. Джеймс;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Дж. Уотсон.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Предложили изучать сознание путём расчленения его на простейшие элементы (образы, ощущения, чувства):",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "У. Джеймс и Торндайк;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "З. Фрейд и А. Адлер;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Р. Декарт и Эббингауз;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Б.Скиннер и Д. Уотсон;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "В. Вундт и Титчинер.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Одно из психологических направлений преимущественно получило применение в психиатрической клинике:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гештальтпсихология;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "когнитивная психология;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "психоанализ;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гуманистическая психология;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бихевиоризм.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Инженерная психология, психология спорта, медицинская психология, консультативная психология - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прикладные отрасли психологии;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "теоретические отрасли психологии;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "основные направления психологической практики.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "основные направления психологической науки;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "основные разделы общей психологии.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Один из методов психологии, предусматривающий прямое или косвенное получение сведений путем речевого общения, называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диалог;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "беседа;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "анкетирование;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опрос;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эксперимент.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Суть лонгитюдного метода состоит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в изучении одних и тех же лиц на протяжении достаточно длительного отрезка времени.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "в изучении отдельно взятой психической функции на разных возрастных стадиях;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в сравнительно-психологическом исследовании детей-близнецов;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в изучении влияния культуры на психическое развитие человека;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в изучении межличностных отношений в группе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Принцип, требующий рассматривать психические явления в постоянном изменении, движении, называется принципом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "историзма;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "детерминизма;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "развития;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "объективности;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "принцип единства сознания и деятельности.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Преднамеренное, систематическое и целенаправленное восприятие психических явлений с целью изучения их изменений в определенных условиях это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эксперимент;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "социометрия;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "метод анализа продуктов деятельности;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наблюдение;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "тестирование.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Возраст современной научной психологии составляет...",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "более двух тысяч лет;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "около трехсот лет;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "двести лет с небольшим;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сто лет с небольшим;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "три-четыре десятилетия.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Психические процессы, психические состояния и психические свойства - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уровни психического отражения;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "основные свойства сознания;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "три группы феноменов бессознательного;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "компоненты самосознания;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "основные формы проявления психических явлений.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Сознание - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "высший уровень психического отражения и саморегуляции;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутренний мир человека и его поведение;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "совокупность представлений человека о самом себе;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "разум и чувства человека;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "познавательный психический процесс.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Сон, гипноз, медитация, транс - это:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "изменённые состояния сознания;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "патологические состояния сознания;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уровни интровертированного сознания;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "уровни экстравертированного сознания;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "психические свойства личности.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Основателем теории бессознательного является:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "У. Джеймс;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Фехнер;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "З. Фрейд;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "К. Юнг;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "А.Адлер.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Психика - это понятие, отражающее:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "явления внутренней, субъективной (душевной) жизни человека;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "продукт деятельности мозга человека;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "высший уровень психического отражения и саморегуляции;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "совокупность знаний об окружающем мире;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "совокупность представлений человека о себе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Биологической (анатомо-физиологической) основой психической деятельности выступает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "деятельность нервной системы;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "деятельность гипофиза;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "деятельность эндокринной системы;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "деятельность сердечно-сосудистой системы;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет верных ответов.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Впервые о рефлекторной природе психического высказывался:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Р. Декарт;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "И.М. Сеченов;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "И.П. Павлов;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "В. Вундт;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Д. Уотсон.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "К психическим свойствам (особенностям) личности относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эмоции, чувства, воля;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ощущения, восприятие, память, мышление, воображение;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аффект, стресс, депрессия, фрустрация;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "темперамент, характер, способности;",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "психика, сознание, бессознательное.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Свойство высокоорганизованной материи (мозга) отражать объективную действительность и на основе формируемых при этом психических образов целесообразно регулировать деятельность человека и его поведение называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "темперамент;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сознание;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воображение;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "внимание;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "психика.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Нервная клетка как основной элемент нервной системы не включает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синапсы;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аксон;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дендриты;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тело клетки;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ядро.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Принимают и обрабатывают информацию от органов чувств и рецепторов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гностические зоны",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "моторные зоны;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "сенсорные зоны;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ассоциативные зоны;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы верны.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Под неосознаваемым состоянием готовности человека определенным образом воспринимать, оценивать и действовать по отношению к окружающим его людям или объектам понимается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "конформизм;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "принцип;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "убеждение;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "апперцепция;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "установка.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Сознание тождественности, сознание «Я» как активного начала, сознание своих психических функций, социально-нравственное самосознание это компоненты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "психики;",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сознания;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "самосознания;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "надсознательного;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "бессознательного.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Эксперимент бывает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "основной и вспомогательный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лонгитюдный, близнецовый, кросскультурный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "частный и общий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "констатирующий, психолого-педагогический",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "естественный, лабораторный, формирующий",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Психологический эксперимент от наблюдения отличается тем, что:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "эксперимент более длителен по времени, чем наблюдение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в ходе эксперимента исследователь активно вмешивается в изучаемый процесс",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "во время эксперимента используются технические средства, а в ходе наблюдения не используются",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наблюдение проводится в естественных условиях, а эксперимент в лабораторных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в эксперименте больше возможности количественно обработать и математически описать изучаемые явления, чем в наблюдении",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "К психическим процессам относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "способности, характер, темперамент",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "познавательные и эмоционально-волевые процессы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сознание, самосознание и бессознательное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "стресс, аффект, депрессия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ощущения, восприятие, память, мышление, воображение",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Самосознание - это:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "совокупность знаний об окружающем мире",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "форма проявления психического",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "познавательный психический процесс",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "структурный компонент сознания, Я-концепция личности",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "совокупность представлений человека о себе",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Источником возникновения бессознательного уровня психических явлений, по мнению З. Фрейда, являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "неосознаваемые потребности личности",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "неосознаваемые побудители сознательных действий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нереализованные, ущемленные, вытесненные потребности и желания личности",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "конфликты личности и общества",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "врожденные инстинкты",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Психология – наука, направленная на изучение:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "психики",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "поведения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "процесса обучения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "психических состояний",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "информационных систем",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Отраслями психологии являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "клиническая психология",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "педагогическая психология",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гуманистическая психология",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "психодиагностика",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пубертатная психология",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "К основным психологическим направлениям относят:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "психоанализ",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "психосинтез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бихевиоризм",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "структурализм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "пантеизм",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "К методам психологии относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наблюдение",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эксперимент",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диалог",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тестирование",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "научение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Виды метода наблюдения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "включенное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "внутреннее",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "закрытое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "индивидуальное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стандартизированное",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Квазиэксперимент – метод, используемый когда…",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "экспериментальное исследование невозможно",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "экспериментальное исследование затруднено",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "необходимо выявить корреляционные отношения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "невозможна статистическая обработка данных",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "невозможна качественная обработка результатов исследования",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Важнейшими характеристиками методов психологии являются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "валидность",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полезность",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "надежность",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "наглядность",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "доступность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Метод социометрии позволяет...",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "диагностировать межгрупповые и межличностные отношения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оценить сплоченность группы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "определить совместимость членов группы",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "выявить особенности темперамента членов группы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "выявить эмоциональный климат в коллективе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Основными недостатками метода наблюдения считают...",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "высокий уровень субъективизма исследователя при сборе данных",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ограниченность в обобщении результатов исследования, связанную с преимущественно качественным характером выводов наблюдения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "необходимость использования технических средств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все ответы верны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все ответы неверны",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": [
+			{
+				"index": 12,
+				"text": "Основателем культурно-исторической теории развития высших психических функций является:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
+	}
+}

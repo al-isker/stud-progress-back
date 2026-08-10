@@ -1,0 +1,6118 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Дистрофия - это вид?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расстройства кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "повреждения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "регенерации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Инфильтрация и декомпозиция - это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "механизм развития опухолей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стадии повреждения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "механизмы развития дистрофий",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "механизм расстройства кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "механизмы регенерации",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Фанероз - это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "стадия дистрофии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "декомпозиция",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вид некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "опухоль",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гематома",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "В основе гидропической дистрофии лежит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "колликвация цитоплазмы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "денатурация и коагуляция белков цитоплазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфильтрация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "трансформация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метахромазия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Роговая дистрофия - это разновидность дистрофии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углеводной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белковой",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "опухоли",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "минеральной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Ихтиоз и лейкоплакия - это проявление?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бурой атрофии миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиалиново-капельной дистрофии миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "роговой дистрофии кожи и слизистых оболочек",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гидропической дистрофии миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "амилоидоза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Метод экспресс-диагностики острой ишемии миокарда у секционного стола:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ШИК-реакция",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "водяная проба",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздушная проба",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "реакция с трифенилтетразолием",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Наиболее частая локализация колликвационного некроза:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "миокард",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "селезенка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "головной мозг",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Черный цвет ткани при гангрене обусловлен?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сульфатом натрия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сульфидом железа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сульфидом магния",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сульфатом кальция",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Стеатоз печени не характерен для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипоксии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "голодания",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "интоксикации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "алкогольной болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфицирования вирусом гепатита В",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "При белковом голодании стеатоз развивается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердце",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почках",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печени",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "селезенке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Метафорическое название печени при стеатозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "”саговая”",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "”сальная”",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "”гусиная”",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "”тигровая”",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "”глазурная”",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Причины развития жировой дистрофии миокарда:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипоксия, интоксикация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "артериальная гипертензия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперхолестеринемия, гипоксия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белковое голодание",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипергликемия, гиперхолестеринемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Метафорическое название сердца при жировой дистрофии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "”бычье”",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "”сальное”",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "”гусиное”",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "”тигровое”",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "”капельное”",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Жировую дистрофию миокарда позволяет доказать окраска:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "суданом III",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "конго красным",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "толуидиновым синим",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пикриновой кислотой",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "шифф-йодной кислотой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "При нарушении реабсорбции белка в почке развивается клинический симптом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анурия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дизурия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "олигурия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полиурия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протеинурия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "В почке при нефротическом синдроме развивается дистрофия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белковая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "баллонная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гидропическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "белковая и гидропическая",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Наследственные болезни накопления называются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "системные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тезаурисмозы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "аутоимунные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пневмокониозы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "иммунокомплексные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "К эндогенным пигментам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уголь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "железо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кремний",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ферритин",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "К пигментам, производным гемоглобина, относят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гем",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "меланин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ферритин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "хлорофилл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "липофусцин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Реакция Перлса выявляет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематины",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "порфирин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "железо гемосидерина",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "протопорфирин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "При кахексии липофусцин накапливается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "печени",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "почках",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "селезенке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гладких мышцах кишки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Для бурой атрофии миокарда характерно:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "усиление работы сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "под эпикардом накопление жира",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшение объема и массы сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "накопление билирубина в кардиомиоцитах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "накопление гемосидерина в кардиомиоцитах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "При бурой атрофии органа накапливается пигмент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "липофусцин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гемомеланин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемосидерин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "липосидерин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Распространенная приобретенная гиперпигментация кожи характерна для болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Крона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Грейвса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Аддисона",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Паркинсона",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Альцгеймера",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Местная гиперпигментация кожи проявляется как:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ксантома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "витилиго",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезнь Аддисона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "местный гемосидероз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "невоклеточный невус",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Бронзовый цвет кожи при Аддисоновой болезни обеспечивает пигмент:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "меланин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "липофусцин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "билирубин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемосидерин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Макроскопические особенности легкого при бурой индурации:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "петрификаты",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пузыри под плеврой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "плотная консистенция",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "красный цвет на разрезе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "неравномерное расширение бронхов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Общий гемосидероз встречается при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "болезнях миокарда",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "заболеваниях кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфекционных заболеваниях",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "диапедезных кровоизлияниях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гематомах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Вид патологического обызвествления в очагах атероматоза при атеросклерозе:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обменное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дистрофическое",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "идиопатическое",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метастатическое",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "При дистрофическом обызвествлении уровень кальция в крови:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличивается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "не уменьшается",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "уменьшается",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Гиалиноз клапанов сердца характерен для:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ревматизма",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сахарного диабета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипертонической болезни",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "врожденного порока сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "приобретенного порока сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "К экзогенным пигментам относятся:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уголь",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "железо",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "липиды",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "меланин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "кремний",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Функция сердца при жировой дистрофии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "снижается",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "повышается",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Размеры сердца при жировой дистрофии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличены",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не изменены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Для \"тигрового\" сердца характерна дистрофия?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белковая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиалиново-капельная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гидропическая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "жировая",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "углеводная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "К механизмам развития жировой дистрофии относится:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "декомпозиция",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "деформация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инфильтрация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Мукоидное набухание соединительной ткани является состоянием?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "обратимым",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "необратимым",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "транзиторным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Гиалиноз встречается в исходе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жировой дистрофии клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "колликвационного некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "мукоидного и фибриноидного набухания",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "жировой инфильтрации стромы",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вакуольной дистрофии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Метилвиолет и красный конго используется при окраске?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гликогена",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "РНК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амилоида",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "жира",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "меланина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "Амилоидозом может осложниться?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертоническая болезнь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "атеросклероз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цирроз печени",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "хронический абсцесс легких",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "ишемическая болезнь сердца",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "В гистологическом препарате фибриноидное набухание характеризуют следующие признаки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспалительная инфильтрация, базофилия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "положительная реакция на фибрин, оксифилия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "деструкция коллагеновых волокон",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "всего верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Амилоидоз - это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вид стромально-сосудистых дистрофий",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стадия некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "вид углеводной дистрофии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "минеральная дистрофия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вид гиалиноза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "В состав амилоида входят?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазменный компонент",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "полисахариды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жир",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "соли кальция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "амилаза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Саговая и сальная селезенка - это проявление?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "углеводной дистрофии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "жировой дистрофии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амилоидоза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гиалиноза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "зернистой дистрофии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Конго-рот окрашивает в кирпично-красный цвет?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиалин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фибрин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "амилоид",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гликозаминогликаны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "соединительную ткань",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Эндокринный характер имеют следующие причины общего ожирения?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "синдром Иценко-Кушинга",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиподинамия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезнь Гирке",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "болезнь Боткина (гепатит)",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипертермия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Наиболее частая локализация фибриноидного набухания?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "строма органов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "суставы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клапаны сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Распространенный меланоз развивается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при альбинизме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при аддисоновой болезни",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при меланоме",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при невусе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при гломерулопатии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Заболеванием, в основе которого лежит нарушение обмена меди, является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемохроматоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "болезнь Гоше",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезнь Коновалова-Вильсона",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "меланоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "болезнь Гирке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Дистрофическому обызвествлению предшествует?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемосидероз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "некроз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ожирение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "меланоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воспаление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "Гиповитаминоз Д сопровождается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперостозом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "остеопорозом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "остеодисплазией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Местное дистрофическое обызвествление сопровождается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "общим нарушением обмена кальция и фосфора",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипернатриемией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперкалиемией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "общее нарушение обмена кальция и фосфора не выявляется",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "К гиперкальциемии ведут все перечисленные заболевания и состояния, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "аденомы паращитовидных желез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипофункции паращитовидных желез",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "некротического колита",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипервитаминов Д",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Из перечисленных процессов увеличением меланинообразования сопровождаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипервитаминоз С",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипервитаминоз Д",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "отравление фосфором",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "рак фатерова соска",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "туберкулез надпочечников",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Для гемосидерина характерны все следующие специфические признаки, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержит железо",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аморфный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кристаллический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бурый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образуется через 24 часа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Хромопротеиды - это пигменты?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экзогенные",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эндогенные",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "парэнтеральные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиалиновые",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "угольные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "У больного со стенозом вирсунгова протока желтуха?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подпеченочная",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "надпеченочная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печеночная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "паренхиматозная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолитическая",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Гематоидин в гематоме располагается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по периферии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в центре",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "повсеместно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "за пределами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в пограничной зоне",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "При малярии образуется пигмент?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемомеланин",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "меланин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гематоидин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "порфирин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "липофусцин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "В эрозиях и язвах желудка содержится пигмент?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ферритин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "солянокислый гематин",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "порфирин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "меланин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "билирубин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Аддисонова болезнь характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "подпеченочной желтухой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ожирением",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альбинизмом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гипермеланозом",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гипергликемией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "Одновременное отсутствием меланина в коже, радужке и волосяных луковицах характеризует?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "болезнь Аддисона",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лейкодерму",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "альбинизм",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "болезнь Иценко-Кушенко",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ихтиоз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Синтез меланина стимулируют?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мелатонин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "АКТГ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "медиаторы парасимпатической нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "половые гормоны",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аскорбиновая кислота",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Развитие подагры связано с выпадением в суставах?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемосидерина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "меланина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "порфиринов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фосфата кальция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "мочекислого натрия",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Желчные камни состоят?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "из мочевой кислоты и ее солей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "из оксалата кальция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "из холестерина",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "из фосфата кальция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "из цистина",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Фосфатные камни имеют цвет?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белый",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "желтый",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "темно-коричневый",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зеленый",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "синий",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Для гематоидина характерны все нижеперечисленные признаки, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "содержит железо",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кристаллический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "желтый",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образуется через 7 дней",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "В желчном пузыре по химическому составу образуются камни?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "холестериново-пигментные",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ураты",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "оксалаты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фосфаты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Мертвый плод при внематочной беременности, подвергшийся петрификации, называется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "флеболит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "копролит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "литопедион",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фосфатом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "оксалатом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Стенка кисты после геморрагического инфаркта головного мозга бывает:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "\"ржавого\" вида",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "прокрашена в синеватый цвет",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "цвета неповрежденного мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "зеленоватого",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ярко-красного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Казеозный некроз встречается ?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при дифтерии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при газовой гангрене",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при туберкулезе",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "при инфарктах мозга",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при инфарктах почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Трупное окоченение сильно выражено у умерших?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "от столбняка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "стариков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "детей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "от сепсиса",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "от скарлатины",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Характеристика трупных изменений гипостазов?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "возникновение через 3-6 часов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "красно-розового цвета",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "серого цвета",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "не исчезают при надавливании",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "не зависят от положения трупа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Непосредственной причиной инфаркта является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "артериальная гиперемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диапедез эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "тромбоз сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "\"разъедание\" стенки сосудов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Инфаркт – это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "прямой некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ишемический некроз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "травматический некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "токсический некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аллергический некроз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Для мумификации при некрозе характерно?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "расплавление тканей",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уплотнение и высыхание тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "образование кисты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "образование опухолей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование камней",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Развитию сосудистого некроза (инфаркта) миокарда способствуют?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "полный покой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "расширение просвета сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "недостаточность коллатералей",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "избыток коллатералей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "очаговый фибринозный перикардит",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Виды некроза по причинам?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "секвестр",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гангрена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "травматический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "геморрагический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "функциональный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Неблагоприятными исходами некроза являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "организация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "инкапсуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гнойное расплавление",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "петрификация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "образование кисты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Гангрена - это некроз тканей?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "не соприкасающихся с внешней средой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "соприкасающихся с внешней средой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "только нижней конечности",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "печени",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "селезенки",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Стаз - это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "замедление оттока крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "уменьшение оттока крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "остановка кровотока",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "свертывание крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемолиз эритроцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "При хроническом венозном полнокровии органы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшены в размерах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "имеют дряблую конститенцию",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "имеют плотную констистенцию",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "глинистого вида",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ослизнены",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "развитию ишемического инфаркта?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тромбоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эктазия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиалиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "микроаневризма",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "При атеросклерозе преимущественно поражаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "вены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "капилляры",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "артериолы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "крупные и средние артерии",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Факторами риска заболевания атеросклерозом не являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "анемия",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "курение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипертензия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиперлипидемия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стрессы и конфликты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Главное локальное (местное) выражение атеросклероза?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бляшка",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиалиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атрофия стенки",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "аневризма стенки сосуда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "В исходе инфаркта миокарда формируется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "киста",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "глиальный рубчик",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "соединительная ткань",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "амилоидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемосидероз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 89,
+				"text": "Гранулема - это узелок, состоящий из:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "моноцитов и макрофагов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "эозинофилов и лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эритроцитов и плазмоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибробластов и эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нейтрофилов и фибробластов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 90,
+				"text": "Благоприятные исходы гранулематозного воспаления:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "склероз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ослизнение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "канализация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "васкуляризация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гнойное расплавление",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 91,
+				"text": "Инфаркт неправильной формы развивается в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сердце",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "почках",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "легких",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "селезенке",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 92,
+				"text": "Компоненты пульмонокоронарного рефлекса включают спазмы:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "легочных вен",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сонных артерий",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бронхиального дерева",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ветвей печеночной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сосудов мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 93,
+				"text": "Жировая эмболия развивается при:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "переломах длинных трубчатых костей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "жировой дистрофии миокарда и печени",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стеатозе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атеросклерозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гипертонической болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 94,
+				"text": "Наиболее частая причина ишемического и гипоксического повреждения?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вазодилатация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "закупорка вены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окклюзия артерии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "развитие коллатералей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "падение артериального давления",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 95,
+				"text": "Отеком называют:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличение объема крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличение объема лимфы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "накопление интерстициальной жидкости",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "накопление жидкости в брюшной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "накопление жидкости между оболочками яичка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 96,
+				"text": "Отечная жидкость в сердечной сорочке называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "асцит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анасарка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гидроцеле",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гидроторакс",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гидроперикард",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 97,
+				"text": "Метафорически печень при хроническом застое называется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "”грецкой”",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "”саговой”",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "”сальной”",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "”мускатной”",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "”милиарной”",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 98,
+				"text": "Маточное кровотечение:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гематома",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "геморрагия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "эпистаксис",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "метроррагия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "гематометра",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 99,
+				"text": "При хроническом венозном полнокровии в строме органов развивается",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "склероз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гипертрофия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амилоидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "дистрофия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 100,
+				"text": "Механизмы кровотечения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "диатез",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "аррозия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коррозия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "геморрагия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "плазморрагия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 101,
+				"text": "Разрыву стенки сосуда способствует:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некроз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "склероз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиалиноз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "амилоидоз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гемосидероз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 102,
+				"text": "Виды кровоизлияний:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "эксикоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "экхимоз",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гепатома",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "эпистаксис",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "метроррагия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 103,
+				"text": "В гематоме образуются пигменты:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гемин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемоглобин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гемомеланин",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гемосидерин",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "меланин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 104,
+				"text": "Хронический венозный застой в почках ведет к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бурой атрофии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемохроматозу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бурой индурации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цианотической индурации",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 105,
+				"text": "Хронический венозный застой в легких ведет к:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бурой атрофии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гемохроматозу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "бурой индурации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "цианотической индурации",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 106,
+				"text": "Митральный стеноз вызывает венозный застой преимущественно в системе кровообращения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "малого круга",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воротной вены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "большого круга",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 107,
+				"text": "Хронический венозный застой в печени может закончиться:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "циррозом",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "циррозом и амилоидозом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "циррозом, амилоидозом и гемохроматозом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Тромбоз рассматривается как коагуляция:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только посмертная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только прижизненная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "прижизненная и посмертная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 109,
+				"text": "Белые тромбы образуются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "венах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "артериях",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полости аневризмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сосудах микроциркуляторного русла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 110,
+				"text": "Красные тромбы образуются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "венах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "артериях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полости аневризмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сосудах микроциркуляторного русла",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 111,
+				"text": "Гиалиновые тромбы образуются в:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "венах",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "артериях",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "полости аневризмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сосудах микроциркуляторного русла",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 112,
+				"text": "К восстановлению проходимости тромбированного сосуда приводит:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "организация",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "канализация",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "петрификация",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "флебит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "агрегация эритроцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 113,
+				"text": "Ретроградная эмболия - это перемещение эмболов:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "по току крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "против тока крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "через дефекты в перегородках сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "В основе процесса метастазирования опухоли лежит эмболия:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "жировая",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клеточная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "микробная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериальная",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тромбоэмболия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "При ТЭЛА чаще происходит закупорка:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "бифуркации легочного ствола",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "средних и мелких ветвей легочной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "коронарных артерий",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "воротной вены",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "артерий почек",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 116,
+				"text": "В легких развивается инфаркт:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "белый",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "красный",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "бурый",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смешанный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "черный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 117,
+				"text": "Общее венозное полнокровие развивается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при сдавлении верхней полой вены",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при тромбозе воротной вены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при сдавлении опухолью почечной вены",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при пороке сердца",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 118,
+				"text": "\"Мускатную\" гиперемию печени могут вызвать все нижеперечисленные факторы, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаточности трехстворчатого клапана",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "стеноза митрального отверстия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "портального застоя",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипертензии малого круга кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "острая сердечная недостаточность",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 119,
+				"text": "При \"мускатной\" гиперемии в печени развиваются:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперемия центральных вен",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперемия ветвей портальной вены",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атрофия печеночных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гиперемия артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "правильно все",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 120,
+				"text": "Основной причиной венозного полнокровия является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "уменьшение притока крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "затруднение оттока крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "усиление притока крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "увеличение оттока крови",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "остановка кровотока",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 121,
+				"text": "Венозное полнокровие может быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "коллатеральное",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "воспалительное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "общее",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 122,
+				"text": "Вакатная гиперемия сочетается с эмболией?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "газовой",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "жировой",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "воздушной",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "бактериальной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тканевой",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 123,
+				"text": "Проявления и последствия острой венозной гиперемии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "атрофия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отек",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "склероз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "анемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 124,
+				"text": "Признаки кровотечения-это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "выход крови за пределы кровеносного сосуда или сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "скопление крови в органе или ткани за пределами сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "некроз ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "секвестр",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эмболия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 125,
+				"text": "Гемоптоэ - это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "носовое кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "плоскостное кровоизлияние",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "маточное кровотечение",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "кровохарканье",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "выделение крови с калом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 126,
+				"text": "Транссудат - это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разновидность экссудата",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отечная жидкость",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "ликвор",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "лимфа",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фибрин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 127,
+				"text": "К остановке кровотечения приводит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "миграция лейкоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "диапедез эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "свертывание крови",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клеточная инфильтрация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 128,
+				"text": "Тромбообразование включает все нижеперечисленное, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "агглютинации эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эмиграции лейкоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "преципитации белков плазмы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коагуляции фибриногена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "агглютинации тромбоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 129,
+				"text": "Признаками шока могут являться:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование микротромбов в паренхиматозных органах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "запустевание крупных сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "полнокровие крупных сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 130,
+				"text": "Травматическое размозжение подкожной клетчатки приводит?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "к инфаркту",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "к тромбозу",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "к жировой эмболии",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "к воздушной эмболии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "Причиной внезапной смерти при тромбоэмболии является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "недостаточность коллатерального кровотока",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "застой крови в большом круге кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "снижение минутного выброса левого желудочка",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пульмоно-коронарный рефлекс",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 132,
+				"text": "При жировой эмболии имеет наибольшее значение закупорка капилляров?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "почек",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "печени и селезенки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "легких и головного мозга",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "костного мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 133,
+				"text": "Возможным источником тромбоэмболии легочной артерии могут явиться:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "вены клетчатки малого таза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "портальная вена",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нижняя полая вена",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "вены селезенки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "вены брыжейки желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 134,
+				"text": "Тромбы в зависимости от их состава делятся на:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "красный",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "белый",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сердечные",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артериальные",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "венозные",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 135,
+				"text": "Процесс тромбообразования включает:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазморрагию",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "преципитацию белков плазмы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коагуляцию фибриногена с превращением его в фибрин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "лейкодиапедез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "эритродиапедез",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 136,
+				"text": "Возможны следующие исходы тромбоза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "организация",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "секвестрация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "канализация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ничего из перечисленного",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 137,
+				"text": "Тромбоэмболия бедренной артерии возникает при тромбозе?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в области аневризмы левого желудочка сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "верхней брыжеечной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "почечной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "артерии селезенки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "артерии желудка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 138,
+				"text": "При ретроградной эмболии эмбол попадает через нижнюю полую вену?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в воротную вену",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в бедренную вену",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "в полость правого предсердия",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "в левый желудочек сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в почечную вену",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 139,
+				"text": "Парадоксальная эмболия встречается при врожденном дефекте?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "только межжелудочковой перегородки",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "только межпредсердной перегородки",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "как той, так и другой перегородки",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "легочной артерии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "аорты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 140,
+				"text": "Метастазирование злокачественных опухолей осуществляется благодаря эмболии?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микробной",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тканевой",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "жировой",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инородными телами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воздушной",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 141,
+				"text": "Воздушная эмболия не возникает?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при повреждении склерозированного легкого",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при быстрой декомпрессии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при ранении вен шеи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при операции на открытом сердце",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при зиянии вен внутренней поверхности матки после родов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 142,
+				"text": "Указать виды шока в зависимости от этиологии и патогенеза:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "септический",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гиперемический",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "токсический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипоксический",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперволемический",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 143,
+				"text": "\"Шоковая почка\" характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиалиново-капельной дистрофией эпителия канальцев",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гиалинозом клубочков",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "некрозом канальцевого эпителия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гидропической дистрофией эпителия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "серозным гломерулонефритом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 144,
+				"text": "Запрограммированная смерть клетки, которая встречается в норме в органах плода, называется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "апоптоз",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аутолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гетеролиз",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гетерофагия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фибриноидный некроз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 145,
+				"text": "Разновидности гангрены?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "сухая",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "черная",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "жировая",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тканевая",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "воздушная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 146,
+				"text": "При инфаркте миокарда воспалительный инфильтрат определяется в зоне?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "демаркации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "сохранной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "интрамурально",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "на поверхности",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 147,
+				"text": "Воспаление - это?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гипертрофия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "комплексная местная сосудисто-мезенхимальная реакция",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "вал нарушения кровообращения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "малокровие",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "регенерация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 148,
+				"text": "Фазами воспаления являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "альтерация, экссудация и фагоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фагоцитоз, экссудация и пролиферация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пролиферация, экссудация и альтерация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "регенерация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "стаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 149,
+				"text": "Виды фибринозного воспаления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "катаральное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "флегмонозное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "дифтеритическое",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гранулематозное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 150,
+				"text": "Гнойное воспаление плевральной полости?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "абсцесс",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "эмпиема",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "флегмона",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "апостема",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "фурункул",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 151,
+				"text": "Локализация катарального воспаления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "почка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "печень",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "серозные оболочки",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слизистые оболочки",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 152,
+				"text": "Тканевая реакция при гранулематозном воспалении?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экссудативная",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пролиферативная",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "альтеративная",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "тромбогенная",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 153,
+				"text": "Виды продуктивного воспаления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "межуточное (интерстициальное)",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "альтеративное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "серозное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гнойное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "катаральное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 154,
+				"text": "Микроскопически межуточный миокардит характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "воспалительным инфильтратом в строме миокарда",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "аневризмой сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "диффузным мелкоочаговым кардиосклерозом",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гигантоклеточными гранулемами",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиалинозом стромы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 155,
+				"text": "Микроскопически туберкулезная гранулема характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нейтрофилами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствием сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "множеством мелких сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фибриноидным некрозом в центре",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 156,
+				"text": "По сравнению с туберкулезной гранулемой размеры гуммы?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "больше",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "меньше",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "одинаковы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 157,
+				"text": "Топонимическое название макрофагов в лепроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тельца Русселя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клетки Вирхова",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "клетки Микулича",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Топонимическое название макрофагов в риносклеромной гранулеме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "тельца Русселя",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "клетки Вирхова",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "клетки Микулича",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "клетки Пирогова",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Березовского-Штернберга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 159,
+				"text": "Виды хронического продуктивного воспаления?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "хроническое гнойное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хроническое катаральное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хроническое серозное",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "межуточное (интерстициальное)",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "фибринозное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 160,
+				"text": "Острый абсцесс характеризуется гнойным воспалением?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "разлитым",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "очаговым",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "диффузным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "склерозированным",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отечным",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 161,
+				"text": "Эмпиема может развиться в полостях?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "желудка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сердца",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "желчного пузыря и плевральной полости",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 162,
+				"text": "При сибирской язве, чуме и гриппе возникает воспаление?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серозное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "геморрагическое",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фибринозное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "катаральное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 163,
+				"text": "Абсцесс хронический характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отсутствием натечников",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "отсутствием интоксикации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инкапсуляцией гнойника",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "отсутствием склероза вокруг гнойника",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ожирением",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 164,
+				"text": "К экссудативному воспалению не относят?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серозное",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойное",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "межуточное пролиферативное",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фибринозное",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гнилостное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 165,
+				"text": "Исходом серозного воспаления является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "рассасывание экссудата",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "цирроз органов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "обызвествление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "ослизнение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 166,
+				"text": "К экссудативному воспалению относятся все нижеперечисленные виды, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "серозного",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "фибринозного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гранулематозного",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гнилостного",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "катарального",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Экссудативное воспаление может быть:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "межуточным",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "геморрагическим",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гранулематозным",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "специфическим",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гнилостным",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 168,
+				"text": "Крупозное воспаление локализуется на?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "слизистых оболочках, покрытых призматическим эпителием",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "слизистых оболочках, покрытых многослойным плоским эпителием",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "роговой оболочке глаза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "коже",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "слизистых оболочках, покрытых переходным эпителием",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 169,
+				"text": "являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "плазматические",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "тучные",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "лимфоциты",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "полинуклеарные лейкоциты",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "эритроциты",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 170,
+				"text": "Гранулематозное воспаление не встречается?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при лепре",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при туберкулезе",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "при сифилисе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при саркоидозе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при скарлатине",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 171,
+				"text": "Гранулемы формируются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "из эпителиодных клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "из лимфоцитов и плазмоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "из макрофагов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "из всех перечисленных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "указанные клетки не содержатся в гранулеме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "К видам хронического катара относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гнойно-геморрагический",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "серозный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "атрофический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гипертрофический",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "слизистый",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 173,
+				"text": "Продуктивное воспаление характеризуется преобладанием?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "экссудации",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "пролиферации",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "альтерации",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "отека",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 174,
+				"text": "Клетки Пирогова - Лангханса чаще всего и очень часто встречаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в лепрозной гранулеме",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в гумме",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в туберкулезной гранулеме",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в склероме",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в сапной гранулеме",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 175,
+				"text": "Остроконечные кондиломы встречаются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "при брюшном тифе и сифилисе",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "при сифилисе и гонорее",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "при гонорее и брюшном тифе",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "при холецистите",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "при бронхите",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 176,
+				"text": "Пролиферацию характеризуют все нижеперечисленные признаки, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "лейкодиапедеза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "размножения клеток соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "наличия соединительной ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "наличия гигантских клеток",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "наличия плазмоцитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 177,
+				"text": "Продуктивное воспаление могут вызвать все нижеперечисленные факторы, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "микробов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипоксии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "химических факторов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "животных паразитов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 178,
+				"text": "К продуктивному воспалению относятся все нижеперечисленные формы, кроме?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "межуточного",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гранулематозного",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фибринозного",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "с образованием кондилом",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "с образованием полипов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 179,
+				"text": "Гранулемы являются проявлением следующей реакции?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "гиперергической",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "анергической",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гиперчувствительности немедленного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гиперчувствительности замедленного типа",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "нормергической",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 180,
+				"text": "Гранулематозное воспаление может возникнуть при острой инфекции?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кори",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "брюшном тифе",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "дизентерии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "сальмонеллезе",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "полиомиелите",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 181,
+				"text": "К пролиферации относятся следующие изменения:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "размножение клеток соединительной ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "лейкодиапедез",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "появление гигантских клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 182,
+				"text": "Туберкулезную гранулему характеризуют следующие признаки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "преобладание эпителиоидных клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие казеозного некроза",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 183,
+				"text": "Для сифилитической гуммы характерно?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "наличие сосудов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "преобладание плазматических клеток",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "наличие казеозного некроза",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 184,
+				"text": "Возбудителем риносклеромы является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "риккетсии",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "сальмонеллы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "палочка Коха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "палочка Волковича-Фриша",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "стафилококк",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 185,
+				"text": "Преимущественной локализацией изменений при риносклероме является?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "нижние дыхательные пути",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "конъюктива",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нос",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 186,
+				"text": "Макроскопическими изменениями в тканях при риносклероме в разгар заболевания являются?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "кровоизлияния",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "узлы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "некрозы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все перечисленное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 187,
+				"text": "К видам врожденной патологии тимуса относятся?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "склероз",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "акцидентальная инволюция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "аплазия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "атрофия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гиперплазия с лимфоидными фолликулами",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 188,
+				"text": "Акцидентальная инволюция тимуса не характеризуется?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "апоптозом Т-лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "увеличением массы и объема железы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "снижением продукции химических гормонов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "иммунодефицитом лимфоцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "уменьшением объема железы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 189,
+				"text": "При тимомегалии масса и объем паренхимы тимуса:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "увеличиваются",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "не изменяются",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "уменьшаются",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "атрофируется",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "склерозируется",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 190,
+				"text": "Антигенная стимуляция не характеризуется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "макрофагальной реакцией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гипоплазией лимфоцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "гиперплазией лимфоцитов и их плазмоцитарной трансформацией",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "повышением проницаемости микрососудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "тканевым диспротеинозом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 191,
+				"text": "Для реакций гиперчувствительности немедленного типа (ГНТ) характерен экссудат?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "фибринозный и гнойный",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "гнойный",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "фибринозно-геморрагический",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "серозный",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "гнилостный",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 192,
+				"text": "К реакциям ГНТ относят:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "феномен Артюса",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "гранулематоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "трансплантационный иммунитет",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "контактный дерматит",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "атеросклероз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 193,
+				"text": "Проявления трансплантационного иммунитета подобны реакциям:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ГНТ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "феномен Артюса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "ГЗТ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "ревматизм",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "системная красная волчанка",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 194,
+				"text": "Причинами аутоиммунизации могут служить:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "радиация и генетические нарушения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "хронические вирусные инфекции",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "хронические вирусные инфекции, генетические нарушения и радиация",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "бактериальная инфекция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "протозойные инфекции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 195,
+				"text": "Органоспецифическими аутоиммуными болезнями являются:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "системная красная волчанка",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "дерматомиозит",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "болезнь Хасимото",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "синдром Шегрена",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "сахарный диабет 1 типа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 196,
+				"text": "В-популяцию лимфоцитов характеризуют следующие признаки?",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез иммуноглобулинов",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "участие в реакциях гиперчувствительности немедленного типа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "участие в реакциях гиперчувствительности замедленного типа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 197,
+				"text": "Т-популяцию лимфоцитов характеризуют следующие признаки:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтез иммуноглобулинов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "участие в реакциях гиперчувствительности замедленного типа",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "цитолиз клеток мишеней",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "нет правильного ответа",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 198,
+				"text": "Реактивные изменения в лимфоузлах характеризуются всем нижеперечисленным, кроме:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "активности макрофагов синусов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "воспалительной реакции",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "паракортикальный гиперплазии",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "фолликулярной гиперплазии",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 199,
+				"text": "В-лимфоцит в очаге пролиферации трансформируется:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "в гистиоцит",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "в макрофаг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "в плазмоцит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "в эпителиоидную клетку",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "в гигантскую клетку",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}

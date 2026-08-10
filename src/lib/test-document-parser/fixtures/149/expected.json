@@ -1,0 +1,2676 @@
+{
+	"status": "ACCEPTED",
+	"document": {
+		"questions": [
+			{
+				"index": 1,
+				"text": "Что такое дегидратация - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение общего содержания воды в организме.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Уменьшение общего содержания воды в организме",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Отсутствие изменений.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Уменьшение воды в сосудистом секторе.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 2,
+				"text": "Что такое гипотоническая дегидратация - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Обезвоживание, когда потеря электролитов превышает потерю воды",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Потеря воды с малым количеством электролитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Равномерное снижение количества воды и электролитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Уменьшение воды в экстрацеллюлярном русле.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Уменьшение воды в клеточном секторе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 3,
+				"text": "Что такое гипертоническая Дегидратация - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дегидратация с преимущественной потерей электролитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дегидратация с преимущественной потерей воды.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Равномерное снижение количества воды и электролитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Уменьшение воды в экстрацеллюлярном русле.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Уменьшение воды в клеточном секторе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 4,
+				"text": "Что такое изотоническая дегидратация - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дегидратация с преимущественной потерей электролитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дегидратация с преимущественной потерей воды.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Равномерное снижение количества воды и электролитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Уменьшение воды в экстрацеллюлярном русле.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Уменьшение воды в клеточном секторе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 5,
+				"text": "Какие изменения возникают в организме со стороны ССС при обезвоживании - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение минутного объема сердца.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Увеличение ОЦК",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Уменьшение артериального давления",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Повышение артериального давления.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Увеличение ЧСС.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 6,
+				"text": "Какие изменения со стороны крови происходят при обезвоживании –:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Сгущение крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Понижение свертывающей способности крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Разжижение крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гипокоагуляция.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Ускорение кровотока.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 7,
+				"text": "Укажите начальное звено патогенеза отеков при сердечной недостаточности - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышение содержания АДГ в крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повышение секреции ренина в ЮГА почек.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Повышение проницаемости сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снижение минутного объема сердца",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Повышение реабсорбции Na и Н2О в почечных канальцах.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 8,
+				"text": "Какой фактор является ведущим в развитии аллергических отеков - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Мембраногенный.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Онкотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Осмотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Смешанный.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гемодинамический.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 9,
+				"text": "Какой фактор является ведущим в механизме развития кахектических отеков - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Мембраногенный.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Онкотический.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Осмотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гемодинамический.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Смешанный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 10,
+				"text": "Какой фактор является инициальным в механизме развития сердечного отека - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Мембраногенный.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Онкотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Осмотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гемодинамический.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Смешанный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 11,
+				"text": "Какой фактор является основным в развитии нефритических отеков - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Онкотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Осмотический.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Мембраногенный.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гидростатический.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Смешанный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 12,
+				"text": "Какой фактор является основным в развитии нефротических отеков –:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Онкотический.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Мембраногенный.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Смешанный.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Осмотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гидростатический.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 13,
+				"text": "Какой фактор является основным в механизме развития застойных отеков - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Онкотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Мембраногенный.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Осмотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гидростатический.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Смешанный.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 14,
+				"text": "Какой фактор является основным в механизме развития отеков при циррозе печени - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Онкотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Мембраногенный.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Осмотический.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Смешанный.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Гидростатический.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 15,
+				"text": "Какие отеки по патогенезу развиваются при белковом голодании – :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Осмотические.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Онкотические.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Застойные.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Мембраногенные.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Смешанные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 16,
+				"text": "Какие отеки по патогенезу развиваются при сердечной недостаточности-:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Осмотические.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Онкотические.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мембраногенные.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Застойные.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Смешанные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 17,
+				"text": "Какие отеки по патогенезу развиваются при гломерулонефрите - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Онкотические.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Осмотические.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Мембраногенные.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Смешанные.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Застойные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 18,
+				"text": "Какие отеки по патогенезу развивается при аллергических реакциях - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Онкотические.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Осмотические.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Мембраногенные.",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Застойные.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Смешанные.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 19,
+				"text": "Укажите начальное звено в механизме развития нефротического отека-:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение секреции альдостерона .",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Увеличение реабсторбции Na и воды в канальцах почек",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гиповолемия.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Протеинурия.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Гипопротеинемия.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 20,
+				"text": "Последствия гипогидрии для организма – :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гиперволемия.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гиповолемия",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Понижение активности свертывающей системы.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Увеличение скорости кровотока.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Повышение минутного объема сердца.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 21,
+				"text": "Дайте характеристику отека - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Скопление жидкости в серозных полостях.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Избыточное накопление жидкости в межклеточных пространствах.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Скопление жидкости в брюшной полости.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Скопление жидкости в плевральной полости",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 22,
+				"text": "Приведите примеры осмотических отеков - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Отеки при нефрозах.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Воспалительные.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "При циррозах печени.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Сердечные.",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Аллергические.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 23,
+				"text": "Приведите примеры онкотических отеков – :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Сердечные.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Аллергические.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Воспалительные.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "При голодании",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "При циррозах печени",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 24,
+				"text": "Приведите примеры мембраногенных отеков – :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "При циррозе печени.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "При аллергических реакциях",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Сердечные.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "При нефритах",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "При нефрозах.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 25,
+				"text": "Эксикоз возникает, если - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Потеря воды не превышает поступление ее в организм",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Поступление воды в организм намного превышает ее потерю.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Потеря воды намного превышает ее поступление",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "При развитии положительного водного баланса.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 26,
+				"text": "Интерстициальная жидкость- это - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Жидкость внутриклеточного пространства",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Жидкость внеклеточного пространства",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Вода плазмы крови.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 27,
+				"text": "Камерная влага глаз относится - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "К интерстициальной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "К внутриклеточной жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К жидкости внесосудистых пространств.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "К трансцеллюлярной жидкости",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 28,
+				"text": "Спинномозговая жидкость относится - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "К интерстициальной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "К внутриклеточной жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К жидкости внесосудистых пространств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "К трансцеллюлярной жидкости",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 29,
+				"text": "Суставная жидкость относится - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "К интерстициальной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "К внутриклеточной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К жидкости внесосудистых пространств",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "К трансцеллюлярной жидкости",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 30,
+				"text": "Пищеварительные соки относятся -:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "К интерстициальной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "К внутриклеточной жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К жидкости внесосудистых пространств.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "К трансцеллюлярной жидкости",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 31,
+				"text": "Жидкость почечных канальцев относится - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "К интерстициальной жидкости.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "К внутриклеточной жидкости",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "К жидкости внесосудистых пространств.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "К трансцеллюлярной жидкости.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 32,
+				"text": "Раздражение каких рецепторов сосудов ведет к гиперсекреции альдостерона - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Хеморецепторов.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Осморецепторов.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Адренорецепторов.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Волюморецепторов.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 33,
+				"text": "Что собой представляет изоосмолярная Дегидратация - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дегидратация с преимущественной потерей электролитов.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дегидратация с преимущественной потерей воды.",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Снижение воды в экстрацеллюлярном русле.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снижение воды в клеточном секторе.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Равномерное снижение Н2О и Электролитов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 34,
+				"text": "Что собой представляет гиперосмолярная дегидратация - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дегидратация с преимущественной потерей электролитов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Дегидратация с преимущественной потерей воды.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Равномерное снижение Н2О и электролитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снижение воды в экстрацеллюлярном русле",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Снижение воды в ключевом секторе.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 35,
+				"text": "Что собой представляет гипоосмолярная Дегидратация - :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Дегидратация с преимущественной потерей электролитов.",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Дегидратация с преимущественной потерей воды",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Равномерное снижение Н2О и электролитов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снижение воды в экстрацеллюлярном русле.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Снижение воды в клеточном секторе",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 36,
+				"text": "Укажите проявления синдрома общей дегидратации – :",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение АД.",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Увеличение вязкости крови",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Уменьшение вязкости крови.",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Увеличение суточного диуреза.",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Снижение активности свертывающей системы крови.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 37,
+				"text": "Какие изменения возникают на месте контакта с электродом:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ожоги",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Расслоение ткани",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "все верно",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Явление электролиза",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Отрыв тканей или органов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 38,
+				"text": "Почему при электротравме не ощущается боль:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Парабиотические изменения в рецепторах",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Парезы, параличи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Деструкция нейронов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Дегенеративные изменения в тканях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гиперстезия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 39,
+				"text": "Какие токи используются с лечебной целью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Токи высокой частоты",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Низкочастотные токи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Переменный ток при напряжении до 100 вольт",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Постоянный ток при напряжении до 100 вольт",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 40,
+				"text": "Какими болезнетворными свойствами обладает электрический ток:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Оказывает умеренное тепловое действие",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Электротермическим эффектом",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Биологическим действием",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снижает обмен веществ в тканях",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Повышает обмен веществ в тканях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 41,
+				"text": "В чем заключается механизм электротермического действия электрического тока:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышается контактное сопротивление",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Нагревательный эффект",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Образованием Джоулевого тепла",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Вращением биополей в вязкой среде",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 42,
+				"text": "Каков механизм электромеханического действия тока:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Расслаивается ткань вследствие перехода электрической энергии в механическую",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Действие паров и газов на ткани, вызывая их разрыв",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Перехода электрической энергии в тепловую",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Перемещением ионов к аноду и катоду",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "При каких условиях человек сталкивается с пониженным барометрическим давлением:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "При подъеме на высоту",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "В шахтах",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "В тесном помещении",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "При водолазных работах",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 44,
+				"text": "Какие компенсаторные механизмы возникают в первой стадии горной болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Усиление эритропоэза",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Брадикардия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Тахикардия",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Брадипное",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 45,
+				"text": "Почему возникает угнетение и состояние сонливости при горной болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Перераспределение крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повышение СО2 в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Уменьшение О2 в крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Запредельное торможение в ЦНС из-за перераздражения кислыми продуктами",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 46,
+				"text": "Почему возникает эритроцитоз и увеличение Hb в первый период горной болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Перераспределение крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Усиливается эритропоэз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "За счет сгущения крови",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Мобилизация крови из депо",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 47,
+				"text": "Какие приспособительные явления возникают в позднем периоде горной болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Усиление эритропоэза",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Запредельное торможение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Возбуждение ЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Выброс крови из депо",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 48,
+				"text": "Каков механизм эритроцитоза в поздние сроки горной болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гиперкапния рефлекторно стимулирует образование Эр в костном мозге",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гипоксемия рефлекторно возбуждает костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гипоксемия непосредственно возбуждает костный мозг",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Эритропоэтины стимулируют костный мозг",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 49,
+				"text": "Объясните причину цианоза при горной болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Образованием карбгемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Образованием метгемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Образованием оксигемоглобина",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Повышенным содержанием восстановленного гемоглобина",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 50,
+				"text": "Какие виды излучения обладают проникающей способностью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Альфа лучи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Бета лучи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гамма лучи",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Инфракрасные лучи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 51,
+				"text": "Какие виды излучения обладают ионизирующей способностью:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Альфа лучи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Нейтроны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Позитроны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гамма лучи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Инфракрасные лучи",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 52,
+				"text": "При каком излучении плотность ионизации наименьшая:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гамма лучей",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Фотонов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Инфракрасных лучей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Бета лучей",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Альфа лучей",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 53,
+				"text": "Какие ткани наиболее чувствительны к действию ионизирующего излучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Хрящи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Нервная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Покровный эпителий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Лимфоидная ткань",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 54,
+				"text": "Какая ткань наиболее чувствительна к действию ионизирующего излучения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Хрящи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Мышцы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Нервная ткань",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Покровный эпителий",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Кроветворная ткань",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 55,
+				"text": "Почему возникает при лучевой болезни геморрагический синдром:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Способность тромбоцитов к адгезии снижается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Тромбоцитопения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Способность тромбоцитов к склеиванию снижается",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Снижается активность фибринолиза",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 56,
+				"text": "Какой первый клинический период наблюдается при острой костномозговой форме лучевой болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "\"Период мнимого благополучия\"",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "\"Период рентгеновского похмелья\"",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Период разгара болезни",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 57,
+				"text": "Какова продолжительность первого периода острой лучевой болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "4-5 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "1-2 дня",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Больше недели",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "10-15 дней",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Несколько недель",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 58,
+				"text": "Какие изменения в крови возникают в первый период острой лучевой болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Лейкопения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Нейтропения",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Лимфоцитопения",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Тромбоцитопения",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Эритропения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 59,
+				"text": "Какие характерные изменения возникают в ЖКТ в первом периоде острой лучевой болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Понижение моторики кишечника",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Увеличение секреции желудочного сока",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Повышение перистальтики кишечника",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Десквамация кишечного эпителия",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Развитие колита",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 60,
+				"text": "Какие ионизирующие излучения относятся к электромагнитным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Альфа лучи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Бета лучи",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Протоны",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Гамма лучи",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 61,
+				"text": "Какие ионизирующие излучения относятся к корпускулярным:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гамма лучи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Альфа лучи",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Рентгеновские лучи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Инфракрасные лучи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 62,
+				"text": "Ожоги кожи вызывают:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гамма-излучения",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Нейтроны",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Рентгеновское излучение",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Альфа излучения",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 63,
+				"text": "В развитии точечных наружных кровоизлияний преимущественное значение имеет:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Тромбоцитопатия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Тромбоцитоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Активизация гиалуронидазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Тромбоцитопения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 64,
+				"text": "Почему нервные клетки при прямом облучении гибнут в последнюю очередь:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Так как обладают интенсивным обменом",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Так как не обладают способностью к делению",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Так как являются высокодифференцированными образованиями",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Так как нарушается биоэлектрическая активность головного мозга",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 65,
+				"text": "Стресс-реакция при выраженном перегревании сопровождается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Пониженным выбросом тиреолиберина",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Увеличением тиреолиберина",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Увеличением катехоламинов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Уменьшением глюкокортикоидов",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 66,
+				"text": "Какой признак является важным для нарастающей гипотермии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Прекращается мышечная дрожь",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Расширяются периферические кровеносные сосуды и прекращается мышечная дрожь",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Сухость кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Возникает спазм сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 67,
+				"text": "Интоксикация организма при тепловом ударе сопровождается:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Понижением проницаемости стенок микрососудов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Относительным эритроцитозом",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гемолизом эритроцитов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Гипокоагуляцией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Абсолютным эритроцитозом",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 68,
+				"text": "Какие сосудистые изменения возникают при солнечном ударе в головном мозге?",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Понижение внутричерепного давления",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гиперемия и точечные кровоизлияния в мозговой ткани",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Обширное кровоизлияние",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Нарушение оттока крови по венам",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Развитие гематомы",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 69,
+				"text": "Причина эритроцитоза при ожогах:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Олигоцитемическая гиперволемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гиперкоагуляция",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гипокапния",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Сгущение крови",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 70,
+				"text": "Реакция сосудов на действие холода в первой стадии гипотермии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Замедление тока крови",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Расширение сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Спазм",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Агрегация эритроцитов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Стаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 71,
+				"text": "Механизм усиления теплопродукции при охлаждении:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Спазм сосудов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Усиление мышечной дрожи, обмена веществ",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Повышение АД",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Усиление функции эндокринных желез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Усиление потребления кислорода",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Признаки второй степени отморожения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Появление пузырей и развитие воспаления",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Венозная гиперемия",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Феномен сладжа",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Некроз",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гиперемия",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 73,
+				"text": "Признаки третьей степени отморожения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гиперемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Некроз тканей",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Появление пузырей",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Плазмопотеря",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Стаз",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 74,
+				"text": "Назовите первую фазу в течении ожоговой болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Ожоговая токсемия",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Ожоговое истощение",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Ожоговый шок",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Выпадение функции кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Аутоинтоксикация",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 75,
+				"text": "Каковы последствия хронических отморожений:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Развивается острое воспаление кожи",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Потеря чувствительности",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Развивается хроническое воспаление",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Появление гиперемии",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 76,
+				"text": "Причина быстрого охлаждения детей грудного возраста:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Недостаточное развитие ЦНС",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Недостаточное развитие барьерных систем",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Несовершенная функция химической терморегуляции",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Несовершенная функция терморегуляции",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "Несовершенная функция физической терморегуляции",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 77,
+				"text": "Назовите первый период развития переохлаждения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Кислородное голодание",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Угнетение функции щитовидной железы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Повышение тонуса парасимпатической системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Компенсации",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 78,
+				"text": "Как изменяется обмен веществ в первую стадию гипотермии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличивается в крови холестерин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Уменьшается липолиз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Увеличивается содержание глюкозы в крови",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Активируется водно-солевой обмен",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 79,
+				"text": "Как изменяется дыхание в первом периоде гипотермии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Наблюдается брадипноэ",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Возникает одышка",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Учащается дыхание с преимущественным нарушением выдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Учащается дыхание с преимущественным нарушением вдоха",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 80,
+				"text": "Как изменяется АД в первый период гипотермии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Понижается",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Повышается",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Не изменяется",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Незначительно повышается",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Незначительно понижается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 81,
+				"text": "Какова основная причина расширения сосудов во втором периоде гипотермии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Повышение тонуса вазомоторного центра",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Активация симпатической системы",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Активация парасимпатической вегетативной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Парез или паралич вазоконстрикторов",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 82,
+				"text": "Как изменяется состояние ЦНС во втором периоде охлаждения:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Преобладают процессы торможения",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Развивается парабиоз",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Преобладают процессы возбуждения",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Развивается доминанта по Ухтомскому",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 83,
+				"text": "Назовите ведущий механизм в патогенезе ожоговой болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Нарушение функции кожи",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Интоксикация",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Нарушение нервной системы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Аутоинтоксикация",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "все верно",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 84,
+				"text": "Чем объясняется нарушение сократительной способности миокарда при ожоговой болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Гипокалиемией",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Гипернатриемией",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Гиперкалиемией",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Гипокальциемией",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Гиперхолестеринемией",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 85,
+				"text": "Какая функция сердца страдает при гиперкалиемии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Возбудимость",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Автоматизм",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "Проводимость",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Сократимость",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 86,
+				"text": "Как изменяется проницаемость кишечной стенки при ожоговой болезни:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Практически не меняется",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Изменяется незначительно",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Резко повышается",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Резко понижается",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Незначительно понижается",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 87,
+				"text": "Как изменяется ритм сердца во второй стадии гипотермии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "70-80 в 1 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "60-70 в 1 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Не более 40 в 1 мин",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "50-80 в 1 мин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Более 80 в 1 мин",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 88,
+				"text": "Какие характерные изменения со стороны кровообращения возникают во второй стадии гипотермии:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Увеличение сердечного выброса",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "Уменьшение сердечного выброса",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Понижение АД, уменьшение сердечного выброса",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Понижение АД",
+						"isCorrect": false
+					}
+				]
+			}
+		]
+	},
+	"issues": {
+		"rejectedQuestions": []
+	}
+}
