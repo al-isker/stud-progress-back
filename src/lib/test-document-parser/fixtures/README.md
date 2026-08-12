@@ -9,10 +9,7 @@
     fixtures/
     └─ NNN/
        ├─ document.<ext>   # исходный документ
-       ├─ expected.json    # ожидаемый полный ParseResult
-       └─ README.md        # описание (заполняется вручную)
-
-`expected.json` обязателен для каждого кейса. Он может содержать как успешный результат (`status: "ACCEPTED"`), так и отклонённый (`status: "REJECTED"`).
+       └─ expected.json    # ожидаемый полный ParseResult
 
 ## Правила анализа фикстур
 

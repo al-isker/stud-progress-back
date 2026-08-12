@@ -25,7 +25,7 @@ function readDocument(dir: string): { filename: string; data: Buffer } {
 	const filename = readdirSync(dir).find(file => {
 		const lower = file.toLowerCase();
 
-		return lower !== 'readme.md' && lower !== 'expected.json' && !file.startsWith('.');
+		return lower !== 'expected.json' && !file.startsWith('.');
 	});
 
 	if (!filename) {
