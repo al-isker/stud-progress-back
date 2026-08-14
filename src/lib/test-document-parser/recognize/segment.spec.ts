@@ -76,6 +76,26 @@ describe('document-level option syntax', () => {
 		]);
 	});
 
+	test('recognizes numbered questions after 999', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const questions = segment([
+			numberedLine('#1', 30),
+			numberedLine('Question 1', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('#1000', 30),
+			numberedLine('Question 1000', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30)
+		]);
+
+		expect(questions).toHaveLength(2);
+		expect(questions.map(question => question.texts[0])).toEqual(['Question 1', 'Question 1000']);
+	});
+
 	test('preserves symbolic and signed answers after the inferred structural prefix', () => {
 		const questions = segment(
 			bracketQuestion('Question', [['= ordinary'], ['=%'], ['=/'], ['=/////'], ['=-5'], ['=+5']])

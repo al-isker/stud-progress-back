@@ -19,6 +19,8 @@ const reject = (reason: ParseRejectionReason): ParseResult => ({
 	reason
 });
 
+const MAX_QUESTION_COUNT = 2000;
+
 /**
  * Публичная точка входа модуля.
  *
@@ -47,6 +49,9 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 
 	const raw = segmentQuestions(lines);
 	if (!raw) return reject(ParseRejectionReason.QUESTION_STRUCTURE_NOT_RECOGNIZED);
+	if (raw.length > MAX_QUESTION_COUNT) {
+		return reject(ParseRejectionReason.QUESTION_LIMIT_EXCEEDED);
+	}
 
 	// Указатель ответа ищем только среди вопросов с двумя и более вариантами.
 	const answerableIndices: number[] = [];

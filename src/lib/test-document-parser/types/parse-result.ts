@@ -15,6 +15,7 @@ export enum ParseRejectionReason {
 	UNSUPPORTED_FORMAT = 'UNSUPPORTED_FORMAT',
 	UNREADABLE_DOCUMENT = 'UNREADABLE_DOCUMENT',
 	QUESTION_STRUCTURE_NOT_RECOGNIZED = 'QUESTION_STRUCTURE_NOT_RECOGNIZED',
+	QUESTION_LIMIT_EXCEEDED = 'QUESTION_LIMIT_EXCEEDED',
 	/**
 	 * Формат указателя правильного ответа не подтверждён: поддерживаемые локальные
 	 * и глобальные стратегии совместно не покрывают строгое большинство вопросов.

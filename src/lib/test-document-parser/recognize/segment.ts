@@ -374,7 +374,7 @@ function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
 		// `#42`/`№42` — сильный нумераторный сигнал, а не семейство вариантов.
 		// Иначе редкий посторонний символ в большом нумерованном документе может
 		// ложно образовать пару «вопрос / вариант» с сотнями строк `#N`.
-		if (/^[#№]\s*\d{1,3}\s*[.):\]]?$/.test(text)) return null;
+		if (/^[#№]\s*\d+\s*[.):\]]?$/.test(text)) return null;
 
 		return scanSymbolHead(text);
 	});
@@ -468,9 +468,9 @@ function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
 	return questions.length > 0 ? questions : null;
 }
 
-const STANDALONE_NUM_RE = /^[#№]\s*(\d{1,3})\s*[.):\]]?$/;
-const STANDALONE_NUM_DOT_RE = /^(\d{1,3})\s*[.):\]]$/;
-const INLINE_NUM_RE = /^[#№]?\s*(\d{1,3})\s*[.):\]]\s+(\S.*)$/;
+const STANDALONE_NUM_RE = /^[#№]\s*(\d+)\s*[.):\]]?$/;
+const STANDALONE_NUM_DOT_RE = /^(\d+)\s*[.):\]]$/;
+const INLINE_NUM_RE = /^[#№]?\s*(\d+)\s*[.):\]]\s+(\S.*)$/;
 
 /**
  * Схема «нумераторная»: вопросы открываются номером-меткой («#1», «2.»,
