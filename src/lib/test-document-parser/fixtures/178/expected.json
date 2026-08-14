@@ -5544,43 +5544,6 @@
 				]
 			},
 			{
-				"index": 188,
-				"text": "Гален внес вклад в развитие:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "анатомии",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "-100% трансфузиологии",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "физиологии 28",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "терапии",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "хирургии",
-						"isCorrect": true
-					},
-					{
-						"index": 6,
-						"text": "фармакологии",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 189,
 				"text": "Автор труда «О назначении частей человеческого тела»:",
 				"type": "single",
@@ -8293,7 +8256,7 @@
 			{
 				"index": 21,
 				"text": "Назовите направления врачевания, появившиеся в Древней Месопотамии:",
-				"reason": "NO_ANSWER_MARKER"
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 40,
@@ -8309,6 +8272,11 @@
 				"index": 180,
 				"text": "Представителем какой семейной медицинской школы древней Греции был Алкмеон:",
 				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 188,
+				"text": "Гален внес вклад в развитие:",
+				"reason": "MALFORMED_STRUCTURE"
 			}
 		]
 	}

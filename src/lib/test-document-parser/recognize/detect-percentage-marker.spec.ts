@@ -1,4 +1,8 @@
-import { percentageTextPrefixes, resolvePercentageMarker } from './detect-percentage-marker';
+import {
+	hasMalformedPercentageSyntax,
+	percentageTextPrefixes,
+	resolvePercentageMarker
+} from './detect-percentage-marker';
 import { RawOption, RawQuestion } from './segment';
 
 function option(text: string, sourcePrefix: string, structuralPrefix: string): RawOption {
@@ -133,6 +137,56 @@ describe('resolvePercentageMarker', () => {
 		expect(resolvePercentageMarker(duplicated)).toEqual({
 			recognized: true,
 			resolved: false
+		});
+	});
+
+	test('rejects an extra percent after a valid score', () => {
+		const raw = question([
+			option('%50%%first', '~%', '~'),
+			option('%50% second', '~%', '~'),
+			option('%-50% third', '~%-', '~')
+		]);
+
+		expect(hasMalformedPercentageSyntax(raw)).toBe(true);
+		expect(resolvePercentageMarker(raw)).toEqual({ recognized: true, resolved: false });
+	});
+
+	test('rejects an unprefixed score fragment matching another option score', () => {
+		const raw = question([
+			option('%50% first', '~%', '~'),
+			option('50%second', '~', '~'),
+			option('%-50% third', '~%-', '~')
+		]);
+
+		expect(hasMalformedPercentageSyntax(raw)).toBe(true);
+		expect(resolvePercentageMarker(raw)).toEqual({ recognized: true, resolved: false });
+	});
+
+	test('rejects positive unprefixed score fragments when only negative scores were parsed', () => {
+		const raw = question([
+			option('50%first', '~', '~'),
+			option('50%second', '~', '~'),
+			option('%-50% third', '~%-', '~')
+		]);
+
+		expect(hasMalformedPercentageSyntax(raw)).toBe(true);
+		expect(resolvePercentageMarker(raw)).toEqual({ recognized: true, resolved: false });
+	});
+
+	test('keeps complete literal percentage answers without scores', () => {
+		const raw = question([
+			option('2%', '~', '~'),
+			option('%50%85%', '~%', '~'),
+			option('70%', '~', '~'),
+			option('%50%1%', '~%', '~')
+		]);
+
+		expect(hasMalformedPercentageSyntax(raw)).toBe(false);
+		expect(resolvePercentageMarker(raw)).toEqual({
+			recognized: true,
+			resolved: true,
+			marked: [false, true, false, true],
+			consumedTextPrefixes: [null, '%50%', null, '%50%']
 		});
 	});
 

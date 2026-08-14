@@ -1313,38 +1313,6 @@
 				]
 			},
 			{
-				"index": 41,
-				"text": "Признаки закрытого перелома костей конечности",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "видны костные обломки",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "деформация и отек конечности",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "наличие раны, часто с кровотечением",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "33.33333%синюшный цвет кожи",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "33.33333%сильная боль придвижении",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 42,
 				"text": "Признаки обморожения нижних конечностей",
 				"type": "multiple",
@@ -9990,6 +9958,11 @@
 	},
 	"issues": {
 		"rejectedQuestions": [
+			{
+				"index": 41,
+				"text": "Признаки закрытого перелома костей конечности",
+				"reason": "MALFORMED_STRUCTURE"
+			},
 			{
 				"index": 121,
 				"text": "Правила наложения шины:",

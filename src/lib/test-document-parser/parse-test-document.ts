@@ -1,9 +1,15 @@
 import { extractPdfLines } from './extract/extract-pdf';
 import { assembleTestDocument } from './recognize/assemble';
 import { resolveAnswerMarker } from './recognize/detect-marker';
+import { hasMalformedPercentageSyntax } from './recognize/detect-percentage-marker';
 import { segmentQuestions } from './recognize/segment';
 import { DocLine } from './types/document-model';
-import { ParseRejectionReason, ParseResult, ParseStatus } from './types/parse-result';
+import {
+	ParseRejectionReason,
+	ParseResult,
+	ParseStatus,
+	QuestionRejectionReason
+} from './types/parse-result';
 
 /** Вход парсера: сырые байты документа и необязательные подсказки формата. */
 export interface ParseInput {
@@ -52,6 +58,11 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 	if (raw.length > MAX_QUESTION_COUNT) {
 		return reject(ParseRejectionReason.QUESTION_LIMIT_EXCEEDED);
 	}
+	raw.forEach(question => {
+		if (!question.rejectionReason && hasMalformedPercentageSyntax(question)) {
+			question.rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
+		}
+	});
 
 	// Указатель ответа ищем только среди вопросов с двумя и более вариантами.
 	const answerableIndices: number[] = [];

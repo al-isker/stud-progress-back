@@ -20,6 +20,7 @@ export type PercentageMarkerResult =
 
 const SCORE_RE = /^%\s*([+-]?)\s*(\d+(?:[.,]\s*\d+)?)\s*%\s*/;
 const NESTED_SCORE_RE = /^~?\s*%\s*[+-]?\s*\d+(?:[.,]\s*\d+)?\s*%/;
+const UNPREFIXED_SCORE_RE = /^\s*([+-]?)\s*(\d+(?:[.,]\s*\d+)?)\s*%\s*/;
 
 function scoreText(option: RawOption): { text: string; restoredLeadingPercent: boolean } {
 	const firstText = option.texts[0] ?? '';
@@ -60,8 +61,58 @@ function parsePercentageScore(option: RawOption): ParsedPercentageScore | null {
 		score,
 		consumedTextPrefix,
 		hasAnswerText,
-		hasNestedMarker: remainder.startsWith('~') || NESTED_SCORE_RE.test(remainder)
+		hasNestedMarker:
+			remainder.startsWith('~') || remainder.startsWith('%') || NESTED_SCORE_RE.test(remainder)
 	};
+}
+
+function hasUnprefixedScoreFragment(
+	question: RawQuestion,
+	parsed: (ParsedPercentageScore | null)[]
+): boolean {
+	const parsedScores = new Set(parsed.flatMap(score => (score ? [score.score] : [])));
+	const hasPositiveParsedScore = [...parsedScores].some(score => score > 0);
+
+	return question.options.some((option, index) => {
+		if (parsed[index]) return false;
+		const firstText = option.texts[0] ?? '';
+		const match = UNPREFIXED_SCORE_RE.exec(firstText);
+		if (!match) return false;
+		const remainder = firstText.slice(match[0].length).trimStart();
+		const hasAnswerText =
+			remainder !== '' || option.texts.slice(1).some(text => text.trim() !== '');
+		if (!hasAnswerText) return false;
+		const score = Number(`${match[1]}${match[2].replace(/\s/gu, '').replace(',', '.')}`);
+		const prefixEndsWithSign = /[-–—−]$/u.test(option.sourcePrefix ?? '');
+
+		return (
+			match[1] === '-' ||
+			prefixEndsWithSign ||
+			parsedScores.has(score) ||
+			(!hasPositiveParsedScore && score > 0)
+		);
+	});
+}
+
+/** Повреждённый percentage-score отклоняется, но никогда не восстанавливается. */
+export function hasMalformedPercentageSyntax(question: RawQuestion): boolean {
+	if (question.options.length < 2) return false;
+	const parsed = question.options.map(parsePercentageScore);
+	const scoreLike = question.options.map(looksLikePercentageScore);
+	if (parsed.every(score => score === null) && scoreLike.every(value => !value)) return false;
+	if (
+		question.options.some(
+			(option, index) => parsed[index] === null && option.structuralPrefix?.startsWith('=')
+		)
+	) {
+		return false;
+	}
+
+	return (
+		parsed.some((score, index) => scoreLike[index] && score === null) ||
+		parsed.some(score => score && (!score.hasAnswerText || score.hasNestedMarker)) ||
+		hasUnprefixedScoreFragment(question, parsed)
+	);
 }
 
 /** Служебные score-префиксы отделены от решения о правильности вариантов. */
@@ -96,10 +147,7 @@ export function resolvePercentageMarker(question: RawQuestion): PercentageMarker
 	) {
 		return { recognized: false };
 	}
-	if (
-		parsed.some((score, index) => scoreLike[index] && score === null) ||
-		parsed.some(score => score && (!score.hasAnswerText || score.hasNestedMarker))
-	) {
+	if (hasMalformedPercentageSyntax(question)) {
 		return { recognized: true, resolved: false };
 	}
 

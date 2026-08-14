@@ -11732,38 +11732,6 @@
 				]
 			},
 			{
-				"index": 375,
-				"text": "Какие мышцы относятся к внутренней группе мышц таза:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "малая ягодичная",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "квадратная мышца бедра",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "грушевидная",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "33,33333% подвздошно-поясничная",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "внутренняя запирательная мышца",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 376,
 				"text": "Какие мышцы относятся к наружной группе мышц таза:",
 				"type": "multiple",
@@ -12905,7 +12873,7 @@
 			{
 				"index": 290,
 				"text": "Укажите слабые места диафрагмы.:",
-				"reason": "EMPTY_TEXT"
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 294,
@@ -12921,6 +12889,11 @@
 				"index": 331,
 				"text": "Из каких структур развивается подкожная мышца шеи:",
 				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 375,
+				"text": "Какие мышцы относятся к внутренней группе мышц таза:",
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 403,

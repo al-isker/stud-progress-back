@@ -4930,38 +4930,6 @@
 				]
 			},
 			{
-				"index": 158,
-				"text": "Динамичному развитию трансплантологии способствовали",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "успехи иммунологии",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "%современные высокие медицинские технологии",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "коммерциализация органов",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "поддерживание жизни искусственными средствами",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "дефицит органов",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 159,
 				"text": "Научная основа трансплантологии была заложена",
 				"type": "single",
@@ -8772,33 +8740,6 @@
 				]
 			},
 			{
-				"index": 289,
-				"text": "Основные причины эпидемиологических заболеваний",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "санитарно-гигиеническая обстановка",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "50%массовое размножение грызунов",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "природные изменения",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "информационная среда",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 290,
 				"text": "Форму эпидемии и пандемии могут принимать такие виды болезней",
 				"type": "multiple",
@@ -9949,12 +9890,17 @@
 			{
 				"index": 104,
 				"text": "Эвтаназия - это",
-				"reason": "NO_ANSWER_MARKER"
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 158,
+				"text": "Динамичному развитию трансплантологии способствовали",
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 161,
 				"text": "При изъятии органов у человека следует придерживаться принципов",
-				"reason": "NO_ANSWER_MARKER"
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 164,
@@ -9964,16 +9910,21 @@
 			{
 				"index": 219,
 				"text": "Критериями распределения органов для трансплантации не является",
-				"reason": "NO_ANSWER_MARKER"
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 220,
 				"text": "Ксенотрансплантация – это пересадка органов и тканей",
-				"reason": "NO_ANSWER_MARKER"
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 287,
 				"text": "Выполнение индивидуальной программы должно быть",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 289,
+				"text": "Основные причины эпидемиологических заболеваний",
 				"reason": "MALFORMED_STRUCTURE"
 			}
 		]
