@@ -144,6 +144,64 @@ describe('assembleTestDocument', () => {
 		]);
 	});
 
+	test('rejects option syntax leaked into the question text', () => {
+		const raw: RawQuestion[] = [
+			{
+				texts: ['=orphaned option', 'Question'],
+				options: [
+					{ ...option('correct'), sourcePrefix: '=', structuralPrefix: '=' },
+					{ ...option('wrong'), sourcePrefix: '~', structuralPrefix: '~' }
+				]
+			}
+		];
+
+		const result = assembleTestDocument(raw, [[true, false]], new Set());
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions).toEqual([]);
+		expect(result.issues.rejectedQuestions).toEqual([
+			{
+				index: 1,
+				text: '=orphaned option Question',
+				reason: QuestionRejectionReason.MALFORMED_STRUCTURE
+			}
+		]);
+	});
+
+	test('keeps marker-like text inside a correctly segmented option', () => {
+		const raw: RawQuestion[] = [
+			{
+				texts: ['Question'],
+				options: [
+					{ ...option('correct'), sourcePrefix: '=', structuralPrefix: '=' },
+					{ ...option('!literal@example.com'), sourcePrefix: '~!', structuralPrefix: '~' }
+				]
+			}
+		];
+
+		const result = assembleTestDocument(raw, [[true, false]], new Set());
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions).toHaveLength(1);
+	});
+
+	test('keeps a single formula continuation that starts with an option prefix', () => {
+		const raw: RawQuestion[] = [
+			{
+				texts: ['Calculate A + B', '= C + D'],
+				options: [
+					{ ...option('correct'), sourcePrefix: '=', structuralPrefix: '=' },
+					{ ...option('wrong'), sourcePrefix: '~', structuralPrefix: '~' }
+				]
+			}
+		];
+
+		const result = assembleTestDocument(raw, [[true, false]], new Set());
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions).toHaveLength(1);
+	});
+
 	test('возвращает единый массив отклонённых вопросов с причинами', () => {
 		const raw: RawQuestion[] = [
 			{ texts: [''], options: [option('Первый'), option('Второй')] },

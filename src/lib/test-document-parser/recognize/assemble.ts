@@ -82,6 +82,27 @@ function containsDuplicateOptions(options: { text: string }[]): boolean {
 	return new Set(normalized).size !== normalized.length;
 }
 
+function containsOptionSyntaxInQuestionText(question: RawQuestion): boolean {
+	const structuralPrefixes = new Set(
+		question.options
+			.map(option => option.structuralPrefix)
+			.filter((prefix): prefix is string => Boolean(prefix))
+	);
+	const prefixed = question.texts.map(text =>
+		[...structuralPrefixes].some(prefix => text.trimStart().startsWith(prefix))
+	);
+	for (let start = 0; start < prefixed.length; start++) {
+		if (!prefixed[start]) continue;
+		let end = start;
+		while (end + 1 < prefixed.length && prefixed[end + 1]) end++;
+		const followedByQuestionText = prefixed.slice(end + 1).some(value => !value);
+		if (followedByQuestionText && (start === 0 || end - start + 1 >= 2)) return true;
+		start = end;
+	}
+
+	return false;
+}
+
 /**
  * Собирает принятый документ. Matching-вопросы не требуют указателя правильного
  * ответа; остальные вопросы с пустым текстом, малым количеством вариантов,
@@ -145,6 +166,10 @@ export function assembleTestDocument(
 		}
 		if (containsDuplicateOptions(options)) {
 			rejectQuestion(QuestionRejectionReason.DUPLICATE_OPTIONS);
+			continue;
+		}
+		if (containsOptionSyntaxInQuestionText(raw[qi])) {
+			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
 		}
 		if (matching.has(qi)) {
