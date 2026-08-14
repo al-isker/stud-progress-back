@@ -3427,38 +3427,6 @@
 				]
 			},
 			{
-				"index": 108,
-				"text": "Стеклянную лабораторную посуду стерилизуют:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ультрафиолетовыми лучами",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "кипячением",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "текучим паром",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "сухим жаром",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "сухим жаром",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 109,
 				"text": "Дифференциация свойств бактерий на среде Эндо основана на:",
 				"type": "single",
@@ -5445,6 +5413,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 108,
+				"text": "Стеклянную лабораторную посуду стерилизуют:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

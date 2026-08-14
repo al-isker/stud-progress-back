@@ -2382,38 +2382,6 @@
 				]
 			},
 			{
-				"index": 78,
-				"text": "Питьевая вода является основным источником поступления в организм человека:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "фтора",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "йода",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "железа",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "кадмия",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "железа",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 79,
 				"text": "В патогенезе флюороза ведущий фактор - нарушение:",
 				"type": "single",
@@ -6340,38 +6308,6 @@
 				]
 			},
 			{
-				"index": 202,
-				"text": "Содержание хлоридов в питьевой воде больше 350 мг / л может быть причиной заболеваний:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "гипоацидного гастрита",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "органов дыхания",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "кожи и слизистых",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "гепатита",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "гепатита",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 203,
 				"text": "Инфекционные заболевания с водным фактором распространения:",
 				"type": "multiple",
@@ -6782,6 +6718,17 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 78,
+				"text": "Питьевая вода является основным источником поступления в организм человека:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 202,
+				"text": "Содержание хлоридов в питьевой воде больше 350 мг / л может быть причиной заболеваний:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

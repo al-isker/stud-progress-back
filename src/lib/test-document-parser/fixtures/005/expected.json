@@ -9246,38 +9246,6 @@
 				]
 			},
 			{
-				"index": 290,
-				"text": "Укажите, что не характерно для геморрагического шока:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "тахикардия",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гипотония",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "цианоз",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "гипертермия",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "тахикардия",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 291,
 				"text": "Разрыв шейки матки 2 ст:",
 				"type": "single",
@@ -13460,38 +13428,6 @@
 					{
 						"index": 5,
 						"text": "крестцово-копчиковое сочленение сочленение",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 422,
-				"text": "Что является границей плоскости узкой части полости таза?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гребень подвздошной кости",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "нижний край симфиза",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "крестцово-копчиковое сочленение",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "гребень подвздошной кости",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "мыс крестца",
 						"isCorrect": false
 					}
 				]
@@ -22171,6 +22107,17 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 290,
+				"text": "Укажите, что не характерно для геморрагического шока:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 422,
+				"text": "Что является границей плоскости узкой части полости таза?",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

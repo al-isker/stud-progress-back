@@ -291,38 +291,6 @@
 				]
 			},
 			{
-				"index": 10,
-				"text": "Назовите автора книги “О строении тела человека в семи книгах (1543)”:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "Гарвей",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "Мальпиги",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Санторини",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "Везалий",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "Гарвей",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 11,
 				"text": "Назовите, кто впервые описал кровеносные капилляры:",
 				"type": "single",
@@ -1125,6 +1093,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 10,
+				"text": "Назовите автора книги “О строении тела человека в семи книгах (1543)”:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

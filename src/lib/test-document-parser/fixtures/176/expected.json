@@ -867,38 +867,6 @@
 				]
 			},
 			{
-				"index": 28,
-				"text": "Антигены главного комплекса гистосовместимости I класса не представлены на поверхности:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "эритроцитов",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "опухолевых клеток",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "клеток, инфицированных вирусом",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "опухолевых клеток",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "эозинофилов.",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 29,
 				"text": "Свойства суперантигенов:",
 				"type": "single",
@@ -7461,6 +7429,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 28,
+				"text": "Антигены главного комплекса гистосовместимости I класса не представлены на поверхности:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

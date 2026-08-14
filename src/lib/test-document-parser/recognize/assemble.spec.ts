@@ -90,6 +90,23 @@ describe('assembleTestDocument', () => {
 		]);
 	});
 
+	test('отклоняет вопрос с дублирующимися вариантами независимо от правильности', () => {
+		const raw: RawQuestion[] = [
+			{
+				texts: ['Вопрос'],
+				options: [option('Повтор'), option('другой вариант'), option('повтор')]
+			}
+		];
+
+		const result = assembleTestDocument(raw, [[true, false, false]], new Set());
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions).toEqual([]);
+		expect(result.issues.rejectedQuestions).toEqual([
+			{ index: 1, text: 'Вопрос', reason: QuestionRejectionReason.DUPLICATE_OPTIONS }
+		]);
+	});
+
 	test('rejects a question containing machine metadata', () => {
 		const raw: RawQuestion[] = [
 			{

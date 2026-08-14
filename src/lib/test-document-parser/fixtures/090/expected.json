@@ -291,38 +291,6 @@
 				]
 			},
 			{
-				"index": 10,
-				"text": "За сутки железа может всосаться не более",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "0.5-1.0 мг",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "2.0-2.5 мг",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "4.0-4.5 мг",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "10.0-12.0 мг",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "10.0-12.0 мг",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 11,
 				"text": "Причиной железодефицитной анемии у женщин может быть все перечисленное, за исключением",
 				"type": "single",
@@ -483,38 +451,6 @@
 				]
 			},
 			{
-				"index": 16,
-				"text": "Чему равняется в норме гематокрит (плазма/форменные элементы)",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "45:55",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "30:70",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "55:45",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "25:75",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "25:75",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 17,
 				"text": "Какое количество ретикулоцитов имеется в периферической крови в норме",
 				"type": "multiple",
@@ -542,38 +478,6 @@
 					{
 						"index": 5,
 						"text": "до 5 про милле",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 18,
-				"text": "Каковы минимальная и максимальная резистентность эритроцитов в норме (растворе nacl)",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "0,52-0,38%",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "0,38-0,68%",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "0,68-0,48%",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "0,1-0.8 %",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "0,1-0.8 %",
 						"isCorrect": false
 					}
 				]
@@ -1118,38 +1022,6 @@
 					{
 						"index": 5,
 						"text": "90 г/л",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 36,
-				"text": "Какое количество миелокариоцитов принято считать нормой",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "от 10 до 40 тыс.",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "от 200 до 500 тыс.",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "от 500 до 1 млн.",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "от 40 до 300 тыс.",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "от 40 до 300 тыс.",
 						"isCorrect": false
 					}
 				]
@@ -3460,6 +3332,27 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 10,
+				"text": "За сутки железа может всосаться не более",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 16,
+				"text": "Чему равняется в норме гематокрит (плазма/форменные элементы)",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 18,
+				"text": "Каковы минимальная и максимальная резистентность эритроцитов в норме (растворе nacl)",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 36,
+				"text": "Какое количество миелокариоцитов принято считать нормой",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

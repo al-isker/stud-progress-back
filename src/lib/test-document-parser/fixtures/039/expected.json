@@ -35,38 +35,6 @@
 				]
 			},
 			{
-				"index": 2,
-				"text": "Лекарственная аллергия в форме острой аллергической крапивницы и отека квинке",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "встречаются наиболее часто",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "встречаются редко",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "не встречаются совсем",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "не встречаются совсем",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "не встречаются совсем",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 3,
 				"text": "Приобретенный первичный иммунодефицит – это",
 				"type": "single",
@@ -99,38 +67,6 @@
 				]
 			},
 			{
-				"index": 4,
-				"text": "Причиной поллинозов является",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "пыльца растений",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "споры плесневых грибов",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "пищевые продукты растительного происхождения",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "все перечисленное",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 5,
 				"text": "Что такое \"оппортунистические инфекции\"",
 				"type": "single",
@@ -158,38 +94,6 @@
 					{
 						"index": 5,
 						"text": "инфекции, вызванные грибами",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 6,
-				"text": "Вич относится к семейству",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ретровирусов (Retroviridae), к типу ротавирусов",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "парамиксовирусов (Рагаmухоviridае), к роду РС-вирусов",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "ретровирусов (Retroviridae), подсемейству онковирусов",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ретровирусов, подсемейству лентивирусов",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "ретровирусов, подсемейству лентивирусов",
 						"isCorrect": false
 					}
 				]
@@ -259,38 +163,6 @@
 				]
 			},
 			{
-				"index": 9,
-				"text": "Роль иммуноглобулина е в развитии аллергических реакций",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "формирует немедленные аллергические реакции .",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "участвует в формировании иммунокомплексных аллергических реакций",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "участвует в формировании реакций гиперчувствительности замедленного типа",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "участвует в цитотоксических иммунных реакциях",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "участвует в цитотоксических иммунных реакциях",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 10,
 				"text": "Патофизиологическая стадия аллергической реакции при бронхиальной астме - это",
 				"type": "single",
@@ -350,38 +222,6 @@
 					{
 						"index": 5,
 						"text": "через 15-20 минут",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 12,
-				"text": "Через сколько времени развивается тяжелая форма шока",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "через 3-4 мин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "через 5-7 мин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "через 7-10 мин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "через 10-12 мин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "через 10-12 мин",
 						"isCorrect": false
 					}
 				]
@@ -517,6 +357,32 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 2,
+				"text": "Лекарственная аллергия в форме острой аллергической крапивницы и отека квинке",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 4,
+				"text": "Причиной поллинозов является",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 6,
+				"text": "Вич относится к семейству",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 9,
+				"text": "Роль иммуноглобулина е в развитии аллергических реакций",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 12,
+				"text": "Через сколько времени развивается тяжелая форма шока",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

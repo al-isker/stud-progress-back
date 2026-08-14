@@ -1475,38 +1475,6 @@
 				]
 			},
 			{
-				"index": 47,
-				"text": "К первичному стазу относится :",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "Ишемический",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "Застойный",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Истинный",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "Застойный",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "Вторичный",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 48,
 				"text": "Как называется первый период в течении инфекционных заболеваний?",
 				"type": "single",
@@ -8414,6 +8382,11 @@
 	},
 	"issues": {
 		"rejectedQuestions": [
+			{
+				"index": 47,
+				"text": "К первичному стазу относится :",
+				"reason": "DUPLICATE_OPTIONS"
+			},
 			{
 				"index": 77,
 				"text": "Реактивность в детском возрасте:",

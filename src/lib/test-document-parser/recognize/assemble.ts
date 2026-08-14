@@ -76,6 +76,12 @@ function containsDuplicatedTwoPrefixSyntax(
 	return duplicatedOptions >= 2;
 }
 
+function containsDuplicateOptions(options: { text: string }[]): boolean {
+	const normalized = options.map(option => option.text.toLocaleLowerCase());
+
+	return new Set(normalized).size !== normalized.length;
+}
+
 /**
  * Собирает принятый документ. Matching-вопросы не требуют указателя правильного
  * ответа; остальные вопросы с пустым текстом, малым количеством вариантов,
@@ -135,6 +141,10 @@ export function assembleTestDocument(
 		}
 		if (options.length < 2) {
 			rejectQuestion(QuestionRejectionReason.NO_OPTIONS);
+			continue;
+		}
+		if (containsDuplicateOptions(options)) {
+			rejectQuestion(QuestionRejectionReason.DUPLICATE_OPTIONS);
 			continue;
 		}
 		if (matching.has(qi)) {

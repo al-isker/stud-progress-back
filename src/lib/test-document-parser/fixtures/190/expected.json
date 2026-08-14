@@ -2417,38 +2417,6 @@
 				]
 			},
 			{
-				"index": 83,
-				"text": "Какие из названных размеров характерны для половозрелой формы эхинококка",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "10м",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "2-4мм",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "4-6см",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "2м",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "2м",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 84,
 				"text": "Укажите, какое количество члеников характерно для карликового цепня",
 				"type": "single",
@@ -5417,6 +5385,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 83,
+				"text": "Какие из названных размеров характерны для половозрелой формы эхинококка",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

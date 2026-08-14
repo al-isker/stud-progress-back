@@ -5824,38 +5824,6 @@
 				]
 			},
 			{
-				"index": 184,
-				"text": "Назовите антивитамин витамина В6:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "гидрокситиамин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гомопантетиновая кислота",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "дезоксипиридоксин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "сульфаниламид",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "гидрокситиамин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 185,
 				"text": "Назовите антивитамин витамина В1:",
 				"type": "single",
@@ -7911,38 +7879,6 @@
 				]
 			},
 			{
-				"index": 250,
-				"text": "Назовите антивитамин витамина В6:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "гидрокситиамин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гомопантетиновая кислота",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "дезоксипиридоксин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "сульфаниламид",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "гидрокситиамин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 251,
 				"text": "Назовите антивитамин витамина В1:",
 				"type": "single",
@@ -8041,6 +7977,17 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 184,
+				"text": "Назовите антивитамин витамина В6:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 250,
+				"text": "Назовите антивитамин витамина В6:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

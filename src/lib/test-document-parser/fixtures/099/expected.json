@@ -444,42 +444,16 @@
 						"isCorrect": false
 					}
 				]
-			},
-			{
-				"index": 15,
-				"text": "Из какоговеществаобразуетсятромбин?",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "изгепарина",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "изфибриногена",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "изпротромбина",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "изфибриногена",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "изантибиотиков",
-						"isCorrect": false
-					}
-				]
 			}
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 15,
+				"text": "Из какоговеществаобразуетсятромбин?",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

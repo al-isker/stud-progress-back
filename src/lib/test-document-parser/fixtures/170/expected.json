@@ -6186,33 +6186,6 @@
 				]
 			},
 			{
-				"index": 236,
-				"text": "Выберите правильную форму существительного во множественном числе «deer»:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "deer",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "dees",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "deer",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "deed",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 237,
 				"text": "Выберите правильную форму существительного во множественном числе «man»:",
 				"type": "single",
@@ -7757,6 +7730,11 @@
 				"index": 189,
 				"text": "Вставьте правильный вариант Come here. Look at … picture.",
 				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 236,
+				"text": "Выберите правильную форму существительного во множественном числе «deer»:",
+				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
 				"index": 267,

@@ -3587,38 +3587,6 @@
 				]
 			},
 			{
-				"index": 113,
-				"text": "Укажите, что проходит в зрительном канале:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "верхняя глазничная вена",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "зрительный нерв",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "глазная артерия",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "глазодвигательный нерв",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "верхняя глазничная вена",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 114,
 				"text": "Укажите, что проходит в круглом отверстии:",
 				"type": "single",
@@ -4094,38 +4062,6 @@
 					{
 						"index": 5,
 						"text": "медиальная",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 129,
-				"text": "Укажите раковины решетчатой кости:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "нижняя носовая",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "клиновидная",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "верхняя носовая",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "средняя носовая",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "клиновидная",
 						"isCorrect": false
 					}
 				]
@@ -7651,38 +7587,6 @@
 				]
 			},
 			{
-				"index": 240,
-				"text": "Какие кости участвуют в образовании лучезапястного сустава:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гороховидная кость",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "трехгранная кость",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "головчатая кость",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "лучевая кость",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "гороховидная кость",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 241,
 				"text": "К каким суставам относится лучезапястный сустав:",
 				"type": "multiple",
@@ -9347,38 +9251,6 @@
 				]
 			},
 			{
-				"index": 294,
-				"text": "Укажите мышцы передней стенки живота:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "наружная косая мышца",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "прямая мышца",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "поперечная мышца",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "пирамидальная мышца",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "поперечная мышца",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 295,
 				"text": "Укажите мышцы боковой стенки живота:",
 				"type": "multiple",
@@ -9566,38 +9438,6 @@
 					{
 						"index": 5,
 						"text": "седалищная кость",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 301,
-				"text": "Укажите место начала и прикрепления прямой мышцы живота:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "хрящи V-VII ребер",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "пояснично -грудная фасция",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "подвздошный гребень",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "мечевидный отросток",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "подвздошный гребень",
 						"isCorrect": false
 					}
 				]
@@ -10526,38 +10366,6 @@
 					{
 						"index": 5,
 						"text": "грудинно-подъязычная",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 331,
-				"text": "Из каких структур развивается подкожная мышца шеи:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "вентральной части миотомов",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "I -й висцеральной дуги",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "II-й висцеральной дуги",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "дорсальной части миотомов",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "вентральной части миотомов",
 						"isCorrect": false
 					}
 				]
@@ -12820,38 +12628,6 @@
 				]
 			},
 			{
-				"index": 403,
-				"text": "Назовите мышцы поверхностного слоя задней группы голени:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "трехглавая",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "подошвенная",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "подколенная",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "длинный сгибатель пальцев",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "длинный сгибатель пальцев",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 404,
 				"text": "Назовите каналы голени:",
 				"type": "multiple",
@@ -13112,9 +12888,44 @@
 	"issues": {
 		"rejectedQuestions": [
 			{
+				"index": 113,
+				"text": "Укажите, что проходит в зрительном канале:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 129,
+				"text": "Укажите раковины решетчатой кости:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 240,
+				"text": "Какие кости участвуют в образовании лучезапястного сустава:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
 				"index": 290,
 				"text": "Укажите слабые места диафрагмы.:",
 				"reason": "EMPTY_TEXT"
+			},
+			{
+				"index": 294,
+				"text": "Укажите мышцы передней стенки живота:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 301,
+				"text": "Укажите место начала и прикрепления прямой мышцы живота:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 331,
+				"text": "Из каких структур развивается подкожная мышца шеи:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 403,
+				"text": "Назовите мышцы поверхностного слоя задней группы голени:",
+				"reason": "DUPLICATE_OPTIONS"
 			}
 		]
 	}

@@ -1278,38 +1278,6 @@
 				]
 			},
 			{
-				"index": 41,
-				"text": "При гидролизе сахарозы образуются:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глюкоза",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "манноза",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "фруктоза",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "галактоза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "манноза",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 42,
 				"text": "В каком отделе ЖКТ переваривается сахароза:",
 				"type": "single",
@@ -3808,6 +3776,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 41,
+				"text": "При гидролизе сахарозы образуются:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

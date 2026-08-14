@@ -547,38 +547,6 @@
 				]
 			},
 			{
-				"index": 18,
-				"text": "Т-зона лимфатических узлов располагается:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "на периферии фолликулов",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "в центральной части фолликулов",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "на границе между фолликулами и мякотными тяжами",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "в мякотных тяжах ближе к центральному синусу",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "на периферии фолликулов",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 19,
 				"text": "В-зоны лимфатических узлов располагаются в:",
 				"type": "multiple",
@@ -1573,6 +1541,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 18,
+				"text": "Т-зона лимфатических узлов располагается:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

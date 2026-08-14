@@ -423,33 +423,6 @@
 				]
 			},
 			{
-				"index": 16,
-				"text": "Пассивная эйтаназия - это:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ускорение смерти из-за отказа от активных мер продления жизни;",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "ускорение смерти в результате отказа оказания помощи больному;",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "ускорение смерти из-за отказа больного от лечения;",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ускорение смерти из-за отказа больного от лечения;",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 17,
 				"text": "Эйтаназия - это:",
 				"type": "single",
@@ -1224,38 +1197,6 @@
 				]
 			},
 			{
-				"index": 44,
-				"text": "Различают эйтаназию:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "активную;",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "пассивную;",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "законную;",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "незаконную.",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "незаконную.",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 45,
 				"text": "Суррогатное материнство - это:",
 				"type": "multiple",
@@ -1632,6 +1573,17 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 16,
+				"text": "Пассивная эйтаназия - это:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 44,
+				"text": "Различают эйтаназию:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

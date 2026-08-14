@@ -2883,38 +2883,6 @@
 				]
 			},
 			{
-				"index": 94,
-				"text": "Клеточный состав ткани тимуса:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гистиоциты",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "эпителий",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "стволовые клетки",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "стволовые клетки",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "тимоциты.",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 95,
 				"text": "В пейеровой бляшке осуществляется:",
 				"type": "single",
@@ -7311,6 +7279,11 @@
 				"index": 51,
 				"text": "Возможные пути активации комплемента:",
 				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 94,
+				"text": "Клеточный состав ткани тимуса:",
+				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
 				"index": 104,

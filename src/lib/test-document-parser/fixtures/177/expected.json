@@ -1105,33 +1105,6 @@
 				]
 			},
 			{
-				"index": 44,
-				"text": "выберите греческий термин с заданным значением из русских arthralgia",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "боль в костях",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "боль в суставах",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "боль в костях",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "боль в хрящах",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 45,
 				"text": "выберите греческий термин с заданнымзначением из русских laparotomia",
 				"type": "single",
@@ -3169,6 +3142,11 @@
 				"index": 9,
 				"text": "Определите приставку со значением circum-",
 				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 44,
+				"text": "выберите греческий термин с заданным значением из русских arthralgia",
+				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
 				"index": 99,

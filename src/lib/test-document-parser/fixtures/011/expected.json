@@ -67,38 +67,6 @@
 				]
 			},
 			{
-				"index": 3,
-				"text": "Показаниями к реабилитации по рекомендациям ВОЗ относится",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "Значительное снижение функциональных способностей",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "Снижение способности к обучению",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Нарушение социальных отношений",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "Снижение способности к обучению",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "Всё перечисленное",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 4,
 				"text": "К общим противопоказаниям к реабилитации относятся",
 				"type": "single",
@@ -916,38 +884,6 @@
 					{
 						"index": 4,
 						"text": "Короткий период",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 30,
-				"text": "Наиболее легко переносится больным диадинамический ток",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "Короткий период",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "Длинный период",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Двухполупериодный симметричный",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "Однополупериодный симметричный",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "Длинный период",
 						"isCorrect": false
 					}
 				]
@@ -3929,38 +3865,6 @@
 				]
 			},
 			{
-				"index": 125,
-				"text": "Температура плавления парафина составляет",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "40-42С",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "48-52С",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "55-60С",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "30-36С",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "40-42С",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 126,
 				"text": "К лечебным эффектам парафинотерапии не относится",
 				"type": "single",
@@ -4628,38 +4532,6 @@
 					{
 						"index": 5,
 						"text": "замедление процессов старения",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 149,
-				"text": "Принципами применения ЛФК являются:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "комплексность",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "дифференцированность",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "адекватность",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "целенаправленность",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "комплексность",
 						"isCorrect": true
 					}
 				]
@@ -9273,9 +9145,24 @@
 	"issues": {
 		"rejectedQuestions": [
 			{
+				"index": 3,
+				"text": "Показаниями к реабилитации по рекомендациям ВОЗ относится",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 30,
+				"text": "Наиболее легко переносится больным диадинамический ток",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
 				"index": 106,
 				"text": "К лечебным эффектам красного лазерного излучения не относится",
 				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 125,
+				"text": "Температура плавления парафина составляет",
+				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
 				"index": 128,
@@ -9286,6 +9173,11 @@
 				"index": 129,
 				"text": "Применение низких температур находится в диапазоне",
 				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 149,
+				"text": "Принципами применения ЛФК являются:",
+				"reason": "DUPLICATE_OPTIONS"
 			}
 		]
 	}

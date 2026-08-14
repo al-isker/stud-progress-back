@@ -35,38 +35,6 @@
 				]
 			},
 			{
-				"index": 2,
-				"text": "Какой препарат применяют при кандидомикозе, вызываемых условно патогенными грибами",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "гризеофульвин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гризеофульвин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "пиперазин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "миконазол",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "калия йодид",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 3,
 				"text": "Что характерно для амфотерицина В",
 				"type": "single",
@@ -2772,6 +2740,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 2,
+				"text": "Какой препарат применяют при кандидомикозе, вызываемых условно патогенными грибами",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

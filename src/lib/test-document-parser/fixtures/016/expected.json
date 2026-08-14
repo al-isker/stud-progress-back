@@ -17197,33 +17197,6 @@
 				]
 			},
 			{
-				"index": 638,
-				"text": "Выберите правильную форму существительного во множественном числе «deer»:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "deer",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "dees",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "deer",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "deed",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 639,
 				"text": "Выберите правильную форму существительного во множественном числе «man»:",
 				"type": "single",
@@ -24912,6 +24885,11 @@
 	},
 	"issues": {
 		"rejectedQuestions": [
+			{
+				"index": 638,
+				"text": "Выберите правильную форму существительного во множественном числе «deer»:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
 			{
 				"index": 729,
 				"text": "Закончите предложение логически. There are _ ribs on back",

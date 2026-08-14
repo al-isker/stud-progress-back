@@ -5833,38 +5833,6 @@
 				]
 			},
 			{
-				"index": 196,
-				"text": "Формы вторичного туберкулеза?",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "гематогенно - дессиминированный",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "хронический крупноочаговый",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "острый милиарный",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "туберкулома",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "туберкулома",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 197,
 				"text": "Форма прогрессирования инфильтративного туберкулеза?",
 				"type": "single",
@@ -6137,6 +6105,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 196,
+				"text": "Формы вторичного туберкулеза?",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

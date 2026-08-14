@@ -195,38 +195,6 @@
 				]
 			},
 			{
-				"index": 7,
-				"text": "Укажите места прохождения глазодвигательного нерва:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "боковая стенка пещеристого синуса",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "зрительный канал",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "верхняя глазничная щель",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "нижняя глазничная щель",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "нижняя глазничная щель",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 8,
 				"text": "Укажите мышцы, которые иннервирует блоковый нерв:",
 				"type": "single",
@@ -1667,38 +1635,6 @@
 				]
 			},
 			{
-				"index": 53,
-				"text": "Укажите нервы, участвующие в иннервации четырехглавой мышцы бедра:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "бедренный нерв",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "седалищный нерв",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "запирательный нерв",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "общий малоберцовый нерв",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "запирательный нерв",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 54,
 				"text": "Укажите мышцы, которые иннервирует подвздошно-подчревный нерв:",
 				"type": "multiple",
@@ -2981,6 +2917,17 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 7,
+				"text": "Укажите места прохождения глазодвигательного нерва:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 53,
+				"text": "Укажите нервы, участвующие в иннервации четырехглавой мышцы бедра:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

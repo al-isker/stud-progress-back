@@ -2117,38 +2117,6 @@
 				]
 			},
 			{
-				"index": 70,
-				"text": "Коллагеновые волокна построены из:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "эластина",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "фибрилл",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "проколлагена",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "липидов",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "эластина",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 71,
 				"text": "Фермент, превращающий пролин в оксипролин, называется:",
 				"type": "single",
@@ -4189,6 +4157,11 @@
 				"index": 63,
 				"text": "Наличие каких веществ в моче определяет щелочную реакцию?",
 				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 70,
+				"text": "Коллагеновые волокна построены из:",
+				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
 				"index": 86,

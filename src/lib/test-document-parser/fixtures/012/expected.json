@@ -5917,38 +5917,6 @@
 				]
 			},
 			{
-				"index": 189,
-				"text": "Препарат наперстянки",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "Строфантин К.",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "Коргликон",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Дигитоксин.",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "Новокаинамид",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "Коргликон",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 191,
 				"text": "Лекарственное средство, являющееся блокатором медленных кальциевых каналов",
 				"type": "single",
@@ -9062,6 +9030,11 @@
 				"index": 177,
 				"text": "При каких состояниях применяют ретинол",
 				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 189,
+				"text": "Препарат наперстянки",
+				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
 				"index": 190,

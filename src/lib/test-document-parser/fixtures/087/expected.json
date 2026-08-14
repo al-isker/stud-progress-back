@@ -739,38 +739,6 @@
 				]
 			},
 			{
-				"index": 24,
-				"text": "Бруцеллы характеризуются:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "извитой формой",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "спорообразованием",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "грамотрицательной окраской",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "грамположительной окраской",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "спорообразованием",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 25,
 				"text": "Для серологической диагностики бруцеллеза применяют:",
 				"type": "single",
@@ -3700,6 +3668,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 24,
+				"text": "Бруцеллы характеризуются:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

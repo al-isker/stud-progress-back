@@ -1951,38 +1951,6 @@
 				]
 			},
 			{
-				"index": 70,
-				"text": "Основном признаком хронического абсцесса является:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "наличие полости",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "сморщивающий процесс в лёгком",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "плевральные шварты",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "плевральные шварты",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "плевральные шварты",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 71,
 				"text": "Бронхиолит - это:",
 				"type": "single",
@@ -2280,33 +2248,6 @@
 				]
 			},
 			{
-				"index": 82,
-				"text": "Для туберкулезного бронхоаденита характерно:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "двустороннее поражение внутригрудных лимфатических узлов",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "одностороннее увеличение одной- двух групп внутригрудных лимфоузлов",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "расширения корня лёгкого",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "расширения корня лёгкого",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 83,
 				"text": "При пневмотораксе лёгкое спадается:",
 				"type": "single",
@@ -2330,38 +2271,6 @@
 						"index": 4,
 						"text": "вниз и медиально",
 						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 84,
-				"text": "Анатомическим субстратом лёгочного рисунка в норме является:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "бронхиальное дерево",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "альвеолярная ткань",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "ответвления лёгочных артерий и вен",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "лимфатические сосуды",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "лимфатические сосуды",
-						"isCorrect": false
 					}
 				]
 			},
@@ -2992,33 +2901,6 @@
 					{
 						"index": 4,
 						"text": "11",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 108,
-				"text": "На обзорной рентгенограмме грудной клетки в прямой проекции головка корня левого лёгкого находится:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "выше правого",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "на одном уровне 16",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "ниже правого",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ниже правого",
 						"isCorrect": false
 					}
 				]
@@ -3910,6 +3792,27 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 70,
+				"text": "Основном признаком хронического абсцесса является:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 82,
+				"text": "Для туберкулезного бронхоаденита характерно:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 84,
+				"text": "Анатомическим субстратом лёгочного рисунка в норме является:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 108,
+				"text": "На обзорной рентгенограмме грудной клетки в прямой проекции головка корня левого лёгкого находится:",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

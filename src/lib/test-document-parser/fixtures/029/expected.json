@@ -256,38 +256,6 @@
 				]
 			},
 			{
-				"index": 10,
-				"text": "Площадь на основное стоматологическое кресло:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "14 м2",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "7м2",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "10м2",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "15м2",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "15м2",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 11,
 				"text": "Периодические осмотры в условиях воздействия профессиональных вредностей имеют целью:",
 				"type": "multiple",
@@ -804,38 +772,6 @@
 					{
 						"index": 4,
 						"text": "вторичной профилактики нет",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 29,
-				"text": "Вынужденное положение тела на работе может привести к:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "профессиональной болезни",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "утомлению",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "переутомлению",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "не представляет опасности для здоровья",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "не представляет опасности для здоровья",
 						"isCorrect": false
 					}
 				]
@@ -1861,38 +1797,6 @@
 					{
 						"index": 5,
 						"text": "ботулизм",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 65,
-				"text": "К какой группе пневмокониозов относится сидероз?",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "металлокониозы",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "силикатозы",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "карбокониозы",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "пневмокониозы от смешанной пыли",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "пневмокониозы от смешанной пыли",
 						"isCorrect": false
 					}
 				]
@@ -6647,6 +6551,22 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 10,
+				"text": "Площадь на основное стоматологическое кресло:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 29,
+				"text": "Вынужденное положение тела на работе может привести к:",
+				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 65,
+				"text": "К какой группе пневмокониозов относится сидероз?",
+				"reason": "DUPLICATE_OPTIONS"
+			}
+		]
 	}
 }

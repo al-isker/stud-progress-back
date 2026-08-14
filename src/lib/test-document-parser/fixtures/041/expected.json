@@ -1917,38 +1917,6 @@
 				]
 			},
 			{
-				"index": 65,
-				"text": "Назовите первичный акцептор водорода при окислении субстратов, имеющих структуру Н-С-NH2:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ФАД",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "цитохром",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "НАД",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ФМН",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "цитохром",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 66,
 				"text": "Назовите переносчики водорода в дыхательной цепи:",
 				"type": "multiple",
@@ -2608,6 +2576,11 @@
 				"index": 57,
 				"text": "При разобщении в дыхательной цепи:",
 				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 65,
+				"text": "Назовите первичный акцептор водорода при окислении субстратов, имеющих структуру Н-С-NH2:",
+				"reason": "DUPLICATE_OPTIONS"
 			}
 		]
 	}
