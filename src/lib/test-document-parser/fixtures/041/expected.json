@@ -638,38 +638,6 @@
 				]
 			},
 			{
-				"index": 21,
-				"text": "Укажите, что характерно для анаболизма",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "затрата энергии",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "выделение энергии",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "окисление",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "+синтез",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "локализация преимущественно в митохондриях",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 23,
 				"text": "Выберите, что характерно для эндэргонической реакции",
 				"type": "single",
@@ -1368,38 +1336,6 @@
 					{
 						"index": 5,
 						"text": "ничего из перечисленного",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 47,
-				"text": "Ацетил-КоА является стартовым веществом для синтеза",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глюкозы",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "жирных кислот",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "+ацетоновых тел",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "аминокислот",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "билирубина",
 						"isCorrect": false
 					}
 				]
@@ -2568,9 +2504,19 @@
 	"issues": {
 		"rejectedQuestions": [
 			{
+				"index": 21,
+				"text": "Укажите, что характерно для анаболизма",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 22,
 				"text": "Укажите, что характерно для катаболизма",
 				"reason": "NO_ANSWER_MARKER"
+			},
+			{
+				"index": 47,
+				"text": "Ацетил-КоА является стартовым веществом для синтеза",
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 57,

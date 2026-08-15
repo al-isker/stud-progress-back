@@ -107,6 +107,65 @@ describe('assembleTestDocument', () => {
 		]);
 	});
 
+	test('rejects a leftover plus marker when another answer format was confirmed', () => {
+		const raw: RawQuestion[] = [
+			{
+				texts: ['Question'],
+				options: [
+					{ ...option('+wrong'), sourcePrefix: '~+', structuralPrefix: '~' },
+					{ ...option('correct'), sourcePrefix: '=', structuralPrefix: '=' }
+				]
+			},
+			{
+				texts: ['Percentage question'],
+				options: [
+					{ ...option('%50%+ answer'), sourcePrefix: '~%', structuralPrefix: '~' },
+					{ ...option('%-50%wrong'), sourcePrefix: '~%-', structuralPrefix: '~' }
+				]
+			}
+		];
+
+		const result = assembleTestDocument(
+			raw,
+			[
+				[false, true],
+				[true, false]
+			],
+			new Set(),
+			[
+				[null, null],
+				['%50%', '%-50%']
+			]
+		);
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions).toEqual([]);
+		expect(result.issues.rejectedQuestions).toEqual([
+			{ index: 1, text: 'Question', reason: QuestionRejectionReason.MALFORMED_STRUCTURE },
+			{
+				index: 2,
+				text: 'Percentage question',
+				reason: QuestionRejectionReason.MALFORMED_STRUCTURE
+			}
+		]);
+	});
+
+	test('preserves leading numeric signs and sign sequences in answer text', () => {
+		const raw: RawQuestion[] = [
+			{
+				texts: ['Question'],
+				options: [option('+2'), option('+4…+10'), option('+ + -')]
+			}
+		];
+
+		const result = assembleTestDocument(raw, [[true, false, false]], new Set());
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		const question = result.document.questions[0];
+		if (question.type === 'matching') throw new Error('Question was recognized as matching');
+		expect(question.options.map(item => item.text)).toEqual(['+2', '+4…+10', '+ + -']);
+	});
+
 	test('rejects a question containing machine metadata', () => {
 		const raw: RawQuestion[] = [
 			{

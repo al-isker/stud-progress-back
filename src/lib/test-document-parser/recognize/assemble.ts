@@ -82,6 +82,23 @@ function containsDuplicateOptions(options: { text: string }[]): boolean {
 	return new Set(normalized).size !== normalized.length;
 }
 
+/**
+ * `+` перед текстом является синтаксисом ответа, а не частью содержания, если
+ * документ уже подтверждён другим маркером. Подтверждённый `+` к этому моменту
+ * удалён через consumedTextPrefix; числовые знаки и последовательности знаков
+ * остаются авторским текстом.
+ */
+function containsConflictingAnswerMarker(
+	question: RawQuestion,
+	consumedTextPrefixes: (string | null)[]
+): boolean {
+	return question.options.some((option, optionIndex) => {
+		const text = normalize(optionTextParts(option, consumedTextPrefixes[optionIndex] ?? null));
+
+		return /^\+\s*\p{L}/u.test(text);
+	});
+}
+
 function containsOptionSyntaxInQuestionText(question: RawQuestion): boolean {
 	const structuralPrefixes = new Set(
 		question.options
@@ -166,6 +183,10 @@ export function assembleTestDocument(
 		}
 		if (containsDuplicateOptions(options)) {
 			rejectQuestion(QuestionRejectionReason.DUPLICATE_OPTIONS);
+			continue;
+		}
+		if (containsConflictingAnswerMarker(raw[qi], consumedTextPrefixes[qi] ?? [])) {
+			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
 		}
 		if (containsOptionSyntaxInQuestionText(raw[qi])) {
