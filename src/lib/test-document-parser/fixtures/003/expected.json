@@ -2224,8 +2224,8 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "+ легизм;",
-						"isCorrect": false
+						"text": "легизм;",
+						"isCorrect": true
 					},
 					{
 						"index": 2,
@@ -2240,6 +2240,38 @@
 					{
 						"index": 4,
 						"text": "брахманизм.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 72,
+				"text": "Конечная цель Дао:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "человек;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "природа;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "общество;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "потусторонний мир;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "человек и природа.",
 						"isCorrect": false
 					}
 				]
@@ -3507,6 +3539,38 @@
 					{
 						"index": 5,
 						"text": "стоики.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 114,
+				"text": "С кого из античных мыслителей, по мнению Гегеля, началась философия в собственном смысле этого слова:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Фалеса;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "Гераклита;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Демокрита;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "Пифагора;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Парменида.",
 						"isCorrect": false
 					}
 				]
@@ -5156,6 +5220,38 @@
 					{
 						"index": 5,
 						"text": "платоновская.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 167,
+				"text": "Какой тезис принадлежит Галену:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«Познай себя».",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "«Все из воды».",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "«Все течет, все меняется»;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "«Всё из воздуха»;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Все названное.",
 						"isCorrect": false
 					}
 				]
@@ -7825,6 +7921,38 @@
 					{
 						"index": 5,
 						"text": "теоцентризм.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 260,
+				"text": "Учение, где рассматривается вопрос о происхождении и значении зла в мире:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "теодицея;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "пантеизм;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "патристика;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "гностика;",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "схоластика.",
 						"isCorrect": false
 					}
 				]
@@ -25840,8 +25968,8 @@
 					},
 					{
 						"index": 3,
-						"text": "+ бытие есть единство субъективной и объективной реальности;",
-						"isCorrect": false
+						"text": "бытие есть единство субъективной и объективной реальности;",
+						"isCorrect": true
 					},
 					{
 						"index": 4,
@@ -34077,6 +34205,33 @@
 				]
 			},
 			{
+				"index": 1202,
+				"text": "Укажите ошибочный вариант:",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "«трудовая теория» происхождения человека является единственной и общепризнанной;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "проблема происхождения человека актуальна во все времена;",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "существуют различные теории происхождения человека;",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "вопрос о происхождении человека остается открытым.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
 				"index": 1203,
 				"text": "Человек не является злым по природе, таковым его делает несовершенство общественных отношений и неправильное воспитание. Этой позиции придерживались:",
 				"type": "single",
@@ -37040,32 +37195,6 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": [
-			{
-				"index": 72,
-				"text": "Конечная цель Дао:",
-				"reason": "NO_ANSWER_MARKER"
-			},
-			{
-				"index": 114,
-				"text": "С кого из античных мыслителей, по мнению Гегеля, началась философия в собственном смысле этого слова:",
-				"reason": "NO_ANSWER_MARKER"
-			},
-			{
-				"index": 167,
-				"text": "Какой тезис принадлежит Галену:",
-				"reason": "NO_ANSWER_MARKER"
-			},
-			{
-				"index": 260,
-				"text": "Учение, где рассматривается вопрос о происхождении и значении зла в мире:",
-				"reason": "NO_ANSWER_MARKER"
-			},
-			{
-				"index": 1202,
-				"text": "Укажите ошибочный вариант:",
-				"reason": "NO_ANSWER_MARKER"
-			}
-		]
+		"rejectedQuestions": []
 	}
 }

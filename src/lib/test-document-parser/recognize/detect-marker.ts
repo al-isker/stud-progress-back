@@ -289,13 +289,14 @@ function resolveGlobalAnswerMarker(
 
 function consumedSymbolPrefixes(
 	questions: RawQuestion[],
-	symbolPrefix: string | null
+	symbolPrefix: string | null,
+	marked: boolean[][]
 ): (string | null)[][] {
-	return questions.map(question =>
-		question.options.map(option => {
+	return questions.map((question, questionIndex) =>
+		question.options.map((option, optionIndex) => {
 			if (
+				!marked[questionIndex][optionIndex] ||
 				!symbolPrefix ||
-				!option.sourcePrefix?.startsWith(symbolPrefix) ||
 				!option.structuralPrefix ||
 				!symbolPrefix.startsWith(option.structuralPrefix)
 			) {
@@ -303,10 +304,47 @@ function consumedSymbolPrefixes(
 			}
 
 			const remainder = symbolPrefix.slice(option.structuralPrefix.length);
+			const contiguous = option.sourcePrefix?.startsWith(symbolPrefix);
+			const separatedByWhitespace = option.sourcePrefix === option.structuralPrefix;
 
-			return remainder !== '' && option.texts[0]?.startsWith(remainder) ? remainder : null;
+			return remainder !== '' &&
+				(contiguous || separatedByWhitespace) &&
+				option.texts[0]?.startsWith(remainder)
+				? remainder
+				: null;
 		})
 	);
+}
+
+/**
+ * После подтверждения составного маркера на документе допускает пробел между
+ * его структурной и ответной частями (`=+ответ` и `= +ответ`). Раздельная
+ * запись сама не участвует в выборе маркера и потому не может его подтвердить.
+ */
+function applySeparatedCompoundMarker(
+	questions: RawQuestion[],
+	marked: boolean[][],
+	ambiguous: number[],
+	symbolPrefix: string | null
+): void {
+	if (!symbolPrefix) return;
+	const ambiguousSet = new Set(ambiguous);
+	questions.forEach((question, questionIndex) => {
+		if (ambiguousSet.has(questionIndex)) return;
+		question.options.forEach((option, optionIndex) => {
+			if (
+				!option.structuralPrefix ||
+				option.sourcePrefix !== option.structuralPrefix ||
+				!symbolPrefix.startsWith(option.structuralPrefix)
+			) {
+				return;
+			}
+			const remainder = symbolPrefix.slice(option.structuralPrefix.length);
+			if (remainder !== '' && option.texts[0]?.startsWith(remainder)) {
+				marked[questionIndex][optionIndex] = true;
+			}
+		});
+	});
 }
 
 /**
@@ -347,7 +385,17 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 			.map(({ localIndex }) => localIndex);
 		const global = resolveGlobalAnswerMarker(globalQuestions, evaluationIndices);
 		if (global.confirmed) {
-			const globalConsumedPrefixes = consumedSymbolPrefixes(globalQuestions, global.symbolPrefix);
+			applySeparatedCompoundMarker(
+				globalQuestions,
+				global.marked,
+				global.ambiguous,
+				global.symbolPrefix
+			);
+			const globalConsumedPrefixes = consumedSymbolPrefixes(
+				globalQuestions,
+				global.symbolPrefix,
+				global.marked
+			);
 			globalIndices.forEach((questionIndex, localIndex) => {
 				marked[questionIndex] = global.marked[localIndex];
 				consumedTextPrefixes[questionIndex] = globalConsumedPrefixes[localIndex].map(

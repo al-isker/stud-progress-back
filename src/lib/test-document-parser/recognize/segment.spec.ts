@@ -149,6 +149,47 @@ describe('document-level option syntax', () => {
 		]);
 	});
 
+	test('allows whitespace inside a confirmed compound correctness marker', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=+correct 1'], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=+correct 2'], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=wrong 1'], ['=wrong 2'], ['= +correct 3']])
+		]);
+		const marker = resolveAnswerMarker(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(questions[2].options[2]).toMatchObject({
+			sourcePrefix: '=',
+			structuralPrefix: '=',
+			texts: ['+correct 3']
+		});
+		expect(marker.marked[2]).toEqual([false, false, true]);
+		expect(marker.consumedTextPrefixes[2]).toEqual([null, null, '+']);
+
+		const result = assembleTestDocument(
+			questions,
+			marker.marked,
+			new Set(marker.ambiguous),
+			marker.consumedTextPrefixes
+		);
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(choiceQuestion(result.document.questions[2]).options[2]).toEqual({
+			index: 3,
+			text: 'correct 3',
+			isCorrect: true
+		});
+	});
+
+	test('does not infer a compound marker only from its whitespace-separated form', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['= +correct 1'], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['= +correct 2'], ['=wrong 2']])
+		]);
+
+		expect(resolveAnswerMarker(questions)).toEqual({ confirmed: false });
+	});
+
 	test('confirms an answer marker present in a strict majority of questions', () => {
 		const questions = segment([
 			...bracketQuestion('Question 1', [['=+correct'], ['=wrong 1'], ['=wrong 2']]),
