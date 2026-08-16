@@ -23,14 +23,30 @@ export type MarkerResult =
 	  }
 	| { confirmed: false };
 
-type GlobalMarkerResult =
-	| {
-			confirmed: true;
-			marked: boolean[][];
-			ambiguous: number[];
-			symbolPrefix: string | null;
-	  }
-	| { confirmed: false };
+/** Один подтверждаемый документный способ выделения правильного варианта. */
+export type AnswerMarkerSignal =
+	| { kind: 'symbol'; prefix: string }
+	| { kind: 'highlight'; floor: number }
+	| { kind: 'bold'; threshold: number }
+	| { kind: 'italic'; threshold: number }
+	| { kind: 'color'; value: string };
+
+/**
+ * Документный профиль правильного ответа. Несколько сигналов означают, что
+ * ведущие признаки по-разному размечают хотя бы один вопрос; при применении
+ * профиль требует их согласия для конкретного вопроса.
+ */
+export interface AnswerMarkerProfile {
+	signals: AnswerMarkerSignal[];
+	/** Подтверждённый символьный префикс, который можно удалить из текста. */
+	symbolPrefix: string | null;
+}
+
+export interface AppliedAnswerMarker {
+	marked: boolean[];
+	ambiguous: boolean;
+	consumedTextPrefixes: (string | null)[];
+}
 
 /** Ровно половины недостаточно: формат подтверждает только строгое большинство. */
 const hasStrictMajority = (count: number, total: number) => count > total / 2;
@@ -112,8 +128,7 @@ function markByRelativeScore(
  */
 interface Candidate {
 	sets: boolean[][];
-	/** Символьный маркер для кандидата; null у визуальных признаков. */
-	symbolPrefix: string | null;
+	signal: AnswerMarkerSignal;
 	/** Число вопросов, где признак различает ответ (помечено 1..n-1 вариантов). */
 	coverage: number;
 	/** Число вопросов, где признак присутствует (помечен хотя бы один вариант). */
@@ -125,7 +140,7 @@ interface Candidate {
 function toCandidate(
 	sets: boolean[][],
 	evaluationIndices: number[],
-	symbolPrefix: string | null = null
+	signal: AnswerMarkerSignal
 ): Candidate {
 	let coverage = 0;
 	let conforming = 0;
@@ -142,11 +157,29 @@ function toCandidate(
 
 	return {
 		sets,
-		symbolPrefix,
+		signal,
 		coverage,
 		conforming,
 		avgFraction: coverage > 0 ? fractionSum / coverage : 1
 	};
+}
+
+function markBySignal(styles: OptionStyle[][], signal: AnswerMarkerSignal): boolean[][] {
+	switch (signal.kind) {
+		case 'symbol':
+			return markByPredicate(
+				styles,
+				style => style.sourcePrefix !== null && style.sourcePrefix.startsWith(signal.prefix)
+			);
+		case 'highlight':
+			return markByRelativeScore(styles, style => style.highlight, signal.floor);
+		case 'bold':
+			return markByPredicate(styles, style => style.bold >= signal.threshold);
+		case 'italic':
+			return markByPredicate(styles, style => style.italic >= signal.threshold);
+		case 'color':
+			return markByPredicate(styles, style => style.color === signal.value);
+	}
 }
 
 const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('');
@@ -171,12 +204,12 @@ const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('
  * помечены все варианты — значит, все и верны; не помечен ни один — вопрос
  * будет отклонён с причиной `NO_ANSWER_MARKER`.
  */
-function resolveGlobalAnswerMarker(
+export function inferAnswerMarkerProfile(
 	questions: RawQuestion[],
 	evaluationIndices: number[]
-): GlobalMarkerResult {
+): AnswerMarkerProfile | null {
 	const styles = questions.map(q => q.options.map(styleOf));
-	if (styles.length === 0 || evaluationIndices.length === 0) return { confirmed: false };
+	if (styles.length === 0 || evaluationIndices.length === 0) return null;
 
 	const symbolPrefixes = new Set<string>();
 	const colors = new Set<string>();
@@ -189,45 +222,24 @@ function resolveGlobalAnswerMarker(
 	}
 
 	const candidates: Candidate[] = [];
-	for (const symbolPrefix of symbolPrefixes)
-		candidates.push(
-			toCandidate(
-				markByPredicate(
-					styles,
-					s => s.sourcePrefix !== null && s.sourcePrefix.startsWith(symbolPrefix)
-				),
-				evaluationIndices,
-				symbolPrefix
-			)
-		);
-	candidates.push(
-		toCandidate(
-			markByRelativeScore(styles, s => s.highlight, 0.08),
-			evaluationIndices
-		)
-	);
-	candidates.push(
-		toCandidate(
-			markByPredicate(styles, s => s.bold >= 0.55),
-			evaluationIndices
-		)
-	);
-	candidates.push(
-		toCandidate(
-			markByPredicate(styles, s => s.italic >= 0.55),
-			evaluationIndices
-		)
-	);
-	for (const color of colors)
-		candidates.push(
-			toCandidate(
-				markByPredicate(styles, s => s.color === color),
-				evaluationIndices
-			)
-		);
+	for (const symbolPrefix of symbolPrefixes) {
+		const signal: AnswerMarkerSignal = { kind: 'symbol', prefix: symbolPrefix };
+		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
+	}
+	for (const signal of [
+		{ kind: 'highlight', floor: 0.08 },
+		{ kind: 'bold', threshold: 0.55 },
+		{ kind: 'italic', threshold: 0.55 }
+	] satisfies AnswerMarkerSignal[]) {
+		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
+	}
+	for (const color of colors) {
+		const signal: AnswerMarkerSignal = { kind: 'color', value: color };
+		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
+	}
 
 	const usable = candidates.filter(c => c.coverage >= 1 && c.avgFraction <= 0.5);
-	if (usable.length === 0) return { confirmed: false };
+	if (usable.length === 0) return null;
 
 	// Настоящий маркер различает больше всего вопросов; шумовые признаки,
 	// зацепившие один-два варианта, отсеиваются.
@@ -236,31 +248,29 @@ function resolveGlobalAnswerMarker(
 
 	// Формат подтверждён, только если победитель присутствует в большинстве вопросов.
 	const bestConforming = Math.max(...top.map(c => c.conforming));
-	if (!hasStrictMajority(bestConforming, evaluationIndices.length)) return { confirmed: false };
+	if (!hasStrictMajority(bestConforming, evaluationIndices.length)) return null;
 
 	// Признаки с одинаковой разметкой не конфликтуют — группируем по ней.
 	const signature = (sets: boolean[][]) => sets.map(questionSignature).join(';');
-	const variants: boolean[][][] = [];
+	const variants: Candidate[] = [];
 	const seen = new Set<string>();
 	for (const c of top) {
 		const key = signature(c.sets);
 		if (!seen.has(key)) {
 			seen.add(key);
-			variants.push(c.sets);
+			variants.push(c);
 		}
 	}
 
 	// Где ведущие признаки согласны — берём их разметку как есть (включая «все
 	// верны»); где расходятся — вопрос неоднозначен и остаётся без пометок.
 	const marked: boolean[][] = [];
-	const ambiguous: number[] = [];
 	for (let qi = 0; qi < styles.length; qi++) {
-		const distinct = new Set(variants.map(v => questionSignature(v[qi])));
+		const distinct = new Set(variants.map(variant => questionSignature(variant.sets[qi])));
 		if (distinct.size === 1) {
-			marked.push(variants[0][qi]);
+			marked.push(variants[0].sets[qi]);
 		} else {
 			marked.push(styles[qi].map(() => false));
-			ambiguous.push(qi);
 		}
 	}
 
@@ -268,83 +278,87 @@ function resolveGlobalAnswerMarker(
 	// визуальному признаку. Удаляем его из текста, если он подтверждён на нужной
 	// доле вопросов и нигде не противоречит итоговой разметке.
 	const compatibleSymbolCandidates = usable
-		.filter((candidate): candidate is Candidate & { symbolPrefix: string } => {
-			if (!candidate.symbolPrefix) return false;
-			if (!hasStrictMajority(candidate.conforming, evaluationIndices.length)) return false;
+		.filter(
+			(candidate): candidate is Candidate & { signal: { kind: 'symbol'; prefix: string } } => {
+				if (candidate.signal.kind !== 'symbol') return false;
+				if (!hasStrictMajority(candidate.conforming, evaluationIndices.length)) return false;
 
-			return candidate.sets.every((question, questionIndex) =>
-				question.every((isMarked, optionIndex) => !isMarked || marked[questionIndex][optionIndex])
-			);
-		})
+				return candidate.sets.every((question, questionIndex) =>
+					question.every((isMarked, optionIndex) => !isMarked || marked[questionIndex][optionIndex])
+				);
+			}
+		)
 		.sort(
 			(a, b) =>
 				b.coverage - a.coverage ||
-				a.symbolPrefix.length - b.symbolPrefix.length ||
-				a.symbolPrefix.localeCompare(b.symbolPrefix)
+				a.signal.prefix.length - b.signal.prefix.length ||
+				a.signal.prefix.localeCompare(b.signal.prefix)
 		);
-	const symbolPrefix = compatibleSymbolCandidates[0]?.symbolPrefix ?? null;
+	const symbolPrefix = compatibleSymbolCandidates[0]?.signal.prefix ?? null;
 
-	return { confirmed: true, marked, ambiguous, symbolPrefix };
+	return { signals: variants.map(candidate => candidate.signal), symbolPrefix };
 }
 
-function consumedSymbolPrefixes(
-	questions: RawQuestion[],
-	symbolPrefix: string | null,
-	marked: boolean[][]
-): (string | null)[][] {
-	return questions.map((question, questionIndex) =>
-		question.options.map((option, optionIndex) => {
-			if (
-				!marked[questionIndex][optionIndex] ||
-				!symbolPrefix ||
-				!option.structuralPrefix ||
-				!symbolPrefix.startsWith(option.structuralPrefix)
-			) {
-				return null;
-			}
-
-			const remainder = symbolPrefix.slice(option.structuralPrefix.length);
-			const contiguous = option.sourcePrefix?.startsWith(symbolPrefix);
-			const separatedByWhitespace = option.sourcePrefix === option.structuralPrefix;
-
-			return remainder !== '' &&
-				(contiguous || separatedByWhitespace) &&
-				option.texts[0]?.startsWith(remainder)
-				? remainder
-				: null;
-		})
-	);
-}
-
-/**
- * После подтверждения составного маркера на документе допускает пробел между
- * его структурной и ответной частями (`=+ответ` и `= +ответ`). Раздельная
- * запись сама не участвует в выборе маркера и потому не может его подтвердить.
- */
-function applySeparatedCompoundMarker(
-	questions: RawQuestion[],
-	marked: boolean[][],
-	ambiguous: number[],
+function confirmedSymbolMarker(
+	option: RawOption,
 	symbolPrefix: string | null
-): void {
-	if (!symbolPrefix) return;
-	const ambiguousSet = new Set(ambiguous);
-	questions.forEach((question, questionIndex) => {
-		if (ambiguousSet.has(questionIndex)) return;
-		question.options.forEach((option, optionIndex) => {
-			if (
-				!option.structuralPrefix ||
-				option.sourcePrefix !== option.structuralPrefix ||
-				!symbolPrefix.startsWith(option.structuralPrefix)
-			) {
-				return;
-			}
-			const remainder = symbolPrefix.slice(option.structuralPrefix.length);
-			if (remainder !== '' && option.texts[0]?.startsWith(remainder)) {
-				marked[questionIndex][optionIndex] = true;
-			}
-		});
+): { matches: boolean; consumedTextPrefix: string | null } {
+	if (
+		!symbolPrefix ||
+		!option.structuralPrefix ||
+		!symbolPrefix.startsWith(option.structuralPrefix)
+	) {
+		return { matches: false, consumedTextPrefix: null };
+	}
+
+	const remainder = symbolPrefix.slice(option.structuralPrefix.length);
+	const contiguous = option.sourcePrefix?.startsWith(symbolPrefix) ?? false;
+	// Раздельная запись сама профиль не подтверждает. После подтверждения
+	// `=+answer` и `= +answer` являются одной формой составного маркера.
+	const separatedByWhitespace =
+		remainder !== '' &&
+		option.sourcePrefix === option.structuralPrefix &&
+		option.texts[0]?.startsWith(remainder);
+	const matches = contiguous || separatedByWhitespace;
+
+	return {
+		matches,
+		consumedTextPrefix:
+			matches && remainder !== '' && option.texts[0]?.startsWith(remainder) ? remainder : null
+	};
+}
+
+/** Применяет уже зафиксированный профиль, ничего заново не выбирая. */
+export function applyAnswerMarkerProfile(
+	question: RawQuestion,
+	profile: AnswerMarkerProfile
+): AppliedAnswerMarker {
+	const styles = [question.options.map(styleOf)];
+	const variants = profile.signals.map(signal => markBySignal(styles, signal)[0]);
+	const distinct = new Set(variants.map(questionSignature));
+	if (distinct.size !== 1) {
+		return {
+			marked: question.options.map(() => false),
+			ambiguous: true,
+			consumedTextPrefixes: question.options.map(() => null)
+		};
+	}
+
+	const marked = [...variants[0]];
+	const confirmedSymbols = question.options.map(option =>
+		confirmedSymbolMarker(option, profile.symbolPrefix)
+	);
+	confirmedSymbols.forEach((symbol, optionIndex) => {
+		if (symbol.matches) marked[optionIndex] = true;
 	});
+
+	return {
+		marked,
+		ambiguous: false,
+		consumedTextPrefixes: confirmedSymbols.map((symbol, optionIndex) =>
+			marked[optionIndex] ? symbol.consumedTextPrefix : null
+		)
+	};
 }
 
 /**
@@ -383,22 +397,14 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 			.map((questionIndex, localIndex) => ({ questionIndex, localIndex }))
 			.filter(({ questionIndex }) => !matchingCandidates[questionIndex])
 			.map(({ localIndex }) => localIndex);
-		const global = resolveGlobalAnswerMarker(globalQuestions, evaluationIndices);
-		if (global.confirmed) {
-			applySeparatedCompoundMarker(
-				globalQuestions,
-				global.marked,
-				global.ambiguous,
-				global.symbolPrefix
-			);
-			const globalConsumedPrefixes = consumedSymbolPrefixes(
-				globalQuestions,
-				global.symbolPrefix,
-				global.marked
+		const globalProfile = inferAnswerMarkerProfile(globalQuestions, evaluationIndices);
+		if (globalProfile) {
+			const applied = globalQuestions.map(question =>
+				applyAnswerMarkerProfile(question, globalProfile)
 			);
 			globalIndices.forEach((questionIndex, localIndex) => {
-				marked[questionIndex] = global.marked[localIndex];
-				consumedTextPrefixes[questionIndex] = globalConsumedPrefixes[localIndex].map(
+				marked[questionIndex] = applied[localIndex].marked;
+				consumedTextPrefixes[questionIndex] = applied[localIndex].consumedTextPrefixes.map(
 					(prefix, optionIndex) => {
 						const percentagePrefix = consumedTextPrefixes[questionIndex][optionIndex];
 						if (!prefix) return percentagePrefix;
@@ -408,8 +414,8 @@ export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
 					}
 				);
 				resolved[questionIndex] = true;
+				if (applied[localIndex].ambiguous) ambiguous.push(questionIndex);
 			});
-			ambiguous.push(...global.ambiguous.map(localIndex => globalIndices[localIndex]));
 		}
 	}
 
