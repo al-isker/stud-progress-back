@@ -259,38 +259,6 @@
 				]
 			},
 			{
-				"index": 9,
-				"text": "Какие аминокислоты, входящие в активный центр фермента, меняют заряд при изменении рН среды?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глутамат;",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "лейцин;",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "фенилаланин;",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "лизин;",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "глицин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 10,
 				"text": "Если субстрат имеет положительный заряд, то для формирования фермент-субстратного комплекса необходимо наличие в активном центре аминокислот:",
 				"type": "single",
@@ -478,38 +446,6 @@
 					{
 						"index": 5,
 						"text": "неактивная форма фермента",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 16,
-				"text": "Ретроингибирование - это:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "денатурация фермента",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "восстановление нативной структуры фермента",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "снижение активности фермента, катализирующего первую реакцию, под действием конечного продукта цепи реакции",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "повышение активности фермента, вызванное действием гормонов по принципу обратной связи",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "регуляция активности ферментов по принципу обратной связи",
 						"isCorrect": true
 					}
 				]
@@ -767,38 +703,6 @@
 						"index": 5,
 						"text": "- + -",
 						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 25,
-				"text": "У грудных детей в желудке происходит расщепление:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "жиров, находящихся в эмульгированном состоянии",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "липидов молока",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "углеводов",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "все неверно",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "витамина роста",
-						"isCorrect": false
 					}
 				]
 			},
@@ -1306,38 +1210,6 @@
 						"index": 5,
 						"text": "нуклеиновые кислоты",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 42,
-				"text": "Какие из перечисленных веществ содержат простетическую группу:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "нуклеиновые кислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "простые белки",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "витамины",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "сложные белки",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "холоферменты",
-						"isCorrect": true
 					}
 				]
 			},
@@ -2870,141 +2742,6 @@
 				]
 			},
 			{
-				"index": 92,
-				"text": "Какие из перечисленных аминокислот являются серосодержащими",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "серин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "цистеин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "гистидин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "метионин",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 93,
-				"text": "Какие из перечисленных аминокислот являются оксиаминокислотами",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "тирозин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "серин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "цистеин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "гистидин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 94,
-				"text": "Какие из перечисленных аминокислот являются циклическими",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "тирозин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "гистидин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "цистеин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "валин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 95,
-				"text": "Какие из перечисленных аминокислот имеют гидроксильную группу",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "триптофан",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "метионин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "треонин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "серин",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 96,
-				"text": "Какие из перечисленных аминокислот являются оксиаминокислотами",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "треонин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "метионин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "глицин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "серин",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 97,
 				"text": "Какие из перечисленных аминокислот являются циклическими",
 				"type": "single",
@@ -3033,97 +2770,6 @@
 						"index": 5,
 						"text": "лизин",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 98,
-				"text": "Какие из перечисленных аминокислот являются серосодержащими",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "цистин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "аргинин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "валин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "цистеин",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 99,
-				"text": "Какие из перечисленных аминокислот являются диаминомонокарбоновыми",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глутамат",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "аргинин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "валин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "цистеин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "лизин",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 100,
-				"text": "Какие из перечисленных аминокислот являются моноаминодикарбоновыми",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глутамат",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "аргинин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "валин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "цистеин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "аспарагиновая кислота",
-						"isCorrect": true
 					}
 				]
 			},
@@ -3273,33 +2919,6 @@
 					{
 						"index": 5,
 						"text": "минеральные вещества",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 106,
-				"text": "Ферментами, гидролизующими белки в желудке, являются",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "трипсин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "пепсин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "ренин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "химотрипсин",
 						"isCorrect": false
 					}
 				]
@@ -4253,6 +3872,71 @@
 	},
 	"issues": {
 		"rejectedQuestions": [
+			{
+				"index": 9,
+				"text": "Какие аминокислоты, входящие в активный центр фермента, меняют заряд при изменении рН среды?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 16,
+				"text": "Ретроингибирование - это:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 25,
+				"text": "У грудных детей в желудке происходит расщепление:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 42,
+				"text": "Какие из перечисленных веществ содержат простетическую группу:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 92,
+				"text": "Какие из перечисленных аминокислот являются серосодержащими",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 93,
+				"text": "Какие из перечисленных аминокислот являются оксиаминокислотами",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 94,
+				"text": "Какие из перечисленных аминокислот являются циклическими",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 95,
+				"text": "Какие из перечисленных аминокислот имеют гидроксильную группу",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 96,
+				"text": "Какие из перечисленных аминокислот являются оксиаминокислотами",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 98,
+				"text": "Какие из перечисленных аминокислот являются серосодержащими",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 99,
+				"text": "Какие из перечисленных аминокислот являются диаминомонокарбоновыми",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 100,
+				"text": "Какие из перечисленных аминокислот являются моноаминодикарбоновыми",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 106,
+				"text": "Ферментами, гидролизующими белки в желудке, являются",
+				"reason": "MALFORMED_STRUCTURE"
+			},
 			{
 				"index": 125,
 				"text": "В образовании 2-3-4 структуры белков не участвуют пептидные связи, потому что белки построены только из альфа-аминокислот {",

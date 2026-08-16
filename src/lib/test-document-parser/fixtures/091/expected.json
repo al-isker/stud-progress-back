@@ -3611,6 +3611,38 @@
 				]
 			},
 			{
+				"index": 121,
+				"text": "Что включает в себя классическая триада симптомов острого гломерулонефрита",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "~%50% отеки",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "одышка",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "гипертония",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "гематурия",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "сердцебиение",
+						"isCorrect": false
+					}
+				]
+			},
+			{
 				"index": 122,
 				"text": "Клиническими проявлениями facies nefritica являются",
 				"type": "multiple",
@@ -4314,11 +4346,6 @@
 			{
 				"index": 120,
 				"text": "Значение уровня определения креатинина в моче заключается в том, что:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 121,
-				"text": "Что включает в себя классическая триада симптомов острого гломерулонефрита",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{

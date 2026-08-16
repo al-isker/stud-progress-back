@@ -62,38 +62,6 @@
 				]
 			},
 			{
-				"index": 3,
-				"text": "В каких реакциях ФАД является акцептором водорода:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "изоцитрат---- альфакетоглутарат",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "альфакетоглутарат---- сукцинил СоА",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "сукцинат---- фумарат",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "малат---- ЩУК",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все верно",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 4,
 				"text": "Сколько АТФ образуется при окислительном декарбоксилировании пировиногр. кислоты:",
 				"type": "single",
@@ -510,38 +478,6 @@
 				]
 			},
 			{
-				"index": 17,
-				"text": "Какие витамины участвуют в реакции \"альфа-кетоглутарат----сукцинилКоА\"",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "В1",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "В2",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "С",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "РР",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "В6",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 18,
 				"text": "Какой витамин участвует в реакции \"сукцинат----фумарат\"",
 				"type": "single",
@@ -606,38 +542,6 @@
 				]
 			},
 			{
-				"index": 20,
-				"text": "Какие реакции цикла Кребса будут нарушены при дефиците витамина РР",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "изоцитрат----альфа-кетоглутарат",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "альфа-кетоглутарат----сукцинилКоА",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "сукцинат----фумарат",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "малат---ЩУК",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "изоцитрат----цисаконитат",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 21,
 				"text": "Какие реакции цикла Кребса будут нарушены при дефиците витамина В1:",
 				"type": "single",
@@ -665,70 +569,6 @@
 					{
 						"index": 5,
 						"text": "изоцитрат----цисаконитат",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 22,
-				"text": "Какие реакции цикла Кребса будут нарушены при дефиците витамина В2:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "изоцитрат----альфа-кетоглутарат",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "альфа-кетоглутарат----сукцинилКоА",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "сукцинат----фумарат",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "малат---ЩУК",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "изоцитрат----цисаконитат",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 23,
-				"text": "Какие витамины участвуют в окислительном декарбоксилировании пировиноградной кислоты:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "В1",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "В2",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "РР",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "С",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "D",
 						"isCorrect": false
 					}
 				]
@@ -794,38 +634,6 @@
 						"index": 5,
 						"text": "0",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 26,
-				"text": "Какие акцепторы водорода участвуют в окислительном декарбоксилировании альфа-кетоглутарата:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "НАД",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "НАДФ",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "ФАД",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ФМН",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "липоат",
-						"isCorrect": true
 					}
 				]
 			},
@@ -1022,70 +830,6 @@
 				]
 			},
 			{
-				"index": 33,
-				"text": "Глюконеогенез может осуществляться из:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "лейцин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "пируват",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "альфа-кетоглутарат",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "аспартат",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "все верно",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 34,
-				"text": "Какие вещества в цикле Кребса декарбоксилируются:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "цитрат",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "изоцитрат",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "альфа-кетоглутарат",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "сукцинилКоА",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "ЩУК",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 35,
 				"text": "Пировиноградная кислота в аэробных условиях превращается в ацетилКоА, потому что водород от цитоплазматического НАНД2 уходит в дыхательную цепь.",
 				"type": "single",
@@ -1113,38 +857,6 @@
 					{
 						"index": 5,
 						"text": "- - +",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 36,
-				"text": "Мозг больного сахарным диабетом значительную часть энергии получает при окислении",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глюкозы",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "ацетоуксусной кислоты",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "аминоянтарной кислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "жирных кислот",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "ацетона",
 						"isCorrect": false
 					}
 				]
@@ -1209,70 +921,6 @@
 					{
 						"index": 5,
 						"text": "защитная",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 39,
-				"text": "В ЖКТ человека перевариваются все углеводы, кроме:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "крахмал",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "сахароза",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "целлюлоза",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "лактоза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "клетчатка",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 40,
-				"text": "Субстратами для действия амилазы являются:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "крахмал",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "сахароза",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "гликоген",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "целлюлоза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "гиалуроновая кислота",
 						"isCorrect": false
 					}
 				]
@@ -1534,38 +1182,6 @@
 				]
 			},
 			{
-				"index": 50,
-				"text": "Какие ферменты переваривают дисахариды в кишечнике:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "сахараза",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "мальтаза",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "лактаза",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "амилаза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "фосфорилаза",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 51,
 				"text": "Какие ферменты вырабатываются в поджелудочной железе:",
 				"type": "single",
@@ -1625,38 +1241,6 @@
 					{
 						"index": 5,
 						"text": "лактаза",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 53,
-				"text": "Какие связи в гликогене:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "альфа-1-4-гликозидные",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "бетта-1-4-гликозидные",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "альфа-1-6-гликозидные",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "бетта-1-6-гликозидные",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "альфа-1-2-гликозидные",
 						"isCorrect": false
 					}
 				]
@@ -1753,102 +1337,6 @@
 					{
 						"index": 5,
 						"text": "ацетил СоА",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 57,
-				"text": "Какие из перечисленных реакций гликолиза необратимы:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гексокиназная",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "гексозоизомеразная",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "фосфофруктокиназная",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "альдолазная",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "триозофосфатизомеразная",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 58,
-				"text": "В каких реакциях гликолиза выделяется энергия:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "фосфоглицераткиназная",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "лактатдегидрогеназная",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "пируваткиназная",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "гексокиназная реакция",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "альдолазная",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 59,
-				"text": "Какие субстраты гликолиза подвергаются фосфорилированию:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "фруктоза-1,6-дифосфат",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "фруктозо-6-Ф",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "глюкозо-6-Ф",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "глюкоза",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "3-Ф-глицерат",
 						"isCorrect": false
 					}
 				]
@@ -1982,38 +1470,6 @@
 				]
 			},
 			{
-				"index": 64,
-				"text": "Конечным продуктом гликогенолиза является:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пируват",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "молочная кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "ацетил СоА",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "лактат",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "этанол",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 65,
 				"text": "При анаэробном гликолизе акцептором водорода является",
 				"type": "single",
@@ -2041,70 +1497,6 @@
 					{
 						"index": 5,
 						"text": "2-Ф-глицерат",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 66,
-				"text": "В гликолитической оксидоредукции участвуют ферменты:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ЛДГ",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "пируваткиназа",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "ДГ-3-Ф-глицеральдегида",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "альдолаза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "гексокиназа",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 67,
-				"text": "Какие субстраты участвуют в гликолитической оксидоредукции:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "все неверно",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "3-Ф-глицеральдегид",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "цитрат",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "пируват",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "фруктозо-1-6-диФ",
 						"isCorrect": false
 					}
 				]
@@ -2298,38 +1690,6 @@
 						"index": 5,
 						"text": "лактаза",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 74,
-				"text": "Какие ферменты переваривают дисахариды в ЖКТ человека:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "амилаза",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "мальтаза",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "все верно",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "альфа-1-6-гликозидаза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "лактаза",
-						"isCorrect": true
 					}
 				]
 			},
@@ -2686,38 +2046,6 @@
 				]
 			},
 			{
-				"index": 86,
-				"text": "Что характерно для гликолиза",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "протекает с участием кислорода",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "локализован в цитоплазме",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "образуется 2 АТФ",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "локализован в митохондриях",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "образуется 38 АТФ",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 87,
 				"text": "В пентозном цикле окисляются:",
 				"type": "single",
@@ -2778,38 +2106,6 @@
 						"index": 5,
 						"text": "КоА",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 89,
-				"text": "В окислительных реакциях пентозного цикла участвуют ферменты:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "сукцинат ДГ",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "глюкозо-6-Ф-ДГ",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "малат ДГ",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "глицеральдегид ДГ",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "6-Ф-глюконат ДГ",
-						"isCorrect": true
 					}
 				]
 			},
@@ -3198,38 +2494,6 @@
 				]
 			},
 			{
-				"index": 102,
-				"text": "Общие продукты ПФП и гликолиза - это:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "фруктозо-6-фосфат",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "эритрозо-4-фосфат",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "рибозо-5-фосфат",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "глицеринальдегид-3-фосфат",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "все неверно",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 103,
 				"text": "Связующим звеном между ПФП и гликолизом является образование:",
 				"type": "single",
@@ -3386,38 +2650,6 @@
 						"index": 5,
 						"text": "альдостерон",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 108,
-				"text": "Какой гормон повышает содержание глюкозы в крови:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глюкагон",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "инсулин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "альдостерон",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "адреналин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "кортизол",
-						"isCorrect": true
 					}
 				]
 			},
@@ -3676,111 +2908,150 @@
 						"isCorrect": false
 					}
 				]
-			},
-			{
-				"index": 117,
-				"text": "У больного нормальное содержание глюкозы в крови, это:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "3,5 мМ/л глюкозы",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "2,4 мМ/л",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "4,5 мМ/л",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "3,0 мМ/л",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "24,5 мг%",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 118,
-				"text": "У больного гипогликемия, какому показателю уровня глюкозы в крови это соответствует",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "6,5 мМ/л глюкозы",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "2,4 мМ/л",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "3,7 мМ/л",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "80мг%",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "3,0 мМ/л",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 119,
-				"text": "Главные функции углеводов",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "запасные питательные вещества",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "наследственная",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "терморегуляции",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "энергетическая",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "биокаталитическая",
-						"isCorrect": false
-					}
-				]
 			}
 		]
 	},
 	"issues": {
 		"rejectedQuestions": [
 			{
+				"index": 3,
+				"text": "В каких реакциях ФАД является акцептором водорода:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 17,
+				"text": "Какие витамины участвуют в реакции \"альфа-кетоглутарат----сукцинилКоА\"",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 20,
+				"text": "Какие реакции цикла Кребса будут нарушены при дефиците витамина РР",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 22,
+				"text": "Какие реакции цикла Кребса будут нарушены при дефиците витамина В2:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 23,
+				"text": "Какие витамины участвуют в окислительном декарбоксилировании пировиноградной кислоты:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 26,
+				"text": "Какие акцепторы водорода участвуют в окислительном декарбоксилировании альфа-кетоглутарата:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 33,
+				"text": "Глюконеогенез может осуществляться из:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 34,
+				"text": "Какие вещества в цикле Кребса декарбоксилируются:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 36,
+				"text": "Мозг больного сахарным диабетом значительную часть энергии получает при окислении",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 39,
+				"text": "В ЖКТ человека перевариваются все углеводы, кроме:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 40,
+				"text": "Субстратами для действия амилазы являются:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 41,
 				"text": "При гидролизе сахарозы образуются:",
 				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 50,
+				"text": "Какие ферменты переваривают дисахариды в кишечнике:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 53,
+				"text": "Какие связи в гликогене:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 57,
+				"text": "Какие из перечисленных реакций гликолиза необратимы:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 58,
+				"text": "В каких реакциях гликолиза выделяется энергия:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 59,
+				"text": "Какие субстраты гликолиза подвергаются фосфорилированию:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 64,
+				"text": "Конечным продуктом гликогенолиза является:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 66,
+				"text": "В гликолитической оксидоредукции участвуют ферменты:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 67,
+				"text": "Какие субстраты участвуют в гликолитической оксидоредукции:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 74,
+				"text": "Какие ферменты переваривают дисахариды в ЖКТ человека:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 86,
+				"text": "Что характерно для гликолиза",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 89,
+				"text": "В окислительных реакциях пентозного цикла участвуют ферменты:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 102,
+				"text": "Общие продукты ПФП и гликолиза - это:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 108,
+				"text": "Какой гормон повышает содержание глюкозы в крови:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 117,
+				"text": "У больного нормальное содержание глюкозы в крови, это:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 118,
+				"text": "У больного гипогликемия, какому показателю уровня глюкозы в крови это соответствует",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 119,
+				"text": "Главные функции углеводов",
+				"reason": "MALFORMED_STRUCTURE"
 			}
 		]
 	}

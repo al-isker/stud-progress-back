@@ -1778,21 +1778,69 @@
 						"isCorrect": true
 					}
 				]
-			}
-		]
-	},
-	"issues": {
-		"rejectedQuestions": [
+			},
 			{
 				"index": 62,
 				"text": "Для кормление пациента через назогастральный зонд необходимо",
-				"reason": "MALFORMED_STRUCTURE"
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "~лоток;",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "~чистые перчатки;",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "~фонендоскоп;",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "~газоотводная трубка",
+						"isCorrect": false
+					}
+				]
 			},
 			{
 				"index": 63,
 				"text": "Действия при кормлении через зонд",
-				"reason": "MALFORMED_STRUCTURE"
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "~Помочь пациенту занять положение Фаулера",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "~Открепить зонд от одежды. Снять зажим (заглушку) с зонда. Присоединить воронку к зонду.",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "~Наливать в воронку приготовленную пищу малыми порциями, подогретую (38-40°C) по 150-200 мл 5-6 раз в день. .",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "~Промыть зонд теплой кипяченой водой через шприц Жане (50 мл",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "~Придать положение Симса",
+						"isCorrect": false
+					}
+				]
 			}
 		]
+	},
+	"issues": {
+		"rejectedQuestions": []
 	}
 }

@@ -478,38 +478,6 @@
 				]
 			},
 			{
-				"index": 16,
-				"text": "Укажите локализацию макроэргических связей в АТФ:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "между аденином и рибозой",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "рибозой и первым остатком фосфата",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "первым и вторым остатком фосфорной кислоты",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "третьим и вторым остатком фосфорной кислоты",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "углеродом и азотом в аденине",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 17,
 				"text": "В мышечной ткани при интенсивной работе высокое содержание КрФ, а АТФ низкое. Какая реакция нарушена:",
 				"type": "single",
@@ -1078,87 +1046,6 @@
 				]
 			},
 			{
-				"index": 38,
-				"text": "Выберите, что характерно для АТФ:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "является макроэргическим соединением",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "образуется в цепи переноса электронов",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "содержит одну макроэргическую связь",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "относится к нуклеозид дифосфатам",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 39,
-				"text": "Выберите, что характерно ГТФ:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "является макроэргическим соединением",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "является универсальным хранителем энергии",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "участвует в синтезе белков",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "может образовываться при окислительном фосфорилировании",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 40,
-				"text": "Выберите, что характерно для АТФ и ЦТФ:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "является универсальным хранителем энергии",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "может получать макроэргическую связь в нуклеозиддифосфаткиназной реакции",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "содержит две макроэргические связи",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "образуется в цепи переноса электронов",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 41,
 				"text": "Назовите соединения, с которыми АТФ вступает в реакцию, распадаясь по ортофосфатному пути:",
 				"type": "single",
@@ -1181,33 +1068,6 @@
 					{
 						"index": 4,
 						"text": "метионин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 42,
-				"text": "Назовите соединения с которыми АТФ вступает в реакцию, распадаясь по пирофосфатному пути: глицерин",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "стеариновая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "олеиновая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "фруктоза",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "глюкоза",
 						"isCorrect": false
 					}
 				]
@@ -1337,38 +1197,6 @@
 						"index": 5,
 						"text": "ничего из перечисленного",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 48,
-				"text": "Назовите подготовительную реакцию для образования структур, удобных для дегидрирования:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "дегидрирование",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гидратация",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "дегидратация",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "гидрирование",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "декарбоксилирование",
-						"isCorrect": true
 					}
 				]
 			},
@@ -1661,38 +1489,6 @@
 				]
 			},
 			{
-				"index": 59,
-				"text": "Пероксид водорода разлагают ферменты:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гидролиза",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гидратаза",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "каталаза",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "пероксидаза",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "пирофосфатаза",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 60,
 				"text": "Назовите витамин, входящий в состав НАД:",
 				"type": "single",
@@ -1849,65 +1645,6 @@
 						"index": 5,
 						"text": "НАДФ",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 66,
-				"text": "Назовите переносчики водорода в дыхательной цепи:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "НАД",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "ФАД",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "цитохром",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "цитохром а-три",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 67,
-				"text": "Назовите переносчики электронов в дыхательной цепи:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "НАД",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "ФАД",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "цитохром с",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "ФМН",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "цитохром а-три",
-						"isCorrect": true
 					}
 				]
 			},
@@ -2318,33 +2055,6 @@
 				]
 			},
 			{
-				"index": 81,
-				"text": "Выберите то, что характерно для микросомального окисления:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "основные ферменты - дегидрогеназы",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "участвует цитохром Р-450",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "актививрованный кислород внедряется в окисляемое вещество",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "совершается путем дегидрирования",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 82,
 				"text": "Сколько АТФ образует в дыхательной цепи, если в ней окисляется НАДН2:",
 				"type": "single",
@@ -2404,38 +2114,6 @@
 					{
 						"index": 5,
 						"text": "4",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 84,
-				"text": "Что характерно для окислительного фосфорилирования:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "образование АТФ за счет энергии макроэргического субстрата",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "происходит только митохондриях",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "может происходить в цитоплазме",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "может образоваться несколько молекул АТФ",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "может образоваться только одна молекула АТФ",
 						"isCorrect": false
 					}
 				]
@@ -2504,6 +2182,11 @@
 	"issues": {
 		"rejectedQuestions": [
 			{
+				"index": 16,
+				"text": "Укажите локализацию макроэргических связей в АТФ:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 21,
 				"text": "Укажите, что характерно для анаболизма",
 				"reason": "MALFORMED_STRUCTURE"
@@ -2514,8 +2197,33 @@
 				"reason": "NO_ANSWER_MARKER"
 			},
 			{
+				"index": 38,
+				"text": "Выберите, что характерно для АТФ:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 39,
+				"text": "Выберите, что характерно ГТФ:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 40,
+				"text": "Выберите, что характерно для АТФ и ЦТФ:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 42,
+				"text": "Назовите соединения с которыми АТФ вступает в реакцию, распадаясь по пирофосфатному пути: глицерин",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 47,
 				"text": "Ацетил-КоА является стартовым веществом для синтеза",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 48,
+				"text": "Назовите подготовительную реакцию для образования структур, удобных для дегидрирования:",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
@@ -2524,9 +2232,34 @@
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
+				"index": 59,
+				"text": "Пероксид водорода разлагают ферменты:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 65,
 				"text": "Назовите первичный акцептор водорода при окислении субстратов, имеющих структуру Н-С-NH2:",
 				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 66,
+				"text": "Назовите переносчики водорода в дыхательной цепи:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 67,
+				"text": "Назовите переносчики электронов в дыхательной цепи:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 81,
+				"text": "Выберите то, что характерно для микросомального окисления:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 84,
+				"text": "Что характерно для окислительного фосфорилирования:",
+				"reason": "MALFORMED_STRUCTURE"
 			}
 		]
 	}

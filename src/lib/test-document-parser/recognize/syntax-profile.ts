@@ -4,11 +4,8 @@ import {
 	applyAnswerMarkerProfile,
 	inferAnswerMarkerProfile
 } from './detect-marker';
-import {
-	hasMalformedPercentageSyntax,
-	percentageTextPrefixes,
-	resolvePercentageMarker
-} from './detect-percentage-marker';
+import { analyzePercentageSyntax, isOrdinaryEqualsQuestion } from './detect-percentage-marker';
+import type { PercentageSyntaxAnalysis } from './detect-percentage-marker';
 import { hasMatchingMarkerPattern, isMatchingCandidate } from './matching';
 import { DocumentStructureProfile, RawQuestion, SegmentedDocument } from './segment';
 
@@ -27,7 +24,11 @@ interface RecognizedBase {
 }
 
 export type QuestionSyntaxResult =
-	| (RecognizedBase & { kind: 'choice'; marked: boolean[] })
+	| (RecognizedBase & {
+			kind: 'choice';
+			grammar: 'document' | 'percentage';
+			marked: boolean[];
+	  })
 	| (RecognizedBase & { kind: 'matching' })
 	| (RecognizedBase & { kind: 'rejected'; reason: QuestionRejectionReason });
 
@@ -38,11 +39,16 @@ export interface RecognizedDocumentSyntax {
 
 const hasStrictMajority = (count: number, total: number) => count > total / 2;
 
-function longerPrefix(left: string | null, right: string | null): string | null {
-	if (!left) return right;
-	if (!right) return left;
-
-	return left.length >= right.length ? left : right;
+function canBeOrdinaryEqualsQuestion(
+	question: RawQuestion,
+	percentage: PercentageSyntaxAnalysis
+): boolean {
+	return (
+		percentage.kind === 'incomplete' &&
+		percentage.evidenceIndices.every(index =>
+			question.options[index].structuralPrefix?.startsWith('=')
+		)
+	);
 }
 
 /**
@@ -54,22 +60,18 @@ export function recognizeDocumentSyntax(
 	document: SegmentedDocument
 ): RecognizedDocumentSyntax | null {
 	const { questions } = document;
-	const malformedPercentage = questions.map(hasMalformedPercentageSyntax);
-	const answerableIndices = questions
-		.map((question, index) => ({ question, index }))
-		.filter(
-			({ question, index }) =>
-				!question.rejectionReason && !malformedPercentage[index] && question.options.length >= 2
-		)
-		.map(({ index }) => index);
-	if (answerableIndices.length === 0) return null;
-
-	const percentageResults = questions.map(resolvePercentageMarker);
+	const percentageSyntax = questions.map(analyzePercentageSyntax);
 	const matchingCandidates = questions.map(isMatchingCandidate);
-	const globalIndices = answerableIndices.filter(
-		questionIndex => !percentageResults[questionIndex].recognized
-	);
+	const globalIndices = questions.flatMap((question, questionIndex) => {
+		if (question.rejectionReason || question.options.length < 2) return [];
+		const percentage = percentageSyntax[questionIndex];
+
+		return percentage.kind === 'none' || canBeOrdinaryEqualsQuestion(question, percentage)
+			? [questionIndex]
+			: [];
+	});
 	const globalQuestions = globalIndices.map(questionIndex => questions[questionIndex]);
+	const globalIndexSet = new Set(globalIndices);
 	const evaluationIndices = globalIndices
 		.map((questionIndex, localIndex) => ({ questionIndex, localIndex }))
 		.filter(({ questionIndex }) => !matchingCandidates[questionIndex])
@@ -81,6 +83,21 @@ export function recognizeDocumentSyntax(
 			answerMarker ? applyAnswerMarkerProfile(globalQuestions[localIndex], answerMarker) : null
 		])
 	);
+	const ordinaryEqualsQuestions = questions.map((question, questionIndex) =>
+		isOrdinaryEqualsQuestion(question, percentageSyntax[questionIndex], answerMarker)
+	);
+
+	const answerableIndices = questions
+		.map((question, index) => ({ question, index }))
+		.filter(({ question, index }) => {
+			if (question.rejectionReason || question.options.length === 0) return false;
+			const percentage = percentageSyntax[index];
+			if (percentage.kind === 'resolved' || percentage.kind === 'unresolved') return true;
+
+			return globalIndexSet.has(index);
+		})
+		.map(({ index }) => index);
+	if (answerableIndices.length === 0) return null;
 
 	const syntaxResults: QuestionSyntaxResult[] = questions.map((question, questionIndex) => {
 		const emptyPrefixes = question.options.map(() => null);
@@ -91,11 +108,29 @@ export function recognizeDocumentSyntax(
 				consumedTextPrefixes: emptyPrefixes
 			};
 		}
-		if (malformedPercentage[questionIndex]) {
+
+		const percentage = percentageSyntax[questionIndex];
+		if (percentage.kind === 'resolved') {
+			return {
+				kind: 'choice',
+				grammar: 'percentage',
+				marked: percentage.marked,
+				consumedTextPrefixes: percentage.consumedTextPrefixes
+			};
+		}
+		if (percentage.kind === 'unresolved') {
+			return {
+				kind: 'rejected',
+				reason: QuestionRejectionReason.NO_ANSWER_MARKER,
+				consumedTextPrefixes: percentage.consumedTextPrefixes
+			};
+		}
+		const ordinaryEquals = ordinaryEqualsQuestions[questionIndex];
+		if (percentage.kind === 'incomplete' && !ordinaryEquals) {
 			return {
 				kind: 'rejected',
 				reason: QuestionRejectionReason.MALFORMED_STRUCTURE,
-				consumedTextPrefixes: percentageTextPrefixes(question)
+				consumedTextPrefixes: percentage.consumedTextPrefixes
 			};
 		}
 		if (question.options.length < 2) {
@@ -109,29 +144,8 @@ export function recognizeDocumentSyntax(
 			};
 		}
 
-		const percentage = percentageResults[questionIndex];
-		if (percentage.recognized) {
-			return percentage.resolved
-				? {
-						kind: 'choice',
-						marked: percentage.marked,
-						consumedTextPrefixes: percentage.consumedTextPrefixes
-					}
-				: {
-						kind: 'rejected',
-						reason: QuestionRejectionReason.NO_ANSWER_MARKER,
-						consumedTextPrefixes: percentageTextPrefixes(question)
-					};
-		}
-
 		const applied = appliedGlobal.get(questionIndex);
-		const percentagePrefixes = percentageTextPrefixes(question);
-		const consumedTextPrefixes = question.options.map((_, optionIndex) =>
-			longerPrefix(
-				percentagePrefixes[optionIndex],
-				applied?.consumedTextPrefixes[optionIndex] ?? null
-			)
-		);
+		const consumedTextPrefixes = applied?.consumedTextPrefixes ?? emptyPrefixes;
 		if (applied?.ambiguous) {
 			return {
 				kind: 'rejected',
@@ -151,7 +165,7 @@ export function recognizeDocumentSyntax(
 			};
 		}
 
-		return { kind: 'choice', marked, consumedTextPrefixes };
+		return { kind: 'choice', grammar: 'document', marked, consumedTextPrefixes };
 	});
 
 	const resolvedCount = answerableIndices.filter(questionIndex => {
@@ -166,7 +180,10 @@ export function recognizeDocumentSyntax(
 			structure: document.structure,
 			answerMarker,
 			localGrammars: {
-				percentage: percentageResults.some(result => result.recognized),
+				percentage: percentageSyntax.some(
+					(percentage, questionIndex) =>
+						percentage.kind !== 'none' && !ordinaryEqualsQuestions[questionIndex]
+				),
 				matching: matchingCandidates.some(Boolean)
 			}
 		},

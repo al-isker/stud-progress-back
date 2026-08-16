@@ -1,27 +1,4 @@
-import { percentageTextPrefixes, resolvePercentageMarker } from './detect-percentage-marker';
-import { hasMatchingMarkerPattern, isMatchingCandidate } from './matching';
 import { RawOption, RawQuestion } from './segment';
-
-/**
- * Итог поиска указателя ответа.
- *
- * `confirmed: true` — поддерживаемые стратегии совместно покрывают строгое
- * большинство вопросов. `marked` — разметка правильных вариантов,
- * `consumedTextPrefixes` — точные служебные префиксы, удаляемые из текста,
- * `ambiguous` — номера вопросов, где глобальные признаки разошлись.
- *
- * `confirmed: false` — поддерживаемые форматы не покрывают большинство;
- * парсер отклоняет документ целиком.
- */
-export type MarkerResult =
-	| {
-			confirmed: true;
-			marked: boolean[][];
-			matching: boolean[];
-			ambiguous: number[];
-			consumedTextPrefixes: (string | null)[][];
-	  }
-	| { confirmed: false };
 
 /** Один подтверждаемый документный способ выделения правильного варианта. */
 export type AnswerMarkerSignal =
@@ -54,7 +31,9 @@ const hasStrictMajority = (count: number, total: number) => count > total / 2;
 /** Агрегированные визуальные свойства варианта (по всем его строкам). */
 interface OptionStyle {
 	sourcePrefix: string | null;
+	structuralPrefix: string | null;
 	hasTextAfterSourcePrefix: boolean;
+	hasTextAfterStructuralPrefix: boolean;
 	highlight: number;
 	bold: number;
 	italic: number;
@@ -86,7 +65,9 @@ function styleOf(option: RawOption): OptionStyle {
 
 	return {
 		sourcePrefix: option.sourcePrefix,
+		structuralPrefix: option.structuralPrefix,
 		hasTextAfterSourcePrefix: option.hasTextAfterSourcePrefix,
+		hasTextAfterStructuralPrefix: option.texts.some(text => text.trim() !== ''),
 		highlight: width > 0 ? highlight / width : 0,
 		bold: width > 0 ? bold / width : 0,
 		italic: width > 0 ? italic / width : 0,
@@ -216,6 +197,9 @@ export function inferAnswerMarkerProfile(
 	for (const questionIndex of evaluationIndices) {
 		const qs = styles[questionIndex];
 		for (const s of qs) {
+			if (s.structuralPrefix && s.hasTextAfterStructuralPrefix) {
+				symbolPrefixes.add(s.structuralPrefix);
+			}
 			if (s.sourcePrefix && s.hasTextAfterSourcePrefix) symbolPrefixes.add(s.sourcePrefix);
 			if (s.color) colors.add(s.color);
 		}
@@ -359,80 +343,4 @@ export function applyAnswerMarkerProfile(
 			marked[optionIndex] ? symbol.consumedTextPrefix : null
 		)
 	};
-}
-
-/**
- * Кандидаты в matching не участвуют в выборе глобального маркера, но выбранный
- * по обычным вопросам маркер применяется и к ним. После этого matching
- * подтверждается только при состоянии ALL или NONE; состояние PARTIAL оставляет
- * вопрос обычным. Локальные процентные грамматики не участвуют в выборе
- * глобального признака.
- */
-export function resolveAnswerMarker(questions: RawQuestion[]): MarkerResult {
-	if (questions.length === 0) return { confirmed: false };
-
-	const percentageResults = questions.map(resolvePercentageMarker);
-	const matchingCandidates = questions.map(isMatchingCandidate);
-	const marked = questions.map(question => question.options.map(() => false));
-	const consumedTextPrefixes: (string | null)[][] = questions.map(percentageTextPrefixes);
-	const ambiguous: number[] = [];
-	const resolved = questions.map(() => false);
-
-	const globalIndices: number[] = [];
-	percentageResults.forEach((result, questionIndex) => {
-		if (!result.recognized) {
-			globalIndices.push(questionIndex);
-			return;
-		}
-		if (!result.resolved) return;
-
-		marked[questionIndex] = result.marked;
-		consumedTextPrefixes[questionIndex] = result.consumedTextPrefixes;
-		resolved[questionIndex] = true;
-	});
-
-	if (globalIndices.length > 0) {
-		const globalQuestions = globalIndices.map(index => questions[index]);
-		const evaluationIndices = globalIndices
-			.map((questionIndex, localIndex) => ({ questionIndex, localIndex }))
-			.filter(({ questionIndex }) => !matchingCandidates[questionIndex])
-			.map(({ localIndex }) => localIndex);
-		const globalProfile = inferAnswerMarkerProfile(globalQuestions, evaluationIndices);
-		if (globalProfile) {
-			const applied = globalQuestions.map(question =>
-				applyAnswerMarkerProfile(question, globalProfile)
-			);
-			globalIndices.forEach((questionIndex, localIndex) => {
-				marked[questionIndex] = applied[localIndex].marked;
-				consumedTextPrefixes[questionIndex] = applied[localIndex].consumedTextPrefixes.map(
-					(prefix, optionIndex) => {
-						const percentagePrefix = consumedTextPrefixes[questionIndex][optionIndex];
-						if (!prefix) return percentagePrefix;
-						if (!percentagePrefix) return prefix;
-
-						return prefix.length >= percentagePrefix.length ? prefix : percentagePrefix;
-					}
-				);
-				resolved[questionIndex] = true;
-				if (applied[localIndex].ambiguous) ambiguous.push(questionIndex);
-			});
-		}
-	}
-
-	const ambiguousSet = new Set(ambiguous);
-	const matching = questions.map(
-		(_, questionIndex) =>
-			matchingCandidates[questionIndex] &&
-			!ambiguousSet.has(questionIndex) &&
-			hasMatchingMarkerPattern(marked[questionIndex])
-	);
-	matching.forEach((isMatching, questionIndex) => {
-		if (isMatching) resolved[questionIndex] = true;
-	});
-
-	if (!hasStrictMajority(resolved.filter(Boolean).length, questions.length)) {
-		return { confirmed: false };
-	}
-
-	return { confirmed: true, marked, matching, ambiguous, consumedTextPrefixes };
 }

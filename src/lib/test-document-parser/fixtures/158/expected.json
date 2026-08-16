@@ -1155,6 +1155,38 @@
 				]
 			},
 			{
+				"index": 38,
+				"text": "В реализации функций адаптивного иммунитета принимают участие:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "Т-лимфоциты-хелперы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "%фибронектин",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "белки острой фазы",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "пропердин",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Т-лимфоциты киллеры.",
+						"isCorrect": true
+					}
+				]
+			},
+			{
 				"index": 39,
 				"text": "Комплемент:",
 				"type": "multiple",
@@ -1278,6 +1310,38 @@
 					{
 						"index": 5,
 						"text": "в печени.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 43,
+				"text": "Клетки врождённого иммунитета активируются с участием:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "гормонов",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "~рецепторов для маннозы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "скавенджер- рецепторов",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "Toll-подобных рецепторов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "АПК.",
 						"isCorrect": false
 					}
 				]
@@ -3139,6 +3203,38 @@
 				]
 			},
 			{
+				"index": 104,
+				"text": "Отмена супрессорного влияния Т-клеток:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "начинается с 37 недели гестации",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "начинается с 30 недели гестации",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "%33,33333%связана с повышением уровня ХГЧ",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "снижение уровня ИЛ-4",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "повышение уровня β-ТФР.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
 				"index": 105,
 				"text": "Следующие факторы стимулируют фагоцитоз:",
 				"type": "single",
@@ -3934,6 +4030,38 @@
 					{
 						"index": 5,
 						"text": "в миндалинах глоточного кольца.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 131,
+				"text": "К стадиям фагоцитоза относятся:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "образование фагосомы",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "образование фаголизосомы",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "% хемотаксис",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "дегрануляция",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "преципитация.",
 						"isCorrect": false
 					}
 				]
@@ -5214,6 +5342,38 @@
 					{
 						"index": 5,
 						"text": "подавляет иммунный ответ.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 172,
+				"text": "Интерфероны I типа:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "синтезируются лейкоцитами",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "оказывают непосредственное противовирусное действие",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "инициируют репликацию вирусов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "инициируют нарушение репликации вирусов",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "%являются белками с высокой молекулярной массой.",
 						"isCorrect": false
 					}
 				]
@@ -7175,16 +7335,6 @@
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
-				"index": 38,
-				"text": "В реализации функций адаптивного иммунитета принимают участие:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 43,
-				"text": "Клетки врождённого иммунитета активируются с участием:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
 				"index": 51,
 				"text": "Возможные пути активации комплемента:",
 				"reason": "MALFORMED_STRUCTURE"
@@ -7195,23 +7345,8 @@
 				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
-				"index": 104,
-				"text": "Отмена супрессорного влияния Т-клеток:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
 				"index": 129,
 				"text": "В-лимфоциты участвуют:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 131,
-				"text": "К стадиям фагоцитоза относятся:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 172,
-				"text": "Интерфероны I типа:",
 				"reason": "MALFORMED_STRUCTURE"
 			}
 		]

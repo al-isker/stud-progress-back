@@ -3171,6 +3171,38 @@
 				]
 			},
 			{
+				"index": 103,
+				"text": "Клинические признаки аллергических реакций на пластмассы, используемые в стоматологии:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "глоссит",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "кариес",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "стоматит",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "%33,33333%приступы удушья",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "пародонтит.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
 				"index": 104,
 				"text": "Кандидоз полости рта может быть следствием:",
 				"type": "multiple",
@@ -3294,6 +3326,38 @@
 					{
 						"index": 5,
 						"text": "почки.",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 108,
+				"text": "Аутоиммунные заболевания протекают в следующей форме:",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "острой",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "органоспецифической",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "системной",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "фульминантной",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "%33,33333% септической.",
 						"isCorrect": false
 					}
 				]
@@ -7347,16 +7411,6 @@
 			{
 				"index": 60,
 				"text": "Саркома Капоши:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 103,
-				"text": "Клинические признаки аллергических реакций на пластмассы, используемые в стоматологии:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 108,
-				"text": "Аутоиммунные заболевания протекают в следующей форме:",
 				"reason": "MALFORMED_STRUCTURE"
 			}
 		]

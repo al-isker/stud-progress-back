@@ -1797,38 +1797,6 @@
 				]
 			},
 			{
-				"index": 58,
-				"text": "Укажите ветви нижней брыжеечной артерии:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "средняя ободочная артерия",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "левая ободочная артерия",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "правая ободочная артерия",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "верхняя прямокишечная артерия",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "подвздошно-ободочная артерия",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 59,
 				"text": "Укажите ветви бедренной артерии:",
 				"type": "multiple",
@@ -4472,6 +4440,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 58,
+				"text": "Укажите ветви нижней брыжеечной артерии:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }

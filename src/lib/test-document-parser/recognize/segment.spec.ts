@@ -2,9 +2,8 @@ import { DocLine } from '../types/document-model';
 import { ParseStatus, QuestionRejectionReason } from '../types/parse-result';
 import { ChoiceQuestion, Question } from '../types/test-document';
 import { assembleTestDocument as assembleRecognizedDocument } from './assemble';
-import { resolveAnswerMarker } from './detect-marker';
 import { OptionSyntaxProfile, RawQuestion, segmentQuestions } from './segment';
-import { QuestionSyntaxResult } from './syntax-profile';
+import { QuestionSyntaxResult, recognizeDocumentSyntax } from './syntax-profile';
 
 const line = (text: string, highlightFrac = 0): DocLine => ({
 	page: 1,
@@ -69,7 +68,12 @@ function assembleTestDocument(
 		}
 
 		return marks[index]?.some(Boolean)
-			? { kind: 'choice', marked: marks[index], consumedTextPrefixes: prefixes }
+			? {
+					kind: 'choice',
+					grammar: 'document',
+					marked: marks[index],
+					consumedTextPrefixes: prefixes
+				}
 			: {
 					kind: 'rejected',
 					reason: QuestionRejectionReason.NO_ANSWER_MARKER,
@@ -81,6 +85,29 @@ function assembleTestDocument(
 		{ questions: raw, structure: { kind: 'bracket', options: optionSyntax(raw) } },
 		syntax
 	);
+}
+
+function recognizeMarkerForTest(raw: RawQuestion[]) {
+	const recognized = recognizeDocumentSyntax({
+		questions: raw,
+		structure: { kind: 'bracket', options: optionSyntax(raw) }
+	});
+	if (!recognized) return { confirmed: false } as const;
+
+	return {
+		confirmed: true as const,
+		marked: recognized.questions.map((result, index) =>
+			result.kind === 'choice' ? result.marked : raw[index].options.map(() => false)
+		),
+		matching: recognized.questions.map(result => result.kind === 'matching'),
+		ambiguous: recognized.questions.flatMap((result, index) =>
+			result.kind === 'rejected' &&
+			result.reason === QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER
+				? [index]
+				: []
+		),
+		consumedTextPrefixes: recognized.questions.map(result => result.consumedTextPrefixes)
+	};
 }
 
 describe('document-level option syntax', () => {
@@ -197,7 +224,7 @@ describe('document-level option syntax', () => {
 			...bracketQuestion('Question 1', [['=+ correct 1'], ['= wrong 1'], ['= wrong 2']]),
 			...bracketQuestion('Question 2', [['= wrong 1'], ['=+ correct 2'], ['= wrong 2']])
 		]);
-		const marker = resolveAnswerMarker(questions);
+		const marker = recognizeMarkerForTest(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
 		expect(marker.consumedTextPrefixes).toEqual([
@@ -228,7 +255,7 @@ describe('document-level option syntax', () => {
 			...bracketQuestion('Question 2', [['=wrong 1'], ['=+correct 2'], ['=wrong 2']]),
 			...bracketQuestion('Question 3', [['=wrong 1'], ['=wrong 2'], ['= +correct 3']])
 		]);
-		const marker = resolveAnswerMarker(questions);
+		const marker = recognizeMarkerForTest(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
 		expect(questions[2].options[2]).toMatchObject({
@@ -260,7 +287,7 @@ describe('document-level option syntax', () => {
 			...bracketQuestion('Question 2', [['=wrong 1'], ['= +correct 2'], ['=wrong 2']])
 		]);
 
-		expect(resolveAnswerMarker(questions)).toEqual({ confirmed: false });
+		expect(recognizeMarkerForTest(questions)).toEqual({ confirmed: false });
 	});
 
 	test('confirms an answer marker present in a strict majority of questions', () => {
@@ -272,7 +299,7 @@ describe('document-level option syntax', () => {
 			...bracketQuestion('Question 5', [['=answer 1'], ['=answer 2'], ['=answer 3']])
 		]);
 
-		expect(resolveAnswerMarker(questions).confirmed).toBe(true);
+		expect(recognizeMarkerForTest(questions).confirmed).toBe(true);
 	});
 
 	test('does not confirm an answer marker present in exactly half of questions', () => {
@@ -283,7 +310,7 @@ describe('document-level option syntax', () => {
 			...bracketQuestion('Question 4', [['=answer 1'], ['=answer 2'], ['=answer 3']])
 		]);
 
-		expect(resolveAnswerMarker(questions)).toEqual({ confirmed: false });
+		expect(recognizeMarkerForTest(questions)).toEqual({ confirmed: false });
 	});
 
 	test('prefers a visual marker over consuming a coinciding symbolic answer', () => {
@@ -291,7 +318,7 @@ describe('document-level option syntax', () => {
 			...bracketQuestion('Question 1', [['=/', 1], ['= other 1'], ['= other 2']]),
 			...bracketQuestion('Question 2', [['= other 1'], ['=/', 1], ['= other 2']])
 		]);
-		const marker = resolveAnswerMarker(questions);
+		const marker = recognizeMarkerForTest(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
 		expect(marker.consumedTextPrefixes).toEqual([
@@ -318,7 +345,7 @@ describe('document-level option syntax', () => {
 			...bracketQuestion('Question 1', [['=<4'], ['~<32'], ['~<15'], ['~<8'], ['~normal']]),
 			...bracketQuestion('Question 2', [['~<10'], ['~<9'], ['~<8'], ['=100'], ['~normal']])
 		]);
-		const marker = resolveAnswerMarker(questions);
+		const marker = recognizeMarkerForTest(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
 		expect(marker.consumedTextPrefixes.every(question => question.every(value => !value))).toBe(
@@ -351,7 +378,7 @@ describe('document-level option syntax', () => {
 			line('}'),
 			...bracketQuestion('Question 2', [['=other'], ['=+correct']])
 		]);
-		const marker = resolveAnswerMarker(questions);
+		const marker = recognizeMarkerForTest(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
 		const result = assembleTestDocument(
@@ -378,7 +405,7 @@ describe('document-level option syntax', () => {
 				['~%50% correct 2']
 			])
 		]);
-		const marker = resolveAnswerMarker(questions);
+		const marker = recognizeMarkerForTest(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
 		const result = assembleTestDocument(
@@ -416,7 +443,7 @@ describe('document-level option syntax', () => {
 			...bracketQuestion('Global 2', [['~wrong 1'], ['=correct'], ['~wrong 2']]),
 			...bracketQuestion('Global without answer', [['~wrong 1'], ['~wrong 2'], ['~wrong 3']])
 		]);
-		const marker = resolveAnswerMarker(questions);
+		const marker = recognizeMarkerForTest(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
 		const result = assembleTestDocument(
@@ -493,7 +520,7 @@ describe('document-level option syntax', () => {
 		expect(questions.map(question => question.options.length)).toEqual([2, 2, 1, 1, 1]);
 	});
 
-	test('removes percentage weights when an equals marker resolves the question', () => {
+	test('rejects a mixed percentage question even when equals is the global marker', () => {
 		const questions = segment([
 			...bracketQuestion('Question 1', [['=correct'], ['~wrong 1'], ['~wrong 2']]),
 			...bracketQuestion('Question 2', [['=correct'], ['~wrong 1'], ['~wrong 2']]),
@@ -504,24 +531,21 @@ describe('document-level option syntax', () => {
 				['~%25% second partial answer']
 			])
 		]);
-		const marker = resolveAnswerMarker(questions);
-		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
-
-		const result = assembleTestDocument(
+		const document = {
 			questions,
-			marker.marked,
-			new Set(marker.ambiguous),
-			marker.consumedTextPrefixes
-		);
+			structure: { kind: 'bracket' as const, options: optionSyntax(questions) }
+		};
+		const syntax = recognizeDocumentSyntax(document);
+		if (!syntax) throw new Error('Document syntax was not recognized');
+		const result = assembleRecognizedDocument(document, syntax.questions);
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
-		const last = choiceQuestion(result.document.questions[3]);
 
-		expect(last.type).toBe('single');
-		expect(last.options.map(option => option.text)).toEqual([
-			'all of the above',
-			'first partial answer',
-			'second partial answer'
-		]);
+		expect(result.document.questions).toHaveLength(3);
+		expect(result.issues.rejectedQuestions).toContainEqual({
+			index: 4,
+			text: 'Question 4',
+			reason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
 	});
 
 	test('keeps a rare equals option in a document dominated by tilde options', () => {

@@ -3,38 +3,6 @@
 	"document": {
 		"questions": [
 			{
-				"index": 1,
-				"text": "Какой из нижеперечисленных гормонов вырабатывается в гипоталамусе?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "кортикотропин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "тироксин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "люлиберин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "адренокортикотропный гормон",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "соматостатин",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 2,
 				"text": "Какой из нижеперечисленных гормонов вырабатывается в гипофизе?",
 				"type": "single",
@@ -191,38 +159,6 @@
 						"index": 5,
 						"text": "трийодтиронин",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 7,
-				"text": "Какой из нижеперечисленных гормонов вырабатывается в фолликулярных клетках щитовидной железы?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "кальцитонин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "тетрайодтиронин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "окситоцин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "вазопрессин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "тироксин",
-						"isCorrect": true
 					}
 				]
 			},
@@ -734,38 +670,6 @@
 				]
 			},
 			{
-				"index": 24,
-				"text": "Какое заболевание возникает при гиперфункции щитовидной железы?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "болезнь Грейвса",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "микседема",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "альбинизм",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "кретинизм",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "тиреотоксикоз",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 25,
 				"text": "Какое заболевание возникает при недостатке йода в организме?",
 				"type": "single",
@@ -990,38 +894,6 @@
 				]
 			},
 			{
-				"index": 32,
-				"text": "Укажите органы-мишени паратгормона:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "почки",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "костная ткань",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "мозг",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "мышцы",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "щитовидная железа",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 33,
 				"text": "Какой из перечисленных ферментов разрушает цАМФ?",
 				"type": "single",
@@ -1182,38 +1054,6 @@
 				]
 			},
 			{
-				"index": 38,
-				"text": "Какие вещества могут служить посредниками в передаче гормонального сигнала?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "цАМФ",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "цГМФ",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "аденилатциклаза",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "фосфодиэстераза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "протеинкиназа",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 39,
 				"text": "Какой микроэлемент входит в структуру гормона щитовидной железы?",
 				"type": "single",
@@ -1310,38 +1150,6 @@
 				]
 			},
 			{
-				"index": 42,
-				"text": "Какой гормон образуется в гипоталамусе?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "кортикотропин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "тиреолиберин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "тироксин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "АКТГ",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "соматостатин",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 43,
 				"text": "Гормоны - простые белки - это:",
 				"type": "single",
@@ -1401,38 +1209,6 @@
 					{
 						"index": 5,
 						"text": "АКТГ",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 45,
-				"text": "Какой гормон регулирует обмен фосфора и кальция?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "паратгормон",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "тироксин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "окситоцин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "кальцитонин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "трийодтиронин",
 						"isCorrect": false
 					}
 				]
@@ -1502,70 +1278,6 @@
 				]
 			},
 			{
-				"index": 48,
-				"text": "Перечисленные гормоны вырабатываются в коре надпочечников, кроме:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "кортизол",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "АКТГ",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "кортизон",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "глюкагон",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "альдостерон",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 49,
-				"text": "Какие из перечисленных гормонов оказывают гипергликемическое действие?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глюкагон",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "адреналин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "инсулин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "паратирин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "альдостерон",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 50,
 				"text": "Обмен натрия регулирует гормон:",
 				"type": "single",
@@ -1626,70 +1338,6 @@
 						"index": 5,
 						"text": "кортизол",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 52,
-				"text": "Обмен глюкозы регулируют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "инсулин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "глюкагон",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "окситоцин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "вазопресин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "либерины",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 53,
-				"text": "Глюконеогенез усиливают гормоны:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "инсулин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "глюкагон",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "окситоцин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "вазопрессин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "глюкокортикоиды",
-						"isCorrect": true
 					}
 				]
 			},
@@ -1849,38 +1497,6 @@
 					{
 						"index": 5,
 						"text": "сложный белок",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 59,
-				"text": "Какой функциональный эффект вызывает окситоцин?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "увеличивает сокращения поперечно-полосатой мускулатуры",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "усиливает лактацию",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "увеличивает активность оксидаз аминокислот",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "повышает тонус гладкой мускулатуры матки",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
 						"isCorrect": false
 					}
 				]
@@ -2046,70 +1662,6 @@
 				]
 			},
 			{
-				"index": 65,
-				"text": "К липотропинам относятся:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "метанотропин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "бета-липотропин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "соматотропин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "гамма-липотропин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "все неверно",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 66,
-				"text": "При специфическом протеолизе бета-липотропина образуются:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "энкефалины",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "эндорфины",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "опиаты",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "морфин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все верно",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 67,
 				"text": "Какое заболевание возникает при врожденной гипофункции щитовидной железы?",
 				"type": "single",
@@ -2170,65 +1722,6 @@
 						"index": 5,
 						"text": "все перечисленное",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 69,
-				"text": "Какой из ниже перечисленных гормонов вырабатывается в щитовидной железе?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "кальцитонин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "тироксин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "тиреостатин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "пролактин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 70,
-				"text": "Следующие функциональные эффекты вызывают глюкортикоиды, кроме:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "активирует синтез гликогена",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "усиливают процессы протеолиза",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "увеличивают процессы липолиза",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "усиливают гликонеогенез",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "оказывают гипогликемический эффект",
-						"isCorrect": true
 					}
 				]
 			},
@@ -2516,38 +2009,6 @@
 					{
 						"index": 5,
 						"text": "все неверно",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 80,
-				"text": "Простагландины синтезируются из:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "арахидоновой кислоты",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "витамина Е",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "поджелудочной железы",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "витамина F",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "гипоталамус",
 						"isCorrect": false
 					}
 				]
@@ -2969,38 +2430,6 @@
 				]
 			},
 			{
-				"index": 94,
-				"text": "Укажите влияние на углеводный обмен инсулина:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "усиливает распад гликогена в мышцах и печени",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "стимулирует поступление глюкозы из крови в клетки",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "стимулирует мобилизацию гликогена печени",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "стимулирует глюконеогенез",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "усиливает синтез гликогена",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 95,
 				"text": "Укажите влияние на углеводный обмен глюкагона:",
 				"type": "single",
@@ -3225,38 +2654,6 @@
 				]
 			},
 			{
-				"index": 102,
-				"text": "Глюкоза в тканях не синтезируется из:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гликогенные аминокислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "глицин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "ацетил-КоА",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "лейцин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "треонин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 103,
 				"text": "Укажите влияние на обмен веществ кортизола:",
 				"type": "single",
@@ -3284,38 +2681,6 @@
 					{
 						"index": 5,
 						"text": "усиливает глюконеогенез из аминокислот",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 104,
-				"text": "Укажите влияние на обмен веществ инсулина:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "вызывает гипогликемию",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "усиливает биосинтез белков",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "замедляет синтез белка в большинстве тканей",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "усиливает распад аминокислот",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
 						"isCorrect": false
 					}
 				]
@@ -3349,166 +2714,6 @@
 						"index": 5,
 						"text": "все верно",
 						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 106,
-				"text": "Активность каких ферментов ингибируется инсулином?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гексокиназа",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гликогенфосфорилаза",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "глюкозо-6-фосфатаза",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "гликогенсинтетаза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 107,
-				"text": "Активность каких ферментов активируется инсулином?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гексокиназа",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "гликогенфосфорилаза",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "глюкозо-6-фосфатаза",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "гликогенсинтетаза",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 108,
-				"text": "Какие вещества ингибируют цикл Кребса?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "АТФ",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "АДФ",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "НАД",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "НАДН2",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "ФАД",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 109,
-				"text": "Какие вещества активируют цикл Кребса?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "АТФ",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "АДФ",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "НАД",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "НАДН2",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все верно",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 110,
-				"text": "Наиболее интенсивно протекают реакции превращения:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "углеводов в жиры",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "жиров в углеводы",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "белков в углеводы",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "углеводов в аминокислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "липидов в аминокислоты",
-						"isCorrect": false
 					}
 				]
 			},
@@ -3572,38 +2777,6 @@
 					{
 						"index": 5,
 						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 113,
-				"text": "Ограниченное значение имеют превращение:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "жиров в углеводы",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "углеводов в аминокислоты",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "углеводов в жиры",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "белков в углеводы",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "белков в жиры",
 						"isCorrect": false
 					}
 				]
@@ -4281,38 +3454,6 @@
 				]
 			},
 			{
-				"index": 135,
-				"text": "Какое заболевание наблюдается при отсутствии витамина С?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пеллагра",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "цинга",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "рахит",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "бери-бери",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "скорбут",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 136,
 				"text": "Какое заболевание наблюдается при недостатке витамина D?",
 				"type": "single",
@@ -4628,33 +3769,6 @@
 					{
 						"index": 5,
 						"text": "изменяющие структуру апофермента",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 146,
-				"text": "Гиповитаминоз А вызывает:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ксерофтальмию.",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "куриную слепоту",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "глаукому",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "катаракту",
 						"isCorrect": false
 					}
 				]
@@ -5236,38 +4350,6 @@
 				]
 			},
 			{
-				"index": 165,
-				"text": "Какая из химических форм витамина В1 выполняет коферментную функцию?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "тиамин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "тиаминдифосфат",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "тиамин-хлорид",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "таминмонофосфат",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "тиаминпирофосфат",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 166,
 				"text": "Перечисленные вещества относятся к витаминам, кроме:",
 				"type": "single",
@@ -5290,102 +4372,6 @@
 					{
 						"index": 4,
 						"text": "никотиновая кислота",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 167,
-				"text": "Перечисленные вещества относятся к витаминоподобным веществам, кроме:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "витамин U",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "антипелларгический витамин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "фолиевая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "витамин F",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "холин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 168,
-				"text": "К витаминам относятся:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "Витамин А и убихинон",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "Витамин С и пантотеновая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "Витамин Д и пангамовая кислота",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "Витамин Е и витамин F",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "Витамин К и биофлавоноиды",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 169,
-				"text": "К водорастворимым витаминам относятся:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "антиксерофтальмический витамин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "антипелларгический витамин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "убихинон",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "пантотеновая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "пангамовая кислота",
 						"isCorrect": false
 					}
 				]
@@ -5419,70 +4405,6 @@
 						"index": 5,
 						"text": "все неверно",
 						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 171,
-				"text": "Витаминоподобные вещества - это:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ретинол",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "оротовая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "кальциферол",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "инозит",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "рибофлавин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 172,
-				"text": "К витаминоподобным веществам относятся:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ретинол",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "пангамовая к-та",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "витамин F",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "тиамин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "рибофлавин",
-						"isCorrect": false
 					}
 				]
 			},
@@ -5583,124 +4505,6 @@
 				]
 			},
 			{
-				"index": 176,
-				"text": "Антианемическим действием обладают:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "В6",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "ТГФК",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "В1",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "В12",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 177,
-				"text": "ФАД и витамин РР участвуют в реакциях:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пируватдегидрогеназной",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "гексокиназной",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "кетоглутаратдегидрогеназной",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "пируваткарбоксилазной",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "пируваткарбоксикиназной",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 178,
-				"text": "Антистерильным является витамин:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "В1",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "В12",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Е",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "В6",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "альфа-токоферол",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 179,
-				"text": "В кетоглутаратдегидрогеназной реакции участвуют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "С",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "В2",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "К",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "В1",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 180,
 				"text": "В пируватдегидрогеназной реакции участвуют:",
 				"type": "single",
@@ -5733,33 +4537,6 @@
 				]
 			},
 			{
-				"index": 181,
-				"text": "В окислительном декарбоксилировании пирувата участвуют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "В1",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "А",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "В6",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "РР",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 182,
 				"text": "Викасол в отличие от витамина К:",
 				"type": "single",
@@ -5787,38 +4564,6 @@
 					{
 						"index": 5,
 						"text": "обладает антигеморрагическим действием",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 183,
-				"text": "Какой из нижеперечисленных витаминов является витамином роста?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "рибофлавин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "К",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "В2",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "пиридоксин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "С",
 						"isCorrect": false
 					}
 				]
@@ -6336,38 +5081,6 @@
 				]
 			},
 			{
-				"index": 201,
-				"text": "Какое заболевание наблюдается при отсутствии витамина С?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пеллагра",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "цинга",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "рахит",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "бери-бери",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "скорбут",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 202,
 				"text": "Какое заболевание наблюдается при недостатке витамина D?",
 				"type": "single",
@@ -6683,33 +5396,6 @@
 					{
 						"index": 5,
 						"text": "изменяющие структуру апофермента",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 212,
-				"text": "Гиповитаминоз А вызывает:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ксерофтальмию.",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "куриную слепоту",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "глаукому",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "катаракту",
 						"isCorrect": false
 					}
 				]
@@ -7291,38 +5977,6 @@
 				]
 			},
 			{
-				"index": 231,
-				"text": "Какая из химических форм витамина В1 выполняет коферментную функцию?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "тиамин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "тиаминдифосфат",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "тиамин-хлорид",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "таминмонофосфат",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "тиаминпирофосфат",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 232,
 				"text": "Перечисленные вещества относятся к витаминам, кроме:",
 				"type": "single",
@@ -7345,102 +5999,6 @@
 					{
 						"index": 4,
 						"text": "никотиновая кислота",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 233,
-				"text": "Перечисленные вещества относятся к витаминоподобным веществам, кроме:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "витамин U",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "антипелларгический витамин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "фолиевая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "витамин F",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "холин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 234,
-				"text": "К витаминам относятся:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "Витамин А и убихинон",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "Витамин С и пантотеновая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "Витамин Д и пангамовая кислота",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "Витамин Е и витамин F",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "Витамин К и биофлавоноиды",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 235,
-				"text": "К водорастворимым витаминам относятся:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "антиксерофтальмический витамин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "антипелларгический витамин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "убихинон",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "пантотеновая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "пангамовая кислота",
 						"isCorrect": false
 					}
 				]
@@ -7474,70 +6032,6 @@
 						"index": 5,
 						"text": "все неверно",
 						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 237,
-				"text": "Витаминоподобные вещества - это:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ретинол",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "оротовая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "кальциферол",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "инозит",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "рибофлавин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 238,
-				"text": "К витаминоподобным веществам относятся:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ретинол",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "пангамовая к-та",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "витамин F",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "тиамин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "рибофлавин",
-						"isCorrect": false
 					}
 				]
 			},
@@ -7638,124 +6132,6 @@
 				]
 			},
 			{
-				"index": 242,
-				"text": "Антианемическим действием обладают:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "В6",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "ТГФК",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "В1",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "В12",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 243,
-				"text": "ФАД и витамин РР участвуют в реакциях:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пируватдегидрогеназной",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "гексокиназной",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "кетоглутаратдегидрогеназной",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "пируваткарбоксилазной",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "пируваткарбоксикиназной",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 244,
-				"text": "Антистерильным является витамин:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "В1",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "В12",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Е",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "В6",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "альфа-токоферол",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 245,
-				"text": "В кетоглутаратдегидрогеназной реакции участвуют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "С",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "В2",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "К",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "В1",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 246,
 				"text": "В пируватдегидрогеназной реакции участвуют:",
 				"type": "single",
@@ -7788,33 +6164,6 @@
 				]
 			},
 			{
-				"index": 247,
-				"text": "В окислительном декарбоксилировании пирувата участвуют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "В1",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "А",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "В6",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "РР",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 248,
 				"text": "Викасол в отличие от витамина К:",
 				"type": "single",
@@ -7842,38 +6191,6 @@
 					{
 						"index": 5,
 						"text": "обладает антигеморрагическим действием",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 249,
-				"text": "Какой из нижеперечисленных витаминов является витамином роста?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "рибофлавин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "К",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "В2",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "пиридоксин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "С",
 						"isCorrect": false
 					}
 				]
@@ -7979,9 +6296,279 @@
 	"issues": {
 		"rejectedQuestions": [
 			{
+				"index": 1,
+				"text": "Какой из нижеперечисленных гормонов вырабатывается в гипоталамусе?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 7,
+				"text": "Какой из нижеперечисленных гормонов вырабатывается в фолликулярных клетках щитовидной железы?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 24,
+				"text": "Какое заболевание возникает при гиперфункции щитовидной железы?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 32,
+				"text": "Укажите органы-мишени паратгормона:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 38,
+				"text": "Какие вещества могут служить посредниками в передаче гормонального сигнала?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 42,
+				"text": "Какой гормон образуется в гипоталамусе?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 45,
+				"text": "Какой гормон регулирует обмен фосфора и кальция?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 48,
+				"text": "Перечисленные гормоны вырабатываются в коре надпочечников, кроме:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 49,
+				"text": "Какие из перечисленных гормонов оказывают гипергликемическое действие?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 52,
+				"text": "Обмен глюкозы регулируют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 53,
+				"text": "Глюконеогенез усиливают гормоны:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 59,
+				"text": "Какой функциональный эффект вызывает окситоцин?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 65,
+				"text": "К липотропинам относятся:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 66,
+				"text": "При специфическом протеолизе бета-липотропина образуются:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 69,
+				"text": "Какой из ниже перечисленных гормонов вырабатывается в щитовидной железе?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 70,
+				"text": "Следующие функциональные эффекты вызывают глюкортикоиды, кроме:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 80,
+				"text": "Простагландины синтезируются из:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 94,
+				"text": "Укажите влияние на углеводный обмен инсулина:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 102,
+				"text": "Глюкоза в тканях не синтезируется из:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 104,
+				"text": "Укажите влияние на обмен веществ инсулина:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 106,
+				"text": "Активность каких ферментов ингибируется инсулином?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 107,
+				"text": "Активность каких ферментов активируется инсулином?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 108,
+				"text": "Какие вещества ингибируют цикл Кребса?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 109,
+				"text": "Какие вещества активируют цикл Кребса?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 110,
+				"text": "Наиболее интенсивно протекают реакции превращения:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 113,
+				"text": "Ограниченное значение имеют превращение:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 135,
+				"text": "Какое заболевание наблюдается при отсутствии витамина С?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 146,
+				"text": "Гиповитаминоз А вызывает:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 165,
+				"text": "Какая из химических форм витамина В1 выполняет коферментную функцию?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 167,
+				"text": "Перечисленные вещества относятся к витаминоподобным веществам, кроме:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 168,
+				"text": "К витаминам относятся:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 169,
+				"text": "К водорастворимым витаминам относятся:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 171,
+				"text": "Витаминоподобные вещества - это:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 172,
+				"text": "К витаминоподобным веществам относятся:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 176,
+				"text": "Антианемическим действием обладают:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 177,
+				"text": "ФАД и витамин РР участвуют в реакциях:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 178,
+				"text": "Антистерильным является витамин:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 179,
+				"text": "В кетоглутаратдегидрогеназной реакции участвуют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 181,
+				"text": "В окислительном декарбоксилировании пирувата участвуют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 183,
+				"text": "Какой из нижеперечисленных витаминов является витамином роста?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 184,
 				"text": "Назовите антивитамин витамина В6:",
 				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 201,
+				"text": "Какое заболевание наблюдается при отсутствии витамина С?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 212,
+				"text": "Гиповитаминоз А вызывает:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 231,
+				"text": "Какая из химических форм витамина В1 выполняет коферментную функцию?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 233,
+				"text": "Перечисленные вещества относятся к витаминоподобным веществам, кроме:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 234,
+				"text": "К витаминам относятся:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 235,
+				"text": "К водорастворимым витаминам относятся:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 237,
+				"text": "Витаминоподобные вещества - это:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 238,
+				"text": "К витаминоподобным веществам относятся:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 242,
+				"text": "Антианемическим действием обладают:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 243,
+				"text": "ФАД и витамин РР участвуют в реакциях:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 244,
+				"text": "Антистерильным является витамин:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 245,
+				"text": "В кетоглутаратдегидрогеназной реакции участвуют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 247,
+				"text": "В окислительном декарбоксилировании пирувата участвуют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 249,
+				"text": "Какой из нижеперечисленных витаминов является витамином роста?",
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 250,

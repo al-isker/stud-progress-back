@@ -131,38 +131,6 @@
 				]
 			},
 			{
-				"index": 5,
-				"text": "Элонгация включает в себя стадии:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "связывание мРНК",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "транспептидация",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "транслокация",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "транскрипция",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "терминация",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 6,
 				"text": "Углеводный обмен нарушен при всех перечисленных заболеваниях, кроме:",
 				"type": "single",
@@ -254,38 +222,6 @@
 					{
 						"index": 5,
 						"text": "топоизомераза",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 9,
-				"text": "К посттрансляционным изменениям белков относятся:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "полный протеолиз",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "образование функционально активных белков",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "ограниченный протеолиз",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "белки синтезируются в виде предшественников",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "формирование первичной структуры",
 						"isCorrect": false
 					}
 				]
@@ -478,38 +414,6 @@
 				]
 			},
 			{
-				"index": 16,
-				"text": "В образовании инициаторного комплекса участвуют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ГТФ",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "формилметионил-тРНК",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "ген-регулятор",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "индуктор",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "структурный ген",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 17,
 				"text": "Адапторную функцию выполняет:",
 				"type": "single",
@@ -602,38 +506,6 @@
 						"index": 5,
 						"text": "пяти нуклеотидов",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 20,
-				"text": "Образование полирибосом способствует:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "замедлению синтеза белка",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "понижению эффективности использования мРНК",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "ингибирование трансляции",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ускорению синтеза белка",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "активирование трансляции",
-						"isCorrect": true
 					}
 				]
 			},
@@ -852,65 +724,6 @@
 					{
 						"index": 5,
 						"text": "каждой аминокислоте соответствует только определенный кодон",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 28,
-				"text": "Трансляция включает в себя:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "инициация",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "транскрипция",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "репликация",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "терминация",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 29,
-				"text": "Скопления рибосом на мРНК - это:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "полипептиды",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "полисомы",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "пептиды",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "полирибосомы",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "промотор",
 						"isCorrect": false
 					}
 				]
@@ -1327,33 +1140,6 @@
 				]
 			},
 			{
-				"index": 43,
-				"text": "Функции нуклеиновых кислот:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "являются структурными компонентами клетки",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "участвуют в биосинтезе белка регуляторная функция",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "обеспечивают хранение и передачу наследственной информации",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "являются кофакторами",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 44,
 				"text": "Какой фермент катализирует биосинтез ДНК на матрице РНК:",
 				"type": "single",
@@ -1413,38 +1199,6 @@
 					{
 						"index": 5,
 						"text": "эритромицин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 46,
-				"text": "\"Считывание\" генетического кода, т.е. формирование иРНК, начинается с :",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гена-оператора",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гена-регулятора",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "участка ДНК, являющегося точкой инициации для синтеза иРНК",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "промотора",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "белка репрессора",
 						"isCorrect": false
 					}
 				]
@@ -1871,38 +1625,6 @@
 				]
 			},
 			{
-				"index": 60,
-				"text": "Предвестниками диабетической комы являются",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "кетоацидоз",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "аминоацидурия",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "кетонурия",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "дегидратация тканей",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "полиурия",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 61,
 				"text": "В состав ДНК входят все перечисленные азотистые основания, кроме:",
 				"type": "single",
@@ -2085,55 +1807,6 @@
 					{
 						"index": 5,
 						"text": "Ц-А-Г-Т-Т-А-Г-Ц",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 67,
-				"text": "Что входит в состав и имеет отношение к структуре ДНК ~%50%азотистые основания",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "рибоза",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "фосфорная кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 68,
-				"text": "Что входит в состав структуры РНК",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "рибоза",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "дезоксирибоза",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "фосфорная кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "все перечисленное",
 						"isCorrect": false
 					}
 				]
@@ -2809,42 +2482,71 @@
 						"isCorrect": true
 					}
 				]
-			},
-			{
-				"index": 90,
-				"text": "Что с собой представляет праймаза:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "фермент",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "ингибитор",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "синтезирует олигорибонуклеотид",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "активатор",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все неверно",
-						"isCorrect": false
-					}
-				]
 			}
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 5,
+				"text": "Элонгация включает в себя стадии:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 9,
+				"text": "К посттрансляционным изменениям белков относятся:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 16,
+				"text": "В образовании инициаторного комплекса участвуют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 20,
+				"text": "Образование полирибосом способствует:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 28,
+				"text": "Трансляция включает в себя:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 29,
+				"text": "Скопления рибосом на мРНК - это:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 43,
+				"text": "Функции нуклеиновых кислот:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 46,
+				"text": "\"Считывание\" генетического кода, т.е. формирование иРНК, начинается с :",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 60,
+				"text": "Предвестниками диабетической комы являются",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 67,
+				"text": "Что входит в состав и имеет отношение к структуре ДНК ~%50%азотистые основания",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 68,
+				"text": "Что входит в состав структуры РНК",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 90,
+				"text": "Что с собой представляет праймаза:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }

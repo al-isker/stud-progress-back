@@ -1783,43 +1783,6 @@
 				]
 			},
 			{
-				"index": 62,
-				"text": "Какие из перечисленных моделей используются в медицине",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "математические;",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "биологические;",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "физические;",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "компьютерные;",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все выше и ниже перечисленные;",
-						"isCorrect": true
-					},
-					{
-						"index": 6,
-						"text": "кибернетические.",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 63,
 				"text": "Какая модель называется физической",
 				"type": "single",
@@ -2188,6 +2151,11 @@
 				"index": 11,
 				"text": "Видеопамять",
 				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 62,
+				"text": "Какие из перечисленных моделей используются в медицине",
+				"reason": "MALFORMED_STRUCTURE"
 			}
 		]
 	}

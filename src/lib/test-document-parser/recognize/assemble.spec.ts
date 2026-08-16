@@ -53,7 +53,7 @@ function assembleTestDocument(
 		const marked = marks[index] ?? question.options.map(() => false);
 
 		return marked.some(Boolean)
-			? { kind: 'choice', marked, consumedTextPrefixes: prefixes }
+			? { kind: 'choice', grammar: 'document', marked, consumedTextPrefixes: prefixes }
 			: {
 					kind: 'rejected',
 					reason: QuestionRejectionReason.NO_ANSWER_MARKER,
@@ -129,7 +129,7 @@ describe('assembleTestDocument', () => {
 		});
 	});
 
-	test('отклоняет вопрос с одним вариантом независимо от маркера', () => {
+	test('отклоняет обычный вопрос с одним вариантом независимо от маркера', () => {
 		const raw: RawQuestion[] = [
 			{ texts: ['С маркером'], options: [option('Единственный')] },
 			{ texts: ['Без маркера'], options: [option('Единственный')] }
@@ -141,6 +141,31 @@ describe('assembleTestDocument', () => {
 		expect(result.issues.rejectedQuestions).toEqual([
 			{ index: 1, text: 'С маркером', reason: QuestionRejectionReason.SINGLE_OPTION },
 			{ index: 2, text: 'Без маркера', reason: QuestionRejectionReason.SINGLE_OPTION }
+		]);
+	});
+
+	test('принимает один вариант только для подтверждённой процентной грамматики', () => {
+		const raw: RawQuestion[] = [{ texts: ['Процентный вопрос'], options: [option('Ответ')] }];
+		const result = assembleRecognizedDocument(
+			{ questions: raw, structure: { kind: 'numbered', options: null } },
+			[
+				{
+					kind: 'choice',
+					grammar: 'percentage',
+					marked: [true],
+					consumedTextPrefixes: [null]
+				}
+			]
+		);
+		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
+
+		expect(result.document.questions).toEqual([
+			{
+				index: 1,
+				text: 'Процентный вопрос',
+				type: 'single',
+				options: [{ index: 1, text: 'Ответ', isCorrect: true }]
+			}
 		]);
 	});
 

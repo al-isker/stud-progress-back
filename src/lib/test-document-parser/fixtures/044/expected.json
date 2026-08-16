@@ -323,102 +323,6 @@
 				]
 			},
 			{
-				"index": 11,
-				"text": "Какие ферменты участвуют в переваривании белков в 12-й. кишке",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "тирозиназа",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "липаза",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "трипсин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "химотрипсин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "все перечисленные",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 12,
-				"text": "Какой фермент, участвующий в переваривани белков, синтезируется в желудке",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "аминопептидаза",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гастриксин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "пепсин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "трипсин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "химотрипсин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 13,
-				"text": "Какие ферменты, участвующие в переваривани белков, синтезируется в панкреас",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "аминопептидаза",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "карбоксипептидаза",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "пепсин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "трипсин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "химотрипсин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 14,
 				"text": "Какой фермент, участвующий в переваривани белков, синтезируется в тонком кишечнике",
 				"type": "single",
@@ -675,38 +579,6 @@
 				]
 			},
 			{
-				"index": 22,
-				"text": "Фермент ренин катализирует:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "свертывание молока",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "превращение казеиногена в казеин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "все неверно",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "активацию пепсина",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "выработку соляной кислоты",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 23,
 				"text": "Какие конечные продукты переваривания белков образуются в тонком кишечнике",
 				"type": "single",
@@ -803,38 +675,6 @@
 				]
 			},
 			{
-				"index": 26,
-				"text": "В превращении неактивного трипсиногена в активный трипсин участвуют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пепсин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "HCL",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "энтеропептидаза",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "трипсин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "липаза",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 27,
 				"text": "Сколько свободной HCL содержится в желудочном соке взрослого человека",
 				"type": "single",
@@ -862,102 +702,6 @@
 					{
 						"index": 5,
 						"text": "40-60 мМ/л",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 28,
-				"text": "Какие из перечисленных ферментов относятся к эндопептидазам",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пепсин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "трипсин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "химотрипсин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "аминопептидазы",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "карбоксипептидазы",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 29,
-				"text": "Какие из перечисленных ферментов относятся к экзопептидазам",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пепсин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "трипсин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "химотрипсин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "аминопептидазы",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "карбоксипептидазы",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 30,
-				"text": "Ферментами, гидролизующими белки в желудочно-кишечном тракте являются",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "карбоксипептидазы",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "гастриксин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "амилаза",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "липазы",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "ренин",
 						"isCorrect": false
 					}
 				]
@@ -995,70 +739,6 @@
 				]
 			},
 			{
-				"index": 32,
-				"text": "В образовании парных кислот /соединений/ при обезвреживании продуктов гниения участвуют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "фосфоаденозинфосфосульфат",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "УДФ-глюкуроновая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "УДФ-глюкоза",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "УДФ-глюкозамин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "сульфосалициловая кислота",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 33,
-				"text": "Какие вещества образуются при гниении белков / аминокислот / в кишечнике",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "фенол",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "сероводород",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "глюкоза",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "триптофан",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 34,
 				"text": "Какие вещества образуются при гниении белков / аминокислот / в кишечнике",
 				"type": "single",
@@ -1087,70 +767,6 @@
 						"index": 5,
 						"text": "всеперечисленное",
 						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 35,
-				"text": "Какие вещества образуются при гниении белков / аминокислот / в кишечнике",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "скатол",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "билирубин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "метилмеркаптан",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "ГОМК",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "желчные пигменты",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 36,
-				"text": "Какие вещества образуются при гниении белков / аминокислот / в кишечнике",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "крезол",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "валидол",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "индол",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "гемохром",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "гиппуровая кислота",
-						"isCorrect": false
 					}
 				]
 			},
@@ -1219,156 +835,6 @@
 				]
 			},
 			{
-				"index": 39,
-				"text": "Какие из перечисленных веществ являются токсичными",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "крезол",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "метилмеркаптан",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "жирные кислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "тирамин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 40,
-				"text": "Какие из перечисленных веществ обезвреживаются в печени",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "фенол",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "бензойная кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "непредельные кислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 41,
-				"text": "Какие из перечисленных веществ обезвреживаются в печени",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "индол",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "кетокислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "триптамин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "крезол",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 42,
-				"text": "Какие из перечисленных веществ обезвреживаются в печени",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "скатол",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "амины",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "индол",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "ГАМК",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "индикан",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 43,
-				"text": "Липотропное действие оказывают",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "метионин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "цистеин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "холин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "пролин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "лизин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 44,
 				"text": "Какие из перечисленных веществ обезвреживаются в печени",
 				"type": "single",
@@ -1429,38 +895,6 @@
 						"index": 5,
 						"text": "рН станет нейтральной",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 46,
-				"text": "Сколько остатков фосфорной кислоты отщепляется от АТФ при активировании метионина",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "1",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "2",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "3",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "ни одного",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все три",
-						"isCorrect": true
 					}
 				]
 			},
@@ -1817,38 +1251,6 @@
 				]
 			},
 			{
-				"index": 58,
-				"text": "Что образуется из глутамата при дезаминировании",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "оксалоацетат",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "льфа-кетоглутарат",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "глутамин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ГАМК",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "аммиак",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 59,
 				"text": "Что образуется из глутамата при амидировании",
 				"type": "single",
@@ -1881,70 +1283,6 @@
 				]
 			},
 			{
-				"index": 60,
-				"text": "Непрямое дезаминирование включает стадии:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "трансаминирование аминокислоты с альфа-кетоглутаратом",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "окислительное дезаминирование глутамата",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "декарбоксилирование глутамата с другим субстратом-акцептором NH2-группы /напр., ЩУК/",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "гидролитическое дезаминирование серотонина",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 61,
-				"text": "Значение процесса трансаминирования:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "синтез заменимых аминокислот",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "бразование альфа-аминокислот, поступающих в цикл Кребса или используемых для биосинтезов",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "освобождение аммиака",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "образование амидов аминокислот",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 62,
 				"text": "Что образуется при распаде биогенных аминов:",
 				"type": "single",
@@ -1973,38 +1311,6 @@
 						"index": 5,
 						"text": "аммиак",
 						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 63,
-				"text": "Какие функции выполняет гистамин:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "медиатор торможения с ЦНС",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "снижает АД /коллапс/",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "повышает тонус гладкой мускулатуры сосудов, бронхов, ЖКТ",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "стимулирует секрецию пепсина, HCL",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "медиатор боли",
-						"isCorrect": false
 					}
 				]
 			},
@@ -2361,38 +1667,6 @@
 				]
 			},
 			{
-				"index": 75,
-				"text": "У больного тяжелая форма сахарного диабета. Какой вид изменения кислотно-основного равновесия",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "респираторный ацидоз",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "метаболический ацидоз",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "метаболический кетоацидоз",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "метаболический алкалоз",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "респираторный алкалоз",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 76,
 				"text": "Объем циркулирующей крови сохраняется благодаря",
 				"type": "single",
@@ -2485,70 +1759,6 @@
 						"index": 5,
 						"text": "все неверно",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 79,
-				"text": "Какие из перечисленных веществ обезвреживаются в печени",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "скатол",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "амины",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "оксикислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ГАМК",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "индол",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 80,
-				"text": "Какие из перечисленных веществ обезвреживаются в печени",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "крезол",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "путресцин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "жирные кислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "тирамин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "фенол",
-						"isCorrect": true
 					}
 				]
 			},
@@ -2649,38 +1859,6 @@
 				]
 			},
 			{
-				"index": 84,
-				"text": "Химическая модификация токсических веществ в печени приводит",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "повышению гидрофобности",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "повышению гидрофильности",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "снижению гидрофобности и токсичности",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "снижению гидрофильности и токсичности",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 85,
 				"text": "Назовите активатор аминокислот:",
 				"type": "single",
@@ -2708,38 +1886,6 @@
 					{
 						"index": 5,
 						"text": "HS-СоА",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 86,
-				"text": "Какие из перечисленных реакций являются общими (типичными) для аминокислот:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "восстановление",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гидратация",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "трансаминирование",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "декарбоксилирование",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "метилирование",
 						"isCorrect": false
 					}
 				]
@@ -2804,38 +1950,6 @@
 					{
 						"index": 5,
 						"text": "ациладенилат",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 89,
-				"text": "Какие вещества могут образоваться при декарбоксилировании триптофана:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "аланин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "индол",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "триптамин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "серотонин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "никотиновая кислота",
 						"isCorrect": false
 					}
 				]
@@ -2937,38 +2051,6 @@
 				]
 			},
 			{
-				"index": 93,
-				"text": "Незамениными являются перечисленные аминокислоты, кроме:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глицин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "лейцин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "метионин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "тирозин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "фенилаланин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 94,
 				"text": "При дезаминировании аминокислот в тканях животных и человека, в основном, образуются:",
 				"type": "single",
@@ -2996,134 +2078,6 @@
 					{
 						"index": 5,
 						"text": "насыщенные кислоты",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 95,
-				"text": "Окислительное дезаминирование аминокислот включает стадии:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "восстановительное аминирование",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гидролиз аминогруппы",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "дегидрирование у альфа углеродного атома",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "гидролиз иминогруппы",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "гидратация",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 96,
-				"text": "Какие ферменты активны при физиологических значениях рН /7,0/:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глутаматдегидрогеназа",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "пепсин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "декарбоксилазы аминокислот",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "аргиназа",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "гастриксин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 97,
-				"text": "Какие ферменты участвуют в распаде биогенных аминов:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "диаминооксидаза",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "моноаминооксидаза",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "дезаминаза",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "гидролаза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "дегидрогеназа",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 98,
-				"text": "При аллергии больному нужно назначить лекарства:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "повышающие активность декарбоксилаз аминокислот",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "снижающие активность МАО и ДАО",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "повышающие активность МАО иДАО",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "блокирующие гистаминовые рецепторы",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "содержащие гистамин",
 						"isCorrect": false
 					}
 				]
@@ -3188,38 +2142,6 @@
 					{
 						"index": 5,
 						"text": "ацетилСоА",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 101,
-				"text": "При фенилкетонурии фенилаланин превращается в:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "тирозин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "аланин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "фенилпируват",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "фенилацетат",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "гидрооксифенилпируват",
 						"isCorrect": false
 					}
 				]
@@ -3481,38 +2403,6 @@
 				]
 			},
 			{
-				"index": 110,
-				"text": "При каких реакциях образуется аммиак:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "дезаминирование",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "дезамидирование",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "переаминирование",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "гидратация",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "дегидрирование",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 111,
 				"text": "Аммиак может соединяться с белками всеми перечисленными связями, кроме:",
 				"type": "single",
@@ -3545,38 +2435,6 @@
 				]
 			},
 			{
-				"index": 112,
-				"text": "Токсичность аммиака проявляется в том, что он вызывает:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "угнетение ЦНС",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "блокаду цикла Кребса",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "изменение структуры белков",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "активацию тканевого дыхания",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "возбуждение гистаминовых рецепторов",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 113,
 				"text": "В орнитиновом цикле образуются все перечисленные вещества, кроме:",
 				"type": "single",
@@ -3604,38 +2462,6 @@
 					{
 						"index": 5,
 						"text": "аргининосукцинат",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 114,
-				"text": "Функция глутамина:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "транспортная форма аммиака",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "активатор аминокислот",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "все верно",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "донатор азота при биосинтезах",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "входит в состав брадикинина",
 						"isCorrect": false
 					}
 				]
@@ -3705,102 +2531,6 @@
 				]
 			},
 			{
-				"index": 117,
-				"text": "Токсичность аммиака проявляется в том, что он вызывает:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "снижение кетонемии",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "все неверно",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "возбуждение ЦНС",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "угнетение липолиза",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "изменение структуры белков",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 118,
-				"text": "При синтезе мочевины АТФ расходуется в реакциях:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "распад аргининосукцината",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "образование карбамоилфосфата",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "образование цитруллина",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "распад аргинина",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "образование аргининосукцината",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 119,
-				"text": "Функции мочевины:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "донатор азота при биосинтезах",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "конечный продукт азотистого обмена",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "влияет на структуру белков",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "транспортная форма аммиака",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 120,
 				"text": "Свойства аммиака:",
 				"type": "single",
@@ -3860,38 +2590,6 @@
 					{
 						"index": 5,
 						"text": "все перечисленное",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 122,
-				"text": "Какие из перечисленных веществ могут дезаминироваться",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гаммаоксимасляная кислота",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "малат",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "карбамоилфосфат",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "глутаминовая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "аспарагиновая кислота",
 						"isCorrect": true
 					}
 				]
@@ -3993,134 +2691,6 @@
 				]
 			},
 			{
-				"index": 126,
-				"text": "При каких реакциях происходит обезвреживание аммиака",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "дезаминирование",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "амидирование",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "аминирование",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "трансаминирование",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "дезамидирование",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 127,
-				"text": "При каких реакциях происходит освобождение аммиака",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "дезаминирование",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "амидирование",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "аминирование",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "трансаминирование",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "дезамидирование",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 128,
-				"text": "Какие эффекты вызывает высокая концентрация аммиака",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "болевой синдром",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "развитие альбуминурии",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "аминирование альфа-кетокислот",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "развитие кетонемии",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 129,
-				"text": "Какие ферменты участвуют в образовании аммиака",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глутаминаза",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "глутаминсинтетаза",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "МАО",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "глутаматДГ",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "глутаматДК",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 130,
 				"text": "Какие ферменты участвуют в устранении аммиака",
 				"type": "single",
@@ -4213,38 +2783,6 @@
 						"index": 5,
 						"text": "все перечисленное",
 						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 133,
-				"text": "Из экскретируемого с мочой количества азота на долю мочевины и мочевой кислоты соответственно приходится:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "2%",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "85%",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "70%",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "1%",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "все неверно",
-						"isCorrect": false
 					}
 				]
 			},
@@ -4345,38 +2883,6 @@
 				]
 			},
 			{
-				"index": 137,
-				"text": "Больным подагрой рекомендуют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "диету с низким содержанием пуринов",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "ещества, растворяющие ураты",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "ингибиторы ксантиноксидазы",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "активаторы ксантиноксидазы",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "активаторы сукцинатдегидрогеназы",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 138,
 				"text": "Мочевая кислота образуется из дезаминированных пуриновых оснований при участии фермента:",
 				"type": "single",
@@ -4409,294 +2915,6 @@
 				]
 			},
 			{
-				"index": 139,
-				"text": "В клетках РЭС при распаде Hb образуются все перечисленные вещества, кроме",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "непрямой билирубин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "прямой билирубин",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "биливердин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "вердоглобин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "диглюкуронид билирубина",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 140,
-				"text": "Какой вид билирубина образуется в клетках РЭС:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "непрямой",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "свободный",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "несвязанный",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "коньюгированный",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "прямой",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 141,
-				"text": "В клетках печени образуется:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "прямой билирубин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "непрямой билирубин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "билирубинглюкурониды",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "мезобилиноген",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "уробилиноген",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 142,
-				"text": "В желудочно-кишечном тракте при прохождении прямого билирубина образуются:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "билирубин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "вердоглобин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "теркобилиноген",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "мезобилиноген",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "биливердин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 143,
-				"text": "При какой желтухе повышается преимущественно прямой билирубин:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гемолитическая",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "механическая",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "подпеченочная",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "желтуха новорожденных",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "обтурационная",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 144,
-				"text": "При каких заболеваниях наблюдается билирубинурия:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "физиол. желтуха новорожденных",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гемолиз эритроцитов",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "вирусный гепатит",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "все неверно",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "обтурация желче-выводящих путей",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 145,
-				"text": "При каких желтухах нарушается связывание билирубина с глюкуроновой к-той:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "паренхиматозная",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "желтуха новорожденных",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "гемолитическая",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "механическая",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "обтурационная",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 146,
-				"text": "Стеробилиноген отсутствует в моче при какой желтухе:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "бтурационной",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "паренхиматозной",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "гемолитической",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "болезнь Боткина",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "механической",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 147,
-				"text": "Гипербилирубинемия за счет связанного билирубина преимущественно наблюдается при желтухе",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "надпеченочной",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гемолитической",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "обтурационной",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "желтухе новорожденных",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "механической",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 148,
 				"text": "Уровень свободного билирубина выше нормы, связанного - неизменен, повышено содержание стеркобилиногена в моче, окраска кала обычная. У больного:",
 				"type": "single",
@@ -4719,38 +2937,6 @@
 					{
 						"index": 4,
 						"text": "болезнь Боткина",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "желчно-каменная болезнь",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 149,
-				"text": "Гипербилирубинемия без билирубинурии бывает при:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "желтухе новорожденных",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "гемолитической желтухе",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "обтурационной желтухе",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "паренхиматозной",
 						"isCorrect": false
 					},
 					{
@@ -4857,38 +3043,6 @@
 				]
 			},
 			{
-				"index": 154,
-				"text": "Для исследования антитоксической функции печени применяют... и определяют в моче ...",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "тимоловая проба",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гиппуровая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "проба Квика-Пытеля",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "определение холестерина",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "определение активности аминотрансфераз",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 155,
 				"text": "Проведение пробы Квика-Пытеля показало значительное снижение синтеза",
 				"type": "single",
@@ -4916,38 +3070,6 @@
 					{
 						"index": 5,
 						"text": "бензоат натрия",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 156,
-				"text": "Что образуется при переваривании нуклеопротеинов в желудке:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "олигонуклеотиды",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "пептиды",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "мононуклеотиды",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ДНК, РНК",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "фосфат",
 						"isCorrect": false
 					}
 				]
@@ -5081,166 +3203,6 @@
 				]
 			},
 			{
-				"index": 161,
-				"text": "Какие из перечисленных веществ относятся к нуклеотидам:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "тимидилат",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "тимидин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "цитозин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "аденилат",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "уридин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 162,
-				"text": "Какие из перечисленных веществ относятся к нуклеозидам:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "аденозин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "тимидин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "цитозин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "аденилат",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "уридин",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 163,
-				"text": "Какие из перечисленных веществ относятся к азотистым основаниям:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "аденин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "тимидин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "цитозин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "аденилат",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "уридин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 164,
-				"text": "Какой билирубин называется прямым:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "соединенный с глюкуронатом",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "свободный от глюкуроната",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "растворимый в воде",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "сразу реагирующий с диазореактивом Эрлиха",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "для определения которого необходима обработка сыворотки спиртом или кофеиновым реактивом",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 165,
-				"text": "Какой билирубин называется непрямым:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "соединенный с глюкуронатом",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "свободный от глюкуроната",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "растворимый в воде",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "сразу реагирующий с диазореактивом Эрлиха",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "для определения которого необходима обработка сыворотки спиртом или кофеиновым реактивом",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 166,
 				"text": "Что характерно для обтурационной желтухи:",
 				"type": "single",
@@ -5369,102 +3331,6 @@
 				]
 			},
 			{
-				"index": 170,
-				"text": "Укажите, что характерно для свободного билирубина:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "плохо растворим в воде",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "растворим в воде",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "экскретируется почками",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "не экскретируется почками",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "сразу реагирует с диазореактивом",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 171,
-				"text": "Укажите, что характерно для связанного билирубина:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "плохо растворим в воде",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "растворим в воде",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "экскретируется почками",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "не экскретируется почками",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "находится в комплексе с глюкуронидами",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 172,
-				"text": "К метилированным ксантинам относятся",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "гипоксантин",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "ксантин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "теофилин",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "теобромин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "кофеин",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 173,
 				"text": "Качественные реакции на белки и аминокислоты - это",
 				"type": "single",
@@ -5497,134 +3363,6 @@
 				]
 			},
 			{
-				"index": 174,
-				"text": "Гипербилирубинемия без билирубинурии бывает при:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "желтухе новорожденных",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "обтурационной",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "гемолитической",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "паренхиматозной",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "надпеченочной",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 175,
-				"text": "У больного гипербилирубинемия, билирубинурия, в моче отсутствует стеркобилиноген, кал ахолический. Какой вид желтухи:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "желтуха новорожденных",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "обтурационная",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "гемолитическая",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "паренхиматозная",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "механическая",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 176,
-				"text": "При какой желтухе в моче отсутствует стеркобилиноген:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "желтухе новорожденных",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "механической",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "гемолитической",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "паренхиматозной",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "обтурационной",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 177,
-				"text": "При какой желтухе в моче и крови появляется уробилиноген /мезобилиноген/:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "желтухе новорожденных",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "обтурационной",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "гемолитической",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "паренхиматозной",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "печеночной",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 178,
 				"text": "При физиологической желтухе новорожденных в печени наблюдается недостаточная активность фермента:",
 				"type": "single",
@@ -5652,38 +3390,6 @@
 					{
 						"index": 5,
 						"text": "все верно",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 179,
-				"text": "В детоксикации различных веществ в печени принимают участие:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "УДФ-глюкуроновая кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "5-фторурацил",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "фосфоаденозинфосфосульфат",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "УДФ-N-ацетилглюкозамин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "глицин",
 						"isCorrect": false
 					}
 				]
@@ -5721,38 +3427,6 @@
 				]
 			},
 			{
-				"index": 181,
-				"text": "Для исследования детоксической функции печени используют:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "определение активности аминотрансфераз",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "определение гиппуровой к-ты",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "осадочные пробы",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "пробу Квика-Пытеля",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 182,
 				"text": "При недостаточности холина нарушается :",
 				"type": "single",
@@ -5783,110 +3457,394 @@
 						"isCorrect": true
 					}
 				]
-			},
-			{
-				"index": 183,
-				"text": "Укажите, что характерно для свободного билирубина:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "токсичен",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "плохо растворим в воде",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "экскретируется почками",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "не экскретируется почками",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "растворим в воде",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 184,
-				"text": "Укажите, что характерно для связанного билирубина:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "токсичен",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "плохо растворим в воде",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "экскретируется почками",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "не экскретируется почками",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "растворим в воде",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 185,
-				"text": "К ксенобиотикам относятся соединения",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "не использующиеся как источники энергии",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "белки и незаменимые аминокислоты",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "липопротеины и холестерин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "не использующиеся как пластический материал",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "гормоны и витамины",
-						"isCorrect": false
-					}
-				]
 			}
 		]
 	},
 	"issues": {
 		"rejectedQuestions": [
 			{
+				"index": 11,
+				"text": "Какие ферменты участвуют в переваривании белков в 12-й. кишке",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 12,
+				"text": "Какой фермент, участвующий в переваривани белков, синтезируется в желудке",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 13,
+				"text": "Какие ферменты, участвующие в переваривани белков, синтезируется в панкреас",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 22,
+				"text": "Фермент ренин катализирует:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 26,
+				"text": "В превращении неактивного трипсиногена в активный трипсин участвуют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 28,
+				"text": "Какие из перечисленных ферментов относятся к эндопептидазам",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 29,
+				"text": "Какие из перечисленных ферментов относятся к экзопептидазам",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 30,
+				"text": "Ферментами, гидролизующими белки в желудочно-кишечном тракте являются",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 32,
+				"text": "В образовании парных кислот /соединений/ при обезвреживании продуктов гниения участвуют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 33,
+				"text": "Какие вещества образуются при гниении белков / аминокислот / в кишечнике",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 35,
+				"text": "Какие вещества образуются при гниении белков / аминокислот / в кишечнике",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 36,
+				"text": "Какие вещества образуются при гниении белков / аминокислот / в кишечнике",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 39,
+				"text": "Какие из перечисленных веществ являются токсичными",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 40,
+				"text": "Какие из перечисленных веществ обезвреживаются в печени",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 41,
+				"text": "Какие из перечисленных веществ обезвреживаются в печени",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 42,
+				"text": "Какие из перечисленных веществ обезвреживаются в печени",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 43,
+				"text": "Липотропное действие оказывают",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 46,
+				"text": "Сколько остатков фосфорной кислоты отщепляется от АТФ при активировании метионина",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 58,
+				"text": "Что образуется из глутамата при дезаминировании",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 60,
+				"text": "Непрямое дезаминирование включает стадии:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 61,
+				"text": "Значение процесса трансаминирования:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 63,
+				"text": "Какие функции выполняет гистамин:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 75,
+				"text": "У больного тяжелая форма сахарного диабета. Какой вид изменения кислотно-основного равновесия",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 79,
+				"text": "Какие из перечисленных веществ обезвреживаются в печени",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 80,
+				"text": "Какие из перечисленных веществ обезвреживаются в печени",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 84,
+				"text": "Химическая модификация токсических веществ в печени приводит",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 86,
+				"text": "Какие из перечисленных реакций являются общими (типичными) для аминокислот:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 89,
+				"text": "Какие вещества могут образоваться при декарбоксилировании триптофана:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 93,
+				"text": "Незамениными являются перечисленные аминокислоты, кроме:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 95,
+				"text": "Окислительное дезаминирование аминокислот включает стадии:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 96,
+				"text": "Какие ферменты активны при физиологических значениях рН /7,0/:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 97,
+				"text": "Какие ферменты участвуют в распаде биогенных аминов:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 98,
+				"text": "При аллергии больному нужно назначить лекарства:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 101,
+				"text": "При фенилкетонурии фенилаланин превращается в:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 110,
+				"text": "При каких реакциях образуется аммиак:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 112,
+				"text": "Токсичность аммиака проявляется в том, что он вызывает:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 114,
+				"text": "Функция глутамина:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 117,
+				"text": "Токсичность аммиака проявляется в том, что он вызывает:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 118,
+				"text": "При синтезе мочевины АТФ расходуется в реакциях:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 119,
+				"text": "Функции мочевины:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 122,
+				"text": "Какие из перечисленных веществ могут дезаминироваться",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 126,
+				"text": "При каких реакциях происходит обезвреживание аммиака",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 127,
+				"text": "При каких реакциях происходит освобождение аммиака",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 128,
+				"text": "Какие эффекты вызывает высокая концентрация аммиака",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 129,
+				"text": "Какие ферменты участвуют в образовании аммиака",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 133,
+				"text": "Из экскретируемого с мочой количества азота на долю мочевины и мочевой кислоты соответственно приходится:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 137,
+				"text": "Больным подагрой рекомендуют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 139,
+				"text": "В клетках РЭС при распаде Hb образуются все перечисленные вещества, кроме",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 140,
+				"text": "Какой вид билирубина образуется в клетках РЭС:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 141,
+				"text": "В клетках печени образуется:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 142,
+				"text": "В желудочно-кишечном тракте при прохождении прямого билирубина образуются:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 143,
+				"text": "При какой желтухе повышается преимущественно прямой билирубин:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 144,
+				"text": "При каких заболеваниях наблюдается билирубинурия:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 145,
+				"text": "При каких желтухах нарушается связывание билирубина с глюкуроновой к-той:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 146,
+				"text": "Стеробилиноген отсутствует в моче при какой желтухе:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 147,
+				"text": "Гипербилирубинемия за счет связанного билирубина преимущественно наблюдается при желтухе",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 149,
+				"text": "Гипербилирубинемия без билирубинурии бывает при:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 153,
 				"text": "Какие соединения принимают участие в детоксикации различных веществ в печени",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 154,
+				"text": "Для исследования антитоксической функции печени применяют... и определяют в моче ...",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 156,
+				"text": "Что образуется при переваривании нуклеопротеинов в желудке:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 161,
+				"text": "Какие из перечисленных веществ относятся к нуклеотидам:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 162,
+				"text": "Какие из перечисленных веществ относятся к нуклеозидам:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 163,
+				"text": "Какие из перечисленных веществ относятся к азотистым основаниям:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 164,
+				"text": "Какой билирубин называется прямым:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 165,
+				"text": "Какой билирубин называется непрямым:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 170,
+				"text": "Укажите, что характерно для свободного билирубина:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 171,
+				"text": "Укажите, что характерно для связанного билирубина:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 172,
+				"text": "К метилированным ксантинам относятся",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 174,
+				"text": "Гипербилирубинемия без билирубинурии бывает при:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 175,
+				"text": "У больного гипербилирубинемия, билирубинурия, в моче отсутствует стеркобилиноген, кал ахолический. Какой вид желтухи:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 176,
+				"text": "При какой желтухе в моче отсутствует стеркобилиноген:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 177,
+				"text": "При какой желтухе в моче и крови появляется уробилиноген /мезобилиноген/:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 179,
+				"text": "В детоксикации различных веществ в печени принимают участие:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 181,
+				"text": "Для исследования детоксической функции печени используют:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 183,
+				"text": "Укажите, что характерно для свободного билирубина:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 184,
+				"text": "Укажите, что характерно для связанного билирубина:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 185,
+				"text": "К ксенобиотикам относятся соединения",
 				"reason": "MALFORMED_STRUCTURE"
 			}
 		]

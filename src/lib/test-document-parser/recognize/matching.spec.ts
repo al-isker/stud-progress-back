@@ -1,7 +1,8 @@
 import { DocLine } from '../types/document-model';
-import { resolveAnswerMarker } from './detect-marker';
+import { QuestionRejectionReason } from '../types/parse-result';
 import { hasMatchingMarkerPattern, isMatchingCandidate, parseMatchingPairs } from './matching';
 import { RawOption, RawQuestion } from './segment';
+import { recognizeDocumentSyntax } from './syntax-profile';
 
 const line = (text: string, highlightFrac: number): DocLine => ({
 	page: 1,
@@ -29,6 +30,29 @@ const question = (texts: string[], highlights: number[] = []): RawQuestion => ({
 	texts: ['Произвольный текст вопроса'],
 	options: texts.map((text, index) => rawOption(text, highlights[index] ?? 0))
 });
+
+function recognizeMarkerForTest(questions: RawQuestion[]) {
+	const recognized = recognizeDocumentSyntax({
+		questions,
+		structure: { kind: 'numbered', options: null }
+	});
+	if (!recognized) return { confirmed: false } as const;
+
+	return {
+		confirmed: true as const,
+		marked: recognized.questions.map((result, index) =>
+			result.kind === 'choice' ? result.marked : questions[index].options.map(() => false)
+		),
+		matching: recognized.questions.map(result => result.kind === 'matching'),
+		ambiguous: recognized.questions.flatMap((result, index) =>
+			result.kind === 'rejected' &&
+			result.reason === QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER
+				? [index]
+				: []
+		),
+		consumedTextPrefixes: recognized.questions.map(result => result.consumedTextPrefixes)
+	};
+}
 
 describe('matching questions', () => {
 	test('splits by the first equals sign and preserves subsequent signs', () => {
@@ -79,7 +103,7 @@ describe('matching questions', () => {
 	test('confirms a document containing only unmarked matching questions', () => {
 		const matching = question(['First->1', 'Second->2']);
 
-		expect(resolveAnswerMarker([matching])).toEqual({
+		expect(recognizeMarkerForTest([matching])).toEqual({
 			confirmed: true,
 			marked: [[false, false]],
 			matching: [true],
@@ -92,7 +116,7 @@ describe('matching questions', () => {
 		const formula = question(['ΔS=ΔQ/T', 'ΔS=ΔQv'], [1, 0]);
 		const choice1 = question(['correct', 'wrong'], [1, 0]);
 		const choice2 = question(['wrong', 'correct'], [0, 1]);
-		const marker = resolveAnswerMarker([formula, choice1, choice2]);
+		const marker = recognizeMarkerForTest([formula, choice1, choice2]);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
 		expect(marker.marked[0]).toEqual([true, false]);
@@ -103,10 +127,9 @@ describe('matching questions', () => {
 		const matching = question(['Canada=Ottawa', 'Italy=Rome'], [1, 1]);
 		const choice1 = question(['correct', 'wrong'], [1, 0]);
 		const choice2 = question(['wrong', 'correct'], [0, 1]);
-		const marker = resolveAnswerMarker([matching, choice1, choice2]);
+		const marker = recognizeMarkerForTest([matching, choice1, choice2]);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
-		expect(marker.marked[0]).toEqual([true, true]);
 		expect(marker.matching).toEqual([true, false, false]);
 	});
 });

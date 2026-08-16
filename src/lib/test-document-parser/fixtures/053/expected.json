@@ -1355,6 +1355,38 @@
 				]
 			},
 			{
+				"index": 52,
+				"text": "Противопоказаниями для промывания желудка являются",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "отравления грибами",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "~желудочного кровотечения",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "~ ожога пищевода",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "острого живота",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "инфаркта миокарда",
+						"isCorrect": false
+					}
+				]
+			},
+			{
 				"index": 53,
 				"text": "Определите расстояние, на которое пациент должен проглотить зонд при промывании желудка",
 				"type": "single",
@@ -1389,12 +1421,6 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": [
-			{
-				"index": 52,
-				"text": "Противопоказаниями для промывания желудка являются",
-				"reason": "MALFORMED_STRUCTURE"
-			}
-		]
+		"rejectedQuestions": []
 	}
 }

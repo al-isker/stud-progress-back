@@ -86,12 +86,6 @@ function containsDuplicateOptions(options: { text: string }[]): boolean {
 	return new Set(normalized).size !== normalized.length;
 }
 
-/**
- * `+` перед текстом является синтаксисом ответа, а не частью содержания, если
- * документ уже подтверждён другим маркером. Подтверждённый `+` к этому моменту
- * удалён через consumedTextPrefix; числовые знаки и последовательности знаков
- * остаются авторским текстом.
- */
 function containsConflictingAnswerMarker(
 	question: RawQuestion,
 	consumedTextPrefixes: (string | null)[]
@@ -167,33 +161,34 @@ export function assembleTestDocument(
 			continue;
 		}
 		if (
-			syntax?.kind === 'rejected' &&
-			syntax.reason === QuestionRejectionReason.MALFORMED_STRUCTURE
-		) {
-			rejectQuestion(syntax.reason);
-			continue;
-		}
-		if (
 			containsMachineMetadata(raw[qi]) ||
 			containsDuplicatedTwoPrefixSyntax(raw[qi], text, consumedTextPrefixes, structure)
 		) {
 			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
 		}
-		if (!text || options.some(o => !o.text)) {
+		const hasEmptyText = !text || options.some(option => !option.text);
+		if (!hasEmptyText && options.length >= 2 && containsDuplicateOptions(options)) {
+			rejectQuestion(QuestionRejectionReason.DUPLICATE_OPTIONS);
+			continue;
+		}
+		if (
+			syntax?.kind === 'rejected' &&
+			syntax.reason === QuestionRejectionReason.MALFORMED_STRUCTURE
+		) {
+			rejectQuestion(syntax.reason);
+			continue;
+		}
+		if (hasEmptyText) {
 			rejectQuestion(QuestionRejectionReason.EMPTY_TEXT);
 			continue;
 		}
-		if (options.length === 1) {
+		if (options.length === 1 && !(syntax?.kind === 'choice' && syntax.grammar === 'percentage')) {
 			rejectQuestion(QuestionRejectionReason.SINGLE_OPTION);
 			continue;
 		}
-		if (options.length < 2) {
+		if (options.length === 0) {
 			rejectQuestion(QuestionRejectionReason.NO_OPTIONS);
-			continue;
-		}
-		if (containsDuplicateOptions(options)) {
-			rejectQuestion(QuestionRejectionReason.DUPLICATE_OPTIONS);
 			continue;
 		}
 		if (containsConflictingAnswerMarker(raw[qi], consumedTextPrefixes)) {

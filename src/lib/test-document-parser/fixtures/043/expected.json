@@ -126,38 +126,6 @@
 				]
 			},
 			{
-				"index": 7,
-				"text": "Наивысшей атерогенностью обладают:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "хиломикроны",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "ЛПНП",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "ЛПОНП",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "ЛПВП",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "все перечисленное",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 9,
 				"text": "Биотин-фермент участвует в образовании:",
 				"type": "single",
@@ -185,38 +153,6 @@
 					{
 						"index": 5,
 						"text": "ацетоацетил СоА",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 10,
-				"text": "Исходными субстратами для синтеза жирных кислот являются:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ацетилСоА",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "сукцинилСоА",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "малонилСоА",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "ацетоацетилСоА",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "молочная кислота",
 						"isCorrect": false
 					}
 				]
@@ -250,33 +186,6 @@
 						"index": 5,
 						"text": "гидроксилирования",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 12,
-				"text": "Какие витамины участвуют в синтезе жирных кислот:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "В1",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "В2",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Н/биотин/",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "пантотеновая кислота",
-						"isCorrect": true
 					}
 				]
 			},
@@ -500,38 +409,6 @@
 				]
 			},
 			{
-				"index": 21,
-				"text": "Что входит в состав нейтрального жира:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "жирные кислоты",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "серин",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "холин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "глицерин",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "фосфорная кислота",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 22,
 				"text": "В желудке взрослого человека жир не переваривается, потому что там нет соответствующего фермента:",
 				"type": "single",
@@ -560,60 +437,6 @@
 						"index": 5,
 						"text": "- + +",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 23,
-				"text": "Что характерно для бетта-окисления жирных кислот:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "выделение энергии",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "расходование энергии",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "участие НАД и ФАД",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "участвует биотин, углекислый газ",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 24,
-				"text": "Что характерно для синтеза жирных кислот:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "выделение энергии",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "участие НАДФН2",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "происходят реакции дегидрирования",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "участвует биотин, углекислый газ",
-						"isCorrect": true
 					}
 				]
 			},
@@ -1088,33 +911,6 @@
 				]
 			},
 			{
-				"index": 41,
-				"text": "Кетоновыми телами являются:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "ацетоацетат",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "бетта-оксимасляная кислота",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "сукцинат",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "малоновая кислота",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 42,
 				"text": "Кетоновые тела окисляются в печени, потому что в печени имеются ферменты, окисляющие их.",
 				"type": "single",
@@ -1362,161 +1158,6 @@
 						"index": 5,
 						"text": "К",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 50,
-				"text": "Назовите продукты гидролиза жира",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "глицерин",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "фосфорная кислота",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "ацил-КоА",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "жирные кислоты",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "фосфатидная кислота",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 51,
-				"text": "Триацилглицерины выполняют в организме перечисленные функции, кроме:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "энергетическую",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "обеспечение иммунитета",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "наследственную",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "терморегуляторную",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "источника эндогенной воды",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 52,
-				"text": "Укажите фермент и кофермент первой реакции превращения ацил-Коа при бетта-окислении",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ацил-КоА-синтеза, ФАД",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "тиокиназа, HSKoA",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "дегидрогеназа ацил-КоА, ФАД",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "дегидрогеназа бетта-гидроокиси-ацил-КоА, НАД",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "ацил-КоА-гидролаза, НАД",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 53,
-				"text": "Из холестерины образуются :",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "витамин Е",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "витамин Д",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "триацилглицерин",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "эстриол",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "синэстрол",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 54,
-				"text": "Назовите коферменты, участвующие в реакциях бетта-окисления ВЖК",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "НАД",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "ФМН",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "НАДФ",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "ФАД",
-						"isCorrect": true
 					}
 				]
 			},
@@ -2042,8 +1683,23 @@
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
+				"index": 7,
+				"text": "Наивысшей атерогенностью обладают:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 8,
 				"text": "При одном цикле бетта-окисления от молекулы ацилСоА отщепляется:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 10,
+				"text": "Исходными субстратами для синтеза жирных кислот являются:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 12,
+				"text": "Какие витамины участвуют в синтезе жирных кислот:",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
@@ -2052,8 +1708,53 @@
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
+				"index": 21,
+				"text": "Что входит в состав нейтрального жира:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 23,
+				"text": "Что характерно для бетта-окисления жирных кислот:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 24,
+				"text": "Что характерно для синтеза жирных кислот:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 27,
 				"text": "Что активирует панкреатическую липазу:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 41,
+				"text": "Кетоновыми телами являются:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 50,
+				"text": "Назовите продукты гидролиза жира",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 51,
+				"text": "Триацилглицерины выполняют в организме перечисленные функции, кроме:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 52,
+				"text": "Укажите фермент и кофермент первой реакции превращения ацил-Коа при бетта-окислении",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 53,
+				"text": "Из холестерины образуются :",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 54,
+				"text": "Назовите коферменты, участвующие в реакциях бетта-окисления ВЖК",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{

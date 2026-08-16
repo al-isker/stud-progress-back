@@ -3274,6 +3274,38 @@
 				]
 			},
 			{
+				"index": 104,
+				"text": "Эвтаназия - это",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "внезапная смерть",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "лекарственное отравление",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "~длительная, мучительная смерть",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "смерть в результате отказа больного от лечения",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "легкая смерть, связанная с действиями врача или самого больного",
+						"isCorrect": true
+					}
+				]
+			},
+			{
 				"index": 105,
 				"text": "Эвтаназия - это",
 				"type": "multiple",
@@ -4925,6 +4957,38 @@
 					{
 						"index": 4,
 						"text": "2011",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 158,
+				"text": "Динамичному развитию трансплантологии способствовали",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "успехи иммунологии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "%современные высокие медицинские технологии",
+						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "коммерциализация органов",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "поддерживание жизни искусственными средствами",
+						"isCorrect": true
+					},
+					{
+						"index": 5,
+						"text": "дефицит органов",
 						"isCorrect": false
 					}
 				]
@@ -9887,16 +9951,6 @@
 	},
 	"issues": {
 		"rejectedQuestions": [
-			{
-				"index": 104,
-				"text": "Эвтаназия - это",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 158,
-				"text": "Динамичному развитию трансплантологии способствовали",
-				"reason": "MALFORMED_STRUCTURE"
-			},
 			{
 				"index": 161,
 				"text": "При изъятии органов у человека следует придерживаться принципов",

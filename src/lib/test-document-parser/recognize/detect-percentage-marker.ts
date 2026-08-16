@@ -1,167 +1,122 @@
+import type { AnswerMarkerProfile } from './detect-marker';
 import { RawOption, RawQuestion } from './segment';
 
 interface ParsedPercentageScore {
 	score: number;
-	/** Точный префикс первой строки варианта, который является служебным score. */
+	/** Точный фрагмент первой строки варианта, занятый score-маркером. */
 	consumedTextPrefix: string;
 	hasAnswerText: boolean;
-	hasNestedMarker: boolean;
 }
 
-export type PercentageMarkerResult =
-	| { recognized: false }
-	| { recognized: true; resolved: false }
-	| {
-			recognized: true;
-			resolved: true;
-			marked: boolean[];
-			consumedTextPrefixes: (string | null)[];
-	  };
+interface PercentageSyntaxBase {
+	consumedTextPrefixes: (string | null)[];
+}
+
+/** Локальная процентная грамматика одного вопроса до применения профиля документа. */
+export type PercentageSyntaxAnalysis =
+	| (PercentageSyntaxBase & { kind: 'none' })
+	| (PercentageSyntaxBase & { kind: 'incomplete'; evidenceIndices: number[] })
+	| (PercentageSyntaxBase & { kind: 'unresolved' })
+	| (PercentageSyntaxBase & { kind: 'resolved'; marked: boolean[] });
 
 const SCORE_RE = /^%\s*([+-]?)\s*(\d+(?:[.,]\s*\d+)?)\s*%\s*/;
-const NESTED_SCORE_RE = /^~?\s*%\s*[+-]?\s*\d+(?:[.,]\s*\d+)?\s*%/;
-const UNPREFIXED_SCORE_RE = /^\s*([+-]?)\s*(\d+(?:[.,]\s*\d+)?)\s*%\s*/;
+const SCORE_OPEN_RE = /^%\s*[+-]?\s*\d/;
 
-function scoreText(option: RawOption): { text: string; restoredLeadingPercent: boolean } {
-	const firstText = option.texts[0] ?? '';
-	const restoredLeadingPercent =
-		!firstText.startsWith('%') && option.structuralPrefix?.endsWith('%');
-
-	return {
-		text: restoredLeadingPercent ? `%${firstText}` : firstText,
-		restoredLeadingPercent: Boolean(restoredLeadingPercent)
-	};
-}
-
-function looksLikePercentageScore(option: RawOption): boolean {
-	return scoreText(option).text.trimStart().startsWith('%');
+interface ScoreSource {
+	text: string;
+	/** Число начальных символов score, уже точно потреблённых структурным префиксом. */
+	structuralLength: number;
 }
 
 /**
- * Читает score только непосредственно после символьного префикса варианта.
- * Дополнительные проценты внутри ответа (`0,9% раствор`, `60–80%`) не участвуют.
+ * Возвращает score в том виде, в котором он находился в исходной строке.
  *
- * После удаления структурного префикса score имеет форму `%50%`/`%-50%`.
- * Начальный `%` отличает служебную грамматику экспорта от обычного ответа
- * `~1% раствор` и позволяет поддержать как `~%50%`, так и `~ %50%`.
+ * Сегментация иногда подтверждает `~%` или `%-` целиком как структурный
+ * префикс варианта. В таком случае `%` не потерян автором: он присутствует в
+ * `structuralPrefix`, поэтому локальная грамматика учитывает именно этот
+ * известный фрагмент. Строка `~50% answer` здесь никогда не превращается в
+ * `~%50% answer`.
  */
-function parsePercentageScore(option: RawOption): ParsedPercentageScore | null {
+function scoreSource(option: RawOption): ScoreSource {
 	const firstText = option.texts[0] ?? '';
-	const candidate = scoreText(option);
-	const match = SCORE_RE.exec(candidate.text);
+	const structuralPrefix = option.structuralPrefix ?? '';
+	const percentIndex = structuralPrefix.indexOf('%');
+	const structuralScoreHead =
+		percentIndex >= 0 && !firstText.trimStart().startsWith('%')
+			? structuralPrefix.slice(percentIndex)
+			: '';
+
+	return {
+		text: structuralScoreHead + firstText,
+		structuralLength: structuralScoreHead.length
+	};
+}
+
+function parsePercentageScore(option: RawOption): ParsedPercentageScore | null {
+	const source = scoreSource(option);
+	const match = SCORE_RE.exec(source.text);
 	if (!match) return null;
+
 	const score = Number(`${match[1]}${match[2].replace(/\s/gu, '').replace(',', '.')}`);
 	if (!Number.isFinite(score) || score < -100 || score > 100) return null;
 
-	const consumedTextPrefix = candidate.restoredLeadingPercent ? match[0].slice(1) : match[0];
+	const consumedTextPrefix = match[0].slice(source.structuralLength);
+	const firstText = option.texts[0] ?? '';
 	const remainder = firstText.slice(consumedTextPrefix.length).trimStart();
 	const hasAnswerText = remainder !== '' || option.texts.slice(1).some(text => text.trim() !== '');
 
-	return {
-		score,
-		consumedTextPrefix,
-		hasAnswerText,
-		hasNestedMarker:
-			remainder.startsWith('~') || remainder.startsWith('%') || NESTED_SCORE_RE.test(remainder)
-	};
+	return { score, consumedTextPrefix, hasAnswerText };
 }
 
-function hasUnprefixedScoreFragment(
-	question: RawQuestion,
-	parsed: (ParsedPercentageScore | null)[]
-): boolean {
-	const parsedScores = new Set(parsed.flatMap(score => (score ? [score.score] : [])));
-	const hasPositiveParsedScore = [...parsedScores].some(score => score > 0);
-
-	return question.options.some((option, index) => {
-		if (parsed[index]) return false;
-		const firstText = option.texts[0] ?? '';
-		const match = UNPREFIXED_SCORE_RE.exec(firstText);
-		if (!match) return false;
-		const remainder = firstText.slice(match[0].length).trimStart();
-		const hasAnswerText =
-			remainder !== '' || option.texts.slice(1).some(text => text.trim() !== '');
-		if (!hasAnswerText) return false;
-		const score = Number(`${match[1]}${match[2].replace(/\s/gu, '').replace(',', '.')}`);
-		const prefixEndsWithSign = /[-–—−]$/u.test(option.sourcePrefix ?? '');
-
-		return (
-			match[1] === '-' ||
-			prefixEndsWithSign ||
-			parsedScores.has(score) ||
-			(!hasPositiveParsedScore && score > 0)
-		);
-	});
-}
-
-/** Повреждённый percentage-score отклоняется, но никогда не восстанавливается. */
-export function hasMalformedPercentageSyntax(question: RawQuestion): boolean {
-	if (question.options.length < 2) return false;
-	const parsed = question.options.map(parsePercentageScore);
-	const scoreLike = question.options.map(looksLikePercentageScore);
-	if (parsed.every(score => score === null) && scoreLike.every(value => !value)) return false;
-	if (
-		question.options.some(
-			(option, index) => parsed[index] === null && option.structuralPrefix?.startsWith('=')
-		)
-	) {
-		return false;
-	}
-
-	return (
-		parsed.some((score, index) => scoreLike[index] && score === null) ||
-		parsed.some(score => score && (!score.hasAnswerText || score.hasNestedMarker)) ||
-		hasUnprefixedScoreFragment(question, parsed)
-	);
-}
-
-/** Служебные score-префиксы отделены от решения о правильности вариантов. */
-export function percentageTextPrefixes(question: RawQuestion): (string | null)[] {
-	return question.options.map(option => parsePercentageScore(option)?.consumedTextPrefix ?? null);
+function hasPercentageEvidence(option: RawOption): boolean {
+	return SCORE_OPEN_RE.test(scoreSource(option).text.trimStart());
 }
 
 /**
- * Распознаёт локальный процентный маркер одного вопроса.
- *
- * Декорированные варианты содержат явный score, обычные `~`-варианты получают
- * нулевой вес. Если встречается недекорированный `=`-вариант, локальная стратегия
- * не перехватывает вопрос: его должен разобрать глобальный символьный маркер.
- * Единственный положительный максимум образует single-вопрос, несколько вариантов
- * с одинаковым положительным максимумом — multiple. Максимум у всех вариантов
- * означает, что все они правильные.
+ * Распознаёт процентную грамматику без догадок и восстановления повреждённых
+ * score-маркеров. Вопрос считается полным только тогда, когда каждый вариант
+ * содержит корректный `%...%` и непустой текст ответа после него.
  */
-export function resolvePercentageMarker(question: RawQuestion): PercentageMarkerResult {
-	if (question.options.length < 2) return { recognized: false };
+export function analyzePercentageSyntax(question: RawQuestion): PercentageSyntaxAnalysis {
+	if (question.options.length === 0) return { kind: 'none', consumedTextPrefixes: [] };
+
 	const parsed = question.options.map(parsePercentageScore);
-	const scoreLike = question.options.map(looksLikePercentageScore);
-	if (parsed.every(score => score === null) && scoreLike.every(value => !value)) {
-		return { recognized: false };
-	}
-	// У обычного GIFT-вопроса ответ вполне может начинаться с `%` (например,
-	// `=%`). Неразмеченный `=` — более сильный структурный сигнал: такой вопрос
-	// должен разбирать глобальный маркер документа, а не процентная грамматика.
-	if (
-		question.options.some(
-			(option, index) => parsed[index] === null && option.structuralPrefix?.startsWith('=')
-		)
-	) {
-		return { recognized: false };
-	}
-	if (hasMalformedPercentageSyntax(question)) {
-		return { recognized: true, resolved: false };
+	const evidenceIndices = question.options.flatMap((option, index) =>
+		hasPercentageEvidence(option) ? [index] : []
+	);
+	const consumedTextPrefixes = parsed.map(item => item?.consumedTextPrefix ?? null);
+	if (evidenceIndices.length === 0) return { kind: 'none', consumedTextPrefixes };
+
+	if (parsed.some(item => item === null || !item.hasAnswerText)) {
+		return { kind: 'incomplete', evidenceIndices, consumedTextPrefixes };
 	}
 
-	const scores = parsed.map(item => item?.score ?? 0);
+	const scores = parsed.map(item => item.score);
 	const max = Math.max(...scores);
-	const marked = scores.map(score => score === max);
-	if (max <= 0) {
-		return { recognized: true, resolved: false };
-	}
+	if (max <= 0) return { kind: 'unresolved', consumedTextPrefixes };
 
 	return {
-		recognized: true,
-		resolved: true,
-		marked,
-		consumedTextPrefixes: parsed.map(item => item?.consumedTextPrefix ?? null)
+		kind: 'resolved',
+		marked: scores.map(score => score === max),
+		consumedTextPrefixes
 	};
+}
+
+/**
+ * Единственное исключение из строгой процентной грамматики: `%...` является
+ * началом обычного ответа с подтверждённым документным маркером `=`. Все
+ * процентные признаки такого вопроса должны находиться именно после `=`.
+ */
+export function isOrdinaryEqualsQuestion(
+	question: RawQuestion,
+	analysis: PercentageSyntaxAnalysis,
+	answerMarker: AnswerMarkerProfile | null
+): boolean {
+	return (
+		analysis.kind === 'incomplete' &&
+		Boolean(answerMarker?.symbolPrefix?.startsWith('=')) &&
+		analysis.evidenceIndices.every(index =>
+			question.options[index].structuralPrefix?.startsWith('=')
+		)
+	);
 }

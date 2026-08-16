@@ -869,38 +869,6 @@
 				]
 			},
 			{
-				"index": 29,
-				"text": "Указать кишечные осложнения дизентерии?",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пневмония",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "перитонит",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "артрит",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "кровотечение",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "абсцесс печени",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 30,
 				"text": "Холера - карантинная инфекция, так как?",
 				"type": "single",
@@ -6106,6 +6074,11 @@
 	},
 	"issues": {
 		"rejectedQuestions": [
+			{
+				"index": 29,
+				"text": "Указать кишечные осложнения дизентерии?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
 			{
 				"index": 196,
 				"text": "Формы вторичного туберкулеза?",
