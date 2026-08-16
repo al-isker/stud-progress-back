@@ -28,10 +28,10 @@ function bracketQuestion(text: string, options: Array<[string, number?]>): DocLi
 }
 
 function segment(lines: DocLine[]): RawQuestion[] {
-	const questions = segmentQuestions(lines);
-	if (!questions) throw new Error('Questions were not segmented');
+	const document = segmentQuestions(lines);
+	if (!document) throw new Error('Questions were not segmented');
 
-	return questions;
+	return document.questions;
 }
 
 function choiceQuestion(question: Question): ChoiceQuestion {
@@ -41,6 +41,36 @@ function choiceQuestion(question: Question): ChoiceQuestion {
 }
 
 describe('document-level option syntax', () => {
+	test('returns the document structure used to segment questions and options', () => {
+		const bracket = segmentQuestions(bracketQuestion('Question', [['=correct'], ['~wrong']]));
+		const twoPrefix = segmentQuestions([
+			line('?Question 1'),
+			line('!+correct'),
+			line('!wrong'),
+			line('?Question 2'),
+			line('!wrong'),
+			line('!+correct')
+		]);
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const numbered = segmentQuestions([
+			numberedLine('#1', 30),
+			numberedLine('Question 1', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('#2', 30),
+			numberedLine('Question 2', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30)
+		]);
+
+		expect(bracket?.structure.kind).toBe('bracket');
+		expect(twoPrefix?.structure).toMatchObject({ kind: 'two-prefix', questionPrefix: '?' });
+		expect(numbered?.structure.kind).toBe('numbered');
+	});
+
 	test('does not treat standalone hash question numbers as a two-prefix option family', () => {
 		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
 			...line(text),

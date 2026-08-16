@@ -53,8 +53,9 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 		return reject(ParseRejectionReason.UNREADABLE_DOCUMENT);
 	}
 
-	const raw = segmentQuestions(lines);
-	if (!raw) return reject(ParseRejectionReason.QUESTION_STRUCTURE_NOT_RECOGNIZED);
+	const segmented = segmentQuestions(lines);
+	if (!segmented) return reject(ParseRejectionReason.QUESTION_STRUCTURE_NOT_RECOGNIZED);
+	const raw = segmented.questions;
 	if (raw.length > MAX_QUESTION_COUNT) {
 		return reject(ParseRejectionReason.QUESTION_LIMIT_EXCEEDED);
 	}

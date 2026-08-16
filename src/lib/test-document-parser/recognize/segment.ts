@@ -30,8 +30,20 @@ interface SymbolHead {
 	symbols: string;
 }
 
-interface OptionSyntax {
+export interface OptionSyntaxProfile {
 	prefixByFamily: Map<string, string>;
+}
+
+/** Структура границ вопросов и вариантов, подтверждённая на всём документе. */
+export type DocumentStructureProfile =
+	| { kind: 'bracket'; options: OptionSyntaxProfile }
+	| { kind: 'two-prefix'; questionPrefix: string; options: OptionSyntaxProfile }
+	| { kind: 'numbered'; options: OptionSyntaxProfile | null };
+
+/** Результат сегментации вместе с профилем, по которому она выполнена. */
+export interface SegmentedDocument {
+	questions: RawQuestion[];
+	structure: DocumentStructureProfile;
 }
 
 /** Неразрушающий лексический разбор: ничего не решает о границе префикса и текста. */
@@ -51,7 +63,10 @@ function commonPrefix(values: string[]): string {
 	return prefix;
 }
 
-function createOptionSyntax(heads: SymbolHead[], families: Set<string>): OptionSyntax | null {
+function createOptionSyntax(
+	heads: SymbolHead[],
+	families: Set<string>
+): OptionSyntaxProfile | null {
 	const prefixByFamily = new Map<string, string>();
 	for (const family of families) {
 		const values = heads.filter(head => head.symbols[0] === family).map(head => head.symbols);
@@ -70,7 +85,7 @@ function createOptionSyntax(heads: SymbolHead[], families: Set<string>): OptionS
 function inferOptionSyntax(
 	groups: string[][],
 	minimumOptionStartsPerGroup = 2
-): OptionSyntax | null {
+): OptionSyntaxProfile | null {
 	if (groups.length === 0) return null;
 	const heads: SymbolHead[] = [];
 	const groupsByFamily = new Map<string, Set<number>>();
@@ -124,7 +139,11 @@ function inferOptionSyntax(
 	return structurallyValid >= minGroups ? syntax : null;
 }
 
-function parseOptionStart(text: string, line: DocLine, syntax: OptionSyntax): RawOption | null {
+function parseOptionStart(
+	text: string,
+	line: DocLine,
+	syntax: OptionSyntaxProfile
+): RawOption | null {
 	const trimmed = text.trim();
 	const head = scanSymbolHead(trimmed);
 	if (!head) return null;
@@ -143,7 +162,7 @@ function parseOptionStart(text: string, line: DocLine, syntax: OptionSyntax): Ra
 function splitInlineDecoratedOption(
 	text: string,
 	line: DocLine,
-	syntax: OptionSyntax
+	syntax: OptionSyntaxProfile
 ): { questionText: string; option: RawOption } | null {
 	for (let index = 1; index < text.length; index++) {
 		if (!/\s/u.test(text[index - 1])) continue;
@@ -220,7 +239,7 @@ function questionLead(tail: DocLine[], opener: DocLine, beforeOpen: string): Doc
  * вариант идёт на одной строке с «{». Варианты внутри блока начинаются с
  * символьного токена; строка без токена — продолжение предыдущего варианта.
  */
-function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
+function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 	const hasOpen = lines.some(l => l.text.includes('{'));
 	const hasClose = lines.some(l => l.text.includes('}'));
 	if (!hasOpen || !hasClose) return null;
@@ -360,7 +379,9 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
 
 		return { texts, options, rejectionReason: draft.rejectionReason };
 	});
-	return questions.length > 0 ? questions : null;
+	return questions.length > 0
+		? { questions, structure: { kind: 'bracket', options: syntax } }
+		: null;
 }
 
 /**
@@ -368,7 +389,7 @@ function tryBracketScheme(lines: DocLine[]): RawQuestion[] | null {
  * другое — варианты («? вопрос» / «! вариант» / «!+ правильный»).
  * Строка без токена — продолжение в своём параграфе, иначе игнорируется.
  */
-function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
+function tryTwoPrefixScheme(lines: DocLine[]): SegmentedDocument | null {
 	const heads = lines.map(line => {
 		const text = line.text.trim();
 		// `#42`/`№42` — сильный нумераторный сигнал, а не семейство вариантов.
@@ -465,7 +486,16 @@ function tryTwoPrefixScheme(lines: DocLine[]): RawQuestion[] | null {
 	}
 	if (current) questions.push(current);
 
-	return questions.length > 0 ? questions : null;
+	return questions.length > 0
+		? {
+				questions,
+				structure: {
+					kind: 'two-prefix',
+					questionPrefix,
+					options: optionSyntax
+				}
+			}
+		: null;
 }
 
 const STANDALONE_NUM_RE = /^[#№]\s*(\d+)\s*[.):\]]?$/;
@@ -481,7 +511,7 @@ const INLINE_NUM_RE = /^[#№]?\s*(\d+)\s*[.):\]]\s+(\S.*)$/;
  * в реальных PDF цифры глифов бывают перекодированы (напр. «#4» → «#233»), а
  * структурно это всё равно очередная метка вопроса.
  */
-function tryNumberedScheme(lines: DocLine[]): RawQuestion[] | null {
+function tryNumberedScheme(lines: DocLine[]): SegmentedDocument | null {
 	const markers: { index: number; value: number; rest: string | null }[] = [];
 	for (let i = 0; i < lines.length; i++) {
 		const t = lines[i].text.trim();
@@ -552,13 +582,13 @@ function tryNumberedScheme(lines: DocLine[]): RawQuestion[] | null {
 		}
 	}
 
-	return questions;
+	return { questions, structure: { kind: 'numbered', options: syntax } };
 }
 
 /**
  * Сегментация строк документа на вопросы и варианты. Схемы пробуются от самого
  * сильного структурного сигнала к более слабому; null — структура не распознана.
  */
-export function segmentQuestions(lines: DocLine[]): RawQuestion[] | null {
+export function segmentQuestions(lines: DocLine[]): SegmentedDocument | null {
 	return tryBracketScheme(lines) ?? tryTwoPrefixScheme(lines) ?? tryNumberedScheme(lines);
 }
