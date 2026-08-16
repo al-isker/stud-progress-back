@@ -68,11 +68,12 @@ describe('document syntax profile', () => {
 		});
 	});
 
-	test('keeps percentage-looking text after a confirmed equals marker', () => {
+	test('keeps unconfirmed percent and plus symbols as answer content', () => {
 		const document = segmentQuestions([
 			...question('Choice 1', ['=correct', '~wrong', '~also wrong']),
 			...question('Choice 2', ['~wrong', '=correct', '~also wrong']),
-			...question('Literal percent', ['=%50% is answer text', '~wrong', '~also wrong'])
+			...question('Literal percent', ['=%50% is answer text', '~wrong', '~also wrong']),
+			...question('Literal plus', ['=correct', '~+wrong with plus', '~also wrong'])
 		]);
 		if (!document) throw new Error('Document was not segmented');
 		const recognized = recognizeDocumentSyntax(document);
@@ -92,5 +93,8 @@ describe('document syntax profile', () => {
 			text: '%50% is answer text',
 			isCorrect: true
 		});
+		const plus = result.document.questions[3];
+		if (plus.type === 'matching') throw new Error('Unexpected matching question');
+		expect(plus.options[1].text).toBe('+wrong with plus');
 	});
 });

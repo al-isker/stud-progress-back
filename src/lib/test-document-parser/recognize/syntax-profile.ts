@@ -1,9 +1,6 @@
 import { QuestionRejectionReason } from '../types/parse-result';
-import {
-	AnswerMarkerProfile,
-	applyAnswerMarkerProfile,
-	inferAnswerMarkerProfile
-} from './detect-marker';
+import { applyAnswerMarkerProfile, inferAnswerMarkerProfile } from './detect-marker';
+import type { AnswerMarkerProfile } from './detect-marker';
 import { analyzePercentageSyntax, isOrdinaryEqualsQuestion } from './detect-percentage-marker';
 import type { PercentageSyntaxAnalysis } from './detect-percentage-marker';
 import { hasMatchingMarkerPattern, isMatchingCandidate } from './matching';

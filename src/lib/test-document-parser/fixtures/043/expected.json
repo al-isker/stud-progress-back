@@ -286,6 +286,38 @@
 				]
 			},
 			{
+				"index": 16,
+				"text": "Какие витамины участвуют в синтезе стеариновой кислоты",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "+РР",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "В2",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "пантотеновая кислота",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "В13",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "Д",
+						"isCorrect": false
+					}
+				]
+			},
+			{
 				"index": 17,
 				"text": "Триацилглицерины выполняют в организме все перечисленные функции, кроме:",
 				"type": "single",
@@ -1675,12 +1707,12 @@
 			{
 				"index": 2,
 				"text": "Переваривание липидов у взрослого человека начинается:",
-				"reason": "MALFORMED_STRUCTURE"
+				"reason": "NO_ANSWER_MARKER"
 			},
 			{
 				"index": 4,
 				"text": "Всасывание липидов происходит при участии:",
-				"reason": "MALFORMED_STRUCTURE"
+				"reason": "NO_ANSWER_MARKER"
 			},
 			{
 				"index": 7,
@@ -1690,7 +1722,7 @@
 			{
 				"index": 8,
 				"text": "При одном цикле бетта-окисления от молекулы ацилСоА отщепляется:",
-				"reason": "MALFORMED_STRUCTURE"
+				"reason": "NO_ANSWER_MARKER"
 			},
 			{
 				"index": 10,
@@ -1700,11 +1732,6 @@
 			{
 				"index": 12,
 				"text": "Какие витамины участвуют в синтезе жирных кислот:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 16,
-				"text": "Какие витамины участвуют в синтезе стеариновой кислоты",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{

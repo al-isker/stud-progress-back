@@ -606,6 +606,38 @@
 				]
 			},
 			{
+				"index": 21,
+				"text": "Укажите, что характерно для анаболизма",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "затрата энергии",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "выделение энергии",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "окисление",
+						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "+синтез",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "локализация преимущественно в митохондриях",
+						"isCorrect": false
+					}
+				]
+			},
+			{
 				"index": 23,
 				"text": "Выберите, что характерно для эндэргонической реакции",
 				"type": "single",
@@ -2184,11 +2216,6 @@
 			{
 				"index": 16,
 				"text": "Укажите локализацию макроэргических связей в АТФ:",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 21,
-				"text": "Укажите, что характерно для анаболизма",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{

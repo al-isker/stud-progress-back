@@ -86,17 +86,6 @@ function containsDuplicateOptions(options: { text: string }[]): boolean {
 	return new Set(normalized).size !== normalized.length;
 }
 
-function containsConflictingAnswerMarker(
-	question: RawQuestion,
-	consumedTextPrefixes: (string | null)[]
-): boolean {
-	return question.options.some((option, optionIndex) => {
-		const text = normalize(optionTextParts(option, consumedTextPrefixes[optionIndex] ?? null));
-
-		return /^\+\s*\p{L}/u.test(text);
-	});
-}
-
 function optionPrefixes(structure: DocumentStructureProfile): Set<string> {
 	return new Set(structure.options?.prefixByFamily.values() ?? []);
 }
@@ -189,10 +178,6 @@ export function assembleTestDocument(
 		}
 		if (options.length === 0) {
 			rejectQuestion(QuestionRejectionReason.NO_OPTIONS);
-			continue;
-		}
-		if (containsConflictingAnswerMarker(raw[qi], consumedTextPrefixes)) {
-			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
 		}
 		if (containsOptionSyntaxInQuestionText(raw[qi], structure)) {

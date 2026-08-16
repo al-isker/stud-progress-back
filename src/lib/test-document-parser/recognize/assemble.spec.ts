@@ -186,7 +186,7 @@ describe('assembleTestDocument', () => {
 		]);
 	});
 
-	test('rejects a leftover plus marker when another answer format was confirmed', () => {
+	test('preserves an unconsumed plus as answer content', () => {
 		const raw: RawQuestion[] = [
 			{
 				texts: ['Question'],
@@ -218,14 +218,16 @@ describe('assembleTestDocument', () => {
 		);
 		if (result.status !== ParseStatus.ACCEPTED) throw new Error('Document was rejected');
 
-		expect(result.document.questions).toEqual([]);
-		expect(result.issues.rejectedQuestions).toEqual([
-			{ index: 1, text: 'Question', reason: QuestionRejectionReason.MALFORMED_STRUCTURE },
-			{
-				index: 2,
-				text: 'Percentage question',
-				reason: QuestionRejectionReason.MALFORMED_STRUCTURE
-			}
+		expect(result.issues.rejectedQuestions).toEqual([]);
+		expect(
+			result.document.questions.map(question => {
+				if (question.type === 'matching') throw new Error('Unexpected matching question');
+
+				return question.options.map(item => item.text);
+			})
+		).toEqual([
+			['+wrong', 'correct'],
+			['+ answer', 'wrong']
 		]);
 	});
 
