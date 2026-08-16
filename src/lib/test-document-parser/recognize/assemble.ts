@@ -6,7 +6,8 @@ import {
 } from '../types/parse-result';
 import { Question } from '../types/test-document';
 import { parseMatchingPairs } from './matching';
-import { RawOption, RawQuestion } from './segment';
+import { DocumentStructureProfile, RawOption, RawQuestion, SegmentedDocument } from './segment';
+import { QuestionSyntaxResult } from './syntax-profile';
 
 /**
  * Склеивает строки варианта/вопроса. Только мягкий перенос `U+00AD` является
@@ -63,9 +64,12 @@ function containsMachineMetadata(question: RawQuestion): boolean {
 function containsDuplicatedTwoPrefixSyntax(
 	question: RawQuestion,
 	questionText: string,
-	consumedTextPrefixes: (string | null)[]
+	consumedTextPrefixes: (string | null)[],
+	structure: DocumentStructureProfile
 ): boolean {
-	if (!questionText.startsWith('?')) return false;
+	if (structure.kind !== 'two-prefix' || !questionText.startsWith(structure.questionPrefix)) {
+		return false;
+	}
 	const duplicatedOptions = question.options.filter((option, index) => {
 		if (!option.structuralPrefix) return false;
 		const text = normalize(optionTextParts(option, consumedTextPrefixes[index] ?? null));
@@ -99,12 +103,15 @@ function containsConflictingAnswerMarker(
 	});
 }
 
-function containsOptionSyntaxInQuestionText(question: RawQuestion): boolean {
-	const structuralPrefixes = new Set(
-		question.options
-			.map(option => option.structuralPrefix)
-			.filter((prefix): prefix is string => Boolean(prefix))
-	);
+function optionPrefixes(structure: DocumentStructureProfile): Set<string> {
+	return new Set(structure.options?.prefixByFamily.values() ?? []);
+}
+
+function containsOptionSyntaxInQuestionText(
+	question: RawQuestion,
+	structure: DocumentStructureProfile
+): boolean {
+	const structuralPrefixes = optionPrefixes(structure);
 	const prefixed = question.texts.map(text =>
 		[...structuralPrefixes].some(prefix => text.trimStart().startsWith(prefix))
 	);
@@ -129,29 +136,26 @@ function containsOptionSyntaxInQuestionText(question: RawQuestion): boolean {
  * index сохраняет позицию в исходном документе, поэтому в `document.questions`
  * возможны пропуски номеров.
  *
- * @param marks  разметка правильных вариантов по вопросам; `undefined` — вопрос
- *   не участвовал в поиске указателя (у него меньше двух вариантов).
- * @param ambiguous  индексы вопросов (в `raw`) с противоречивым указателем.
- * @param consumedTextPrefixes  служебные префиксы текста по вариантам.
- * @param matching  индексы подтверждённых matching-вопросов.
+ * Сборка не выводит синтаксис и не исправляет его: она получает результат
+ * применения уже зафиксированного профиля и проверяет только общие инварианты
+ * итогового контента.
  */
 export function assembleTestDocument(
-	raw: RawQuestion[],
-	marks: (boolean[] | undefined)[],
-	ambiguous: Set<number>,
-	consumedTextPrefixes: ((string | null)[] | undefined)[] = [],
-	matching: Set<number> = new Set()
+	document: SegmentedDocument,
+	syntaxResults: QuestionSyntaxResult[]
 ): ParseResult {
+	const { questions: raw, structure } = document;
 	const questions: Question[] = [];
 	const rejectedQuestions: RejectedQuestion[] = [];
 
 	for (let qi = 0; qi < raw.length; qi++) {
+		const syntax = syntaxResults[qi];
+		const consumedTextPrefixes = syntax?.consumedTextPrefixes ?? raw[qi].options.map(() => null);
 		const text = normalize(raw[qi].texts);
-		const mark = marks[qi];
 		const options = raw[qi].options.map((option, oi) => ({
 			index: oi + 1,
-			text: normalize(optionTextParts(option, consumedTextPrefixes[qi]?.[oi] ?? null)),
-			isCorrect: mark ? mark[oi] : false
+			text: normalize(optionTextParts(option, consumedTextPrefixes[oi] ?? null)),
+			isCorrect: syntax?.kind === 'choice' ? syntax.marked[oi] : false
 		}));
 
 		const rejectQuestion = (reason: QuestionRejectionReason) => {
@@ -163,8 +167,15 @@ export function assembleTestDocument(
 			continue;
 		}
 		if (
+			syntax?.kind === 'rejected' &&
+			syntax.reason === QuestionRejectionReason.MALFORMED_STRUCTURE
+		) {
+			rejectQuestion(syntax.reason);
+			continue;
+		}
+		if (
 			containsMachineMetadata(raw[qi]) ||
-			containsDuplicatedTwoPrefixSyntax(raw[qi], text, consumedTextPrefixes[qi] ?? [])
+			containsDuplicatedTwoPrefixSyntax(raw[qi], text, consumedTextPrefixes, structure)
 		) {
 			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
@@ -185,27 +196,29 @@ export function assembleTestDocument(
 			rejectQuestion(QuestionRejectionReason.DUPLICATE_OPTIONS);
 			continue;
 		}
-		if (containsConflictingAnswerMarker(raw[qi], consumedTextPrefixes[qi] ?? [])) {
+		if (containsConflictingAnswerMarker(raw[qi], consumedTextPrefixes)) {
 			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
 		}
-		if (containsOptionSyntaxInQuestionText(raw[qi])) {
+		if (containsOptionSyntaxInQuestionText(raw[qi], structure)) {
 			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
 		}
-		if (matching.has(qi)) {
+		if (syntax?.kind === 'rejected') {
+			rejectQuestion(syntax.reason);
+			continue;
+		}
+		if (syntax?.kind === 'matching') {
 			const pairs = parseMatchingPairs(options);
 			if (pairs) {
 				questions.push({ index: qi + 1, text, type: 'matching', pairs });
 				continue;
 			}
-		}
-		if (ambiguous.has(qi)) {
-			rejectQuestion(QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER);
+			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
 		}
-		if (!options.some(o => o.isCorrect)) {
-			rejectQuestion(QuestionRejectionReason.NO_ANSWER_MARKER);
+		if (!syntax || syntax.kind !== 'choice') {
+			rejectQuestion(QuestionRejectionReason.MALFORMED_STRUCTURE);
 			continue;
 		}
 		const correctCount = options.filter(o => o.isCorrect).length;

@@ -1,6 +1,7 @@
 import { ParseStatus, QuestionRejectionReason } from '../types/parse-result';
-import { assembleTestDocument } from './assemble';
-import { RawQuestion } from './segment';
+import { assembleTestDocument as assembleRecognizedDocument } from './assemble';
+import { OptionSyntaxProfile, RawQuestion, SegmentedDocument } from './segment';
+import { QuestionSyntaxResult } from './syntax-profile';
 
 const option = (...texts: string[]) => ({
 	sourcePrefix: null,
@@ -9,6 +10,59 @@ const option = (...texts: string[]) => ({
 	texts,
 	lines: []
 });
+
+function optionSyntax(raw: RawQuestion[]): OptionSyntaxProfile | null {
+	const prefixes = new Map<string, string>();
+	for (const prefix of raw.flatMap(question =>
+		question.options.flatMap(item => item.structuralPrefix ?? [])
+	)) {
+		prefixes.set(prefix[0], prefix);
+	}
+
+	return prefixes.size > 0 ? { prefixByFamily: prefixes } : null;
+}
+
+function assembleTestDocument(
+	raw: RawQuestion[],
+	marks: (boolean[] | undefined)[],
+	ambiguous: Set<number>,
+	consumedTextPrefixes: ((string | null)[] | undefined)[] = [],
+	matching: Set<number> = new Set()
+) {
+	const options = optionSyntax(raw);
+	const document: SegmentedDocument = {
+		questions: raw,
+		structure: raw.some(question => question.texts.join(' ').startsWith('?'))
+			? {
+					kind: 'two-prefix',
+					questionPrefix: '?',
+					options: options ?? { prefixByFamily: new Map() }
+				}
+			: { kind: 'numbered', options }
+	};
+	const syntax: QuestionSyntaxResult[] = raw.map((question, index) => {
+		const prefixes = consumedTextPrefixes[index] ?? question.options.map(() => null);
+		if (matching.has(index)) return { kind: 'matching', consumedTextPrefixes: prefixes };
+		if (ambiguous.has(index)) {
+			return {
+				kind: 'rejected',
+				reason: QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER,
+				consumedTextPrefixes: prefixes
+			};
+		}
+		const marked = marks[index] ?? question.options.map(() => false);
+
+		return marked.some(Boolean)
+			? { kind: 'choice', marked, consumedTextPrefixes: prefixes }
+			: {
+					kind: 'rejected',
+					reason: QuestionRejectionReason.NO_ANSWER_MARKER,
+					consumedTextPrefixes: prefixes
+				};
+	});
+
+	return assembleRecognizedDocument(document, syntax);
+}
 
 describe('assembleTestDocument', () => {
 	test('removes only a soft hyphen and preserves visible hyphens between lines', () => {

@@ -1,9 +1,10 @@
 import { DocLine } from '../types/document-model';
 import { ParseStatus, QuestionRejectionReason } from '../types/parse-result';
 import { ChoiceQuestion, Question } from '../types/test-document';
-import { assembleTestDocument } from './assemble';
+import { assembleTestDocument as assembleRecognizedDocument } from './assemble';
 import { resolveAnswerMarker } from './detect-marker';
-import { RawQuestion, segmentQuestions } from './segment';
+import { OptionSyntaxProfile, RawQuestion, segmentQuestions } from './segment';
+import { QuestionSyntaxResult } from './syntax-profile';
 
 const line = (text: string, highlightFrac = 0): DocLine => ({
 	page: 1,
@@ -38,6 +39,48 @@ function choiceQuestion(question: Question): ChoiceQuestion {
 	if (question.type === 'matching') throw new Error('Expected a choice question');
 
 	return question;
+}
+
+function optionSyntax(raw: RawQuestion[]): OptionSyntaxProfile {
+	const prefixByFamily = new Map<string, string>();
+	for (const prefix of raw.flatMap(question =>
+		question.options.flatMap(option => option.structuralPrefix ?? [])
+	)) {
+		prefixByFamily.set(prefix[0], prefix);
+	}
+
+	return { prefixByFamily };
+}
+
+function assembleTestDocument(
+	raw: RawQuestion[],
+	marks: boolean[][],
+	ambiguous: Set<number>,
+	consumedTextPrefixes: (string | null)[][]
+) {
+	const syntax: QuestionSyntaxResult[] = raw.map((question, index) => {
+		const prefixes = consumedTextPrefixes[index] ?? question.options.map(() => null);
+		if (ambiguous.has(index)) {
+			return {
+				kind: 'rejected',
+				reason: QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER,
+				consumedTextPrefixes: prefixes
+			};
+		}
+
+		return marks[index]?.some(Boolean)
+			? { kind: 'choice', marked: marks[index], consumedTextPrefixes: prefixes }
+			: {
+					kind: 'rejected',
+					reason: QuestionRejectionReason.NO_ANSWER_MARKER,
+					consumedTextPrefixes: prefixes
+				};
+	});
+
+	return assembleRecognizedDocument(
+		{ questions: raw, structure: { kind: 'bracket', options: optionSyntax(raw) } },
+		syntax
+	);
 }
 
 describe('document-level option syntax', () => {

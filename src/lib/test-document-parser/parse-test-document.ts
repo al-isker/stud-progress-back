@@ -1,15 +1,9 @@
 import { extractPdfLines } from './extract/extract-pdf';
 import { assembleTestDocument } from './recognize/assemble';
-import { resolveAnswerMarker } from './recognize/detect-marker';
-import { hasMalformedPercentageSyntax } from './recognize/detect-percentage-marker';
 import { segmentQuestions } from './recognize/segment';
+import { recognizeDocumentSyntax } from './recognize/syntax-profile';
 import { DocLine } from './types/document-model';
-import {
-	ParseRejectionReason,
-	ParseResult,
-	ParseStatus,
-	QuestionRejectionReason
-} from './types/parse-result';
+import { ParseRejectionReason, ParseResult, ParseStatus } from './types/parse-result';
 
 /** Вход парсера: сырые байты документа и необязательные подсказки формата. */
 export interface ParseInput {
@@ -55,38 +49,14 @@ export async function parseTestDocument(input: ParseInput): Promise<ParseResult>
 
 	const segmented = segmentQuestions(lines);
 	if (!segmented) return reject(ParseRejectionReason.QUESTION_STRUCTURE_NOT_RECOGNIZED);
-	const raw = segmented.questions;
-	if (raw.length > MAX_QUESTION_COUNT) {
+	if (segmented.questions.length > MAX_QUESTION_COUNT) {
 		return reject(ParseRejectionReason.QUESTION_LIMIT_EXCEEDED);
 	}
-	raw.forEach(question => {
-		if (!question.rejectionReason && hasMalformedPercentageSyntax(question)) {
-			question.rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
-		}
-	});
 
-	// Указатель ответа ищем только среди вопросов с двумя и более вариантами.
-	const answerableIndices: number[] = [];
-	raw.forEach((q, i) => {
-		if (!q.rejectionReason && q.options.length >= 2) answerableIndices.push(i);
-	});
-
-	const marker = resolveAnswerMarker(answerableIndices.map(i => raw[i]));
-	if (!marker.confirmed) {
+	const syntax = recognizeDocumentSyntax(segmented);
+	if (!syntax) {
 		return reject(ParseRejectionReason.ANSWER_MARKER_NOT_RECOGNIZED);
 	}
 
-	const marks: (boolean[] | undefined)[] = raw.map(() => undefined);
-	const consumedTextPrefixes: ((string | null)[] | undefined)[] = raw.map(() => undefined);
-	const matchingGlobal = new Set<number>();
-	answerableIndices.forEach((globalIndex, localIndex) => {
-		marks[globalIndex] = marker.marked[localIndex];
-		consumedTextPrefixes[globalIndex] = marker.consumedTextPrefixes[localIndex];
-		if (marker.matching[localIndex]) matchingGlobal.add(globalIndex);
-	});
-	const ambiguousGlobal = new Set(
-		marker.ambiguous.map(localIndex => answerableIndices[localIndex])
-	);
-
-	return assembleTestDocument(raw, marks, ambiguousGlobal, consumedTextPrefixes, matchingGlobal);
+	return assembleTestDocument(segmented, syntax.questions);
 }
