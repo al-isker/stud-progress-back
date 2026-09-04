@@ -323,77 +323,6 @@ function arrangePageGroups(
 	};
 }
 
-/** Латинские буквы, визуально неотличимые от кириллических. */
-const LATIN_TO_CYRILLIC_HOMOGLYPHS: Record<string, string> = {
-	a: 'а',
-	c: 'с',
-	e: 'е',
-	o: 'о',
-	p: 'р',
-	x: 'х',
-	y: 'у',
-	k: 'к',
-	A: 'А',
-	B: 'В',
-	C: 'С',
-	E: 'Е',
-	H: 'Н',
-	K: 'К',
-	M: 'М',
-	O: 'О',
-	P: 'Р',
-	T: 'Т',
-	X: 'Х',
-	Y: 'У'
-};
-
-const CYRILLIC_TO_LATIN_HOMOGLYPHS: Record<string, string> = Object.fromEntries(
-	Object.entries(LATIN_TO_CYRILLIC_HOMOGLYPHS).map(([latin, cyrillic]) => [cyrillic, latin])
-);
-
-/**
- * Исправляет смешение визуально одинаковых латинских и кириллических букв.
- * Сначала проверяет, в какой алфавит слово можно привести полностью. Если
- * допустимы оба направления, выбирает преобладающий алфавит; при равенстве
- * оставляет слово без изменений.
- */
-export function fixHomoglyphs(text: string): string {
-	return text.replace(/[A-Za-zА-Яа-яЁё]+/g, word => {
-		const latinCharacters = word.match(/[A-Za-z]/g) ?? [];
-		const cyrillicCharacters = word.match(/[А-Яа-яЁё]/g) ?? [];
-		if (latinCharacters.length === 0 || cyrillicCharacters.length === 0) return word;
-
-		const canBeCyrillic = latinCharacters.every(
-			character => LATIN_TO_CYRILLIC_HOMOGLYPHS[character]
-		);
-		const canBeLatin = cyrillicCharacters.every(
-			character => CYRILLIC_TO_LATIN_HOMOGLYPHS[character]
-		);
-		if (!canBeCyrillic && !canBeLatin) return word;
-
-		const convertToCyrillic =
-			canBeCyrillic && (!canBeLatin || cyrillicCharacters.length > latinCharacters.length);
-		const convertToLatin =
-			canBeLatin && (!canBeCyrillic || latinCharacters.length > cyrillicCharacters.length);
-
-		if (convertToCyrillic) {
-			return word.replace(
-				/[A-Za-z]/g,
-				character => LATIN_TO_CYRILLIC_HOMOGLYPHS[character] ?? character
-			);
-		}
-
-		if (convertToLatin) {
-			return word.replace(
-				/[А-Яа-яЁё]/g,
-				character => CYRILLIC_TO_LATIN_HOMOGLYPHS[character] ?? character
-			);
-		}
-
-		return word;
-	});
-}
-
 function matMul(a: Matrix, b: Matrix): Matrix {
 	return [
 		b[0] * a[0] + b[1] * a[2],
@@ -926,8 +855,6 @@ async function extractPage(
 			text += item.str;
 			prev = item;
 		}
-
-		text = fixHomoglyphs(text);
 
 		const x0 = group[0].x;
 		const x1 = Math.max(...group.map(i => i.x + i.w));

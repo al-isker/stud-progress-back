@@ -83,7 +83,7 @@
 					},
 					{
 						"index": 3,
-						"text": "Co, Zn, Hg",
+						"text": "Co, Zn, Нg",
 						"isCorrect": false
 					},
 					{
@@ -125,7 +125,7 @@
 					},
 					{
 						"index": 5,
-						"text": "S, Bi, Hg",
+						"text": "S, Bi, Нg",
 						"isCorrect": false
 					}
 				]
@@ -437,7 +437,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "Mg(OH)<sub>2</sub>",
+						"text": "Мg(OH)<sub>2</sub>",
 						"isCorrect": false
 					},
 					{
@@ -1439,7 +1439,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "HCl",
+						"text": "НСl",
 						"isCorrect": false
 					},
 					{
@@ -2505,7 +2505,7 @@
 					},
 					{
 						"index": 3,
-						"text": "ΔS=ΔQp",
+						"text": "ΔS=ΔQр",
 						"isCorrect": false
 					}
 				]
@@ -2627,7 +2627,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "образование AgCI",
+						"text": "образование АgCI",
 						"isCorrect": false
 					},
 					{
@@ -3256,14 +3256,14 @@
 					},
 					{
 						"index": 3,
-						"text": "См= n(1/zX) / V",
+						"text": "См= n(1/zХ) / V",
 						"isCorrect": false
 					}
 				]
 			},
 			{
 				"index": 133,
-				"text": "Молярная концентрация эквивалента C(1/zX) показывает:",
+				"text": "Молярная концентрация эквивалента C(1/zХ) показывает:",
 				"type": "single",
 				"options": [
 					{
@@ -3748,7 +3748,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "π= cRT",
+						"text": "π= сRT",
 						"isCorrect": true
 					},
 					{
@@ -3812,7 +3812,7 @@
 					},
 					{
 						"index": 3,
-						"text": "повысит его",
+						"text": "повысит егo",
 						"isCorrect": false
 					}
 				]
@@ -4123,7 +4123,7 @@
 			},
 			{
 				"index": 169,
-				"text": "Одинаково ли осмотическое давление создаваемое 0,01моль/л растворами сахарозы, AI<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> и KNO<sub>3</sub>:",
+				"text": "Одинаково ли осмотическое давление создаваемое 0,01моль/л растворами сахарозы, АI<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> и КNO<sub>3</sub>:",
 				"type": "single",
 				"options": [
 					{
@@ -4960,17 +4960,17 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "Δ рН = рКинд ± 1",
+						"text": "Δ рН = pКинд ± 1",
 						"isCorrect": true
 					},
 					{
 						"index": 2,
-						"text": "ΔрН = рКинд - lg[Ind‾]",
+						"text": "ΔрН = pКинд - lg[Ind‾]",
 						"isCorrect": false
 					},
 					{
 						"index": 3,
-						"text": "ΔрН = рКинд + lg[Ind‾]",
+						"text": "ΔрН = pКинд + lg[Ind‾]",
 						"isCorrect": false
 					}
 				]
@@ -5575,7 +5575,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "[Hsup+/sup] =√ Ksubk/sub٠ Csubk/sub",
+						"text": "[Нsup+/sup] =√ Кsubк/sub٠ Сsubк/sub",
 						"isCorrect": false
 					},
 					{
@@ -5607,7 +5607,7 @@
 					},
 					{
 						"index": 2,
-						"text": "[Hsup+/sup] =√ Ksubk/sub٠ Csubk/sub",
+						"text": "[Нsup+/sup] =√ Кsubк/sub٠ Сsubк/sub",
 						"isCorrect": false
 					},
 					{
@@ -5624,7 +5624,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "[Hsup+/sup] =√ Ksubk/sub٠ Csubk/sub",
+						"text": "[Нsup+/sup] =√ Кsubк/sub٠ Сsubк/sub",
 						"isCorrect": false
 					},
 					{
@@ -5646,12 +5646,12 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "рН = 14 - 1/2( рК<sub>о</sub> - lgC<sub>о</sub>)",
+						"text": "рН = 14 - 1/2( рК<sub>о</sub> - lgС<sub>о</sub>)",
 						"isCorrect": false
 					},
 					{
 						"index": 2,
-						"text": "рН = 1/2( рК<sub>к</sub> - lgC<sub>к</sub>)",
+						"text": "рН = 1/2( рК<sub>к</sub> - lgС<sub>к</sub>)",
 						"isCorrect": true
 					},
 					{
@@ -5668,12 +5668,12 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "рН = 1/2( рК<sub>к</sub> - lgC<sub>к</sub>)",
+						"text": "рН = 1/2( рК<sub>к</sub> - lgС<sub>к</sub>)",
 						"isCorrect": false
 					},
 					{
 						"index": 2,
-						"text": "рН = 14 - 1/2( рК<sub>о</sub> - lgC<sub>о</sub>)",
+						"text": "рН = 14 - 1/2( рК<sub>о</sub> - lgС<sub>о</sub>)",
 						"isCorrect": true
 					},
 					{
@@ -5898,7 +5898,7 @@
 					},
 					{
 						"index": 2,
-						"text": "Кsubг/sub= Кsubв/sub/ Ksubk/sub٠Ksubo/sub",
+						"text": "Кsubг/sub= Кsubв/sub/ Кsubк/sub٠Кsubо/sub",
 						"isCorrect": false
 					},
 					{
@@ -5925,7 +5925,7 @@
 					},
 					{
 						"index": 3,
-						"text": "Кsubг/sub= Кsubв/sub/ Ksubk/sub٠Ksubo/sub",
+						"text": "Кsubг/sub= Кsubв/sub/ Кsubк/sub٠Кsubо/sub",
 						"isCorrect": false
 					}
 				]
@@ -6640,7 +6640,7 @@
 					},
 					{
 						"index": 2,
-						"text": "[Н<sub>2</sub>SO<sub>4</sub>] / [KHSO<sub>4</sub>]",
+						"text": "[Н<sub>2</sub>SO<sub>4</sub>] / [KНSO<sub>4</sub>]",
 						"isCorrect": false
 					},
 					{
@@ -6679,7 +6679,7 @@
 			},
 			{
 				"index": 277,
-				"text": "Какая из перечисленных систем, состоящая из растворов солей, проявляет буферное действие?",
+				"text": "Какая из перечисленных систем, соcтоящая из растворов солей, проявляет буферное действие?",
 				"type": "single",
 				"options": [
 					{
@@ -6694,7 +6694,7 @@
 					},
 					{
 						"index": 3,
-						"text": "[NaH<sub>2</sub>РО<sub>4</sub>] / [Na<sub>2</sub>НРО<sub>4</sub>]",
+						"text": "[NaH<sub>2</sub>РО<sub>4</sub>] / [Na<sub>2</sub>HРО<sub>4</sub>]",
 						"isCorrect": true
 					},
 					{
@@ -6770,12 +6770,12 @@
 					},
 					{
 						"index": 2,
-						"text": "HHb / KHb",
+						"text": "ННb / KHb",
 						"isCorrect": true
 					},
 					{
 						"index": 3,
-						"text": "HHbO<sub>2</sub> / KHbO<sub>2</sub>",
+						"text": "ННbО<sub>2</sub> / KHbO<sub>2</sub>",
 						"isCorrect": false
 					},
 					{
@@ -6785,7 +6785,7 @@
 					},
 					{
 						"index": 5,
-						"text": "NaH<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>HPO<sub>4</sub>",
+						"text": "NaН<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>НPO<sub>4</sub>",
 						"isCorrect": false
 					}
 				]
@@ -6802,12 +6802,12 @@
 					},
 					{
 						"index": 2,
-						"text": "HHb / KHb",
+						"text": "ННb / KHb",
 						"isCorrect": false
 					},
 					{
 						"index": 3,
-						"text": "HHbO<sub>2</sub> / KHbO<sub>2</sub>",
+						"text": "ННbО<sub>2</sub> / KHbO<sub>2</sub>",
 						"isCorrect": true
 					},
 					{
@@ -6817,7 +6817,7 @@
 					},
 					{
 						"index": 5,
-						"text": "NaH<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>HPO<sub>4</sub>",
+						"text": "NaН<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>НPO<sub>4</sub>",
 						"isCorrect": false
 					}
 				]
@@ -6834,12 +6834,12 @@
 					},
 					{
 						"index": 2,
-						"text": "HHb / KHb",
+						"text": "ННb / KHb",
 						"isCorrect": false
 					},
 					{
 						"index": 3,
-						"text": "HHbO<sub>2</sub> / KHbO<sub>2</sub>",
+						"text": "ННbО<sub>2</sub> / KHbO<sub>2</sub>",
 						"isCorrect": false
 					},
 					{
@@ -6849,7 +6849,7 @@
 					},
 					{
 						"index": 5,
-						"text": "NaH<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>HPO<sub>4</sub>",
+						"text": "NaН<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>НPO<sub>4</sub>",
 						"isCorrect": false
 					}
 				]
@@ -6866,12 +6866,12 @@
 					},
 					{
 						"index": 2,
-						"text": "HHb / KHb",
+						"text": "ННb / KHb",
 						"isCorrect": false
 					},
 					{
 						"index": 3,
-						"text": "HHbO<sub>2</sub> / KHbO<sub>2</sub>",
+						"text": "ННbО<sub>2</sub> / KHbO<sub>2</sub>",
 						"isCorrect": false
 					},
 					{
@@ -6881,7 +6881,7 @@
 					},
 					{
 						"index": 5,
-						"text": "NaH<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>HPO<sub>4</sub>",
+						"text": "NaН<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>НPO<sub>4</sub>",
 						"isCorrect": true
 					}
 				]
@@ -6898,12 +6898,12 @@
 					},
 					{
 						"index": 2,
-						"text": "HHb / KHb",
+						"text": "ННb / KHb",
 						"isCorrect": false
 					},
 					{
 						"index": 3,
-						"text": "HHbO<sub>2</sub> / KHbO<sub>2</sub>",
+						"text": "ННbО<sub>2</sub> / KHbO<sub>2</sub>",
 						"isCorrect": false
 					},
 					{
@@ -6913,7 +6913,7 @@
 					},
 					{
 						"index": 5,
-						"text": "NaH<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>HPO<sub>4 </sub>",
+						"text": "NaН<sub>2</sub>PO<sub>4</sub> / Na<sub>2</sub>НPO<sub>4 </sub>",
 						"isCorrect": false
 					}
 				]
@@ -7087,7 +7087,7 @@
 			},
 			{
 				"index": 291,
-				"text": "В крови существует следующее равновесие: ННвО<sub>2</sub> <-> Н<sup>+</sup> + HbO<sub>2</sub><sup>‾</sup> . Куда сместится данное равновесие при ацидозе?",
+				"text": "В крови существует следующее равновесие: HНвО<sub>2</sub> <-> Н<sup>+</sup> + НbО<sub>2</sub><sup>‾</sup> . Куда сместится данное равновесие при ацидозе?",
 				"type": "single",
 				"options": [
 					{
@@ -7109,7 +7109,7 @@
 			},
 			{
 				"index": 292,
-				"text": "Гемоглобин участвует в нескольких равновесиях, общий результат которых можно приблизительно описать уравнением HHb+ О<sub>2</sub> <->ННвО<sub>2</sub> <-> Н<sup>+</sup> + HbO<sub>2</sub><sup>‾</sup> . Куда сместится это равновесие при ацидозе?",
+				"text": "Гемоглобин участвует в нескольких равновесиях, общий результат которых можно приблизительно описать уравнением НHb+ О<sub>2</sub> <->HНвО<sub>2</sub> <-> Н<sup>+</sup> + HbO<sub>2</sub><sup>‾</sup> . Куда сместится это равновесие при ацидозе?",
 				"type": "single",
 				"options": [
 					{
@@ -7168,12 +7168,12 @@
 					},
 					{
 						"index": 3,
-						"text": "рН = рК - lg Ссл.соли",
+						"text": "рН = рК - lg Cсл.cоли",
 						"isCorrect": false
 					},
 					{
 						"index": 4,
-						"text": "рН=рК<sub>CH3COOH</sub>+lgC(CH<sub>3</sub>COONa) / С(CH<sub>3</sub>COOH)",
+						"text": "рН=рК<sub>CH3COOH</sub>+lgС(CH<sub>3</sub>COONa) / С(CH<sub>3</sub>COOН)",
 						"isCorrect": true
 					}
 				]
@@ -7185,17 +7185,17 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "рН = pKNaHwd2</sub>PO<sub>4</sub> + lgC(Na<sub>2</sub>HPO<sub>4</sub>)",
+						"text": "рН = рКNaHwd2</sub>PO<sub>4</sub> + lgС(Na<sub>2</sub>HPO<sub>4</sub>)",
 						"isCorrect": false
 					},
 					{
 						"index": 2,
-						"text": "рН = pKNaH<sub>2</sub>PO<sub>4</sub> + lgC(NaH<sub>2</sub>PO<sub>4</sub>)",
+						"text": "рН = рКNaH<sub>2</sub>PO<sub>4</sub> + lgС(NaH<sub>2</sub>PO<sub>4</sub>)",
 						"isCorrect": false
 					},
 					{
 						"index": 3,
-						"text": "рН=pKNaH<sub>2</sub>PO<sub>4</sub> +lgC(Na<sub>2</sub>HPO<sub>4</sub>) / С(NaH<sub>2</sub>PO<sub>4</sub>)",
+						"text": "рН=рКNaH<sub>2</sub>PO<sub>4</sub> +lgС(Na<sub>2</sub>HPO<sub>4</sub>) / С(NaH<sub>2</sub>PO<sub>4</sub>)",
 						"isCorrect": true
 					}
 				]
@@ -7207,12 +7207,12 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "рН= рКН<sub>2</sub>СО<sub>3</sub>+ lg CNaHCO<sub>3</sub>",
+						"text": "рН= рКН<sub>2</sub>СО<sub>3</sub>+ lg СNaHCO<sub>3</sub>",
 						"isCorrect": false
 					},
 					{
 						"index": 2,
-						"text": "рН= рКН<sub>2</sub>СО<sub>3</sub> +lgCH2СО<sub>3</sub>",
+						"text": "рН= рКН<sub>2</sub>СО<sub>3</sub> +lgCН2СО<sub>3</sub>",
 						"isCorrect": false
 					},
 					{
@@ -7496,17 +7496,17 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "рН = рК + lg C<sub>соли</sub> / С<sub>кислоты</sub>",
+						"text": "рН = рК + lg C<sub>cоли</sub> / С<sub>кислоты</sub>",
 						"isCorrect": true
 					},
 					{
 						"index": 2,
-						"text": "рН = 14 - рКо - lg C<sub>соли</sub> / С<sub>осн.</sub>",
+						"text": "рН = 14 - рКо - lg C<sub>cоли</sub> / С<sub>осн.</sub>",
 						"isCorrect": false
 					},
 					{
 						"index": 3,
-						"text": "рН = рК - lg C<sub>соли</sub>",
+						"text": "рН = рК - lg C<sub>cоли</sub>",
 						"isCorrect": false
 					}
 				]
@@ -7518,17 +7518,17 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "рН = рК - lg C<sub>соли</sub>/ С <sub>кислоты</sub>",
+						"text": "рН = рК - lg C<sub>cоли</sub>/ С <sub>кислоты</sub>",
 						"isCorrect": false
 					},
 					{
 						"index": 2,
-						"text": "рН = 14 - рКо - lg C<sub>соли</sub> / С<sub>осн</sub>",
+						"text": "рН = 14 - рКо - lg C<sub>cоли</sub> / С<sub>осн</sub>",
 						"isCorrect": true
 					},
 					{
 						"index": 3,
-						"text": "рН = рК + lg C<sub>соли</sub> / С<sub>кислоты</sub>",
+						"text": "рН = рК + lg C<sub>cоли</sub> / С<sub>кислоты</sub>",
 						"isCorrect": false
 					}
 				]
@@ -7636,12 +7636,12 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "Вк = Vk ٠ Cк / Vб.р. ٠ ∆pH",
+						"text": "Вк = Vк ٠ Cк / Vб.р. ٠ ∆pH",
 						"isCorrect": true
 					},
 					{
 						"index": 2,
-						"text": "Вк = Vщ ٠ Сщ / Vб.р. ٠ ∆ pH",
+						"text": "Вк = Vщ ٠ Cщ / Vб.р. ٠ ∆ pH",
 						"isCorrect": false
 					},
 					{
@@ -7663,12 +7663,12 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "Вк = Vk ٠ Cк / Vб.р. ٠ ∆pH",
+						"text": "Вк = Vк ٠ Cк / Vб.р. ٠ ∆pH",
 						"isCorrect": false
 					},
 					{
 						"index": 2,
-						"text": "Вщ = Vщ٠ Сщ / Vб.р. ٠ ∆ pH",
+						"text": "Вщ = Vщ٠ Cщ / Vб.р. ٠ ∆ pH",
 						"isCorrect": true
 					},
 					{
@@ -9390,7 +9390,7 @@
 			},
 			{
 				"index": 385,
-				"text": "Дана золь железа(III) гидроксида {mFe(OH)sub3/sub ٠FeOsup+/sup٠(n-x)CIsup‾/sup} <sup>х+</sup>xCI<sup>‾</sup> Какие ионы являются потенциалопределяющими:",
+				"text": "Дана золь железа(III) гидроксида {mFe(OH)sub3/sub ٠FeOsup+/sup٠(n-x)CIsup‾/sup} <sup>х+</sup>хCI<sup>‾</sup> Какие ионы являются потенциалопределяющими:",
 				"type": "single",
 				"options": [
 					{
@@ -9422,7 +9422,7 @@
 					},
 					{
 						"index": 2,
-						"text": "CI<sup>‾</sup>",
+						"text": "СI<sup>‾</sup>",
 						"isCorrect": false
 					},
 					{
@@ -9449,7 +9449,7 @@
 					},
 					{
 						"index": 3,
-						"text": "CaC<sub>2</sub>O<sub>4</sub>",
+						"text": "СaC<sub>2</sub>O<sub>4</sub>",
 						"isCorrect": false
 					}
 				]
@@ -9471,7 +9471,7 @@
 					},
 					{
 						"index": 3,
-						"text": "{mAgI٠ nAgsup+/sup٠(n-x)NOsub3/subsup‾/sup} supX+/sup xNMO<sub>3</sub><sup>‾</sup>",
+						"text": "{mAgI٠ nAgsup+/sup٠(n-x)NOsub3/subsup‾/sup} supX+/sup xNМO<sub>3</sub><sup>‾</sup>",
 						"isCorrect": false
 					}
 				]
@@ -10931,17 +10931,17 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "Ks = Пс.и.",
+						"text": "Кs = Пс.и.",
 						"isCorrect": false
 					},
 					{
 						"index": 2,
-						"text": "Ks < Пс.и.",
+						"text": "Кs < Пс.и.",
 						"isCorrect": true
 					},
 					{
 						"index": 3,
-						"text": "Ks >Пс.и.",
+						"text": "Кs >Пс.и.",
 						"isCorrect": false
 					}
 				]
@@ -10992,7 +10992,7 @@
 			},
 			{
 				"index": 456,
-				"text": "Для Al(OH)<sub>3</sub> константа растворимости имеет вид:",
+				"text": "Для Аl(OH)<sub>3</sub> константа растворимости имеет вид:",
 				"type": "single",
 				"options": [
 					{
@@ -20957,7 +20957,7 @@
 			},
 			{
 				"index": 792,
-				"text": "Какая связь образуется при взаимодействии д-лактозы с метанолом в присутствии сухого HCI:",
+				"text": "Какая связь образуется при взаимодействии д-лактозы с метанолом в присутствии сухого НСI:",
 				"type": "single",
 				"options": [
 					{

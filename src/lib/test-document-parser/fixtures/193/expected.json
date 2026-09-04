@@ -748,7 +748,7 @@
 			},
 			{
 				"index": 28,
-				"text": "Восстановите из отдельных частей URL: 1) http 2) .microsoft 3) ww 4) /log 5) in.php 6) .com 7) ://w",
+				"text": "Восстановите из отдельных частей URL: 1) http 2) .microsoft 3) ww 4) /log 5) in.php 6) .соm 7) ://w",
 				"type": "single",
 				"options": [
 					{
@@ -775,7 +775,7 @@
 			},
 			{
 				"index": 29,
-				"text": "Восстановите из отдельных частей URL: 1) //my_first_site. 2) nar 3) /raz 4) htt 5) noye/ 6) txt 7) р: 8) od.ru 9) document.",
+				"text": "Восстановите из отдельных частей URL: 1) //my_first_site. 2) nar 3) /raz 4) htt 5) nоуе/ 6) txt 7) р: 8) od.ru 9) document.",
 				"type": "single",
 				"options": [
 					{
@@ -2740,7 +2740,7 @@
 					},
 					{
 						"index": 5,
-						"text": "ТСР",
+						"text": "TСР",
 						"isCorrect": true
 					}
 				]

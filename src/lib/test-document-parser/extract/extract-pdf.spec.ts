@@ -1,5 +1,5 @@
 import { DocLine } from '../types/document-model';
-import { fixHomoglyphs, removeConfirmedPageNumbers } from './extract-pdf';
+import { removeConfirmedPageNumbers } from './extract-pdf';
 
 const line = (page: number, text: string, y: number, x0 = 50): DocLine => ({
 	page,
@@ -13,20 +13,6 @@ const line = (page: number, text: string, y: number, x0 = 50): DocLine => ({
 	color: null,
 	highlightFrac: 0,
 	gapBefore: 15
-});
-
-describe('fixHomoglyphs', () => {
-	test('replaces Latin homoglyphs in predominantly Cyrillic words', () => {
-		expect(fixHomoglyphs('пaциент Cиндром MОСКВА нa')).toBe('пациент Синдром МОСКВА на');
-	});
-
-	test('replaces Cyrillic homoglyphs in predominantly Latin words', () => {
-		expect(fixHomoglyphs('OpenАI CОDEX IХ ХII ХV')).toBe('OpenAI CODEX IX XII XV');
-	});
-
-	test('keeps single-script and ambiguous words unchanged', () => {
-		expect(fixHomoglyphs('пациент OpenAI AА testслово')).toBe('пациент OpenAI AА testслово');
-	});
 });
 
 describe('removeConfirmedPageNumbers', () => {
