@@ -200,10 +200,9 @@ function lastParagraph(tail: DocLine[]): DocLine[] {
 	return paragraph;
 }
 
-/** Соседняя строка того же визуального блока многострочного вопроса. */
+/** Строка того же визуального блока многострочного вопроса. */
 function hasCompatibleQuestionStyle(candidate: DocLine, opener: DocLine): boolean {
 	return (
-		candidate.page === opener.page &&
 		Math.abs(candidate.x0 - opener.x0) <= opener.size &&
 		Math.abs(candidate.size - opener.size) <= 0.5 &&
 		Math.abs(candidate.boldFrac - opener.boldFrac) <= 0.2 &&
@@ -211,26 +210,96 @@ function hasCompatibleQuestionStyle(candidate: DocLine, opener: DocLine): boolea
 	);
 }
 
-function startsWithLowercaseLetter(text: string): boolean {
-	const firstLetter = /\p{L}/u.exec(text)?.[0];
+interface QuestionLead {
+	lines: DocLine[];
+	rejectionReason?: QuestionRejectionReason;
+}
 
-	return Boolean(
-		firstLetter &&
-			firstLetter === firstLetter.toLocaleLowerCase() &&
-			firstLetter !== firstLetter.toLocaleUpperCase()
+function continuesReadingFlow(previous: DocLine, opener: DocLine): boolean {
+	return (
+		opener.page === previous.page + 1 ||
+		(opener.page === previous.page && opener.gapBefore === null && opener.y > previous.y)
 	);
 }
 
-function questionLead(tail: DocLine[], opener: DocLine, beforeOpen: string): DocLine[] {
-	if (!isParagraphStart(opener)) return lastParagraph(tail);
-	if (!startsWithLowercaseLetter(beforeOpen)) return [];
-	const lines: DocLine[] = [];
-	for (let i = tail.length - 1; i >= 0; i--) {
-		if (!hasCompatibleQuestionStyle(tail[i], opener)) break;
-		lines.unshift(tail[i]);
+function inferNormalLineGapRatio(lines: DocLine[]): number {
+	const buckets = new Map<number, number>();
+	for (const line of lines) {
+		if (line.gapBefore === null || line.size <= 0) continue;
+		const ratio = line.gapBefore / line.size;
+		if (ratio < 0.4 || ratio > 8) continue;
+		const bucket = Math.round(ratio * 10);
+		buckets.set(bucket, (buckets.get(bucket) ?? 0) + 1);
+	}
+	if (buckets.size === 0) return 1;
+
+	let bestBucket = 0;
+	let bestCount = -1;
+	for (const bucket of buckets.keys()) {
+		const count =
+			(buckets.get(bucket - 1) ?? 0) + (buckets.get(bucket) ?? 0) + (buckets.get(bucket + 1) ?? 0);
+		if (count > bestCount || (count === bestCount && bucket < bestBucket)) {
+			bestBucket = bucket;
+			bestCount = count;
+		}
+	}
+
+	return bestBucket / 10;
+}
+
+function hasNormalLineGap(previous: DocLine, next: DocLine, maximumGapRatio: number): boolean {
+	if (continuesReadingFlow(previous, next)) return true;
+	if (previous.page !== next.page || next.gapBefore === null || next.size <= 0) return false;
+
+	return next.gapBefore / next.size <= maximumGapRatio;
+}
+
+function connectedTail(tail: DocLine[], lastIndex: number, maximumGapRatio: number): DocLine[] {
+	const lines = [tail[lastIndex]];
+	let next = tail[lastIndex];
+	for (let index = lastIndex - 1; index >= 0; index--) {
+		const candidate = tail[index];
+		if (!hasNormalLineGap(candidate, next, maximumGapRatio)) break;
+		lines.unshift(candidate);
+		next = candidate;
 	}
 
 	return lines;
+}
+
+/**
+ * Определяет только структурно подтверждённое начало вопроса перед строкой с
+ * `{`. Регистр и смысл текста не используются.
+ *
+ * Строки с обычным для документа интервалом образуют единый блок независимо
+ * от регистра и локальных отступов. Через границу страницы/колонки блок
+ * продолжается только при совместимом оформлении. Аномальный разрыв при том
+ * же оформлении противоречив: обе части сохраняются, а вопрос отклоняется,
+ * чтобы не принять его усечённую версию.
+ */
+function questionLead(tail: DocLine[], opener: DocLine, maximumGapRatio: number): QuestionLead {
+	const lines: DocLine[] = [];
+	let next = opener;
+	for (let index = tail.length - 1; index >= 0; index--) {
+		const candidate = tail[index];
+		const readingFlowBoundary = continuesReadingFlow(candidate, next);
+		if (
+			hasNormalLineGap(candidate, next, maximumGapRatio) &&
+			(!readingFlowBoundary || hasCompatibleQuestionStyle(candidate, opener))
+		) {
+			lines.unshift(candidate);
+			next = candidate;
+			continue;
+		}
+		if (!hasCompatibleQuestionStyle(candidate, opener)) break;
+
+		return {
+			lines: [...connectedTail(tail, index, maximumGapRatio), ...lines],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		};
+	}
+
+	return { lines };
 }
 
 /**
@@ -243,6 +312,7 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 	const hasOpen = lines.some(l => l.text.includes('{'));
 	const hasClose = lines.some(l => l.text.includes('}'));
 	if (!hasOpen || !hasClose) return null;
+	const maximumQuestionGapRatio = Math.max(1.6, inferNormalLineGapRatio(lines) * 1.35);
 
 	interface SegmentDraft {
 		text: string;
@@ -290,12 +360,15 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 	};
 
 	const openBlock = (before: string, line: DocLine) => {
-		const paragraph = before !== '' ? questionLead(tail, line, before) : lastParagraph(tail);
-		qTexts = paragraph.map(l => l.text.trim());
+		const lead =
+			before !== ''
+				? questionLead(tail, line, maximumQuestionGapRatio)
+				: { lines: lastParagraph(tail) };
+		qTexts = lead.lines.map(l => l.text.trim());
 		if (before !== '') qTexts.push(before);
 		tail = [];
 		segments = [];
-		rejectionReason = undefined;
+		rejectionReason = lead.rejectionReason;
 		inBlock = true;
 	};
 
@@ -307,7 +380,13 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 			if (!inBlock) {
 				const open = rest.indexOf('{');
 				if (open < 0) {
-					if (!consumedOnLine && rest !== '}') tail.push(line);
+					if (!consumedOnLine) {
+						if (rest.endsWith('}')) {
+							tail = [];
+						} else {
+							tail.push(line);
+						}
+					}
 					break;
 				}
 				openBlock(rest.slice(0, open).trim(), line);

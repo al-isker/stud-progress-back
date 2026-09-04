@@ -17762,6 +17762,33 @@
 				]
 			},
 			{
+				"index": 625,
+				"text": "яремная стенка барабанной полости",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "parietis jugularis cavitatis tympanicae",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "parietum jugularium cavitatis tympanicae",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "paries jugularis cavitatis tympanicae",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "parietes jugulares cavitatis tympanicae",
+						"isCorrect": false
+					}
+				]
+			},
+			{
 				"index": 626,
 				"text": "височный отросток скуловой кости",
 				"type": "single",
@@ -24134,6 +24161,33 @@
 				]
 			},
 			{
+				"index": 868,
+				"text": "перекрест сухожилий",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "chiasma tendinis",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "chiasmata tendines",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "chiasma tendinum",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "chiasmatis tendinis",
+						"isCorrect": false
+					}
+				]
+			},
+			{
 				"index": 869,
 				"text": "резцовое отверстие небного отростка",
 				"type": "single",
@@ -27596,13 +27650,8 @@
 			},
 			{
 				"index": 624,
-				"text": "большая прямая мышца головы ~musculi recti majoris capitis =musculus rectus major capitis ~musculi recti majores capitis ~musculorum rectum majorum capitis наружный затылочный выступ",
+				"text": "наружный затылочный выступ",
 				"reason": "DUPLICATE_OPTIONS"
-			},
-			{
-				"index": 625,
-				"text": "верхушка сердца =apex cordis ~apicis cordis ~apices cordis ~apicum cordis яремная стенка барабанной полости",
-				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 646,
@@ -27633,11 +27682,6 @@
 				"index": 784,
 				"text": "Согласуйте прилагательное с существительным glomus",
 				"reason": "DUPLICATE_OPTIONS"
-			},
-			{
-				"index": 868,
-				"text": "~sulcus osseus nasi =septum osseum nasi ~septa ossea nasi ~septum nasi ossei перекрест сухожилий",
-				"reason": "MALFORMED_STRUCTURE"
 			}
 		]
 	}

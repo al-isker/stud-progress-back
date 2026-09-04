@@ -638,7 +638,7 @@ describe('document-level option syntax', () => {
 		expect(questions[1].texts).toEqual(['Question 2']);
 	});
 
-	test('keeps visually compatible lines of a multiline question', () => {
+	test('rejects a visually compatible question block separated by a paragraph gap', () => {
 		const firstLine = { ...line('First question line'), gapBefore: 30 };
 		const openingLine = { ...line('second question line {'), gapBefore: 30 };
 		const questions = segment([
@@ -650,6 +650,76 @@ describe('document-level option syntax', () => {
 		]);
 
 		expect(questions[0].texts).toEqual(['First question line', 'second question line']);
+		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
+	test('keeps a visually compatible question block across a page boundary', () => {
+		const firstLine = { ...line('First question line'), page: 1, y: 40, gapBefore: 12 };
+		const openingLine = {
+			...line('Second question line {'),
+			page: 2,
+			y: 700,
+			gapBefore: null
+		};
+		const questions = segment([
+			firstLine,
+			openingLine,
+			{ ...line('=left->right'), page: 2 },
+			{ ...line('=other->pair'), page: 2 },
+			{ ...line('}'), page: 2 }
+		]);
+
+		expect(questions[0].texts).toEqual(['First question line', 'Second question line']);
+		expect(questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test('keeps differently indented lines inside one question text block', () => {
+		const firstLine = { ...line('First question line'), x0: 90, gapBefore: 30 };
+		const openingLine = { ...line('Second question line {'), x0: 50, gapBefore: 10 };
+		const questions = segment([
+			firstLine,
+			openingLine,
+			line('=left->right'),
+			line('=other->pair'),
+			line('}')
+		]);
+
+		expect(questions[0].texts).toEqual(['First question line', 'Second question line']);
+		expect(questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test('does not attach a clearly separate visual block to a question', () => {
+		const heading = {
+			...line('Section heading'),
+			x0: 30,
+			size: 16,
+			boldFrac: 1,
+			gapBefore: 30
+		};
+		const openingLine = { ...line('Question {'), gapBefore: 30 };
+		const questions = segment([
+			heading,
+			openingLine,
+			line('=left->right'),
+			line('=other->pair'),
+			line('}')
+		]);
+
+		expect(questions[0].texts).toEqual(['Question']);
+		expect(questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test('isolates a question after an unmatched closing delimiter', () => {
+		const questions = segment([
+			line('Malformed question without opening delimiter'),
+			line('=answer'),
+			line('~other answer}'),
+			...bracketQuestion('Next question', [['=left->right'], ['=other->pair']])
+		]);
+
+		expect(questions).toHaveLength(1);
+		expect(questions[0].texts).toEqual(['Next question']);
+		expect(questions[0].rejectionReason).toBeUndefined();
 	});
 
 	test('does not invent an option when a line has no structural prefix', () => {

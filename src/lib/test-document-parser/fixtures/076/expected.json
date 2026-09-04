@@ -2470,38 +2470,6 @@
 				]
 			},
 			{
-				"index": 82,
-				"text": "Внешние факторы, способствующие воздействую вирусов и бактерий на организм при возникновении ОРЗ?",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "повышенная инсоляция",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "влажный воздух",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "пыль",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "травма",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "радиация",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 83,
 				"text": "Прямыми осложнениями острого бронхита являются:",
 				"type": "single",
@@ -4480,6 +4448,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 82,
+				"text": "БОЛЕЗНИ ОРГАНОВ ДЫХАНИЯ Внешние факторы, способствующие воздействую вирусов и бактерий на организм при возникновении ОРЗ?",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }

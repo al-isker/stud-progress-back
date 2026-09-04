@@ -2495,38 +2495,6 @@
 				]
 			},
 			{
-				"index": 82,
-				"text": "Стаз - это?",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "замедление оттока крови",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "уменьшение оттока крови",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "остановка кровотока",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "свертывание крови",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "гемолиз эритроцитов",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 83,
 				"text": "При хроническом венозном полнокровии органы?",
 				"type": "single",
@@ -4480,38 +4448,6 @@
 				]
 			},
 			{
-				"index": 147,
-				"text": "Воспаление - это?",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "гипертрофия",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "комплексная местная сосудисто-мезенхимальная реакция",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "вал нарушения кровообращения",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "малокровие",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "регенерация",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 148,
 				"text": "Фазами воспаления являются?",
 				"type": "single",
@@ -6113,6 +6049,17 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 82,
+				"text": "НАРУШЕНИЕ КРОВООБРАЩЕНИЯ\\ Стаз - это?",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 147,
+				"text": "Раздел 3. Воспаление Воспаление - это?",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }
