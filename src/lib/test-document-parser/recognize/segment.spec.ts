@@ -722,6 +722,20 @@ describe('document-level option syntax', () => {
 		expect(questions[0].rejectionReason).toBeUndefined();
 	});
 
+	test('rejects content between the opening delimiter and the first option', () => {
+		const questions = segment([
+			line('Question {'),
+			line('orphan content'),
+			line('=correct'),
+			line('~wrong'),
+			line('}')
+		]);
+
+		expect(questions[0].texts).toEqual(['Question']);
+		expect(questions[0].options).toHaveLength(2);
+		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
 	test('does not invent an option when a line has no structural prefix', () => {
 		const questions = segment([
 			line('Question {'),

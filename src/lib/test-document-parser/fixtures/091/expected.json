@@ -2105,33 +2105,6 @@
 				]
 			},
 			{
-				"index": 70,
-				"text": "Для нефротического синдрома характерно все, кроме: Отеки;",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "массивная протеинурия;",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "гипопротеинемия;",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "гиперкалиемия;",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "гиперхолестеринемия",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 71,
 				"text": "Изменения чашечно-лоханочной системы почек характерны для:",
 				"type": "single",
@@ -3835,38 +3808,6 @@
 				]
 			},
 			{
-				"index": 129,
-				"text": "Главными признаками нефротического синдрома являются",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "лейкоцитурия",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "протеинурия",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "гематурия",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "цилиндрурия",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "отеки",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 130,
 				"text": "Назовите заболевания, наиболее часто сопровождающиеся развитием амилоидоза",
 				"type": "multiple",
@@ -4334,6 +4275,11 @@
 				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
+				"index": 70,
+				"text": "Для нефротического синдрома характерно все, кроме:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 72,
 				"text": "Ведущее место в этиологии пиелонефрита отводят? =кишечной палочке, протею;",
 				"reason": "NO_ANSWER_MARKER"
@@ -4352,6 +4298,11 @@
 				"index": 127,
 				"text": "Критериями \"нефротического синдрома\" являются",
 				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 129,
+				"text": "Главными признаками нефротического синдрома",
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 131,

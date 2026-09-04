@@ -2307,38 +2307,6 @@
 				]
 			},
 			{
-				"index": 73,
-				"text": "ПРОЧНЫЙ (ПОЖИЗНЕННЫЙ) ПРОТИВОВИРУСНЫЙ ИММУНИТЕТ: ОСТАЕТСЯ ПОСЛЕ",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "кори",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "гриппа",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "парагриппа",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "аденовирусных инфекций",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "цитомегалии",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 74,
 				"text": "К РНК СОДЕРЖАЩИМ ВИРУСАМ ОТНОСЯТСЯ:",
 				"type": "single",
@@ -3939,38 +3907,6 @@
 				]
 			},
 			{
-				"index": 124,
-				"text": "ДЛЯ ПАССИВНОЙ ИММУНОПРОФИЛАКТИКИ ГЕПАТИТА А: ИСПОЛЬЗУЮТ",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "вакцину СТИ",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "вакцина Солка",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "вакцина Сэбина",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "анатоксин",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "иммуноглобулин, полученный из смеси донорских сывороток",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 125,
 				"text": "ВИРУС ГРИППА ТИПА В ОТНОСИТСЯ К СЕМЕЙСТВУ:",
 				"type": "single",
@@ -5413,6 +5349,17 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 73,
+				"text": "ПРОЧНЫЙ (ПОЖИЗНЕННЫЙ) ПРОТИВОВИРУСНЫЙ ИММУНИТЕТ:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 124,
+				"text": "ДЛЯ ПАССИВНОЙ ИММУНОПРОФИЛАКТИКИ ГЕПАТИТА А:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }

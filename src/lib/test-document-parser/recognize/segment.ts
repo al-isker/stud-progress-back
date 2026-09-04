@@ -443,6 +443,7 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 	const questions: RawQuestion[] = drafts.map(draft => {
 		const texts = [...draft.texts];
 		const options: RawOption[] = [];
+		let rejectionReason = draft.rejectionReason;
 		for (const segment of draft.segments) {
 			const option = parseOptionStart(segment.text, segment.line, syntax);
 			if (option) {
@@ -452,11 +453,11 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 				previous.texts.push(segment.text);
 				previous.lines.push(segment.line);
 			} else {
-				texts.push(segment.text);
+				rejectionReason ??= QuestionRejectionReason.MALFORMED_STRUCTURE;
 			}
 		}
 
-		return { texts, options, rejectionReason: draft.rejectionReason };
+		return { texts, options, rejectionReason };
 	});
 	return questions.length > 0
 		? { questions, structure: { kind: 'bracket', options: syntax } }

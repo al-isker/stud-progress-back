@@ -111,33 +111,6 @@
 				]
 			},
 			{
-				"index": 5,
-				"text": "Выберите нужную форму глагола: Julia and I are good friends. I … her and she … me .",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "like, likes",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "likes, like",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "likes, likes",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "will like,like",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 6,
 				"text": "Выберите нужную форму глагола: The Earth … around the Sun",
 				"type": "single",
@@ -2256,33 +2229,6 @@
 					{
 						"index": 2,
 						"text": "Were",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Is",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "do",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 85,
-				"text": "Выберите правильный вариант ответа. Anatomy _ the most important subject in the first year",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "Were",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "Will",
 						"isCorrect": false
 					},
 					{
@@ -4804,33 +4750,6 @@
 					{
 						"index": 4,
 						"text": "these",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 183,
-				"text": "Вставьте правильный вариант Мы могли бы помочь тем людям We could help … people",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "those",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "this",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "these",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "that",
 						"isCorrect": false
 					}
 				]
@@ -7702,13 +7621,23 @@
 	"issues": {
 		"rejectedQuestions": [
 			{
+				"index": 5,
+				"text": "Выберите нужную форму глагола: Julia and I are good friends. I … her and she … me",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 85,
+				"text": "Выберите правильный вариант ответа. Anatomy _ the most important subject in the first",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 95,
 				"text": "Выберите правильный вариант ответа. What _ he ill with",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 97,
-				"text": "Выберите правильный вариант ответа. Where is Jane I want to talk to _{",
+				"text": "Выберите правильный вариант ответа. Where is Jane",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
@@ -7722,8 +7651,13 @@
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
+				"index": 183,
+				"text": "Вставьте правильный вариант Мы могли бы помочь тем людям",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 184,
-				"text": "Вставьте правильный вариант Откуда этот доктор Where is … doctor from{",
+				"text": "Вставьте правильный вариант Откуда этот доктор",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{

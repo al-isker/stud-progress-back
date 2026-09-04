@@ -1044,33 +1044,6 @@
 				]
 			},
 			{
-				"index": 39,
-				"text": "Какое окрашивание характерно для азопирамовой пробы при наличии следов крови:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "розовое",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "фиолетовое, переходящее в сиреневое",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "зеленое",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "темно синее",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 40,
 				"text": "К методам дезинфекции относятся все кроме",
 				"type": "single",
@@ -1803,6 +1776,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 39,
+				"text": "Какое окрашивание характерно для азопирамовой пробы при",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }

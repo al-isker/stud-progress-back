@@ -3027,33 +3027,6 @@
 				]
 			},
 			{
-				"index": 113,
-				"text": "Определите падеж существительного capita 9",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "Nom.sing",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "gen.sing",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Nom.pl",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "gen.pl",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 114,
 				"text": "Определите падеж существительного ossa",
 				"type": "single",
@@ -5259,33 +5232,6 @@
 						"index": 3,
 						"text": "Nom.pl",
 						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "gen.pl",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 196,
-				"text": "Определите падеж существительного tubera 16",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "Nom.sing",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "gen.sing",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Nom.pl",
-						"isCorrect": true
 					},
 					{
 						"index": 4,
@@ -15041,33 +14987,6 @@
 				]
 			},
 			{
-				"index": 506,
-				"text": "Определите какого склонения слово palatum 1",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "II",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "III",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "IV",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "V",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 507,
 				"text": "Определите какого склонения слово ductus",
 				"type": "single",
@@ -16261,28 +16180,6 @@
 						"index": 2,
 						"text": "f-",
 						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "n-",
-						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 558,
-				"text": "Определите род существительного cortex, icis 48",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "m-",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "f-",
-						"isCorrect": false
 					},
 					{
 						"index": 3,
@@ -19841,33 +19738,6 @@
 				]
 			},
 			{
-				"index": 703,
-				"text": "Согласуйте прилагательное с существительным cavum 59",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "propria",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "proprius",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "proprium",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "propriae",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 704,
 				"text": "Согласуйте прилагательное с существительным musculus",
 				"type": "single",
@@ -21840,28 +21710,6 @@
 						"index": 4,
 						"text": "occipitaliu",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 781,
-				"text": "Согласуйте прилагательное с существительным pelvis majus",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "majoris",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "majores",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "majo",
-						"isCorrect": true
 					}
 				]
 			},
@@ -25799,28 +25647,6 @@
 				]
 			},
 			{
-				"index": 937,
-				"text": "Образуйте сравнительную степень mollis -77",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ior",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "ius",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "нет",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 938,
 				"text": "Образуйте сравнительную степень transversus -",
 				"type": "single",
@@ -27644,9 +27470,29 @@
 	"issues": {
 		"rejectedQuestions": [
 			{
+				"index": 113,
+				"text": "Определите падеж существительного capita",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 196,
+				"text": "Определите падеж существительного tubera",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 503,
 				"text": "Определите какого склонения слово pars",
 				"reason": "EMPTY_TEXT"
+			},
+			{
+				"index": 506,
+				"text": "Определите какого склонения слово palatum",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 558,
+				"text": "Определите род существительного cortex, icis",
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 624,
@@ -27657,6 +27503,11 @@
 				"index": 646,
 				"text": "короткие задние ресничные артерии",
 				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 703,
+				"text": "Согласуйте прилагательное с существительным cavum",
+				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
 				"index": 744,
@@ -27679,9 +27530,19 @@
 				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
+				"index": 781,
+				"text": "Согласуйте прилагательное с существительным pelvis",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
 				"index": 784,
 				"text": "Согласуйте прилагательное с существительным glomus",
 				"reason": "DUPLICATE_OPTIONS"
+			},
+			{
+				"index": 937,
+				"text": "Образуйте сравнительную степень mollis -",
+				"reason": "MALFORMED_STRUCTURE"
 			}
 		]
 	}

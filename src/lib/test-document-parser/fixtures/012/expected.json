@@ -8831,38 +8831,6 @@
 				]
 			},
 			{
-				"index": 287,
-				"text": "Макролид II поколения :",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "Эритромицин.",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "Доксициклин.",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "Кларитромицин.",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "Тобрамицин.",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "Сизомицин.",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 288,
 				"text": "Отметить антисептик из группы окислителей",
 				"type": "single",
@@ -8931,6 +8899,11 @@
 			{
 				"index": 265,
 				"text": "//Тема 7: Противомикробные, противовирусные, противогрибковые средства. (ИД 1 ОПК-7) Отметить противогрибковый антибиотик",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 287,
+				"text": "Макролид II поколения",
 				"reason": "MALFORMED_STRUCTURE"
 			}
 		]

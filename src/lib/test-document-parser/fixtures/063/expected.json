@@ -1651,50 +1651,6 @@
 				]
 			},
 			{
-				"index": 60,
-				"text": "Оператор языка Бейсик, меняющий порядок выполнения программы после проверки условия-GOTO;",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "REM;",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "READ;",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "IF …. THEN…",
-						"isCorrect": true
-					}
-				]
-			},
-			{
-				"index": 61,
-				"text": "Системная команда языка Бейсик, запускающая программу на выполнение-GOTO;",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "REM;",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "READ;",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "RUN",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 62,
 				"text": "Загрузка в оперативную память компьютера из внешней памяти программы на языке Бейсик осуществляется оператором:",
 				"type": "single",
@@ -1756,6 +1712,17 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 60,
+				"text": "Оператор языка Бейсик, меняющий порядок выполнения программы после проверки условия",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 61,
+				"text": "Системная команда языка Бейсик, запускающая программу на выполнение",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }
