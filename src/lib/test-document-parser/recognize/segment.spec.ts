@@ -219,6 +219,25 @@ describe('document-level option syntax', () => {
 		]);
 	});
 
+	test('keeps an unconfirmed standalone symbol as an option continuation', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [
+				['=correct'],
+				['~first line'],
+				['+continuation'],
+				['~wrong']
+			]),
+			...bracketQuestion('Question 2', [['~wrong'], ['=correct'], ['~also wrong']])
+		]);
+
+		expect(questions[0].options).toHaveLength(3);
+		expect(questions[0].options[1]).toMatchObject({
+			sourcePrefix: '~',
+			structuralPrefix: '~',
+			texts: ['first line', '+continuation']
+		});
+	});
+
 	test('removes a symbolic correctness marker only after document-level confirmation', () => {
 		const questions = segment([
 			...bracketQuestion('Question 1', [['=+ correct 1'], ['= wrong 1'], ['= wrong 2']]),
