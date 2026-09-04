@@ -54,6 +54,14 @@ interface ArrangedPageGroups {
 	columnCenters: number[] | null;
 }
 
+interface PageNumberCandidate {
+	index: number;
+	page: number;
+	edge: 'top' | 'bottom';
+	value: number;
+	line: DocLine;
+}
+
 type Matrix = number[];
 
 const IDENTITY: Matrix = [1, 0, 0, 1, 0, 0];
@@ -73,6 +81,7 @@ const MARKUP_ANNOTATIONS = new Set([
 
 const BOLD_FONT_RE = /bold|black|heavy|semibold|demibold/i;
 const ITALIC_FONT_RE = /italic|oblique/i;
+const PAGE_NUMBER_RE = /^\s*(\d{1,5})\s*$/;
 
 function splitHorizontalFragments(group: StyledItem[], pageWidth: number): StyledItem[][] {
 	const sorted = [...group].sort((left, right) => left.x - right.x);
@@ -97,6 +106,95 @@ function median(values: number[]): number {
 	const middle = Math.floor(sorted.length / 2);
 
 	return sorted.length % 2 === 0 ? (sorted[middle - 1] + sorted[middle]) / 2 : sorted[middle];
+}
+
+function hasSamePageNumberPlacement(
+	left: PageNumberCandidate,
+	right: PageNumberCandidate
+): boolean {
+	const leftCenter = (left.line.x0 + left.line.x1) / 2;
+	const rightCenter = (right.line.x0 + right.line.x1) / 2;
+	const tolerance = Math.max(left.line.size, right.line.size) * 0.5;
+
+	return (
+		left.edge === right.edge &&
+		Math.abs(leftCenter - rightCenter) <= tolerance &&
+		Math.abs(left.line.y - right.line.y) <= tolerance &&
+		Math.abs(left.line.size - right.line.size) <= 0.5 &&
+		Math.abs(left.line.boldFrac - right.line.boldFrac) <= 0.2 &&
+		Math.abs(left.line.italicFrac - right.line.italicFrac) <= 0.2
+	);
+}
+
+function hasConsecutivePages(candidates: PageNumberCandidate[]): boolean {
+	const pages = candidates.map(candidate => candidate.page).sort((left, right) => left - right);
+
+	return pages.some((page, index) => index > 0 && page === pages[index - 1] + 1);
+}
+
+/**
+ * Удаляет только подтверждённую серию колонтитульных номеров страниц.
+ *
+ * Само по себе число на краю страницы недостаточно. Серия должна повторяться
+ * минимум на трёх страницах в одной позиции и одним стилем, а её значение —
+ * изменяться синхронно с физическим номером страницы. Это не позволяет принять
+ * за колонтитул отдельный числовой вариант ответа.
+ */
+export function removeConfirmedPageNumbers(lines: DocLine[]): DocLine[] {
+	const indicesByPage = new Map<number, number[]>();
+	for (let index = 0; index < lines.length; index++) {
+		indicesByPage.set(lines[index].page, [...(indicesByPage.get(lines[index].page) ?? []), index]);
+	}
+
+	const candidates: PageNumberCandidate[] = [];
+	for (const [page, indices] of indicesByPage) {
+		if (indices.length < 2) continue;
+		for (const [edge, index] of [
+			['top', indices[0]],
+			['bottom', indices[indices.length - 1]]
+		] as const) {
+			const line = lines[index];
+			const match = PAGE_NUMBER_RE.exec(line.text);
+			if (!match) continue;
+			const value = Number(match[1]);
+			if (!Number.isSafeInteger(value) || value < 1) continue;
+			candidates.push({ index, page, edge, value, line });
+		}
+	}
+
+	const placementGroups: PageNumberCandidate[][] = [];
+	for (const candidate of candidates) {
+		const group = placementGroups.find(current =>
+			hasSamePageNumberPlacement(current[0], candidate)
+		);
+		if (group) group.push(candidate);
+		else placementGroups.push([candidate]);
+	}
+
+	const removedIndices = new Set<number>();
+	for (const group of placementGroups) {
+		const byPageOffset = new Map<number, PageNumberCandidate[]>();
+		for (const candidate of group) {
+			const offset = candidate.value - candidate.page;
+			byPageOffset.set(offset, [...(byPageOffset.get(offset) ?? []), candidate]);
+		}
+		for (const series of byPageOffset.values()) {
+			if (series.length < 3 || !hasConsecutivePages(series)) continue;
+			for (const candidate of series) removedIndices.add(candidate.index);
+		}
+	}
+
+	let previousPage: number | null = null;
+	return lines.flatMap((line, index) => {
+		if (removedIndices.has(index)) return [];
+		if (line.page !== previousPage) {
+			previousPage = line.page;
+
+			return [{ ...line, gapBefore: null }];
+		}
+
+		return [line];
+	});
 }
 
 /**
@@ -904,7 +1002,7 @@ export async function extractPdfLines(data: Buffer): Promise<DocLine[]> {
 			columnCentersHint = page.columnCenters;
 		}
 
-		return lines;
+		return removeConfirmedPageNumbers(lines);
 	} finally {
 		await task.destroy().catch(() => undefined);
 	}
