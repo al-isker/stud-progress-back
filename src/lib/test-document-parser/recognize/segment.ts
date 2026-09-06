@@ -46,6 +46,11 @@ export interface SegmentedDocument {
 	structure: DocumentStructureProfile;
 }
 
+type BracketSchemeAttempt =
+	| { kind: 'not-applicable' }
+	| { kind: 'untrusted-profile' }
+	| { kind: 'segmented'; document: SegmentedDocument };
+
 /** Неразрушающий лексический разбор: ничего не решает о границе префикса и текста. */
 function scanSymbolHead(text: string): SymbolHead | null {
 	const match = SYMBOL_PREFIX_RE.exec(text.trim());
@@ -308,10 +313,10 @@ function questionLead(tail: DocLine[], opener: DocLine, maximumGapRatio: number)
  * вариант идёт на одной строке с «{». Варианты внутри блока начинаются с
  * символьного токена; строка без токена — продолжение предыдущего варианта.
  */
-function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
+function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 	const hasOpen = lines.some(l => l.text.includes('{'));
 	const hasClose = lines.some(l => l.text.includes('}'));
-	if (!hasOpen || !hasClose) return null;
+	if (!hasOpen || !hasClose) return { kind: 'not-applicable' };
 	const maximumQuestionGapRatio = Math.max(1.6, inferNormalLineGapRatio(lines) * 1.35);
 
 	interface SegmentDraft {
@@ -323,27 +328,57 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 		segments: SegmentDraft[];
 		rejectionReason?: QuestionRejectionReason;
 	}
+	interface BracketBlock {
+		inlineLead: string;
+		/** Непустой inlineLead начался сразу после `}` предыдущего блока на той же строке. */
+		inlineLeadAfterBalancedClose: boolean;
+		opener: DocLine;
+		segments: SegmentDraft[];
+		closed: boolean;
+		rejectionReason?: QuestionRejectionReason;
+	}
+	interface OutsideText {
+		kind: 'text';
+		line: DocLine;
+		/** Фрагмент находился после закрытия сбалансированного блока на той же строке. */
+		afterBalancedClose: boolean;
+	}
+	interface OutsideClose {
+		kind: 'close';
+		line: DocLine;
+	}
+	type OutsideToken = OutsideText | OutsideClose;
+	type TopLevelToken = OutsideToken | { kind: 'block'; block: BracketBlock };
 
-	const drafts: QuestionDraft[] = [];
-	let tail: DocLine[] = [];
-	let inBlock = false;
-	let qTexts: string[] = [];
-	let segments: SegmentDraft[] = [];
-	let rejectionReason: QuestionRejectionReason | undefined;
+	const tokens: TopLevelToken[] = [];
+	let block: BracketBlock | null = null;
 
-	const closeBlock = () => {
-		if (qTexts.length > 0 || segments.length > 0) {
-			drafts.push({ texts: qTexts, segments, rejectionReason });
-		}
-		qTexts = [];
-		segments = [];
-		rejectionReason = undefined;
-		inBlock = false;
+	const fragmentLine = (line: DocLine, raw: string): DocLine => ({
+		...line,
+		text: raw.trim()
+	});
+
+	const addOutsideText = (raw: string, line: DocLine, afterBalancedClose: boolean) => {
+		const text = raw.trim();
+		if (text === '') return;
+		tokens.push({
+			kind: 'text',
+			line: fragmentLine(line, text),
+			afterBalancedClose
+		});
 	};
 
 	const addBlockSegment = (raw: string, line: DocLine) => {
 		const text = raw.trim();
-		if (text !== '') segments.push({ text, line });
+		if (text !== '' && block) block.segments.push({ text, line: fragmentLine(line, text) });
+	};
+
+	const finishBlock = (closed: boolean) => {
+		if (!block) return;
+		block.closed = closed;
+		if (!closed) block.rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
+		tokens.push({ kind: 'block', block });
+		block = null;
 	};
 
 	/** Есть ли ещё закрывающая скобка до начала следующего блока вопросов. */
@@ -359,39 +394,37 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 		return false;
 	};
 
-	const openBlock = (before: string, line: DocLine) => {
-		const lead =
-			before !== ''
-				? questionLead(tail, line, maximumQuestionGapRatio)
-				: { lines: lastParagraph(tail) };
-		qTexts = lead.lines.map(l => l.text.trim());
-		if (before !== '') qTexts.push(before);
-		tail = [];
-		segments = [];
-		rejectionReason = lead.rejectionReason;
-		inBlock = true;
-	};
-
+	// Первая фаза ничего не присваивает вопросам: сохраняет в исходном порядке
+	// сбалансированные блоки, внешний текст и лишние закрывающие скобки.
 	for (let lineIndex = 0; lineIndex < lines.length; lineIndex++) {
 		const line = lines[lineIndex];
 		let rest = line.text.trim();
-		let consumedOnLine = false;
+		let afterBalancedClose = false;
 		while (rest.length > 0) {
-			if (!inBlock) {
+			if (!block) {
 				const open = rest.indexOf('{');
+				const close = rest.indexOf('}');
+				if (close >= 0 && (open < 0 || close < open)) {
+					addOutsideText(rest.slice(0, close), line, afterBalancedClose);
+					tokens.push({ kind: 'close', line: fragmentLine(line, '}') });
+					rest = rest.slice(close + 1).trim();
+					afterBalancedClose = false;
+					continue;
+				}
 				if (open < 0) {
-					if (!consumedOnLine) {
-						if (rest.endsWith('}')) {
-							tail = [];
-						} else {
-							tail.push(line);
-						}
-					}
+					addOutsideText(rest, line, afterBalancedClose);
 					break;
 				}
-				openBlock(rest.slice(0, open).trim(), line);
-				rest = rest.slice(open + 1);
-				consumedOnLine = true;
+				const inlineLead = rest.slice(0, open).trim();
+				block = {
+					inlineLead,
+					inlineLeadAfterBalancedClose: afterBalancedClose && inlineLead !== '',
+					opener: fragmentLine(line, '{'),
+					segments: [],
+					closed: false
+				};
+				rest = rest.slice(open + 1).trim();
+				afterBalancedClose = false;
 			} else {
 				const close = rest.indexOf('}');
 				const nestedOpen = rest.indexOf('{');
@@ -406,7 +439,7 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 					(close < 0 || nestedOpen < close) &&
 					(beforeNestedOpen === '' || nestedOpenEndsLine || nestedOpenStartsQuestion)
 				) {
-					rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
+					block.rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
 				}
 				if (close < 0) {
 					addBlockSegment(rest, line);
@@ -421,24 +454,236 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 					nextLineStartsWithSymbol &&
 					hasLaterCloseBeforeNextOpen(lineIndex, afterClose)
 				) {
-					rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
+					block.rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
 				}
 				addBlockSegment(rest.slice(0, close), line);
-				closeBlock();
-				rest = afterClose;
-				consumedOnLine = true;
+				finishBlock(true);
+				rest = afterClose.trim();
+				afterBalancedClose = true;
 			}
 		}
 	}
-	if (inBlock) closeBlock();
+	finishBlock(false);
 
-	// Скобки уже надёжно задают границы вопросов. Поэтому одноответные блоки
-	// тоже участвуют в подтверждении общего префикса и позже отклоняются точечно.
+	const isOutsideText = (token: OutsideToken): token is OutsideText => token.kind === 'text';
+
+	/**
+	 * Одиночный оторванный символ между двумя независимыми вопросами не образует
+	 * поддерживаемую структуру вопроса. Более длинный фрагмент остаётся для
+	 * строгой проверки: его нельзя молча отбросить как возможную часть stem.
+	 */
+	const removeDetachedBoundaryDebris = (outside: OutsideToken[]): OutsideToken[] =>
+		outside.filter((token, index) => {
+			if (token.kind !== 'text' || !token.afterBalancedClose || [...token.line.text].length !== 1) {
+				return true;
+			}
+			const laterText = outside.slice(index + 1).find(isOutsideText);
+			if (!laterText) return true;
+
+			return hasNormalLineGap(token.line, laterText.line, maximumQuestionGapRatio);
+		});
+
+	interface ResolvedBlockLead {
+		lead: QuestionLead;
+		rejectionReason?: QuestionRejectionReason;
+	}
+
+	/**
+	 * Граница вопроса определяется до вывода синтаксиса вариантов: повреждённый
+	 * блок не имеет права голосовать за профиль документа.
+	 */
+	const resolveBlockLead = (
+		outside: OutsideToken[],
+		currentBlock: BracketBlock
+	): ResolvedBlockLead => {
+		const remaining = removeDetachedBoundaryDebris(outside);
+		const lastClose = remaining.findLastIndex(item => item.kind === 'close');
+		const tail = remaining.slice(lastClose + 1).filter(isOutsideText);
+		const needsStrictBoundaryCheck =
+			currentBlock.inlineLead !== '' ||
+			tail.some(item => item.afterBalancedClose) ||
+			tail.some(
+				(item, index) => index > 0 && continuesReadingFlow(tail[index - 1].line, item.line)
+			);
+		const lead: QuestionLead = needsStrictBoundaryCheck
+			? questionLead(
+					tail.map(item => item.line),
+					currentBlock.opener,
+					maximumQuestionGapRatio
+				)
+			: { lines: lastParagraph(tail.map(item => item.line)) };
+		const attachedToPreviousClose =
+			currentBlock.inlineLeadAfterBalancedClose ||
+			tail.some(item => item.afterBalancedClose && lead.lines.includes(item.line));
+
+		return {
+			lead,
+			rejectionReason: attachedToPreviousClose
+				? QuestionRejectionReason.MALFORMED_STRUCTURE
+				: lead.rejectionReason
+		};
+	};
+
+	let profileOutside: OutsideToken[] = [];
+	for (const token of tokens) {
+		if (token.kind !== 'block') {
+			profileOutside.push(token);
+			continue;
+		}
+
+		token.block.rejectionReason ??= resolveBlockLead(profileOutside, token.block).rejectionReason;
+		profileOutside = [];
+	}
+
+	// Профиль выводится только из явно открытых, явно закрытых и непротиворечивых
+	// блоков. Повреждённые области не могут менять синтаксис корректных вопросов.
+	const allBlockGroups = tokens.flatMap(token =>
+		token.kind === 'block' ? [token.block.segments.map(segment => segment.text)] : []
+	);
 	const syntax = inferOptionSyntax(
-		drafts.map(draft => draft.segments.map(segment => segment.text)),
+		tokens.flatMap(token =>
+			token.kind === 'block' && token.block.closed && !token.block.rejectionReason
+				? [token.block.segments.map(segment => segment.text)]
+				: []
+		),
 		1
 	);
-	if (!syntax) return null;
+	if (!syntax) {
+		return inferOptionSyntax(allBlockGroups, 1)
+			? { kind: 'untrusted-profile' }
+			: { kind: 'not-applicable' };
+	}
+	const connectedLead = (outside: OutsideText[], nextLine: DocLine): OutsideText[] => {
+		const lines: OutsideText[] = [];
+		let next = nextLine;
+		for (let index = outside.length - 1; index >= 0; index--) {
+			const candidate = outside[index];
+			const readingFlowBoundary = continuesReadingFlow(candidate.line, next);
+			if (
+				!hasNormalLineGap(candidate.line, next, maximumQuestionGapRatio) ||
+				(readingFlowBoundary && !hasCompatibleQuestionStyle(candidate.line, nextLine))
+			) {
+				break;
+			}
+			lines.unshift(candidate);
+			next = candidate.line;
+		}
+
+		return lines;
+	};
+	const hasConnectedLines = (outside: OutsideText[]): boolean => {
+		for (let index = 1; index < outside.length; index++) {
+			if (
+				!hasNormalLineGap(outside[index - 1].line, outside[index].line, maximumQuestionGapRatio)
+			) {
+				return false;
+			}
+		}
+
+		return true;
+	};
+
+	interface OrphanMatch {
+		end: number;
+		draft: QuestionDraft;
+	}
+
+	const orphanEndingAt = (outside: OutsideToken[], end: number): OrphanMatch | null => {
+		if (outside[end]?.kind !== 'close') return null;
+		let previousClose = -1;
+		for (let index = end - 1; index >= 0; index--) {
+			if (outside[index].kind === 'close') {
+				previousClose = index;
+				break;
+			}
+		}
+
+		const afterPreviousClose = outside.slice(previousClose + 1, end);
+		if (!afterPreviousClose.every(isOutsideText)) return null;
+		const firstOption = afterPreviousClose.findIndex(token =>
+			parseOptionStart(token.line.text, token.line, syntax)
+		);
+		if (firstOption < 0) return null;
+		const optionTokens = afterPreviousClose.slice(firstOption);
+		const optionStarts = optionTokens.filter(token =>
+			parseOptionStart(token.line.text, token.line, syntax)
+		).length;
+		if (optionStarts < 2 || !hasConnectedLines(optionTokens)) return null;
+
+		let leadTokens = connectedLead(afterPreviousClose.slice(0, firstOption), optionTokens[0].line);
+		if (leadTokens.length === 0 && previousClose >= 0) {
+			let beforeWrongOpen = previousClose - 1;
+			while (beforeWrongOpen >= 0 && outside[beforeWrongOpen].kind !== 'close') beforeWrongOpen--;
+			const before = outside.slice(beforeWrongOpen + 1, previousClose);
+			if (!before.every(isOutsideText)) return null;
+			const wrongOpen = outside[previousClose].line;
+			if (!hasNormalLineGap(wrongOpen, optionTokens[0].line, maximumQuestionGapRatio)) {
+				return null;
+			}
+			leadTokens = connectedLead(before, wrongOpen);
+		}
+		if (leadTokens.length === 0 || !hasConnectedLines(leadTokens)) return null;
+
+		return {
+			end,
+			draft: {
+				texts: leadTokens.map(token => token.line.text),
+				segments: optionTokens.map(token => ({ text: token.line.text, line: token.line })),
+				rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+			}
+		};
+	};
+
+	const extractOrphans = (
+		outside: OutsideToken[]
+	): { drafts: QuestionDraft[]; remaining: OutsideToken[] } => {
+		const remaining = [...outside];
+		const drafts: QuestionDraft[] = [];
+		while (true) {
+			let match: OrphanMatch | null = null;
+			for (let end = 0; end < remaining.length; end++) {
+				match = orphanEndingAt(remaining, end);
+				if (match) break;
+			}
+			if (!match) break;
+			drafts.push(match.draft);
+			// Всё до первого безопасно выделенного malformed-envelope уже находится
+			// перед его жёсткой закрывающей границей и не может принадлежать более
+			// позднему вопросу. Нераспознанный префикс остаётся межвопросным мусором.
+			remaining.splice(0, match.end + 1);
+		}
+
+		return { drafts, remaining };
+	};
+
+	// Вторая фаза применяет уже подтверждённый профиль: сохраняет однозначные
+	// leads, а распознаваемые повреждённые границы материализует в reject.
+	const drafts: QuestionDraft[] = [];
+	let outside: OutsideToken[] = [];
+	for (const token of tokens) {
+		if (token.kind !== 'block') {
+			outside.push(token);
+			continue;
+		}
+
+		const extracted = extractOrphans(outside);
+		drafts.push(...extracted.drafts);
+		const resolvedLead = resolveBlockLead(extracted.remaining, token.block);
+		const lead = resolvedLead.lead;
+		const texts = lead.lines.map(line => line.text.trim());
+		if (token.block.inlineLead !== '') texts.push(token.block.inlineLead);
+		drafts.push({
+			texts,
+			segments: token.block.segments,
+			rejectionReason:
+				token.block.rejectionReason ??
+				resolvedLead.rejectionReason ??
+				(token.block.closed ? undefined : QuestionRejectionReason.MALFORMED_STRUCTURE)
+		});
+		outside = [];
+	}
+	const trailing = extractOrphans(outside);
+	drafts.push(...trailing.drafts);
 
 	const questions: RawQuestion[] = drafts.map(draft => {
 		const texts = [...draft.texts];
@@ -460,8 +705,11 @@ function tryBracketScheme(lines: DocLine[]): SegmentedDocument | null {
 		return { texts, options, rejectionReason };
 	});
 	return questions.length > 0
-		? { questions, structure: { kind: 'bracket', options: syntax } }
-		: null;
+		? {
+				kind: 'segmented',
+				document: { questions, structure: { kind: 'bracket', options: syntax } }
+			}
+		: { kind: 'untrusted-profile' };
 }
 
 /**
@@ -670,5 +918,9 @@ function tryNumberedScheme(lines: DocLine[]): SegmentedDocument | null {
  * сильного структурного сигнала к более слабому; null — структура не распознана.
  */
 export function segmentQuestions(lines: DocLine[]): SegmentedDocument | null {
-	return tryBracketScheme(lines) ?? tryTwoPrefixScheme(lines) ?? tryNumberedScheme(lines);
+	const bracket = tryBracketScheme(lines);
+	if (bracket.kind === 'segmented') return bracket.document;
+	if (bracket.kind === 'untrusted-profile') return null;
+
+	return tryTwoPrefixScheme(lines) ?? tryNumberedScheme(lines);
 }

@@ -3101,33 +3101,6 @@
 						"isCorrect": false
 					}
 				]
-			},
-			{
-				"index": 121,
-				"text": "Выберите русский термин с заданным значением - лечение собственной кровью",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "autoheliotherapia",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "hydrotherapia",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "phythotherapia",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "autohaematherapia",
-						"isCorrect": true
-					}
-				]
 			}
 		]
 	},
@@ -3156,6 +3129,11 @@
 			{
 				"index": 116,
 				"text": "Выберите русский термин с заданным значением - высокая температура",
+				"reason": "MALFORMED_STRUCTURE"
+			},
+			{
+				"index": 121,
+				"text": "Выберите русский термин с заданным значением - лечение собственной кровью",
 				"reason": "MALFORMED_STRUCTURE"
 			}
 		]

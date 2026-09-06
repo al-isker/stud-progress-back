@@ -642,6 +642,7 @@ describe('document-level option syntax', () => {
 		const firstLine = { ...line('First question line'), gapBefore: 30 };
 		const openingLine = { ...line('second question line {'), gapBefore: 30 };
 		const questions = segment([
+			...bracketQuestion('Control question', [['=left'], ['=right']]),
 			firstLine,
 			openingLine,
 			line('=left->right'),
@@ -649,8 +650,8 @@ describe('document-level option syntax', () => {
 			line('}')
 		]);
 
-		expect(questions[0].texts).toEqual(['First question line', 'second question line']);
-		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+		expect(questions[1].texts).toEqual(['First question line', 'second question line']);
+		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
 	});
 
 	test('keeps a visually compatible question block across a page boundary', () => {
@@ -671,6 +672,21 @@ describe('document-level option syntax', () => {
 
 		expect(questions[0].texts).toEqual(['First question line', 'Second question line']);
 		expect(questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test('keeps a multiline question across a page boundary before a standalone opener', () => {
+		const questions = segment([
+			...bracketQuestion('Previous question', [['=correct'], ['~wrong']]),
+			{ ...line('First question line'), page: 1, y: 40, gapBefore: 30 },
+			{ ...line('second question line'), page: 2, y: 700, gapBefore: null },
+			{ ...line('{'), page: 2 },
+			{ ...line('=correct'), page: 2 },
+			{ ...line('~wrong'), page: 2 },
+			{ ...line('}'), page: 2 }
+		]);
+
+		expect(questions[1].texts).toEqual(['First question line', 'second question line']);
+		expect(questions[1].rejectionReason).toBeUndefined();
 	});
 
 	test('keeps differently indented lines inside one question text block', () => {
@@ -709,17 +725,305 @@ describe('document-level option syntax', () => {
 		expect(questions[0].rejectionReason).toBeUndefined();
 	});
 
-	test('isolates a question after an unmatched closing delimiter', () => {
+	test('rejects a question stem attached to the previous closing delimiter', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=correct 1'),
+			line('~wrong 1'),
+			line('} Question 2'),
+			line('{'),
+			line('=correct 2'),
+			line('~wrong 2'),
+			line('}')
+		]);
+
+		expect(questions).toHaveLength(2);
+		expect(questions[1].texts).toEqual(['Question 2']);
+		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
+	test('rejects a multiline question stem attached to the previous closing delimiter', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=correct 1'),
+			line('~wrong 1'),
+			line('} First line of question 2'),
+			line('second line of question 2'),
+			line('{'),
+			line('=correct 2'),
+			line('~wrong 2'),
+			line('}')
+		]);
+
+		expect(questions[1].texts).toEqual(['First line of question 2', 'second line of question 2']);
+		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
+	test('rejects an inline question and opener attached to the previous closing delimiter', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=correct 1'),
+			line('~wrong 1'),
+			line('} Question 2 {'),
+			line('=correct 2'),
+			line('~wrong 2'),
+			line('}')
+		]);
+
+		expect(questions[1].texts).toEqual(['Question 2']);
+		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
+	test('accepts a question stem that starts on a separate line after the previous block', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=correct 1'),
+			line('~wrong 1'),
+			line('}'),
+			line('First line of question 2'),
+			line('second line of question 2'),
+			line('{'),
+			line('=correct 2'),
+			line('~wrong 2'),
+			line('}')
+		]);
+
+		expect(questions[1].texts).toEqual(['First line of question 2', 'second line of question 2']);
+		expect(questions[1].rejectionReason).toBeUndefined();
+	});
+
+	test('rejects a recognizable question without an opening delimiter', () => {
 		const questions = segment([
 			line('Malformed question without opening delimiter'),
 			line('=answer'),
-			line('~other answer}'),
+			line('=other answer'),
+			line('}'),
+			...bracketQuestion('Next question', [['=left->right'], ['=other->pair']])
+		]);
+
+		expect(questions).toHaveLength(2);
+		expect(questions[0]).toMatchObject({
+			texts: ['Malformed question without opening delimiter'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+		expect(questions[1].texts).toEqual(['Next question']);
+		expect(questions[1].rejectionReason).toBeUndefined();
+	});
+
+	test('keeps the complete malformed question lead across a page boundary', () => {
+		const questions = segment([
+			{ ...line('First line of malformed question'), page: 1, y: 40 },
+			{ ...line('second line of malformed question'), page: 2, y: 700, gapBefore: null },
+			{ ...line('=answer'), page: 2 },
+			{ ...line('=other answer'), page: 2 },
+			{ ...line('}'), page: 2 },
+			...bracketQuestion('Next question', [['=left->right'], ['=other->pair']])
+		]);
+
+		expect(questions[0]).toMatchObject({
+			texts: ['First line of malformed question', 'second line of malformed question'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+		expect(questions[1].texts).toEqual(['Next question']);
+	});
+
+	test('uses the document line gap when preserving a malformed multiline lead', () => {
+		const spacedLine = (text: string): DocLine => ({ ...line(text), gapBefore: 24 });
+		const questions = segment([
+			{ ...spacedLine('First line of malformed question'), gapBefore: 48 },
+			spacedLine('second line of malformed question'),
+			spacedLine('=answer'),
+			spacedLine('=other answer'),
+			spacedLine('}'),
+			spacedLine('Next question {'),
+			spacedLine('=left->right'),
+			spacedLine('=other->pair'),
+			spacedLine('}')
+		]);
+
+		expect(questions[0]).toMatchObject({
+			texts: ['First line of malformed question', 'second line of malformed question'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+		expect(questions[1].texts).toEqual(['Next question']);
+	});
+
+	test('rejects a recognizable question whose opening delimiter is a closing delimiter', () => {
+		const questions = segment([
+			line('Malformed question'),
+			line('}'),
+			line('=answer'),
+			line('=other answer'),
+			line('}'),
+			...bracketQuestion('Next question', [['=left->right'], ['=other->pair']])
+		]);
+
+		expect(questions).toHaveLength(2);
+		expect(questions[0]).toMatchObject({
+			texts: ['Malformed question'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+		expect(questions[1].texts).toEqual(['Next question']);
+	});
+
+	test('rejects a recognizable question that starts after an unmatched closing delimiter', () => {
+		const questions = segment([
+			line('} Malformed question'),
+			line('=answer'),
+			line('=other answer'),
+			line('}'),
+			...bracketQuestion('Next question', [['=left->right'], ['=other->pair']])
+		]);
+
+		expect(questions).toHaveLength(2);
+		expect(questions[0]).toMatchObject({
+			texts: ['Malformed question'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+		expect(questions[1].texts).toEqual(['Next question']);
+	});
+
+	test('rejects a bracket question that is not closed at the end of the document', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct 1'], ['~wrong 1']]),
+			line('Question 2 {'),
+			line('=correct 2'),
+			line('~wrong 2')
+		]);
+
+		expect(questions).toHaveLength(2);
+		expect(questions[1]).toMatchObject({
+			texts: ['Question 2'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+	});
+
+	test('does not invent a malformed question from one option-like line', () => {
+		const questions = segment([
+			line('Unrecognized debris'),
+			line('=one option'),
+			line('}'),
 			...bracketQuestion('Next question', [['=left->right'], ['=other->pair']])
 		]);
 
 		expect(questions).toHaveLength(1);
 		expect(questions[0].texts).toEqual(['Next question']);
-		expect(questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test.each(['.', 'l'])('does not attach detached %s debris to the next question', debris => {
+		const nextQuestion = { ...line('Next question'), gapBefore: 30 };
+		const questions = segment([
+			line('Question 1 {'),
+			line('=correct 1'),
+			line('~wrong 1'),
+			line(`} ${debris}`),
+			nextQuestion,
+			line('{'),
+			line('=correct 2'),
+			line('~wrong 2'),
+			line('}')
+		]);
+
+		expect(questions).toHaveLength(2);
+		expect(questions[1].texts).toEqual(['Next question']);
+		expect(questions[1].rejectionReason).toBeUndefined();
+	});
+
+	test('rejects an ambiguous long fragment instead of accepting a truncated next question', () => {
+		const nextQuestion = { ...line('Next question'), gapBefore: 30 };
+		const questions = segment([
+			line('Question 1 {'),
+			line('=correct 1'),
+			line('~wrong 1'),
+			line('} ambiguous fragment'),
+			nextQuestion,
+			line('{'),
+			line('=correct 2'),
+			line('~wrong 2'),
+			line('}')
+		]);
+
+		expect(questions[1].texts).toEqual(['ambiguous fragment', 'Next question']);
+		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
+	test('ignores post-delimiter debris that is visually separate from the next question', () => {
+		const closingLine = {
+			...line('} unrelated debris'),
+			x0: 20,
+			size: 16,
+			boldFrac: 1
+		};
+		const nextQuestion = { ...line('Next question {'), gapBefore: 30 };
+		const questions = segment([
+			line('Question 1 {'),
+			line('=correct 1'),
+			line('~wrong 1'),
+			closingLine,
+			nextQuestion,
+			line('=correct 2'),
+			line('~wrong 2'),
+			line('}')
+		]);
+
+		expect(questions[1].texts).toEqual(['Next question']);
+		expect(questions[1].rejectionReason).toBeUndefined();
+	});
+
+	test('does not let an unclosed block define document option syntax', () => {
+		const document = segmentQuestions([
+			...bracketQuestion('Question 1', [['=answer 1'], ['=answer 2']]),
+			...bracketQuestion('Question 2', [['=answer 1'], ['=answer 2']]),
+			line('Malformed question {'),
+			line('!answer 1'),
+			line('!answer 2')
+		]);
+
+		expect(document?.structure.kind).toBe('bracket');
+		if (document?.structure.kind !== 'bracket') throw new Error('Expected bracket structure');
+		expect([...document.structure.options.prefixByFamily.entries()]).toEqual([['=', '=']]);
+		expect(document.questions[2]).toMatchObject({
+			texts: ['Malformed question'],
+			options: [],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+	});
+
+	test('does not let a block attached to the previous closing delimiter define option syntax', () => {
+		const document = segmentQuestions([
+			line('Question 1 {'),
+			line('=answer 1'),
+			line('=answer 2'),
+			line('} Malformed question {'),
+			line('!answer 1'),
+			line('!answer 2'),
+			line('}')
+		]);
+
+		expect(document?.structure.kind).toBe('bracket');
+		if (document?.structure.kind !== 'bracket') throw new Error('Expected bracket structure');
+		expect([...document.structure.options.prefixByFamily.entries()]).toEqual([['=', '=']]);
+		expect(document.questions[1]).toMatchObject({
+			texts: ['Malformed question'],
+			options: [],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+	});
+
+	test('does not fall back to another scheme when every bracket block is malformed', () => {
+		const document = segmentQuestions([
+			line('Question 1 {'),
+			line('=answer 1'),
+			line('~other 1'),
+			line('~other 2'),
+			line('Question 2 {'),
+			line('=answer 2'),
+			line('~other 1'),
+			line('~other 2'),
+			line('}')
+		]);
+
+		expect(document).toBeNull();
 	});
 
 	test('rejects content between the opening delimiter and the first option', () => {

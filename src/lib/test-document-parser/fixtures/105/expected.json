@@ -929,42 +929,16 @@
 						"isCorrect": false
 					}
 				]
-			},
-			{
-				"index": 30,
-				"text": "Мышечные релаксанты действуют на:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ганглии вегетативной нервной системы",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "нейромышечные синапсы",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "сердечную мышцу",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "дыхательный центр",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "задние рога спинного мозга",
-						"isCorrect": false
-					}
-				]
 			}
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 30,
+				"text": "Мышечные релаксанты действуют на:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }
