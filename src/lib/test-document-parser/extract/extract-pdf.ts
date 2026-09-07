@@ -1,4 +1,5 @@
 import { DocLine } from '../types/document-model';
+import { arrangePdfPageGroups } from './pdf-layout';
 import { PdfImageObject, PdfJsModule, PdfPage, loadPdfJs } from './pdfjs';
 
 /** Прямоугольник в координатах страницы (ось Y вверх). */
@@ -44,16 +45,6 @@ interface StyledItem {
 	color: string | null;
 }
 
-interface ColumnGroup {
-	column: number;
-	items: StyledItem[];
-}
-
-interface ArrangedPageGroups {
-	groups: ColumnGroup[];
-	columnCenters: number[] | null;
-}
-
 interface PageNumberCandidate {
 	index: number;
 	page: number;
@@ -82,31 +73,6 @@ const MARKUP_ANNOTATIONS = new Set([
 const BOLD_FONT_RE = /bold|black|heavy|semibold|demibold/i;
 const ITALIC_FONT_RE = /italic|oblique/i;
 const PAGE_NUMBER_RE = /^\s*(\d{1,5})\s*$/;
-
-function splitHorizontalFragments(group: StyledItem[], pageWidth: number): StyledItem[][] {
-	const sorted = [...group].sort((left, right) => left.x - right.x);
-	const fragments: StyledItem[][] = [];
-	for (const item of sorted) {
-		const current = fragments[fragments.length - 1];
-		const previous = current?.[current.length - 1];
-		const gap = previous ? item.x - (previous.x + previous.w) : 0;
-		const splitThreshold = Math.max(
-			pageWidth * 0.035,
-			Math.max(previous?.size ?? 0, item.size) * 2.3
-		);
-		if (!current || gap > splitThreshold) fragments.push([item]);
-		else current.push(item);
-	}
-
-	return fragments;
-}
-
-function median(values: number[]): number {
-	const sorted = [...values].sort((left, right) => left - right);
-	const middle = Math.floor(sorted.length / 2);
-
-	return sorted.length % 2 === 0 ? (sorted[middle - 1] + sorted[middle]) / 2 : sorted[middle];
-}
 
 function hasSamePageNumberPlacement(
 	left: PageNumberCandidate,
@@ -195,132 +161,6 @@ export function removeConfirmedPageNumbers(lines: DocLine[]): DocLine[] {
 
 		return [line];
 	});
-}
-
-/**
- * Возвращает устойчивые начала колонок. Крупные отступы и единичные
- * центрированные заголовки не считаются колонками: каждая колонка должна иметь
- * достаточно строк и заметно пересекаться с остальными по вертикали.
- */
-function detectColumnCenters(
-	fragments: StyledItem[][],
-	pageLeft: number,
-	pageWidth: number
-): number[] | null {
-	if (fragments.length < 12) return null;
-	const starts = fragments
-		.map(fragment => Math.min(...fragment.map(item => item.x)))
-		.sort((a, b) => a - b);
-	const clusters: number[][] = [[]];
-	for (const start of starts) {
-		const current = clusters[clusters.length - 1];
-		if (current.length > 0 && start - current[current.length - 1] > pageWidth * 0.14) {
-			clusters.push([]);
-		}
-		clusters[clusters.length - 1].push(start);
-	}
-	if (clusters.length < 2) return null;
-
-	const minimumClusterSize = Math.max(4, Math.floor(fragments.length * 0.08));
-	while (clusters.length > 1) {
-		const smallIndex = clusters.findIndex(cluster => cluster.length < minimumClusterSize);
-		if (smallIndex < 0) break;
-		const center = median(clusters[smallIndex]);
-		const leftDistance =
-			smallIndex > 0
-				? Math.abs(center - median(clusters[smallIndex - 1]))
-				: Number.POSITIVE_INFINITY;
-		const rightDistance =
-			smallIndex + 1 < clusters.length
-				? Math.abs(center - median(clusters[smallIndex + 1]))
-				: Number.POSITIVE_INFINITY;
-		const targetIndex = leftDistance <= rightDistance ? smallIndex - 1 : smallIndex + 1;
-		clusters[targetIndex].push(...clusters[smallIndex]);
-		clusters[targetIndex].sort((a, b) => a - b);
-		clusters.splice(smallIndex, 1);
-	}
-	if (clusters.length < 2 || clusters.length > 4) return null;
-
-	const centers = clusters.map(median).sort((a, b) => a - b);
-	if (centers[0] > pageLeft + pageWidth * 0.25) return null;
-	// Некоторые страницы продолжают двухколоночный набор лишь на левых двух
-	// третях листа, оставляя правую треть пустой (например последняя страница
-	// трёхколоночного документа).
-	if (centers[centers.length - 1] < pageLeft + pageWidth * 0.35) return null;
-	if (centers.some((center, index) => index > 0 && center - centers[index - 1] < pageWidth * 0.2)) {
-		return null;
-	}
-
-	const verticalSpans = centers.map(() => ({
-		min: Number.POSITIVE_INFINITY,
-		max: Number.NEGATIVE_INFINITY
-	}));
-	for (const fragment of fragments) {
-		const x = Math.min(...fragment.map(item => item.x));
-		let column = 0;
-		for (let index = 1; index < centers.length; index++) {
-			if (Math.abs(x - centers[index]) < Math.abs(x - centers[column])) column = index;
-		}
-		const y = fragment[0].y;
-		verticalSpans[column].min = Math.min(verticalSpans[column].min, y);
-		verticalSpans[column].max = Math.max(verticalSpans[column].max, y);
-	}
-	const base = verticalSpans[0];
-	for (const span of verticalSpans.slice(1)) {
-		const overlap = Math.max(0, Math.min(base.max, span.max) - Math.max(base.min, span.min));
-		const smallerSpan = Math.min(base.max - base.min, span.max - span.min);
-		if (smallerSpan <= 0 || overlap / smallerSpan < 0.4) return null;
-	}
-
-	return centers;
-}
-
-function supportsColumnHint(groups: StyledItem[][], centers: number[], pageWidth: number): boolean {
-	const counts = centers.map(
-		center => groups.flat().filter(item => Math.abs(item.x - center) <= pageWidth * 0.06).length
-	);
-	return counts.every(count => count >= 2);
-}
-
-function arrangePageGroups(
-	groups: StyledItem[][],
-	pageLeft: number,
-	pageWidth: number,
-	columnCentersHint: number[] | null
-): ArrangedPageGroups {
-	const fragmentsByGroup = groups.map(group => splitHorizontalFragments(group, pageWidth));
-	const detectedCenters = detectColumnCenters(fragmentsByGroup.flat(), pageLeft, pageWidth);
-	const centers =
-		detectedCenters ??
-		(columnCentersHint && supportsColumnHint(groups, columnCentersHint, pageWidth)
-			? columnCentersHint
-			: null);
-	if (!centers) {
-		return {
-			groups: groups.map(items => ({ column: 0, items })),
-			columnCenters: null
-		};
-	}
-
-	const arranged: ColumnGroup[] = [];
-	for (const group of groups) {
-		const byColumn = new Map<number, StyledItem[]>();
-		for (const item of group) {
-			let column = 0;
-			for (let index = 1; index < centers.length; index++) {
-				if (item.x >= centers[index] - pageWidth * 0.04) column = index;
-			}
-			byColumn.set(column, [...(byColumn.get(column) ?? []), item]);
-		}
-		for (const [column, items] of byColumn) arranged.push({ column, items });
-	}
-
-	return {
-		groups: arranged.sort(
-			(left, right) => left.column - right.column || right.items[0].y - left.items[0].y
-		),
-		columnCenters: centers
-	};
 }
 
 function matMul(a: Matrix, b: Matrix): Matrix {
@@ -835,7 +675,7 @@ async function extractPage(
 
 	const lines: DocLine[] = [];
 	const lineColumns: number[] = [];
-	const arrangedPage = arrangePageGroups(groups, pageLeft, pageWidth, columnCentersHint);
+	const arrangedPage = arrangePdfPageGroups(groups, pageLeft, pageWidth, columnCentersHint);
 	for (const arranged of arrangedPage.groups) {
 		const group = arranged.items;
 		group.sort((a, b) => a.x - b.x);
