@@ -19,6 +19,7 @@ interface HorizontalFragment<T extends PositionedPdfItem> {
 	groupIndex: number;
 	items: T[];
 	start: number;
+	end: number;
 	y: number;
 }
 
@@ -45,6 +46,7 @@ function splitHorizontalFragments<T extends PositionedPdfItem>(
 		groupIndex,
 		items,
 		start: items[0].x,
+		end: Math.max(...items.map(item => item.x + item.w)),
 		y: items[0].y
 	}));
 }
@@ -100,12 +102,7 @@ function crossesColumnBoundary<T extends PositionedPdfItem>(
 	return fragments.some(fragment => {
 		if (fragment.y < overlapMin || fragment.y > overlapMax) return false;
 
-		return boundaries.some(boundary => {
-			const hasLeftItem = fragment.items.some(item => item.x < boundary);
-			const hasRightItem = fragment.items.some(item => item.x >= boundary);
-
-			return hasLeftItem && hasRightItem;
-		});
+		return boundaries.some(boundary => fragment.start < boundary && fragment.end > boundary);
 	});
 }
 

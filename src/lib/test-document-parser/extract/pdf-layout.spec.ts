@@ -43,6 +43,19 @@ describe('arrangePdfPageGroups', () => {
 		expect(result.groups).toHaveLength(3);
 	});
 
+	test('rejects a column layout that cuts one wide PDF item', () => {
+		const groups = [
+			[item('left-1', 50, 500), item('right-1', 350, 500)],
+			[item('wide', 50, 490, 300)],
+			[item('left-2', 50, 480), item('right-2', 350, 480)]
+		];
+
+		const result = arrangePdfPageGroups(groups, 0, 600, [50, 350]);
+
+		expect(result.columnCenters).toBeNull();
+		expect(result.groups).toHaveLength(3);
+	});
+
 	test('detects independently repeated columns separated by a gutter', () => {
 		const groups = Array.from({ length: 6 }, (_, index) => [
 			item(`left-${index}`, 50, 500 - index * 20),
