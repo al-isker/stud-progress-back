@@ -655,7 +655,13 @@ describe('document-level option syntax', () => {
 	});
 
 	test('keeps a visually compatible question block across a page boundary', () => {
-		const firstLine = { ...line('First question line'), page: 1, y: 40, gapBefore: 12 };
+		const firstLine = {
+			...line('First question line'),
+			page: 1,
+			y: 40,
+			x0: 90,
+			gapBefore: 12
+		};
 		const openingLine = {
 			...line('Second question line {'),
 			page: 2,
@@ -674,11 +680,31 @@ describe('document-level option syntax', () => {
 		expect(questions[0].rejectionReason).toBeUndefined();
 	});
 
+	test('rejects but preserves a same-page lead with contradictory spacing and indentation', () => {
+		const questions = segment([
+			...bracketQuestion('Control question', [['=left'], ['=right']]),
+			{ ...line('First question line'), x0: 50, gapBefore: 30 },
+			{ ...line('second question line {'), x0: 90, gapBefore: 30 },
+			line('=left->right'),
+			line('=other->pair'),
+			line('}')
+		]);
+
+		expect(questions[1].texts).toEqual(['First question line', 'second question line']);
+		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
 	test('keeps a multiline question across a page boundary before a standalone opener', () => {
 		const questions = segment([
 			...bracketQuestion('Previous question', [['=correct'], ['~wrong']]),
-			{ ...line('First question line'), page: 1, y: 40, gapBefore: 30 },
-			{ ...line('second question line'), page: 2, y: 700, gapBefore: null },
+			{ ...line('First question line'), page: 1, y: 40, boldFrac: 1, gapBefore: 30 },
+			{
+				...line('second question line'),
+				page: 2,
+				y: 700,
+				boldFrac: 1,
+				gapBefore: null
+			},
 			{ ...line('{'), page: 2 },
 			{ ...line('=correct'), page: 2 },
 			{ ...line('~wrong'), page: 2 },

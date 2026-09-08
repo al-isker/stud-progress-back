@@ -1,5 +1,11 @@
 import { DocLine } from '../types/document-model';
 import { QuestionRejectionReason } from '../types/parse-result';
+import {
+	continuesReadingFlow,
+	hasCompatibleLineLayout,
+	hasCompatibleTypography,
+	isParagraphStart
+} from './line-layout';
 
 /**
  * Вариант ответа до сборки. Структурный префикс определяется по всему документу,
@@ -189,11 +195,6 @@ function splitInlineDecoratedOption(
 	return null;
 }
 
-/** Начало нового параграфа: первая строка страницы или заметный вертикальный зазор. */
-function isParagraphStart(line: DocLine): boolean {
-	return line.gapBefore === null || line.gapBefore > line.size * 1.6;
-}
-
 /** Последний параграф из накопленного «хвоста» строк. */
 function lastParagraph(tail: DocLine[]): DocLine[] {
 	const paragraph: DocLine[] = [];
@@ -205,26 +206,9 @@ function lastParagraph(tail: DocLine[]): DocLine[] {
 	return paragraph;
 }
 
-/** Строка того же визуального блока многострочного вопроса. */
-function hasCompatibleQuestionStyle(candidate: DocLine, opener: DocLine): boolean {
-	return (
-		Math.abs(candidate.x0 - opener.x0) <= opener.size &&
-		Math.abs(candidate.size - opener.size) <= 0.5 &&
-		Math.abs(candidate.boldFrac - opener.boldFrac) <= 0.2 &&
-		Math.abs(candidate.italicFrac - opener.italicFrac) <= 0.2
-	);
-}
-
 interface QuestionLead {
 	lines: DocLine[];
 	rejectionReason?: QuestionRejectionReason;
-}
-
-function continuesReadingFlow(previous: DocLine, opener: DocLine): boolean {
-	return (
-		opener.page === previous.page + 1 ||
-		(opener.page === previous.page && opener.gapBefore === null && opener.y > previous.y)
-	);
 }
 
 function inferNormalLineGapRatio(lines: DocLine[]): number {
@@ -282,21 +266,34 @@ function connectedTail(tail: DocLine[], lastIndex: number, maximumGapRatio: numb
  * же оформлении противоречив: обе части сохраняются, а вопрос отклоняется,
  * чтобы не принять его усечённую версию.
  */
-function questionLead(tail: DocLine[], opener: DocLine, maximumGapRatio: number): QuestionLead {
+function questionLead(
+	tail: DocLine[],
+	opener: DocLine,
+	maximumGapRatio: number,
+	allowReadingFlowReindent: boolean
+): QuestionLead {
 	const lines: DocLine[] = [];
 	let next = opener;
 	for (let index = tail.length - 1; index >= 0; index--) {
 		const candidate = tail[index];
 		const readingFlowBoundary = continuesReadingFlow(candidate, next);
+		const compatibleAcrossReadingFlow = allowReadingFlowReindent
+			? hasCompatibleTypography(candidate, next) || hasCompatibleTypography(candidate, opener)
+			: hasCompatibleLineLayout(candidate, next) || hasCompatibleLineLayout(candidate, opener);
 		if (
 			hasNormalLineGap(candidate, next, maximumGapRatio) &&
-			(!readingFlowBoundary || hasCompatibleQuestionStyle(candidate, opener))
+			(!readingFlowBoundary || compatibleAcrossReadingFlow)
 		) {
 			lines.unshift(candidate);
 			next = candidate;
 			continue;
 		}
-		if (!hasCompatibleQuestionStyle(candidate, opener)) break;
+		if (readingFlowBoundary || !hasCompatibleTypography(candidate, next)) break;
+
+		const compatibleWithInlineLead = hasCompatibleLineLayout(candidate, opener);
+		const possibleIndentedContinuation =
+			allowReadingFlowReindent && candidate.x0 <= next.x0 && candidate.x1 >= next.x1;
+		if (!compatibleWithInlineLead && !possibleIndentedContinuation) break;
 
 		return {
 			lines: [...connectedTail(tail, index, maximumGapRatio), ...lines],
@@ -494,7 +491,8 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 	 */
 	const resolveBlockLead = (
 		outside: OutsideToken[],
-		currentBlock: BracketBlock
+		currentBlock: BracketBlock,
+		allowReadingFlowReindent: boolean
 	): ResolvedBlockLead => {
 		const remaining = removeDetachedBoundaryDebris(outside);
 		const lastClose = remaining.findLastIndex(item => item.kind === 'close');
@@ -505,11 +503,13 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 			tail.some(
 				(item, index) => index > 0 && continuesReadingFlow(tail[index - 1].line, item.line)
 			);
+		const leadLines = tail.map(item => item.line);
 		const lead: QuestionLead = needsStrictBoundaryCheck
 			? questionLead(
-					tail.map(item => item.line),
+					leadLines,
 					currentBlock.opener,
-					maximumQuestionGapRatio
+					maximumQuestionGapRatio,
+					allowReadingFlowReindent
 				)
 			: { lines: lastParagraph(tail.map(item => item.line)) };
 		const attachedToPreviousClose =
@@ -531,7 +531,11 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 			continue;
 		}
 
-		token.block.rejectionReason ??= resolveBlockLead(profileOutside, token.block).rejectionReason;
+		token.block.rejectionReason ??= resolveBlockLead(
+			profileOutside,
+			token.block,
+			false
+		).rejectionReason;
 		profileOutside = [];
 	}
 
@@ -561,7 +565,7 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 			const readingFlowBoundary = continuesReadingFlow(candidate.line, next);
 			if (
 				!hasNormalLineGap(candidate.line, next, maximumQuestionGapRatio) ||
-				(readingFlowBoundary && !hasCompatibleQuestionStyle(candidate.line, nextLine))
+				(readingFlowBoundary && !hasCompatibleLineLayout(candidate.line, nextLine))
 			) {
 				break;
 			}
@@ -668,7 +672,7 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 
 		const extracted = extractOrphans(outside);
 		drafts.push(...extracted.drafts);
-		const resolvedLead = resolveBlockLead(extracted.remaining, token.block);
+		const resolvedLead = resolveBlockLead(extracted.remaining, token.block, true);
 		const lead = resolvedLead.lead;
 		const texts = lead.lines.map(line => line.text.trim());
 		if (token.block.inlineLead !== '') texts.push(token.block.inlineLead);

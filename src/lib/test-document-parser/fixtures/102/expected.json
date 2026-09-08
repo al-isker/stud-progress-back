@@ -505,38 +505,6 @@
 				]
 			},
 			{
-				"index": 17,
-				"text": "является:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "переливание крови",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "вливание физиологического раствора",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "назначение грелки на голову",
-						"isCorrect": false
-					},
-					{
-						"index": 4,
-						"text": "в/в вливание 40% раствора глюкозы",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "назначение морфина",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 18,
 				"text": "Травматический токсикоз характеризуется:",
 				"type": "single",
@@ -630,6 +598,12 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 17,
+				"text": "При сотрясении головного мозга одним из компонентов лечения является:",
+				"reason": "MALFORMED_STRUCTURE"
+			}
+		]
 	}
 }
