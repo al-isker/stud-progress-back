@@ -3,38 +3,6 @@
 	"document": {
 		"questions": [
 			{
-				"index": 1,
-				"text": "ТЗ_ Р6. БЛОК А. Укажите передне- задний размер (в мм) спинного мозга у лиц зрелого возраста:",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "5-6",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "7-8",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "8-9",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "11-12",
-						"isCorrect": false
-					},
-					{
-						"index": 5,
-						"text": "14-16",
-						"isCorrect": false
-					}
-				]
-			},
-			{
 				"index": 2,
 				"text": "Укажите площадь поперечного сечения (в кв.мм) спинного мозга у лиц зрелого возраста:",
 				"type": "single",
@@ -3142,6 +3110,11 @@
 	},
 	"issues": {
 		"rejectedQuestions": [
+			{
+				"index": 1,
+				"text": "ТЗ_ Р6. БЛОК А. Укажите передне- задний размер (в мм) спинного мозга у лиц зрелого возраста:",
+				"reason": "MALFORMED_STRUCTURE"
+			},
 			{
 				"index": 42,
 				"text": "Укажите анатомические образования, относящиеся к промежуточному мозгу:",

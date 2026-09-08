@@ -751,6 +751,62 @@ describe('document-level option syntax', () => {
 		expect(questions[0].rejectionReason).toBeUndefined();
 	});
 
+	test('does not delete repeated styled paragraphs as presumed metadata', () => {
+		const section = (text: string, question: string): DocLine[] => [
+			{ ...line(text), italicFrac: 1, gapBefore: 24 },
+			{ ...line(`${question} {`), gapBefore: 24 },
+			{ ...line('=correct'), gapBefore: 24 },
+			{ ...line('~wrong'), gapBefore: 24 },
+			{ ...line('}'), gapBefore: 24 }
+		];
+		const questions = segment([
+			...section('First metadata', 'Question one'),
+			...section('Different metadata', 'Question two'),
+			...bracketQuestion('Control question', [['=correct'], ['~wrong']])
+		]);
+
+		expect(questions.slice(0, 2).map(question => question.texts)).toEqual([
+			['First metadata', 'Question one'],
+			['Different metadata', 'Question two']
+		]);
+		expect(questions.slice(0, 2).map(question => question.rejectionReason)).toEqual([
+			QuestionRejectionReason.MALFORMED_STRUCTURE,
+			QuestionRejectionReason.MALFORMED_STRUCTURE
+		]);
+	});
+
+	test('does not delete a styled paragraph at a percentage grammar transition', () => {
+		const questions = segment([
+			...bracketQuestion('Ordinary question', [['=correct'], ['~wrong']]).map(current => ({
+				...current,
+				gapBefore: 24
+			})),
+			{ ...line('Section metadata'), italicFrac: 1, gapBefore: 24 },
+			{ ...line('Percentage question {'), gapBefore: 24 },
+			{ ...line('~%50%first'), gapBefore: 24 },
+			{ ...line('~%50%second'), gapBefore: 24 },
+			{ ...line('~%-100%third'), gapBefore: 24 },
+			{ ...line('}'), gapBefore: 24 }
+		]);
+
+		expect(questions[1].texts).toEqual(['Section metadata', 'Percentage question']);
+		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
+	test('rejects and preserves an unconfirmed visual prefix at the document boundary', () => {
+		const questions = segment([
+			{ ...line('Ambiguous prefix'), boldFrac: 1, gapBefore: null },
+			line('Question body {'),
+			line('=correct'),
+			line('~wrong'),
+			line('}'),
+			...bracketQuestion('Control question', [['=correct'], ['~wrong']])
+		]);
+
+		expect(questions[0].texts).toEqual(['Ambiguous prefix', 'Question body']);
+		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
 	test('rejects a question stem attached to the previous closing delimiter', () => {
 		const questions = segment([
 			line('Question 1 {'),

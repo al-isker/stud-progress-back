@@ -305,6 +305,32 @@ function questionLead(
 }
 
 /**
+ * В скобочной грамматике нет явного маркера начала stem. Поэтому отдельный
+ * визуальный префикс нельзя безопасно объявить заголовком и удалить: это может
+ * быть первой частью вопроса. Противоречие сохраняется целиком и ведёт в reject.
+ */
+function hasConflictingLeadingVisualBlock(
+	lead: DocLine[],
+	opener: DocLine,
+	hasInlineLead: boolean,
+	isFirstBlock: boolean
+): boolean {
+	if (lead.length === 0) return false;
+	const bodyAnchor = hasInlineLead ? opener : lead[lead.length - 1];
+	let bodyStart = lead.length;
+	while (bodyStart > 0 && hasCompatibleTypography(lead[bodyStart - 1], bodyAnchor)) {
+		bodyStart--;
+	}
+	if (bodyStart === 0) return false;
+
+	const prefixAnchor = lead[bodyStart - 1];
+	const firstBodyLine = lead[bodyStart] ?? opener;
+	if (continuesReadingFlow(prefixAnchor, firstBodyLine)) return false;
+
+	return isParagraphStart(firstBodyLine) || isFirstBlock;
+}
+
+/**
  * Схема «скобочная»: текст вопроса открывает блок вариантов скобкой «{», блок
  * закрывается «}». Скобки могут стоять где угодно в строке — в том числе первый
  * вариант идёт на одной строке с «{». Варианты внутри блока начинаются с
@@ -492,7 +518,8 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 	const resolveBlockLead = (
 		outside: OutsideToken[],
 		currentBlock: BracketBlock,
-		allowReadingFlowReindent: boolean
+		allowReadingFlowReindent: boolean,
+		isFirstBlock: boolean
 	): ResolvedBlockLead => {
 		const remaining = removeDetachedBoundaryDebris(outside);
 		const lastClose = remaining.findLastIndex(item => item.kind === 'close');
@@ -504,27 +531,35 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 				(item, index) => index > 0 && continuesReadingFlow(tail[index - 1].line, item.line)
 			);
 		const leadLines = tail.map(item => item.line);
-		const lead: QuestionLead = needsStrictBoundaryCheck
+		const lead = needsStrictBoundaryCheck
 			? questionLead(
 					leadLines,
 					currentBlock.opener,
 					maximumQuestionGapRatio,
 					allowReadingFlowReindent
 				)
-			: { lines: lastParagraph(tail.map(item => item.line)) };
+			: { lines: lastParagraph(leadLines) };
 		const attachedToPreviousClose =
 			currentBlock.inlineLeadAfterBalancedClose ||
 			tail.some(item => item.afterBalancedClose && lead.lines.includes(item.line));
+		const conflictingVisualBlock = hasConflictingLeadingVisualBlock(
+			lead.lines,
+			currentBlock.opener,
+			currentBlock.inlineLead !== '',
+			isFirstBlock
+		);
 
 		return {
 			lead,
 			rejectionReason: attachedToPreviousClose
 				? QuestionRejectionReason.MALFORMED_STRUCTURE
-				: lead.rejectionReason
+				: (lead.rejectionReason ??
+					(conflictingVisualBlock ? QuestionRejectionReason.MALFORMED_STRUCTURE : undefined))
 		};
 	};
 
 	let profileOutside: OutsideToken[] = [];
+	let profileBlockIndex = 0;
 	for (const token of tokens) {
 		if (token.kind !== 'block') {
 			profileOutside.push(token);
@@ -534,8 +569,10 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 		token.block.rejectionReason ??= resolveBlockLead(
 			profileOutside,
 			token.block,
-			false
+			false,
+			profileBlockIndex === 0
 		).rejectionReason;
+		profileBlockIndex++;
 		profileOutside = [];
 	}
 
@@ -664,6 +701,7 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 	// leads, а распознаваемые повреждённые границы материализует в reject.
 	const drafts: QuestionDraft[] = [];
 	let outside: OutsideToken[] = [];
+	let blockIndex = 0;
 	for (const token of tokens) {
 		if (token.kind !== 'block') {
 			outside.push(token);
@@ -672,7 +710,8 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 
 		const extracted = extractOrphans(outside);
 		drafts.push(...extracted.drafts);
-		const resolvedLead = resolveBlockLead(extracted.remaining, token.block, true);
+		const resolvedLead = resolveBlockLead(extracted.remaining, token.block, true, blockIndex === 0);
+		blockIndex++;
 		const lead = resolvedLead.lead;
 		const texts = lead.lines.map(line => line.text.trim());
 		if (token.block.inlineLead !== '') texts.push(token.block.inlineLead);
