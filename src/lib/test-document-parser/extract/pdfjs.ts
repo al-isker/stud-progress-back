@@ -13,6 +13,11 @@ export interface PdfTextItem {
 
 export interface PdfTextContent {
 	items: PdfTextItem[];
+	styles?: Record<string, PdfTextStyle>;
+}
+
+export interface PdfTextStyle {
+	fontFamily?: string;
 }
 
 export interface PdfAnnotation {

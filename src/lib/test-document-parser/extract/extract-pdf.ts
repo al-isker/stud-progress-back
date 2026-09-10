@@ -1,5 +1,10 @@
 import { DocLine } from '../types/document-model';
-import { arrangePdfPageGroups } from './pdf-layout';
+import { arrangePdfPageGroups, groupPdfItemsByBaseline } from './pdf-layout';
+import {
+	PdfPageNumberItem,
+	PdfPageNumberPage,
+	findConfirmedPageNumberItemIds
+} from './pdf-page-number-profile';
 import { PdfImageObject, PdfJsModule, PdfPage, loadPdfJs } from './pdfjs';
 
 /** Прямоугольник в координатах страницы (ось Y вверх). */
@@ -34,23 +39,15 @@ interface TextRun {
 	color: string | null;
 }
 
-/** Текстовый элемент страницы с уже вычисленным цветом. */
-interface StyledItem {
-	str: string;
-	x: number;
-	y: number;
-	w: number;
-	size: number;
+interface StyledItem extends PdfPageNumberItem {
 	fontName: string;
+	bold: boolean;
+	italic: boolean;
 	color: string | null;
 }
 
-interface PageNumberCandidate {
-	index: number;
-	page: number;
-	edge: 'top' | 'bottom';
-	value: number;
-	line: DocLine;
+interface PdfTextPageState extends PdfPageNumberPage {
+	items: StyledItem[];
 }
 
 type Matrix = number[];
@@ -72,96 +69,6 @@ const MARKUP_ANNOTATIONS = new Set([
 
 const BOLD_FONT_RE = /bold|black|heavy|semibold|demibold/i;
 const ITALIC_FONT_RE = /italic|oblique/i;
-const PAGE_NUMBER_RE = /^\s*(\d{1,5})\s*$/;
-
-function hasSamePageNumberPlacement(
-	left: PageNumberCandidate,
-	right: PageNumberCandidate
-): boolean {
-	const leftCenter = (left.line.x0 + left.line.x1) / 2;
-	const rightCenter = (right.line.x0 + right.line.x1) / 2;
-	const tolerance = Math.max(left.line.size, right.line.size) * 0.5;
-
-	return (
-		left.edge === right.edge &&
-		Math.abs(leftCenter - rightCenter) <= tolerance &&
-		Math.abs(left.line.y - right.line.y) <= tolerance &&
-		Math.abs(left.line.size - right.line.size) <= 0.5 &&
-		Math.abs(left.line.boldFrac - right.line.boldFrac) <= 0.2 &&
-		Math.abs(left.line.italicFrac - right.line.italicFrac) <= 0.2
-	);
-}
-
-function hasConsecutivePages(candidates: PageNumberCandidate[]): boolean {
-	const pages = candidates.map(candidate => candidate.page).sort((left, right) => left - right);
-
-	return pages.some((page, index) => index > 0 && page === pages[index - 1] + 1);
-}
-
-/**
- * Удаляет только подтверждённую серию колонтитульных номеров страниц.
- *
- * Само по себе число на краю страницы недостаточно. Серия должна повторяться
- * минимум на трёх страницах в одной позиции и одним стилем, а её значение —
- * изменяться синхронно с физическим номером страницы. Это не позволяет принять
- * за колонтитул отдельный числовой вариант ответа.
- */
-export function removeConfirmedPageNumbers(lines: DocLine[]): DocLine[] {
-	const indicesByPage = new Map<number, number[]>();
-	for (let index = 0; index < lines.length; index++) {
-		indicesByPage.set(lines[index].page, [...(indicesByPage.get(lines[index].page) ?? []), index]);
-	}
-
-	const candidates: PageNumberCandidate[] = [];
-	for (const [page, indices] of indicesByPage) {
-		if (indices.length < 2) continue;
-		for (const [edge, index] of [
-			['top', indices[0]],
-			['bottom', indices[indices.length - 1]]
-		] as const) {
-			const line = lines[index];
-			const match = PAGE_NUMBER_RE.exec(line.text);
-			if (!match) continue;
-			const value = Number(match[1]);
-			if (!Number.isSafeInteger(value) || value < 1) continue;
-			candidates.push({ index, page, edge, value, line });
-		}
-	}
-
-	const placementGroups: PageNumberCandidate[][] = [];
-	for (const candidate of candidates) {
-		const group = placementGroups.find(current =>
-			hasSamePageNumberPlacement(current[0], candidate)
-		);
-		if (group) group.push(candidate);
-		else placementGroups.push([candidate]);
-	}
-
-	const removedIndices = new Set<number>();
-	for (const group of placementGroups) {
-		const byPageOffset = new Map<number, PageNumberCandidate[]>();
-		for (const candidate of group) {
-			const offset = candidate.value - candidate.page;
-			byPageOffset.set(offset, [...(byPageOffset.get(offset) ?? []), candidate]);
-		}
-		for (const series of byPageOffset.values()) {
-			if (series.length < 3 || !hasConsecutivePages(series)) continue;
-			for (const candidate of series) removedIndices.add(candidate.index);
-		}
-	}
-
-	let previousPage: number | null = null;
-	return lines.flatMap((line, index) => {
-		if (removedIndices.has(index)) return [];
-		if (line.page !== previousPage) {
-			previousPage = line.page;
-
-			return [{ ...line, gapBefore: null }];
-		}
-
-		return [line];
-	});
-}
 
 function matMul(a: Matrix, b: Matrix): Matrix {
 	return [
@@ -498,6 +405,73 @@ function assignColors(items: StyledItem[], runs: TextRun[]): void {
 	}
 }
 
+async function extractPageTextState(page: PdfPage, pageNumber: number): Promise<PdfTextPageState> {
+	const view = page.view;
+	const pageLeft = Math.min(view[0], view[2]);
+	const pageBottom = Math.min(view[1], view[3]);
+	const textContent = await page.getTextContent();
+	const unresolved = textContent.items.flatMap((item, index) =>
+		typeof item.str === 'string' && item.transform
+			? [
+					{
+						id: `${pageNumber}:${index}`,
+						str: item.str,
+						x: item.transform[4],
+						y: item.transform[5],
+						w: item.width ?? 0,
+						size: Math.hypot(item.transform[0], item.transform[1]),
+						fontName: item.fontName ?? '',
+						fontFamily: textContent.styles?.[item.fontName ?? '']?.fontFamily ?? item.fontName ?? ''
+					}
+				]
+			: []
+	);
+
+	return {
+		page: pageNumber,
+		pageLeft,
+		pageBottom,
+		pageWidth: Math.abs(view[2] - view[0]),
+		pageHeight: Math.abs(view[3] - view[1]),
+		items: unresolved.map(item => ({
+			id: item.id,
+			str: item.str,
+			x: item.x,
+			y: item.y,
+			w: item.w,
+			size: item.size,
+			fontName: item.fontName,
+			fontFamily: item.fontFamily,
+			bold: false,
+			italic: false,
+			color: null
+		}))
+	};
+}
+
+function assignFontFlags(page: PdfPage, items: StyledItem[]): void {
+	const fontFlags = new Map<string, { bold: boolean; italic: boolean }>();
+	for (const name of new Set(items.map(item => item.fontName))) {
+		let realName = '';
+		try {
+			const font = page.commonObjs.get(name) as { name?: string } | null;
+			realName = font?.name ?? '';
+		} catch {
+			realName = '';
+		}
+		fontFlags.set(name, {
+			bold: BOLD_FONT_RE.test(realName),
+			italic: ITALIC_FONT_RE.test(realName)
+		});
+	}
+
+	for (const item of items) {
+		const flags = fontFlags.get(item.fontName);
+		item.bold = flags?.bold ?? false;
+		item.italic = flags?.italic ?? false;
+	}
+}
+
 function boxContains(box: Box, x: number, y: number): boolean {
 	return x >= box.x0 - 0.5 && x <= box.x1 + 0.5 && y >= box.y0 - 0.5 && y <= box.y1 + 0.5;
 }
@@ -583,14 +557,12 @@ function measureHighlight(
 
 async function extractPage(
 	page: PdfPage,
-	pageNumber: number,
+	textPage: PdfTextPageState,
 	pdfjs: PdfJsModule,
-	columnCentersHint: number[] | null
+	columnCentersHint: number[] | null,
+	pageNumberItemIds: Set<string>
 ): Promise<{ lines: DocLine[]; columnCenters: number[] | null }> {
-	const view = page.view;
-	const pageLeft = Math.min(view[0], view[2]);
-	const pageWidth = Math.abs(view[2] - view[0]);
-	const pageArea = Math.abs((view[2] - view[0]) * (view[3] - view[1]));
+	const pageArea = textPage.pageWidth * textPage.pageHeight;
 
 	const opList = await page.getOperatorList();
 	const { fills, imagePaints, runs, annotationIdsWithAppearance } = walkOperatorList(
@@ -599,6 +571,7 @@ async function extractPage(
 		pdfjs.OPS,
 		pageArea
 	);
+	assignFontFlags(page, textPage.items);
 
 	const imageRegions: ImageRegion[] = [];
 	for (const { id, box, annotationId } of imagePaints) {
@@ -631,51 +604,24 @@ async function extractPage(
 		});
 	}
 
-	const textContent = await page.getTextContent();
-	const items: StyledItem[] = [];
-	for (const it of textContent.items) {
-		if (typeof it.str !== 'string' || !it.transform) continue;
-		items.push({
-			str: it.str,
-			x: it.transform[4],
-			y: it.transform[5],
-			w: it.width ?? 0,
-			size: Math.hypot(it.transform[0], it.transform[1]),
-			fontName: it.fontName ?? '',
-			color: null
-		});
-	}
-	assignColors(items, runs);
+	// Сопоставление идёт по исходному stream-порядку. Удалять колонтитулы до
+	// этого шага нельзя: последующие цвета могли бы сдвинуться на соседний текст.
+	assignColors(textPage.items, runs);
 
-	// Реальные имена шрифтов — для определения жирности/курсива.
-	const fontFlags = new Map<string, { bold: boolean; italic: boolean }>();
-	for (const name of new Set(items.map(i => i.fontName))) {
-		let realName = '';
-		try {
-			const font = page.commonObjs.get(name) as { name?: string } | null;
-			realName = font?.name ?? '';
-		} catch {
-			realName = '';
-		}
-		fontFlags.set(name, {
-			bold: BOLD_FONT_RE.test(realName),
-			italic: ITALIC_FONT_RE.test(realName)
-		});
-	}
-
-	// Сборка строк: группировка по базовой линии, сортировка, склейка текста.
-	const visible = items.filter(i => i.str.trim() !== '');
-	visible.sort((a, b) => b.y - a.y || a.x - b.x);
-	const groups: StyledItem[][] = [];
-	for (const item of visible) {
-		const last = groups[groups.length - 1];
-		if (last && Math.abs(last[0].y - item.y) <= Math.max(2, item.size * 0.45)) last.push(item);
-		else groups.push([item]);
-	}
+	// Подтверждённые исходные фрагменты исключаются до раскладки колонок и
+	// сборки строк, поэтому не влияют ни на текст, ни на геометрию строки.
+	const groups = groupPdfItemsByBaseline(
+		textPage.items.filter(item => !pageNumberItemIds.has(item.id))
+	);
 
 	const lines: DocLine[] = [];
 	const lineColumns: number[] = [];
-	const arrangedPage = arrangePdfPageGroups(groups, pageLeft, pageWidth, columnCentersHint);
+	const arrangedPage = arrangePdfPageGroups(
+		groups,
+		textPage.pageLeft,
+		textPage.pageWidth,
+		columnCentersHint
+	);
 	for (const arranged of arrangedPage.groups) {
 		const group = arranged.items;
 		group.sort((a, b) => a.x - b.x);
@@ -708,9 +654,8 @@ async function extractPage(
 		for (const item of group) {
 			const len = item.str.replace(/\s/g, '').length;
 			totalLen += len;
-			const flags = fontFlags.get(item.fontName);
-			if (flags?.bold) boldLen += len;
-			if (flags?.italic) italicLen += len;
+			if (item.bold) boldLen += len;
+			if (item.italic) italicLen += len;
 			if (item.color) colorWeights.set(item.color, (colorWeights.get(item.color) ?? 0) + len);
 		}
 		let color: string | null = null;
@@ -725,7 +670,7 @@ async function extractPage(
 		const highlightFrac = measureHighlight(x0, x1, y, size, fills, annotationBoxes, imageRegions);
 
 		lines.push({
-			page: pageNumber,
+			page: textPage.page,
 			y,
 			x0,
 			x1,
@@ -761,15 +706,27 @@ export async function extractPdfLines(data: Buffer): Promise<DocLine[]> {
 
 	try {
 		const doc = await task.promise;
+		const textPages: PdfTextPageState[] = [];
+		for (let pageNumber = 1; pageNumber <= doc.numPages; pageNumber++) {
+			textPages.push(await extractPageTextState(await doc.getPage(pageNumber), pageNumber));
+		}
+		const pageNumberItemIds = findConfirmedPageNumberItemIds(textPages);
+
 		const lines: DocLine[] = [];
 		let columnCentersHint: number[] | null = null;
-		for (let p = 1; p <= doc.numPages; p++) {
-			const page = await extractPage(await doc.getPage(p), p, pdfjs, columnCentersHint);
+		for (const textPage of textPages) {
+			const page = await extractPage(
+				await doc.getPage(textPage.page),
+				textPage,
+				pdfjs,
+				columnCentersHint,
+				pageNumberItemIds
+			);
 			lines.push(...page.lines);
 			columnCentersHint = page.columnCenters;
 		}
 
-		return removeConfirmedPageNumbers(lines);
+		return lines;
 	} finally {
 		await task.destroy().catch(() => undefined);
 	}

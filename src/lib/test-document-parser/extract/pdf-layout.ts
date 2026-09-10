@@ -5,6 +5,25 @@ export interface PositionedPdfItem {
 	size: number;
 }
 
+/** Группирует видимые текстовые элементы по общей базовой линии. */
+export function groupPdfItemsByBaseline<T extends PositionedPdfItem & { str: string }>(
+	items: readonly T[]
+): T[][] {
+	const visible = items.filter(item => item.str.trim() !== '');
+	visible.sort((left, right) => right.y - left.y || left.x - right.x);
+	const groups: T[][] = [];
+	for (const item of visible) {
+		const last = groups[groups.length - 1];
+		if (last && Math.abs(last[0].y - item.y) <= Math.max(2, item.size * 0.45)) {
+			last.push(item);
+		} else {
+			groups.push([item]);
+		}
+	}
+
+	return groups;
+}
+
 export interface PdfColumnGroup<T extends PositionedPdfItem> {
 	column: number;
 	items: T[];
@@ -23,11 +42,15 @@ interface HorizontalFragment<T extends PositionedPdfItem> {
 	y: number;
 }
 
-function splitHorizontalFragments<T extends PositionedPdfItem>(
+/**
+ * Делит одну базовую строку на независимые горизонтальные фрагменты.
+ * Один и тот же критерий используется и раскладкой колонок, и распознаванием
+ * колонтитулов: то, что визуально связано с текстом, нельзя удалять отдельно.
+ */
+export function splitPdfHorizontalGroup<T extends PositionedPdfItem>(
 	group: T[],
-	groupIndex: number,
 	pageWidth: number
-): HorizontalFragment<T>[] {
+): T[][] {
 	const sorted = [...group].sort((left, right) => left.x - right.x);
 	const fragments: T[][] = [];
 	for (const item of sorted) {
@@ -42,7 +65,15 @@ function splitHorizontalFragments<T extends PositionedPdfItem>(
 		else current.push(item);
 	}
 
-	return fragments.map(items => ({
+	return fragments;
+}
+
+function splitHorizontalFragments<T extends PositionedPdfItem>(
+	group: T[],
+	groupIndex: number,
+	pageWidth: number
+): HorizontalFragment<T>[] {
+	return splitPdfHorizontalGroup(group, pageWidth).map(items => ({
 		groupIndex,
 		items,
 		start: items[0].x,

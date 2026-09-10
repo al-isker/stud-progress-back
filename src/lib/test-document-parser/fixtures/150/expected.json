@@ -348,7 +348,7 @@
 					},
 					{
 						"index": 4,
-						"text": "gen.pl 1",
+						"text": "gen.pl",
 						"isCorrect": false
 					}
 				]
@@ -635,7 +635,7 @@
 					},
 					{
 						"index": 2,
-						"text": "gen.sing 2",
+						"text": "gen.sing",
 						"isCorrect": false
 					},
 					{
@@ -1315,7 +1315,7 @@
 					},
 					{
 						"index": 3,
-						"text": "Nom.pl 4",
+						"text": "Nom.pl",
 						"isCorrect": false
 					},
 					{
@@ -1656,7 +1656,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "Nom.sing 5",
+						"text": "Nom.sing",
 						"isCorrect": false
 					},
 					{
@@ -2346,7 +2346,7 @@
 					},
 					{
 						"index": 4,
-						"text": "gen.pl 7",
+						"text": "gen.pl",
 						"isCorrect": false
 					}
 				]
@@ -2687,7 +2687,7 @@
 					},
 					{
 						"index": 2,
-						"text": "gen.sing 8",
+						"text": "gen.sing",
 						"isCorrect": false
 					},
 					{
@@ -3018,6 +3018,33 @@
 						"index": 3,
 						"text": "Nom.pl",
 						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "gen.pl",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 115,
+				"text": "Определите падеж существительного capita",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Nom.sing",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "gen.sing",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Nom.pl",
+						"isCorrect": true
 					},
 					{
 						"index": 4,
@@ -3691,7 +3718,7 @@
 					},
 					{
 						"index": 3,
-						"text": "Nom.pl 11",
+						"text": "Nom.pl",
 						"isCorrect": true
 					},
 					{
@@ -4042,7 +4069,7 @@
 					},
 					{
 						"index": 3,
-						"text": "Nom.pl 12",
+						"text": "Nom.pl",
 						"isCorrect": false
 					},
 					{
@@ -4955,7 +4982,7 @@
 					},
 					{
 						"index": 2,
-						"text": "gen.sing 15",
+						"text": "gen.sing",
 						"isCorrect": true
 					},
 					{
@@ -5232,6 +5259,33 @@
 						"index": 3,
 						"text": "Nom.pl",
 						"isCorrect": false
+					},
+					{
+						"index": 4,
+						"text": "gen.pl",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 204,
+				"text": "Определите падеж существительного tubera",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "Nom.sing",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "gen.sing",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "Nom.pl",
+						"isCorrect": true
 					},
 					{
 						"index": 4,
@@ -7318,7 +7372,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "I 22",
+						"text": "I",
 						"isCorrect": true
 					},
 					{
@@ -7675,7 +7729,7 @@
 					},
 					{
 						"index": 2,
-						"text": "II 23",
+						"text": "II",
 						"isCorrect": false
 					},
 					{
@@ -8032,7 +8086,7 @@
 					},
 					{
 						"index": 3,
-						"text": "III 24",
+						"text": "III",
 						"isCorrect": false
 					},
 					{
@@ -8389,7 +8443,7 @@
 					},
 					{
 						"index": 4,
-						"text": "IV 25",
+						"text": "IV",
 						"isCorrect": false
 					},
 					{
@@ -8746,7 +8800,7 @@
 					},
 					{
 						"index": 5,
-						"text": "V 26",
+						"text": "V",
 						"isCorrect": false
 					}
 				]
@@ -10518,7 +10572,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "I 31",
+						"text": "I",
 						"isCorrect": false
 					},
 					{
@@ -10875,7 +10929,7 @@
 					},
 					{
 						"index": 2,
-						"text": "II 32",
+						"text": "II",
 						"isCorrect": true
 					},
 					{
@@ -11232,7 +11286,7 @@
 					},
 					{
 						"index": 3,
-						"text": "IV 33",
+						"text": "IV",
 						"isCorrect": false
 					},
 					{
@@ -11589,7 +11643,7 @@
 					},
 					{
 						"index": 4,
-						"text": "IV 34",
+						"text": "IV",
 						"isCorrect": false
 					},
 					{
@@ -11914,7 +11968,7 @@
 					},
 					{
 						"index": 5,
-						"text": "V 35",
+						"text": "V",
 						"isCorrect": false
 					}
 				]
@@ -15909,7 +15963,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "m- 47",
+						"text": "m-",
 						"isCorrect": true
 					},
 					{
@@ -16180,6 +16234,28 @@
 						"index": 2,
 						"text": "f-",
 						"isCorrect": true
+					},
+					{
+						"index": 3,
+						"text": "n-",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 573,
+				"text": "Определите род существительного cortex, icis",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "m-",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "f-",
+						"isCorrect": false
 					},
 					{
 						"index": 3,
@@ -17151,7 +17227,7 @@
 					},
 					{
 						"index": 3,
-						"text": "n- 51",
+						"text": "n-",
 						"isCorrect": true
 					}
 				]
@@ -17476,7 +17552,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "musculus teres major 52",
+						"text": "musculus teres major",
 						"isCorrect": true
 					},
 					{
@@ -18085,7 +18161,7 @@
 					},
 					{
 						"index": 4,
-						"text": "ductnum communium hepaticorum 54",
+						"text": "ductnum communium hepaticorum",
 						"isCorrect": false
 					}
 				]
@@ -18394,7 +18470,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "regionum lateralium colli 55",
+						"text": "regionum lateralium colli",
 						"isCorrect": false
 					},
 					{
@@ -19084,7 +19160,7 @@
 					},
 					{
 						"index": 4,
-						"text": "laminarum lateralium et medialium 57",
+						"text": "laminarum lateralium et medialium",
 						"isCorrect": false
 					}
 				]
@@ -19398,7 +19474,7 @@
 					},
 					{
 						"index": 2,
-						"text": "temporalis 58",
+						"text": "temporalis",
 						"isCorrect": true
 					},
 					{
@@ -19733,6 +19809,33 @@
 					{
 						"index": 4,
 						"text": "petrosum",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 721,
+				"text": "Согласуйте прилагательное с существительным cavum",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "propria",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "proprius",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "proprium",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "propriae",
 						"isCorrect": false
 					}
 				]
@@ -20402,7 +20505,7 @@
 					},
 					{
 						"index": 3,
-						"text": "occipitalium 61",
+						"text": "occipitalium",
 						"isCorrect": false
 					},
 					{
@@ -20743,7 +20846,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "auricularium 62",
+						"text": "auricularium",
 						"isCorrect": false
 					},
 					{
@@ -21325,7 +21428,7 @@
 					},
 					{
 						"index": 3,
-						"text": "calcaneum 64",
+						"text": "calcaneum",
 						"isCorrect": true
 					},
 					{
@@ -21666,7 +21769,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "linguale 65",
+						"text": "linguale",
 						"isCorrect": false
 					},
 					{
@@ -21951,7 +22054,7 @@
 					},
 					{
 						"index": 4,
-						"text": "interosseu 66",
+						"text": "interosseu",
 						"isCorrect": true
 					}
 				]
@@ -22287,7 +22390,7 @@
 				"options": [
 					{
 						"index": 1,
-						"text": "nodus petrosus 67",
+						"text": "nodus petrosus",
 						"isCorrect": false
 					},
 					{
@@ -22977,7 +23080,7 @@
 					},
 					{
 						"index": 4,
-						"text": "ramus dexter venae portae 69",
+						"text": "ramus dexter venae portae",
 						"isCorrect": true
 					}
 				]
@@ -23669,7 +23772,7 @@
 					},
 					{
 						"index": 2,
-						"text": "plica transversa recti 71",
+						"text": "plica transversa recti",
 						"isCorrect": false
 					},
 					{
@@ -24009,7 +24112,7 @@
 				]
 			},
 			{
-				"index": 886,
+				"index": 887,
 				"text": "перекрест сухожилий",
 				"type": "single",
 				"options": [
@@ -24036,7 +24139,7 @@
 				]
 			},
 			{
-				"index": 887,
+				"index": 888,
 				"text": "резцовое отверстие небного отростка",
 				"type": "single",
 				"options": [
@@ -24063,7 +24166,7 @@
 				]
 			},
 			{
-				"index": 888,
+				"index": 889,
 				"text": "перепончатой стенки",
 				"type": "single",
 				"options": [
@@ -24090,7 +24193,7 @@
 				]
 			},
 			{
-				"index": 889,
+				"index": 890,
 				"text": "сфинктер мочевого пузыря",
 				"type": "single",
 				"options": [
@@ -24117,7 +24220,7 @@
 				]
 			},
 			{
-				"index": 890,
+				"index": 891,
 				"text": "заднее ядро трапециевидного тела",
 				"type": "single",
 				"options": [
@@ -24144,7 +24247,7 @@
 				]
 			},
 			{
-				"index": 891,
+				"index": 892,
 				"text": "удерживатели кожи",
 				"type": "single",
 				"options": [
@@ -24171,7 +24274,7 @@
 				]
 			},
 			{
-				"index": 892,
+				"index": 893,
 				"text": "задняя продольная связка",
 				"type": "single",
 				"options": [
@@ -24198,7 +24301,7 @@
 				]
 			},
 			{
-				"index": 893,
+				"index": 894,
 				"text": "малая скуловая мышца",
 				"type": "single",
 				"options": [
@@ -24225,7 +24328,7 @@
 				]
 			},
 			{
-				"index": 894,
+				"index": 895,
 				"text": "межкостный нерв голени",
 				"type": "single",
 				"options": [
@@ -24252,7 +24355,7 @@
 				]
 			},
 			{
-				"index": 895,
+				"index": 896,
 				"text": "слизистая часть губы рта",
 				"type": "single",
 				"options": [
@@ -24279,7 +24382,7 @@
 				]
 			},
 			{
-				"index": 896,
+				"index": 897,
 				"text": "синхондрозы черепа",
 				"type": "single",
 				"options": [
@@ -24306,7 +24409,7 @@
 				]
 			},
 			{
-				"index": 897,
+				"index": 898,
 				"text": "небные борозды",
 				"type": "single",
 				"options": [
@@ -24333,7 +24436,7 @@
 				]
 			},
 			{
-				"index": 898,
+				"index": 899,
 				"text": "перепончатая стенка трахеи",
 				"type": "single",
 				"options": [
@@ -24360,7 +24463,7 @@
 				]
 			},
 			{
-				"index": 899,
+				"index": 900,
 				"text": "суставная поверхность акромиона",
 				"type": "single",
 				"options": [
@@ -24387,7 +24490,7 @@
 				]
 			},
 			{
-				"index": 900,
+				"index": 901,
 				"text": "верхнечелюстной отросток ни жней носовой раковины",
 				"type": "single",
 				"options": [
@@ -24414,7 +24517,7 @@
 				]
 			},
 			{
-				"index": 901,
+				"index": 902,
 				"text": "костные ампулы",
 				"type": "single",
 				"options": [
@@ -24441,7 +24544,7 @@
 				]
 			},
 			{
-				"index": 902,
+				"index": 903,
 				"text": "углубление барабанной перепонки",
 				"type": "single",
 				"options": [
@@ -24468,7 +24571,7 @@
 				]
 			},
 			{
-				"index": 903,
+				"index": 904,
 				"text": "щель век",
 				"type": "single",
 				"options": [
@@ -24495,7 +24598,7 @@
 				]
 			},
 			{
-				"index": 904,
+				"index": 905,
 				"text": "разрезы спинного мозга",
 				"type": "single",
 				"options": [
@@ -24522,7 +24625,7 @@
 				]
 			},
 			{
-				"index": 905,
+				"index": 906,
 				"text": "глазничные части лобной кости",
 				"type": "single",
 				"options": [
@@ -24549,7 +24652,7 @@
 				]
 			},
 			{
-				"index": 906,
+				"index": 907,
 				"text": "верхний ствол плечевого сплетения",
 				"type": "single",
 				"options": [
@@ -24576,7 +24679,7 @@
 				]
 			},
 			{
-				"index": 907,
+				"index": 908,
 				"text": "межфаланговые суставы стопы",
 				"type": "single",
 				"options": [
@@ -24603,7 +24706,7 @@
 				]
 			},
 			{
-				"index": 908,
+				"index": 909,
 				"text": "затылочных отверстий",
 				"type": "single",
 				"options": [
@@ -24630,7 +24733,7 @@
 				]
 			},
 			{
-				"index": 909,
+				"index": 910,
 				"text": "крыша барабанной полости",
 				"type": "single",
 				"options": [
@@ -24657,30 +24760,8 @@
 				]
 			},
 			{
-				"index": 910,
-				"text": "Образуйте сравнительную степень, horizontalis",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ior",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "ius",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "нет 74",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 911,
-				"text": "Образуйте сравнительную степень superficiale",
+				"text": "Образуйте сравнительную степень, horizontalis",
 				"type": "single",
 				"options": [
 					{
@@ -24702,7 +24783,7 @@
 			},
 			{
 				"index": 912,
-				"text": "Образуйте сравнительную степень ventralis",
+				"text": "Образуйте сравнительную степень superficiale",
 				"type": "single",
 				"options": [
 					{
@@ -24724,7 +24805,7 @@
 			},
 			{
 				"index": 913,
-				"text": "Образуйте сравнительную степень medianus",
+				"text": "Образуйте сравнительную степень ventralis",
 				"type": "single",
 				"options": [
 					{
@@ -24746,6 +24827,28 @@
 			},
 			{
 				"index": 914,
+				"text": "Образуйте сравнительную степень medianus",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ior",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ius",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нет",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 915,
 				"text": "Образуйте сравнительную степень lateralis",
 				"type": "single",
 				"options": [
@@ -24767,7 +24870,7 @@
 				]
 			},
 			{
-				"index": 915,
+				"index": 916,
 				"text": "Образуйте сравнительную степень molle",
 				"type": "single",
 				"options": [
@@ -24789,7 +24892,7 @@
 				]
 			},
 			{
-				"index": 916,
+				"index": 917,
 				"text": "Образуйте сравнительную степень massetericus",
 				"type": "single",
 				"options": [
@@ -24811,7 +24914,7 @@
 				]
 			},
 			{
-				"index": 917,
+				"index": 918,
 				"text": "Образуйте сравнительную степень ruber",
 				"type": "single",
 				"options": [
@@ -24833,7 +24936,7 @@
 				]
 			},
 			{
-				"index": 918,
+				"index": 919,
 				"text": "Образуйте сравнительную степень nigrum",
 				"type": "single",
 				"options": [
@@ -24855,7 +24958,7 @@
 				]
 			},
 			{
-				"index": 919,
+				"index": 920,
 				"text": "Образуйте сравнительную степень sacer",
 				"type": "single",
 				"options": [
@@ -24877,7 +24980,7 @@
 				]
 			},
 			{
-				"index": 920,
+				"index": 921,
 				"text": "Образуйте сравнительную степень nasalis",
 				"type": "single",
 				"options": [
@@ -24899,7 +25002,7 @@
 				]
 			},
 			{
-				"index": 921,
+				"index": 922,
 				"text": "Образуйте сравнительную степень mucosus",
 				"type": "single",
 				"options": [
@@ -24921,7 +25024,7 @@
 				]
 			},
 			{
-				"index": 922,
+				"index": 923,
 				"text": "Образуйте сравнительную степень fibrosus",
 				"type": "single",
 				"options": [
@@ -24943,7 +25046,7 @@
 				]
 			},
 			{
-				"index": 923,
+				"index": 924,
 				"text": "Образуйте сравнительную степень frontalis",
 				"type": "single",
 				"options": [
@@ -24965,7 +25068,7 @@
 				]
 			},
 			{
-				"index": 924,
+				"index": 925,
 				"text": "Образуйте сравнительную степень pelvina",
 				"type": "single",
 				"options": [
@@ -24987,30 +25090,8 @@
 				]
 			},
 			{
-				"index": 925,
-				"text": "Образуйте сравнительную степень transversus",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ior",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "ius 75",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "нет",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 926,
-				"text": "Образуйте сравнительную степень obliquus",
+				"text": "Образуйте сравнительную степень transversus",
 				"type": "single",
 				"options": [
 					{
@@ -25032,7 +25113,7 @@
 			},
 			{
 				"index": 927,
-				"text": "Образуйте сравнительную степень rectus",
+				"text": "Образуйте сравнительную степень obliquus",
 				"type": "single",
 				"options": [
 					{
@@ -25054,7 +25135,7 @@
 			},
 			{
 				"index": 928,
-				"text": "Образуйте сравнительную степень alaris",
+				"text": "Образуйте сравнительную степень rectus",
 				"type": "single",
 				"options": [
 					{
@@ -25076,7 +25157,7 @@
 			},
 			{
 				"index": 929,
-				"text": "Образуйте сравнительную степень cervicalis",
+				"text": "Образуйте сравнительную степень alaris",
 				"type": "single",
 				"options": [
 					{
@@ -25098,6 +25179,28 @@
 			},
 			{
 				"index": 930,
+				"text": "Образуйте сравнительную степень cervicalis",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ior",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ius",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нет",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 931,
 				"text": "Образуйте сравнительную степень brevis",
 				"type": "single",
 				"options": [
@@ -25119,7 +25222,7 @@
 				]
 			},
 			{
-				"index": 931,
+				"index": 932,
 				"text": "Образуйте сравнительную степень rectificatus",
 				"type": "single",
 				"options": [
@@ -25141,7 +25244,7 @@
 				]
 			},
 			{
-				"index": 932,
+				"index": 933,
 				"text": "Образуйте сравнительную степень destillatus",
 				"type": "single",
 				"options": [
@@ -25163,7 +25266,7 @@
 				]
 			},
 			{
-				"index": 933,
+				"index": 934,
 				"text": "Образуйте сравнительную степень oleosus",
 				"type": "single",
 				"options": [
@@ -25185,7 +25288,7 @@
 				]
 			},
 			{
-				"index": 934,
+				"index": 935,
 				"text": "Образуйте сравнительную степень concentratus",
 				"type": "single",
 				"options": [
@@ -25207,7 +25310,7 @@
 				]
 			},
 			{
-				"index": 935,
+				"index": 936,
 				"text": "Образуйте сравнительную степень depuratus",
 				"type": "single",
 				"options": [
@@ -25229,7 +25332,7 @@
 				]
 			},
 			{
-				"index": 936,
+				"index": 937,
 				"text": "Образуйте сравнительную степень dilutus",
 				"type": "single",
 				"options": [
@@ -25251,7 +25354,7 @@
 				]
 			},
 			{
-				"index": 937,
+				"index": 938,
 				"text": "Образуйте сравнительную степень solubilis",
 				"type": "single",
 				"options": [
@@ -25273,7 +25376,7 @@
 				]
 			},
 			{
-				"index": 938,
+				"index": 939,
 				"text": "Образуйте сравнительную степень serotinus",
 				"type": "single",
 				"options": [
@@ -25295,7 +25398,7 @@
 				]
 			},
 			{
-				"index": 939,
+				"index": 940,
 				"text": "Образуйте сравнительную степень tenue",
 				"type": "single",
 				"options": [
@@ -25317,30 +25420,8 @@
 				]
 			},
 			{
-				"index": 940,
-				"text": "Образуйте сравнительную степень profundum",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "ior 76",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "ius",
-						"isCorrect": false
-					},
-					{
-						"index": 3,
-						"text": "нет",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 941,
-				"text": "Образуйте сравнительную степень squamosus",
+				"text": "Образуйте сравнительную степень profundum",
 				"type": "single",
 				"options": [
 					{
@@ -25362,7 +25443,7 @@
 			},
 			{
 				"index": 942,
-				"text": "Образуйте сравнительную степень mobilis",
+				"text": "Образуйте сравнительную степень squamosus",
 				"type": "single",
 				"options": [
 					{
@@ -25384,7 +25465,7 @@
 			},
 			{
 				"index": 943,
-				"text": "Образуйте сравнительную степень ovale",
+				"text": "Образуйте сравнительную степень mobilis",
 				"type": "single",
 				"options": [
 					{
@@ -25406,7 +25487,7 @@
 			},
 			{
 				"index": 944,
-				"text": "Образуйте сравнительную степень auricularis",
+				"text": "Образуйте сравнительную степень ovale",
 				"type": "single",
 				"options": [
 					{
@@ -25428,6 +25509,28 @@
 			},
 			{
 				"index": 945,
+				"text": "Образуйте сравнительную степень auricularis",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ior",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "ius",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нет",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 946,
 				"text": "Образуйте сравнительную степень latus",
 				"type": "single",
 				"options": [
@@ -25449,7 +25552,7 @@
 				]
 			},
 			{
-				"index": 946,
+				"index": 947,
 				"text": "Образуйте сравнительную степень longus",
 				"type": "single",
 				"options": [
@@ -25471,7 +25574,7 @@
 				]
 			},
 			{
-				"index": 947,
+				"index": 948,
 				"text": "Образуйте сравнительную степень profundus-",
 				"type": "single",
 				"options": [
@@ -25493,7 +25596,7 @@
 				]
 			},
 			{
-				"index": 948,
+				"index": 949,
 				"text": "Образуйте сравнительную степень breve -",
 				"type": "single",
 				"options": [
@@ -25515,7 +25618,7 @@
 				]
 			},
 			{
-				"index": 949,
+				"index": 950,
 				"text": "Образуйте сравнительную степень ruber -",
 				"type": "single",
 				"options": [
@@ -25537,7 +25640,7 @@
 				]
 			},
 			{
-				"index": 950,
+				"index": 951,
 				"text": "Образуйте сравнительную степень latum -",
 				"type": "single",
 				"options": [
@@ -25559,7 +25662,7 @@
 				]
 			},
 			{
-				"index": 951,
+				"index": 952,
 				"text": "Образуйте сравнительную степень longum -",
 				"type": "single",
 				"options": [
@@ -25581,7 +25684,7 @@
 				]
 			},
 			{
-				"index": 952,
+				"index": 953,
 				"text": "Образуйте сравнительную степень nigra -",
 				"type": "single",
 				"options": [
@@ -25603,7 +25706,7 @@
 				]
 			},
 			{
-				"index": 953,
+				"index": 954,
 				"text": "Образуйте сравнительную степень album -",
 				"type": "single",
 				"options": [
@@ -25625,7 +25728,7 @@
 				]
 			},
 			{
-				"index": 954,
+				"index": 955,
 				"text": "Образуйте сравнительную степень durum -",
 				"type": "single",
 				"options": [
@@ -25648,6 +25751,28 @@
 			},
 			{
 				"index": 956,
+				"text": "Образуйте сравнительную степень mollis -",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "ior",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "ius",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "нет",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"index": 957,
 				"text": "Образуйте сравнительную степень transversus -",
 				"type": "single",
 				"options": [
@@ -25669,7 +25794,7 @@
 				]
 			},
 			{
-				"index": 957,
+				"index": 958,
 				"text": "Образуйте сравнительную степень dura -",
 				"type": "single",
 				"options": [
@@ -25691,7 +25816,7 @@
 				]
 			},
 			{
-				"index": 958,
+				"index": 959,
 				"text": "Образуйте сравнительную степень ethmoidalis -",
 				"type": "single",
 				"options": [
@@ -25713,7 +25838,7 @@
 				]
 			},
 			{
-				"index": 959,
+				"index": 960,
 				"text": "Образуйте сравнительную степень simplex -",
 				"type": "single",
 				"options": [
@@ -25735,7 +25860,7 @@
 				]
 			},
 			{
-				"index": 960,
+				"index": 961,
 				"text": "Образуйте сравнительную степень longus -",
 				"type": "single",
 				"options": [
@@ -25757,7 +25882,7 @@
 				]
 			},
 			{
-				"index": 961,
+				"index": 962,
 				"text": "Образуйте сравнительную степень sinister -",
 				"type": "single",
 				"options": [
@@ -25779,7 +25904,7 @@
 				]
 			},
 			{
-				"index": 962,
+				"index": 963,
 				"text": "Образуйте сравнительную степень liber -",
 				"type": "single",
 				"options": [
@@ -25801,7 +25926,7 @@
 				]
 			},
 			{
-				"index": 963,
+				"index": 964,
 				"text": "Образуйте сравнительную степень sanguineus -",
 				"type": "single",
 				"options": [
@@ -25823,7 +25948,7 @@
 				]
 			},
 			{
-				"index": 964,
+				"index": 965,
 				"text": "Образуйте сравнительную степень rubera -",
 				"type": "single",
 				"options": [
@@ -25845,7 +25970,7 @@
 				]
 			},
 			{
-				"index": 965,
+				"index": 966,
 				"text": "Образуйте сравнительную степень membranaceus -",
 				"type": "single",
 				"options": [
@@ -25867,7 +25992,7 @@
 				]
 			},
 			{
-				"index": 966,
+				"index": 967,
 				"text": "Образуйте сравнительную степень oblongatus -",
 				"type": "single",
 				"options": [
@@ -25889,7 +26014,7 @@
 				]
 			},
 			{
-				"index": 967,
+				"index": 968,
 				"text": "Образуйте сравнительную степень breve -",
 				"type": "single",
 				"options": [
@@ -25911,7 +26036,7 @@
 				]
 			},
 			{
-				"index": 968,
+				"index": 969,
 				"text": "Образуйте сравнительную степень ciliaris -",
 				"type": "single",
 				"options": [
@@ -25933,7 +26058,7 @@
 				]
 			},
 			{
-				"index": 969,
+				"index": 970,
 				"text": "Образуйте сравнительную степень biceps -",
 				"type": "single",
 				"options": [
@@ -25955,7 +26080,7 @@
 				]
 			},
 			{
-				"index": 970,
+				"index": 971,
 				"text": "Образуйте сравнительную степень triceps -",
 				"type": "single",
 				"options": [
@@ -25977,7 +26102,7 @@
 				]
 			},
 			{
-				"index": 971,
+				"index": 972,
 				"text": "Образуйте сравнительную степень serotinus -",
 				"type": "single",
 				"options": [
@@ -25999,7 +26124,7 @@
 				]
 			},
 			{
-				"index": 972,
+				"index": 973,
 				"text": "Образуйте сравнительную степень tenuis -",
 				"type": "single",
 				"options": [
@@ -26021,7 +26146,7 @@
 				]
 			},
 			{
-				"index": 973,
+				"index": 974,
 				"text": "Определите группу прилагательного dexter",
 				"type": "single",
 				"options": [
@@ -26038,7 +26163,7 @@
 				]
 			},
 			{
-				"index": 974,
+				"index": 975,
 				"text": "Определите группу прилагательного lingualis",
 				"type": "single",
 				"options": [
@@ -26055,7 +26180,7 @@
 				]
 			},
 			{
-				"index": 975,
+				"index": 976,
 				"text": "Определите группу прилагательного obliquum",
 				"type": "single",
 				"options": [
@@ -26072,7 +26197,7 @@
 				]
 			},
 			{
-				"index": 976,
+				"index": 977,
 				"text": "Определите группу прилагательного simplex",
 				"type": "single",
 				"options": [
@@ -26089,7 +26214,7 @@
 				]
 			},
 			{
-				"index": 977,
+				"index": 978,
 				"text": "Определите группу прилагательного ossea",
 				"type": "single",
 				"options": [
@@ -26106,7 +26231,7 @@
 				]
 			},
 			{
-				"index": 978,
+				"index": 979,
 				"text": "Определите группу прилагательного distalis",
 				"type": "single",
 				"options": [
@@ -26123,7 +26248,7 @@
 				]
 			},
 			{
-				"index": 979,
+				"index": 980,
 				"text": "Определите группу прилагательного profunda",
 				"type": "single",
 				"options": [
@@ -26140,7 +26265,7 @@
 				]
 			},
 			{
-				"index": 980,
+				"index": 981,
 				"text": "Определите группу прилагательного medianus",
 				"type": "single",
 				"options": [
@@ -26157,7 +26282,7 @@
 				]
 			},
 			{
-				"index": 981,
+				"index": 982,
 				"text": "Определите группу прилагательного sinister",
 				"type": "single",
 				"options": [
@@ -26174,7 +26299,7 @@
 				]
 			},
 			{
-				"index": 982,
+				"index": 983,
 				"text": "Определите группу прилагательного externum",
 				"type": "single",
 				"options": [
@@ -26191,7 +26316,7 @@
 				]
 			},
 			{
-				"index": 983,
+				"index": 984,
 				"text": "Определите группу прилагательного pterygoideum",
 				"type": "single",
 				"options": [
@@ -26208,7 +26333,7 @@
 				]
 			},
 			{
-				"index": 984,
+				"index": 985,
 				"text": "Определите группу прилагательного rectus",
 				"type": "single",
 				"options": [
@@ -26225,7 +26350,7 @@
 				]
 			},
 			{
-				"index": 985,
+				"index": 986,
 				"text": "Определите группу прилагательного thoracicus",
 				"type": "single",
 				"options": [
@@ -26242,7 +26367,7 @@
 				]
 			},
 			{
-				"index": 986,
+				"index": 987,
 				"text": "Определите группу прилагательного transversa",
 				"type": "single",
 				"options": [
@@ -26259,7 +26384,7 @@
 				]
 			},
 			{
-				"index": 987,
+				"index": 988,
 				"text": "Определите группу прилагательного ethmoidalia",
 				"type": "single",
 				"options": [
@@ -26276,7 +26401,7 @@
 				]
 			},
 			{
-				"index": 988,
+				"index": 989,
 				"text": "Определите группу прилагательногоzygomatici",
 				"type": "single",
 				"options": [
@@ -26293,7 +26418,7 @@
 				]
 			},
 			{
-				"index": 989,
+				"index": 990,
 				"text": "Определите группу прилагательныого sacer",
 				"type": "single",
 				"options": [
@@ -26310,7 +26435,7 @@
 				]
 			},
 			{
-				"index": 990,
+				"index": 991,
 				"text": "Определите группу прилагательного coronariae",
 				"type": "single",
 				"options": [
@@ -26327,7 +26452,7 @@
 				]
 			},
 			{
-				"index": 991,
+				"index": 992,
 				"text": "Определите группу прилагательного liber",
 				"type": "single",
 				"options": [
@@ -26344,25 +26469,8 @@
 				]
 			},
 			{
-				"index": 992,
-				"text": "Определите группу прилагательного cerebrale",
-				"type": "single",
-				"options": [
-					{
-						"index": 1,
-						"text": "I",
-						"isCorrect": false
-					},
-					{
-						"index": 2,
-						"text": "II",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 993,
-				"text": "Определите группу прилагательного frontalia",
+				"text": "Определите группу прилагательного cerebrale",
 				"type": "single",
 				"options": [
 					{
@@ -26379,7 +26487,7 @@
 			},
 			{
 				"index": 994,
-				"text": "Определите группу прилагательного maxillare",
+				"text": "Определите группу прилагательного frontalia",
 				"type": "single",
 				"options": [
 					{
@@ -26396,7 +26504,7 @@
 			},
 			{
 				"index": 995,
-				"text": "Определите группу прилагательного occipitales",
+				"text": "Определите группу прилагательного maxillare",
 				"type": "single",
 				"options": [
 					{
@@ -26413,6 +26521,23 @@
 			},
 			{
 				"index": 996,
+				"text": "Определите группу прилагательного occipitales",
+				"type": "single",
+				"options": [
+					{
+						"index": 1,
+						"text": "I",
+						"isCorrect": false
+					},
+					{
+						"index": 2,
+						"text": "II",
+						"isCorrect": true
+					}
+				]
+			},
+			{
+				"index": 997,
 				"text": "Определите группу прилагательного cutaneus",
 				"type": "single",
 				"options": [
@@ -26429,7 +26554,7 @@
 				]
 			},
 			{
-				"index": 997,
+				"index": 998,
 				"text": "Определите группу прилагательного laryngeus",
 				"type": "single",
 				"options": [
@@ -26446,7 +26571,7 @@
 				]
 			},
 			{
-				"index": 998,
+				"index": 999,
 				"text": "Определите группу прилагательного temporale",
 				"type": "single",
 				"options": [
@@ -26463,7 +26588,7 @@
 				]
 			},
 			{
-				"index": 999,
+				"index": 1000,
 				"text": "Определите группу прилагательного asper",
 				"type": "single",
 				"options": [
@@ -26480,7 +26605,7 @@
 				]
 			},
 			{
-				"index": 1000,
+				"index": 1001,
 				"text": "Определите группу прилагательного sphenoidale",
 				"type": "single",
 				"options": [
@@ -26497,7 +26622,7 @@
 				]
 			},
 			{
-				"index": 1001,
+				"index": 1002,
 				"text": "Определите группу прилагательного buccalis",
 				"type": "single",
 				"options": [
@@ -26514,7 +26639,7 @@
 				]
 			},
 			{
-				"index": 1002,
+				"index": 1003,
 				"text": "Определите группу прилагательного facialia",
 				"type": "single",
 				"options": [
@@ -26531,7 +26656,7 @@
 				]
 			},
 			{
-				"index": 1003,
+				"index": 1004,
 				"text": "Определите группу прилагательного ischiadicus",
 				"type": "single",
 				"options": [
@@ -26548,7 +26673,7 @@
 				]
 			},
 			{
-				"index": 1004,
+				"index": 1005,
 				"text": "Определите группу прилагательного squamosa",
 				"type": "single",
 				"options": [
@@ -26565,7 +26690,7 @@
 				]
 			},
 			{
-				"index": 1005,
+				"index": 1006,
 				"text": "Определите группу прилагательного parietalis",
 				"type": "single",
 				"options": [
@@ -26582,7 +26707,7 @@
 				]
 			},
 			{
-				"index": 1006,
+				"index": 1007,
 				"text": "Определите группу прилагательного linguale",
 				"type": "single",
 				"options": [
@@ -26599,7 +26724,7 @@
 				]
 			},
 			{
-				"index": 1007,
+				"index": 1008,
 				"text": "Определите группу прилагательного mastoidea",
 				"type": "single",
 				"options": [
@@ -26616,7 +26741,7 @@
 				]
 			},
 			{
-				"index": 1008,
+				"index": 1009,
 				"text": "Определите группу прилагательного caninus",
 				"type": "single",
 				"options": [
@@ -26633,7 +26758,7 @@
 				]
 			},
 			{
-				"index": 1009,
+				"index": 1010,
 				"text": "Определите группу прилагательного serotina",
 				"type": "single",
 				"options": [
@@ -26650,7 +26775,7 @@
 				]
 			},
 			{
-				"index": 1010,
+				"index": 1011,
 				"text": "Определите группу прилагательного teres",
 				"type": "single",
 				"options": [
@@ -26667,7 +26792,7 @@
 				]
 			},
 			{
-				"index": 1011,
+				"index": 1012,
 				"text": "Определите группу прилагательного tenuis",
 				"type": "single",
 				"options": [
@@ -26684,7 +26809,7 @@
 				]
 			},
 			{
-				"index": 1012,
+				"index": 1013,
 				"text": "Определите группу прилагательного biceps",
 				"type": "single",
 				"options": [
@@ -26701,7 +26826,7 @@
 				]
 			},
 			{
-				"index": 1013,
+				"index": 1014,
 				"text": "Определите группу прилагательного incisivi",
 				"type": "single",
 				"options": [
@@ -26718,7 +26843,7 @@
 				]
 			},
 			{
-				"index": 1014,
+				"index": 1015,
 				"text": "Определите группу прилагательного cavernosus",
 				"type": "single",
 				"options": [
@@ -26735,7 +26860,7 @@
 				]
 			},
 			{
-				"index": 1015,
+				"index": 1016,
 				"text": "Определите группу прилагательного gastrica",
 				"type": "single",
 				"options": [
@@ -26752,7 +26877,7 @@
 				]
 			},
 			{
-				"index": 1016,
+				"index": 1017,
 				"text": "Определите группу прилагательного hepaticum",
 				"type": "single",
 				"options": [
@@ -26769,7 +26894,7 @@
 				]
 			},
 			{
-				"index": 1017,
+				"index": 1018,
 				"text": "Определите группу прилагательного fibrosae",
 				"type": "single",
 				"options": [
@@ -26786,7 +26911,7 @@
 				]
 			},
 			{
-				"index": 1018,
+				"index": 1019,
 				"text": "Определите группу прилагательного superficialis",
 				"type": "single",
 				"options": [
@@ -26803,7 +26928,7 @@
 				]
 			},
 			{
-				"index": 1019,
+				"index": 1020,
 				"text": "Определите группу прилагательного labiale",
 				"type": "single",
 				"options": [
@@ -26820,7 +26945,7 @@
 				]
 			},
 			{
-				"index": 1020,
+				"index": 1021,
 				"text": "Определите группу прилагательного breves",
 				"type": "single",
 				"options": [
@@ -26837,7 +26962,7 @@
 				]
 			},
 			{
-				"index": 1021,
+				"index": 1022,
 				"text": "Определите группу прилагательного flavus",
 				"type": "single",
 				"options": [
@@ -26854,7 +26979,7 @@
 				]
 			},
 			{
-				"index": 1022,
+				"index": 1023,
 				"text": "Определите группу прилагательного lymphatica",
 				"type": "single",
 				"options": [
@@ -26871,7 +26996,7 @@
 				]
 			},
 			{
-				"index": 1023,
+				"index": 1024,
 				"text": "Определите группу прилагательного communis",
 				"type": "single",
 				"options": [
@@ -26888,7 +27013,7 @@
 				]
 			},
 			{
-				"index": 1024,
+				"index": 1025,
 				"text": "Определите группу прилагательного lumbalia",
 				"type": "single",
 				"options": [
@@ -26905,7 +27030,7 @@
 				]
 			},
 			{
-				"index": 1025,
+				"index": 1026,
 				"text": "Определите группу прилагательного accessorius",
 				"type": "single",
 				"options": [
@@ -26922,7 +27047,7 @@
 				]
 			},
 			{
-				"index": 1026,
+				"index": 1027,
 				"text": "Определите группу прилагательного proprium",
 				"type": "single",
 				"options": [
@@ -26939,7 +27064,7 @@
 				]
 			},
 			{
-				"index": 1027,
+				"index": 1028,
 				"text": "Определите группу прилагательного pectorales",
 				"type": "single",
 				"options": [
@@ -26956,7 +27081,7 @@
 				]
 			},
 			{
-				"index": 1028,
+				"index": 1029,
 				"text": "Определите группу прилагательного arteriosa",
 				"type": "single",
 				"options": [
@@ -26973,7 +27098,7 @@
 				]
 			},
 			{
-				"index": 1029,
+				"index": 1030,
 				"text": "Определите группу прилагательногоanalis",
 				"type": "single",
 				"options": [
@@ -26990,7 +27115,7 @@
 				]
 			},
 			{
-				"index": 1030,
+				"index": 1031,
 				"text": "Определите группу прилагательного liber",
 				"type": "single",
 				"options": [
@@ -27007,7 +27132,7 @@
 				]
 			},
 			{
-				"index": 1031,
+				"index": 1032,
 				"text": "Определите группу прилагательного sanguineus",
 				"type": "single",
 				"options": [
@@ -27024,7 +27149,7 @@
 				]
 			},
 			{
-				"index": 1032,
+				"index": 1033,
 				"text": "Определите группу прилагательного urinarii",
 				"type": "single",
 				"options": [
@@ -27041,7 +27166,7 @@
 				]
 			},
 			{
-				"index": 1033,
+				"index": 1034,
 				"text": "Определите группу прилагательного cerebrale",
 				"type": "single",
 				"options": [
@@ -27058,7 +27183,7 @@
 				]
 			},
 			{
-				"index": 1034,
+				"index": 1035,
 				"text": "Определите группу прилагательного pylorica",
 				"type": "single",
 				"options": [
@@ -27075,7 +27200,7 @@
 				]
 			},
 			{
-				"index": 1035,
+				"index": 1036,
 				"text": "Определите группу прилагательного opticum",
 				"type": "single",
 				"options": [
@@ -27092,7 +27217,7 @@
 				]
 			},
 			{
-				"index": 1036,
+				"index": 1037,
 				"text": "Определите группу прилагательного niger",
 				"type": "single",
 				"options": [
@@ -27109,7 +27234,7 @@
 				]
 			},
 			{
-				"index": 1037,
+				"index": 1038,
 				"text": "Определите группу прилагательного paranasales",
 				"type": "single",
 				"options": [
@@ -27126,7 +27251,7 @@
 				]
 			},
 			{
-				"index": 1038,
+				"index": 1039,
 				"text": "Определите группу прилагательного biliaris",
 				"type": "single",
 				"options": [
@@ -27143,7 +27268,7 @@
 				]
 			},
 			{
-				"index": 1039,
+				"index": 1040,
 				"text": "Определите группу прилагательного cardiaca",
 				"type": "single",
 				"options": [
@@ -27160,7 +27285,7 @@
 				]
 			},
 			{
-				"index": 1040,
+				"index": 1041,
 				"text": "Определите группу прилагательного lumbales",
 				"type": "single",
 				"options": [
@@ -27177,7 +27302,7 @@
 				]
 			},
 			{
-				"index": 1041,
+				"index": 1042,
 				"text": "Определите группу прилагательного ulnare",
 				"type": "single",
 				"options": [
@@ -27194,7 +27319,7 @@
 				]
 			},
 			{
-				"index": 1042,
+				"index": 1043,
 				"text": "Определите группу прилагательного costalis",
 				"type": "single",
 				"options": [
@@ -27211,7 +27336,7 @@
 				]
 			},
 			{
-				"index": 1043,
+				"index": 1044,
 				"text": "Определите группу прилагательного nutricus",
 				"type": "single",
 				"options": [
@@ -27228,7 +27353,7 @@
 				]
 			},
 			{
-				"index": 1044,
+				"index": 1045,
 				"text": "Определите группу прилагательного radialis",
 				"type": "single",
 				"options": [
@@ -27245,7 +27370,7 @@
 				]
 			},
 			{
-				"index": 1045,
+				"index": 1046,
 				"text": "Определите группу прилагательного canini",
 				"type": "single",
 				"options": [
@@ -27262,7 +27387,7 @@
 				]
 			},
 			{
-				"index": 1046,
+				"index": 1047,
 				"text": "Определите группу прилагательного auriculares",
 				"type": "single",
 				"options": [
@@ -27279,7 +27404,7 @@
 				]
 			},
 			{
-				"index": 1047,
+				"index": 1048,
 				"text": "Определите группу прилагательного lacrimalia",
 				"type": "single",
 				"options": [
@@ -27296,7 +27421,7 @@
 				]
 			},
 			{
-				"index": 1048,
+				"index": 1049,
 				"text": "Определите группу прилагательного muscularis",
 				"type": "single",
 				"options": [
@@ -27313,7 +27438,7 @@
 				]
 			},
 			{
-				"index": 1049,
+				"index": 1050,
 				"text": "Определите группу прилагательного ventrale",
 				"type": "single",
 				"options": [
@@ -27330,7 +27455,7 @@
 				]
 			},
 			{
-				"index": 1050,
+				"index": 1051,
 				"text": "Определите группу прилагательного orbitalia",
 				"type": "single",
 				"options": [
@@ -27347,7 +27472,7 @@
 				]
 			},
 			{
-				"index": 1051,
+				"index": 1052,
 				"text": "Определите группу прилагательного dentalium",
 				"type": "single",
 				"options": [
@@ -27364,7 +27489,7 @@
 				]
 			},
 			{
-				"index": 1052,
+				"index": 1053,
 				"text": "Определите группу прилагательного sacrales",
 				"type": "single",
 				"options": [
@@ -27381,7 +27506,7 @@
 				]
 			},
 			{
-				"index": 1053,
+				"index": 1054,
 				"text": "Определите группу прилагательного semilunaris",
 				"type": "single",
 				"options": [
@@ -27398,7 +27523,7 @@
 				]
 			},
 			{
-				"index": 1054,
+				"index": 1055,
 				"text": "Определите группу прилагательного alaris",
 				"type": "single",
 				"options": [
@@ -27415,7 +27540,7 @@
 				]
 			},
 			{
-				"index": 1055,
+				"index": 1056,
 				"text": "Определите группу прилагательного zygomaticus",
 				"type": "single",
 				"options": [
@@ -27432,7 +27557,7 @@
 				]
 			},
 			{
-				"index": 1056,
+				"index": 1057,
 				"text": "Определите группу прилагательного durus",
 				"type": "single",
 				"options": [
@@ -27449,7 +27574,7 @@
 				]
 			},
 			{
-				"index": 1057,
+				"index": 1058,
 				"text": "Определите группу прилагательного albi",
 				"type": "single",
 				"options": [
@@ -27480,11 +27605,6 @@
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
-				"index": 115,
-				"text": "Определите падеж существительного capita",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
 				"index": 157,
 				"text": "Определите падеж существительного vestibula",
 				"reason": "MALFORMED_STRUCTURE"
@@ -27512,11 +27632,6 @@
 			{
 				"index": 197,
 				"text": "Определите падеж существительного zygomatum",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 204,
-				"text": "Определите падеж существительного tubera",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
@@ -27565,11 +27680,6 @@
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
-				"index": 573,
-				"text": "Определите род существительного cortex, icis",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
 				"index": 639,
 				"text": "большая прямая мышца головы",
 				"reason": "MALFORMED_STRUCTURE"
@@ -27592,11 +27702,6 @@
 			{
 				"index": 706,
 				"text": "Согласуйте прилагательное с существительным ramus",
-				"reason": "MALFORMED_STRUCTURE"
-			},
-			{
-				"index": 721,
-				"text": "Согласуйте прилагательное с существительным cavum",
 				"reason": "MALFORMED_STRUCTURE"
 			},
 			{
@@ -27630,8 +27735,8 @@
 				"reason": "DUPLICATE_OPTIONS"
 			},
 			{
-				"index": 955,
-				"text": "Образуйте сравнительную степень mollis -",
+				"index": 886,
+				"text": "костная перегородка носа",
 				"reason": "MALFORMED_STRUCTURE"
 			}
 		]
