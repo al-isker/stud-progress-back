@@ -2,6 +2,11 @@ import { DocLine } from '../types/document-model';
 import { ParseStatus, QuestionRejectionReason } from '../types/parse-result';
 import { ChoiceQuestion, Question } from '../types/test-document';
 import { assembleTestDocument as assembleRecognizedDocument } from './assemble';
+import {
+	AnswerMarkerProfile,
+	applyAnswerMarkerProfile,
+	inferAnswerMarkerProfile
+} from './detect-marker';
 import { OptionSyntaxProfile, RawQuestion, segmentQuestions } from './segment';
 import { QuestionSyntaxResult, recognizeDocumentSyntax } from './syntax-profile';
 
@@ -332,6 +337,38 @@ describe('document-level option syntax', () => {
 		expect(recognizeMarkerForTest(questions)).toEqual({ confirmed: false });
 	});
 
+	test('does not confirm a structural prefix that distinguishes only a minority of questions', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=answer 1', 1], ['=answer 2'], ['=answer 3']]),
+			...bracketQuestion('Question 2', [['=answer 1'], ['=answer 2', 1], ['=answer 3']]),
+			...bracketQuestion('Question 3', [['=answer 1'], ['~answer 2'], ['~answer 3']])
+		]);
+		const profile = inferAnswerMarkerProfile(
+			questions,
+			questions.map((_, index) => index)
+		);
+		if (!profile) throw new Error('Answer marker was not confirmed');
+
+		expect(profile.signals).toEqual([{ kind: 'highlight', minimumSpanEm: 0.5 }]);
+		expect(questions.map(question => applyAnswerMarkerProfile(question, profile))).toEqual([
+			{
+				marked: [true, false, false],
+				ambiguous: false,
+				consumedTextPrefixes: [null, null, null]
+			},
+			{
+				marked: [false, true, false],
+				ambiguous: false,
+				consumedTextPrefixes: [null, null, null]
+			},
+			{
+				marked: [false, false, false],
+				ambiguous: false,
+				consumedTextPrefixes: [null, null, null]
+			}
+		]);
+	});
+
 	test('prefers a visual marker over consuming a coinciding symbolic answer', () => {
 		const questions = segment([
 			...bracketQuestion('Question 1', [['=/', 1], ['= other 1'], ['= other 2']]),
@@ -357,6 +394,422 @@ describe('document-level option syntax', () => {
 				question => choiceQuestion(question).options.find(option => option.isCorrect)?.text
 			)
 		).toEqual(['/', '/']);
+	});
+
+	test('recognizes independently highlighted answers without comparing their lengths', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [
+				['=long mark', 1],
+				['=short mark', 0.04],
+				['=wrong 1'],
+				['=wrong 2']
+			]),
+			...bracketQuestion('Question 2', [
+				['=wrong 1'],
+				['=long mark', 1],
+				['=short mark', 0.04],
+				['=wrong 2']
+			])
+		]);
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.marked).toEqual([
+			[true, true, false, false],
+			[false, true, true, false]
+		]);
+	});
+
+	test('allows background highlighting to select most or all options', () => {
+		const questions = segment([
+			...bracketQuestion('Most selected', [
+				['=first', 1],
+				['=second', 1],
+				['=third', 1],
+				['=wrong']
+			]),
+			...bracketQuestion('All selected', [
+				['=first', 1],
+				['=second', 1],
+				['=third', 1],
+				['=fourth', 1]
+			])
+		]);
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.marked).toEqual([
+			[true, true, true, false],
+			[true, true, true, true]
+		]);
+	});
+
+	test('recognizes a fully highlighted answer narrower than a regular glyph', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=I', 1], ['=II'], ['=III']])
+		]);
+		questions[1].options[0].lines[0].x1 = questions[1].options[0].lines[0].x0 + 3;
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.marked[1]).toEqual([true, false, false]);
+		expect(marker.ambiguous).toEqual([]);
+	});
+
+	test('rejects a visible but insufficiently covered short answer as ambiguous', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=short', 0.2], ['=wrong 1'], ['=wrong 2']])
+		]);
+		questions[2].options[0].lines[0].x1 = questions[2].options[0].lines[0].x0 + 10;
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([2]);
+	});
+
+	test('uses physical span as the ambiguity floor for a long answer', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=long answer', 0.02], ['=wrong 1'], ['=wrong 2']])
+		]);
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([2]);
+	});
+
+	test('does not accept half-covered subglyph answer as exact highlighting', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=I', 0.5], ['=II'], ['=III']])
+		]);
+		questions[2].options[0].lines[0].x1 = questions[2].options[0].lines[0].x0 + 3;
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([2]);
+	});
+
+	test('allows one visual source to decisively cover multiple complete options', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=first', 1], ['=second', 1], ['=wrong']])
+		]);
+		for (const optionIndex of [0, 1]) {
+			questions[2].options[optionIndex].lines[0].highlightSources = [
+				{ id: 'shared-marker', fraction: 1 }
+			];
+		}
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.marked[2]).toEqual([true, true, false]);
+		expect(marker.ambiguous).toEqual([]);
+	});
+
+	test('rejects a substantial spill from a marker owned by another option', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=first', 1], ['=long second', 0.025], ['=wrong']])
+		]);
+		questions[2].options[0].lines[0].highlightSources = [{ id: 'shared-marker', fraction: 1 }];
+		questions[2].options[1].lines[0].highlightSources = [{ id: 'shared-marker', fraction: 0.025 }];
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([2]);
+	});
+
+	test('rejects a visible highlight that is too thin to be stable', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=thin mark'], ['=wrong 1'], ['=wrong 2']])
+		]);
+		questions[2].options[0].lines[0].highlightVisibleFrac = 0.4;
+		questions[2].options[0].lines[0].highlightSources = [
+			{ id: 'thin-marker', fraction: 0, visibleFraction: 0.4 }
+		];
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([2]);
+	});
+
+	test('allows one visual source across multiple lines of the same option', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=first line', 1], ['=wrong 1'], ['=wrong 2']])
+		]);
+		const firstOption = questions[2].options[0];
+		firstOption.lines[0].highlightSources = [{ id: 'one-marker', fraction: 1 }];
+		firstOption.lines.push({
+			...line('second line', 1),
+			highlightSources: [{ id: 'one-marker', fraction: 1 }]
+		});
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.marked[2]).toEqual([true, false, false]);
+		expect(marker.ambiguous).toEqual([]);
+	});
+
+	test('rejects a question when exact highlight geometry is unavailable', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=correct', 1], ['=wrong 1'], ['=wrong 2']])
+		]);
+		questions[2].options[1].lines[0].highlightAmbiguous = true;
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([2]);
+	});
+
+	test('accepts a decisively marked option with a local ambiguous overlap', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=correct', 1], ['=wrong 1'], ['=wrong 2']])
+		]);
+		questions[2].options[0].lines[0].highlightAmbiguous = true;
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.marked[2]).toEqual([true, false, false]);
+		expect(marker.ambiguous).toEqual([]);
+	});
+
+	test('uses independently confirmed answer signals when one is locally absent', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=+correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=+correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Symbol only', [['=+correct'], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Highlight only', [['=wrong 1'], ['=correct', 1], ['=wrong 2']])
+		]);
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.marked).toEqual([
+			[true, false, false],
+			[false, true, false],
+			[true, false, false],
+			[false, true, false]
+		]);
+		expect(marker.ambiguous).toEqual([]);
+	});
+
+	test('keeps an independent highlight selector outside a conflicting symbol group', () => {
+		const questions = segment([
+			...bracketQuestion('Symbol conflict', [['=+first'], ['=*second'], ['=wrong']]),
+			...bracketQuestion('Plus and highlight 1', [['=+correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Star and highlight 1', [['=wrong 1'], ['=*correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Plus and highlight 2', [['=wrong 1'], ['=wrong 2'], ['=+correct', 1]]),
+			...bracketQuestion('Star and highlight 2', [['=*correct', 1], ['=wrong 1'], ['=wrong 2']])
+		]);
+		const profile = inferAnswerMarkerProfile(
+			questions,
+			questions.map((_, index) => index)
+		);
+		if (!profile?.selectorGroups) throw new Error('Answer marker was not confirmed');
+
+		expect(
+			profile.selectorGroups.map(group =>
+				group.map(signalIndex => {
+					const signal = profile.signals[signalIndex];
+
+					return signal.kind === 'symbol' ? signal.prefix : signal.kind;
+				})
+			)
+		).toEqual([['=+', '=*'], ['highlight']]);
+
+		const [highlightOnly] = segment(
+			bracketQuestion('Highlight only', [['=plain'], ['=highlight', 1], ['=wrong']])
+		);
+		expect(applyAnswerMarkerProfile(highlightOnly, profile)).toMatchObject({
+			marked: [false, true, false],
+			ambiguous: false
+		});
+	});
+
+	test('keeps an active signal as veto when its selector group is incomplete', () => {
+		const profile: AnswerMarkerProfile = {
+			signals: [
+				{ kind: 'symbol', prefix: '=+' },
+				{ kind: 'symbol', prefix: '=*' },
+				{ kind: 'highlight', minimumSpanEm: 0.5 }
+			],
+			selectorGroups: [[0, 1], [2]],
+			symbolPrefix: null
+		};
+		const [question] = segment(
+			bracketQuestion('Local conflict', [['=+symbol'], ['=highlight', 1], ['=wrong']])
+		);
+
+		expect(applyAnswerMarkerProfile(question, profile)).toMatchObject({
+			marked: [false, false, false],
+			ambiguous: true
+		});
+	});
+
+	test('matches separated compound symbol signals when text consumption is unsafe', () => {
+		const profile: AnswerMarkerProfile = {
+			signals: [
+				{ kind: 'symbol', prefix: '=+' },
+				{ kind: 'symbol', prefix: '=*' }
+			],
+			selectorGroups: [[0], [1]],
+			symbolPrefix: null
+		};
+		const questions = segment([
+			...bracketQuestion('Plus', [['= +answer'], ['=wrong']]),
+			...bracketQuestion('Star', [['=wrong'], ['= *answer']])
+		]);
+
+		expect(questions.map(question => applyAnswerMarkerProfile(question, profile))).toEqual([
+			{
+				marked: [true, false],
+				ambiguous: false,
+				consumedTextPrefixes: [null, null]
+			},
+			{
+				marked: [false, true],
+				ambiguous: false,
+				consumedTextPrefixes: [null, null]
+			}
+		]);
+	});
+
+	test('rejects a question when confirmed answer signals select different options', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=+correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=+correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=wrong 1'], ['=wrong 2'], ['=+correct', 1]]),
+			...bracketQuestion('Conflict', [['=+symbol'], ['=highlight', 1], ['=wrong']])
+		]);
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([3]);
+	});
+
+	test('consumes a corroborated symbol in agreeing questions despite one local conflict', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=+correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=+correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Conflict', [['=+symbol'], ['=highlight', 1], ['=wrong']])
+		]);
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.marked).toEqual([
+			[true, false, false],
+			[false, true, false],
+			[false, false, false]
+		]);
+		expect(marker.ambiguous).toEqual([2]);
+		expect(marker.consumedTextPrefixes).toEqual([
+			['+', null, null],
+			[null, '+', null],
+			[null, null, null]
+		]);
+	});
+
+	test('does not let a more frequent conflicting style signal select an answer alone', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=+correct'], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=+correct'], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=wrong 1'], ['=wrong 2'], ['=+correct']]),
+			...bracketQuestion('Conflict', [['=+symbol'], ['=styled'], ['=wrong']]),
+			...bracketQuestion('Style only', [['=wrong 1'], ['=wrong 2'], ['=styled']])
+		]);
+		for (const [questionIndex, optionIndex] of [
+			[0, 0],
+			[1, 1],
+			[2, 2],
+			[3, 1],
+			[4, 2]
+		]) {
+			questions[questionIndex].options[optionIndex].lines[0].boldFrac = 1;
+		}
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([3, 4]);
+	});
+
+	test('rejects conflicting highlighting without losing a majority-corroborated symbol', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [
+				['=+correct', 1],
+				['=wrong 1'],
+				['=wrong 2'],
+				['=wrong 3']
+			]),
+			...bracketQuestion('Question 2', [
+				['=decorated', 1],
+				['=+correct'],
+				['=wrong 2'],
+				['=wrong 3']
+			]),
+			...bracketQuestion('Question 3', [
+				['=decorated', 1],
+				['=wrong 1'],
+				['=+correct'],
+				['=wrong 3']
+			]),
+			...bracketQuestion('Question 4', [
+				['=decorated'],
+				['=+correct', 1],
+				['=wrong 2'],
+				['=wrong 3']
+			]),
+			...bracketQuestion('Question 5', [
+				['=decorated'],
+				['=wrong 1'],
+				['=+correct', 1],
+				['=wrong 3']
+			])
+		]);
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.marked[0]).toEqual([true, false, false, false]);
+		expect(marker.ambiguous).toEqual([1, 2]);
+		expect(marker.consumedTextPrefixes).toEqual([
+			['+', null, null, null],
+			[null, null, null, null],
+			[null, null, null, null],
+			[null, '+', null, null],
+			[null, null, '+', null]
+		]);
+	});
+
+	test('keeps all signals mandatory for a legacy profile without selector groups', () => {
+		const [question] = segment(
+			bracketQuestion('Question', [['=+correct'], ['=wrong 1'], ['=wrong 2']])
+		);
+		const profile: AnswerMarkerProfile = {
+			signals: [
+				{ kind: 'symbol', prefix: '=+' },
+				{ kind: 'bold', threshold: 0.55 }
+			],
+			symbolPrefix: '=+'
+		};
+
+		expect(applyAnswerMarkerProfile(question, profile)).toMatchObject({
+			marked: [false, false, false],
+			ambiguous: true
+		});
 	});
 
 	test('does not consume answer symbols beyond the confirmed marker prefix', () => {

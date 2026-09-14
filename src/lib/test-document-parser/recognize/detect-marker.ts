@@ -3,18 +3,25 @@ import { RawOption, RawQuestion } from './segment';
 /** Один подтверждаемый документный способ выделения правильного варианта. */
 export type AnswerMarkerSignal =
 	| { kind: 'symbol'; prefix: string }
-	| { kind: 'highlight'; floor: number }
+	| { kind: 'highlight'; minimumSpanEm: number }
 	| { kind: 'bold'; threshold: number }
 	| { kind: 'italic'; threshold: number }
 	| { kind: 'color'; value: string };
 
 /**
- * Документный профиль правильного ответа. Несколько сигналов означают, что
- * ведущие признаки по-разному размечают хотя бы один вопрос; при применении
- * профиль требует их согласия для конкретного вопроса.
+ * Документный профиль правильного ответа. Каждый сигнал независимо подтверждён
+ * на документе. В отдельном вопросе отсутствующий сигнал допустим, но все
+ * присутствующие сигналы обязаны указывать на один и тот же набор ответов.
  */
 export interface AnswerMarkerProfile {
 	signals: AnswerMarkerSignal[];
+	/**
+	 * Группы сигналов, каждая из которых достаточна для выбора ответа. Сигналы,
+	 * которые расходились на документе, входят в одну группу и могут применяться
+	 * только совместно. Для профилей старого формата все сигналы образуют одну
+	 * обязательную группу.
+	 */
+	selectorGroups?: [number, ...number[]][];
 	/** Подтверждённый символьный префикс, который можно удалить из текста. */
 	symbolPrefix: string | null;
 }
@@ -34,7 +41,21 @@ interface OptionStyle {
 	structuralPrefix: string | null;
 	hasTextAfterSourcePrefix: boolean;
 	hasTextAfterStructuralPrefix: boolean;
-	highlight: number;
+	/** Максимальная длина выделения одной строки в единицах размера шрифта. */
+	highlightSpanEm: number;
+	/** Максимальная доля ширины одной строки, занятая выделением. */
+	highlightCoverage: number;
+	/** Максимально видимый след, включая тонкое нестабильное пересечение. */
+	highlightVisibleSpanEm: number;
+	highlightVisibleCoverage: number;
+	/** Покрытие варианта каждым самостоятельным визуальным маркером. */
+	highlightSources: Map<
+		string,
+		{ spanEm: number; coverage: number; visibleSpanEm: number; visibleCoverage: number }
+	>;
+	/** Экстрактор гарантировал идентичность каждого визуального источника. */
+	highlightSourcesKnown: boolean;
+	highlightAmbiguous: boolean;
 	bold: number;
 	italic: number;
 	color: string | null;
@@ -42,14 +63,49 @@ interface OptionStyle {
 
 function styleOf(option: RawOption): OptionStyle {
 	let width = 0;
-	let highlight = 0;
+	let highlightSpanEm = 0;
+	let highlightCoverage = 0;
+	let highlightVisibleSpanEm = 0;
+	let highlightVisibleCoverage = 0;
+	const highlightSources = new Map<
+		string,
+		{ spanEm: number; coverage: number; visibleSpanEm: number; visibleCoverage: number }
+	>();
+	let highlightAmbiguous = false;
 	let bold = 0;
 	let italic = 0;
 	const colors = new Map<string, number>();
 	for (const line of option.lines) {
 		const w = Math.max(1, line.x1 - line.x0);
 		width += w;
-		highlight += line.highlightFrac * w;
+		const lineWidth = Math.max(0, line.x1 - line.x0);
+		const fontSize = Math.max(0.1, line.size);
+		highlightSpanEm = Math.max(highlightSpanEm, (line.highlightFrac * lineWidth) / fontSize);
+		highlightCoverage = Math.max(highlightCoverage, line.highlightFrac);
+		const lineVisibleFraction = line.highlightVisibleFrac ?? line.highlightFrac;
+		highlightVisibleSpanEm = Math.max(
+			highlightVisibleSpanEm,
+			(lineVisibleFraction * lineWidth) / fontSize
+		);
+		highlightVisibleCoverage = Math.max(highlightVisibleCoverage, lineVisibleFraction);
+		for (const source of line.highlightSources ?? []) {
+			const current = highlightSources.get(source.id) ?? {
+				spanEm: 0,
+				coverage: 0,
+				visibleSpanEm: 0,
+				visibleCoverage: 0
+			};
+			const visibleFraction = source.visibleFraction ?? source.fraction;
+			current.spanEm = Math.max(current.spanEm, (source.fraction * lineWidth) / fontSize);
+			current.coverage = Math.max(current.coverage, source.fraction);
+			current.visibleSpanEm = Math.max(
+				current.visibleSpanEm,
+				(visibleFraction * lineWidth) / fontSize
+			);
+			current.visibleCoverage = Math.max(current.visibleCoverage, visibleFraction);
+			highlightSources.set(source.id, current);
+		}
+		highlightAmbiguous ||= line.highlightAmbiguous ?? false;
 		bold += line.boldFrac * w;
 		italic += line.italicFrac * w;
 		if (line.color) colors.set(line.color, (colors.get(line.color) ?? 0) + w);
@@ -68,7 +124,13 @@ function styleOf(option: RawOption): OptionStyle {
 		structuralPrefix: option.structuralPrefix,
 		hasTextAfterSourcePrefix: option.hasTextAfterSourcePrefix,
 		hasTextAfterStructuralPrefix: option.texts.some(text => text.trim() !== ''),
-		highlight: width > 0 ? highlight / width : 0,
+		highlightSpanEm,
+		highlightCoverage,
+		highlightVisibleSpanEm,
+		highlightVisibleCoverage,
+		highlightSources,
+		highlightSourcesKnown: option.lines.every(line => line.highlightSources !== undefined),
+		highlightAmbiguous,
 		bold: width > 0 ? bold / width : 0,
 		italic: width > 0 ? italic / width : 0,
 		color
@@ -76,29 +138,95 @@ function styleOf(option: RawOption): OptionStyle {
 }
 
 /** Разметка по булеву предикату: помечает варианты, для которых он истинен. */
-function markByPredicate(styles: OptionStyle[][], test: (s: OptionStyle) => boolean): boolean[][] {
-	return styles.map(qs => qs.map(test));
+interface SignalMarking {
+	sets: boolean[][];
+	ambiguous: boolean[];
+}
+
+function markByPredicate(
+	styles: OptionStyle[][],
+	test: (s: OptionStyle) => boolean
+): SignalMarking {
+	return { sets: styles.map(qs => qs.map(test)), ambiguous: styles.map(() => false) };
 }
 
 /**
- * Разметка по непрерывному признаку (выделение фоном) относительно братьев в
- * вопросе: в каждом вопросе помечаются варианты, чей признак заметно сильнее
- * прочих. Так засчитывается и бледное выделение (лишь бы оно выделялось на фоне
- * невыделенных вариантов), и не срабатывает слабый шум, если он низкий у всех.
+ * Каждый вариант оценивается независимо: подтверждённый визуальный маркер не
+ * становится менее правильным из-за более длинного выделения у соседа. Слабое
+ * пересечение между уровнем геометрического шума и достаточным маркером нельзя
+ * однозначно классифицировать — весь вопрос помечается неоднозначным.
  */
-function markByRelativeScore(
-	styles: OptionStyle[][],
-	score: (s: OptionStyle) => number,
-	floor: number
-): boolean[][] {
-	return styles.map(qs => {
-		const scores = qs.map(score);
-		const max = Math.max(...scores);
-		if (max < floor) return qs.map(() => false);
-		const threshold = Math.max(floor, max * 0.5);
+function markByHighlight(styles: OptionStyle[][], minimumSpanEm: number): SignalMarking {
+	// Половина em соответствует примерно ширине одного обычного глифа. Только
+	// почти полное покрытие короткого узкого ответа (например «I») компенсирует
+	// меньшую физическую длину. Между субглифовым затёком и достаточным маркером
+	// остаётся зона неоднозначности, измеряемая и относительно текста, и в em.
+	const clearlyCoveredFraction = 0.9;
+	const visibleFraction = 0.1;
+	const visibleSpanEm = minimumSpanEm / 4;
+	const maximumSpillSpanEm = (minimumSpanEm * 2) / 3;
+	const isMarkedEvidence = (spanEm: number, coverage: number) =>
+		spanEm >= minimumSpanEm || coverage >= clearlyCoveredFraction;
+	const isVisibleEvidence = (spanEm: number, coverage: number) =>
+		spanEm >= visibleSpanEm || coverage >= visibleFraction;
+	const isNegligibleSpill = (spanEm: number, coverage: number) =>
+		spanEm < maximumSpillSpanEm && coverage < visibleFraction;
+	const hasDecisiveSource = (style: OptionStyle) =>
+		[...style.highlightSources.values()].some(evidence =>
+			isMarkedEvidence(evidence.spanEm, evidence.coverage)
+		);
+	const isMarked = (style: OptionStyle) =>
+		style.highlightSourcesKnown
+			? hasDecisiveSource(style)
+			: isMarkedEvidence(style.highlightSpanEm, style.highlightCoverage);
+	const isVisible = (style: OptionStyle) =>
+		isVisibleEvidence(style.highlightVisibleSpanEm, style.highlightVisibleCoverage);
 
-		return scores.map(v => v >= threshold);
-	});
+	return {
+		sets: styles.map(qs => qs.map(isMarked)),
+		ambiguous: styles.map(qs => {
+			const owners = new Map<string, Set<number>>();
+			for (let optionIndex = 0; optionIndex < qs.length; optionIndex++) {
+				for (const [sourceId, evidence] of qs[optionIndex].highlightSources) {
+					if (!isMarkedEvidence(evidence.spanEm, evidence.coverage)) continue;
+					const sourceOwners = owners.get(sourceId) ?? new Set<number>();
+					sourceOwners.add(optionIndex);
+					owners.set(sourceId, sourceOwners);
+				}
+			}
+			// Неизвестный композит внутри уже независимо подтверждённого маркера не
+			// способен изменить выбор варианта: достаточная видимая часть выделения
+			// существует вне спорной области. На непомеченном варианте та же
+			// неопределённость могла скрывать самостоятельный маркер — это reject.
+			if (qs.some(style => style.highlightAmbiguous && !isMarked(style))) return true;
+
+			for (let optionIndex = 0; optionIndex < qs.length; optionIndex++) {
+				const style = qs[optionIndex];
+				if (!isVisible(style) || isMarked(style)) continue;
+				// Малый хвост уже однозначно назначенного соседнего маркера — не
+				// самостоятельная пометка. Без точной идентичности источника такое
+				// пересечение остаётся неоднозначным.
+				const visibleSources = [...style.highlightSources].filter(([, evidence]) =>
+					isVisibleEvidence(evidence.visibleSpanEm, evidence.visibleCoverage)
+				);
+				const explainedSpill =
+					style.highlightSourcesKnown &&
+					visibleSources.length > 0 &&
+					visibleSources.every(([sourceId, evidence]) => {
+						const sourceOwners = owners.get(sourceId);
+
+						return (
+							isNegligibleSpill(evidence.visibleSpanEm, evidence.visibleCoverage) &&
+							sourceOwners?.size === 1 &&
+							!sourceOwners.has(optionIndex)
+						);
+					});
+				if (!explainedSpill) return true;
+			}
+
+			return false;
+		})
+	};
 }
 
 /**
@@ -109,6 +237,7 @@ function markByRelativeScore(
  */
 interface Candidate {
 	sets: boolean[][];
+	ambiguous: boolean[];
 	signal: AnswerMarkerSignal;
 	/** Число вопросов, где признак различает ответ (помечено 1..n-1 вариантов). */
 	coverage: number;
@@ -119,7 +248,7 @@ interface Candidate {
 }
 
 function toCandidate(
-	sets: boolean[][],
+	marking: SignalMarking,
 	evaluationIndices: number[],
 	signal: AnswerMarkerSignal
 ): Candidate {
@@ -127,7 +256,8 @@ function toCandidate(
 	let conforming = 0;
 	let fractionSum = 0;
 	for (const questionIndex of evaluationIndices) {
-		const qs = sets[questionIndex];
+		if (marking.ambiguous[questionIndex]) continue;
+		const qs = marking.sets[questionIndex];
 		const count = qs.filter(Boolean).length;
 		if (count >= 1) conforming++;
 		if (count >= 1 && count < qs.length) {
@@ -137,7 +267,8 @@ function toCandidate(
 	}
 
 	return {
-		sets,
+		sets: marking.sets,
+		ambiguous: marking.ambiguous,
 		signal,
 		coverage,
 		conforming,
@@ -145,7 +276,7 @@ function toCandidate(
 	};
 }
 
-function markBySignal(styles: OptionStyle[][], signal: AnswerMarkerSignal): boolean[][] {
+function markBySignal(styles: OptionStyle[][], signal: AnswerMarkerSignal): SignalMarking {
 	switch (signal.kind) {
 		case 'symbol':
 			return markByPredicate(
@@ -153,7 +284,7 @@ function markBySignal(styles: OptionStyle[][], signal: AnswerMarkerSignal): bool
 				style => style.sourcePrefix !== null && style.sourcePrefix.startsWith(signal.prefix)
 			);
 		case 'highlight':
-			return markByRelativeScore(styles, style => style.highlight, signal.floor);
+			return markByHighlight(styles, signal.minimumSpanEm);
 		case 'bold':
 			return markByPredicate(styles, style => style.bold >= signal.threshold);
 		case 'italic':
@@ -166,24 +297,14 @@ function markBySignal(styles: OptionStyle[][], signal: AnswerMarkerSignal): bool
 const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('');
 
 /**
- * Ищет единственный признак, выделяющий правильные ответы на фоне остальных:
- * символьный префикс, цветовое выделение, жирность, курсив или цвет текста.
- * Формат един для переданного набора непроцентных вопросов, поэтому сначала
- * признак ПОДТВЕРЖДАЕТСЯ на всём наборе, а уже потом применяется к каждому
- * вопросу.
- *
- * Отбор: маркер выделяет меньшинство вариантов, поэтому признаки, в среднем
- * помечающие больше половины (например «~» перед всеми неправильными),
- * отбрасываются как «дополнение»; из остальных побеждает различающий больше
- * всего вопросов. Токен-маркер сопоставляется по началу префикса — повреждённый
- * глифами токен («=<» при маркере «=») всё равно засчитывается.
- *
- * Подтверждение: победитель должен присутствовать в строгом большинстве
- * вопросов, иначе формат не подтверждён и парсер отклоняет документ.
- *
- * Применение подтверждённого маркера вопросу доверяет:
- * помечены все варианты — значит, все и верны; не помечен ни один — вопрос
- * будет отклонён с причиной `NO_ANSWER_MARKER`.
+ * Строит документный профиль признаков правильного ответа. Каждый кандидат
+ * сначала должен однозначно сработать в строгом большинстве оцениваемых
+ * вопросов. Символ и фоновое выделение считаются явными признаками; если они
+ * конфликтуют, вопрос принимается только при совместном согласии. Более слабый
+ * подтверждённый признак не выбирает ответ самостоятельно, но запрещает принять
+ * локальный конфликт. Для условных признаков оформления сохраняется защита от
+ * комплементарного большинства; у фонового выделения направление однозначно,
+ * поэтому оно может отмечать любую долю вариантов, включая все варианты.
  */
 export function inferAnswerMarkerProfile(
 	questions: RawQuestion[],
@@ -211,7 +332,7 @@ export function inferAnswerMarkerProfile(
 		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
 	}
 	for (const signal of [
-		{ kind: 'highlight', floor: 0.08 },
+		{ kind: 'highlight', minimumSpanEm: 0.5 },
 		{ kind: 'bold', threshold: 0.55 },
 		{ kind: 'italic', threshold: 0.55 }
 	] satisfies AnswerMarkerSignal[]) {
@@ -222,55 +343,162 @@ export function inferAnswerMarkerProfile(
 		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
 	}
 
-	const usable = candidates.filter(c => c.coverage >= 1 && c.avgFraction <= 0.5);
-	if (usable.length === 0) return null;
+	// Фоновый маркер сам задаёт положительное направление: выделенные варианты
+	// и есть выбранные. Поэтому он не обязан отмечать меньшинство и может
+	// однозначно покрывать даже все варианты. Для условных сигналов оформления
+	// сохраняется защита от выбора комплементарного большинства.
+	const usable = candidates.filter(candidate =>
+		candidate.signal.kind === 'highlight'
+			? candidate.conforming >= 1
+			: candidate.coverage >= 1 && candidate.avgFraction <= 0.5
+	);
+	const documentCandidates = usable.filter(candidate =>
+		hasStrictMajority(
+			candidate.signal.kind === 'highlight' ? candidate.conforming : candidate.coverage,
+			evaluationIndices.length
+		)
+	);
+	if (documentCandidates.length === 0) return null;
+	const explicitIndices = documentCandidates.flatMap((candidate, index) =>
+		candidate.signal.kind === 'symbol' || candidate.signal.kind === 'highlight' ? [index] : []
+	);
+	const primaryIndices =
+		explicitIndices.length > 0
+			? explicitIndices
+			: (() => {
+					const maxCoverage = Math.max(...documentCandidates.map(candidate => candidate.coverage));
 
-	// Настоящий маркер различает больше всего вопросов; шумовые признаки,
-	// зацепившие один-два варианта, отсеиваются.
-	const maxCoverage = Math.max(...usable.map(c => c.coverage));
-	const top = usable.filter(c => c.coverage === maxCoverage);
+					return documentCandidates.flatMap((candidate, index) =>
+						candidate.coverage === maxCoverage ? [index] : []
+					);
+				})();
+	const consensusOf = (indices: number[], questionIndex: number): boolean[] | null => {
+		if (indices.some(index => documentCandidates[index].ambiguous[questionIndex])) return null;
+		const active = indices
+			.map(index => documentCandidates[index].sets[questionIndex])
+			.filter(question => question.some(Boolean));
+		if (active.length === 0) return null;
+		const distinct = new Set(active.map(questionSignature));
 
-	// Формат подтверждён, только если победитель присутствует в большинстве вопросов.
-	const bestConforming = Math.max(...top.map(c => c.conforming));
-	if (!hasStrictMajority(bestConforming, evaluationIndices.length)) return null;
+		return distinct.size === 1 ? active[0] : null;
+	};
 
-	// Признаки с одинаковой разметкой не конфликтуют — группируем по ней.
-	const signature = (sets: boolean[][]) => sets.map(questionSignature).join(';');
-	const variants: Candidate[] = [];
-	const seen = new Set<string>();
-	for (const c of top) {
-		const key = signature(c.sets);
-		if (!seen.has(key)) {
-			seen.add(key);
-			variants.push(c);
+	const signalsConflict = (left: Candidate, right: Candidate, questionIndex: number): boolean => {
+		if (left.ambiguous[questionIndex] || right.ambiguous[questionIndex]) return false;
+		const leftSet = left.sets[questionIndex];
+		const rightSet = right.sets[questionIndex];
+
+		return (
+			leftSet.some(Boolean) &&
+			rightSet.some(Boolean) &&
+			questionSignature(leftSet) !== questionSignature(rightSet)
+		);
+	};
+
+	// Любой структурно правдоподобный сигнал, присутствующий в большинстве
+	// документа, остаётся в профиле. Более слабый кандидат, обычно совпадающий с
+	// ведущим, работает как локальный veto при конфликте, но его отсутствие не
+	// блокирует ведущий. Несогласованный сильный конкурент требует совместного
+	// консенсуса: без смысла нельзя решить, фон это или реальный маркер ответа.
+	const confirmed = documentCandidates;
+	const corroboratingIndices: number[] = [];
+	const challengerIndices: number[] = [];
+	for (let candidateIndex = 0; candidateIndex < confirmed.length; candidateIndex++) {
+		if (primaryIndices.includes(candidateIndex)) continue;
+		let agreements = 0;
+		let conflicts = 0;
+		for (const questionIndex of evaluationIndices) {
+			if (confirmed[candidateIndex].ambiguous[questionIndex]) continue;
+			const primarySet = consensusOf(primaryIndices, questionIndex);
+			const current = confirmed[candidateIndex].sets[questionIndex];
+			if (!primarySet || !current.some(Boolean)) continue;
+			if (questionSignature(primarySet) === questionSignature(current)) agreements++;
+			else conflicts++;
+		}
+		if (conflicts === 0 && hasStrictMajority(agreements, confirmed[candidateIndex].conforming)) {
+			corroboratingIndices.push(candidateIndex);
+		} else if (conflicts > 0 && !hasStrictMajority(agreements, evaluationIndices.length)) {
+			challengerIndices.push(candidateIndex);
 		}
 	}
 
-	// Где ведущие признаки согласны — берём их разметку как есть (включая «все
-	// верны»); где расходятся — вопрос неоднозначен и остаётся без пометок.
-	const marked: boolean[][] = [];
-	for (let qi = 0; qi < styles.length; qi++) {
-		const distinct = new Set(variants.map(variant => questionSignature(variant.sets[qi])));
-		if (distinct.size === 1) {
-			marked.push(variants[0].sets[qi]);
-		} else {
-			marked.push(styles[qi].map(() => false));
-		}
-	}
-
-	// Символьный декоратор может быть немного повреждён и уступить более полному
-	// визуальному признаку. Удаляем его из текста, если он подтверждён на нужной
-	// доле вопросов и нигде не противоречит итоговой разметке.
-	const compatibleSymbolCandidates = usable
-		.filter(
-			(candidate): candidate is Candidate & { signal: { kind: 'symbol'; prefix: string } } => {
-				if (candidate.signal.kind !== 'symbol') return false;
-				if (!hasStrictMajority(candidate.conforming, evaluationIndices.length)) return false;
-
-				return candidate.sets.every((question, questionIndex) =>
-					question.every((isMarked, optionIndex) => !isMarked || marked[questionIndex][optionIndex])
+	const selectorGroups: [number, ...number[]][] = [];
+	const primaryConflict = primaryIndices.some((left, leftOffset) =>
+		primaryIndices
+			.slice(leftOffset + 1)
+			.some(right =>
+				evaluationIndices.some(questionIndex =>
+					signalsConflict(confirmed[left], confirmed[right], questionIndex)
+				)
+			)
+	);
+	const selectorIndices = [...new Set([...primaryIndices, ...challengerIndices])].sort(
+		(left, right) => left - right
+	);
+	const ungrouped = new Set(selectorIndices);
+	for (const rootIndex of selectorIndices) {
+		if (!ungrouped.delete(rootIndex)) continue;
+		const component: [number, ...number[]] = [rootIndex];
+		for (let cursor = 0; cursor < component.length; cursor++) {
+			for (const candidateIndex of [...ungrouped]) {
+				const conflicts = evaluationIndices.some(questionIndex =>
+					signalsConflict(confirmed[component[cursor]], confirmed[candidateIndex], questionIndex)
 				);
+				if (!conflicts) continue;
+				ungrouped.delete(candidateIndex);
+				component.push(candidateIndex);
 			}
+		}
+		selectorGroups.push(component);
+	}
+	selectorGroups.push(...corroboratingIndices.map(index => [index] as [number]));
+	selectorGroups.sort((left, right) => left[0] - right[0]);
+
+	const textConsumingIndices = new Set([
+		...corroboratingIndices,
+		...(!primaryConflict && challengerIndices.length === 0 ? primaryIndices : [])
+	]);
+	const confirmedSymbolIndices = confirmed.flatMap((candidate, index) =>
+		candidate.signal.kind === 'symbol' ? [index] : []
+	);
+	// Локальный конфликт не отменяет уже подтверждённую лексику всего документа.
+	// Единственный символьный кандидат можно продолжать удалять в согласованных
+	// вопросах, если другой независимо подтверждённый способ выбора указывает на
+	// тот же непустой и неполный набор в строгом большинстве документа. Сам
+	// конфликтующий вопрос всё равно будет отклонён ниже и ничего не потеряет.
+	if (confirmedSymbolIndices.length === 1) {
+		const [symbolIndex] = confirmedSymbolIndices;
+		const corroboratedAcrossDocument = confirmed.some((candidate, candidateIndex) => {
+			if (candidateIndex === symbolIndex) return false;
+			let agreements = 0;
+			for (const questionIndex of evaluationIndices) {
+				if (confirmed[symbolIndex].ambiguous[questionIndex] || candidate.ambiguous[questionIndex]) {
+					continue;
+				}
+				const symbolSet = confirmed[symbolIndex].sets[questionIndex];
+				const candidateSet = candidate.sets[questionIndex];
+				const symbolCount = symbolSet.filter(Boolean).length;
+				const candidateCount = candidateSet.filter(Boolean).length;
+				if (
+					symbolCount === 0 ||
+					symbolCount === symbolSet.length ||
+					candidateCount === 0 ||
+					candidateCount === candidateSet.length
+				) {
+					continue;
+				}
+				if (questionSignature(symbolSet) === questionSignature(candidateSet)) agreements++;
+			}
+
+			return hasStrictMajority(agreements, evaluationIndices.length);
+		});
+		if (corroboratedAcrossDocument) textConsumingIndices.add(symbolIndex);
+	}
+	const symbolCandidates = confirmed
+		.flatMap((candidate, index) =>
+			textConsumingIndices.has(index) && candidate.signal.kind === 'symbol'
+				? [candidate as Candidate & { signal: { kind: 'symbol'; prefix: string } }]
+				: []
 		)
 		.sort(
 			(a, b) =>
@@ -278,9 +506,13 @@ export function inferAnswerMarkerProfile(
 				a.signal.prefix.length - b.signal.prefix.length ||
 				a.signal.prefix.localeCompare(b.signal.prefix)
 		);
-	const symbolPrefix = compatibleSymbolCandidates[0]?.signal.prefix ?? null;
+	const symbolPrefix = symbolCandidates[0]?.signal.prefix ?? null;
 
-	return { signals: variants.map(candidate => candidate.signal), symbolPrefix };
+	return {
+		signals: confirmed.map(candidate => candidate.signal),
+		selectorGroups,
+		symbolPrefix
+	};
 }
 
 function confirmedSymbolMarker(
@@ -318,9 +550,48 @@ export function applyAnswerMarkerProfile(
 	profile: AnswerMarkerProfile
 ): AppliedAnswerMarker {
 	const styles = [question.options.map(styleOf)];
-	const variants = profile.signals.map(signal => markBySignal(styles, signal)[0]);
-	const distinct = new Set(variants.map(questionSignature));
-	if (distinct.size !== 1) {
+	const confirmedSymbols = question.options.map(option =>
+		confirmedSymbolMarker(option, profile.symbolPrefix)
+	);
+	const markings = profile.signals.map(signal => {
+		if (signal.kind === 'symbol') {
+			const symbols = question.options.map(option => confirmedSymbolMarker(option, signal.prefix));
+
+			return {
+				sets: [symbols.map(symbol => symbol.matches)],
+				ambiguous: [false]
+			};
+		}
+
+		return markBySignal(styles, signal);
+	});
+	const activeIndices = markings.flatMap((marking, index) =>
+		marking.sets[0].some(Boolean) ? [index] : []
+	);
+	// Профили без групп относятся к прежнему формату, где все сигналы должны
+	// были присутствовать и совпасть. Сохраняем этот контракт одной общей группой.
+	const selectorGroups =
+		profile.selectorGroups ??
+		(profile.signals.length > 0
+			? [[0, ...profile.signals.slice(1).map((_, signalIndex) => signalIndex + 1)]]
+			: []);
+	const completeSelectors = selectorGroups.flatMap(group =>
+		group.every(signalIndex => activeIndices.includes(signalIndex))
+			? [group.map(signalIndex => markings[signalIndex].sets[0])]
+			: []
+	);
+	const conflictingSelector = completeSelectors.some(
+		selector => new Set(selector.map(questionSignature)).size !== 1
+	);
+	const selectedSets = completeSelectors.map(selector => selector[0]);
+	const distinctActiveSets = new Set(
+		activeIndices.map(signalIndex => questionSignature(markings[signalIndex].sets[0]))
+	);
+	if (
+		markings.some(marking => marking.ambiguous[0]) ||
+		conflictingSelector ||
+		(activeIndices.length > 0 && (selectedSets.length === 0 || distinctActiveSets.size !== 1))
+	) {
 		return {
 			marked: question.options.map(() => false),
 			ambiguous: true,
@@ -328,13 +599,7 @@ export function applyAnswerMarkerProfile(
 		};
 	}
 
-	const marked = [...variants[0]];
-	const confirmedSymbols = question.options.map(option =>
-		confirmedSymbolMarker(option, profile.symbolPrefix)
-	);
-	confirmedSymbols.forEach((symbol, optionIndex) => {
-		if (symbol.matches) marked[optionIndex] = true;
-	});
+	const marked = selectedSets.length > 0 ? [...selectedSets[0]] : question.options.map(() => false);
 
 	return {
 		marked,
