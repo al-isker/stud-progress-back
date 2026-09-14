@@ -513,6 +513,27 @@ describe('document-level option syntax', () => {
 		expect(marker.ambiguous).toEqual([]);
 	});
 
+	test('rejects one partial visual source shared by multiple options', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [
+				['=long first answer', 0.1],
+				['=long second answer', 0.1],
+				['=wrong']
+			])
+		]);
+		for (const optionIndex of [0, 1]) {
+			questions[2].options[optionIndex].lines[0].highlightSources = [
+				{ id: 'shared-marker', fraction: 0.1 }
+			];
+		}
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([2]);
+	});
+
 	test('rejects a substantial spill from a marker owned by another option', () => {
 		const questions = segment([
 			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),

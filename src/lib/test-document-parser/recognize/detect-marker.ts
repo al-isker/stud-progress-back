@@ -171,6 +171,12 @@ function markByHighlight(styles: OptionStyle[][], minimumSpanEm: number): Signal
 		spanEm >= visibleSpanEm || coverage >= visibleFraction;
 	const isNegligibleSpill = (spanEm: number, coverage: number) =>
 		spanEm < maximumSpillSpanEm && coverage < visibleFraction;
+	// Если одна связная область пересекает несколько вариантов, одного короткого
+	// фрагмента в каждом уже недостаточно: это может быть как намеренное общее
+	// выделение, так и неточный широкий мазок. Однозначную принадлежность всему
+	// набору доказывает только устойчивое покрытие большей части каждого варианта.
+	// Относительная доля не зависит от кегля, DPI и абсолютной геометрии PDF.
+	const clearlyOwnsSharedSource = (coverage: number) => coverage > 0.5;
 	const hasDecisiveSource = (style: OptionStyle) =>
 		[...style.highlightSources.values()].some(evidence =>
 			isMarkedEvidence(evidence.spanEm, evidence.coverage)
@@ -192,6 +198,18 @@ function markByHighlight(styles: OptionStyle[][], minimumSpanEm: number): Signal
 					const sourceOwners = owners.get(sourceId) ?? new Set<number>();
 					sourceOwners.add(optionIndex);
 					owners.set(sourceId, sourceOwners);
+				}
+			}
+			for (const [sourceId, sourceOwners] of owners) {
+				if (sourceOwners.size <= 1) continue;
+				if (
+					[...sourceOwners].some(optionIndex => {
+						const evidence = qs[optionIndex].highlightSources.get(sourceId);
+
+						return !evidence || !clearlyOwnsSharedSource(evidence.coverage);
+					})
+				) {
+					return true;
 				}
 			}
 			// Неизвестный композит внутри уже независимо подтверждённого маркера не
