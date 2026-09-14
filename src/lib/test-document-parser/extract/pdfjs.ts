@@ -23,6 +23,7 @@ export interface PdfTextStyle {
 export interface PdfAnnotation {
 	id?: string;
 	subtype?: string;
+	annotationFlags?: number;
 	rect?: number[];
 }
 
@@ -56,6 +57,11 @@ export interface PdfPage {
 export interface PdfDocument {
 	numPages: number;
 	getPage(n: number): Promise<PdfPage>;
+	getOptionalContentConfig(params?: { intent?: string }): Promise<PdfOptionalContentConfig>;
+}
+
+export interface PdfOptionalContentConfig {
+	isVisible(group: unknown): boolean;
 }
 
 export interface PdfLoadingTask {

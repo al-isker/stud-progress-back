@@ -20,6 +20,12 @@ export interface DocLine {
 	color: string | null;
 	/** Доля ширины строки, накрытая цветным выделением: заливка, картинка-подложка, аннотация. */
 	highlightFrac: number;
+	/** Максимально видимая доля на одной высоте, включая нестабильные тонкие следы. */
+	highlightVisibleFrac?: number;
+	/** Вклад каждого самостоятельного визуального маркера в покрытие строки. */
+	highlightSources?: Array<{ id: string; fraction: number; visibleFraction?: number }>;
+	/** Визуальная пометка пересекает строку, но её точную геометрию прочитать нельзя. */
+	highlightAmbiguous?: boolean;
 	/** Вертикальный зазор до предыдущей строки той же страницы (null для первой на странице). */
 	gapBefore: number | null;
 }
