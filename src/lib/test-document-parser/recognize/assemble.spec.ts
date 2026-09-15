@@ -38,7 +38,11 @@ function assembleTestDocument(
 					questionPrefix: '?',
 					options: options ?? { prefixByFamily: new Map() }
 				}
-			: { kind: 'numbered', options }
+			: {
+					kind: 'numbered',
+					question: { family: '#', terminator: '', placement: 'standalone' },
+					options
+				}
 	};
 	const syntax: QuestionSyntaxResult[] = raw.map((question, index) => {
 		const prefixes = consumedTextPrefixes[index] ?? question.options.map(() => null);
@@ -147,7 +151,14 @@ describe('assembleTestDocument', () => {
 	test('принимает один вариант только для подтверждённой процентной грамматики', () => {
 		const raw: RawQuestion[] = [{ texts: ['Процентный вопрос'], options: [option('Ответ')] }];
 		const result = assembleRecognizedDocument(
-			{ questions: raw, structure: { kind: 'numbered', options: null } },
+			{
+				questions: raw,
+				structure: {
+					kind: 'numbered',
+					question: { family: '#', terminator: '', placement: 'standalone' },
+					options: null
+				}
+			},
 			[
 				{
 					kind: 'choice',

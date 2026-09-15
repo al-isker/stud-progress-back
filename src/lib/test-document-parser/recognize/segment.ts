@@ -40,11 +40,25 @@ export interface OptionSyntaxProfile {
 	prefixByFamily: Map<string, string>;
 }
 
+export type NumberedQuestionMarkerFamily = '#' | '№' | 'bare';
+export type NumberedQuestionMarkerTerminator = '' | '.' | ')' | ':' | ']';
+
+/** Лексическая форма границы вопроса в нумераторном документе. */
+export interface NumberedQuestionSyntaxProfile {
+	family: NumberedQuestionMarkerFamily;
+	terminator: NumberedQuestionMarkerTerminator;
+	placement: 'standalone' | 'inline';
+}
+
 /** Структура границ вопросов и вариантов, подтверждённая на всём документе. */
 export type DocumentStructureProfile =
 	| { kind: 'bracket'; options: OptionSyntaxProfile }
 	| { kind: 'two-prefix'; questionPrefix: string; options: OptionSyntaxProfile }
-	| { kind: 'numbered'; options: OptionSyntaxProfile | null };
+	| {
+			kind: 'numbered';
+			question: NumberedQuestionSyntaxProfile;
+			options: OptionSyntaxProfile | null;
+	  };
 
 /** Результат сегментации вместе с профилем, по которому она выполнена. */
 export interface SegmentedDocument {
@@ -869,9 +883,85 @@ function tryTwoPrefixScheme(lines: DocLine[]): SegmentedDocument | null {
 		: null;
 }
 
-const STANDALONE_NUM_RE = /^[#№]\s*(\d+)\s*[.):\]]?$/;
-const STANDALONE_NUM_DOT_RE = /^(\d+)\s*[.):\]]$/;
-const INLINE_NUM_RE = /^[#№]?\s*(\d+)\s*[.):\]]\s+(\S.*)$/;
+interface NumberedQuestionMarker {
+	index: number;
+	value: number;
+	rest: string | null;
+	syntax: NumberedQuestionSyntaxProfile;
+}
+
+const PREFIXED_NUMBER_RE = /^([#№])\s*(\d+)\s*([.):\]]?)(?:\s+(\S.*))?$/;
+const BARE_NUMBER_RE = /^(\d+)\s*([.):\]])(?:\s+(\S.*))?$/;
+
+function scanNumberedQuestionMarker(text: string, index: number): NumberedQuestionMarker | null {
+	const prefixed = PREFIXED_NUMBER_RE.exec(text.trim());
+	if (prefixed) {
+		const rest = prefixed[4] ?? null;
+
+		return {
+			index,
+			value: Number(prefixed[2]),
+			rest,
+			syntax: {
+				family: prefixed[1] as '#' | '№',
+				terminator: prefixed[3] as NumberedQuestionMarkerTerminator,
+				placement: rest === null ? 'standalone' : 'inline'
+			}
+		};
+	}
+
+	const bare = BARE_NUMBER_RE.exec(text.trim());
+	if (!bare) return null;
+	const rest = bare[3] ?? null;
+
+	return {
+		index,
+		value: Number(bare[1]),
+		rest,
+		syntax: {
+			family: 'bare',
+			terminator: bare[2] as NumberedQuestionMarkerTerminator,
+			placement: rest === null ? 'standalone' : 'inline'
+		}
+	};
+}
+
+const numberedSyntaxKey = (syntax: NumberedQuestionSyntaxProfile): string =>
+	`${syntax.family}\u0000${syntax.terminator}\u0000${syntax.placement}`;
+
+function inferNumberedQuestionSyntax(
+	markers: NumberedQuestionMarker[]
+): { profile: NumberedQuestionSyntaxProfile; starters: NumberedQuestionMarker[] } | null {
+	const candidates = new Map<
+		string,
+		{ profile: NumberedQuestionSyntaxProfile; anchor: number; starters: NumberedQuestionMarker[] }
+	>();
+	for (let markerIndex = 0; markerIndex < markers.length; markerIndex++) {
+		const marker = markers[markerIndex];
+		if (marker.value !== 1) continue;
+		const key = numberedSyntaxKey(marker.syntax);
+		if (candidates.has(key)) continue;
+		const starters = markers
+			.slice(markerIndex)
+			.filter(current => numberedSyntaxKey(current.syntax) === key);
+		if (starters.length >= 2) {
+			candidates.set(key, { profile: marker.syntax, anchor: markerIndex, starters });
+		}
+	}
+	if (candidates.size === 0) return null;
+
+	const ranked = [...candidates.values()].sort(
+		(left, right) => right.starters.length - left.starters.length || left.anchor - right.anchor
+	);
+	const best = ranked[0];
+	const competingSupport = ranked
+		.slice(1)
+		.reduce((sum, current) => sum + current.starters.length, 0);
+	// Несколько сопоставимых форм не дают права выбрать первую по порядку.
+	if (best.starters.length <= competingSupport) return null;
+
+	return { profile: best.profile, starters: best.starters };
+}
 
 /**
  * Схема «нумераторная»: вопросы открываются номером-меткой («#1», «2.»,
@@ -883,21 +973,14 @@ const INLINE_NUM_RE = /^[#№]?\s*(\d+)\s*[.):\]]\s+(\S.*)$/;
  * структурно это всё равно очередная метка вопроса.
  */
 function tryNumberedScheme(lines: DocLine[]): SegmentedDocument | null {
-	const markers: { index: number; value: number; rest: string | null }[] = [];
-	for (let i = 0; i < lines.length; i++) {
-		const t = lines[i].text.trim();
-		const standalone = STANDALONE_NUM_RE.exec(t) ?? STANDALONE_NUM_DOT_RE.exec(t);
-		if (standalone) {
-			markers.push({ index: i, value: Number(standalone[1]), rest: null });
-			continue;
-		}
-		const inline = INLINE_NUM_RE.exec(t);
-		if (inline) markers.push({ index: i, value: Number(inline[1]), rest: inline[2] });
-	}
-	const anchor = markers.findIndex(m => m.value === 1);
-	if (anchor < 0) return null;
-	const starters = markers.slice(anchor);
-	if (starters.length < 2) return null;
+	const markers = lines.flatMap((line, index) => {
+		const marker = scanNumberedQuestionMarker(line.text, index);
+
+		return marker ? [marker] : [];
+	});
+	const inferred = inferNumberedQuestionSyntax(markers);
+	if (!inferred) return null;
+	const { profile: questionSyntax, starters } = inferred;
 
 	const questions: RawQuestion[] = [];
 	for (let s = 0; s < starters.length; s++) {
@@ -953,7 +1036,10 @@ function tryNumberedScheme(lines: DocLine[]): SegmentedDocument | null {
 		}
 	}
 
-	return { questions, structure: { kind: 'numbered', options: syntax } };
+	return {
+		questions,
+		structure: { kind: 'numbered', question: questionSyntax, options: syntax }
+	};
 }
 
 /**

@@ -143,7 +143,84 @@ describe('document-level option syntax', () => {
 
 		expect(bracket?.structure.kind).toBe('bracket');
 		expect(twoPrefix?.structure).toMatchObject({ kind: 'two-prefix', questionPrefix: '?' });
-		expect(numbered?.structure.kind).toBe('numbered');
+		expect(numbered?.structure).toMatchObject({
+			kind: 'numbered',
+			question: { family: '#', terminator: '', placement: 'standalone' }
+		});
+	});
+
+	test('applies only the confirmed numbered question syntax', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const document = segmentQuestions([
+			numberedLine('#1', 30),
+			numberedLine('Question 1', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('2. literal numbered answer', 30),
+			numberedLine('Answer 3', 30),
+			numberedLine('#2', 30),
+			numberedLine('Question 2', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30)
+		]);
+
+		expect(document?.questions).toHaveLength(2);
+		expect(document?.questions[0].options.map(option => option.texts[0])).toEqual([
+			'Answer 1',
+			'2. literal numbered answer',
+			'Answer 3'
+		]);
+		expect(document?.structure).toMatchObject({
+			kind: 'numbered',
+			question: { family: '#', terminator: '', placement: 'standalone' }
+		});
+	});
+
+	test('supports a separately confirmed inline bare-number syntax', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const document = segmentQuestions([
+			numberedLine('1. Question 1', 30),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('2. Question 2', 30),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30)
+		]);
+
+		expect(document?.questions.map(question => question.texts)).toEqual([
+			['Question 1'],
+			['Question 2']
+		]);
+		expect(document?.structure).toMatchObject({
+			kind: 'numbered',
+			question: { family: 'bare', terminator: '.', placement: 'inline' }
+		});
+	});
+
+	test('does not choose between equally supported numbering syntaxes', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+
+		expect(
+			segmentQuestions([
+				numberedLine('#1', 30),
+				numberedLine('Hash question', 10),
+				numberedLine('Hash answer', 30),
+				numberedLine('#2', 30),
+				numberedLine('Hash question 2', 10),
+				numberedLine('1. Bare question', 30),
+				numberedLine('Bare answer', 30),
+				numberedLine('2. Bare question 2', 30),
+				numberedLine('Bare answer', 30)
+			])
+		).toBeNull();
 	});
 
 	test('does not treat standalone hash question numbers as a two-prefix option family', () => {

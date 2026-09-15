@@ -34,7 +34,11 @@ const question = (texts: string[], highlights: number[] = []): RawQuestion => ({
 function recognizeMarkerForTest(questions: RawQuestion[]) {
 	const recognized = recognizeDocumentSyntax({
 		questions,
-		structure: { kind: 'numbered', options: null }
+		structure: {
+			kind: 'numbered',
+			question: { family: '#', terminator: '', placement: 'standalone' },
+			options: null
+		}
 	});
 	if (!recognized) return { confirmed: false } as const;
 
