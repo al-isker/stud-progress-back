@@ -97,4 +97,43 @@ describe('document syntax profile', () => {
 		if (plus.type === 'matching') throw new Error('Unexpected matching question');
 		expect(plus.options[1].text).toBe('+wrong with plus');
 	});
+
+	test('uses a confirmed document marker as a veto for percentage answers', () => {
+		const document = segmentQuestions([
+			...question('Choice 1', ['=correct', '~wrong', '~also wrong']),
+			...question('Choice 2', ['~wrong', '=correct', '~also wrong']),
+			...question('Conflicting percentage', [
+				'~%100%percentage answer',
+				'=%0%document-marker answer',
+				'~%0%wrong'
+			])
+		]);
+		if (!document) throw new Error('Document was not segmented');
+
+		const recognized = recognizeDocumentSyntax(document);
+		if (!recognized) throw new Error('Document syntax was not recognized');
+
+		expect(recognized.questions[2]).toMatchObject({
+			kind: 'rejected',
+			reason: QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER
+		});
+	});
+
+	test('accepts a percentage answer when an active document marker agrees', () => {
+		const document = segmentQuestions([
+			...question('Choice 1', ['=correct', '~wrong', '~also wrong']),
+			...question('Choice 2', ['~wrong', '=correct', '~also wrong']),
+			...question('Agreeing percentage', ['=%100%agreed answer', '~%0%wrong', '~%0%also wrong'])
+		]);
+		if (!document) throw new Error('Document was not segmented');
+
+		const recognized = recognizeDocumentSyntax(document);
+		if (!recognized) throw new Error('Document syntax was not recognized');
+
+		expect(recognized.questions[2]).toMatchObject({
+			kind: 'choice',
+			grammar: 'percentage',
+			marked: [true, false, false]
+		});
+	});
 });

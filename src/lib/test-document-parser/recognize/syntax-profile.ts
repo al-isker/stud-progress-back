@@ -35,6 +35,7 @@ export interface RecognizedDocumentSyntax {
 }
 
 const hasStrictMajority = (count: number, total: number) => count > total / 2;
+const answerSetSignature = (marked: boolean[]) => marked.map(value => (value ? '1' : '0')).join('');
 
 function canBeOrdinaryEqualsQuestion(
 	question: RawQuestion,
@@ -74,11 +75,8 @@ export function recognizeDocumentSyntax(
 		.filter(({ questionIndex }) => !matchingCandidates[questionIndex])
 		.map(({ localIndex }) => localIndex);
 	const answerMarker = inferAnswerMarkerProfile(globalQuestions, evaluationIndices);
-	const appliedGlobal = new Map(
-		globalIndices.map((questionIndex, localIndex) => [
-			questionIndex,
-			answerMarker ? applyAnswerMarkerProfile(globalQuestions[localIndex], answerMarker) : null
-		])
+	const appliedDocumentMarker = questions.map(question =>
+		answerMarker ? applyAnswerMarkerProfile(question, answerMarker) : null
 	);
 	const ordinaryEqualsQuestions = questions.map((question, questionIndex) =>
 		isOrdinaryEqualsQuestion(question, percentageSyntax[questionIndex], answerMarker)
@@ -108,6 +106,20 @@ export function recognizeDocumentSyntax(
 
 		const percentage = percentageSyntax[questionIndex];
 		if (percentage.kind === 'resolved') {
+			const applied = appliedDocumentMarker[questionIndex];
+			const documentMarkerIsActive = applied?.marked.some(Boolean) ?? false;
+			if (
+				applied?.ambiguous ||
+				(documentMarkerIsActive &&
+					answerSetSignature(applied.marked) !== answerSetSignature(percentage.marked))
+			) {
+				return {
+					kind: 'rejected',
+					reason: QuestionRejectionReason.AMBIGUOUS_ANSWER_MARKER,
+					consumedTextPrefixes: percentage.consumedTextPrefixes
+				};
+			}
+
 			return {
 				kind: 'choice',
 				grammar: 'percentage',
@@ -141,7 +153,7 @@ export function recognizeDocumentSyntax(
 			};
 		}
 
-		const applied = appliedGlobal.get(questionIndex);
+		const applied = appliedDocumentMarker[questionIndex];
 		const consumedTextPrefixes = applied?.consumedTextPrefixes ?? emptyPrefixes;
 		if (applied?.ambiguous) {
 			return {

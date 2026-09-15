@@ -99,38 +99,6 @@
 				]
 			},
 			{
-				"index": 4,
-				"text": "В составе рыхлой соединительной ткани имеются:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "пневмоциты",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "перициты",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "альвеолоциты",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "фибробласты",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "макрофаги",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 5,
 				"text": "Для перицитов рыхлой соединительной ткани характерно:",
 				"type": "multiple",
@@ -227,38 +195,6 @@
 				]
 			},
 			{
-				"index": 8,
-				"text": "Для фибробластов характерно:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "форма кубическая",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "форма веретенообразная отросчатая",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "цитоплазма оксифилная",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "базофильная",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "цитоплазма имеет две зоны",
-						"isCorrect": true
-					}
-				]
-			},
-			{
 				"index": 9,
 				"text": "Фибробласты выполняют функции:",
 				"type": "multiple",
@@ -319,38 +255,6 @@
 						"index": 5,
 						"text": "слабо оксифильная",
 						"isCorrect": false
-					}
-				]
-			},
-			{
-				"index": 11,
-				"text": "Для тучных клеток характерно:",
-				"type": "multiple",
-				"options": [
-					{
-						"index": 1,
-						"text": "в цитоплазме нет гранул",
-						"isCorrect": true
-					},
-					{
-						"index": 2,
-						"text": "мало специфических гранул",
-						"isCorrect": true
-					},
-					{
-						"index": 3,
-						"text": "много специфических гранул",
-						"isCorrect": true
-					},
-					{
-						"index": 4,
-						"text": "в гранулах много гистамина",
-						"isCorrect": true
-					},
-					{
-						"index": 5,
-						"text": "в гранулах много гепарина",
-						"isCorrect": true
 					}
 				]
 			},
@@ -1713,6 +1617,22 @@
 		]
 	},
 	"issues": {
-		"rejectedQuestions": []
+		"rejectedQuestions": [
+			{
+				"index": 4,
+				"text": "В составе рыхлой соединительной ткани имеются:",
+				"reason": "AMBIGUOUS_ANSWER_MARKER"
+			},
+			{
+				"index": 8,
+				"text": "Для фибробластов характерно:",
+				"reason": "AMBIGUOUS_ANSWER_MARKER"
+			},
+			{
+				"index": 11,
+				"text": "Для тучных клеток характерно:",
+				"reason": "AMBIGUOUS_ANSWER_MARKER"
+			}
+		]
 	}
 }
