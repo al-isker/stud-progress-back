@@ -6,109 +6,15 @@ import {
 } from '../types/parse-result';
 import { Question } from '../types/test-document';
 import { parseMatchingPairs } from './matching';
-import { DocumentStructureProfile, RawOption, RawQuestion, SegmentedDocument } from './segment';
+import {
+	containsDuplicateOptions,
+	containsDuplicatedTwoPrefixSyntax,
+	containsMachineMetadata,
+	containsOptionSyntaxInQuestionText,
+	materializeQuestionContent
+} from './question-content';
+import { SegmentedDocument } from './segment';
 import { QuestionSyntaxResult } from './syntax-profile';
-
-/**
- * Склеивает строки варианта/вопроса. Только мягкий перенос `U+00AD` является
- * однозначным указанием объединить части слова без дефиса. Любая видимая
- * чёрточка сохраняется; в остальных случаях строки разделяются пробелом.
- */
-function normalize(parts: string[]): string {
-	let out = '';
-	for (const raw of parts) {
-		const part = raw.trim();
-		if (part === '') continue;
-		if (out === '') {
-			out = part;
-			continue;
-		}
-		if (out.endsWith('\u00ad')) {
-			out = out.slice(0, -1) + part;
-		} else if (/[-‐‑]$/.test(out)) {
-			const separated = /\s[-‐‑]$/.test(out);
-			out += separated && !/^\d/.test(part) ? ` ${part}` : part;
-		} else if (/^[-‐‑](?=\p{L})/u.test(part)) {
-			// Видимая чёрточка является частью авторского текста.
-			out += part;
-		} else {
-			out += ` ${part}`;
-		}
-	}
-
-	return out.replace(/\s+/g, ' ').trim();
-}
-
-/**
- * Удаляет из первой строки только точный служебный префикс, подтверждённый
- * выбранной стратегией маркера. Остальные начальные символы являются частью
- * ответа (`=%` → `%`, если `%` не был подтверждён как маркер).
- */
-function optionTextParts(option: RawOption, consumedTextPrefix: string | null): string[] {
-	const parts = [...option.texts];
-	if (consumedTextPrefix && parts[0]?.startsWith(consumedTextPrefix)) {
-		parts[0] = parts[0].slice(consumedTextPrefix.length).trimStart();
-	}
-
-	return parts;
-}
-
-const MACHINE_METADATA_RE = /(?:^|\s)@MDID\s*\{[0-9A-F-]+\}/iu;
-
-function containsMachineMetadata(question: RawQuestion): boolean {
-	return [...question.texts, ...question.options.flatMap(option => option.texts)].some(part =>
-		MACHINE_METADATA_RE.test(part)
-	);
-}
-
-function containsDuplicatedTwoPrefixSyntax(
-	question: RawQuestion,
-	questionText: string,
-	consumedTextPrefixes: (string | null)[],
-	structure: DocumentStructureProfile
-): boolean {
-	if (structure.kind !== 'two-prefix' || !questionText.startsWith(structure.questionPrefix)) {
-		return false;
-	}
-	const duplicatedOptions = question.options.filter((option, index) => {
-		if (!option.structuralPrefix) return false;
-		const text = normalize(optionTextParts(option, consumedTextPrefixes[index] ?? null));
-
-		return text.startsWith(option.structuralPrefix);
-	}).length;
-
-	return duplicatedOptions >= 2;
-}
-
-function containsDuplicateOptions(options: { text: string }[]): boolean {
-	const normalized = options.map(option => option.text.toLocaleLowerCase());
-
-	return new Set(normalized).size !== normalized.length;
-}
-
-function optionPrefixes(structure: DocumentStructureProfile): Set<string> {
-	return new Set(structure.options?.prefixByFamily.values() ?? []);
-}
-
-function containsOptionSyntaxInQuestionText(
-	question: RawQuestion,
-	structure: DocumentStructureProfile
-): boolean {
-	const structuralPrefixes = optionPrefixes(structure);
-	const prefixed = question.texts.map(text =>
-		[...structuralPrefixes].some(prefix => text.trimStart().startsWith(prefix))
-	);
-	for (let start = 0; start < prefixed.length; start++) {
-		if (!prefixed[start]) continue;
-		let end = start;
-		while (end + 1 < prefixed.length && prefixed[end + 1]) end++;
-		const followedByQuestionText = prefixed.slice(end + 1).some(value => !value);
-		if (followedByQuestionText && (start === 0 || end - start + 1 >= 2)) return true;
-		start = end;
-	}
-
-	return false;
-}
 
 /**
  * Собирает принятый документ. Matching-вопросы не требуют указателя правильного
@@ -134,10 +40,10 @@ export function assembleTestDocument(
 	for (let qi = 0; qi < raw.length; qi++) {
 		const syntax = syntaxResults[qi];
 		const consumedTextPrefixes = syntax?.consumedTextPrefixes ?? raw[qi].options.map(() => null);
-		const text = normalize(raw[qi].texts);
-		const options = raw[qi].options.map((option, oi) => ({
-			index: oi + 1,
-			text: normalize(optionTextParts(option, consumedTextPrefixes[oi] ?? null)),
+		const content = materializeQuestionContent(raw[qi], consumedTextPrefixes);
+		const { text } = content;
+		const options = content.options.map((option, oi) => ({
+			...option,
 			isCorrect: syntax?.kind === 'choice' ? syntax.marked[oi] : false
 		}));
 

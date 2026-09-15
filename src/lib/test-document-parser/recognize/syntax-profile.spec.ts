@@ -39,8 +39,7 @@ describe('document syntax profile', () => {
 
 		expect(recognized.profile).toMatchObject({
 			structure: { kind: 'bracket' },
-			answerMarker: { symbolPrefix: '=' },
-			localGrammars: { percentage: true, matching: true }
+			answerMarker: { symbolPrefix: '=' }
 		});
 		expect(recognized.questions.map(result => result.kind)).toEqual([
 			'choice',
@@ -135,5 +134,40 @@ describe('document syntax profile', () => {
 			grammar: 'percentage',
 			marked: [true, false, false]
 		});
+	});
+
+	test('does not let questions with duplicate options define the document marker', () => {
+		const document = segmentQuestions([
+			...question('Valid 1', ['=+correct', '=wrong', '=also wrong']),
+			...question('Valid 2', ['=wrong', '=+correct', '=also wrong']),
+			...question('Duplicate 1', ['=same', '=same', '=other']),
+			...question('Duplicate 2', ['=same', '=same', '=other']),
+			...question('Duplicate 3', ['=same', '=same', '=other'])
+		]);
+		if (!document) throw new Error('Document was not segmented');
+		for (let questionIndex = 2; questionIndex < 5; questionIndex++) {
+			document.questions[questionIndex].options[0].lines[0].highlightFrac = 1;
+		}
+
+		const recognized = recognizeDocumentSyntax(document);
+		if (!recognized) throw new Error('Document syntax was not recognized');
+
+		expect(recognized.profile.answerMarker).toMatchObject({
+			symbolPrefix: '=+',
+			signals: [{ kind: 'symbol', prefix: '=+' }]
+		});
+		expect(recognized.questions.map(result => result.kind)).toEqual([
+			'choice',
+			'choice',
+			'rejected',
+			'rejected',
+			'rejected'
+		]);
+		for (const result of recognized.questions.slice(2)) {
+			expect(result).toMatchObject({
+				kind: 'rejected',
+				reason: QuestionRejectionReason.DUPLICATE_OPTIONS
+			});
+		}
 	});
 });

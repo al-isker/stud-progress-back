@@ -4,16 +4,16 @@ import type { AnswerMarkerProfile } from './detect-marker';
 import { analyzePercentageSyntax, isOrdinaryEqualsQuestion } from './detect-percentage-marker';
 import type { PercentageSyntaxAnalysis } from './detect-percentage-marker';
 import { hasMatchingMarkerPattern, isMatchingCandidate } from './matching';
+import {
+	profileDependentRejectionReason,
+	profileIndependentRejectionReason
+} from './question-content';
 import { DocumentStructureProfile, RawQuestion, SegmentedDocument } from './segment';
 
 /** Полный подтверждённый синтаксис одного документа. */
 export interface DocumentSyntaxProfile {
 	structure: DocumentStructureProfile;
 	answerMarker: AnswerMarkerProfile | null;
-	localGrammars: {
-		percentage: boolean;
-		matching: boolean;
-	};
 }
 
 interface RecognizedBase {
@@ -60,32 +60,76 @@ export function recognizeDocumentSyntax(
 	const { questions } = document;
 	const percentageSyntax = questions.map(analyzePercentageSyntax);
 	const matchingCandidates = questions.map(isMatchingCandidate);
-	const globalIndices = questions.flatMap((question, questionIndex) => {
-		if (question.rejectionReason || question.options.length < 2) return [];
+	const contentRejections = new Map<number, QuestionRejectionReason>();
+	for (let questionIndex = 0; questionIndex < questions.length; questionIndex++) {
+		const reason = profileIndependentRejectionReason(questions[questionIndex], document.structure);
+		if (reason) contentRejections.set(questionIndex, reason);
+	}
+	const globalCandidateIndices = questions.flatMap((question, questionIndex) => {
+		if (contentRejections.has(questionIndex) || question.options.length < 2) return [];
 		const percentage = percentageSyntax[questionIndex];
 
 		return percentage.kind === 'none' || canBeOrdinaryEqualsQuestion(question, percentage)
 			? [questionIndex]
 			: [];
 	});
-	const globalQuestions = globalIndices.map(questionIndex => questions[questionIndex]);
-	const globalIndexSet = new Set(globalIndices);
-	const evaluationIndices = globalIndices
-		.map((questionIndex, localIndex) => ({ questionIndex, localIndex }))
-		.filter(({ questionIndex }) => !matchingCandidates[questionIndex])
-		.map(({ localIndex }) => localIndex);
-	const answerMarker = inferAnswerMarkerProfile(globalQuestions, evaluationIndices);
-	const appliedDocumentMarker = questions.map(question =>
-		answerMarker ? applyAnswerMarkerProfile(question, answerMarker) : null
+	let globalIndices = [...globalCandidateIndices];
+	let answerMarker: AnswerMarkerProfile | null = null;
+	let appliedDocumentMarker = questions.map(
+		() => null as ReturnType<typeof applyAnswerMarkerProfile> | null
 	);
+	while (true) {
+		const globalQuestions = globalIndices.map(questionIndex => questions[questionIndex]);
+		const evaluationIndices = globalIndices
+			.map((questionIndex, localIndex) => ({ questionIndex, localIndex }))
+			.filter(({ questionIndex }) => !matchingCandidates[questionIndex])
+			.map(({ localIndex }) => localIndex);
+		answerMarker = inferAnswerMarkerProfile(globalQuestions, evaluationIndices);
+		appliedDocumentMarker = questions.map(question =>
+			answerMarker ? applyAnswerMarkerProfile(question, answerMarker) : null
+		);
+
+		let foundNewRejection = false;
+		for (const questionIndex of globalIndices) {
+			const reason = profileDependentRejectionReason(
+				questions[questionIndex],
+				document.structure,
+				appliedDocumentMarker[questionIndex]?.consumedTextPrefixes ??
+					questions[questionIndex].options.map(() => null)
+			);
+			if (!reason) continue;
+			contentRejections.set(questionIndex, reason);
+			foundNewRejection = true;
+		}
+		if (!foundNewRejection) break;
+		globalIndices = globalCandidateIndices.filter(index => !contentRejections.has(index));
+	}
+	const globalIndexSet = new Set(globalIndices);
 	const ordinaryEqualsQuestions = questions.map((question, questionIndex) =>
 		isOrdinaryEqualsQuestion(question, percentageSyntax[questionIndex], answerMarker)
 	);
+	// Локальные грамматики не переобучают основной marker, но обязаны пройти те
+	// же инварианты контента и не могут искусственно повышать confidence документа.
+	for (let questionIndex = 0; questionIndex < questions.length; questionIndex++) {
+		if (contentRejections.has(questionIndex) || globalIndexSet.has(questionIndex)) continue;
+		const percentage = percentageSyntax[questionIndex];
+		const consumedTextPrefixes =
+			percentage.kind !== 'none' && !ordinaryEqualsQuestions[questionIndex]
+				? percentage.consumedTextPrefixes
+				: (appliedDocumentMarker[questionIndex]?.consumedTextPrefixes ??
+					questions[questionIndex].options.map(() => null));
+		const reason = profileDependentRejectionReason(
+			questions[questionIndex],
+			document.structure,
+			consumedTextPrefixes
+		);
+		if (reason) contentRejections.set(questionIndex, reason);
+	}
 
 	const answerableIndices = questions
 		.map((question, index) => ({ question, index }))
 		.filter(({ question, index }) => {
-			if (question.rejectionReason || question.options.length === 0) return false;
+			if (contentRejections.has(index) || question.options.length === 0) return false;
 			const percentage = percentageSyntax[index];
 			if (percentage.kind === 'resolved' || percentage.kind === 'unresolved') return true;
 
@@ -96,11 +140,13 @@ export function recognizeDocumentSyntax(
 
 	const syntaxResults: QuestionSyntaxResult[] = questions.map((question, questionIndex) => {
 		const emptyPrefixes = question.options.map(() => null);
-		if (question.rejectionReason) {
+		const contentRejection = contentRejections.get(questionIndex);
+		if (contentRejection) {
 			return {
 				kind: 'rejected',
-				reason: question.rejectionReason,
-				consumedTextPrefixes: emptyPrefixes
+				reason: contentRejection,
+				consumedTextPrefixes:
+					appliedDocumentMarker[questionIndex]?.consumedTextPrefixes ?? emptyPrefixes
 			};
 		}
 
@@ -187,14 +233,7 @@ export function recognizeDocumentSyntax(
 	return {
 		profile: {
 			structure: document.structure,
-			answerMarker,
-			localGrammars: {
-				percentage: percentageSyntax.some(
-					(percentage, questionIndex) =>
-						percentage.kind !== 'none' && !ordinaryEqualsQuestions[questionIndex]
-				),
-				matching: matchingCandidates.some(Boolean)
-			}
+			answerMarker
 		},
 		questions: syntaxResults
 	};
