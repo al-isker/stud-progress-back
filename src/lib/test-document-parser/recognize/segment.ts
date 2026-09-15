@@ -850,21 +850,19 @@ function tryTwoPrefixScheme(lines: DocLine[]): SegmentedDocument | null {
 			}
 			current.options.push(option);
 			mode = 'option';
-		} else if (current && mode !== 'none' && !isParagraphStart(line)) {
-			if (mode === 'question') {
-				const inline = splitInlineDecoratedOption(line.text.trim(), line, optionSyntax);
-				if (inline) {
-					current.texts.push(inline.questionText);
-					current.options.push(inline.option);
-					mode = 'option';
-				} else {
-					current.texts.push(line.text.trim());
-				}
+		} else if (current && mode === 'question') {
+			const inline = splitInlineDecoratedOption(line.text.trim(), line, optionSyntax);
+			if (inline) {
+				current.texts.push(inline.questionText);
+				current.options.push(inline.option);
+				mode = 'option';
 			} else {
-				const option = current.options[current.options.length - 1];
-				option.texts.push(line.text.trim());
-				option.lines.push(line);
+				current.texts.push(line.text.trim());
 			}
+		} else if (current && mode === 'option' && !isParagraphStart(line)) {
+			const option = current.options[current.options.length - 1];
+			option.texts.push(line.text.trim());
+			option.lines.push(line);
 		} else {
 			mode = 'none';
 		}

@@ -258,6 +258,72 @@ describe('document-level option syntax', () => {
 		]);
 	});
 
+	test('keeps a two-prefix question stem across a page boundary', () => {
+		const document = segmentQuestions([
+			{ ...line('?First stem line'), page: 1, y: 40 },
+			{ ...line('second stem line'), page: 2, y: 700, gapBefore: null },
+			{ ...line('!+correct'), page: 2 },
+			{ ...line('!wrong'), page: 2 },
+			{ ...line('?Control question'), page: 2, gapBefore: 30 },
+			{ ...line('!wrong'), page: 2 },
+			{ ...line('!+correct'), page: 2 }
+		]);
+
+		expect(document?.questions[0]).toMatchObject({
+			texts: ['First stem line', 'second stem line']
+		});
+		expect(document?.questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test('keeps a compatible two-prefix stem line after a paragraph gap', () => {
+		const document = segmentQuestions([
+			line('?First stem line'),
+			{ ...line('second stem line'), gapBefore: 30 },
+			line('!+correct'),
+			line('!wrong'),
+			line('?Control question'),
+			line('!wrong'),
+			line('!+correct')
+		]);
+
+		expect(document?.questions[0]).toMatchObject({
+			texts: ['First stem line', 'second stem line']
+		});
+		expect(document?.questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test('keeps a styled line owned by a two-prefix question stem', () => {
+		const document = segmentQuestions([
+			line('?Question stem'),
+			{ ...line('foreign visual block'), size: 16, boldFrac: 1, gapBefore: 30 },
+			line('!+correct'),
+			line('!wrong'),
+			line('?Control question'),
+			line('!wrong'),
+			line('!+correct')
+		]);
+
+		expect(document?.questions[0]).toMatchObject({
+			texts: ['Question stem', 'foreign visual block']
+		});
+		expect(document?.questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test('does not attach a new paragraph after two-prefix options', () => {
+		const document = segmentQuestions([
+			line('?Question 1'),
+			line('!+correct'),
+			line('!wrong'),
+			{ ...line('Section heading'), size: 16, boldFrac: 1, gapBefore: 30 },
+			line('?Question 2'),
+			line('!wrong'),
+			line('!+correct')
+		]);
+
+		expect(document?.questions[0].options[1].texts).toEqual(['wrong']);
+		expect(document?.questions[1].texts).toEqual(['Question 2']);
+	});
+
 	test('recognizes numbered questions after 999', () => {
 		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
 			...line(text),
