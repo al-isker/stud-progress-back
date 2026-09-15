@@ -1,9 +1,15 @@
+import { HighlightSourceKind } from '../types/document-model';
 import { RawOption, RawQuestion } from './segment';
 
 /** Один подтверждаемый документный способ выделения правильного варианта. */
 export type AnswerMarkerSignal =
 	| { kind: 'symbol'; prefix: string }
-	| { kind: 'highlight'; minimumSpanEm: number }
+	| {
+			kind: 'highlight';
+			minimumSpanEm: number;
+			/** null — legacy IR без идентичности источников; иначе подтверждённые виды. */
+			sourceKinds: HighlightSourceKind[] | null;
+	  }
 	| { kind: 'bold'; threshold: number }
 	| { kind: 'italic'; threshold: number }
 	| { kind: 'color'; value: string };
@@ -51,7 +57,13 @@ interface OptionStyle {
 	/** Покрытие варианта каждым самостоятельным визуальным маркером. */
 	highlightSources: Map<
 		string,
-		{ spanEm: number; coverage: number; visibleSpanEm: number; visibleCoverage: number }
+		{
+			kind: HighlightSourceKind;
+			spanEm: number;
+			coverage: number;
+			visibleSpanEm: number;
+			visibleCoverage: number;
+		}
 	>;
 	/** Экстрактор гарантировал идентичность каждого визуального источника. */
 	highlightSourcesKnown: boolean;
@@ -69,7 +81,13 @@ function styleOf(option: RawOption): OptionStyle {
 	let highlightVisibleCoverage = 0;
 	const highlightSources = new Map<
 		string,
-		{ spanEm: number; coverage: number; visibleSpanEm: number; visibleCoverage: number }
+		{
+			kind: HighlightSourceKind;
+			spanEm: number;
+			coverage: number;
+			visibleSpanEm: number;
+			visibleCoverage: number;
+		}
 	>();
 	let highlightAmbiguous = false;
 	let bold = 0;
@@ -89,7 +107,16 @@ function styleOf(option: RawOption): OptionStyle {
 		);
 		highlightVisibleCoverage = Math.max(highlightVisibleCoverage, lineVisibleFraction);
 		for (const source of line.highlightSources ?? []) {
+			const sourceKindFromId = source.id.split(':')[1];
+			const kind =
+				source.kind ??
+				(sourceKindFromId === 'annotation' ||
+				sourceKindFromId === 'image' ||
+				sourceKindFromId === 'path'
+					? sourceKindFromId
+					: 'unknown');
 			const current = highlightSources.get(source.id) ?? {
+				kind,
 				spanEm: 0,
 				coverage: 0,
 				visibleSpanEm: 0,
@@ -156,7 +183,11 @@ function markByPredicate(
  * пересечение между уровнем геометрического шума и достаточным маркером нельзя
  * однозначно классифицировать — весь вопрос помечается неоднозначным.
  */
-function markByHighlight(styles: OptionStyle[][], minimumSpanEm: number): SignalMarking {
+function markByHighlight(
+	styles: OptionStyle[][],
+	minimumSpanEm: number,
+	sourceKinds: HighlightSourceKind[] | null
+): SignalMarking {
 	// Половина em соответствует примерно ширине одного обычного глифа. Только
 	// почти полное покрытие короткого узкого ответа (например «I») компенсирует
 	// меньшую физическую длину. Между субглифовым затёком и достаточным маркером
@@ -177,23 +208,34 @@ function markByHighlight(styles: OptionStyle[][], minimumSpanEm: number): Signal
 	// набору доказывает только устойчивое покрытие большей части каждого варианта.
 	// Относительная доля не зависит от кегля, DPI и абсолютной геометрии PDF.
 	const clearlyOwnsSharedSource = (coverage: number) => coverage > 0.5;
+	const includesSource = (kind: HighlightSourceKind) =>
+		sourceKinds === null || sourceKinds.includes(kind);
+	const relevantSources = (style: OptionStyle) =>
+		[...style.highlightSources].filter(([, evidence]) => includesSource(evidence.kind));
 	const hasDecisiveSource = (style: OptionStyle) =>
-		[...style.highlightSources.values()].some(evidence =>
+		relevantSources(style).some(([, evidence]) =>
 			isMarkedEvidence(evidence.spanEm, evidence.coverage)
 		);
 	const isMarked = (style: OptionStyle) =>
-		style.highlightSourcesKnown
+		style.highlightSourcesKnown && sourceKinds !== null
 			? hasDecisiveSource(style)
 			: isMarkedEvidence(style.highlightSpanEm, style.highlightCoverage);
-	const isVisible = (style: OptionStyle) =>
-		isVisibleEvidence(style.highlightVisibleSpanEm, style.highlightVisibleCoverage);
+	const isVisible = (style: OptionStyle) => {
+		if (!style.highlightSourcesKnown || sourceKinds === null) {
+			return isVisibleEvidence(style.highlightVisibleSpanEm, style.highlightVisibleCoverage);
+		}
+
+		return relevantSources(style).some(([, evidence]) =>
+			isVisibleEvidence(evidence.visibleSpanEm, evidence.visibleCoverage)
+		);
+	};
 
 	return {
 		sets: styles.map(qs => qs.map(isMarked)),
 		ambiguous: styles.map(qs => {
 			const owners = new Map<string, Set<number>>();
 			for (let optionIndex = 0; optionIndex < qs.length; optionIndex++) {
-				for (const [sourceId, evidence] of qs[optionIndex].highlightSources) {
+				for (const [sourceId, evidence] of relevantSources(qs[optionIndex])) {
 					if (!isMarkedEvidence(evidence.spanEm, evidence.coverage)) continue;
 					const sourceOwners = owners.get(sourceId) ?? new Set<number>();
 					sourceOwners.add(optionIndex);
@@ -224,7 +266,7 @@ function markByHighlight(styles: OptionStyle[][], minimumSpanEm: number): Signal
 				// Малый хвост уже однозначно назначенного соседнего маркера — не
 				// самостоятельная пометка. Без точной идентичности источника такое
 				// пересечение остаётся неоднозначным.
-				const visibleSources = [...style.highlightSources].filter(([, evidence]) =>
+				const visibleSources = relevantSources(style).filter(([, evidence]) =>
 					isVisibleEvidence(evidence.visibleSpanEm, evidence.visibleCoverage)
 				);
 				const explainedSpill =
@@ -302,7 +344,7 @@ function markBySignal(styles: OptionStyle[][], signal: AnswerMarkerSignal): Sign
 				style => style.sourcePrefix !== null && style.sourcePrefix.startsWith(signal.prefix)
 			);
 		case 'highlight':
-			return markByHighlight(styles, signal.minimumSpanEm);
+			return markByHighlight(styles, signal.minimumSpanEm, signal.sourceKinds);
 		case 'bold':
 			return markByPredicate(styles, style => style.bold >= signal.threshold);
 		case 'italic':
@@ -321,8 +363,9 @@ const questionSignature = (qs: boolean[]) => qs.map(b => (b ? '1' : '0')).join('
  * конфликтуют, вопрос принимается только при совместном согласии. Более слабый
  * подтверждённый признак не выбирает ответ самостоятельно, но запрещает принять
  * локальный конфликт. Для условных признаков оформления сохраняется защита от
- * комплементарного большинства; у фонового выделения направление однозначно,
- * поэтому оно может отмечать любую долю вариантов, включая все варианты.
+ * комплементарного большинства. Фоновое выделение подтверждается только там,
+ * где оно различает варианты; после подтверждения отдельный вопрос может иметь
+ * выделенными и все варианты.
  */
 export function inferAnswerMarkerProfile(
 	questions: RawQuestion[],
@@ -333,6 +376,8 @@ export function inferAnswerMarkerProfile(
 
 	const symbolPrefixes = new Set<string>();
 	const colors = new Set<string>();
+	const highlightSourceKinds = new Set<HighlightSourceKind>();
+	let needsGenericHighlight = false;
 	for (const questionIndex of evaluationIndices) {
 		const qs = styles[questionIndex];
 		for (const s of qs) {
@@ -341,6 +386,10 @@ export function inferAnswerMarkerProfile(
 			}
 			if (s.sourcePrefix && s.hasTextAfterSourcePrefix) symbolPrefixes.add(s.sourcePrefix);
 			if (s.color) colors.add(s.color);
+			if (!s.highlightSourcesKnown) needsGenericHighlight = true;
+			for (const evidence of s.highlightSources.values()) {
+				highlightSourceKinds.add(evidence.kind);
+			}
 		}
 	}
 
@@ -349,8 +398,18 @@ export function inferAnswerMarkerProfile(
 		const signal: AnswerMarkerSignal = { kind: 'symbol', prefix: symbolPrefix };
 		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
 	}
+	for (const sourceKind of highlightSourceKinds) {
+		const signal: AnswerMarkerSignal = {
+			kind: 'highlight',
+			minimumSpanEm: 0.5,
+			sourceKinds: [sourceKind]
+		};
+		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
+	}
 	for (const signal of [
-		{ kind: 'highlight', minimumSpanEm: 0.5 },
+		...(needsGenericHighlight
+			? ([{ kind: 'highlight', minimumSpanEm: 0.5, sourceKinds: null }] as const)
+			: []),
 		{ kind: 'bold', threshold: 0.55 },
 		{ kind: 'italic', threshold: 0.55 }
 	] satisfies AnswerMarkerSignal[]) {
@@ -361,20 +420,18 @@ export function inferAnswerMarkerProfile(
 		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
 	}
 
-	// Фоновый маркер сам задаёт положительное направление: выделенные варианты
-	// и есть выбранные. Поэтому он не обязан отмечать меньшинство и может
-	// однозначно покрывать даже все варианты. Для условных сигналов оформления
-	// сохраняется защита от выбора комплементарного большинства.
-	const usable = candidates.filter(candidate =>
-		candidate.signal.kind === 'highlight'
-			? candidate.conforming >= 1
-			: candidate.coverage >= 1 && candidate.avgFraction <= 0.5
+	// Фоновый маркер сам задаёт положительное направление и не обязан отмечать
+	// меньшинство вариантов. Но профиль он подтверждает только вопросами, где
+	// реально различает 1..n-1 вариантов: сплошная декоративная заливка не marker.
+	// Для условных сигналов оформления сохраняется дополнительная защита от
+	// выбора комплементарного большинства.
+	const usable = candidates.filter(
+		candidate =>
+			candidate.coverage >= 1 &&
+			(candidate.signal.kind === 'highlight' || candidate.avgFraction <= 0.5)
 	);
 	const documentCandidates = usable.filter(candidate =>
-		hasStrictMajority(
-			candidate.signal.kind === 'highlight' ? candidate.conforming : candidate.coverage,
-			evaluationIndices.length
-		)
+		hasStrictMajority(candidate.coverage, evaluationIndices.length)
 	);
 	if (documentCandidates.length === 0) return null;
 	const explicitIndices = documentCandidates.flatMap((candidate, index) =>
@@ -568,6 +625,24 @@ export function applyAnswerMarkerProfile(
 	profile: AnswerMarkerProfile
 ): AppliedAnswerMarker {
 	const styles = [question.options.map(styleOf)];
+	const confirmedHighlightKinds = new Set(
+		profile.signals.flatMap(signal =>
+			signal.kind === 'highlight' && signal.sourceKinds !== null ? signal.sourceKinds : []
+		)
+	);
+	const hasGenericHighlight = profile.signals.some(
+		signal => signal.kind === 'highlight' && signal.sourceKinds === null
+	);
+	const hasForeignHighlightSource =
+		!hasGenericHighlight &&
+		confirmedHighlightKinds.size > 0 &&
+		styles[0].some(style =>
+			[...style.highlightSources.values()].some(
+				evidence =>
+					!confirmedHighlightKinds.has(evidence.kind) &&
+					(evidence.visibleSpanEm >= 0.125 || evidence.visibleCoverage >= 0.1)
+			)
+		);
 	const confirmedSymbols = question.options.map(option =>
 		confirmedSymbolMarker(option, profile.symbolPrefix)
 	);
@@ -606,6 +681,7 @@ export function applyAnswerMarkerProfile(
 		activeIndices.map(signalIndex => questionSignature(markings[signalIndex].sets[0]))
 	);
 	if (
+		hasForeignHighlightSource ||
 		markings.some(marking => marking.ambiguous[0]) ||
 		conflictingSelector ||
 		(activeIndices.length > 0 && (selectedSets.length === 0 || distinctActiveSets.size !== 1))

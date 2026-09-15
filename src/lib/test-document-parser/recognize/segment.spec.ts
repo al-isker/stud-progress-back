@@ -426,7 +426,7 @@ describe('document-level option syntax', () => {
 		);
 		if (!profile) throw new Error('Answer marker was not confirmed');
 
-		expect(profile.signals).toEqual([{ kind: 'highlight', minimumSpanEm: 0.5 }]);
+		expect(profile.signals).toEqual([{ kind: 'highlight', minimumSpanEm: 0.5, sourceKinds: null }]);
 		expect(questions.map(question => applyAnswerMarkerProfile(question, profile))).toEqual([
 			{
 				marked: [true, false, false],
@@ -497,7 +497,7 @@ describe('document-level option syntax', () => {
 		]);
 	});
 
-	test('allows background highlighting to select most or all options', () => {
+	test('allows background highlighting to select most or all options after confirmation', () => {
 		const questions = segment([
 			...bracketQuestion('Most selected', [
 				['=first', 1],
@@ -505,6 +505,7 @@ describe('document-level option syntax', () => {
 				['=third', 1],
 				['=wrong']
 			]),
+			...bracketQuestion('One selected', [['=first'], ['=second', 1], ['=third'], ['=fourth']]),
 			...bracketQuestion('All selected', [
 				['=first', 1],
 				['=second', 1],
@@ -517,8 +518,61 @@ describe('document-level option syntax', () => {
 
 		expect(marker.marked).toEqual([
 			[true, true, true, false],
+			[false, true, false, false],
 			[true, true, true, true]
 		]);
+	});
+
+	test('does not confirm decorative highlighting that never distinguishes an answer', () => {
+		const questions = segment([
+			...bracketQuestion('Decorated 1', [
+				['=first', 1],
+				['=second', 1],
+				['=third', 1]
+			]),
+			...bracketQuestion('Decorated 2', [
+				['=first', 1],
+				['=second', 1],
+				['=third', 1]
+			])
+		]);
+
+		expect(recognizeMarkerForTest(questions)).toEqual({ confirmed: false });
+	});
+
+	test('profiles the confirmed highlight source kind and rejects a foreign source', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct'], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct'], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=correct'], ['=foreign'], ['=wrong']])
+		]);
+		for (const question of questions) {
+			for (const option of question.options) option.lines[0].highlightSources = [];
+		}
+		questions[0].options[0].lines[0].highlightSources = [
+			{ id: '1:path:1:fill', kind: 'path', fraction: 1 }
+		];
+		questions[1].options[1].lines[0].highlightSources = [
+			{ id: '1:path:2:fill', kind: 'path', fraction: 1 }
+		];
+		questions[2].options[0].lines[0].highlightSources = [
+			{ id: '1:path:3:fill', kind: 'path', fraction: 1 }
+		];
+		questions[2].options[1].lines[0].highlightSources = [
+			{ id: '1:annotation:4:fill', kind: 'annotation', fraction: 1 }
+		];
+
+		const profile = inferAnswerMarkerProfile(
+			questions,
+			questions.map((_, index) => index)
+		);
+		expect(profile?.signals).toEqual([
+			{ kind: 'highlight', minimumSpanEm: 0.5, sourceKinds: ['path'] }
+		]);
+		expect(profile && applyAnswerMarkerProfile(questions[2], profile)).toMatchObject({
+			ambiguous: true,
+			marked: [false, false, false]
+		});
 	});
 
 	test('recognizes a fully highlighted answer narrower than a regular glyph', () => {
@@ -744,7 +798,7 @@ describe('document-level option syntax', () => {
 			signals: [
 				{ kind: 'symbol', prefix: '=+' },
 				{ kind: 'symbol', prefix: '=*' },
-				{ kind: 'highlight', minimumSpanEm: 0.5 }
+				{ kind: 'highlight', minimumSpanEm: 0.5, sourceKinds: null }
 			],
 			selectorGroups: [[0, 1], [2]],
 			symbolPrefix: null

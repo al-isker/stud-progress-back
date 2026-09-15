@@ -1,4 +1,4 @@
-import { DocLine } from '../types/document-model';
+import { DocLine, HighlightSourceKind } from '../types/document-model';
 import {
 	HighlightShape,
 	PdfBox,
@@ -1794,7 +1794,12 @@ function measureHighlight(
 ): {
 	fraction: number;
 	visibleFraction: number;
-	sources: Array<{ id: string; fraction: number; visibleFraction: number }>;
+	sources: Array<{
+		id: string;
+		kind: HighlightSourceKind;
+		fraction: number;
+		visibleFraction: number;
+	}>;
 	ambiguous: boolean;
 } {
 	const lineWidth = x1 - x0;
@@ -1863,11 +1868,16 @@ function measureHighlight(
 	// Один крайний sample внутри core ещё может принадлежать соседней строке.
 	// Для зоны неопределённости нужен след именно на середине высоты глифа.
 	const visibleFraction = (values: number[]) => values[Math.floor(rows / 2)];
+	const sourceKind = (id: string): HighlightSourceKind => {
+		const kind = id.split(':')[1];
+
+		return kind === 'annotation' || kind === 'image' || kind === 'path' ? kind : 'unknown';
+	};
 	const sourceFractions = [...sourceRows].flatMap(([id, values]) => {
 		const visible = visibleFraction(values);
 		const fraction = stableFraction(values);
 
-		return visible > 0 ? [{ id, fraction, visibleFraction: visible }] : [];
+		return visible > 0 ? [{ id, kind: sourceKind(id), fraction, visibleFraction: visible }] : [];
 	});
 	const uncertainWidth = visibleFraction(uncertainRowFractions) * lineWidth;
 	const ambiguous = uncertainWidth > Math.min(size * 0.25, lineWidth * 0.1);

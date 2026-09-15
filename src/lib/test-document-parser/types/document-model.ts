@@ -1,3 +1,13 @@
+export type HighlightSourceKind = 'annotation' | 'image' | 'path' | 'unknown';
+
+export interface HighlightSourceEvidence {
+	id: string;
+	/** Способ, которым самостоятельная область выделения записана в документе. */
+	kind?: HighlightSourceKind;
+	fraction: number;
+	visibleFraction?: number;
+}
+
 /**
  * Строка документа с визуальными атрибутами — внутреннее представление (IR),
  * с которым работает распознавание. Не зависит от исходного формата документа.
@@ -23,7 +33,7 @@ export interface DocLine {
 	/** Максимально видимая доля на одной высоте, включая нестабильные тонкие следы. */
 	highlightVisibleFrac?: number;
 	/** Вклад каждого самостоятельного визуального маркера в покрытие строки. */
-	highlightSources?: Array<{ id: string; fraction: number; visibleFraction?: number }>;
+	highlightSources?: HighlightSourceEvidence[];
 	/** Визуальная пометка пересекает строку, но её точную геометрию прочитать нельзя. */
 	highlightAmbiguous?: boolean;
 	/** Вертикальный зазор до предыдущей строки той же страницы (null для первой на странице). */
