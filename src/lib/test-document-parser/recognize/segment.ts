@@ -209,17 +209,6 @@ function splitInlineDecoratedOption(
 	return null;
 }
 
-/** Последний параграф из накопленного «хвоста» строк. */
-function lastParagraph(tail: DocLine[]): DocLine[] {
-	const paragraph: DocLine[] = [];
-	for (let i = tail.length - 1; i >= 0; i--) {
-		paragraph.unshift(tail[i]);
-		if (isParagraphStart(tail[i])) break;
-	}
-
-	return paragraph;
-}
-
 interface QuestionLead {
 	lines: DocLine[];
 	rejectionReason?: QuestionRejectionReason;
@@ -284,16 +273,22 @@ function questionLead(
 	tail: DocLine[],
 	opener: DocLine,
 	maximumGapRatio: number,
-	allowReadingFlowReindent: boolean
+	allowReadingFlowReindent: boolean,
+	openerHasInlineLead: boolean
 ): QuestionLead {
 	const lines: DocLine[] = [];
 	let next = opener;
 	for (let index = tail.length - 1; index >= 0; index--) {
 		const candidate = tail[index];
 		const readingFlowBoundary = continuesReadingFlow(candidate, next);
-		const compatibleAcrossReadingFlow = allowReadingFlowReindent
-			? hasCompatibleTypography(candidate, next) || hasCompatibleTypography(candidate, opener)
-			: hasCompatibleLineLayout(candidate, next) || hasCompatibleLineLayout(candidate, opener);
+		// У отдельной `{` нет текстового оформления: её шрифт не может опровергать
+		// принадлежность непосредственно предшествующей строки формулировке.
+		const delimiterOnlyBoundary = next === opener && !openerHasInlineLead;
+		const compatibleAcrossReadingFlow =
+			delimiterOnlyBoundary ||
+			(allowReadingFlowReindent
+				? hasCompatibleTypography(candidate, next) || hasCompatibleTypography(candidate, opener)
+				: hasCompatibleLineLayout(candidate, next) || hasCompatibleLineLayout(candidate, opener));
 		if (
 			hasNormalLineGap(candidate, next, maximumGapRatio) &&
 			(!readingFlowBoundary || compatibleAcrossReadingFlow)
@@ -538,21 +533,14 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 		const remaining = removeDetachedBoundaryDebris(outside);
 		const lastClose = remaining.findLastIndex(item => item.kind === 'close');
 		const tail = remaining.slice(lastClose + 1).filter(isOutsideText);
-		const needsStrictBoundaryCheck =
-			currentBlock.inlineLead !== '' ||
-			tail.some(item => item.afterBalancedClose) ||
-			tail.some(
-				(item, index) => index > 0 && continuesReadingFlow(tail[index - 1].line, item.line)
-			);
 		const leadLines = tail.map(item => item.line);
-		const lead = needsStrictBoundaryCheck
-			? questionLead(
-					leadLines,
-					currentBlock.opener,
-					maximumQuestionGapRatio,
-					allowReadingFlowReindent
-				)
-			: { lines: lastParagraph(leadLines) };
+		const lead = questionLead(
+			leadLines,
+			currentBlock.opener,
+			maximumQuestionGapRatio,
+			allowReadingFlowReindent,
+			currentBlock.inlineLead !== ''
+		);
 		const attachedToPreviousClose =
 			currentBlock.inlineLeadAfterBalancedClose ||
 			tail.some(item => item.afterBalancedClose && lead.lines.includes(item.line));

@@ -1325,6 +1325,21 @@ describe('document-level option syntax', () => {
 		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
 	});
 
+	test('never accepts only the last paragraph before a standalone opener', () => {
+		const questions = segment([
+			...bracketQuestion('Control question', [['=left'], ['=right']]),
+			{ ...line('First stem line'), gapBefore: 30 },
+			{ ...line('second stem line'), gapBefore: 30 },
+			line('{'),
+			line('=left->right'),
+			line('=other->pair'),
+			line('}')
+		]);
+
+		expect(questions[1].texts).toEqual(['First stem line', 'second stem line']);
+		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
 	test('keeps a visually compatible question block across a page boundary', () => {
 		const firstLine = {
 			...line('First question line'),
@@ -1398,6 +1413,20 @@ describe('document-level option syntax', () => {
 		]);
 
 		expect(questions[0].texts).toEqual(['First question line', 'Second question line']);
+		expect(questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test('keeps one styled question line before a standalone opener on the next page', () => {
+		const questions = segment([
+			{ ...line('Question line'), page: 1, y: 40, boldFrac: 1, gapBefore: 30 },
+			{ ...line('{'), page: 2, y: 700, gapBefore: null },
+			{ ...line('=correct'), page: 2 },
+			{ ...line('~wrong'), page: 2 },
+			{ ...line('}'), page: 2 },
+			...bracketQuestion('Control question', [['=correct'], ['~wrong']])
+		]);
+
+		expect(questions[0].texts).toEqual(['Question line']);
 		expect(questions[0].rejectionReason).toBeUndefined();
 	});
 
