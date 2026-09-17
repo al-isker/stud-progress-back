@@ -212,22 +212,29 @@ function markByHighlight(
 		sourceKinds === null || sourceKinds.includes(kind);
 	const relevantSources = (style: OptionStyle) =>
 		[...style.highlightSources].filter(([, evidence]) => includesSource(evidence.kind));
+	const hasCombinedVisibleEvidence = (sources: ReturnType<typeof relevantSources>): boolean => {
+		const spanEm = sources.reduce((sum, [, evidence]) => sum + evidence.visibleSpanEm, 0);
+		const coverage = Math.min(
+			1,
+			sources.reduce((sum, [, evidence]) => sum + evidence.visibleCoverage, 0)
+		);
+
+		return isVisibleEvidence(spanEm, coverage);
+	};
 	const hasDecisiveSource = (style: OptionStyle) =>
 		relevantSources(style).some(([, evidence]) =>
 			isMarkedEvidence(evidence.spanEm, evidence.coverage)
 		);
 	const isMarked = (style: OptionStyle) =>
-		style.highlightSourcesKnown && sourceKinds !== null
-			? hasDecisiveSource(style)
-			: isMarkedEvidence(style.highlightSpanEm, style.highlightCoverage);
+		sourceKinds === null
+			? isMarkedEvidence(style.highlightSpanEm, style.highlightCoverage)
+			: style.highlightSourcesKnown && hasDecisiveSource(style);
 	const isVisible = (style: OptionStyle) => {
 		if (!style.highlightSourcesKnown || sourceKinds === null) {
 			return isVisibleEvidence(style.highlightVisibleSpanEm, style.highlightVisibleCoverage);
 		}
 
-		return relevantSources(style).some(([, evidence]) =>
-			isVisibleEvidence(evidence.visibleSpanEm, evidence.visibleCoverage)
-		);
+		return hasCombinedVisibleEvidence(relevantSources(style));
 	};
 
 	return {
@@ -262,26 +269,25 @@ function markByHighlight(
 
 			for (let optionIndex = 0; optionIndex < qs.length; optionIndex++) {
 				const style = qs[optionIndex];
-				if (!isVisible(style) || isMarked(style)) continue;
+				if (isMarked(style)) continue;
+				if (!style.highlightSourcesKnown || sourceKinds === null) {
+					if (isVisible(style)) return true;
+					continue;
+				}
 				// Малый хвост уже однозначно назначенного соседнего маркера — не
-				// самостоятельная пометка. Без точной идентичности источника такое
-				// пересечение остаётся неоднозначным.
-				const visibleSources = relevantSources(style).filter(([, evidence]) =>
-					isVisibleEvidence(evidence.visibleSpanEm, evidence.visibleCoverage)
-				);
-				const explainedSpill =
-					style.highlightSourcesKnown &&
-					visibleSources.length > 0 &&
-					visibleSources.every(([sourceId, evidence]) => {
-						const sourceOwners = owners.get(sourceId);
+				// самостоятельная пометка. Сначала исключаем только такие доказанные
+				// хвосты, затем суммируем весь оставшийся след: несколько по отдельности
+				// слабых источников вместе могут образовывать видимую неоднозначность.
+				const unexplainedSources = relevantSources(style).filter(([sourceId, evidence]) => {
+					const sourceOwners = owners.get(sourceId);
 
-						return (
-							isNegligibleSpill(evidence.visibleSpanEm, evidence.visibleCoverage) &&
-							sourceOwners?.size === 1 &&
-							!sourceOwners.has(optionIndex)
-						);
-					});
-				if (!explainedSpill) return true;
+					return !(
+						isNegligibleSpill(evidence.visibleSpanEm, evidence.visibleCoverage) &&
+						sourceOwners?.size === 1 &&
+						!sourceOwners.has(optionIndex)
+					);
+				});
+				if (hasCombinedVisibleEvidence(unexplainedSources)) return true;
 			}
 
 			return false;
@@ -398,14 +404,46 @@ export function inferAnswerMarkerProfile(
 		const signal: AnswerMarkerSignal = { kind: 'symbol', prefix: symbolPrefix };
 		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
 	}
-	for (const sourceKind of highlightSourceKinds) {
+	const sourceKindSets = (() => {
+		const kinds = [...highlightSourceKinds].sort();
+
+		return Array.from({ length: 2 ** kinds.length - 1 }, (_, index) => index + 1).map(mask =>
+			kinds.filter((_, kindIndex) => (mask & (1 << kindIndex)) !== 0)
+		);
+	})();
+	const highlightCandidates = sourceKindSets.map(sourceKinds => {
 		const signal: AnswerMarkerSignal = {
 			kind: 'highlight',
 			minimumSpanEm: 0.5,
-			sourceKinds: [sourceKind]
+			sourceKinds
 		};
-		candidates.push(toCandidate(markBySignal(styles, signal), evaluationIndices, signal));
-	}
+
+		return toCandidate(markBySignal(styles, signal), evaluationIndices, signal);
+	});
+	// Составной набор нужен только тогда, когда ни один его поднабор сам не
+	// подтверждён большинством. Иначе редкий посторонний source kind смог бы
+	// «проехать» на уже достаточном path-маркере и стать разрешённым глобально.
+	candidates.push(
+		...highlightCandidates.filter(candidate => {
+			const sourceKinds =
+				candidate.signal.kind === 'highlight' ? candidate.signal.sourceKinds : null;
+			if (sourceKinds === null || sourceKinds.length === 1) return true;
+
+			return !highlightCandidates.some(other => {
+				if (other.signal.kind !== 'highlight') return false;
+				const otherKinds = other.signal.sourceKinds;
+				if (
+					otherKinds === null ||
+					otherKinds.length >= sourceKinds.length ||
+					!otherKinds.every(kind => sourceKinds.includes(kind))
+				) {
+					return false;
+				}
+
+				return hasStrictMajority(other.coverage, evaluationIndices.length);
+			});
+		})
+	);
 	for (const signal of [
 		...(needsGenericHighlight
 			? ([{ kind: 'highlight', minimumSpanEm: 0.5, sourceKinds: null }] as const)
@@ -630,19 +668,29 @@ export function applyAnswerMarkerProfile(
 			signal.kind === 'highlight' && signal.sourceKinds !== null ? signal.sourceKinds : []
 		)
 	);
+	const confirmedHighlightMinimumSpanEm = Math.min(
+		...profile.signals.flatMap(signal =>
+			signal.kind === 'highlight' && signal.sourceKinds !== null ? [signal.minimumSpanEm] : []
+		)
+	);
 	const hasGenericHighlight = profile.signals.some(
 		signal => signal.kind === 'highlight' && signal.sourceKinds === null
 	);
 	const hasForeignHighlightSource =
 		!hasGenericHighlight &&
 		confirmedHighlightKinds.size > 0 &&
-		styles[0].some(style =>
-			[...style.highlightSources.values()].some(
-				evidence =>
-					!confirmedHighlightKinds.has(evidence.kind) &&
-					(evidence.visibleSpanEm >= 0.125 || evidence.visibleCoverage >= 0.1)
-			)
-		);
+		styles[0].some(style => {
+			const foreign = [...style.highlightSources.values()].filter(
+				evidence => !confirmedHighlightKinds.has(evidence.kind)
+			);
+			const visibleSpanEm = foreign.reduce((sum, evidence) => sum + evidence.visibleSpanEm, 0);
+			const visibleCoverage = Math.min(
+				1,
+				foreign.reduce((sum, evidence) => sum + evidence.visibleCoverage, 0)
+			);
+
+			return visibleSpanEm >= confirmedHighlightMinimumSpanEm / 4 || visibleCoverage >= 0.1;
+		});
 	const confirmedSymbols = question.options.map(option =>
 		confirmedSymbolMarker(option, profile.symbolPrefix)
 	);

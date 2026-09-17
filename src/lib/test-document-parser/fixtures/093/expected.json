@@ -7310,6 +7310,38 @@
 						"isCorrect": false
 					}
 				]
+			},
+			{
+				"index": 251,
+				"text": "Факторы, способствующие появлению функциональных шумов в сердце",
+				"type": "multiple",
+				"options": [
+					{
+						"index": 1,
+						"text": "ускорение тока крови",
+						"isCorrect": true
+					},
+					{
+						"index": 2,
+						"text": "сгущение крови",
+						"isCorrect": false
+					},
+					{
+						"index": 3,
+						"text": "разжижение крови",
+						"isCorrect": true
+					},
+					{
+						"index": 4,
+						"text": "заболевание суставов",
+						"isCorrect": false
+					},
+					{
+						"index": 5,
+						"text": "органические поражения клапанаов и отверстий",
+						"isCorrect": false
+					}
+				]
 			}
 		]
 	},

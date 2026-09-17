@@ -170,4 +170,15 @@ describe('document syntax profile', () => {
 			});
 		}
 	});
+
+	test('does not let an option emptied by a confirmed marker define that marker', () => {
+		const document = segmentQuestions([
+			...question('Valid marked question', ['=+correct', '=wrong', '=also wrong']),
+			...question('Empty marked option', ['=+', '=wrong', '=also wrong']),
+			...question('Question without a marker', ['=wrong', '=also wrong', '=third wrong'])
+		]);
+		if (!document) throw new Error('Document was not segmented');
+
+		expect(recognizeDocumentSyntax(document)).toBeNull();
+	});
 });

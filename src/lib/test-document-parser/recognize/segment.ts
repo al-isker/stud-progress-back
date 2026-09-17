@@ -297,7 +297,18 @@ function questionLead(
 			next = candidate;
 			continue;
 		}
-		if (readingFlowBoundary || !hasCompatibleTypography(candidate, next)) break;
+		if (readingFlowBoundary) {
+			if (!allowReadingFlowReindent && hasCompatibleTypography(candidate, next)) break;
+			// Через страницу/колонку нет измеримого межстрочного интервала. Если
+			// оформление изменилось, нельзя доказать, что предыдущая строка была
+			// заголовком, а не первой частью stem: сохраняем обе и отклоняем вместо
+			// принятия усечённого вопроса.
+			return {
+				lines: [...tail.slice(0, index + 1), ...lines],
+				rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+			};
+		}
+		if (!hasCompatibleTypography(candidate, next)) break;
 
 		const compatibleWithInlineLead = hasCompatibleLineLayout(candidate, opener);
 		const possibleIndentedContinuation =
@@ -365,7 +376,12 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 		/** Непустой inlineLead начался сразу после `}` предыдущего блока на той же строке. */
 		inlineLeadAfterBalancedClose: boolean;
 		opener: DocLine;
+		openerLineIndex: number;
 		segments: SegmentDraft[];
+		/** Содержимое сбалансированных `{...}` после non-option lead. */
+		balancedNestedCandidates: SegmentDraft[];
+		/** Блок восстановлен по отдельной `{` внутри незакрытого соседа. */
+		requiresConfirmedOptionEnvelope?: boolean;
 		closed: boolean;
 		rejectionReason?: QuestionRejectionReason;
 	}
@@ -412,6 +428,20 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 		tokens.push({ kind: 'block', block });
 		block = null;
 	};
+	const trailingLeadStart = (segments: SegmentDraft[]): number => {
+		let start = segments.length;
+		while (
+			start > 0 &&
+			scanSymbolHead(segments[start - 1].text) === null &&
+			!/^[{}]+$/.test(segments[start - 1].text.trim())
+		) {
+			start--;
+		}
+
+		return start;
+	};
+	const optionLikeSegmentCount = (segments: SegmentDraft[]): number =>
+		segments.filter(segment => scanSymbolHead(segment.text) !== null).length;
 
 	/** Есть ли ещё закрывающая скобка до начала следующего блока вопросов. */
 	const hasLaterCloseBeforeNextOpen = (lineIndex: number, afterCurrentClose: string): boolean => {
@@ -440,7 +470,10 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 					addOutsideText(rest.slice(0, close), line, afterBalancedClose);
 					tokens.push({ kind: 'close', line: fragmentLine(line, '}') });
 					rest = rest.slice(close + 1).trim();
-					afterBalancedClose = false;
+					// Любой текст после лишней `}` на той же строке остаётся связанным
+					// с повреждённой границей. Иначе в последовательности `} } Q {`
+					// вторая скобка стирала provenance и позволяла принять Q.
+					afterBalancedClose = true;
 					continue;
 				}
 				if (open < 0) {
@@ -452,24 +485,152 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 					inlineLead,
 					inlineLeadAfterBalancedClose: afterBalancedClose && inlineLead !== '',
 					opener: fragmentLine(line, '{'),
+					openerLineIndex: lineIndex,
 					segments: [],
+					balancedNestedCandidates: [],
 					closed: false
 				};
 				rest = rest.slice(open + 1).trim();
 				afterBalancedClose = false;
 			} else {
-				const close = rest.indexOf('}');
+				let close = rest.indexOf('}');
 				const nestedOpen = rest.indexOf('{');
+				const blockHasOptionLikeSegment = optionLikeSegmentCount(block.segments) > 0;
 				const beforeNestedOpen = nestedOpen >= 0 ? rest.slice(0, nestedOpen).trim() : '';
 				const nestedOpenEndsLine = nestedOpen >= 0 && rest.slice(nestedOpen + 1).trim() === '';
+				const trailingNonSymbolLead =
+					block.segments.length > 0 &&
+					scanSymbolHead(block.segments[block.segments.length - 1].text) === null &&
+					!/^[{}]+$/.test(block.segments[block.segments.length - 1].text.trim());
 				const nestedOpenStartsQuestion =
 					beforeNestedOpen !== '' &&
 					scanSymbolHead(beforeNestedOpen) === null &&
-					isParagraphStart(line);
+					!(blockHasOptionLikeSegment && close > nestedOpen) &&
+					(isParagraphStart(line) || trailingNonSymbolLead);
+				if (nestedOpen === 0 && nestedOpenEndsLine) {
+					const previousBlock = block;
+					const tailStart = trailingLeadStart(previousBlock.segments);
+					const recoveredLead = previousBlock.segments.slice(tailStart);
+					const precedingSegment = previousBlock.segments[tailStart - 1];
+					const hasSeparateCompleteEnvelope =
+						recoveredLead.length > 0 &&
+						optionLikeSegmentCount(previousBlock.segments.slice(0, tailStart)) >= 2 &&
+						precedingSegment !== undefined &&
+						!hasNormalLineGap(
+							precedingSegment.line,
+							recoveredLead[0].line,
+							maximumQuestionGapRatio
+						);
+					if (hasSeparateCompleteEnvelope) {
+						previousBlock.segments.splice(tailStart);
+						finishBlock(false);
+						for (const segment of recoveredLead) {
+							addOutsideText(segment.text, segment.line, false);
+						}
+						block = {
+							inlineLead: '',
+							inlineLeadAfterBalancedClose: false,
+							opener: fragmentLine(line, '{'),
+							openerLineIndex: lineIndex,
+							segments: [],
+							balancedNestedCandidates: [],
+							requiresConfirmedOptionEnvelope: true,
+							closed: false
+						};
+						rest = '';
+						afterBalancedClose = false;
+						continue;
+					}
+				}
+				if (nestedOpen >= 0 && (close < 0 || nestedOpen < close) && nestedOpenStartsQuestion) {
+					const previousBlock = block;
+					const tailStart = trailingLeadStart(previousBlock.segments);
+					const recoveredLead = previousBlock.segments.splice(tailStart);
+					const previousBlockHasOptionEnvelope =
+						optionLikeSegmentCount(previousBlock.segments) >= 2;
+					const precedingSegment = previousBlock.segments.at(-1);
+					const leadIsSeparated =
+						recoveredLead.length === 0 ||
+						!precedingSegment ||
+						!hasNormalLineGap(
+							precedingSegment.line,
+							recoveredLead[0].line,
+							maximumQuestionGapRatio
+						);
+					const attachedToSameLine = previousBlock.openerLineIndex === lineIndex;
+					// У нового блока есть собственный непустой lead, `{` и абзацная
+					// граница. Этого достаточно, чтобы не дать незакрытому вопросу
+					// поглотить корректного соседа. Связный многострочный lead
+					// переносится целиком; если его нельзя отделить от старого варианта
+					// или обе `{` стоят в одной строке, новый блок тоже неоднозначен.
+					// Без уже начавшегося полноценного списка вариантов первая `{` не
+					// ограничивает отдельный повреждённый вопрос: это может быть одна
+					// непрерывная формулировка с ошибочной скобкой, поэтому восстановление
+					// запрещено.
+					finishBlock(false);
+					for (const segment of recoveredLead) {
+						addOutsideText(segment.text, segment.line, false);
+					}
+					block = {
+						inlineLead: beforeNestedOpen,
+						inlineLeadAfterBalancedClose: false,
+						opener: fragmentLine(line, '{'),
+						openerLineIndex: lineIndex,
+						segments: [],
+						balancedNestedCandidates: [],
+						closed: false,
+						rejectionReason:
+							attachedToSameLine || !leadIsSeparated || !previousBlockHasOptionEnvelope
+								? QuestionRejectionReason.MALFORMED_STRUCTURE
+								: undefined
+					};
+					rest = rest.slice(nestedOpen + 1).trim();
+					afterBalancedClose = false;
+					continue;
+				}
+				if (
+					nestedOpen >= 0 &&
+					close > nestedOpen &&
+					beforeNestedOpen !== '' &&
+					(scanSymbolHead(beforeNestedOpen) !== null || blockHasOptionLikeSegment)
+				) {
+					// Сбалансированные скобки внутри уже начатого варианта, в том числе
+					// в строке-продолжении, являются его буквальным содержимым. Ищем
+					// только следующую `}` нулевой вложенности, чтобы внутренняя пара
+					// не усекла весь вопрос.
+					let depth = 0;
+					let balancedNestedClose = -1;
+					close = -1;
+					for (let index = nestedOpen; index < rest.length; index++) {
+						if (rest[index] === '{') depth++;
+						else if (rest[index] === '}') {
+							if (depth > 0) {
+								depth--;
+								if (depth === 0 && balancedNestedClose < 0) balancedNestedClose = index;
+							} else {
+								close = index;
+								break;
+							}
+						}
+					}
+					if (
+						blockHasOptionLikeSegment &&
+						scanSymbolHead(beforeNestedOpen) === null &&
+						balancedNestedClose > nestedOpen
+					) {
+						const candidate = rest.slice(nestedOpen + 1, balancedNestedClose).trim();
+						if (candidate !== '') {
+							block.balancedNestedCandidates.push({
+								text: candidate,
+								line: fragmentLine(line, candidate)
+							});
+						}
+					}
+				}
 				if (
 					nestedOpen >= 0 &&
 					(close < 0 || nestedOpen < close) &&
-					(beforeNestedOpen === '' || nestedOpenEndsLine || nestedOpenStartsQuestion)
+					(beforeNestedOpen === '' || nestedOpenEndsLine)
 				) {
 					block.rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
 				}
@@ -478,12 +639,10 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 					break;
 				}
 				const afterClose = rest.slice(close + 1);
-				const attachedToOptionText = rest.slice(0, close).trim() !== '';
 				const nextLineStartsWithSymbol =
 					lineIndex + 1 < lines.length && scanSymbolHead(lines[lineIndex + 1].text) !== null;
 				if (
-					attachedToOptionText &&
-					nextLineStartsWithSymbol &&
+					(afterClose.trim() !== '' || nextLineStartsWithSymbol) &&
 					hasLaterCloseBeforeNextOpen(lineIndex, afterClose)
 				) {
 					block.rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
@@ -583,18 +742,50 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
 	const allBlockGroups = tokens.flatMap(token =>
 		token.kind === 'block' ? [token.block.segments.map(segment => segment.text)] : []
 	);
-	const syntax = inferOptionSyntax(
+	const eligibleGroups = (excluded: Set<BracketBlock> = new Set()) =>
 		tokens.flatMap(token =>
-			token.kind === 'block' && token.block.closed && !token.block.rejectionReason
+			token.kind === 'block' &&
+			token.block.closed &&
+			!token.block.rejectionReason &&
+			!excluded.has(token.block)
 				? [token.block.segments.map(segment => segment.text)]
 				: []
-		),
-		1
-	);
+		);
+	let syntax = inferOptionSyntax(eligibleGroups(), 1);
 	if (!syntax) {
 		return inferOptionSyntax(allBlockGroups, 1)
 			? { kind: 'untrusted-profile' }
 			: { kind: 'not-applicable' };
+	}
+	const structuralConflicts = (profile: OptionSyntaxProfile): Set<BracketBlock> =>
+		new Set(
+			tokens.flatMap(token => {
+				if (token.kind !== 'block' || token.block.rejectionReason) return [];
+				const nestedConflict = token.block.balancedNestedCandidates.some(candidate =>
+					parseOptionStart(candidate.text, candidate.line, profile)
+				);
+				const recoveredOptionStarts = token.block.segments.filter(segment =>
+					parseOptionStart(segment.text, segment.line, profile)
+				).length;
+				const incompleteRecoveredEnvelope =
+					token.block.requiresConfirmedOptionEnvelope === true && recoveredOptionStarts < 2;
+
+				return nestedConflict || incompleteRecoveredEnvelope ? [token.block] : [];
+			})
+		);
+	const conflicts = new Set<BracketBlock>();
+	while (true) {
+		const newlyConflicting = [...structuralConflicts(syntax)].filter(
+			candidate => !conflicts.has(candidate)
+		);
+		if (newlyConflicting.length === 0) break;
+		for (const candidate of newlyConflicting) conflicts.add(candidate);
+		const refinedSyntax = inferOptionSyntax(eligibleGroups(conflicts), 1);
+		if (!refinedSyntax) return { kind: 'untrusted-profile' };
+		syntax = refinedSyntax;
+	}
+	for (const conflictingBlock of conflicts) {
+		conflictingBlock.rejectionReason = QuestionRejectionReason.MALFORMED_STRUCTURE;
 	}
 	const connectedLead = (outside: OutsideText[], nextLine: DocLine): OutsideText[] => {
 		const lines: OutsideText[] = [];
@@ -763,56 +954,146 @@ function tryBracketScheme(lines: DocLine[]): BracketSchemeAttempt {
  * Строка без токена — продолжение в своём параграфе, иначе игнорируется.
  */
 function tryTwoPrefixScheme(lines: DocLine[]): SegmentedDocument | null {
-	const heads = lines.map(line => {
-		const text = line.text.trim();
-		// `#42`/`№42` — сильный нумераторный сигнал, а не семейство вариантов.
-		// Иначе редкий посторонний символ в большом нумерованном документе может
-		// ложно образовать пару «вопрос / вариант» с сотнями строк `#N`.
-		if (/^[#№]\s*\d+\s*[.):\]]?$/.test(text)) return null;
-
-		return scanSymbolHead(text);
-	});
+	const heads = lines.map(line => scanSymbolHead(line.text.trim()));
 	const families = new Map<string, number>();
 	for (const head of heads) {
 		if (head) families.set(head.symbols[0], (families.get(head.symbols[0]) ?? 0) + 1);
 	}
 	if (families.size < 2) return null;
 
-	let best: { q: string; v: string; qCount: number } | null = null;
-	for (const [qFam] of families) {
-		for (const [vFam] of families) {
-			if (qFam === vFam) continue;
-			let qCount = 0;
-			let vTotal = 0;
-			let sinceQ = -1;
-			let ok = true;
-			for (const head of heads) {
-				const fam = head ? head.symbols[0] : null;
-				if (fam === qFam) {
-					if (sinceQ >= 0 && sinceQ < 2) {
-						ok = false;
-						break;
-					}
-					qCount++;
-					sinceQ = 0;
-				} else if (fam === vFam) {
-					if (sinceQ >= 0) sinceQ++;
-					vTotal++;
+	const isNumericBoundaryFamily = (family: string): boolean =>
+		(family === '#' || family === '№') &&
+		lines.some(
+			(line, index) => scanNumberedQuestionMarker(line.text, index)?.syntax.family === family
+		);
+
+	interface TwoPrefixCandidate {
+		q: string;
+		qIndices: number[];
+		questionPrefix: string;
+		optionSyntax: OptionSyntaxProfile;
+		validGroups: number;
+	}
+
+	const candidates: TwoPrefixCandidate[] = [];
+	for (const [q] of families) {
+		// Числовые `#N`/`№N` являются отдельной нумераторной грамматикой. Если
+		// разрешить тому же семейству голосовать как question-prefix, варианты
+		// `#1/#2` и границы вопросов станут неразличимы.
+		if (isNumericBoundaryFamily(q)) continue;
+		const qIndices = heads.flatMap((head, index) => (head?.symbols[0] === q ? [index] : []));
+		if (qIndices.length < 2) continue;
+		const groups = qIndices.map((start, groupIndex) => {
+			const end = qIndices[groupIndex + 1] ?? lines.length;
+
+			return lines.slice(start + 1, end);
+		});
+		const optionSyntax = inferOptionSyntax(groups.map(group => group.map(line => line.text)));
+		if (!optionSyntax) continue;
+		optionSyntax.prefixByFamily.delete(q);
+		if (optionSyntax.prefixByFamily.size === 0) continue;
+		const validGroups = groups.filter(group => {
+			let mode: 'question' | 'option' | 'none' = 'question';
+			let optionStarts = 0;
+			for (const line of group) {
+				const family = scanSymbolHead(line.text)?.symbols[0] ?? null;
+				if (family !== null && optionSyntax.prefixByFamily.has(family)) {
+					if (mode === 'none') return false;
+					optionStarts++;
+					mode = 'option';
+				} else if (mode === 'option' && isParagraphStart(line)) {
+					mode = 'none';
 				}
 			}
-			if (sinceQ >= 0 && sinceQ < 2) ok = false;
-			if (ok && qCount >= 2 && vTotal >= qCount * 2 && (!best || qCount > best.qCount)) {
-				best = { q: qFam, v: vFam, qCount };
+
+			return optionStarts >= 2;
+		}).length;
+		// Повреждённые вопросы не должны определять профиль, но и не должны
+		// уничтожать его целиком: достаточно хотя бы одного непротиворечивого
+		// envelope, если само семейство вариантов подтверждено большинством групп.
+		if (validGroups === 0) continue;
+		const questionPrefix = commonPrefix(
+			qIndices.flatMap(index => (heads[index] ? [heads[index]!.symbols] : []))
+		);
+		if (!questionPrefix) continue;
+		candidates.push({ q, qIndices, questionPrefix, optionSyntax, validGroups });
+	}
+	if (candidates.length === 0) return null;
+
+	// Максимально полно объясняющая документ грамматика сильнее локального
+	// совпадения. При равной полноте первая явная граница — единственный
+	// структурный способ не принять первый вариант за начало документа.
+	const ranked = [...candidates].sort(
+		(left, right) => right.validGroups - left.validGroups || left.qIndices[0] - right.qIndices[0]
+	);
+	const best = ranked[0];
+	const optionFamilies = new Set(best.optionSyntax.prefixByFamily.keys());
+
+	// Отдельная пара question/option, не пересекающаяся с выбранным профилем,
+	// доказывает наличие конкурирующей грамматики, а не случайного символа.
+	const pairCandidates: Array<{ q: string; v: string }> = [];
+	for (const [q] of families) {
+		if (isNumericBoundaryFamily(q)) continue;
+		for (const [v] of families) {
+			if (q === v) continue;
+			let qCount = 0;
+			let sinceQ = -1;
+			let valid = true;
+			for (const head of heads) {
+				const family = head?.symbols[0] ?? null;
+				if (family === q) {
+					if (sinceQ >= 0 && sinceQ < 2) valid = false;
+					qCount++;
+					sinceQ = 0;
+				} else if (family === v && sinceQ >= 0) {
+					sinceQ++;
+				}
+			}
+			if (sinceQ >= 0 && sinceQ < 2) valid = false;
+			if (valid && qCount >= 2) pairCandidates.push({ q, v });
+		}
+	}
+	const primaryPairOptions = new Set(
+		pairCandidates.filter(candidate => candidate.q === best.q).map(candidate => candidate.v)
+	);
+	if (
+		pairCandidates.some(
+			candidate =>
+				candidate.q !== best.q &&
+				!primaryPairOptions.has(candidate.q) &&
+				candidate.v !== best.q &&
+				!primaryPairOptions.has(candidate.v)
+		)
+	) {
+		return null;
+	}
+
+	// Семейство, способное образовать полноценную вторую question-грамматику,
+	// допустимо в option-профиле только как первый вариант каждого envelope.
+	// Если оно возникает после уже начавшихся вариантов, роли структурно
+	// неразличимы — документ нельзя принимать с произвольным выбором одной из них.
+	for (const alternativeFamily of new Set(
+		pairCandidates.filter(candidate => candidate.q !== best.q).map(candidate => candidate.q)
+	)) {
+		const alternativeIndices = heads.flatMap((head, index) =>
+			head?.symbols[0] === alternativeFamily ? [index] : []
+		);
+		for (const index of alternativeIndices) {
+			const owner = best.qIndices.findLast(start => start < index);
+			if (owner === undefined) return null;
+			const previousOption = heads
+				.slice(owner + 1, index)
+				.some(head => (head ? optionFamilies.has(head.symbols[0]) : false));
+			if (optionFamilies.has(alternativeFamily)) {
+				if (previousOption) return null;
+			} else if (previousOption && isParagraphStart(lines[index])) {
+				return null;
 			}
 		}
 	}
-	if (!best) return null;
-	const presentHeads = heads.filter((head): head is SymbolHead => head !== null);
-	const questionPrefix = commonPrefix(
-		presentHeads.filter(head => head.symbols[0] === best.q).map(head => head.symbols)
-	);
-	const optionSyntax = createOptionSyntax(presentHeads, new Set([best.v]));
-	if (!questionPrefix || !optionSyntax) return null;
+
+	const questionPrefix = best.questionPrefix;
+	const optionSyntax = best.optionSyntax;
 
 	const questions: RawQuestion[] = [];
 	let current: RawQuestion | null = null;
@@ -830,7 +1111,14 @@ function tryTwoPrefixScheme(lines: DocLine[]): SegmentedDocument | null {
 				options: inline ? [inline.option] : []
 			};
 			mode = inline ? 'option' : 'question';
-		} else if (fam === best.v && current) {
+		} else if (fam !== null && optionSyntax.prefixByFamily.has(fam) && current) {
+			if (mode === 'none') {
+				// Возобновление профильных вариантов после постороннего абзаца
+				// доказывает повреждение внутренней структуры вопроса. Игнорировать
+				// хвост и принимать усечённый вопрос нельзя.
+				current.rejectionReason ??= QuestionRejectionReason.MALFORMED_STRUCTURE;
+				continue;
+			}
 			const option = parseOptionStart(line.text, line, optionSyntax);
 			if (!option) {
 				mode = 'none';
@@ -916,37 +1204,81 @@ const numberedSyntaxKey = (syntax: NumberedQuestionSyntaxProfile): string =>
 	`${syntax.family}\u0000${syntax.terminator}\u0000${syntax.placement}`;
 
 function inferNumberedQuestionSyntax(
-	markers: NumberedQuestionMarker[]
+	markers: NumberedQuestionMarker[],
+	lines: DocLine[]
 ): { profile: NumberedQuestionSyntaxProfile; starters: NumberedQuestionMarker[] } | null {
 	const candidates = new Map<
 		string,
-		{ profile: NumberedQuestionSyntaxProfile; anchor: number; starters: NumberedQuestionMarker[] }
+		{ profile: NumberedQuestionSyntaxProfile; starters: NumberedQuestionMarker[]; support: number }
 	>();
-	for (let markerIndex = 0; markerIndex < markers.length; markerIndex++) {
-		const marker = markers[markerIndex];
-		if (marker.value !== 1) continue;
+	for (const marker of markers) {
 		const key = numberedSyntaxKey(marker.syntax);
 		if (candidates.has(key)) continue;
-		const starters = markers
-			.slice(markerIndex)
-			.filter(current => numberedSyntaxKey(current.syntax) === key);
-		if (starters.length >= 2) {
-			candidates.set(key, { profile: marker.syntax, anchor: markerIndex, starters });
+		const starters = markers.filter(current => numberedSyntaxKey(current.syntax) === key);
+		if (starters.length < 2) continue;
+		const support = starters.filter((starter, index) => {
+			const end = starters[index + 1]?.index ?? lines.length;
+
+			return hasCompleteNumberedEnvelope(lines, starter, end);
+		}).length;
+		if (support > starters.length / 2) {
+			candidates.set(key, { profile: marker.syntax, starters, support });
 		}
 	}
-	if (candidates.size === 0) return null;
+	const ranked = [...candidates.values()].sort((left, right) => right.support - left.support);
+	const [confirmed, ...competing] = ranked;
+	if (
+		!confirmed ||
+		confirmed.support <= competing.reduce((sum, candidate) => sum + candidate.support, 0)
+	) {
+		return null;
+	}
 
-	const ranked = [...candidates.values()].sort(
-		(left, right) => right.starters.length - left.starters.length || left.anchor - right.anchor
-	);
-	const best = ranked[0];
-	const competingSupport = ranked
-		.slice(1)
-		.reduce((sum, current) => sum + current.starters.length, 0);
-	// Несколько сопоставимых форм не дают права выбрать первую по порядку.
-	if (best.starters.length <= competingSupport) return null;
+	return { profile: confirmed.profile, starters: confirmed.starters };
+}
 
-	return { profile: best.profile, starters: best.starters };
+function parseNumberedEnvelope(
+	lines: DocLine[],
+	starter: NumberedQuestionMarker,
+	end: number
+): { texts: string[]; options: RawOption[] } {
+	const texts: string[] = starter.rest ? [starter.rest] : [];
+	const options: RawOption[] = [];
+	let inQuestion = true;
+	for (let index = starter.index + 1; index < end; index++) {
+		const line = lines[index];
+		const newParagraph = isParagraphStart(line);
+		if (inQuestion && (texts.length === 0 || !newParagraph)) {
+			texts.push(line.text.trim());
+			continue;
+		}
+		inQuestion = false;
+		if (newParagraph || options.length === 0) {
+			options.push({
+				sourcePrefix: null,
+				structuralPrefix: null,
+				hasTextAfterSourcePrefix: false,
+				texts: [line.text.trim()],
+				lines: [line]
+			});
+		} else {
+			const option = options[options.length - 1];
+			option.texts.push(line.text.trim());
+			option.lines.push(line);
+		}
+	}
+
+	return { texts, options };
+}
+
+function hasCompleteNumberedEnvelope(
+	lines: DocLine[],
+	starter: NumberedQuestionMarker,
+	end: number
+): boolean {
+	const envelope = parseNumberedEnvelope(lines, starter, end);
+
+	return envelope.texts.some(text => text !== '') && envelope.options.length >= 2;
 }
 
 /**
@@ -954,9 +1286,10 @@ function inferNumberedQuestionSyntax(
  * «3) текст…»). Первый параграф после номера — текст вопроса, каждый следующий
  * параграф — вариант. Преамбула до первого номера отбрасывается.
  *
- * Нумерация должна стартовать с «1», но дальше значения номеров не сверяются:
- * в реальных PDF цифры глифов бывают перекодированы (напр. «#4» → «#233»), а
- * структурно это всё равно очередная метка вопроса.
+ * Числовые значения не определяют структуру: документ может начинаться с любого
+ * номера, содержать пропуски, повторы и ошибки PDF-кодировки. Профиль выбирается
+ * по единой лексической форме границ и по тому, образуют ли они полноценные
+ * question-envelope с текстом и вариантами.
  */
 function tryNumberedScheme(lines: DocLine[]): SegmentedDocument | null {
 	const markers = lines.flatMap((line, index) => {
@@ -964,40 +1297,49 @@ function tryNumberedScheme(lines: DocLine[]): SegmentedDocument | null {
 
 		return marker ? [marker] : [];
 	});
-	const inferred = inferNumberedQuestionSyntax(markers);
+	const inferred = inferNumberedQuestionSyntax(markers, lines);
 	if (!inferred) return null;
 	const { profile: questionSyntax, starters } = inferred;
 
 	const questions: RawQuestion[] = [];
 	for (let s = 0; s < starters.length; s++) {
-		const { index, rest } = starters[s];
+		const { index } = starters[s];
 		const end = s + 1 < starters.length ? starters[s + 1].index : lines.length;
-		const texts: string[] = rest ? [rest] : [];
-		const options: RawOption[] = [];
-		let inQuestion = true;
-		for (let i = index + 1; i < end; i++) {
-			const line = lines[i];
-			const newParagraph = isParagraphStart(line);
-			if (inQuestion && (texts.length === 0 || !newParagraph)) {
-				texts.push(line.text.trim());
-				continue;
+		const { texts, options } = parseNumberedEnvelope(lines, starters[s], end);
+		const hasConflictingBoundary = markers.some(marker => {
+			if (
+				marker.index <= index ||
+				marker.index >= end ||
+				numberedSyntaxKey(marker.syntax) === numberedSyntaxKey(questionSyntax)
+			) {
+				return false;
 			}
-			inQuestion = false;
-			if (newParagraph || options.length === 0) {
-				options.push({
-					sourcePrefix: null,
-					structuralPrefix: null,
-					hasTextAfterSourcePrefix: false,
-					texts: [line.text.trim()],
-					lines: [line]
-				});
-			} else {
-				const option = options[options.length - 1];
-				option.texts.push(line.text.trim());
-				option.lines.push(line);
-			}
-		}
-		questions.push({ texts, options });
+
+			// Другая форма того же явного `#`/`№` — повреждённая граница
+			// выбранного профиля. Числовая строка иной семьи может быть обычным
+			// вариантом ответа; конфликтом она становится только когда сама
+			// образует полноценный question-envelope до следующей границы той же
+			// альтернативной формы (либо до следующей границы профиля).
+			const markerKey = numberedSyntaxKey(marker.syntax);
+			const nextSameAlternative = markers.find(
+				candidate =>
+					candidate.index > marker.index &&
+					candidate.index < end &&
+					numberedSyntaxKey(candidate.syntax) === markerKey
+			);
+
+			return (
+				(marker.syntax.family === questionSyntax.family && questionSyntax.family !== 'bare') ||
+				hasCompleteNumberedEnvelope(lines, marker, nextSameAlternative?.index ?? end)
+			);
+		});
+		questions.push({
+			texts,
+			options,
+			rejectionReason: hasConflictingBoundary
+				? QuestionRejectionReason.MALFORMED_STRUCTURE
+				: undefined
+		});
 	}
 
 	// Если большинство вариантов всё же несёт единый документный синтаксис — применяем его.

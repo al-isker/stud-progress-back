@@ -178,6 +178,38 @@ describe('document-level option syntax', () => {
 		});
 	});
 
+	test('keeps a repeated alternative numbering track as answer options', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const document = segmentQuestions([
+			numberedLine('#1', 30),
+			numberedLine('Question 1', 10),
+			numberedLine('1. first answer', 30),
+			numberedLine('2. second answer', 30),
+			numberedLine('3. third answer', 30),
+			numberedLine('4. fourth answer', 30),
+			numberedLine('#2', 30),
+			numberedLine('Question 2', 10),
+			numberedLine('1. first answer', 30),
+			numberedLine('2. second answer', 30),
+			numberedLine('3. third answer', 30),
+			numberedLine('4. fourth answer', 30)
+		]);
+
+		expect(document?.questions).toHaveLength(2);
+		expect(document?.questions.every(question => question.rejectionReason === undefined)).toBe(
+			true
+		);
+		expect(document?.questions[0].options.map(option => option.texts[0])).toEqual([
+			'1. first answer',
+			'2. second answer',
+			'3. third answer',
+			'4. fourth answer'
+		]);
+	});
+
 	test('supports a separately confirmed inline bare-number syntax', () => {
 		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
 			...line(text),
@@ -219,6 +251,216 @@ describe('document-level option syntax', () => {
 				numberedLine('Bare answer', 30),
 				numberedLine('2. Bare question 2', 30),
 				numberedLine('Bare answer', 30)
+			])
+		).toBeNull();
+	});
+
+	test('uses the coherent outer numbering track instead of repeated numbered options', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const document = segmentQuestions([
+			numberedLine('#1', 30),
+			numberedLine('Actual question 1', 10),
+			numberedLine('1. answer 1', 30),
+			numberedLine('answer 1 continuation', 10),
+			numberedLine('2. answer 2', 30),
+			numberedLine('answer 2 continuation', 10),
+			numberedLine('#2', 30),
+			numberedLine('Actual question 2', 10),
+			numberedLine('1. answer 1', 30),
+			numberedLine('answer 1 continuation', 10),
+			numberedLine('2. answer 2', 30),
+			numberedLine('answer 2 continuation', 10)
+		]);
+
+		expect(document?.structure).toMatchObject({
+			kind: 'numbered',
+			question: { family: '#', terminator: '', placement: 'standalone' }
+		});
+		expect(document?.questions.map(question => question.texts)).toEqual([
+			['Actual question 1'],
+			['Actual question 2']
+		]);
+		expect(document?.questions[0].options.map(option => option.texts)).toEqual([
+			['1. answer 1', 'answer 1 continuation'],
+			['2. answer 2', 'answer 2 continuation']
+		]);
+	});
+
+	test('keeps repeated number values when the structural envelopes are complete', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+
+		const document = segmentQuestions([
+			numberedLine('#1', 30),
+			numberedLine('Question 1', 10),
+			numberedLine('!Answer 1', 30),
+			numberedLine('!Answer 2', 30),
+			numberedLine('#2', 30),
+			numberedLine('literal or question boundary', 10),
+			numberedLine('!Answer 1', 30),
+			numberedLine('!Answer 2', 30),
+			numberedLine('#2', 30),
+			numberedLine('Question 2', 10),
+			numberedLine('!Answer 1', 30),
+			numberedLine('!Answer 2', 30)
+		]);
+
+		expect(document?.questions).toHaveLength(3);
+		expect(document?.questions.map(question => question.texts[0])).toEqual([
+			'Question 1',
+			'literal or question boundary',
+			'Question 2'
+		]);
+	});
+
+	test('rejects an envelope containing a near-miss of its prefixed boundary syntax', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const document = segmentQuestions([
+			numberedLine('#1', 30),
+			numberedLine('Question 1', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('#2.', 30),
+			numberedLine('Damaged question 2', 10),
+			numberedLine('Answer 2', 30),
+			numberedLine('#3', 30),
+			numberedLine('Question 3', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30)
+		]);
+
+		expect(document?.questions).toHaveLength(2);
+		expect(document?.questions[0].rejectionReason).toBe(
+			QuestionRejectionReason.MALFORMED_STRUCTURE
+		);
+		expect(document?.questions[1].texts).toEqual(['Question 3']);
+	});
+
+	test('rejects a complete alternative numbered envelope inside the selected syntax', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const document = segmentQuestions([
+			numberedLine('1. Question 1', 30),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('2. Question 2', 30),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('3) Damaged question 3', 30),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('3. Question 3', 30),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30)
+		]);
+
+		expect(document?.structure).toMatchObject({
+			kind: 'numbered',
+			question: { family: 'bare', terminator: '.', placement: 'inline' }
+		});
+		expect(document?.questions[1].rejectionReason).toBe(
+			QuestionRejectionReason.MALFORMED_STRUCTURE
+		);
+		expect(document?.questions[2].texts).toEqual(['Question 3']);
+	});
+
+	test('does not let two-prefix recognition consume inline numbered questions', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const document = segmentQuestions([
+			numberedLine('#1 Question 1', 30),
+			numberedLine('!+correct', 30),
+			numberedLine('!wrong', 30),
+			numberedLine('#2 Question 2', 30),
+			numberedLine('!wrong', 30),
+			numberedLine('!+correct', 30)
+		]);
+
+		expect(document?.structure).toMatchObject({
+			kind: 'numbered',
+			question: { family: '#', terminator: '', placement: 'inline' }
+		});
+		expect(document?.questions.map(question => question.texts)).toEqual([
+			['Question 1'],
+			['Question 2']
+		]);
+	});
+
+	test('allows repeated numbered-looking prefixes to be two-prefix options', () => {
+		const document = segmentQuestions([
+			line('?Question 1'),
+			line('#1 first answer'),
+			line('#2 second answer'),
+			line('?Question 2'),
+			line('#1 first answer'),
+			line('#2 second answer')
+		]);
+
+		expect(document?.structure).toMatchObject({ kind: 'two-prefix', questionPrefix: '?' });
+		expect(document?.questions.map(question => question.options.length)).toEqual([2, 2]);
+	});
+
+	test('keeps globally increasing numbered-looking prefixes as two-prefix options', () => {
+		const document = segmentQuestions([
+			line('?Question 1'),
+			line('#1 first answer'),
+			line('#2 second answer'),
+			line('?Question 2'),
+			line('#3 first answer'),
+			line('#4 second answer')
+		]);
+
+		expect(document?.structure).toMatchObject({ kind: 'two-prefix', questionPrefix: '?' });
+		expect(document?.questions.map(question => question.options.length)).toEqual([2, 2]);
+	});
+
+	test('profiles multiple stable two-prefix option families together', () => {
+		const document = segmentQuestions([
+			line('?Question 1'),
+			line('+first answer'),
+			line('-second answer'),
+			line('?Question 2'),
+			line('+first answer'),
+			line('-second answer'),
+			line('?Question 3'),
+			line('+first answer'),
+			line('-second answer')
+		]);
+
+		expect(document?.structure).toMatchObject({ kind: 'two-prefix', questionPrefix: '?' });
+		if (document?.structure.kind !== 'two-prefix') throw new Error('Wrong structure');
+		expect([...document.structure.options.prefixByFamily.keys()]).toEqual(['+', '-']);
+		expect(document.questions.map(question => question.options.length)).toEqual([2, 2, 2]);
+	});
+
+	test('rejects a competing question family that reuses the same option family', () => {
+		const paragraph = (text: string): DocLine => ({ ...line(text), gapBefore: 30 });
+
+		expect(
+			segmentQuestions([
+				paragraph('?Question 1'),
+				paragraph('!answer 1'),
+				paragraph('!answer 2'),
+				paragraph('#Other question 1'),
+				paragraph('!other answer 1'),
+				paragraph('!other answer 2'),
+				paragraph('?Question 2'),
+				paragraph('!answer 1'),
+				paragraph('!answer 2'),
+				paragraph('#Other question 2'),
+				paragraph('!other answer 1'),
+				paragraph('!other answer 2')
 			])
 		).toBeNull();
 	});
@@ -324,13 +566,92 @@ describe('document-level option syntax', () => {
 		expect(document?.questions[1].texts).toEqual(['Question 2']);
 	});
 
-	test('recognizes numbered questions after 999', () => {
+	test('rejects a question when profile options resume after a detached paragraph', () => {
+		const document = segmentQuestions([
+			line('?Question 1'),
+			line('!+correct'),
+			line('!wrong'),
+			{ ...line('Detached heading'), gapBefore: 30 },
+			line('!foreign option 1'),
+			line('!foreign option 2'),
+			line('?Question 2'),
+			line('!wrong'),
+			line('!+correct')
+		]);
+
+		expect(document?.questions[0].rejectionReason).toBe(
+			QuestionRejectionReason.MALFORMED_STRUCTURE
+		);
+		expect(document?.questions[1].texts).toEqual(['Question 2']);
+	});
+
+	test('ignores sparse false question families when one two-prefix grammar dominates', () => {
+		const document = segmentQuestions([
+			line('-detached heading'),
+			line('?Question 1'),
+			line('!answer 1'),
+			line('!answer 2'),
+			line('?Question 2'),
+			line('!answer 1'),
+			line('!answer 2'),
+			line('?Question 3'),
+			line('!answer 1'),
+			line('!answer 2'),
+			line('-detached footer')
+		]);
+
+		expect(document?.structure).toMatchObject({ kind: 'two-prefix', questionPrefix: '?' });
+		expect(document?.questions).toHaveLength(3);
+	});
+
+	test('does not choose between independent two-prefix grammars', () => {
+		expect(
+			segmentQuestions([
+				line('?Question 1'),
+				line('!answer 1'),
+				line('!answer 2'),
+				line('#Other question 1'),
+				line('$other answer 1'),
+				line('$other answer 2'),
+				line('?Question 2'),
+				line('!answer 1'),
+				line('!answer 2'),
+				line('#Other question 2'),
+				line('$other answer 1'),
+				line('$other answer 2')
+			])
+		).toBeNull();
+	});
+
+	test('does not discard a smaller independent two-prefix grammar', () => {
+		expect(
+			segmentQuestions([
+				line('?Question 1'),
+				line('!answer 1'),
+				line('!answer 2'),
+				line('?Question 2'),
+				line('!answer 1'),
+				line('!answer 2'),
+				line('?Question 3'),
+				line('!answer 1'),
+				line('!answer 2'),
+				line('#Other question 1'),
+				line('$other answer 1'),
+				line('$other answer 2'),
+				line('#Other question 2'),
+				line('$other answer 1'),
+				line('$other answer 2')
+			])
+		).toBeNull();
+	});
+
+	test('recognizes a numbered track that starts from an arbitrary value', () => {
 		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
 			...line(text),
 			gapBefore
 		});
 		const questions = segment([
-			numberedLine('#1', 30),
+			numberedLine('#999', 30),
 			numberedLine('Question 1', 10),
 			numberedLine('Answer 1', 30),
 			numberedLine('Answer 2', 30),
@@ -341,7 +662,34 @@ describe('document-level option syntax', () => {
 		]);
 
 		expect(questions).toHaveLength(2);
-		expect(questions.map(question => question.texts[0])).toEqual(['Question 1', 'Question 1000']);
+		expect(questions[1].texts[0]).toBe('Question 1000');
+	});
+
+	test('ignores non-monotonic values when one numbered syntax stays structural', () => {
+		const numberedLine = (text: string, gapBefore: number | null): DocLine => ({
+			...line(text),
+			gapBefore
+		});
+		const document = segmentQuestions([
+			numberedLine('#1', 30),
+			numberedLine('Question 1', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('#233', 30),
+			numberedLine('Question 2', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30),
+			numberedLine('#4', 30),
+			numberedLine('Question 3', 10),
+			numberedLine('Answer 1', 30),
+			numberedLine('Answer 2', 30)
+		]);
+
+		expect(document?.structure).toMatchObject({
+			kind: 'numbered',
+			question: { family: '#', terminator: '', placement: 'standalone' }
+		});
+		expect(document?.questions).toHaveLength(3);
 	});
 
 	test('preserves symbolic and signed answers after the inferred structural prefix', () => {
@@ -641,6 +989,136 @@ describe('document-level option syntax', () => {
 		});
 	});
 
+	test('rejects visible highlighting with unknown identity under a source-specific profile', () => {
+		const [question] = segment(
+			bracketQuestion('Question', [['=unknown source', 1], ['=wrong 1'], ['=wrong 2']])
+		);
+		const profile: AnswerMarkerProfile = {
+			signals: [{ kind: 'highlight', minimumSpanEm: 0.5, sourceKinds: ['path'] }],
+			selectorGroups: [[0]],
+			symbolPrefix: null
+		};
+
+		expect(applyAnswerMarkerProfile(question, profile)).toMatchObject({
+			ambiguous: true,
+			marked: [false, false, false]
+		});
+	});
+
+	test('does not let unknown highlight identities confirm a source-specific profile', () => {
+		const questions = segment([
+			...bracketQuestion('Known path', [['=correct'], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Legacy 1', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Legacy 2', [['=wrong 1'], ['=wrong 2'], ['=correct', 1]])
+		]);
+		for (const option of questions[0].options) option.lines[0].highlightSources = [];
+		questions[0].options[0].lines[0].highlightSources = [
+			{ id: '1:path:1:fill', kind: 'path', fraction: 1 }
+		];
+
+		const profile = inferAnswerMarkerProfile(
+			questions,
+			questions.map((_, index) => index)
+		);
+
+		expect(profile?.signals).toEqual([
+			{ kind: 'highlight', minimumSpanEm: 0.5, sourceKinds: null }
+		]);
+	});
+
+	test('profiles a stable mixture of highlight source kinds as one marker', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct'], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct'], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=wrong 1'], ['=wrong 2'], ['=correct']]),
+			...bracketQuestion('Question 4', [['=correct'], ['=wrong 1'], ['=wrong 2']])
+		]);
+		for (const question of questions) {
+			for (const option of question.options) option.lines[0].highlightSources = [];
+		}
+		questions[0].options[0].lines[0].highlightSources = [
+			{ id: '1:path:1:fill', kind: 'path', fraction: 1 }
+		];
+		questions[1].options[1].lines[0].highlightSources = [
+			{ id: '1:annotation:2:fill', kind: 'annotation', fraction: 1 }
+		];
+		questions[2].options[2].lines[0].highlightSources = [
+			{ id: '1:path:3:fill', kind: 'path', fraction: 1 }
+		];
+		questions[3].options[0].lines[0].highlightSources = [
+			{ id: '1:annotation:4:fill', kind: 'annotation', fraction: 1 }
+		];
+
+		const profile = inferAnswerMarkerProfile(
+			questions,
+			questions.map((_, index) => index)
+		);
+
+		expect(profile?.signals).toEqual([
+			{
+				kind: 'highlight',
+				minimumSpanEm: 0.5,
+				sourceKinds: ['annotation', 'path']
+			}
+		]);
+		expect(
+			questions.map(question => profile && applyAnswerMarkerProfile(question, profile).marked)
+		).toEqual([
+			[true, false, false],
+			[false, true, false],
+			[false, false, true],
+			[true, false, false]
+		]);
+	});
+
+	test('rejects the combined visible trace of subthreshold foreign highlight sources', () => {
+		const questions = segment(
+			bracketQuestion('Question', [['=correct'], ['=ambiguous'], ['=wrong']])
+		);
+		for (const option of questions[0].options) option.lines[0].highlightSources = [];
+		questions[0].options[0].lines[0].highlightSources = [
+			{ id: '1:path:1:fill', kind: 'path', fraction: 1 }
+		];
+		questions[0].options[1].lines[0].highlightSources = [
+			{ id: '1:annotation:2:fill', kind: 'annotation', fraction: 0.005 },
+			{ id: '1:annotation:3:fill', kind: 'annotation', fraction: 0.005 }
+		];
+		const profile: AnswerMarkerProfile = {
+			signals: [{ kind: 'highlight', minimumSpanEm: 0.5, sourceKinds: ['path'] }],
+			selectorGroups: [[0]],
+			symbolPrefix: null
+		};
+
+		expect(applyAnswerMarkerProfile(questions[0], profile)).toMatchObject({
+			ambiguous: true,
+			marked: [false, false, false]
+		});
+	});
+
+	test('rejects the combined visible trace of subthreshold confirmed highlight sources', () => {
+		const questions = segment(
+			bracketQuestion('Question', [['=correct'], ['=ambiguous'], ['=wrong']])
+		);
+		for (const option of questions[0].options) option.lines[0].highlightSources = [];
+		questions[0].options[0].lines[0].highlightSources = [
+			{ id: '1:path:1:fill', kind: 'path', fraction: 1 }
+		];
+		questions[0].options[1].lines[0].highlightSources = [
+			{ id: '1:path:2:fill', kind: 'path', fraction: 0.005 },
+			{ id: '1:path:3:fill', kind: 'path', fraction: 0.005 }
+		];
+		const profile: AnswerMarkerProfile = {
+			signals: [{ kind: 'highlight', minimumSpanEm: 0.5, sourceKinds: ['path'] }],
+			selectorGroups: [[0]],
+			symbolPrefix: null
+		};
+
+		expect(applyAnswerMarkerProfile(questions[0], profile)).toMatchObject({
+			ambiguous: true,
+			marked: [false, false, false]
+		});
+	});
+
 	test('recognizes a fully highlighted answer narrower than a regular glyph', () => {
 		const questions = segment([
 			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
@@ -739,6 +1217,35 @@ describe('document-level option syntax', () => {
 		]);
 		questions[2].options[0].lines[0].highlightSources = [{ id: 'shared-marker', fraction: 1 }];
 		questions[2].options[1].lines[0].highlightSources = [{ id: 'shared-marker', fraction: 0.025 }];
+		const marker = recognizeMarkerForTest(questions);
+		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
+
+		expect(marker.ambiguous).toEqual([2]);
+	});
+
+	test('aggregates weak unexplained traces after excluding an explained spill', () => {
+		const questions = segment([
+			...bracketQuestion('Question 1', [['=correct', 1], ['=wrong 1'], ['=wrong 2']]),
+			...bracketQuestion('Question 2', [['=wrong 1'], ['=correct', 1], ['=wrong 2']]),
+			...bracketQuestion('Question 3', [['=first'], ['=second'], ['=wrong']])
+		]);
+		for (const question of questions) {
+			for (const option of question.options) option.lines[0].highlightSources = [];
+		}
+		questions[0].options[0].lines[0].highlightSources = [
+			{ id: '1:path:confirmed-1', kind: 'path', fraction: 1 }
+		];
+		questions[1].options[1].lines[0].highlightSources = [
+			{ id: '1:path:confirmed-2', kind: 'path', fraction: 1 }
+		];
+		questions[2].options[0].lines[0].highlightSources = [
+			{ id: '1:path:owner', kind: 'path', fraction: 1 }
+		];
+		questions[2].options[1].lines[0].highlightSources = [
+			{ id: '1:path:owner', kind: 'path', fraction: 0.0078 },
+			{ id: '1:path:weak-a', kind: 'path', fraction: 0.0042 },
+			{ id: '1:path:weak-b', kind: 'path', fraction: 0.0042 }
+		];
 		const marker = recognizeMarkerForTest(questions);
 		if (!marker.confirmed) throw new Error('Answer marker was not confirmed');
 
@@ -1172,6 +1679,33 @@ describe('document-level option syntax', () => {
 		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
 	});
 
+	test('marks a premature close with same-line continuation as malformed', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=correct'),
+			line('~wrong 1} literal continuation'),
+			line('~wrong 2'),
+			line('}'),
+			...bracketQuestion('Question 2', [['~wrong'], ['=correct']])
+		]);
+
+		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
+	test('marks a standalone premature close before more options as malformed', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=correct'),
+			line('~wrong 1'),
+			line('}'),
+			line('~wrong 2'),
+			line('}'),
+			...bracketQuestion('Question 2', [['~wrong'], ['=correct']])
+		]);
+
+		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
 	test('marks a nested opening brace inside an option block as malformed', () => {
 		const questions = segment([
 			line('Question 1 {'),
@@ -1196,6 +1730,65 @@ describe('document-level option syntax', () => {
 
 		expect(questions[0].rejectionReason).toBeUndefined();
 		expect(questions[0].options[0].texts).toEqual(['left: { detail']);
+	});
+
+	test('does not treat a balanced brace inside option text as the block close', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=formula {x}'),
+			line('=other'),
+			line('}'),
+			...bracketQuestion('Question 2', [['=left'], ['=other']])
+		]);
+
+		expect(questions[0].rejectionReason).toBeUndefined();
+		expect(questions[0].options[0].texts).toEqual(['formula {x}']);
+		expect(questions[1].texts).toEqual(['Question 2']);
+	});
+
+	test('does not treat a balanced brace in an option continuation as the block close', () => {
+		const questions = segment([
+			line('Question 1 {'),
+			line('=first part'),
+			{ ...line('continuation {x}'), gapBefore: 30 },
+			line('~other'),
+			line('}'),
+			...bracketQuestion('Question 2', [['=left'], ['~right']])
+		]);
+
+		expect(questions[0].rejectionReason).toBeUndefined();
+		expect(questions[0].options[0].texts).toEqual(['first part', 'continuation {x}']);
+		expect(questions[1].texts).toEqual(['Question 2']);
+	});
+
+	test('rejects a balanced nested option envelope inside an option continuation', () => {
+		const questions = segment([
+			...bracketQuestion('Control question', [['=left'], ['~right']]),
+			line('Question 1 {'),
+			line('=first part'),
+			{ ...line('nested question {=nested answer}'), gapBefore: 30 },
+			line('~other'),
+			line('}')
+		]);
+
+		expect(questions[1].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+	});
+
+	test('removes self-supported malformed blocks from the option profile monotonically', () => {
+		const questions = segment([
+			...bracketQuestion('Control 1', [['=left'], ['=right']]),
+			...bracketQuestion('Control 2', [['=left'], ['=right']]),
+			line('Malformed {'),
+			line('~first'),
+			line('continuation {~nested}'),
+			line('~second'),
+			line('}')
+		]);
+
+		expect(questions).toHaveLength(3);
+		expect(questions[0].rejectionReason).toBeUndefined();
+		expect(questions[1].rejectionReason).toBeUndefined();
+		expect(questions[2].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
 	});
 
 	test('infers bracket option syntax when most blocks contain one answer', () => {
@@ -1428,6 +2021,22 @@ describe('document-level option syntax', () => {
 
 		expect(questions[0].texts).toEqual(['Question line']);
 		expect(questions[0].rejectionReason).toBeUndefined();
+	});
+
+	test('never accepts only the compatible tail after a cross-page style change', () => {
+		const questions = segment([
+			...bracketQuestion('Control question', [['=correct'], ['~wrong']]),
+			{ ...line('First stem half'), page: 1, y: 40, size: 18 },
+			{ ...line('second stem half {'), page: 2, y: 700, gapBefore: null, size: 12 },
+			{ ...line('=correct'), page: 2 },
+			{ ...line('~wrong'), page: 2 },
+			{ ...line('}'), page: 2 }
+		]);
+
+		expect(questions[1]).toMatchObject({
+			texts: ['First stem half', 'second stem half'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
 	});
 
 	test('does not attach a clearly separate visual block to a question', () => {
@@ -1665,6 +2274,21 @@ describe('document-level option syntax', () => {
 		expect(questions[1].texts).toEqual(['Next question']);
 	});
 
+	test('does not let a second unmatched close detach an inline question', () => {
+		const questions = segment([
+			...bracketQuestion('Control question', [['=answer'], ['=other']]),
+			line('} } Malformed question {'),
+			line('=answer'),
+			line('=other'),
+			line('}')
+		]);
+
+		expect(questions[1]).toMatchObject({
+			texts: ['Malformed question'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+	});
+
 	test('rejects a bracket question that is not closed at the end of the document', () => {
 		const questions = segment([
 			...bracketQuestion('Question 1', [['=correct 1'], ['~wrong 1']]),
@@ -1676,6 +2300,142 @@ describe('document-level option syntax', () => {
 		expect(questions).toHaveLength(2);
 		expect(questions[1]).toMatchObject({
 			texts: ['Question 2'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+	});
+
+	test('does not let an unclosed block swallow the next explicit block', () => {
+		const questions = segment([
+			line('Broken question {'),
+			line('=answer'),
+			line('~other'),
+			{ ...line('Good question {'), gapBefore: 30 },
+			line('=answer'),
+			line('~other'),
+			line('}')
+		]);
+
+		expect(questions).toHaveLength(2);
+		expect(questions[0]).toMatchObject({
+			texts: ['Broken question'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+		expect(questions[1]).toMatchObject({
+			texts: ['Good question'],
+			rejectionReason: undefined
+		});
+	});
+
+	test('keeps a stray opening delimiter in the malformed block, not the next question', () => {
+		const questions = segment([
+			line('Broken question {'),
+			line('=answer'),
+			line('~other'),
+			line('{'),
+			{ ...line('Good question {'), gapBefore: 30 },
+			line('=answer'),
+			line('~other'),
+			line('}')
+		]);
+
+		expect(questions).toHaveLength(2);
+		expect(questions[0].rejectionReason).toBe(QuestionRejectionReason.MALFORMED_STRUCTURE);
+		expect(questions[1]).toMatchObject({
+			texts: ['Good question'],
+			rejectionReason: undefined
+		});
+	});
+
+	test('recovers the complete separated multiline lead after an unclosed block', () => {
+		const questions = segment([
+			line('Broken question {'),
+			line('=answer'),
+			line('~other'),
+			{ ...line('First good stem line'), gapBefore: 30 },
+			line('second good stem line {'),
+			line('=answer'),
+			line('~other'),
+			line('}')
+		]);
+
+		expect(questions[1]).toMatchObject({
+			texts: ['First good stem line', 'second good stem line'],
+			rejectionReason: undefined
+		});
+	});
+
+	test('recovers a separated question with a standalone opener after an unclosed block', () => {
+		const questions = segment([
+			...bracketQuestion('Control question', [['=answer'], ['~other']]),
+			line('Broken question {'),
+			line('=answer'),
+			line('~other'),
+			{ ...line('Good question'), gapBefore: 30 },
+			line('{'),
+			line('=answer'),
+			line('~other'),
+			line('}')
+		]);
+
+		expect(questions[1]).toMatchObject({
+			texts: ['Broken question'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+		expect(questions[2]).toMatchObject({
+			texts: ['Good question'],
+			rejectionReason: undefined
+		});
+	});
+
+	test('rejects a nested question-like block when the first opener had no options', () => {
+		const questions = segment([
+			...bracketQuestion('Control question', [['=answer'], ['~other']]),
+			line('Malformed question stem {'),
+			line('continued text'),
+			{ ...line('second question-looking stem {'), gapBefore: 30 },
+			line('=answer'),
+			line('~other'),
+			line('}')
+		]);
+
+		expect(questions[2]).toMatchObject({
+			texts: ['continued text', 'second question-looking stem'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+	});
+
+	test('rejects a recovered neighbor after an incomplete one-option block', () => {
+		const questions = segment([
+			...bracketQuestion('Control question', [['=answer'], ['~other']]),
+			line('Malformed question stem {'),
+			line('=only option'),
+			{ ...line('Next question-looking stem {'), gapBefore: 30 },
+			line('=answer'),
+			line('~other'),
+			line('}')
+		]);
+
+		expect(questions[2]).toMatchObject({
+			texts: ['Next question-looking stem'],
+			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
+		});
+	});
+
+	test('rejects a recovered lead that cannot be separated from the old option', () => {
+		const questions = segment([
+			...bracketQuestion('Control question', [['=answer'], ['~other']]),
+			line('Broken question {'),
+			line('=answer'),
+			line('~other'),
+			line('Ambiguous stem or continuation'),
+			line('second stem line {'),
+			line('=answer'),
+			line('~other'),
+			line('}')
+		]);
+
+		expect(questions[2]).toMatchObject({
+			texts: ['Ambiguous stem or continuation', 'second stem line'],
 			rejectionReason: QuestionRejectionReason.MALFORMED_STRUCTURE
 		});
 	});

@@ -158,7 +158,8 @@ export function profileDependentRejectionReason(
 		return QuestionRejectionReason.MALFORMED_STRUCTURE;
 	}
 	const hasEmptyText = !content.text || content.options.some(option => !option.text);
-	if (!hasEmptyText && content.options.length >= 2 && containsDuplicateOptions(content.options)) {
+	if (hasEmptyText) return QuestionRejectionReason.EMPTY_TEXT;
+	if (content.options.length >= 2 && containsDuplicateOptions(content.options)) {
 		return QuestionRejectionReason.DUPLICATE_OPTIONS;
 	}
 
