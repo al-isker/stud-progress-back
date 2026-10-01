@@ -1,6 +1,0 @@
-[mcp_servers.codebase-memory-mcp]
-command = "npx"
-args = [
-    "-y",
-    "codebase-memory-mcp@0.9.0",
-]
