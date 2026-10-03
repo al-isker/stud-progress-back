@@ -2,7 +2,7 @@
 
 ## Фреймворк
 
-- NestJS 10 (`@nestjs/*`) на Express.
+- NestJS 11 (`@nestjs/*`) на Express.
 - Node.js, TypeScript 5.
 
 ## БД

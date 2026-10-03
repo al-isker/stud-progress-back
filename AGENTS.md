@@ -1,25 +1,29 @@
 # AGENTS.md
 
-Инструкции для AI-агентов, работающих с проектом **stud-progress-back**.
+## Выбор скиллов
+
+Всегда отдавай приоритет проектным скиллам из `./.agents/skills/` перед глобальными, системными и плагинными скиллами.
 
 ## Документация
 
-Материалы вынесены в `./.agents/docs/`.
+Основная документация находится в `./docs/` и разделена на `agents` и `common`. Остальная документация расположена в иерархии `./src/` рядом с соответствующей реализацией.
 
-### Обязательная
+### Читать при старте
 
 В начале каждой новой рабочей сессии обязательно прочитать всю документацию из списка ниже.
 
-- **[Настройка окружения](./.agents/docs/environment-setup/README.md)** — настройка окружения.
+- **[Стек](./docs/common/stack/README.md)**
 
-- **[Стек](./.agents/docs/stack/README.md)** — используемый стек и ключевые библиотеки.
+- **[Окружение](./docs/agents/environment/README.md)**
 
-- **[Соглашения](./.agents/docs/conventions/README.md)** — соглашения, форматирование и самопроверка.
+- **[Структура Markdown](./docs/agents/markdown-layout/README.md)**
 
-### Справочная
+- **[Самопроверка](./docs/agents/self-check/README.md)**
+
+### Читать по задаче
 
 Если в процессе работы задача затронула назначение конкретной документации из списка ниже — обязательно прочитать соответствующую документацию.
 
-- **[Push-уведомления](./.agents/docs/push-notification/README.md)** — работа с push-уведомлениями.
+- **[Push-уведомления](./docs/common/push-notification/README.md)**
 
-- **[Корпус фикстур `test-document-parser`](./src/lib/test-document-parser/fixtures/README.md)** — работа с `test-document-parser`.
+- **[Корпус фикстур `test-document-parser`](./src/lib/test-document-parser/fixtures/README.md)**
